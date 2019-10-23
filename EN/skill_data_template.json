@@ -2634,6 +2634,17 @@
       ]
     ]
   },
+  "23322": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 23322,
+    "desc": "Activates All Out Assault Ⅱ: Type IXB immediately after entering the battle.",
+    "name": "All Out Assault Ⅱ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
   "1081": {
     "max_level": 10,
     "type": 3,
@@ -6557,7 +6568,7 @@
     "type": 2,
     "system_transform": [],
     "id": 4101,
-    "desc": "10s after the battle begins and 20.0% chance every 20s after that: deploys a smokescreen that increases Evasion Rate by $1 (this effect does not stack with other smokescreen skills) and decreases enemy aircraft DMG by $2 for all your ships in it. Smokescr",
+    "desc": "10s after the battle begins and 20.0% chance every 20s after that: deploys a smokescreen that increases Evasion Rate by $1 and decreases DMG taken from enemy aircraft by $2 for all your ships inside it. Smokescreen lasts for 10s, and does not stack with other smokescreens. ",
     "name": "Smokescreen: Light Cruisers",
     "desc_get": "",
     "desc_add": [
@@ -15891,7 +15902,7 @@
     "type": 2,
     "system_transform": [],
     "id": 11010,
-    "desc": "Activates when your South Dakota's HP falls below 30.0%: increases this ship's DMG by $1, absorbs 30.0% of the DMG South Dakota takes (ignores South Dakota's \"The Strongest Shield\" skill) and makes South Dakota invulnerable for 5s. Can only activate onc",
+    "desc": "Activates when your South Dakota's HP falls below 30.0%: increases this ship's DMG by $1, absorbs 30.0% of the DMG South Dakota takes (ignores South Dakota's \"The Strongest Shield\" skill) and makes South Dakota invulnerable for 5s. Can only activate once per battle",
     "name": "Night of the Iron Bottom Sound",
     "desc_get": "",
     "desc_add": [
@@ -17444,6 +17455,7 @@
     12650,
     12660,
     12670,
+    12690,
     18010,
     18040,
     18050,
@@ -17608,6 +17620,8 @@
     23222,
     23311,
     23312,
+    23321,
+    23322,
     23411,
     23412,
     23511,
@@ -17789,6 +17803,75 @@
       ]
     ]
   },
+  "29311": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 29311,
+    "desc": "进入战斗时，触发专属弹幕-U47I",
+    "name": "专属弹幕-U47I",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "104060": {
+    "max_level": 10,
+    "type": 1,
+    "system_transform": [],
+    "id": 104060,
+    "desc": "When this ship launches an Airstrike while sortied with Kizuna AI: $1 chance for the Airstrike to deal double DMG.",
+    "name": "Melty World",
+    "desc_get": "",
+    "desc_add": [
+      [
+        [
+          "15.0%",
+          "+1.1%"
+        ],
+        [
+          "16.1%",
+          "+1.1%"
+        ],
+        [
+          "17.2%",
+          "+1.1%"
+        ],
+        [
+          "18.3%",
+          "+1.1%"
+        ],
+        [
+          "19.4%",
+          "+1.1%"
+        ],
+        [
+          "20.5%",
+          "+1.1%"
+        ],
+        [
+          "21.6%",
+          "+1.1%"
+        ],
+        [
+          "22.7%",
+          "+1.1%"
+        ],
+        [
+          "23.8%",
+          "+1.2%"
+        ],
+        [
+          "25.0%"
+        ]
+      ]
+    ],
+    "desc_get_add": [
+      [
+        "15.0%",
+        "25.0%"
+      ]
+    ]
+  },
   "11410": {
     "max_level": 10,
     "type": 1,
@@ -17891,77 +17974,6 @@
       [
         "20.0%",
         "40.0%"
-      ]
-    ]
-  },
-  "29322": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": {
-      "11": 29324
-    },
-    "id": 29322,
-    "desc": "Activates All Out Assault Ⅱ: Surcouf when this boat resurfaces.",
-    "name": "All Out Assault Ⅱ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
-  "104060": {
-    "max_level": 10,
-    "type": 1,
-    "system_transform": [],
-    "id": 104060,
-    "desc": "When this ship launches an Airstrike while sortied with Kizuna AI: $1 chance for the Airstrike to deal double DMG.",
-    "name": "Melty World",
-    "desc_get": "",
-    "desc_add": [
-      [
-        [
-          "15.0%",
-          "+1.1%"
-        ],
-        [
-          "16.1%",
-          "+1.1%"
-        ],
-        [
-          "17.2%",
-          "+1.1%"
-        ],
-        [
-          "18.3%",
-          "+1.1%"
-        ],
-        [
-          "19.4%",
-          "+1.1%"
-        ],
-        [
-          "20.5%",
-          "+1.1%"
-        ],
-        [
-          "21.6%",
-          "+1.1%"
-        ],
-        [
-          "22.7%",
-          "+1.1%"
-        ],
-        [
-          "23.8%",
-          "+1.2%"
-        ],
-        [
-          "25.0%"
-        ]
-      ]
-    ],
-    "desc_get_add": [
-      [
-        "15.0%",
-        "25.0%"
       ]
     ]
   },
@@ -18069,154 +18081,6 @@
       [
         "5.0%",
         "15.0%"
-      ]
-    ]
-  },
-  "11450": {
-    "max_level": 10,
-    "type": 1,
-    "system_transform": [],
-    "id": 11450,
-    "desc": "Every 20s: $1 chance to increase this ship's FP by $2 and RLD by $3 for 10s. Once the effect ends: decreases this ship's RLD by 100% for 3s.",
-    "name": "Firepower Overload",
-    "desc_get": "",
-    "desc_add": [
-      [
-        [
-          "40.0%",
-          "+3.3%"
-        ],
-        [
-          "43.3%",
-          "+3.3%"
-        ],
-        [
-          "46.6%",
-          "+3.3%"
-        ],
-        [
-          "49.9%",
-          "+3.3%"
-        ],
-        [
-          "53.2%",
-          "+3.3%"
-        ],
-        [
-          "56.5%",
-          "+3.3%"
-        ],
-        [
-          "59.8%",
-          "+3.3%"
-        ],
-        [
-          "63.1%",
-          "+3.3%"
-        ],
-        [
-          "66.4%",
-          "+3.6%"
-        ],
-        [
-          "70.0%"
-        ]
-      ],
-      [
-        [
-          "30.0%",
-          "+2.2%"
-        ],
-        [
-          "32.2%",
-          "+2.2%"
-        ],
-        [
-          "34.4%",
-          "+2.2%"
-        ],
-        [
-          "36.6%",
-          "+2.2%"
-        ],
-        [
-          "38.8%",
-          "+2.2%"
-        ],
-        [
-          "41.0%",
-          "+2.2%"
-        ],
-        [
-          "43.2%",
-          "+2.2%"
-        ],
-        [
-          "45.4%",
-          "+2.2%"
-        ],
-        [
-          "47.6%",
-          "+2.4%"
-        ],
-        [
-          "50.0%"
-        ]
-      ],
-      [
-        [
-          "100.0%",
-          "+11.0%"
-        ],
-        [
-          "111.0%",
-          "+11.0%"
-        ],
-        [
-          "122.0%",
-          "+11.0%"
-        ],
-        [
-          "133.0%",
-          "+11.0%"
-        ],
-        [
-          "144.0%",
-          "+11.0%"
-        ],
-        [
-          "155.0%",
-          "+11.0%"
-        ],
-        [
-          "166.0%",
-          "+11.0%"
-        ],
-        [
-          "177.0%",
-          "+11.0%"
-        ],
-        [
-          "188.0%",
-          "+12.0%"
-        ],
-        [
-          "200.0%"
-        ]
-      ]
-    ],
-    "desc_get_add": [
-      [
-        "40.0%",
-        "70.0%"
-      ],
-      [
-        "30.0%",
-        "50.0%"
-      ],
-      [
-        "100.0%",
-        "200.0%"
       ]
     ]
   },
@@ -18426,85 +18290,175 @@
       ]
     ]
   },
-  "29042": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 29042,
-    "desc": "Activates All Out Assault Ⅱ: Johnston once every 10 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅱ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
-  "29232": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 29232,
-    "desc": "Activates All Out Assault Ⅱ: Neptune once every 8 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅱ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
-  "11490": {
+  "11450": {
     "max_level": 10,
     "type": 1,
     "system_transform": [],
-    "id": 11490,
-    "desc": "When this ship fires a Salvo: $1 chance to fire a special barrage. Barrage DMG and shell pattern is based on the skill's level.",
-    "name": "Frontal Fire",
+    "id": 11450,
+    "desc": "Every 20s: $1 chance to increase this ship's FP by $2 and RLD by $3 for 10s. Once the effect ends: decreases this ship's RLD by 100% for 3s.",
+    "name": "Firepower Overload",
     "desc_get": "",
     "desc_add": [
       [
         [
-          "20.0%",
+          "40.0%",
           "+3.3%"
         ],
         [
-          "23.3%",
+          "43.3%",
           "+3.3%"
         ],
         [
-          "26.6%",
+          "46.6%",
           "+3.3%"
         ],
         [
-          "29.9%",
+          "49.9%",
           "+3.3%"
         ],
         [
-          "33.2%",
+          "53.2%",
           "+3.3%"
         ],
         [
-          "36.5%",
+          "56.5%",
           "+3.3%"
         ],
         [
-          "39.8%",
+          "59.8%",
           "+3.3%"
         ],
         [
-          "43.1%",
+          "63.1%",
           "+3.3%"
         ],
         [
-          "46.4%",
+          "66.4%",
           "+3.6%"
         ],
         [
-          "50%"
+          "70.0%"
+        ]
+      ],
+      [
+        [
+          "30.0%",
+          "+2.2%"
+        ],
+        [
+          "32.2%",
+          "+2.2%"
+        ],
+        [
+          "34.4%",
+          "+2.2%"
+        ],
+        [
+          "36.6%",
+          "+2.2%"
+        ],
+        [
+          "38.8%",
+          "+2.2%"
+        ],
+        [
+          "41.0%",
+          "+2.2%"
+        ],
+        [
+          "43.2%",
+          "+2.2%"
+        ],
+        [
+          "45.4%",
+          "+2.2%"
+        ],
+        [
+          "47.6%",
+          "+2.4%"
+        ],
+        [
+          "50.0%"
+        ]
+      ],
+      [
+        [
+          "100.0%",
+          "+11.0%"
+        ],
+        [
+          "111.0%",
+          "+11.0%"
+        ],
+        [
+          "122.0%",
+          "+11.0%"
+        ],
+        [
+          "133.0%",
+          "+11.0%"
+        ],
+        [
+          "144.0%",
+          "+11.0%"
+        ],
+        [
+          "155.0%",
+          "+11.0%"
+        ],
+        [
+          "166.0%",
+          "+11.0%"
+        ],
+        [
+          "177.0%",
+          "+11.0%"
+        ],
+        [
+          "188.0%",
+          "+12.0%"
+        ],
+        [
+          "200.0%"
         ]
       ]
     ],
     "desc_get_add": [
       [
-        "20.0%",
+        "40.0%",
+        "70.0%"
+      ],
+      [
+        "30.0%",
         "50.0%"
+      ],
+      [
+        "100.0%",
+        "200.0%"
       ]
     ]
+  },
+  "29022": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 29022,
+    "desc": "Activates All Out Assault Ⅱ: Eldridge once every 10 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅱ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "29222": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 29222,
+    "desc": "Activates All Out Assault Ⅱ: Ibuki once every 6 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅱ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
   },
   "101100": {
     "max_level": 10,
@@ -18563,28 +18517,6 @@
         "1.5%"
       ]
     ]
-  },
-  "28111": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 28111,
-    "desc": "Activates All Out Assault Ⅰ: Émile Bertin once every 12 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅰ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
-  "23012": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 23012,
-    "desc": "Activates All Out Assault Ⅱ: 1934 Type once every 10 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅱ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
   },
   "101090": {
     "max_level": 10,
@@ -18680,61 +18612,61 @@
     ],
     "desc_get_add": []
   },
-  "11530": {
+  "11490": {
     "max_level": 10,
     "type": 1,
     "system_transform": [],
-    "id": 11530,
-    "desc": "Increases the DMG of the first Volley of every Salvo this ship fires by $1.This ship's manual aiming DMG bonus is increased to $1.",
-    "name": "Pirate's Soul",
+    "id": 11490,
+    "desc": "When this ship fires a Salvo: $1 chance to fire a special barrage. Barrage DMG and shell pattern is based on the skill's level.",
+    "name": "Frontal Fire",
     "desc_get": "",
     "desc_add": [
       [
         [
-          "40.0%",
-          "+2.2%"
+          "20.0%",
+          "+3.3%"
         ],
         [
-          "42.2%",
-          "+2.2%"
+          "23.3%",
+          "+3.3%"
         ],
         [
-          "44.4%",
-          "+2.2%"
+          "26.6%",
+          "+3.3%"
         ],
         [
-          "46.6%",
-          "+2.2%"
+          "29.9%",
+          "+3.3%"
         ],
         [
-          "48.8%",
-          "+2.2%"
+          "33.2%",
+          "+3.3%"
         ],
         [
-          "51.0%",
-          "+2.2%"
+          "36.5%",
+          "+3.3%"
         ],
         [
-          "53.2%",
-          "+2.2%"
+          "39.8%",
+          "+3.3%"
         ],
         [
-          "55.4%",
-          "+2.2%"
+          "43.1%",
+          "+3.3%"
         ],
         [
-          "57.6%",
-          "+2.4%"
+          "46.4%",
+          "+3.6%"
         ],
         [
-          "60.0%"
+          "50%"
         ]
       ]
     ],
     "desc_get_add": [
       [
-        "40.0%",
-        "60.0%"
+        "20.0%",
+        "50.0%"
       ]
     ]
   },
@@ -18796,107 +18728,96 @@
       ]
     ]
   },
-  "20221": {
+  "28111": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 20221,
-    "desc": "Activates All Out Assault Ⅰ: Northampton Class once every 12 times the Main Guns are fired.",
+    "id": 28111,
+    "desc": "Activates All Out Assault Ⅰ: Émile Bertin once every 12 times the Main Guns are fired.",
     "name": "All Out Assault Ⅰ",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
   },
-  "19000": {
+  "23012": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 19000,
-    "desc": "Increases this ship's DMG to Sirens by 5.0%.",
-    "name": "Siren Killer Ⅰ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
-  "21062": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 21062,
-    "desc": "Activates All Out Assault Ⅱ: H Class once every 10 times the Main Guns are fired.",
+    "id": 23012,
+    "desc": "Activates All Out Assault Ⅱ: 1934 Type once every 10 times the Main Guns are fired.",
     "name": "All Out Assault Ⅱ",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
   },
-  "11570": {
-    "max_level": 10,
-    "type": 3,
+  "23311": {
+    "max_level": 1,
+    "type": 1,
     "system_transform": [],
-    "id": 11570,
-    "desc": "When this boat is called into battle: increases the Accuracy of your Vanguard by $1 for 20s.",
-    "name": "Recon Support",
+    "id": 23311,
+    "desc": "Activates All Out Assault Ⅰ: VIIC-Type Submarine immediately after entering the battle.",
+    "name": "All Out Assault Ⅰ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "11530": {
+    "max_level": 10,
+    "type": 1,
+    "system_transform": [],
+    "id": 11530,
+    "desc": "Increases the DMG of the first Volley of every Salvo this ship fires by $1.This ship's manual aiming DMG bonus is increased to $1.",
+    "name": "Pirate's Soul",
     "desc_get": "",
     "desc_add": [
       [
         [
-          "5.0%",
-          "+1.2%"
+          "40.0%",
+          "+2.2%"
         ],
         [
-          "6.2%",
-          "+1.2%"
+          "42.2%",
+          "+2.2%"
         ],
         [
-          "7.4%",
-          "+1.6%"
+          "44.4%",
+          "+2.2%"
         ],
         [
-          "9.0%",
-          "+1.5%"
+          "46.6%",
+          "+2.2%"
         ],
         [
-          "10.5%",
-          "+1.5%"
+          "48.8%",
+          "+2.2%"
         ],
         [
-          "12.0%",
-          "+2.0%"
+          "51.0%",
+          "+2.2%"
         ],
         [
-          "14.0%",
-          "+1.8%"
+          "53.2%",
+          "+2.2%"
         ],
         [
-          "15.8%",
-          "+1.8%"
+          "55.4%",
+          "+2.2%"
         ],
         [
-          "17.6%",
+          "57.6%",
           "+2.4%"
         ],
         [
-          "20.0%"
+          "60.0%"
         ]
       ]
     ],
     "desc_get_add": [
       [
-        "5.0%",
-        "20.0%"
+        "40.0%",
+        "60.0%"
       ]
     ]
-  },
-  "20071": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 20071,
-    "desc": "Activates All Out Assault Ⅰ: Gearing Class once every 15 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅰ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
   },
   "101020": {
     "max_level": 10,
@@ -19000,6 +18921,211 @@
         "25.0%"
       ]
     ]
+  },
+  "101010": {
+    "max_level": 10,
+    "type": 3,
+    "system_transform": [],
+    "id": 101010,
+    "desc": "If deployed with any other Neptunia ship, increases own damage by $1 and decreases own damage taken by 6.0%. For every other Neptunia ship deployed, further increases own damage by $2,and decreases own damage taken by 1.0%",
+    "name": "Protagonist Aura",
+    "desc_get": "",
+    "desc_add": [
+      [
+        [
+          "3.0%",
+          "+0.6%"
+        ],
+        [
+          "3.6%",
+          "+0.6%"
+        ],
+        [
+          "4.2%",
+          "+0.8%"
+        ],
+        [
+          "5.0%",
+          "+0.6%"
+        ],
+        [
+          "5.6%",
+          "+0.6%"
+        ],
+        [
+          "6.2%",
+          "+0.8%"
+        ],
+        [
+          "7.0%",
+          "+0.9%"
+        ],
+        [
+          "7.9%",
+          "+0.9%"
+        ],
+        [
+          "8.8%",
+          "+1.2%"
+        ],
+        [
+          "10.0%"
+        ]
+      ],
+      [
+        [
+          "1.0%",
+          "+0.09%"
+        ],
+        [
+          "1.09%",
+          "+0.09%"
+        ],
+        [
+          "1.18%",
+          "+0.12%"
+        ],
+        [
+          "1.3%",
+          "+0.09%"
+        ],
+        [
+          "1.39%",
+          "+0.09%"
+        ],
+        [
+          "1.48%",
+          "+0.12%"
+        ],
+        [
+          "1.6%",
+          "+0.12%"
+        ],
+        [
+          "1.72%",
+          "+0.12%"
+        ],
+        [
+          "1.84%",
+          "+0.16%"
+        ],
+        [
+          "2.0%"
+        ]
+      ]
+    ],
+    "desc_get_add": [
+      [
+        "3.0%",
+        "10.0%"
+      ],
+      [
+        "1.0%",
+        "2.0%"
+      ]
+    ]
+  },
+  "19000": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 19000,
+    "desc": "Increases this ship's DMG to Sirens by 5.0%.",
+    "name": "Siren Killer Ⅰ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "21062": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 21062,
+    "desc": "Activates All Out Assault Ⅱ: H Class once every 10 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅱ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "11570": {
+    "max_level": 10,
+    "type": 3,
+    "system_transform": [],
+    "id": 11570,
+    "desc": "When this boat is called into battle: increases the Accuracy of your Vanguard by $1 for 20s.",
+    "name": "Recon Support",
+    "desc_get": "",
+    "desc_add": [
+      [
+        [
+          "5.0%",
+          "+1.2%"
+        ],
+        [
+          "6.2%",
+          "+1.2%"
+        ],
+        [
+          "7.4%",
+          "+1.6%"
+        ],
+        [
+          "9.0%",
+          "+1.5%"
+        ],
+        [
+          "10.5%",
+          "+1.5%"
+        ],
+        [
+          "12.0%",
+          "+2.0%"
+        ],
+        [
+          "14.0%",
+          "+1.8%"
+        ],
+        [
+          "15.8%",
+          "+1.8%"
+        ],
+        [
+          "17.6%",
+          "+2.4%"
+        ],
+        [
+          "20.0%"
+        ]
+      ]
+    ],
+    "desc_get_add": [
+      [
+        "5.0%",
+        "20.0%"
+      ]
+    ]
+  },
+  "20071": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 20071,
+    "desc": "Activates All Out Assault Ⅰ: Gearing Class once every 15 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅰ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "29442": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 29442,
+    "desc": "Activates All Out Assault Ⅱ: Cavalla immediately after entering the battle.",
+    "name": "All Out Assault Ⅱ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
   },
   "19080": {
     "max_level": 10,
@@ -19164,120 +19290,6 @@
       ]
     ]
   },
-  "101010": {
-    "max_level": 10,
-    "type": 3,
-    "system_transform": [],
-    "id": 101010,
-    "desc": "If deployed with any other Neptunia ship, increases own damage by $1 and decreases own damage taken by 6.0%. For every other Neptunia ship deployed, further increases own damage by $2,and decreases own damage taken by 1.0%",
-    "name": "Protagonist Aura",
-    "desc_get": "",
-    "desc_add": [
-      [
-        [
-          "3.0%",
-          "+0.6%"
-        ],
-        [
-          "3.6%",
-          "+0.6%"
-        ],
-        [
-          "4.2%",
-          "+0.8%"
-        ],
-        [
-          "5.0%",
-          "+0.6%"
-        ],
-        [
-          "5.6%",
-          "+0.6%"
-        ],
-        [
-          "6.2%",
-          "+0.8%"
-        ],
-        [
-          "7.0%",
-          "+0.9%"
-        ],
-        [
-          "7.9%",
-          "+0.9%"
-        ],
-        [
-          "8.8%",
-          "+1.2%"
-        ],
-        [
-          "10.0%"
-        ]
-      ],
-      [
-        [
-          "1.0%",
-          "+0.09%"
-        ],
-        [
-          "1.09%",
-          "+0.09%"
-        ],
-        [
-          "1.18%",
-          "+0.12%"
-        ],
-        [
-          "1.3%",
-          "+0.09%"
-        ],
-        [
-          "1.39%",
-          "+0.09%"
-        ],
-        [
-          "1.48%",
-          "+0.12%"
-        ],
-        [
-          "1.6%",
-          "+0.12%"
-        ],
-        [
-          "1.72%",
-          "+0.12%"
-        ],
-        [
-          "1.84%",
-          "+0.16%"
-        ],
-        [
-          "2.0%"
-        ]
-      ]
-    ],
-    "desc_get_add": [
-      [
-        "3.0%",
-        "10.0%"
-      ],
-      [
-        "1.0%",
-        "2.0%"
-      ]
-    ]
-  },
-  "29442": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 29442,
-    "desc": "Activates All Out Assault Ⅱ: Cavalla immediately after entering the battle.",
-    "name": "All Out Assault Ⅱ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
   "21021": {
     "max_level": 1,
     "type": 1,
@@ -19285,6 +19297,28 @@
     "id": 21021,
     "desc": "Activates All Out Assault Ⅰ: B Class once every 15 times the Main Guns are fired.",
     "name": "All Out Assault Ⅰ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "29431": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 29431,
+    "desc": "Activates All Out Assault Ⅰ: U-101 immediately after entering the battle.",
+    "name": "All Out Assault Ⅰ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "29422": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 29422,
+    "desc": "Activates All Out Assault Ⅱ: I-168 immediately after entering the battle.",
+    "name": "All Out Assault Ⅱ",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
@@ -19414,28 +19448,6 @@
     "desc_add": [],
     "desc_get_add": []
   },
-  "29431": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 29431,
-    "desc": "Activates All Out Assault Ⅰ: U-101 immediately after entering the battle.",
-    "name": "All Out Assault Ⅰ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
-  "29422": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 29422,
-    "desc": "Activates All Out Assault Ⅱ: I-168 immediately after entering the battle.",
-    "name": "All Out Assault Ⅱ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
   "29362": {
     "max_level": 1,
     "type": 1,
@@ -19443,6 +19455,28 @@
     "id": 29362,
     "desc": "Activates All Out Assault Ⅱ: Sirius once every 10 times the Main Guns are fired.",
     "name": "All Out Assault Ⅱ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "21052": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 21052,
+    "desc": "Activates All Out Assault Ⅱ: G Class once every 10 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅱ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "29351": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 29351,
+    "desc": "Activates All Out Assault Ⅰ: San Diego once every 16 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅰ",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
@@ -19561,12 +19595,12 @@
     "desc_add": [],
     "desc_get_add": []
   },
-  "21052": {
+  "29342": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 21052,
-    "desc": "Activates All Out Assault Ⅱ: G Class once every 10 times the Main Guns are fired.",
+    "id": 29342,
+    "desc": "Activates All Out Assault Ⅱ: Albacore immediately after entering the battle.",
     "name": "All Out Assault Ⅱ",
     "desc_get": "",
     "desc_add": [],
@@ -19583,12 +19617,12 @@
     "desc_add": [],
     "desc_get_add": []
   },
-  "29351": {
+  "29331": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 29351,
-    "desc": "Activates All Out Assault Ⅰ: San Diego once every 16 times the Main Guns are fired.",
+    "id": 29331,
+    "desc": "Activates All Out Assault Ⅰ: Le Triomphant once every 15 times the Main Guns are fired.",
     "name": "All Out Assault Ⅰ",
     "desc_get": "",
     "desc_add": [],
@@ -19652,24 +19686,26 @@
       ]
     ]
   },
-  "29342": {
+  "29322": {
     "max_level": 1,
     "type": 1,
-    "system_transform": [],
-    "id": 29342,
-    "desc": "Activates All Out Assault Ⅱ: Albacore immediately after entering the battle.",
+    "system_transform": {
+      "11": 29324
+    },
+    "id": 29322,
+    "desc": "Activates All Out Assault Ⅱ: Surcouf when this boat resurfaces.",
     "name": "All Out Assault Ⅱ",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
   },
-  "29331": {
+  "29312": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 29331,
-    "desc": "Activates All Out Assault Ⅰ: Le Triomphant once every 15 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅰ",
+    "id": 29312,
+    "desc": "进入战斗时，触发专属弹幕-U47II",
+    "name": "专属弹幕-U47II",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
@@ -19777,13 +19813,13 @@
       ]
     ]
   },
-  "29312": {
+  "29302": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 29312,
-    "desc": "进入战斗时，触发专属弹幕-U47II",
-    "name": "专属弹幕-U47II",
+    "id": 29302,
+    "desc": "主炮每进行10次攻击，触发专属弹幕-33II",
+    "name": "专属弹幕-33II",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
@@ -19936,28 +19972,6 @@
       ]
     ]
   },
-  "29311": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 29311,
-    "desc": "进入战斗时，触发专属弹幕-U47I",
-    "name": "专属弹幕-U47I",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
-  "29302": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 29302,
-    "desc": "主炮每进行10次攻击，触发专属弹幕-33II",
-    "name": "专属弹幕-33II",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
   "29292": {
     "max_level": 1,
     "type": 1,
@@ -19976,6 +19990,28 @@
     "id": 29291,
     "desc": "主炮每进行15次攻击，触发专属弹幕-22I",
     "name": "专属弹幕-22I",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "29282": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 29282,
+    "desc": "Activates All Out Assault Ⅱ: Kawakaze once every 10 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅱ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "21072": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 21072,
+    "desc": "Activates All Out Assault Ⅱ: J Class once every 10 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅱ",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
@@ -20042,28 +20078,6 @@
       ]
     ]
   },
-  "29282": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 29282,
-    "desc": "Activates All Out Assault Ⅱ: Kawakaze once every 10 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅱ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
-  "21072": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 21072,
-    "desc": "Activates All Out Assault Ⅱ: J Class once every 10 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅱ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
   "29272": {
     "max_level": 1,
     "type": 1,
@@ -20082,6 +20096,28 @@
     "id": 29271,
     "desc": "Activates All Out Assault Ⅰ: U-81 immediately after entering the battle.",
     "name": "All Out Assault Ⅰ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "29262": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 29262,
+    "desc": "Activates All Out Assault Ⅱ: I-19 immediately after entering the battle.",
+    "name": "All Out Assault Ⅱ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "29252": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 29252,
+    "desc": "Activates All Out Assault Ⅱ: Saint Louis once every 8 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅱ",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
@@ -20189,28 +20225,6 @@
       ]
     ]
   },
-  "29262": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 29262,
-    "desc": "Activates All Out Assault Ⅱ: I-19 immediately after entering the battle.",
-    "name": "All Out Assault Ⅱ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
-  "29252": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 29252,
-    "desc": "Activates All Out Assault Ⅱ: Saint Louis once every 8 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅱ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
   "29251": {
     "max_level": 1,
     "type": 1,
@@ -20229,6 +20243,28 @@
     "id": 29242,
     "desc": "Activates All Out Assault Ⅱ: Roon once every 8 times the Main Guns are fired.",
     "name": "All Out Assault Ⅱ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "29232": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 29232,
+    "desc": "Activates All Out Assault Ⅱ: Neptune once every 8 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅱ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "29231": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 29231,
+    "desc": "Activates All Out Assault Ⅰ: Neptune once every 12 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅰ",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
@@ -20430,28 +20466,6 @@
     ],
     "desc_get_add": []
   },
-  "29231": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 29231,
-    "desc": "Activates All Out Assault Ⅰ: Neptune once every 12 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅰ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
-  "29222": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 29222,
-    "desc": "Activates All Out Assault Ⅱ: Ibuki once every 6 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅱ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
   "29212": {
     "max_level": 1,
     "type": 1,
@@ -20485,17 +20499,6 @@
     "desc_add": [],
     "desc_get_add": []
   },
-  "7000": {
-    "max_level": 0,
-    "type": 0,
-    "system_transform": [],
-    "id": 7000,
-    "desc": "0",
-    "name": "Rhine Drill",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
   "21092": {
     "max_level": 1,
     "type": 1,
@@ -20514,6 +20517,17 @@
     "id": 29192,
     "desc": "Activates All Out Assault Ⅱ: Avrora once every 8 times the Main Guns are fired.",
     "name": "All Out Assault Ⅱ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "7000": {
+    "max_level": 0,
+    "type": 0,
+    "system_transform": [],
+    "id": 7000,
+    "desc": "0",
+    "name": "Rhine Drill",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
@@ -20540,6 +20554,28 @@
     "desc_add": [],
     "desc_get_add": []
   },
+  "6110": {
+    "max_level": 0,
+    "type": 0,
+    "system_transform": [],
+    "id": 6110,
+    "desc": "Recovers 0.6% of max HP every 15s. Effect does not stack.",
+    "name": "Repair Tools Ⅱ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "29162": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 29162,
+    "desc": "Activates All Out Assault Ⅱ: Ooi once every 8 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅱ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
   "29071": {
     "max_level": 1,
     "type": 1,
@@ -20551,16 +20587,63 @@
     "desc_add": [],
     "desc_get_add": []
   },
-  "6110": {
-    "max_level": 0,
-    "type": 0,
+  "12360": {
+    "max_level": 10,
+    "type": 1,
     "system_transform": [],
-    "id": 6110,
-    "desc": "Recovers 0.6% of max HP every 15s. Effect does not stack.",
-    "name": "Repair Tools Ⅱ",
+    "id": 12360,
+    "desc": "When sortied with other DDs: increases this ship's AA, FP, and Accuracy by $1. Once per battle, if one of your DDs' HP falls below 50.0%: fires a special barrage. ",
+    "name": "Messenger of Love ",
     "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
+    "desc_add": [
+      [
+        [
+          "5.0%",
+          "+1.1%"
+        ],
+        [
+          "6.1%",
+          "+1.1%"
+        ],
+        [
+          "7.2%",
+          "+1.1%"
+        ],
+        [
+          "8.3%",
+          "+1.1%"
+        ],
+        [
+          "9.4%",
+          "+1.1%"
+        ],
+        [
+          "10.5%",
+          "+1.1%"
+        ],
+        [
+          "11.6%",
+          "+1.1%"
+        ],
+        [
+          "12.7%",
+          "+1.1%"
+        ],
+        [
+          "13.8%",
+          "+1.2%"
+        ],
+        [
+          "15.0%"
+        ]
+      ]
+    ],
+    "desc_get_add": [
+      [
+        "5.0%",
+        "15.0%"
+      ]
+    ]
   },
   "25011": {
     "max_level": 1,
@@ -20573,12 +20656,12 @@
     "desc_add": [],
     "desc_get_add": []
   },
-  "29162": {
+  "29142": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 29162,
-    "desc": "Activates All Out Assault Ⅱ: Ooi once every 8 times the Main Guns are fired.",
+    "id": 29142,
+    "desc": "Activates All Out Assault Ⅱ: Shimakaze once every 10 times the Main Guns are fired.",
     "name": "All Out Assault Ⅱ",
     "desc_get": "",
     "desc_add": [],
@@ -20606,12 +20689,12 @@
     "desc_add": [],
     "desc_get_add": []
   },
-  "23041": {
+  "29131": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 23041,
-    "desc": "Activates All Out Assault Ⅰ: 1936A Type once every 15 times the Main Guns are fired.",
+    "id": 29131,
+    "desc": "Activates All Out Assault Ⅰ: Yukikaze once every 15 times the Main Guns are fired.",
     "name": "All Out Assault Ⅰ",
     "desc_get": "",
     "desc_add": [],
@@ -20800,12 +20883,12 @@
       ]
     ]
   },
-  "29142": {
+  "29122": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 29142,
-    "desc": "Activates All Out Assault Ⅱ: Shimakaze once every 10 times the Main Guns are fired.",
+    "id": 29122,
+    "desc": "Activates All Out Assault Ⅱ: Yuudachi once every 10 times the Main Guns are fired.",
     "name": "All Out Assault Ⅱ",
     "desc_get": "",
     "desc_add": [],
@@ -20996,23 +21079,23 @@
       ]
     ]
   },
-  "29131": {
+  "21132": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 29131,
-    "desc": "Activates All Out Assault Ⅰ: Yukikaze once every 15 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅰ",
+    "id": 21132,
+    "desc": "Activates All Out Assault Ⅱ: Arethusa Class once every 8 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅱ",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
   },
-  "29122": {
+  "29102": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 29122,
-    "desc": "Activates All Out Assault Ⅱ: Yuudachi once every 10 times the Main Guns are fired.",
+    "id": 29102,
+    "desc": "Activates All Out Assault Ⅱ: Belfast once every 8 times the Main Guns are fired.",
     "name": "All Out Assault Ⅱ",
     "desc_get": "",
     "desc_add": [],
@@ -21121,12 +21204,12 @@
       ]
     ]
   },
-  "21132": {
+  "29092": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 21132,
-    "desc": "Activates All Out Assault Ⅱ: Arethusa Class once every 8 times the Main Guns are fired.",
+    "id": 29092,
+    "desc": "Activates All Out Assault Ⅱ: Vampire once every 10 times the Main Guns are fired.",
     "name": "All Out Assault Ⅱ",
     "desc_get": "",
     "desc_add": [],
@@ -21190,13 +21273,13 @@
       ]
     ]
   },
-  "29102": {
-    "max_level": 1,
-    "type": 1,
+  "6250": {
+    "max_level": 0,
+    "type": 0,
     "system_transform": [],
-    "id": 29102,
-    "desc": "Activates All Out Assault Ⅱ: Belfast once every 8 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅱ",
+    "id": 6250,
+    "desc": "Increases your entire fleet's AA by 5.0% for 8s when the Carrier using this aircraft launches an Airstrike.",
+    "name": "Jolly Rogers",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
@@ -21270,12 +21353,12 @@
       ]
     ]
   },
-  "29092": {
+  "29082": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 29092,
-    "desc": "Activates All Out Assault Ⅱ: Vampire once every 10 times the Main Guns are fired.",
+    "id": 29082,
+    "desc": "Activates All Out Assault Ⅱ: Javelin once every 10 times the Main Guns are fired.",
     "name": "All Out Assault Ⅱ",
     "desc_get": "",
     "desc_add": [],
@@ -21339,23 +21422,23 @@
       ]
     ]
   },
-  "6250": {
-    "max_level": 0,
-    "type": 0,
+  "23111": {
+    "max_level": 1,
+    "type": 1,
     "system_transform": [],
-    "id": 6250,
-    "desc": "Increases your entire fleet's AA by 5.0% for 8s when the Carrier using this aircraft launches an Airstrike.",
-    "name": "Jolly Rogers",
+    "id": 23111,
+    "desc": "Activates All Out Assault Ⅰ: Königsberg Class once every 12 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅰ",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
   },
-  "29082": {
+  "29062": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 29082,
-    "desc": "Activates All Out Assault Ⅱ: Javelin once every 10 times the Main Guns are fired.",
+    "id": 29062,
+    "desc": "Activates All Out Assault Ⅱ: Glowworm once every 10 times the Main Guns are fired.",
     "name": "All Out Assault Ⅱ",
     "desc_get": "",
     "desc_add": [],
@@ -21372,13 +21455,13 @@
     "desc_add": [],
     "desc_get_add": []
   },
-  "23112": {
+  "29051": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 23112,
-    "desc": "Activates All Out Assault Ⅱ: Königsberg Class once every 8 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅱ",
+    "id": 29051,
+    "desc": "Activates All Out Assault Ⅰ: Laffey once every 15 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅰ",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
@@ -21436,27 +21519,74 @@
     ],
     "desc_get_add": []
   },
-  "29062": {
+  "29042": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 29062,
-    "desc": "Activates All Out Assault Ⅱ: Glowworm once every 10 times the Main Guns are fired.",
+    "id": 29042,
+    "desc": "Activates All Out Assault Ⅱ: Johnston once every 10 times the Main Guns are fired.",
     "name": "All Out Assault Ⅱ",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
   },
-  "29051": {
-    "max_level": 1,
-    "type": 1,
+  "12100": {
+    "max_level": 10,
+    "type": 3,
     "system_transform": [],
-    "id": 29051,
-    "desc": "Activates All Out Assault Ⅰ: Laffey once every 15 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅰ",
+    "id": 12100,
+    "desc": "Increases the AVI, AA, and RLD of this ship by $1 for each Iron Blood ship in your fleet at the start of the battle.",
+    "name": "Iron Blood Hatchling",
     "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
+    "desc_add": [
+      [
+        [
+          "1.0%",
+          "+0.4%"
+        ],
+        [
+          "1.4%",
+          "+0.4%"
+        ],
+        [
+          "1.8%",
+          "+0.4%"
+        ],
+        [
+          "2.2%",
+          "+0.4%"
+        ],
+        [
+          "2.6%",
+          "+0.4%"
+        ],
+        [
+          "3.0%",
+          "+0.5%"
+        ],
+        [
+          "3.5%",
+          "+0.5%"
+        ],
+        [
+          "4.0%",
+          "+0.5%"
+        ],
+        [
+          "4.5%",
+          "+0.5%"
+        ],
+        [
+          "5.0%"
+        ]
+      ]
+    ],
+    "desc_get_add": [
+      [
+        "1.0%",
+        "5.0%"
+      ]
+    ]
   },
   "12250": {
     "max_level": 10,
@@ -21668,75 +21798,6 @@
       ]
     ]
   },
-  "12100": {
-    "max_level": 10,
-    "type": 3,
-    "system_transform": [],
-    "id": 12100,
-    "desc": "Increases the AVI, AA, and RLD of this ship by $1 for each Iron Blood ship in your fleet at the start of the battle.",
-    "name": "Iron Blood Hatchling",
-    "desc_get": "",
-    "desc_add": [
-      [
-        [
-          "1.0%",
-          "+0.4%"
-        ],
-        [
-          "1.4%",
-          "+0.4%"
-        ],
-        [
-          "1.8%",
-          "+0.4%"
-        ],
-        [
-          "2.2%",
-          "+0.4%"
-        ],
-        [
-          "2.6%",
-          "+0.4%"
-        ],
-        [
-          "3.0%",
-          "+0.5%"
-        ],
-        [
-          "3.5%",
-          "+0.5%"
-        ],
-        [
-          "4.0%",
-          "+0.5%"
-        ],
-        [
-          "4.5%",
-          "+0.5%"
-        ],
-        [
-          "5.0%"
-        ]
-      ]
-    ],
-    "desc_get_add": [
-      [
-        "1.0%",
-        "5.0%"
-      ]
-    ]
-  },
-  "29022": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 29022,
-    "desc": "Activates All Out Assault Ⅱ: Eldridge once every 10 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅱ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
   "29011": {
     "max_level": 1,
     "type": 1,
@@ -21758,64 +21819,6 @@
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
-  },
-  "4111": {
-    "max_level": 10,
-    "type": 2,
-    "system_transform": [],
-    "id": 4111,
-    "desc": "Decreases the DMG this ship takes from AP by $1.",
-    "name": "AP Protection",
-    "desc_get": "",
-    "desc_add": [
-      [
-        [
-          "10.0%",
-          "+1.1%"
-        ],
-        [
-          "11.1%",
-          "+1.1%"
-        ],
-        [
-          "12.2%",
-          "+1.1%"
-        ],
-        [
-          "13.3%",
-          "+1.1%"
-        ],
-        [
-          "14.4%",
-          "+1.1%"
-        ],
-        [
-          "15.5%",
-          "+1.1%"
-        ],
-        [
-          "16.6%",
-          "+1.1%"
-        ],
-        [
-          "17.7%",
-          "+1.1%"
-        ],
-        [
-          "18.8%",
-          "+1.2%"
-        ],
-        [
-          "20.0%"
-        ]
-      ]
-    ],
-    "desc_get_add": [
-      [
-        "10%",
-        "20%"
-      ]
-    ]
   },
   "28021": {
     "max_level": 1,
@@ -21935,6 +21938,64 @@
       ]
     ]
   },
+  "4111": {
+    "max_level": 10,
+    "type": 2,
+    "system_transform": [],
+    "id": 4111,
+    "desc": "Decreases the DMG this ship takes from AP by $1.",
+    "name": "AP Protection",
+    "desc_get": "",
+    "desc_add": [
+      [
+        [
+          "10.0%",
+          "+1.1%"
+        ],
+        [
+          "11.1%",
+          "+1.1%"
+        ],
+        [
+          "12.2%",
+          "+1.1%"
+        ],
+        [
+          "13.3%",
+          "+1.1%"
+        ],
+        [
+          "14.4%",
+          "+1.1%"
+        ],
+        [
+          "15.5%",
+          "+1.1%"
+        ],
+        [
+          "16.6%",
+          "+1.1%"
+        ],
+        [
+          "17.7%",
+          "+1.1%"
+        ],
+        [
+          "18.8%",
+          "+1.2%"
+        ],
+        [
+          "20.0%"
+        ]
+      ]
+    ],
+    "desc_get_add": [
+      [
+        "10%",
+        "20%"
+      ]
+    ]
+  },
   "25221": {
     "max_level": 1,
     "type": 1,
@@ -21952,6 +22013,28 @@
     "system_transform": [],
     "id": 25211,
     "desc": "Activates All Out Assault Ⅰ: Trento Class once every 9 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅰ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "23042": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 23042,
+    "desc": "Activates All Out Assault Ⅱ: 1936a Type once every 10 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅱ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "24121": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 24121,
+    "desc": "Activates All Out Assault Ⅰ once every 18 times the Main Guns are fired.",
     "name": "All Out Assault Ⅰ",
     "desc_get": "",
     "desc_add": [],
@@ -22015,27 +22098,74 @@
       ]
     ]
   },
-  "23111": {
+  "24111": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 23111,
-    "desc": "Activates All Out Assault Ⅰ: Königsberg Class once every 12 times the Main Guns are fired.",
+    "id": 24111,
+    "desc": "Activates All Out Assault Ⅰ: Ning Hai Class once every 12 times the Main Guns are fired.",
     "name": "All Out Assault Ⅰ",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
   },
-  "24121": {
-    "max_level": 1,
-    "type": 1,
+  "10430": {
+    "max_level": 10,
+    "type": 3,
     "system_transform": [],
-    "id": 24121,
-    "desc": "Activates All Out Assault Ⅰ once every 18 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅰ",
+    "id": 10430,
+    "desc": "When sortied with Kaga: increases this ship's AVI by $1.",
+    "name": "First Carrier Division",
     "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
+    "desc_add": [
+      [
+        [
+          "15.0%",
+          "+2.2%"
+        ],
+        [
+          "17.2%",
+          "+2.2%"
+        ],
+        [
+          "19.4%",
+          "+2.2%"
+        ],
+        [
+          "21.6%",
+          "+2.2%"
+        ],
+        [
+          "23.8%",
+          "+2.2%"
+        ],
+        [
+          "26.0%",
+          "+2.2%"
+        ],
+        [
+          "28.2%",
+          "+2.2%"
+        ],
+        [
+          "30.4%",
+          "+2.2%"
+        ],
+        [
+          "32.6%",
+          "+2.4%"
+        ],
+        [
+          "35.0%"
+        ]
+      ]
+    ],
+    "desc_get_add": [
+      [
+        "15.0%",
+        "35.0%"
+      ]
+    ]
   },
   "12370": {
     "max_level": 10,
@@ -22097,12 +22227,12 @@
       ]
     ]
   },
-  "24111": {
+  "20221": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 24111,
-    "desc": "Activates All Out Assault Ⅰ: Ning Hai Class once every 12 times the Main Guns are fired.",
+    "id": 20221,
+    "desc": "Activates All Out Assault Ⅰ: Northampton Class once every 12 times the Main Guns are fired.",
     "name": "All Out Assault Ⅰ",
     "desc_get": "",
     "desc_add": [],
@@ -22166,63 +22296,16 @@
       ]
     ]
   },
-  "10430": {
-    "max_level": 10,
-    "type": 3,
+  "23321": {
+    "max_level": 1,
+    "type": 1,
     "system_transform": [],
-    "id": 10430,
-    "desc": "When sortied with Kaga: increases this ship's AVI by $1.",
-    "name": "First Carrier Division",
+    "id": 23321,
+    "desc": "Activates All Out Assault Ⅰ: Type IXB immediately after entering the battle.",
+    "name": "All Out Assault Ⅰ",
     "desc_get": "",
-    "desc_add": [
-      [
-        [
-          "15.0%",
-          "+2.2%"
-        ],
-        [
-          "17.2%",
-          "+2.2%"
-        ],
-        [
-          "19.4%",
-          "+2.2%"
-        ],
-        [
-          "21.6%",
-          "+2.2%"
-        ],
-        [
-          "23.8%",
-          "+2.2%"
-        ],
-        [
-          "26.0%",
-          "+2.2%"
-        ],
-        [
-          "28.2%",
-          "+2.2%"
-        ],
-        [
-          "30.4%",
-          "+2.2%"
-        ],
-        [
-          "32.6%",
-          "+2.4%"
-        ],
-        [
-          "35.0%"
-        ]
-      ]
-    ],
-    "desc_get_add": [
-      [
-        "15.0%",
-        "35.0%"
-      ]
-    ]
+    "desc_add": [],
+    "desc_get_add": []
   },
   "101070": {
     "max_level": 10,
@@ -22423,13 +22506,13 @@
       ]
     ]
   },
-  "23311": {
+  "22242": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 23311,
-    "desc": "Activates All Out Assault Ⅰ: VIIC-Type Submarine immediately after entering the battle.",
-    "name": "All Out Assault Ⅰ",
+    "id": 22242,
+    "desc": "Activates All Out Assault Ⅱ: Tone Class once every 6 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅱ",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
@@ -22492,17 +22575,6 @@
       ]
     ]
   },
-  "22261": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 22261,
-    "desc": "Activates All Out Assault Ⅰ: Takao Class once every 9 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅰ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
   "23221": {
     "max_level": 1,
     "type": 1,
@@ -22532,6 +22604,17 @@
     "id": 23211,
     "desc": "Activates All Out Assault Ⅰ: Admiral Hipper Class once every 9 times the Main Guns are fired.",
     "name": "All Out Assault Ⅰ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "23122": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 23122,
+    "desc": "Activates All Out Assault Ⅱ: Leipzig Class once every 8 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅱ",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
@@ -22594,17 +22677,6 @@
       ]
     ]
   },
-  "23122": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 23122,
-    "desc": "Activates All Out Assault Ⅱ: Leipzig Class once every 8 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅱ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
   "23121": {
     "max_level": 1,
     "type": 1,
@@ -22612,6 +22684,17 @@
     "id": 23121,
     "desc": "Activates All Out Assault Ⅰ: Leipzig Class once every 12 times the Main Guns are fired.",
     "name": "All Out Assault Ⅰ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "23112": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 23112,
+    "desc": "Activates All Out Assault Ⅱ: Königsberg Class once every 8 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅱ",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
@@ -22844,13 +22927,13 @@
     "desc_add": [],
     "desc_get_add": []
   },
-  "23042": {
+  "23041": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 23042,
-    "desc": "Activates All Out Assault Ⅱ: 1936a Type once every 10 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅱ",
+    "id": 23041,
+    "desc": "Activates All Out Assault Ⅰ: 1936A Type once every 15 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅰ",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
@@ -23027,70 +23110,23 @@
       ]
     ]
   },
-  "12360": {
-    "max_level": 10,
-    "type": 1,
-    "system_transform": [],
-    "id": 12360,
-    "desc": "When sortied with other DDs: increases this ship's AA, FP, and Accuracy by $1. Once per battle, if one of your DDs' HP falls below 50.0%: fires a special barrage. ",
-    "name": "Messenger of Love ",
-    "desc_get": "",
-    "desc_add": [
-      [
-        [
-          "5.0%",
-          "+1.1%"
-        ],
-        [
-          "6.1%",
-          "+1.1%"
-        ],
-        [
-          "7.2%",
-          "+1.1%"
-        ],
-        [
-          "8.3%",
-          "+1.1%"
-        ],
-        [
-          "9.4%",
-          "+1.1%"
-        ],
-        [
-          "10.5%",
-          "+1.1%"
-        ],
-        [
-          "11.6%",
-          "+1.1%"
-        ],
-        [
-          "12.7%",
-          "+1.1%"
-        ],
-        [
-          "13.8%",
-          "+1.2%"
-        ],
-        [
-          "15.0%"
-        ]
-      ]
-    ],
-    "desc_get_add": [
-      [
-        "5.0%",
-        "15.0%"
-      ]
-    ]
-  },
   "21112": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
     "id": 21112,
     "desc": "Activates All Out Assault Ⅱ: Leander Class once every 8 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅱ",
+    "desc_get": "",
+    "desc_add": [],
+    "desc_get_add": []
+  },
+  "21012": {
+    "max_level": 1,
+    "type": 1,
+    "system_transform": [],
+    "id": 21012,
+    "desc": "Activates All Out Assault Ⅱ: A Class once every 10 times the Main Guns are fired.",
     "name": "All Out Assault Ⅱ",
     "desc_get": "",
     "desc_add": [],
@@ -23313,13 +23349,13 @@
       ]
     ]
   },
-  "21012": {
+  "22221": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 21012,
-    "desc": "Activates All Out Assault Ⅱ: A Class once every 10 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅱ",
+    "id": 22221,
+    "desc": "Activates All Out Assault Ⅰ: Aoba Class once every 9 times the Main Guns are fired.",
+    "name": "All Out Assault Ⅰ",
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
@@ -23540,12 +23576,12 @@
     ],
     "desc_get_add": []
   },
-  "22221": {
+  "22261": {
     "max_level": 1,
     "type": 1,
     "system_transform": [],
-    "id": 22221,
-    "desc": "Activates All Out Assault Ⅰ: Aoba Class once every 9 times the Main Guns are fired.",
+    "id": 22261,
+    "desc": "Activates All Out Assault Ⅰ: Takao Class once every 9 times the Main Guns are fired.",
     "name": "All Out Assault Ⅰ",
     "desc_get": "",
     "desc_add": [],
@@ -23779,17 +23815,6 @@
       ]
     ]
   },
-  "22242": {
-    "max_level": 1,
-    "type": 1,
-    "system_transform": [],
-    "id": 22242,
-    "desc": "Activates All Out Assault Ⅱ: Tone Class once every 6 times the Main Guns are fired.",
-    "name": "All Out Assault Ⅱ",
-    "desc_get": "",
-    "desc_add": [],
-    "desc_get_add": []
-  },
   "22241": {
     "max_level": 1,
     "type": 1,
@@ -23811,6 +23836,55 @@
     "desc_get": "",
     "desc_add": [],
     "desc_get_add": []
+  },
+  "12690": {
+    "max_level": 10,
+    "type": 3,
+    "system_transform": [],
+    "id": 12690,
+    "desc": "After entering the battle, applies a random $1 buff to all your Iron Blood ships which lasts until the end of the battle. ",
+    "name": "Codebreaking Game ",
+    "desc_get": "",
+    "desc_add": [
+      [
+        [
+          "Lv.1"
+        ],
+        [
+          "Lv.2"
+        ],
+        [
+          "Lv.3"
+        ],
+        [
+          "Lv.4"
+        ],
+        [
+          "Lv.5"
+        ],
+        [
+          "Lv.6"
+        ],
+        [
+          "Lv.7"
+        ],
+        [
+          "Lv.8"
+        ],
+        [
+          "Lv.9"
+        ],
+        [
+          "Lv.10"
+        ]
+      ]
+    ],
+    "desc_get_add": [
+      [
+        "Lv.1",
+        "Lv.10"
+      ]
+    ]
   },
   "22311": {
     "max_level": 1,
