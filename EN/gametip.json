@@ -869,7 +869,7 @@
   },
   "resource_verify_success": {
     "key": "resource_verify_success",
-    "tip": "Data files have been repaired"
+    "tip": "Game resource restoration complete."
   },
   "word_soundfiles_update": {
     "key": "word_soundfiles_update",
@@ -2213,6 +2213,10 @@
     "key": "new_airi_error_code_100212",
     "tip": "Platform unbinding error"
   },
+  "secretary_pos_save_success": {
+    "key": "secretary_pos_save_success",
+    "tip": "Save successful"
+  },
   "secretary_closed": {
     "key": "secretary_closed",
     "tip": "Not open"
@@ -2280,6 +2284,10 @@
   "guild_fire_succeed": {
     "key": "guild_fire_succeed",
     "tip": "Kicked!"
+  },
+  "confirm_unlock": {
+    "key": "confirm_unlock",
+    "tip": "Are you sure you want to unlock $1?"
   },
   "vote_love_not_enough": {
     "key": "vote_love_not_enough",
@@ -4305,7 +4313,7 @@
   },
   "ship_remould_warning_205124": {
     "key": "ship_remould_warning_205124",
-    "tip": "此次改造操作将消耗<color=#92fc63>战士的心得</color>\n是否确认继续操作？"
+    "tip": "<color=#92fc63>The Warrior's Prowess</color> will be used to complete the retrofit.\nWould you like to continue? "
   },
   "main_1": {
     "key": "main_1",
@@ -5424,6 +5432,10 @@
     "key": "list_empty_tip_guildrequestui",
     "tip": "No pending Guild applications."
   },
+  "secretary_pos_save": {
+    "key": "secretary_pos_save",
+    "tip": "Would you like to save the current secretary ship placement?"
+  },
   "save_success": {
     "key": "save_success",
     "tip": "Data Saved Successfully"
@@ -5710,9 +5722,9 @@
     "key": "commander_talent_not_exist",
     "tip": "Talent error: this Talent already exists."
   },
-  "guild_search_sucess": {
-    "key": "guild_search_sucess",
-    "tip": "Search complete!"
+  "battle_result_total_score": {
+    "key": "battle_result_total_score",
+    "tip": "Total Score:"
   },
   "bismarck_award_tip": {
     "key": "bismarck_award_tip",
@@ -6023,6 +6035,10 @@
     "key": "word_rankScore",
     "tip": "Points"
   },
+  "secretary_unlock4": {
+    "key": "secretary_unlock4",
+    "tip": "Clear stage 9-4 \nto unlock "
+  },
   "backyard_backyardScene_name": {
     "key": "backyard_backyardScene_name",
     "tip": "<color=#92fc63>$1's Dorm</color>"
@@ -6031,61 +6047,13 @@
     "key": "guild_create_confirm",
     "tip": "Spend <icon name=diamond w=0.7 h=0.7/>$1 to create a guild?"
   },
-  "loading_tip_TipsMgr": {
-    "key": "loading_tip_TipsMgr",
-    "tip": "Getting stickers..."
-  },
-  "secretary_unlock4": {
-    "key": "secretary_unlock4",
-    "tip": "Clear stage 9-4 \nto unlock "
-  },
-  "login_loginMediator_kickLoginOut": {
-    "key": "login_loginMediator_kickLoginOut",
-    "tip": "Connection lost."
-  },
-  "word_rename_switch_tip": {
-    "key": "word_rename_switch_tip",
-    "tip": "Custom names hidden. Head to Settings - Notifications to enable."
-  },
-  "attribute_intimacy": {
-    "key": "attribute_intimacy",
-    "tip": "Intimacy"
-  },
-  "open_skill_pos_discount": {
-    "key": "open_skill_pos_discount",
-    "tip": "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=grey>$1</color> <color=#ffff00>$2</color> to unlock the slot , \nDo you wish to proceed?"
-  },
-  "ship_buildShipImmediately_error_finished": {
-    "key": "ship_buildShipImmediately_error_finished",
-    "tip": "Construction complete!"
-  },
   "secretary_unlock2": {
     "key": "secretary_unlock2",
     "tip": "Clear stage 3-4 \nto unlock "
   },
-  "word_food": {
-    "key": "word_food",
-    "tip": "Snacks"
-  },
-  "word_kind": {
-    "key": "word_kind",
-    "tip": "Type"
-  },
-  "commander_can_not_be_upgrade": {
-    "key": "commander_can_not_be_upgrade",
-    "tip": "The selected Meowfficer cannot level up."
-  },
-  "activity_switch_award_pool_failed": {
-    "key": "activity_switch_award_pool_failed",
-    "tip": "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
-  },
-  "coloring_erase_all_warning": {
-    "key": "coloring_erase_all_warning",
-    "tip": "Resetting will clear all of the currently painted boxes of their color. Are you sure you would like to reset?"
-  },
-  "verification_code_req_tip1": {
-    "key": "verification_code_req_tip1",
-    "tip": "The e-mail box cannot be left blank."
+  "loading_tip_TipsMgr": {
+    "key": "loading_tip_TipsMgr",
+    "tip": "Getting stickers..."
   },
   "secretary_help": {
     "key": "secretary_help",
@@ -6113,6 +6081,58 @@
       }
     ]
   },
+  "login_loginMediator_kickLoginOut": {
+    "key": "login_loginMediator_kickLoginOut",
+    "tip": "Connection lost."
+  },
+  "word_rename_switch_tip": {
+    "key": "word_rename_switch_tip",
+    "tip": "Custom names hidden. Head to Settings - Notifications to enable."
+  },
+  "attribute_intimacy": {
+    "key": "attribute_intimacy",
+    "tip": "Intimacy"
+  },
+  "open_skill_pos_discount": {
+    "key": "open_skill_pos_discount",
+    "tip": "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=grey>$1</color> <color=#ffff00>$2</color> to unlock the slot , \nDo you wish to proceed?"
+  },
+  "ship_buildShipImmediately_error_finished": {
+    "key": "ship_buildShipImmediately_error_finished",
+    "tip": "Construction complete!"
+  },
+  "technology_start_erro": {
+    "key": "technology_start_erro",
+    "tip": "Research failed."
+  },
+  "word_food": {
+    "key": "word_food",
+    "tip": "Snacks"
+  },
+  "word_kind": {
+    "key": "word_kind",
+    "tip": "Type"
+  },
+  "commander_can_not_be_upgrade": {
+    "key": "commander_can_not_be_upgrade",
+    "tip": "The selected Meowfficer cannot level up."
+  },
+  "activity_switch_award_pool_failed": {
+    "key": "activity_switch_award_pool_failed",
+    "tip": "The rewards from this phase have not been fully acquired yet, cannot enter next phase"
+  },
+  "coloring_erase_all_warning": {
+    "key": "coloring_erase_all_warning",
+    "tip": "Resetting will clear all of the currently painted boxes of their color. Are you sure you would like to reset?"
+  },
+  "verification_code_req_tip1": {
+    "key": "verification_code_req_tip1",
+    "tip": "The e-mail box cannot be left blank."
+  },
+  "pocky_jiujiu_desc": {
+    "key": "pocky_jiujiu_desc",
+    "tip": "The Manjuus are hard at work today..."
+  },
   "ship_formationUI_fleetName11": {
     "key": "ship_formationUI_fleetName11",
     "tip": "Submarine 1"
@@ -6121,9 +6141,9 @@
     "key": "resourceSite_beginScanMap_error",
     "tip": "Radar scan failed: "
   },
-  "ship_shipUpgradeLayer2_levelError": {
-    "key": "ship_shipUpgradeLayer2_levelError",
-    "tip": "Level is too low."
+  "pt_ship_goal": {
+    "key": "pt_ship_goal",
+    "tip": "Goal:"
   },
   "eva_ship_success": {
     "key": "eva_ship_success",
@@ -6133,9 +6153,9 @@
     "key": "ship_upgradeStar_error_noEnoughMatrail",
     "tip": "Insufficient materials."
   },
-  "pocky_jiujiu_desc": {
-    "key": "pocky_jiujiu_desc",
-    "tip": "The Manjuus are hard at work today..."
+  "pt_ship_now": {
+    "key": "pt_ship_now",
+    "tip": "Enemies Defeated:"
   },
   "level_chapter_state_low_risk": {
     "key": "level_chapter_state_low_risk",
@@ -6145,41 +6165,41 @@
     "key": "yostar_link_title",
     "tip": "Yostar Account:$1"
   },
-  "pt_ship_goal": {
-    "key": "pt_ship_goal",
-    "tip": "Goal:"
+  "text_consume": {
+    "key": "text_consume",
+    "tip": "YES"
   },
   "equipment_select_device_tip": {
     "key": "equipment_select_device_tip",
     "tip": "Please select required gear."
   },
-  "pt_ship_now": {
-    "key": "pt_ship_now",
-    "tip": "Enemies Defeated:"
+  "ship_formationUI_fleetName_hard_ss": {
+    "key": "ship_formationUI_fleetName_hard_ss",
+    "tip": "Sub Fleet - Hard"
   },
   "word_least_page": {
     "key": "word_least_page",
     "tip": "Min"
   },
-  "text_consume": {
-    "key": "text_consume",
-    "tip": "YES"
+  "ship_formationUI_fleetName_hard": {
+    "key": "ship_formationUI_fleetName_hard",
+    "tip": "Hard"
   },
   "battle_resourceSiteMediator_shipState_rest": {
     "key": "battle_resourceSiteMediator_shipState_rest",
     "tip": "She's currently resting..."
   },
-  "ship_formationUI_fleetName_hard_ss": {
-    "key": "ship_formationUI_fleetName_hard_ss",
-    "tip": "Sub Fleet - Hard"
+  "ship_formationUI_fleetName_normal": {
+    "key": "ship_formationUI_fleetName_normal",
+    "tip": "Normal"
   },
   "guild_sort_cszz": {
     "key": "guild_sort_cszz",
     "tip": "Crimson Axis"
   },
-  "ship_formationUI_fleetName_hard": {
-    "key": "ship_formationUI_fleetName_hard",
-    "tip": "Hard"
+  "word_easy": {
+    "key": "word_easy",
+    "tip": "Easy"
   },
   "commander_unlock_done": {
     "key": "commander_unlock_done",
@@ -6193,17 +6213,17 @@
     "key": "charge_commander_bag_max",
     "tip": "The Cattery has been fully expanded. You cannot purchase any more slots."
   },
-  "ship_formationUI_fleetName_normal": {
-    "key": "ship_formationUI_fleetName_normal",
-    "tip": "Normal"
-  },
-  "word_easy": {
-    "key": "word_easy",
-    "tip": "Easy"
-  },
   "word_billboard": {
     "key": "word_billboard",
     "tip": "Rankings"
+  },
+  "tips_shrine_buff": {
+    "key": "tips_shrine_buff",
+    "tip": "You spent 5 Coins and received a blessing: $1"
+  },
+  "change_skin_secretary_ship_success": {
+    "key": "change_skin_secretary_ship_success",
+    "tip": "Secretary Set Successfully"
   },
   "word_shipType_hangMu": {
     "key": "word_shipType_hangMu",
@@ -6213,6 +6233,18 @@
     "key": "resource_max_tip_collect",
     "tip": "Unable to receive collection reward."
   },
+  "ship_remould_warning_203114": {
+    "key": "ship_remould_warning_203114",
+    "tip": "This ship's <color=#92fc63>Torpedo slot</color> will be converted into an <color=#92fc63>Auxiliary Weapon slot.</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>View more info here.</material></color>\nWould you like to proceed with the retrofit? "
+  },
+  "world_log_12": {
+    "key": "world_log_12",
+    "tip": "Cannot move to this sea area."
+  },
+  "word_shipNation_ai": {
+    "key": "word_shipNation_ai",
+    "tip": "KizunaAI"
+  },
   "help_vote": {
     "key": "help_vote",
     "tip": [
@@ -6221,45 +6253,25 @@
       }
     ]
   },
-  "change_skin_secretary_ship_success": {
-    "key": "change_skin_secretary_ship_success",
-    "tip": "Secretary Set Successfully"
-  },
-  "ship_remould_warning_303154": {
-    "key": "ship_remould_warning_303154",
-    "tip": "When retrofitted, <color=#92fc63>$1</color>'s hull type will change.\nThe weapon type that can be equipped in the Main Gun slot will change from <color=#92fc63>CL Main Guns</color> to <color=#92fc63>CA Main Guns</color>. The current Main Gun will also be automatically unequipped.\nWould you like to proceed with the retrofit?\n<color=#92fc63><material=underline c=#A9F548 event=clickDetail>View more info here.</material></color>"
-  },
-  "newplayer_notice_3": {
-    "key": "newplayer_notice_3",
-    "tip": "Unlocked after completing all Exams"
-  },
   "airi_error_code_ 100816": {
     "key": "airi_error_code_ 100816",
     "tip": "FB Failed to authorize, unable to unbind"
-  },
-  "word_reset": {
-    "key": "word_reset",
-    "tip": "Reset"
-  },
-  "change_skin_secretary_ship": {
-    "key": "change_skin_secretary_ship",
-    "tip": "Set Secretary"
   },
   "tips_shrine_nobuff": {
     "key": "tips_shrine_nobuff",
     "tip": "You spent 5 Coins but your prayers fall upon deaf ears. Perhaps you need more Shrine Visits."
   },
-  "destroy_high_level_tip": {
-    "key": "destroy_high_level_tip",
-    "tip": "<color=#92fc63>$1 is higher than lv. 1</color>"
-  },
-  "tips_shrine_buff": {
-    "key": "tips_shrine_buff",
-    "tip": "You spent 5 Coins and received a blessing: $1"
+  "change_skin_secretary_ship": {
+    "key": "change_skin_secretary_ship",
+    "tip": "Set Secretary"
   },
   "tips_summergame_exit": {
     "key": "tips_summergame_exit",
     "tip": "A minigame is currently in progress. If you leave now, you won't earn any prizes. Are you sure you want to leave?"
+  },
+  "destroy_high_level_tip": {
+    "key": "destroy_high_level_tip",
+    "tip": "<color=#92fc63>$1 is higher than lv. 1</color>"
   },
   "help_summer_stamp": {
     "key": "help_summer_stamp",
@@ -6285,21 +6297,33 @@
       }
     ]
   },
-  "text_noRes_info_tip2": {
-    "key": "text_noRes_info_tip2",
-    "tip": "<color=#FF0000>$1</color> x<color=#FF0000>$2</color>"
+  "intimacy_desc_1_detail": {
+    "key": "intimacy_desc_1_detail",
+    "tip": "$1 is upset with you.\n<color=#fad545><size=18>(No buff)</size></color>"
+  },
+  "challenge_end_tip": {
+    "key": "challenge_end_tip",
+    "tip": "This event has concluded. "
+  },
+  "world_help_tip": {
+    "key": "world_help_tip",
+    "tip": [
+      {
+        "info": "\n大世界说明："
+      }
+    ]
   },
   "elite_condition_reload": {
     "key": "elite_condition_reload",
     "tip": "Total RLD"
   },
-  "list_empty_tip_billboardui": {
-    "key": "list_empty_tip_billboardui",
-    "tip": "No ranking data available."
+  "word_reward": {
+    "key": "word_reward",
+    "tip": "Rewards"
   },
-  "world_stamina_exchange": {
-    "key": "world_stamina_exchange",
-    "tip": "行动力不足，是否花费<icon name=oil w=0.7 h=0.7/>$1兑换行动力*$2？"
+  "map_event_open": {
+    "key": "map_event_open",
+    "tip": "A blocked tile was created."
   },
   "challenge_season_update_casual_clear": {
     "key": "challenge_season_update_casual_clear",
@@ -6309,17 +6333,17 @@
     "key": "main_navalAcademyScene_quest_stopClass",
     "tip": "Your girls are studying hard! Are you sure you want them to skip class?\n<color=#92fc63>(They won't earn stat bonuses if they skip class)</color>"
   },
-  "word_reward": {
-    "key": "word_reward",
-    "tip": "Rewards"
+  "desc_base_hp": {
+    "key": "desc_base_hp",
+    "tip": "Harbor integrity: $1/$2"
   },
   "amercian_notice_5": {
     "key": "amercian_notice_5",
     "tip": "The prize pool is still locked."
   },
-  "map_event_open": {
-    "key": "map_event_open",
-    "tip": "A blocked tile was created."
+  "desc_defense_reward": {
+    "key": "desc_defense_reward",
+    "tip": "The rewards you receive are based on how effective your defense was."
   },
   "help_shipinfo_hunting": {
     "key": "help_shipinfo_hunting",
@@ -6329,29 +6353,17 @@
       }
     ]
   },
-  "desc_base_hp": {
-    "key": "desc_base_hp",
-    "tip": "Harbor integrity: $1/$2"
+  "equipment_skin_no_new_ship": {
+    "key": "equipment_skin_no_new_ship",
+    "tip": "The ship does not exist"
   },
   "commander_play_erro": {
     "key": "commander_play_erro",
     "tip": "Failed to Enhance $1."
   },
-  "desc_defense_reward": {
-    "key": "desc_defense_reward",
-    "tip": "The rewards you receive are based on how effective your defense was."
-  },
-  "equipment_skin_unload_failed": {
-    "key": "equipment_skin_unload_failed",
-    "tip": "Failed to apply skin on the new ship"
-  },
   "text_win_condition": {
     "key": "text_win_condition",
     "tip": "Win conditions:"
-  },
-  "commander_lock_done": {
-    "key": "commander_lock_done",
-    "tip": "Meowfficer locked."
   },
   "desc_quick_play": {
     "key": "desc_quick_play",
@@ -6360,6 +6372,10 @@
   "submarine_approach": {
     "key": "submarine_approach",
     "tip": "Submarines Detected"
+  },
+  "commander_lock_done": {
+    "key": "commander_lock_done",
+    "tip": "Meowfficer locked."
   },
   "harbour_bomb_tip": {
     "key": "harbour_bomb_tip",
@@ -6393,10 +6409,6 @@
     "key": "secondarypassword_confirm_tips",
     "tip": "Would you like to set <color=#FFDE38>\"%s\"</color> as your Secondary Password hint? "
   },
-  "levelScene_sham_win": {
-    "key": "levelScene_sham_win",
-    "tip": "Mirror Sea battle complete."
-  },
   "secondarypassword_incorrectpwd_error": {
     "key": "secondarypassword_incorrectpwd_error",
     "tip": "Your Secondary Password is incorrect. You have <color=#FF5C5C>%d</color> attempts remaining."
@@ -6405,17 +6417,29 @@
     "key": "Word_Ship_Exp_Buff",
     "tip": "EXP Rate+ "
   },
+  "levelScene_sham_win": {
+    "key": "levelScene_sham_win",
+    "tip": "Mirror Sea battle complete."
+  },
   "words_information": {
     "key": "words_information",
     "tip": "Info"
+  },
+  "words_settings_unlock_commander": {
+    "key": "words_settings_unlock_commander",
+    "tip": "Unlocking Meowfficers"
+  },
+  "commander_can_not_select_same_group": {
+    "key": "commander_can_not_select_same_group",
+    "tip": "You cannot assign 2 Meowfficers of the same type to one fleet."
   },
   "guild_modify_erro": {
     "key": "guild_modify_erro",
     "tip": "Failed to change info."
   },
-  "words_settings_unlock_commander": {
-    "key": "words_settings_unlock_commander",
-    "tip": "Unlocking Meowfficers"
+  "empty_tip_mailboxui": {
+    "key": "empty_tip_mailboxui",
+    "tip": "You don't have any mail."
   },
   "charge_success": {
     "key": "charge_success",
@@ -6429,13 +6453,13 @@
     "key": "backyard_shipExit_error",
     "tip": "Failed to leave dorm: "
   },
-  "switch_to_shop_tip_3": {
-    "key": "switch_to_shop_tip_3",
-    "tip": "You don't have enough $1. Care to buy some?"
+  "list_empty_tip_friendui_black": {
+    "key": "list_empty_tip_friendui_black",
+    "tip": "There are no commanders on your blacklist."
   },
-  "empty_tip_mailboxui": {
-    "key": "empty_tip_mailboxui",
-    "tip": "You don't have any mail."
+  "ship_shipUpgradeLayer2_levelError": {
+    "key": "ship_shipUpgradeLayer2_levelError",
+    "tip": "Level is too low."
   },
   "oil_buy_limit_tip": {
     "key": "oil_buy_limit_tip",
@@ -6449,14 +6473,6 @@
     "key": "pt_count",
     "tip": "Target $1 :"
   },
-  "list_empty_tip_friendui_black": {
-    "key": "list_empty_tip_friendui_black",
-    "tip": "There are no commanders on your blacklist."
-  },
-  "main_notificationMediator_sendFriendRequest": {
-    "key": "main_notificationMediator_sendFriendRequest",
-    "tip": "Friend request sent."
-  },
   "list_empty_tip_joinguildui": {
     "key": "list_empty_tip_joinguildui",
     "tip": "Found no Guilds matching your search criteria."
@@ -6464,6 +6480,14 @@
   "list_empty_tip_storehouseui_item": {
     "key": "list_empty_tip_storehouseui_item",
     "tip": "You don't have any materials."
+  },
+  "list_empty_tip_storehouseui_equip": {
+    "key": "list_empty_tip_storehouseui_equip",
+    "tip": "You don't have any gear."
+  },
+  "list_empty_tip_billboardui": {
+    "key": "list_empty_tip_billboardui",
+    "tip": "No ranking data available."
   },
   "mingshi_get_tip": {
     "key": "mingshi_get_tip",
@@ -6477,9 +6501,9 @@
     "key": "list_empty_tip_equipmentdesignui",
     "tip": "You don't have any blueprints."
   },
-  "list_empty_tip_storehouseui_equip": {
-    "key": "list_empty_tip_storehouseui_equip",
-    "tip": "You don't have any gear."
+  "pass_times": {
+    "key": "pass_times",
+    "tip": "Stage clears."
   },
   "help_summer_feast": {
     "key": "help_summer_feast",
@@ -6497,29 +6521,13 @@
     "key": "technology_stop_tip",
     "tip": "Would you like to suspend research? The items and resources you've spent will not be refunded."
   },
-  "pass_times": {
-    "key": "pass_times",
-    "tip": "Stage clears."
-  },
-  "reconnect_tip": {
-    "key": "reconnect_tip",
-    "tip": "Network connection failed. Reconnect now?\n[$1]"
-  },
-  "challenge_end_tip": {
-    "key": "challenge_end_tip",
-    "tip": "This event has concluded. "
-  },
   "commander_select_box_tip": {
     "key": "commander_select_box_tip",
     "tip": "Commence training for $1 Cat Box(es)? A maximum of 4 can be trained simultaneously."
   },
-  "commander_fleet_pos_not_exist": {
-    "key": "commander_fleet_pos_not_exist",
-    "tip": "A Meowfficer has not been assigned."
-  },
-  "test_ship_upgrade_tip": {
-    "key": "test_ship_upgrade_tip",
-    "tip": "There's no need to limit break Engineers!"
+  "reconnect_tip": {
+    "key": "reconnect_tip",
+    "tip": "Network connection failed. Reconnect now?\n[$1]"
   },
   "commander_prefab_rename_time": {
     "key": "commander_prefab_rename_time",
@@ -6529,41 +6537,49 @@
     "key": "commander_prefab_name",
     "tip": "Team $1"
   },
-  "ship_updateShipLock_ok_unlock": {
-    "key": "ship_updateShipLock_ok_unlock",
-    "tip": "<color=#92fc63>$1</color> unlocked."
+  "commander_fleet_pos_not_exist": {
+    "key": "commander_fleet_pos_not_exist",
+    "tip": "A Meowfficer has not been assigned."
+  },
+  "test_ship_upgrade_tip": {
+    "key": "test_ship_upgrade_tip",
+    "tip": "There's no need to limit break Engineers!"
   },
   "commander_prefab_rename_success": {
     "key": "commander_prefab_rename_success",
     "tip": "Name change successful."
   },
-  "commission_normal": {
-    "key": "commission_normal",
-    "tip": "Commission: "
+  "commission_open_tip": {
+    "key": "commission_open_tip",
+    "tip": "Clear stage $1 to unlock"
+  },
+  "ship_updateShipLock_ok_unlock": {
+    "key": "ship_updateShipLock_ok_unlock",
+    "tip": "<color=#92fc63>$1</color> unlocked."
   },
   "challenge_combat_score": {
     "key": "challenge_combat_score",
     "tip": "Stage Score: $1"
   },
-  "ship_vo_inClass": {
-    "key": "ship_vo_inClass",
-    "tip": "Selected character is in class!"
-  },
   "challenge_season_update_infinite_switch": {
     "key": "challenge_season_update_infinite_switch",
     "tip": "You are currently playing on Endless Mode.\nCurrent Stage: $1.\nSince the Challenge Stage lineup has changed, this won't affect your Stage Clear score.\nWould you like to change modes?"
-  },
-  "ship_getShip_error_full": {
-    "key": "ship_getShip_error_full",
-    "tip": "<color=#92fc63>Your dock is full.</color> Unable to receive ship!"
   },
   "challenge_season_update_casual_switch": {
     "key": "challenge_season_update_casual_switch",
     "tip": "You are currently playing on Normal Mode.\nTotal score: $1.\nSince the Challenge Stage lineup has changed, this won't affect your high score.\nWould you like to change modes?"
   },
+  "ship_vo_inClass": {
+    "key": "ship_vo_inClass",
+    "tip": "Selected character is in class!"
+  },
   "challenge_season_update": {
     "key": "challenge_season_update",
     "tip": "The Challenge Stage lineup has changed."
+  },
+  "ship_getShip_error_full": {
+    "key": "ship_getShip_error_full",
+    "tip": "<color=#92fc63>Your dock is full.</color> Unable to receive ship!"
   },
   "challenge_infinite_click_switch": {
     "key": "challenge_infinite_click_switch",
@@ -6619,10 +6635,6 @@
       }
     ]
   },
-  "word_soundfiles_retry": {
-    "key": "word_soundfiles_retry",
-    "tip": "Tap to retry"
-  },
   "returner_match_tip": {
     "key": "returner_match_tip",
     "tip": "A <color=#FF5C5C>random Active Commander's</color> UID will be input and you will become eligible for Returnee Missions. Would you like to continue?"
@@ -6631,13 +6643,13 @@
     "key": "returner_max_count",
     "tip": "The Returning/New Commander list is full."
   },
-  "fate_phase_word": {
-    "key": "fate_phase_word",
-    "tip": "Research Progress: "
+  "word_soundfiles_retry": {
+    "key": "word_soundfiles_retry",
+    "tip": "Tap to retry"
   },
-  "backyard_backyardShipInfoMediator_error_fleetOnlyOneShip": {
-    "key": "backyard_backyardShipInfoMediator_error_fleetOnlyOneShip",
-    "tip": "This is the last ship in this formation. Unable to complete action."
+  "technology_uplevel_error_studying": {
+    "key": "technology_uplevel_error_studying",
+    "tip": "You are already improving the $1's Faction Tech.\nYou can only improve one Faction Tech at a time. "
   },
   "attire_time_stamp": {
     "key": "attire_time_stamp",
@@ -6650,6 +6662,18 @@
         "info": "Event Information: \n\n1. This event and the rewards you can receive from it are split into 2 categories depending on your last login status: \n a. Active Commander \n b. Returning/New Commander\n2. Players who meet the following criterion are categorized as Active Commanders and are eligible for Active Commander objectives and rewards: \n- Logged in at least once at any point between August 11th, 2019 and before the maintenance on September 11th, 2019.\n3. Players who do not meet this criterion are categorized as Returning/New Commanders and are eligible for their own set of objectives and rewards.\n4. If you are unsure whether you are an Active Commander or a Returning/New Commander, please view the information in the Returnee Missions banner. \n5. An Active Commander's objective is to receive Returnee Points from up to 2 other players who participate in and complete Returnee Missions. Once an Active Commander has collected enough points, they can claim various nice rewards from the event banner.\n6. Returning/New Commanders can participate in Returnee Missions by entering the UID of an Active Commander into the event banner on their end. You can see the UIDs of your linked Returning/New Commanders on the right side of the event banner. \n7. Active Commanders can tap the \"Send Mobilization Request\" button to show their UID to Returning/New Commanders who are looking for Active Commander UIDs.\n8. A Returning/New Commander's objective is to enter an Active Commander's UID in the event banner to gain access to Returnee Missions. Returning/New Commanders who participate in Returnee Missions gain access to daily tasks which give various nice rewards when completed.\n9. A single UID can be entered up to 2 times. You can still enter the UID of another player even if they play on a different server than you."
       }
     ]
+  },
+  "backyard_backyardShipInfoMediator_error_fleetOnlyOneShip": {
+    "key": "backyard_backyardShipInfoMediator_error_fleetOnlyOneShip",
+    "tip": "This is the last ship in this formation. Unable to complete action."
+  },
+  "levelScene_threat_to_rule_out": {
+    "key": "levelScene_threat_to_rule_out",
+    "tip": "Eliminate Threat $1"
+  },
+  "dress_up_success": {
+    "key": "dress_up_success",
+    "tip": "Successfully changed chat settings."
   },
   "player_changePlayerName_ok": {
     "key": "player_changePlayerName_ok",
@@ -6671,14 +6695,6 @@
     "key": "main_navalAcademyScene_upgrade_complete",
     "tip": "<color=#92fc63>$1</color> upgraded! Max capacity <color=#9CFF5CE6>+$2</color>!"
   },
-  "levelScene_time_out": {
-    "key": "levelScene_time_out",
-    "tip": "Battle time exceeded."
-  },
-  "dress_up_success": {
-    "key": "dress_up_success",
-    "tip": "Successfully changed chat settings."
-  },
   "limit_skin_time_overtime": {
     "key": "limit_skin_time_overtime",
     "tip": "Your rental period for this skin has concluded."
@@ -6687,33 +6703,33 @@
     "key": "limit_skin_time_min",
     "tip": "Time left: $1 minute(s)"
   },
-  "just_now": {
-    "key": "just_now",
-    "tip": "Just now"
-  },
   "word_equipment_aircraft": {
     "key": "word_equipment_aircraft",
     "tip": "Aircraft"
-  },
-  "backyard_backyardScene_error_noFurniture": {
-    "key": "backyard_backyardScene_error_noFurniture",
-    "tip": "You don't have any furniture to decorate."
   },
   "change_display_medal_success": {
     "key": "change_display_medal_success",
     "tip": "Changed Medal display settings."
   },
+  "just_now": {
+    "key": "just_now",
+    "tip": "Just now"
+  },
   "rename_commander_erro": {
     "key": "rename_commander_erro",
     "tip": "Failed to change username."
+  },
+  "backyard_backyardScene_error_noFurniture": {
+    "key": "backyard_backyardScene_error_noFurniture",
+    "tip": "You don't have any furniture to decorate."
   },
   "return_award_bind_erro": {
     "key": "return_award_bind_erro",
     "tip": "UID entry failed $1."
   },
-  "channel_name_5": {
-    "key": "channel_name_5",
-    "tip": "Guild"
+  "activity_level_pass_easy_tip": {
+    "key": "activity_level_pass_easy_tip",
+    "tip": "You must first <color=#a0ff40>clear this stage on Normal</color> in order to unlock Hard mode."
   },
   "warning_mail_max_2": {
     "key": "warning_mail_max_2",
@@ -6723,13 +6739,21 @@
     "key": "index_rare6",
     "tip": "Ultra"
   },
-  "mingshi_task_tip_6": {
-    "key": "mingshi_task_tip_6",
-    "tip": "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>A</color>>\nThe next target is... <<color=#a0ff40>taking a rest</color>>!"
+  "mingshi_task_tip_1": {
+    "key": "mingshi_task_tip_1",
+    "tip": "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>T</color>>\nThe next target is... <<color=#a0ff40>items stockpile</color>>!"
   },
   "index_shipType_qianTing": {
     "key": "index_shipType_qianTing",
     "tip": "SS"
+  },
+  "levelScene_jump_to_sub_confirm": {
+    "key": "levelScene_jump_to_sub_confirm",
+    "tip": "Signal source located. Would you like to head to \"$1\" in Chapter $2?"
+  },
+  "index_shipType_zhongXun": {
+    "key": "index_shipType_zhongXun",
+    "tip": "CA"
   },
   "npc_learn_skill_tip": {
     "key": "npc_learn_skill_tip",
@@ -6739,29 +6763,17 @@
     "key": "intimacy_desc_7",
     "tip": "$1 is willing to trust her life with you."
   },
-  "levelScene_signal_help_tip": {
-    "key": "levelScene_signal_help_tip",
-    "tip": "About Distress Signals"
-  },
-  "index_shipType_zhongXun": {
-    "key": "index_shipType_zhongXun",
-    "tip": "CA"
-  },
   "index_shipType_quZhu": {
     "key": "index_shipType_quZhu",
     "tip": "DD"
   },
-  "attribute_dodge_limit": {
-    "key": "attribute_dodge_limit",
-    "tip": "Evasion Limit "
+  "attribute_sonarInterval": {
+    "key": "attribute_sonarInterval",
+    "tip": "FREQ "
   },
-  "friend_no_request": {
-    "key": "friend_no_request",
-    "tip": "No requests found."
-  },
-  "backyard_rename_success": {
-    "key": "backyard_rename_success",
-    "tip": "Dorm name changed!"
+  "ship_dockyardScene_capacity": {
+    "key": "ship_dockyardScene_capacity",
+    "tip": "Dock capacity:"
   },
   "intimacy_desc_propose_vertical": {
     "key": "intimacy_desc_propose_vertical",
@@ -6771,61 +6783,69 @@
     "key": "number_0",
     "tip": "0"
   },
+  "backyard_rename_success": {
+    "key": "backyard_rename_success",
+    "tip": "Dorm name changed!"
+  },
   "word_votes": {
     "key": "word_votes",
     "tip": "得票数量"
-  },
-  "commission_idle": {
-    "key": "commission_idle",
-    "tip": "Idle..."
   },
   "electrotherapy_wanning": {
     "key": "electrotherapy_wanning",
     "tip": "The electrified area is about to expand"
   },
+  "fate_phase_word": {
+    "key": "fate_phase_word",
+    "tip": "Research Progress: "
+  },
+  "commission_idle": {
+    "key": "commission_idle",
+    "tip": "Idle..."
+  },
+  "new_airi_error_code_200340": {
+    "key": "new_airi_error_code_200340",
+    "tip": "Payment canceled by user"
+  },
   "warning_pray_build_pool": {
     "key": "warning_pray_build_pool",
     "tip": "Once you begin focusing your wishes, <color=#FF5C5C>they cannot be changed</color>.\nAre you sure you want to wish for this?"
   },
-  "course_class_help": {
-    "key": "course_class_help",
-    "tip": [
-      {
-        "info": "Lecture Hall Information\n\nWhen you put Students in the Lecture Hall, they can partake in a Lecture which converts the fleet's accumulated Proficiency into EXP.\n\n- About Proficiency\nA set amount of the EXP earned by Level 100 or higher ships will be automatically added to the Lecture Hall in the form of Proficiency.\nProficiency is shared among the whole fleet and you cannot accumulate more than the Lecture Hall can hold.\nUpgrading the Lecture Hall will increase the cap of how much Proficiency you can accumulate as well as increase the amount of Proficiency earned.\n\n- About Lectures\nThe types of ships you can send to study in the Lecture Hall depends on the day of the week.\nOnce you have begun a Lecture, you can end it at any time you wish.\nEnding the Lecture will convert Proficiency to EXP for the Students depending on how long the Lecture lasted.\nThe maximum amount of time a Lecture can last is 12 hours.\nUp to the point before the Lecture finishes, the acquired Proficiency will be automatically converted into EXP for the Students in attendance.\n\n- About Students\nOnly ships below Level 100 can be added the Lecture Hall.\nThe more Students you add, the more efficient the conversion rate of Proficiency to EXP will be.\nStudents will lose a small amount of Morale when participating in a Lecture.\nMonitors can partake in Battleship Lectures.\nRepair Ships can partake in Destroyer and Cruiser Lectures.\nAviation Battleships can partake in Carrier and Battleship Lectures.\n\n- Lecture Schedule\nMonday: Destroyers - Amazon's Amazing Torpedo Tactics!\nTuesday: Cruisers - The Right Ammo for The Right Time\nWednesday: Battleships - Why The \"Bigger Gun Principle\" Works\nThursday: Carriers - Positioning Out on The Open Ocean\nFriday: Destroyers - Tactics Even a Monkey Could Understand!\nSaturday: Cruisers - How To Maximize Your Firepower\n\nThere are no Lectures on Sundays, but you will earn double the amount of Proficiency from sorties."
-      }
-    ]
+  "event_type_unlimit": {
+    "key": "event_type_unlimit",
+    "tip": "Any type"
   },
-  "technology_uplevel_error_studying": {
-    "key": "technology_uplevel_error_studying",
-    "tip": "You are already improving the $1's Faction Tech.\nYou can only improve one Faction Tech at a time. "
-  },
-  "long_time_offline": {
-    "key": "long_time_offline",
-    "tip": "Inactive"
-  },
-  "word_save_ok": {
-    "key": "word_save_ok",
-    "tip": "Successfully saved to your photo album"
+  "word_photo_mode": {
+    "key": "word_photo_mode",
+    "tip": "Photo"
   },
   "black_white_grid_switch_tip": {
     "key": "black_white_grid_switch_tip",
     "tip": "This Board is still in Progress"
   },
-  "intimacy_desc_1_detail": {
-    "key": "intimacy_desc_1_detail",
-    "tip": "$1 is upset with you.\n<color=#fad545><size=18>(No buff)</size></color>"
+  "equip_part_main_title": {
+    "key": "equip_part_main_title",
+    "tip": "Use (Main)"
   },
-  "ship_quick_change_noequip": {
-    "key": "ship_quick_change_noequip",
-    "tip": "Unable to find usable gear."
+  "guild_shop_flash_success": {
+    "key": "guild_shop_flash_success",
+    "tip": "Refreshed!"
+  },
+  "ambush_display_3": {
+    "key": "ambush_display_3",
+    "tip": "Low"
+  },
+  "twitter_link_title": {
+    "key": "twitter_link_title",
+    "tip": "Twitter Account:$1"
   },
   "ship_remould_max_level": {
     "key": "ship_remould_max_level",
     "tip": "You've reached the maximum number of improvements."
   },
-  "ambush_display_3": {
-    "key": "ambush_display_3",
-    "tip": "Low"
+  "text_retreat": {
+    "key": "text_retreat",
+    "tip": "Retreat"
   },
   "common_activity_not_start": {
     "key": "common_activity_not_start",
@@ -6986,25 +7006,9 @@
       }
     ]
   },
-  "battle_preCombatLayer_boss_destruct": {
-    "key": "battle_preCombatLayer_boss_destruct",
-    "tip": "Defeat the boss before it self-destructs"
-  },
-  "text_retreat": {
-    "key": "text_retreat",
-    "tip": "Retreat"
-  },
   "text_exchange": {
     "key": "text_exchange",
     "tip": "Exchange"
-  },
-  "escort_less_count_to_combat": {
-    "key": "escort_less_count_to_combat",
-    "tip": "You cannot run this any more today. "
-  },
-  "login_newPlayerScene_name_tooLong": {
-    "key": "login_newPlayerScene_name_tooLong",
-    "tip": "Name is too long."
   },
   "text_nextpage": {
     "key": "text_nextpage",
@@ -7013,6 +7017,14 @@
   "text_prepage": {
     "key": "text_prepage",
     "tip": "Prev"
+  },
+  "escort_less_count_to_combat": {
+    "key": "escort_less_count_to_combat",
+    "tip": "You cannot run this any more today. "
+  },
+  "login_newPlayerScene_name_tooLong": {
+    "key": "login_newPlayerScene_name_tooLong",
+    "tip": "Name is too long."
   },
   "text_apply": {
     "key": "text_apply",
@@ -7026,17 +7038,17 @@
     "key": "text_exit",
     "tip": "Exit"
   },
-  "guild_word_member": {
-    "key": "guild_word_member",
-    "tip": "Members"
+  "world_log_9": {
+    "key": "world_log_9",
+    "tip": "Arrived at <material=underline><color=#92fc63>[$chapter]</color></material>."
   },
-  "activity_puzzle_get14": {
-    "key": "activity_puzzle_get14",
-    "tip": "<color=#A9F548FF>How to get: \nmission 5</color>"
+  "activity_puzzle_get4": {
+    "key": "activity_puzzle_get4",
+    "tip": "<color=#A9F548FF>How to get: Normal difficulty 3-1</color>"
   },
-  "ship_equip_profiiency": {
-    "key": "ship_equip_profiiency",
-    "tip": "Efficiency: $1%"
+  "equipment_select_device_destroy_bonus_tip": {
+    "key": "equipment_select_device_destroy_bonus_tip",
+    "tip": "Items received:"
   },
   "trophy_achieved": {
     "key": "trophy_achieved",
@@ -7092,6 +7104,14 @@
       }
     ]
   },
+  "medal_notice_2": {
+    "key": "medal_notice_2",
+    "tip": "Display "
+  },
+  "medal_notice_1": {
+    "key": "medal_notice_1",
+    "tip": "Show highes rank "
+  },
   "word_soundfiles_update_end_title": {
     "key": "word_soundfiles_update_end_title",
     "tip": "Language pack updated!"
@@ -7100,17 +7120,17 @@
     "key": "friend_resume_data_title",
     "tip": "Data"
   },
-  "medal_notice_2": {
-    "key": "medal_notice_2",
-    "tip": "Display "
+  "backyard_class_tip": {
+    "key": "backyard_class_tip",
+    "tip": "Attending Lectures grants EXP over time."
   },
   "guild_msg_is_null": {
     "key": "guild_msg_is_null",
     "tip": "Unable to send empty messages."
   },
-  "medal_notice_1": {
-    "key": "medal_notice_1",
-    "tip": "Show highes rank "
+  "backyard_rest_tip": {
+    "key": "backyard_rest_tip",
+    "tip": "Resting greatly improves Morale recovery."
   },
   "login_loginScene_error_noMailBox": {
     "key": "login_loginScene_error_noMailBox",
@@ -7132,37 +7152,25 @@
     "key": "backyarad_theme_replace",
     "tip": "Some decorations from the \"$1\" theme are already in use and have not been moved."
   },
-  "backyard_class_tip": {
-    "key": "backyard_class_tip",
-    "tip": "Attending Lectures grants EXP over time."
+  "word_comfort_level": {
+    "key": "word_comfort_level",
+    "tip": "Comfort"
   },
-  "backyard_rest_tip": {
-    "key": "backyard_rest_tip",
-    "tip": "Resting greatly improves Morale recovery."
+  "npc_propse_tip": {
+    "key": "npc_propse_tip",
+    "tip": "You cannot Oath Temporary Recruits."
   },
   "vote_final_rule2": {
     "key": "vote_final_rule2",
     "tip": "Wedding dresses will be made for characters based on rankings. If the champion already has a wedding dress, the second place character will receive the dress."
   },
-  "word_comfort_level": {
-    "key": "word_comfort_level",
-    "tip": "Comfort"
-  },
-  "event_giveup": {
-    "key": "event_giveup",
-    "tip": "Cancel"
-  },
-  "map_event_skip": {
-    "key": "map_event_skip",
-    "tip": "Skip stories"
-  },
   "no_airspace_competition": {
     "key": "no_airspace_competition",
     "tip": "No Aerial Combat "
   },
-  "login_gate_not_ready": {
-    "key": "login_gate_not_ready",
-    "tip": "Server not open."
+  "event_giveup": {
+    "key": "event_giveup",
+    "tip": "Cancel"
   },
   "levelScene_loop_help_tip": {
     "key": "levelScene_loop_help_tip",
@@ -7176,17 +7184,29 @@
     "key": "backyard_is_loading",
     "tip": "Loading furniture... "
   },
+  "login_gate_not_ready": {
+    "key": "login_gate_not_ready",
+    "tip": "Server not open."
+  },
   "world_boss_award_limit": {
     "key": "world_boss_award_limit",
     "tip": "Unlocks when the progress gauge reaches <color=#FFDE00FF>$1%</color>. "
+  },
+  "world_boss_tip": {
+    "key": "world_boss_tip",
+    "tip": "<color=#7e7e7f>$1</color> has contributed <color=#8299bc>$2</color> points towards the world boss progress gauge! "
+  },
+  "guild_word_member": {
+    "key": "guild_word_member",
+    "tip": "Members"
   },
   "word_kiss": {
     "key": "word_kiss",
     "tip": "*Mwah!*"
   },
-  "world_boss_tip": {
-    "key": "world_boss_tip",
-    "tip": "<color=#7e7e7f>$1</color> has contributed <color=#8299bc>$2</color> points towards the world boss progress gauge! "
+  "md5_error": {
+    "key": "md5_error",
+    "tip": "An error has occurred. Please restart the game."
   },
   "new_airi_error_code_100302": {
     "key": "new_airi_error_code_100302",
@@ -7195,18 +7215,6 @@
   "backyard_shipAddMoney_ok": {
     "key": "backyard_shipAddMoney_ok",
     "tip": "<color=#92fc63>$1</color> made an unexpected discovery! Decor Tokens <color=#92fc63>+$2</color>."
-  },
-  "guild_log_new_guild_join": {
-    "key": "guild_log_new_guild_join",
-    "tip": "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> has joined the guild!"
-  },
-  "commander_select_matiral_erro": {
-    "key": "commander_select_matiral_erro",
-    "tip": "<size=22>This Meowfficer is at the max level; you can only Enhance its Skill with Meowfficers of the same type.</size>"
-  },
-  "md5_error": {
-    "key": "md5_error",
-    "tip": "An error has occurred. Please restart the game."
   },
   "help_monopoly": {
     "key": "help_monopoly",
@@ -7284,9 +7292,9 @@
       }
     ]
   },
-  "chapter_ap_not_enough": {
-    "key": "chapter_ap_not_enough",
-    "tip": "You don't have enough AP."
+  "commander_select_matiral_erro": {
+    "key": "commander_select_matiral_erro",
+    "tip": "<size=22>This Meowfficer is at the max level; you can only Enhance its Skill with Meowfficers of the same type.</size>"
   },
   "exit_backyard_exp_display": {
     "key": "exit_backyard_exp_display",
@@ -7296,17 +7304,29 @@
     "key": "tag_level_oni",
     "tip": "特殊单位"
   },
+  "chapter_ap_not_enough": {
+    "key": "chapter_ap_not_enough",
+    "tip": "You don't have enough AP."
+  },
   "tag_level_fighting": {
     "key": "tag_level_fighting",
     "tip": "In Progress"
+  },
+  "school_title_xueyuan": {
+    "key": "school_title_xueyuan",
+    "tip": "Tactical Class"
+  },
+  "battle_resourceSiteMediator_shipState_event": {
+    "key": "battle_resourceSiteMediator_shipState_event",
+    "tip": "She's currently on commission!"
   },
   "help_build": {
     "key": "help_build",
     "tip": "\t\t\t\t<size=23>$1 Construct Rate:</size>\n\n\t\t\t\t\t\t\t\t<color=#fff157> Super Rare</color>: $2%\n\t\t\t\t\t\t\t\t <color=#966af6>Elite</color>: $3%\n\t\t\t\t\t\t\t\t <color=#60a9ff>Rare</color>: $4%\n\t\t\t\t\t\t\t\t Common: $5% \n\n\t\t\t\t\t\t\t\t\t"
   },
-  "school_title_xueyuan": {
-    "key": "school_title_xueyuan",
-    "tip": "Tactical Class"
+  "attribute_armor": {
+    "key": "attribute_armor",
+    "tip": "Armor"
   },
   "transcode_empty_tip": {
     "key": "transcode_empty_tip",
@@ -7324,53 +7344,53 @@
     "key": "open_skill_pos",
     "tip": "It will cost you <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffff00>$1</color> to unlock 3rd slot, Do you wish to proceed?"
   },
-  "backyard_addShip_error": {
-    "key": "backyard_addShip_error",
-    "tip": "Failed to add ship: "
-  },
-  "attribute_speed": {
-    "key": "attribute_speed",
-    "tip": "Speed"
-  },
   "draw_little_luck_3": {
     "key": "draw_little_luck_3",
     "tip": "Your luck might improve if you come to my shop nya~"
-  },
-  "new_airi_error_code_200150": {
-    "key": "new_airi_error_code_200150",
-    "tip": "Payment receipt verification failed"
   },
   "draw_medium_luck_3": {
     "key": "draw_medium_luck_3",
     "tip": "I hope you'll share some of your luck with me nya!"
   },
-  "word_attr_antisub": {
-    "key": "word_attr_antisub",
-    "tip": "ASW "
-  },
   "draw_medium_luck_2": {
     "key": "draw_medium_luck_2",
     "tip": "Luck is on your side, so keep at it nya!"
   },
-  "word_sell_out": {
-    "key": "word_sell_out",
-    "tip": "Sold out"
+  "new_airi_error_code_200150": {
+    "key": "new_airi_error_code_200150",
+    "tip": "Payment receipt verification failed"
   },
-  "backyard_addFood_error": {
-    "key": "backyard_addFood_error",
-    "tip": "Failed to add snacks: "
+  "backyard_addShip_error": {
+    "key": "backyard_addShip_error",
+    "tip": "Failed to add ship: "
+  },
+  "word_attr_antisub": {
+    "key": "word_attr_antisub",
+    "tip": "ASW "
   },
   "draw_big_luck_3": {
     "key": "draw_big_luck_3",
     "tip": "Something good will surely come your way today nya!"
   },
+  "word_sell_out": {
+    "key": "word_sell_out",
+    "tip": "Sold out"
+  },
   "draw_big_luck_2": {
     "key": "draw_big_luck_2",
     "tip": "How fortunate nya! You're making me jealous nya~"
   },
-  "longxiang_total_count": {
-    "key": "longxiang_total_count",
-    "tip": "J Talisman total: "
+  "activity_switch_tip": {
+    "key": "activity_switch_tip",
+    "tip": "If you switch to Normal mode, <color=#a0ff40>all progress on Hard mode will be lost</color>. (Note: You must clear the stage on Normal again in order to unlock Hard mode)"
+  },
+  "map_event_save_rurutie": {
+    "key": "map_event_save_rurutie",
+    "tip": "Successfully Rescued <color=#92fc63>Rulutieh</color>"
+  },
+  "map_event_skip": {
+    "key": "map_event_skip",
+    "tip": "Skip stories"
   },
   "shop_buyItem_error": {
     "key": "shop_buyItem_error",
@@ -7384,29 +7404,29 @@
     "key": "backyard_theme_bought",
     "tip": "Purchased"
   },
-  "map_event_save_rurutie": {
-    "key": "map_event_save_rurutie",
-    "tip": "Successfully Rescued <color=#92fc63>Rulutieh</color>"
+  "npc_strength_tip": {
+    "key": "npc_strength_tip",
+    "tip": "If this Temporary Recruit leaves the port, any items or materials used to Strengthen her will NOT be refunded. Continue anyway?"
   },
   "air_supremacy_value": {
     "key": "air_supremacy_value",
     "tip": "Air Control Degree"
   },
-  "npc_strength_tip": {
-    "key": "npc_strength_tip",
-    "tip": "If this Temporary Recruit leaves the port, any items or materials used to Strengthen her will NOT be refunded. Continue anyway?"
+  "spece_illegal_tip": {
+    "key": "spece_illegal_tip",
+    "tip": "Cannot uses spaces"
   },
   "intimacy_desc_3_buff": {
     "key": "intimacy_desc_3_buff",
     "tip": "Current buff: All base stats (except speed and gear) +1%"
   },
-  "npc_propse_tip": {
-    "key": "npc_propse_tip",
-    "tip": "You cannot Oath Temporary Recruits."
+  "ranking_word_9": {
+    "key": "ranking_word_9",
+    "tip": "Score"
   },
-  "spece_illegal_tip": {
-    "key": "spece_illegal_tip",
-    "tip": "Cannot uses spaces"
+  "ranking_word_3": {
+    "key": "ranking_word_3",
+    "tip": "Promises Made"
   },
   "challenge_current_progress": {
     "key": "challenge_current_progress",
@@ -7424,13 +7444,13 @@
     "key": "backyard_backyardShipInfoLayer_quest_openPos",
     "tip": "Unlock this row for <color=#92fc63>$1 Gems</color>?"
   },
-  "ranking_word_9": {
-    "key": "ranking_word_9",
-    "tip": "Score"
+  "ranking_word_2": {
+    "key": "ranking_word_2",
+    "tip": "Collection Rate"
   },
-  "ranking_word_3": {
-    "key": "ranking_word_3",
-    "tip": "Promises Made"
+  "ranking_word_1": {
+    "key": "ranking_word_1",
+    "tip": "Total Power"
   },
   "levelScene_escort_help_tip": {
     "key": "levelScene_escort_help_tip",
@@ -7465,13 +7485,13 @@
     "key": "word_attr_air",
     "tip": "AVI "
   },
-  "ranking_word_2": {
-    "key": "ranking_word_2",
-    "tip": "Collection Rate"
+  "amercian_notice_6": {
+    "key": "amercian_notice_6",
+    "tip": "You have reached the limit for oil or supplies, excess resources will be unavailable if you continue to replenish, do you wish to continue?"
   },
-  "ranking_word_1": {
-    "key": "ranking_word_1",
-    "tip": "Total Power"
+  "amercian_notice_4": {
+    "key": "amercian_notice_4",
+    "tip": "Battle Star"
   },
   "playerinfo_mask_word": {
     "key": "playerinfo_mask_word",
@@ -7481,37 +7501,25 @@
     "key": "event_flush_not_enough",
     "tip": "You're out of refreshes."
   },
-  "amercian_notice_6": {
-    "key": "amercian_notice_6",
-    "tip": "You have reached the limit for oil or supplies, excess resources will be unavailable if you continue to replenish, do you wish to continue?"
+  "amercian_notice_3": {
+    "key": "amercian_notice_3",
+    "tip": "Period：2019.2.21~3.20"
   },
   "word_expAdd": {
     "key": "word_expAdd",
     "tip": "EXP +$1"
   },
-  "amercian_notice_4": {
-    "key": "amercian_notice_4",
-    "tip": "Battle Star"
+  "amercian_notice_2": {
+    "key": "amercian_notice_2",
+    "tip": "※Acquire target reward to unlock the next phase"
   },
   "levelScene_new_chapter_coming": {
     "key": "levelScene_new_chapter_coming",
     "tip": "New Chapter(s): "
   },
-  "amercian_notice_3": {
-    "key": "amercian_notice_3",
-    "tip": "Period：2019.2.21~3.20"
-  },
-  "amercian_notice_2": {
-    "key": "amercian_notice_2",
-    "tip": "※Acquire target reward to unlock the next phase"
-  },
   "commander_lock_tip": {
     "key": "commander_lock_tip",
     "tip": "Would you like to lock this Meowfficer?"
-  },
-  "resource_max_tip_event": {
-    "key": "resource_max_tip_event",
-    "tip": "Unable to collect commission reward."
   },
   "commander_is_in_fleet_already": {
     "key": "commander_is_in_fleet_already",
@@ -7521,9 +7529,9 @@
     "key": "commander_build_rate_tip",
     "tip": "Cat Box procurement rates: Rare: 60%; Elite: 35%; Super Rare: 5%."
   },
-  "invalidate_evaluation": {
-    "key": "invalidate_evaluation",
-    "tip": "Comment contains blocked content."
+  "resource_max_tip_event": {
+    "key": "resource_max_tip_event",
+    "tip": "Unable to collect commission reward."
   },
   "help_command_room": {
     "key": "help_command_room",
@@ -7593,25 +7601,17 @@
       }
     }
   },
-  "word_shipNation_baiYing": {
-    "key": "word_shipNation_baiYing",
-    "tip": "Eagle Union"
+  "word_shipNation_all": {
+    "key": "word_shipNation_all",
+    "tip": "All factions"
   },
-  "which_day_2": {
-    "key": "which_day_2",
-    "tip": "Day $1"
+  "invalidate_evaluation": {
+    "key": "invalidate_evaluation",
+    "tip": "Comment contains blocked content."
   },
-  "ad_1": {
-    "key": "ad_1",
-    "tip": "<material=underline c=#A9F548 event=clickPlayer args=1><color=#92fc63>$1</color></material> constructs <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
-  },
-  "word_shipInfoScene_equip": {
-    "key": "word_shipInfoScene_equip",
-    "tip": "Ship Gear"
-  },
-  "guild_word_home": {
-    "key": "guild_word_home",
-    "tip": "Home"
+  "guild_word_picked": {
+    "key": "guild_word_picked",
+    "tip": "Elite"
   },
   "help_commander_info": {
     "key": "help_commander_info",
@@ -7681,17 +7681,37 @@
       }
     }
   },
+  "which_day_2": {
+    "key": "which_day_2",
+    "tip": "Day $1"
+  },
+  "ad_1": {
+    "key": "ad_1",
+    "tip": "<material=underline c=#A9F548 event=clickPlayer args=1><color=#92fc63>$1</color></material> constructs <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
+  },
+  "word_shipInfoScene_equip": {
+    "key": "word_shipInfoScene_equip",
+    "tip": "Ship Gear"
+  },
   "apply_permission_record_audio_tip1": {
     "key": "apply_permission_record_audio_tip1",
     "tip": "To use AR Record game feature, need permission to access Record."
+  },
+  "apply_permission_camera_tip2": {
+    "key": "apply_permission_camera_tip2",
+    "tip": "You have turned off recording permission, please confirm permission in the game settings menu."
+  },
+  "newplayer_notice_8": {
+    "key": "newplayer_notice_8",
+    "tip": "Commander, welcome to Azur Lane! Let’s report to boot camp, now!"
   },
   "equipment_max_level": {
     "key": "equipment_max_level",
     "tip": "Gear level cap"
   },
-  "apply_permission_camera_tip2": {
-    "key": "apply_permission_camera_tip2",
-    "tip": "You have turned off recording permission, please confirm permission in the game settings menu."
+  "newplayer_notice_3": {
+    "key": "newplayer_notice_3",
+    "tip": "Unlocked after completing all Exams"
   },
   "switch_to_shop_tip_noDockyard": {
     "key": "switch_to_shop_tip_noDockyard",
@@ -7701,9 +7721,9 @@
     "key": "word_contribution",
     "tip": "贡献"
   },
-  "newplayer_notice_8": {
-    "key": "newplayer_notice_8",
-    "tip": "Commander, welcome to Azur Lane! Let’s report to boot camp, now!"
+  "guild_word_ordinary": {
+    "key": "guild_word_ordinary",
+    "tip": "Normal"
   },
   "vote_get_book": {
     "key": "vote_get_book",
@@ -7717,17 +7737,17 @@
     "key": "text_cancel_fight",
     "tip": "Leave battle"
   },
-  "world_log_12": {
-    "key": "world_log_12",
-    "tip": "Cannot move to this sea area."
-  },
-  "world_log_9": {
-    "key": "world_log_9",
-    "tip": "Arrived at <material=underline><color=#92fc63>[$chapter]</color></material>."
-  },
   "world_log_6": {
     "key": "world_log_6",
     "tip": "[$fleet] was defeated in combat..."
+  },
+  "formation_forbid_when_in_chapter": {
+    "key": "formation_forbid_when_in_chapter",
+    "tip": "Fleet is currently attacking at sea. Unable to edit formation."
+  },
+  "buildship_light_tip": {
+    "key": "buildship_light_tip",
+    "tip": "Light: Destroyers, Light Cruisers,Repair Ships and more!"
   },
   "common_wait": {
     "key": "common_wait",
@@ -7737,33 +7757,21 @@
     "key": "ship_upgradeStar_maxLevel",
     "tip": "Limit Break cap already reached!"
   },
-  "challenge_count_unlimit": {
-    "key": "challenge_count_unlimit",
-    "tip": "Endless Mode"
+  "levelScene_chapter_level_limit": {
+    "key": "levelScene_chapter_level_limit",
+    "tip": "Reach Commander lv. <color=#92fc63>$1</color> to unlock this stage."
   },
-  "buildship_light_tip": {
-    "key": "buildship_light_tip",
-    "tip": "Light: Destroyers, Light Cruisers,Repair Ships and more!"
-  },
-  "activity_hit_monster_erro": {
-    "key": "activity_hit_monster_erro",
-    "tip": "Attack failed "
-  },
-  "words_settings_resolve_equip": {
-    "key": "words_settings_resolve_equip",
-    "tip": "Scrapping gears"
+  "number_6": {
+    "key": "number_6",
+    "tip": "6"
   },
   "commander_capcity_is_max": {
     "key": "commander_capcity_is_max",
     "tip": "The Cattery is full, nya..."
   },
-  "commander_can_not_select_same_group": {
-    "key": "commander_can_not_select_same_group",
-    "tip": "You cannot assign 2 Meowfficers of the same type to one fleet."
-  },
-  "ship_vo_moveout_formation": {
-    "key": "ship_vo_moveout_formation",
-    "tip": "Remove from formation?"
+  "words_settings_resolve_equip": {
+    "key": "words_settings_resolve_equip",
+    "tip": "Scrapping gears"
   },
   "commander_get_skills_done": {
     "key": "commander_get_skills_done",
@@ -7773,33 +7781,37 @@
     "key": "commander_build_done",
     "tip": "Commenced Meowfficer training!"
   },
-  "vote_rank_in_current_server": {
-    "key": "vote_rank_in_current_server",
-    "tip": "*Rankings are for current server only"
+  "ship_vo_moveout_formation": {
+    "key": "ship_vo_moveout_formation",
+    "tip": "Remove from formation?"
   },
-  "open_skill_class_success": {
-    "key": "open_skill_class_success",
-    "tip": "Successfully Unlocked Skill Slot "
+  "vote_final_title2": {
+    "key": "vote_final_title2",
+    "tip": "Event Rewards"
   },
-  "take_all_mail": {
-    "key": "take_all_mail",
-    "tip": "Are you sure you want to collect <color=#92fc63>$1 rewards</color> from mail?\nYou will receive: "
+  "ship_quick_change_noequip": {
+    "key": "ship_quick_change_noequip",
+    "tip": "Unable to find usable gear."
   },
   "commander_reset_talent": {
     "key": "commander_reset_talent",
     "tip": "Resettable"
   },
-  "level_ammo_supply_p1": {
-    "key": "level_ammo_supply_p1",
-    "tip": "Ammo supplies. Ammo +$1."
+  "open_skill_class_success": {
+    "key": "open_skill_class_success",
+    "tip": "Successfully Unlocked Skill Slot "
   },
   "commander_reset_talent_tip": {
     "key": "commander_reset_talent_tip",
     "tip": "Would you like to reset this Meowfficer's Talents?"
   },
-  "ship_remould_warning_102174": {
-    "key": "ship_remould_warning_102174",
-    "tip": "The <color=#92fc63>Sparkling Mic</color> will be used to complete the retrofit.\nWould you like to continue? "
+  "mail_takeAttachment_error_noAttach": {
+    "key": "mail_takeAttachment_error_noAttach",
+    "tip": "Failed to collect rewards."
+  },
+  "level_ammo_supply_p1": {
+    "key": "level_ammo_supply_p1",
+    "tip": "Ammo supplies. Ammo +$1."
   },
   "commander_reset_talent_is_not_need": {
     "key": "commander_reset_talent_is_not_need",
@@ -7816,6 +7828,14 @@
   "commander_talent_learned": {
     "key": "commander_talent_learned",
     "tip": "Learned the following Talent: $1."
+  },
+  "commander_replace_talent_not_exist": {
+    "key": "commander_replace_talent_not_exist",
+    "tip": "Talent error: this Talent is from before a game update."
+  },
+  "discount_time": {
+    "key": "discount_time",
+    "tip": "<color=grey>Time left on discount</color> <color=#92fc63>$1</color> "
   },
   "help_battle_defense": {
     "key": "help_battle_defense",
@@ -7885,14 +7905,6 @@
     "key": "battle_preCombatLayer_clear_confirm",
     "tip": "Are you sure you want to clear the selected formation?"
   },
-  "commander_replace_talent_not_exist": {
-    "key": "commander_replace_talent_not_exist",
-    "tip": "Talent error: this Talent is from before a game update."
-  },
-  "discount_time": {
-    "key": "discount_time",
-    "tip": "<color=grey>Time left on discount</color> <color=#92fc63>$1</color> "
-  },
   "acl_gold_count": {
     "key": "acl_gold_count",
     "tip": "Target Coins:"
@@ -7901,28 +7913,28 @@
     "key": "goldship_help_tip",
     "tip": [
       {
-        "info": "厌战的特别训练活动说明："
+        "info": "- How to Play:"
       },
       {
-        "info": "    1.玩家撞击金币啾可以加分，连续撞击金币啾可以累积\n    COMBO，根据当前COMBO数不同，获得的分数也不同哦；"
+        "info": "1. You receive points by ramming into the Manjuus transporting coins."
       },
       {
-        "info": "    2.撞击鞭炮啾会打断COMBO，再次撞击金币啾后会重新开始\n    累积；"
+        "info": "2. You can start a combo and gain more points by repeatedly ramming into these Manjuus."
       },
       {
-        "info": "    3.在关卡中获得10分以上（包括10分）即可获得【历战之证】，\n    另外只要完成关卡还可获得【骰子】，每天均有一次获得机\n    会，可累积。；"
+        "info": "3. If you ram into a Manjuu with explosives, your combo is reset."
       },
       {
-        "info": "    注：【历战之证】最多可获得7个  【骰子】最多可获得15个 ；"
+        "info": "4. You will receive 1 Proof of Veterancy if you reach a score of 10 points or more."
       },
       {
-        "info": "    4.累积获得7个【历战之证】可以得到厌战改造限定道具\n    【战士的心得】 ；"
+        "info": "5. Once you collect all 7 Proofs of Veterancy, you will receive the item required to retrofit Warspite – The Warrior's Prowess."
       },
       {
-        "info": "    5.战斗中撤退将无法获得任何奖励 ；"
+        "info": "6. You will not receive any rewards if you retreat during the minigame."
       },
       {
-        "info": "    6.关卡时长为90秒，时间结束即关卡完成 ；"
+        "info": "7. The minigame ends once the timer hits 0."
       }
     ]
   },
@@ -7930,13 +7942,21 @@
     "key": "word_museum_1",
     "tip": "No more Model Parts can be obtained today. "
   },
+  "skin_remain_time": {
+    "key": "skin_remain_time",
+    "tip": "Expires in "
+  },
+  "word_take_video_tip": {
+    "key": "word_take_video_tip",
+    "tip": "Tips: Tap the button on the right side to stop recording."
+  },
   "sec_floor_limit_tip": {
     "key": "sec_floor_limit_tip",
     "tip": "Unlocks after first floor of dorm is expanded."
   },
-  "skin_remain_time": {
-    "key": "skin_remain_time",
-    "tip": "Expires in "
+  "resource_verify_fail": {
+    "key": "resource_verify_fail",
+    "tip": "Game resource restoration complete. Restart the game and begin updating. Tap confirm to close the game. $1"
   },
   "new_airi_error_code_200210": {
     "key": "new_airi_error_code_200210",
@@ -7946,21 +7966,21 @@
     "key": "word_shipNation_saDing",
     "tip": "Sardegna Empire "
   },
-  "word_take_video_tip": {
-    "key": "word_take_video_tip",
-    "tip": "Tips: Tap the button on the right side to stop recording."
-  },
-  "resource_verify_fail": {
-    "key": "resource_verify_fail",
-    "tip": "Data files have been repaired. Please restart the game to initiate the update. Confirm to exit the game[$1]"
-  },
   "levelScene_chapter_is_activation": {
     "key": "levelScene_chapter_is_activation",
     "tip": "You are exploring Stage <color=#92fc63>$1</color>, \nplease choose to continue or retreat now"
   },
-  "guild_create_sucess": {
-    "key": "guild_create_sucess",
-    "tip": "Guild created!"
+  "tip_add_task": {
+    "key": "tip_add_task",
+    "tip": "New mission: $1"
+  },
+  "reflux_word_2": {
+    "key": "reflux_word_2",
+    "tip": "Unlocked"
+  },
+  "reflux_word_1": {
+    "key": "reflux_word_1",
+    "tip": "Time Left:"
   },
   "battle_repair_normal_name": {
     "key": "battle_repair_normal_name",
@@ -7970,9 +7990,9 @@
     "key": "number_10",
     "tip": "10"
   },
-  "reflux_word_2": {
-    "key": "reflux_word_2",
-    "tip": "Unlocked"
+  "word_save_ok": {
+    "key": "word_save_ok",
+    "tip": "Successfully saved to your photo album"
   },
   "ship_vo_event": {
     "key": "ship_vo_event",
@@ -7982,9 +8002,9 @@
     "key": "tactics_lesson_full",
     "tip": "Classes are full."
   },
-  "reflux_word_1": {
-    "key": "reflux_word_1",
-    "tip": "Time Left:"
+  "word_video_mode": {
+    "key": "word_video_mode",
+    "tip": "Rec"
   },
   "main_notificationMediator_beFriend": {
     "key": "main_notificationMediator_beFriend",
@@ -7998,17 +8018,17 @@
     "key": "tech_simulate_quit",
     "tip": "Would you like to end the Battle Simulation?"
   },
-  "word_video_mode": {
-    "key": "word_video_mode",
-    "tip": "Rec"
-  },
-  "word_photo_mode": {
-    "key": "word_photo_mode",
-    "tip": "Photo"
-  },
   "touch_special": {
     "key": "touch_special",
     "tip": "Touch\n3"
+  },
+  "mission_complete": {
+    "key": "mission_complete",
+    "tip": "Mission\nComplete"
+  },
+  "mission": {
+    "key": "mission",
+    "tip": "Mission\nTips"
   },
   "idle": {
     "key": "idle",
@@ -8022,9 +8042,9 @@
     "key": "backyard_backyardGranaryLayer_error_noResource",
     "tip": "You don't have enough <color=#92fc63>$1</color> to make this purchase!"
   },
-  "mission_complete": {
-    "key": "mission_complete",
-    "tip": "Mission\nComplete"
+  "login": {
+    "key": "login",
+    "tip": "Login"
   },
   "word_shipNation_beiLian": {
     "key": "word_shipNation_beiLian",
@@ -8038,53 +8058,53 @@
     "key": "task_submitTask_error_notFinish",
     "tip": "You have not completed this mission yet."
   },
-  "mission": {
-    "key": "mission",
-    "tip": "Mission\nTips"
-  },
-  "login": {
-    "key": "login",
-    "tip": "Login"
-  },
   "complete": {
     "key": "complete",
     "tip": "Commi-\nssion"
-  },
-  "equipment_newEquipLayer_getNewEquip": {
-    "key": "equipment_newEquipLayer_getNewEquip",
-    "tip": "Gear received: <color=#92fc63>$1</color>"
   },
   "main_2": {
     "key": "main_2",
     "tip": "Main Menu\n2"
   },
-  "word_shipNation_all": {
-    "key": "word_shipNation_all",
-    "tip": "All factions"
+  "firend_relieve_blacklist_ok": {
+    "key": "firend_relieve_blacklist_ok",
+    "tip": "Removed!"
   },
-  "ship_buildShipMediator_finishBuild": {
-    "key": "ship_buildShipMediator_finishBuild",
-    "tip": "Construction complete!"
+  "equipment_newEquipLayer_getNewEquip": {
+    "key": "equipment_newEquipLayer_getNewEquip",
+    "tip": "Gear received: <color=#92fc63>$1</color>"
   },
   "levelScene_tracking_error_pre": {
     "key": "levelScene_tracking_error_pre",
     "tip": "Available after <color=#92fc63>$1</color> cleared"
   },
+  "word_bilibili": {
+    "key": "word_bilibili",
+    "tip": "bili小电池"
+  },
+  "ship_buildShipMediator_finishBuild": {
+    "key": "ship_buildShipMediator_finishBuild",
+    "tip": "Construction complete!"
+  },
+  "exercise_rule_tip": {
+    "key": "exercise_rule_tip",
+    "tip": "1. Each Exercise season lasts <color=#92fc63>14</color> days. As you rise through the ranks each season, you will earn more and more Merits.\n2. Winning an Exercise Battle will earn you Merits based on your current Military Rank. If you lose, you will still earn <color=#92fc63>half</color> the rewards of a victory.\n3. Your Seasonal Score will increase when you win a battle, but <color=#92fc63>your score won't decrease if you lose.</color>\n4. Your Seasonal Score is unaffected by other players defeating or losing to your Defense Fleet.\n5. Your rank increases as you earn Seasonal Score up to the rank of Captain. After that point, your Military Rank is determined by your position on the Exercise Ladder (your Current Rank.)\n6. You can only receive your Promotion Merits <color=#92fc63>once per season and rank.</color>\n7. The Merits you earn can be exchanged for special rewards and items in the Merit Supply shop.\n8. You can refresh your opponent lineup <color=#92fc63>5</color> times a day.\n9. Your opponent lineup will also refresh automatically after you finish an Exercise Battle.\n10. Your Exercise Count will refresh at 00:00, 12:00, and 18:00 (server local time) every day.\n11. At the end of the season, all players will have their Military Rank and Current Rank reset. However, <color=#92fc63>all Merits earned will persist between seasons.</color> "
+  },
   "event_finish": {
     "key": "event_finish",
     "tip": "Complete"
   },
-  "word_bilibili": {
-    "key": "word_bilibili",
-    "tip": "bili小电池"
+  "ai_change_1": {
+    "key": "ai_change_1",
+    "tip": "The Submarine Fleet is now in Support Mode."
   },
   "levelScene_activate_loop_mode_failed": {
     "key": "levelScene_activate_loop_mode_failed",
     "tip": "Bring the Threat Level down to Safe and clear with 3 Stars to unlock Clearing Mode."
   },
-  "friend_acceptFriendRequest_error": {
-    "key": "friend_acceptFriendRequest_error",
-    "tip": "Failed to accept friend request: "
+  "guild_modify_info_tip": {
+    "key": "guild_modify_info_tip",
+    "tip": "Are you sure you want to use<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color> to rename your guild?"
   },
   "player_changeManifesto_ok": {
     "key": "player_changeManifesto_ok",
@@ -8094,25 +8114,25 @@
     "key": "levelScene_chapter_open_count_down",
     "tip": "Open time:"
   },
-  "ai_change_1": {
-    "key": "ai_change_1",
-    "tip": "The Submarine Fleet is now in Support Mode."
+  "ship_shipInfoScene_equipUnlockSlostContent": {
+    "key": "ship_shipInfoScene_equipUnlockSlostContent",
+    "tip": "Slot is locked. Please limit break selected ship to unlock."
   },
-  "guild_modify_info_tip": {
-    "key": "guild_modify_info_tip",
-    "tip": "Are you sure you want to use<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color> to rename your guild?"
+  "anniversary_task_title_14": {
+    "key": "anniversary_task_title_14",
+    "tip": "I can't wait until I can see you once more. When the birds resume their song once more..."
   },
   "ship_vo_isCharacter": {
     "key": "ship_vo_isCharacter",
     "tip": "Selected character is your Secretary and may not perform this action."
   },
-  "word_rename_time_warning": {
-    "key": "word_rename_time_warning",
-    "tip": "You won't be able to rename your ship for another 30 days. Are you sure you want to rename <color=#a0ff40>$1</color> to <color=#a0ff40>$2</color>?"
+  "new_airi_error_code_200330": {
+    "key": "new_airi_error_code_200330",
+    "tip": "Network connection is turned off"
   },
-  "anniversary_task_title_14": {
-    "key": "anniversary_task_title_14",
-    "tip": "I can't wait until I can see you once more. When the birds resume their song once more..."
+  "anniversary_task_title_11": {
+    "key": "anniversary_task_title_11",
+    "tip": "With her support, my heart began to thaw, and I started to grow again."
   },
   "word_threaten": {
     "key": "word_threaten",
@@ -8122,9 +8142,9 @@
     "key": "backyard_extendArea_erro",
     "tip": "Failed to expand dorm: <color=#92fc63>$1</color>"
   },
-  "course_student_max_level": {
-    "key": "course_student_max_level",
-    "tip": "One of the students is fully leveled up. Unable to begin class!"
+  "anniversary_task_title_10": {
+    "key": "anniversary_task_title_10",
+    "tip": "As I slowly opened up to her, she painstakingly etched my story into her picture book."
   },
   "word_attr_luck": {
     "key": "word_attr_luck",
@@ -8138,17 +8158,17 @@
     "key": "common_not_get_ship",
     "tip": "Unowned Characters"
   },
-  "anniversary_task_title_11": {
-    "key": "anniversary_task_title_11",
-    "tip": "With her support, my heart began to thaw, and I started to grow again."
+  "anniversary_task_title_6": {
+    "key": "anniversary_task_title_6",
+    "tip": "The possibilities of the world branch out before my eyes. As I walk, I find myself where I started again and again."
   },
   "login_loginMediator_loginSuccess": {
     "key": "login_loginMediator_loginSuccess",
     "tip": "Login successful!"
   },
-  "anniversary_task_title_10": {
-    "key": "anniversary_task_title_10",
-    "tip": "As I slowly opened up to her, she painstakingly etched my story into her picture book."
+  "anniversary_task_title_3": {
+    "key": "anniversary_task_title_3",
+    "tip": "Before I met you, I felt alone in the world, almost crushed by the bleakness of reality."
   },
   "buy_countLimit": {
     "key": "buy_countLimit",
@@ -8161,14 +8181,6 @@
   "destroy_high_rarity_tip": {
     "key": "destroy_high_rarity_tip",
     "tip": "<color=#92fc63>Elite and above</color>"
-  },
-  "anniversary_task_title_6": {
-    "key": "anniversary_task_title_6",
-    "tip": "The possibilities of the world branch out before my eyes. As I walk, I find myself where I started again and again."
-  },
-  "anniversary_task_title_3": {
-    "key": "anniversary_task_title_3",
-    "tip": "Before I met you, I felt alone in the world, almost crushed by the bleakness of reality."
   },
   "anniversary_task_title_2": {
     "key": "anniversary_task_title_2",
@@ -8220,10 +8232,6 @@
     "key": "ship_profile_voice_locked_intimacy",
     "tip": "Coming Soon"
   },
-  "number_9": {
-    "key": "number_9",
-    "tip": "9"
-  },
   "blueprint_max_level_tip": {
     "key": "blueprint_max_level_tip",
     "tip": "The maximum level has already been achieved."
@@ -8231,6 +8239,10 @@
   "buleprint_need_level_tip": {
     "key": "buleprint_need_level_tip",
     "tip": "The corresponding ship will be unlocked at Level $1."
+  },
+  "number_9": {
+    "key": "number_9",
+    "tip": "9"
   },
   "technology_task_build_tip": {
     "key": "technology_task_build_tip",
@@ -8248,9 +8260,37 @@
       }
     ]
   },
-  "tip_add_task": {
-    "key": "tip_add_task",
-    "tip": "New mission: $1"
+  "help_oil_buy_limit": {
+    "key": "help_oil_buy_limit",
+    "tip": {
+      "1": {
+        "line": true,
+        "info": " You are out of daily purchases",
+        "icon": {
+          "path": "helpbg/nooil",
+          "atlas": "helpbg/nooil",
+          "posX": 30,
+          "scale": 1,
+          "posY": -41
+        }
+      },
+      "windowSize": {
+        "y": 440
+      },
+      "helpSize": {
+        "y": 264
+      },
+      "disableScroll": true,
+      "helpbg": true
+    }
+  },
+  "blueprint_task_update_tip": {
+    "key": "blueprint_task_update_tip",
+    "tip": "The development progress of a ship has been updated. Please inspect your Shipyard."
+  },
+  "ship_proposeShip_error": {
+    "key": "ship_proposeShip_error",
+    "tip": "Failed to promise."
   },
   "login_loginMediator_kickUndefined": {
     "key": "login_loginMediator_kickUndefined",
@@ -8268,13 +8308,13 @@
     "key": "ship_vo_vanguardFleet_exist_same_ship",
     "tip": "May not deploy 2 of the same ship to Vanguard."
   },
-  "blueprint_task_update_tip": {
-    "key": "blueprint_task_update_tip",
-    "tip": "The development progress of a ship has been updated. Please inspect your Shipyard."
+  "inform_failed": {
+    "key": "inform_failed",
+    "tip": "Failed to submit report."
   },
-  "activity_level_easy_tip": {
-    "key": "activity_level_easy_tip",
-    "tip": "Note: You need to <color=#a0ff40>clear stages on Normal</color> in order to unlock Hard mode."
+  "ship_formationMediator_changeNameError_sameShip": {
+    "key": "ship_formationMediator_changeNameError_sameShip",
+    "tip": "Only one ship by the same name may be deployed to each fleet."
   },
   "battle_preCombatLayer_quest_leaveFleet": {
     "key": "battle_preCombatLayer_quest_leaveFleet",
@@ -8301,18 +8341,6 @@
       }
     ]
   },
-  "ship_formationUI_fleetName6": {
-    "key": "ship_formationUI_fleetName6",
-    "tip": "Fleet 6"
-  },
-  "technology_start_erro": {
-    "key": "technology_start_erro",
-    "tip": "Research failed."
-  },
-  "word_expand": {
-    "key": "word_expand",
-    "tip": "Expand"
-  },
   "technology_start_up": {
     "key": "technology_start_up",
     "tip": "Research started."
@@ -8320,6 +8348,18 @@
   "technology_refresh_sucess": {
     "key": "technology_refresh_sucess",
     "tip": "Successfully updated Research Project list."
+  },
+  "word_expand": {
+    "key": "word_expand",
+    "tip": "Expand"
+  },
+  "printblue_build_erro": {
+    "key": "printblue_build_erro",
+    "tip": "Development failed."
+  },
+  "extra_chapter_record_not_updated": {
+    "key": "extra_chapter_record_not_updated",
+    "tip": "Record Unchanged"
   },
   "ship_buildSingleShip": {
     "key": "ship_buildSingleShip",
@@ -8329,41 +8369,29 @@
     "key": "activity_level_difficulty_tip",
     "tip": "Note: While in Hard mode, if you <color=#a0ff40>abandon a Hard stage</color>, you will lose progress for that stage."
   },
-  "printblue_build_erro": {
-    "key": "printblue_build_erro",
-    "tip": "Development failed."
+  "task_is_not_existence": {
+    "key": "task_is_not_existence",
+    "tip": "Mission $1 unavailable now."
   },
   "printblue_build_success": {
     "key": "printblue_build_success",
     "tip": "Development started."
   },
-  "task_is_not_existence": {
-    "key": "task_is_not_existence",
-    "tip": "Mission $1 unavailable now."
+  "extra_chapter_record_updated": {
+    "key": "extra_chapter_record_updated",
+    "tip": "New Record"
   },
   "levelScene_tracking_error_retry": {
     "key": "levelScene_tracking_error_retry",
     "tip": "Failed to activate stage. Please try again."
   },
-  "extra_chapter_record_not_updated": {
-    "key": "extra_chapter_record_not_updated",
-    "tip": "Record Unchanged"
-  },
-  "extra_chapter_record_updated": {
-    "key": "extra_chapter_record_updated",
-    "tip": "New Record"
-  },
-  "word_soundfiles_download_title": {
-    "key": "word_soundfiles_download_title",
-    "tip": "Download Language Pack"
+  "ship_remould_warning_303154": {
+    "key": "ship_remould_warning_303154",
+    "tip": "When retrofitted, <color=#92fc63>$1</color>'s hull type will change.\nThe weapon type that can be equipped in the Main Gun slot will change from <color=#92fc63>CL Main Guns</color> to <color=#92fc63>CA Main Guns</color>. The current Main Gun will also be automatically unequipped.\nWould you like to proceed with the retrofit?\n<color=#92fc63><material=underline c=#A9F548 event=clickDetail>View more info here.</material></color>"
   },
   "emoji_type_3": {
     "key": "emoji_type_3",
     "tip": "Pixel "
-  },
-  "word_pt": {
-    "key": "word_pt",
-    "tip": "PT"
   },
   "emoji_type_1": {
     "key": "emoji_type_1",
@@ -8373,6 +8401,10 @@
     "key": "emoji_type_0",
     "tip": "Recent"
   },
+  "word_pt": {
+    "key": "word_pt",
+    "tip": "PT"
+  },
   "equip_skin_detail_tip": {
     "key": "equip_skin_detail_tip",
     "tip": "It contains Gear Skins listed below:"
@@ -8380,6 +8412,14 @@
   "activity_xiaotiane_progress": {
     "key": "activity_xiaotiane_progress",
     "tip": "Progress: \n$1/$2"
+  },
+  "activity_hit_monster_erro": {
+    "key": "activity_hit_monster_erro",
+    "tip": "Attack failed "
+  },
+  "activity_hit_monster_help": {
+    "key": "activity_hit_monster_help",
+    "tip": "年獣ミニゲームルール"
   },
   "verification_code_req_tip3": {
     "key": "verification_code_req_tip3",
@@ -8389,17 +8429,17 @@
     "key": "commander_skill_point_noengough",
     "tip": "This Meowfficer does not have any Talent Points."
   },
-  "activity_hit_monster_help": {
-    "key": "activity_hit_monster_help",
-    "tip": "年獣ミニゲームルール"
-  },
-  "levelScene_jump_to_sub_confirm": {
-    "key": "levelScene_jump_to_sub_confirm",
-    "tip": "Signal source located. Would you like to head to \"$1\" in Chapter $2?"
-  },
   "destory_important_equipment_tip": {
     "key": "destory_important_equipment_tip",
     "tip": "Confirm to dissemble <color=#FFDE00FF>“$1”</color>? Type in the name of the equipment to continue."
+  },
+  "battle_preCombatLayer_boss_destruct": {
+    "key": "battle_preCombatLayer_boss_destruct",
+    "tip": "Defeat the boss before it self-destructs"
+  },
+  "battle_result_boss_destruct": {
+    "key": "battle_result_boss_destruct",
+    "tip": "Defeat the boss before it self-destructs"
   },
   "new_airi_error_code_200250": {
     "key": "new_airi_error_code_200250",
@@ -8409,21 +8449,21 @@
     "key": "ambush_display_2",
     "tip": "V.Low"
   },
-  "battle_result_boss_destruct": {
-    "key": "battle_result_boss_destruct",
-    "tip": "Defeat the boss before it self-destructs"
+  "equipment_skin_unmatch_equipment": {
+    "key": "equipment_skin_unmatch_equipment",
+    "tip": "Weapon skin does not much your weapon, it has been unapplied stored in your storage"
   },
-  "twitter_link_title": {
-    "key": "twitter_link_title",
-    "tip": "Twitter Account:$1"
+  "equipment_skin_unload_failed": {
+    "key": "equipment_skin_unload_failed",
+    "tip": "Failed to apply skin on the new ship"
   },
   "intimacy_desc_3": {
     "key": "intimacy_desc_3",
     "tip": "$1 thinks you're a trustworthy Commander."
   },
-  "equipment_skin_unmatch_equipment": {
-    "key": "equipment_skin_unmatch_equipment",
-    "tip": "Weapon skin does not much your weapon, it has been unapplied stored in your storage"
+  "equipment_skin_count_noenough": {
+    "key": "equipment_skin_count_noenough",
+    "tip": "Not enough weapon skin"
   },
   "login_game_rigister_full": {
     "key": "login_game_rigister_full",
@@ -8433,14 +8473,6 @@
     "key": "text_lose_condition",
     "tip": "Loss conditions:"
   },
-  "equipment_skin_count_noenough": {
-    "key": "equipment_skin_count_noenough",
-    "tip": "Not enough weapon skin"
-  },
-  "equipment_skin_no_new_ship": {
-    "key": "equipment_skin_no_new_ship",
-    "tip": "The ship does not exist"
-  },
   "equipment_skin_no_old_skinorequipment": {
     "key": "equipment_skin_no_old_skinorequipment",
     "tip": "The (old ship) has no weapon or weapon skin equipped/applied"
@@ -8449,6 +8481,14 @@
     "key": "equipment_skin_unload",
     "tip": "The weapon Skin has been unapplied and stored in your storage"
   },
+  "challenge_count_unlimit": {
+    "key": "challenge_count_unlimit",
+    "tip": "Endless Mode"
+  },
+  "challenge_current_score": {
+    "key": "challenge_current_score",
+    "tip": "Points Earned: $1"
+  },
   "ship_formationUI_fleetName12": {
     "key": "ship_formationUI_fleetName12",
     "tip": "Submarine 2"
@@ -8456,14 +8496,6 @@
   "world_log_4": {
     "key": "world_log_4",
     "tip": "[$fleet] has arrived at Port [$port]"
-  },
-  "challenge_current_score": {
-    "key": "challenge_current_score",
-    "tip": "Points Earned: $1"
-  },
-  "military_forbid_when_in_chapter": {
-    "key": "military_forbid_when_in_chapter",
-    "tip": "Fleet is currently attacking at sea. Unable to being exercise."
   },
   "challenge_rule": {
     "key": "challenge_rule",
@@ -8477,9 +8509,9 @@
     "key": "word_status_inClass",
     "tip": "<size=20>In class</size>"
   },
-  "word_r": {
-    "key": "word_r",
-    "tip": "R"
+  "word_ssr": {
+    "key": "word_ssr",
+    "tip": "SR"
   },
   "backyard_sort_tag_default": {
     "key": "backyard_sort_tag_default",
@@ -8489,17 +8521,25 @@
     "key": "level_diffcult_chapter_state_safety",
     "tip": "<size=24>After you achieve <color=#92fc63>3 stars</color> in the stage and make it a <color=#92fc63>safe area</color>,\nyour fleets can attack <color=#92fc63>enemy flagships</color> directly.</size>"
   },
-  "several_hours_before": {
-    "key": "several_hours_before",
-    "tip": "<color=#92fc63>$1</color>hr ago"
-  },
-  "ship_remould_warning_203114": {
-    "key": "ship_remould_warning_203114",
-    "tip": "This ship's <color=#92fc63>Torpedo slot</color> will be converted into an <color=#92fc63>Auxiliary Weapon slot.</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>View more info here.</material></color>\nWould you like to proceed with the retrofit? "
+  "ship_remould_finished": {
+    "key": "ship_remould_finished",
+    "tip": "Completed"
   },
   "twitter_login_tips": {
     "key": "twitter_login_tips",
     "tip": "You will lose your current account progress if you use 3rd-party logins, continue? "
+  },
+  "several_hours_before": {
+    "key": "several_hours_before",
+    "tip": "<color=#92fc63>$1</color>hr ago"
+  },
+  "take_all_mail": {
+    "key": "take_all_mail",
+    "tip": "Are you sure you want to collect <color=#92fc63>$1 rewards</color> from mail?\nYou will receive: "
+  },
+  "word_nowenergy": {
+    "key": "word_nowenergy",
+    "tip": "Current Mood"
   },
   "battle_resourceSiteLayer_avgLv": {
     "key": "battle_resourceSiteLayer_avgLv",
@@ -8509,37 +8549,41 @@
     "key": "commander_select_min_cnt",
     "tip": "You must select $1 or more Meowfficers."
   },
-  "word_nowenergy": {
-    "key": "word_nowenergy",
-    "tip": "Current Mood"
+  "chapter_tip_aovid_failed": {
+    "key": "chapter_tip_aovid_failed",
+    "tip": "Failed to evade."
   },
   "ambush_display_4": {
     "key": "ambush_display_4",
     "tip": "Medium"
   },
-  "chapter_tip_bp_ammo": {
-    "key": "chapter_tip_bp_ammo",
-    "tip": "Appropriate battle preparations have granted Ammo +2."
-  },
-  "guild_shop_flash_success": {
-    "key": "guild_shop_flash_success",
-    "tip": "Refreshed!"
-  },
   "course_proficiency_tip": {
     "key": "course_proficiency_tip",
     "tip": "When you sortie with ships that are <material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>Level $1</color></material> or higher, the Lecture Hall will automatically store <material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$2%</color></material> of the EXP they earn in the form of Proficiency."
   },
-  "new_airi_error_code_200110": {
-    "key": "new_airi_error_code_200110",
-    "tip": "Purchase order creation failed - Monthly purchase limit exceeded"
+  "new_airi_error_code_100230": {
+    "key": "new_airi_error_code_100230",
+    "tip": "Initialization failed"
+  },
+  "course_proficiency_not_enough": {
+    "key": "course_proficiency_not_enough",
+    "tip": "You do not have enough Proficiency."
+  },
+  "course_class_help": {
+    "key": "course_class_help",
+    "tip": [
+      {
+        "info": "Lecture Hall Information\n\nWhen you put Students in the Lecture Hall, they can partake in a Lecture which converts the fleet's accumulated Proficiency into EXP.\n\n- About Proficiency\nA set amount of the EXP earned by Level 100 or higher ships will be automatically added to the Lecture Hall in the form of Proficiency.\nProficiency is shared among the whole fleet and you cannot accumulate more than the Lecture Hall can hold.\nUpgrading the Lecture Hall will increase the cap of how much Proficiency you can accumulate as well as increase the amount of Proficiency earned.\n\n- About Lectures\nThe types of ships you can send to study in the Lecture Hall depends on the day of the week.\nOnce you have begun a Lecture, you can end it at any time you wish.\nEnding the Lecture will convert Proficiency to EXP for the Students depending on how long the Lecture lasted.\nThe maximum amount of time a Lecture can last is 12 hours.\nUp to the point before the Lecture finishes, the acquired Proficiency will be automatically converted into EXP for the Students in attendance.\n\n- About Students\nOnly ships below Level 100 can be added the Lecture Hall.\nThe more Students you add, the more efficient the conversion rate of Proficiency to EXP will be.\nStudents will lose a small amount of Morale when participating in a Lecture.\nMonitors can partake in Battleship Lectures.\nRepair Ships can partake in Destroyer and Cruiser Lectures.\nAviation Battleships can partake in Carrier and Battleship Lectures.\n\n- Lecture Schedule\nMonday: Destroyers - Amazon's Amazing Torpedo Tactics!\nTuesday: Cruisers - The Right Ammo for The Right Time\nWednesday: Battleships - Why The \"Bigger Gun Principle\" Works\nThursday: Carriers - Positioning Out on The Open Ocean\nFriday: Destroyers - Tactics Even a Monkey Could Understand!\nSaturday: Cruisers - How To Maximize Your Firepower\n\nThere are no Lectures on Sundays, but you will earn double the amount of Proficiency from sorties."
+      }
+    ]
   },
   "ship_equipToShip_error_noEquip": {
     "key": "ship_equipToShip_error_noEquip",
     "tip": "Gear does not exist."
   },
-  "course_proficiency_not_enough": {
-    "key": "course_proficiency_not_enough",
-    "tip": "You do not have enough Proficiency."
+  "course_student_max_level": {
+    "key": "course_student_max_level",
+    "tip": "One of the students is fully leveled up. Unable to begin class!"
   },
   "fate_attr_word": {
     "key": "fate_attr_word",
@@ -8557,21 +8601,9 @@
     "key": "word_air_defense_artillery",
     "tip": "Anti-Air"
   },
-  "new_airi_error_code_200340": {
-    "key": "new_airi_error_code_200340",
-    "tip": "Payment canceled by user"
-  },
-  "new_airi_error_code_200330": {
-    "key": "new_airi_error_code_200330",
-    "tip": "Network connection is turned off"
-  },
   "new_airi_error_code_200270": {
     "key": "new_airi_error_code_200270",
     "tip": "The request is not supported by the Play store on current device"
-  },
-  "word_soundfiles_checkfailed": {
-    "key": "word_soundfiles_checkfailed",
-    "tip": "Failed to verify language pack."
   },
   "new_airi_error_code_200170": {
     "key": "new_airi_error_code_200170",
@@ -8581,9 +8613,21 @@
     "key": "new_airi_error_code_200160",
     "tip": "Invalid purchase request (invalid user Token, invalid order, or item does not exist)"
   },
+  "word_soundfiles_checkfailed": {
+    "key": "word_soundfiles_checkfailed",
+    "tip": "Failed to verify language pack."
+  },
   "new_airi_error_code_200130": {
     "key": "new_airi_error_code_200130",
     "tip": "Purchase order creation failed - Invalid order information / Payment method does not exist"
+  },
+  "new_airi_error_code_200110": {
+    "key": "new_airi_error_code_200110",
+    "tip": "Purchase order creation failed - Monthly purchase limit exceeded"
+  },
+  "new_airi_error_code_200100": {
+    "key": "new_airi_error_code_200100",
+    "tip": "Purchase order creation failed - User birthday is required"
   },
   "battle_levelScene_0Oil": {
     "key": "battle_levelScene_0Oil",
@@ -8605,14 +8649,6 @@
     "key": "new_airi_error_code_100304",
     "tip": "Verification failed too many times, this verification code has become expired upon the 10th failed attempt, please acquire a new verification code"
   },
-  "new_airi_error_code_200100": {
-    "key": "new_airi_error_code_200100",
-    "tip": "Purchase order creation failed - User birthday is required"
-  },
-  "new_airi_error_code_100230": {
-    "key": "new_airi_error_code_100230",
-    "tip": "Initialization failed"
-  },
   "new_airi_error_code_100220": {
     "key": "new_airi_error_code_100220",
     "tip": "Facebook login cancelled"
@@ -8625,17 +8661,17 @@
     "key": "new_airi_error_code_100200",
     "tip": "This Twitter/Facebook account is already bound with another Airi UID"
   },
-  "ship_shipModLayer_effect1or2": {
-    "key": "ship_shipModLayer_effect1or2",
-    "tip": "Current bonus: <color=#92fc63>$1</color>"
-  },
-  "guild_faction_change_tip": {
-    "key": "guild_faction_change_tip",
-    "tip": "You must wait at least 30 days before changing factions again. Are you sure you want to change your faction?"
+  "guild_word_home": {
+    "key": "guild_word_home",
+    "tip": "Home"
   },
   "new_airi_error_code_100160": {
     "key": "new_airi_error_code_100160",
     "tip": "User birthday has already been added"
+  },
+  "ship_shipModLayer_effect1or2": {
+    "key": "ship_shipModLayer_effect1or2",
+    "tip": "Current bonus: <color=#92fc63>$1</color>"
   },
   "new_airi_error_code_100150": {
     "key": "new_airi_error_code_100150",
@@ -8645,10 +8681,6 @@
     "key": "new_airi_error_code_100120",
     "tip": "IP restricted"
   },
-  "airi_error_code_ 100811": {
-    "key": "airi_error_code_ 100811",
-    "tip": "FB Unable to login, please bind your account first"
-  },
   "new_airi_error_code_100114": {
     "key": "new_airi_error_code_100114",
     "tip": "Account binding success; IP restricted, failed to acquire Access Token"
@@ -8657,25 +8689,21 @@
     "key": "new_airi_error_code_100113",
     "tip": "Account binding success; Verification failed, this UID does not match with Token, failed to acquire Access Token"
   },
-  "chapter_tip_change": {
-    "key": "chapter_tip_change",
-    "tip": "Switch formations: $1"
+  "airi_error_code_ 100811": {
+    "key": "airi_error_code_ 100811",
+    "tip": "FB Unable to login, please bind your account first"
   },
-  "friend_resume_title": {
-    "key": "friend_resume_title",
-    "tip": "Resume"
+  "simulation_enhanced": {
+    "key": "simulation_enhanced",
+    "tip": "Enemy has activated a special tactics."
   },
-  "guild_set_duty_title": {
-    "key": "guild_set_duty_title",
-    "tip": "Appoint $1 as: "
+  "word_own": {
+    "key": "word_own",
+    "tip": "Owned "
   },
-  "login_loginMediator_kickTimeError": {
-    "key": "login_loginMediator_kickTimeError",
-    "tip": "Offline for too long."
-  },
-  "word_succeed": {
-    "key": "word_succeed",
-    "tip": "Success"
+  "guild_faction_change_tip": {
+    "key": "guild_faction_change_tip",
+    "tip": "You must wait at least 30 days before changing factions again. Are you sure you want to change your faction?"
   },
   "clear_transcode_cache_confirm": {
     "key": "clear_transcode_cache_confirm",
@@ -8685,9 +8713,13 @@
     "key": "set_birth_empty_tip",
     "tip": "Enter a valid birthday"
   },
-  "levelScene_remaster_do_not_open": {
-    "key": "levelScene_remaster_do_not_open",
-    "tip": "This is not yet available."
+  "login_loginMediator_kickTimeError": {
+    "key": "login_loginMediator_kickTimeError",
+    "tip": "Offline for too long."
+  },
+  "word_succeed": {
+    "key": "word_succeed",
+    "tip": "Success"
   },
   "transcode_desc": {
     "key": "transcode_desc",
@@ -8697,6 +8729,18 @@
     "key": "activity_puzzle_get15",
     "tip": "<color=#A9F548FF>How to get: \nmission 6</color>"
   },
+  "levelScene_remaster_do_not_open": {
+    "key": "levelScene_remaster_do_not_open",
+    "tip": "This is not yet available."
+  },
+  "activity_puzzle_get14": {
+    "key": "activity_puzzle_get14",
+    "tip": "<color=#A9F548FF>How to get: \nmission 5</color>"
+  },
+  "activity_puzzle_get7": {
+    "key": "activity_puzzle_get7",
+    "tip": "<color=#A9F548FF>How to get: Normal difficulty 2-2</color>"
+  },
   "verification_code_req_tip2": {
     "key": "verification_code_req_tip2",
     "tip": "Verification request successful! Please check your e-mail for the verification code."
@@ -8705,37 +8749,37 @@
     "key": "text_cancel",
     "tip": "Cancel"
   },
-  "activity_puzzle_get7": {
-    "key": "activity_puzzle_get7",
-    "tip": "<color=#A9F548FF>How to get: Normal difficulty 2-2</color>"
-  },
-  "activity_puzzle_get4": {
-    "key": "activity_puzzle_get4",
-    "tip": "<color=#A9F548FF>How to get: Normal difficulty 3-1</color>"
-  },
-  "login_game_banned": {
-    "key": "login_game_banned",
-    "tip": "Account frozen. Please contact customer support."
-  },
   "activity_puzzle_get1": {
     "key": "activity_puzzle_get1",
     "tip": "<color=#A9F548FF>How to get: \nmission 7</color>"
-  },
-  "word_materal_no_enough": {
-    "key": "word_materal_no_enough",
-    "tip": "Not enough items"
   },
   "words_show_touch_effect": {
     "key": "words_show_touch_effect",
     "tip": "Show tap marker"
   },
-  "battle_battleMediator_existFight": {
-    "key": "battle_battleMediator_existFight",
-    "tip": "Leave"
+  "login_game_banned": {
+    "key": "login_game_banned",
+    "tip": "Account frozen. Please contact customer support."
   },
   "words_show_ship_name_label": {
     "key": "words_show_ship_name_label",
     "tip": "Custom Ship Name"
+  },
+  "word_materal_no_enough": {
+    "key": "word_materal_no_enough",
+    "tip": "Not enough items"
+  },
+  "vote_rank_in_current_server": {
+    "key": "vote_rank_in_current_server",
+    "tip": "*Rankings are for current server only"
+  },
+  "battle_battleMediator_existFight": {
+    "key": "battle_battleMediator_existFight",
+    "tip": "Leave"
+  },
+  "vote_vote_time": {
+    "key": "vote_vote_time",
+    "tip": "Voting window: $1 - $2"
   },
   "commander_select_max": {
     "key": "commander_select_max",
@@ -8745,33 +8789,21 @@
     "key": "battle_resourceSiteLayer_collecTime",
     "tip": "Harvesting time: <color=#92fc63>$1</color>"
   },
-  "vote_vote_time": {
-    "key": "vote_vote_time",
-    "tip": "Voting window: $1 - $2"
+  "vote_final_rule1": {
+    "key": "vote_final_rule1",
+    "tip": "12 characters will be selected at the beginning of the event. Voting remains open for 10 days. Total votes are reset to zero before the event starts."
   },
   "setting_interface_revert_check": {
     "key": "setting_interface_revert_check",
     "tip": "Are you sure you want to reset your battle formation?"
   },
-  "vote_final_title2": {
-    "key": "vote_final_title2",
-    "tip": "Event Rewards"
-  },
-  "vote_final_rule1": {
-    "key": "vote_final_rule1",
-    "tip": "12 characters will be selected at the beginning of the event. Voting remains open for 10 days. Total votes are reset to zero before the event starts."
-  },
-  "resource_max_tip_battle": {
-    "key": "resource_max_tip_battle",
-    "tip": "You will be unable to receive Coins as rewards from this attack. Continue?"
+  "guild_join_cd": {
+    "key": "guild_join_cd",
+    "tip": "You must wait 24 hours after leaving your guild to join another."
   },
   "vote_love_confirm": {
     "key": "vote_love_confirm",
     "tip": "Are you sure you want to use a special vote?"
-  },
-  "common_no_resource": {
-    "key": "common_no_resource",
-    "tip": "You don't have enough resources!"
   },
   "build_ship_quickly_buy_tool": {
     "key": "build_ship_quickly_buy_tool",
@@ -8781,9 +8813,21 @@
     "key": "build_ship_quickly_buy_stone",
     "tip": "Spend <color=#92fc63>$1</color> Gems to buy Wisdom Cube x<color=$3>$2</color>?"
   },
-  "guild_policy_power": {
-    "key": "guild_policy_power",
-    "tip": "Best"
+  "common_no_resource": {
+    "key": "common_no_resource",
+    "tip": "You don't have enough resources!"
+  },
+  "guild_duty_id_is_null": {
+    "key": "guild_duty_id_is_null",
+    "tip": "Posts may not be empty."
+  },
+  "chapter_tip_bp_ammo": {
+    "key": "chapter_tip_bp_ammo",
+    "tip": "Appropriate battle preparations have granted Ammo +2."
+  },
+  "chapter_tip_change": {
+    "key": "chapter_tip_change",
+    "tip": "Switch formations: $1"
   },
   "destroy_eliteequipment_tip": {
     "key": "destroy_eliteequipment_tip",
@@ -8793,14 +8837,6 @@
     "key": "new_airi_error_code_100100",
     "tip": "This Device ID is banned"
   },
-  "chapter_tip_aovid_failed": {
-    "key": "chapter_tip_aovid_failed",
-    "tip": "Failed to evade."
-  },
-  "simulation_enhanced": {
-    "key": "simulation_enhanced",
-    "tip": "Enemy has activated a special tactics."
-  },
   "simulation_advantage_counting": {
     "key": "simulation_advantage_counting",
     "tip": "Enemy using special tactic in $1s"
@@ -8808,6 +8844,14 @@
   "remould_ship_count_more": {
     "key": "remould_ship_count_more",
     "tip": "You've selected more than 1 ship."
+  },
+  "longxiang_total_count": {
+    "key": "longxiang_total_count",
+    "tip": "J Talisman total: "
+  },
+  "backyard_addFood_error": {
+    "key": "backyard_addFood_error",
+    "tip": "Failed to add snacks: "
   },
   "common_no_gold": {
     "key": "common_no_gold",
@@ -8821,17 +8865,17 @@
     "key": "return_award_bind_success",
     "tip": "UID entry successful."
   },
-  "activity_switch_tip": {
-    "key": "activity_switch_tip",
-    "tip": "If you switch to Normal mode, <color=#a0ff40>all progress on Hard mode will be lost</color>. (Note: You must clear the stage on Normal again in order to unlock Hard mode)"
-  },
-  "activity_level_pass_easy_tip": {
-    "key": "activity_level_pass_easy_tip",
-    "tip": "You must first <color=#a0ff40>clear this stage on Normal</color> in order to unlock Hard mode."
-  },
   "activity_level_limit_tip": {
     "key": "activity_level_limit_tip",
     "tip": "<color=#a0ff40>Reach Commander lv. 50 or clear on Normal</color> to unlock Hard mode."
+  },
+  "activity_level_easy_tip": {
+    "key": "activity_level_easy_tip",
+    "tip": "Note: You need to <color=#a0ff40>clear stages on Normal</color> in order to unlock Hard mode."
+  },
+  "word_rename_time_warning": {
+    "key": "word_rename_time_warning",
+    "tip": "You won't be able to rename your ship for another 30 days. Are you sure you want to rename <color=#a0ff40>$1</color> to <color=#a0ff40>$2</color>?"
   },
   "blueprint_destory_tip": {
     "key": "blueprint_destory_tip",
@@ -8845,29 +8889,21 @@
       }
     ]
   },
-  "ship_proposeShip_error": {
-    "key": "ship_proposeShip_error",
-    "tip": "Failed to promise."
-  },
-  "ship_shipInfoScene_effect": {
-    "key": "ship_shipInfoScene_effect",
-    "tip": "Current EXP: <color=#92fc63>$1/$2</color>\n"
-  },
   "ship_renameShip_error_4": {
     "key": "ship_renameShip_error_4",
     "tip": "You can't do this at the current time!"
   },
-  "backyard_sort_tag_price": {
-    "key": "backyard_sort_tag_price",
-    "tip": "Price "
+  "word_r": {
+    "key": "word_r",
+    "tip": "R"
   },
   "word_sr": {
     "key": "word_sr",
     "tip": "Elite"
   },
-  "word_ssr": {
-    "key": "word_ssr",
-    "tip": "SR"
+  "backyard_sort_tag_price": {
+    "key": "backyard_sort_tag_price",
+    "tip": "Price "
   },
   "word_rename_time_tip": {
     "key": "word_rename_time_tip",
@@ -8885,21 +8921,17 @@
     "key": "mingshi_task_tip_10",
     "tip": "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>H</color>>\nThe last target is... <<color=#a0ff40>the land of joy and sorrow</color>>!"
   },
-  "index_rare3": {
-    "key": "index_rare3",
-    "tip": "Rare"
+  "mingshi_task_tip_6": {
+    "key": "mingshi_task_tip_6",
+    "tip": "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>A</color>>\nThe next target is... <<color=#a0ff40>taking a rest</color>>!"
   },
   "mingshi_task_tip_5": {
     "key": "mingshi_task_tip_5",
     "tip": "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>T</color>>\nThe next target is... <<color=#a0ff40>your formation</color>>!"
   },
-  "mingshi_task_tip_1": {
-    "key": "mingshi_task_tip_1",
-    "tip": "You found me *Nyaa*?\nThe secret code is... <<color=#a0ff40>T</color>>\nThe next target is... <<color=#a0ff40>items stockpile</color>>!"
-  },
-  "word_shipInfoScene_infomation": {
-    "key": "word_shipInfoScene_infomation",
-    "tip": "Ship Details"
+  "index_rare3": {
+    "key": "index_rare3",
+    "tip": "Rare"
   },
   "word_live2dfiles_update": {
     "key": "word_live2dfiles_update",
@@ -8908,6 +8940,10 @@
   "word_live2dfiles_noneedupdate": {
     "key": "word_live2dfiles_noneedupdate",
     "tip": "Latest"
+  },
+  "word_shipInfoScene_infomation": {
+    "key": "word_shipInfoScene_infomation",
+    "tip": "Ship Details"
   },
   "word_live2dfiles_checkend_title": {
     "key": "word_live2dfiles_checkend_title",
@@ -8925,21 +8961,29 @@
     "key": "word_soundfiles_update_retry",
     "tip": "Tap to retry"
   },
-  "backyard_theme_save_tip": {
-    "key": "backyard_theme_save_tip",
-    "tip": "Are you sure you want to save the current dorm layout as \n<color=#5FD500>$1</color>?"
+  "intimacy_desc_5_buff": {
+    "key": "intimacy_desc_5_buff",
+    "tip": "Current buff: All base stats (except speed and gear) +6%"
   },
   "word_soundfiles_checking_title": {
     "key": "word_soundfiles_checking_title",
     "tip": "Checking..."
   },
-  "extra_chapter_socre_tip": {
-    "key": "extra_chapter_socre_tip",
-    "tip": "Current Record: <color=#92fc63>$1</color>\n\nRecord Best: <color=#92fc63>$2</color>\n\n$3"
+  "word_soundfiles_download_title": {
+    "key": "word_soundfiles_download_title",
+    "tip": "Download Language Pack"
   },
   "ship_remould_warning_402134": {
     "key": "ship_remould_warning_402134",
     "tip": "Completing this Retrofit will permanently change the first \"Auxiliary\" equipment slot to a <color=#92fc63>\"Helicopter\"</color>\n equipment slot. Proceed with the Retrofit? "
+  },
+  "extra_chapter_socre_tip": {
+    "key": "extra_chapter_socre_tip",
+    "tip": "Current Record: <color=#92fc63>$1</color>\n\nRecord Best: <color=#92fc63>$2</color>\n\n$3"
+  },
+  "ship_remould_warning_310044": {
+    "key": "ship_remould_warning_310044",
+    "tip": "Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed\n<color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>\n<color=#92fc63>your current Secondary Weapon </color> will be unequipped\n Would you like to continue?"
   },
   "vote_book_is_over": {
     "key": "vote_book_is_over",
@@ -8949,9 +8993,9 @@
     "key": "guild_info_update",
     "tip": "Guild info updated."
   },
-  "ship_remould_warning_310044": {
-    "key": "ship_remould_warning_310044",
-    "tip": "Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed\n<color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>\n<color=#92fc63>your current Secondary Weapon </color> will be unequipped\n Would you like to continue?"
+  "ship_remould_warning_102174": {
+    "key": "ship_remould_warning_102174",
+    "tip": "The <color=#92fc63>Sparkling Mic</color> will be used to complete the retrofit.\nWould you like to continue? "
   },
   "login_failed": {
     "key": "login_failed",
@@ -8965,21 +9009,21 @@
     "key": "summary_page_un_rearch",
     "tip": "Unclaimed "
   },
-  "ship_remould_finished": {
-    "key": "ship_remould_finished",
-    "tip": "Completed"
+  "ship_shipModMediator_noticeSameButLargerStar": {
+    "key": "ship_shipModMediator_noticeSameButLargerStar",
+    "tip": "Same with higher stars"
   },
-  "mail_takeAttachment_error_magazine_full": {
-    "key": "mail_takeAttachment_error_magazine_full",
-    "tip": "<color=#92fc63>Failed to collect.</color>\n\nYour <color=#92fc63>gear storage is full</color>."
+  "inform_player": {
+    "key": "inform_player",
+    "tip": "Report player: $1"
   },
   "blueprint_stop_success": {
     "key": "blueprint_stop_success",
     "tip": "Successfully suspended development."
   },
-  "inform_player": {
-    "key": "inform_player",
-    "tip": "Report player: $1"
+  "sham_friend_ship_tip": {
+    "key": "sham_friend_ship_tip",
+    "tip": "You have not selected any support. Once you enter battle, you will be unable to add support. Are you sure you want to continue?"
   },
   "levelScene_tracking_error_3001": {
     "key": "levelScene_tracking_error_3001",
@@ -8989,9 +9033,9 @@
     "key": "backyard_backyardScene_quest_clearButton",
     "tip": "<color=#92fc63>Clear</color> current decorations?"
   },
-  "inform_failed": {
-    "key": "inform_failed",
-    "tip": "Failed to submit report."
+  "sham_battle_help_tip": {
+    "key": "sham_battle_help_tip",
+    "tip": ""
   },
   "equipment_cant_unload": {
     "key": "equipment_cant_unload",
@@ -9005,9 +9049,9 @@
     "key": "ship_unequip_all_success",
     "tip": "Gear <color=#FF0000>unequipped</color>."
   },
-  "sham_friend_ship_tip": {
-    "key": "sham_friend_ship_tip",
-    "tip": "You have not selected any support. Once you enter battle, you will be unable to add support. Are you sure you want to continue?"
+  "friend_resume_attack_count": {
+    "key": "friend_resume_attack_count",
+    "tip": "Attacks: "
   },
   "level_scene_not_enough": {
     "key": "level_scene_not_enough",
@@ -9021,41 +9065,33 @@
     "key": "guild_rejecet_apply_sucess",
     "tip": "Application rejected."
   },
-  "sham_battle_help_tip": {
-    "key": "sham_battle_help_tip",
-    "tip": ""
+  "sham_team_limit": {
+    "key": "sham_team_limit",
+    "tip": "Please ensure that each fleet has at least 1 ship in the Vanguard and 1 ship in the Main fleet."
   },
   "battle_levelScene_lock": {
     "key": "battle_levelScene_lock",
     "tip": "Stage not yet open. Please clear <color=#92fc63>previous stage</color>."
   },
-  "friend_resume_manoeuvre_count": {
-    "key": "friend_resume_manoeuvre_count",
-    "tip": "Exercises: "
-  },
-  "sham_team_limit": {
-    "key": "sham_team_limit",
-    "tip": "Please ensure that each fleet has at least 1 ship in the Vanguard and 1 ship in the Main fleet."
-  },
-  "levelScene_chapter_unlock_tip": {
-    "key": "levelScene_chapter_unlock_tip",
-    "tip": "Reach Commander lv. <color=#92fc63>$1</color> to unlock this chapter."
-  },
   "sham_count_reset": {
     "key": "sham_count_reset",
     "tip": "This Simulation battle is complete.\nReset now?"
-  },
-  "battle_result_score": {
-    "key": "battle_result_score",
-    "tip": "Cargo Ships sunk * $1:"
   },
   "backyard_food_count": {
     "key": "backyard_food_count",
     "tip": "Current supplies limit: $1"
   },
+  "levelScene_chapter_unlock_tip": {
+    "key": "levelScene_chapter_unlock_tip",
+    "tip": "Reach Commander lv. <color=#92fc63>$1</color> to unlock this chapter."
+  },
   "backyard_food_remind": {
     "key": "backyard_food_remind",
     "tip": "Your storage limit will be exceeded if you continue using <color=yellow>$1</color>. Continue?"
+  },
+  "battle_result_score": {
+    "key": "battle_result_score",
+    "tip": "Cargo Ships sunk * $1:"
   },
   "common_no_limit": {
     "key": "common_no_limit",
@@ -9093,10 +9129,6 @@
     "key": "elite_fleet_confirm",
     "tip": "$1 <color=#ff0000>does not meet</color> requirements to attack and may not enter battle. Would you like to continue your attack?"
   },
-  "ship_mod_exp_to_attr_tip": {
-    "key": "ship_mod_exp_to_attr_tip",
-    "tip": "*Use an identical ship as enhancing materials for 2x EXP"
-  },
   "ship_equip_exchange_tip": {
     "key": "ship_equip_exchange_tip",
     "tip": "Take <color=#a0ff40>$1</color>'s <color=#a0ff40>$2</color> and equip it to <color=#a0ff40>$3</color>?"
@@ -9104,6 +9136,10 @@
   "login_wait_tip": {
     "key": "login_wait_tip",
     "tip": "Server is currently busy, please wait.\n(Position in queue: $1)"
+  },
+  "ship_mod_exp_to_attr_tip": {
+    "key": "ship_mod_exp_to_attr_tip",
+    "tip": "*Use an identical ship as enhancing materials for 2x EXP"
   },
   "charge_ship_bag_max": {
     "key": "charge_ship_bag_max",
@@ -9125,6 +9161,14 @@
     "key": "resource_max_tip_retire_1",
     "tip": "Your Oil storage is full, no Oil refund for retiring this ship. Continue?"
   },
+  "resource_max_tip_retire": {
+    "key": "resource_max_tip_retire",
+    "tip": "Unable to retire."
+  },
+  "resource_max_tip_battle": {
+    "key": "resource_max_tip_battle",
+    "tip": "You will be unable to receive Coins as rewards from this attack. Continue?"
+  },
   "main_playerInfoLayer_inputName": {
     "key": "main_playerInfoLayer_inputName",
     "tip": "Enter name"
@@ -9133,29 +9177,29 @@
     "key": "main_mailLayer_noAttach",
     "tip": "No rewards"
   },
-  "resource_max_tip_retire": {
-    "key": "resource_max_tip_retire",
-    "tip": "Unable to retire."
+  "gold_max_tip_title": {
+    "key": "gold_max_tip_title",
+    "tip": "You can't hold any more Coins. "
   },
   "vote_primary_rule": {
     "key": "vote_primary_rule",
     "tip": ""
   },
-  "gold_max_tip_title": {
-    "key": "gold_max_tip_title",
-    "tip": "You can't hold any more Coins. "
+  "guild_sort_power": {
+    "key": "guild_sort_power",
+    "tip": "Best"
   },
-  "guild_join_cd": {
-    "key": "guild_join_cd",
-    "tip": "You must wait 24 hours after leaving your guild to join another."
+  "guild_set_duty_title": {
+    "key": "guild_set_duty_title",
+    "tip": "Appoint $1 as: "
   },
   "equipment_equipmentScene_selectError_more": {
     "key": "equipment_equipmentScene_selectError_more",
     "tip": "May select up to <color=#92fc63>$1</color> pieces of gear"
   },
-  "guild_sort_power": {
-    "key": "guild_sort_power",
-    "tip": "Best"
+  "guild_log_new_guild_join": {
+    "key": "guild_log_new_guild_join",
+    "tip": "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> has joined the guild!"
   },
   "err_cloth_change_noship": {
     "key": "err_cloth_change_noship",
@@ -9283,17 +9327,17 @@
       }
     }
   },
-  "guild_word_ordinary": {
-    "key": "guild_word_ordinary",
-    "tip": "Normal"
-  },
-  "guild_word_picked": {
-    "key": "guild_word_picked",
-    "tip": "Elite"
-  },
   "guild_faction_cszz": {
     "key": "guild_faction_cszz",
     "tip": "Crimson Axis"
+  },
+  "guild_policy_power": {
+    "key": "guild_policy_power",
+    "tip": "Best"
+  },
+  "guild_duty_commder_max_count": {
+    "key": "guild_duty_commder_max_count",
+    "tip": "All Vice Admiral posts are filled."
   },
   "no_open_system_tip": {
     "key": "no_open_system_tip",
@@ -9303,17 +9347,17 @@
     "key": "build_ship_tip",
     "tip": "Cost to build $2 <color=#D6341DFF>x$1</color>:\n<color=$5>$3 Coins</color> and <color=$5>$4 Wisdom Cubes</color>"
   },
-  "guild_duty_commder_max_count": {
-    "key": "guild_duty_commder_max_count",
-    "tip": "All Vice Admiral posts are filled."
-  },
-  "guild_duty_id_is_null": {
-    "key": "guild_duty_id_is_null",
-    "tip": "Posts may not be empty."
-  },
   "guild_list_refresh_sucess": {
     "key": "guild_list_refresh_sucess",
     "tip": "List of guilds has been refreshed."
+  },
+  "guild_search_sucess": {
+    "key": "guild_search_sucess",
+    "tip": "Search complete!"
+  },
+  "backyard_extendArea_tip": {
+    "key": "backyard_extendArea_tip",
+    "tip": "Required: Expansion License:||$1|| ||You have: ||$2||"
   },
   "levelScene_strategying": {
     "key": "levelScene_strategying",
@@ -9391,21 +9435,17 @@
     "key": "backyard_backyardScene_showAddExpInfo",
     "tip": "Resting time: <color=#92fc63>$1</color> - EXP added: <color=#92fc63>$2</color>"
   },
-  "backyard_no_ship_tip": {
-    "key": "backyard_no_ship_tip",
-    "tip": "Ship does not exist."
-  },
   "guild_impeach_erro": {
     "key": "guild_impeach_erro",
     "tip": "Failed to impeach Guild Admiral."
   },
-  "exercise_count_recover_tip": {
-    "key": "exercise_count_recover_tip",
-    "tip": "(Recover in <color=#92fc63>$1</color>)"
-  },
   "guild_fire_erro": {
     "key": "guild_fire_erro",
     "tip": "Failed to kick guild member."
+  },
+  "exercise_count_recover_tip": {
+    "key": "exercise_count_recover_tip",
+    "tip": "(Recover in <color=#92fc63>$1</color>)"
   },
   "guild_tip_quit": {
     "key": "guild_tip_quit",
@@ -9415,21 +9455,25 @@
     "key": "guild_create_error_nomanifesto",
     "tip": "Guild motto may not be empty."
   },
+  "guild_create_error_nofaction": {
+    "key": "guild_create_error_nofaction",
+    "tip": "Please select a faction for the guild."
+  },
   "airi_error_code_ 100814": {
     "key": "airi_error_code_ 100814",
     "tip": "FB Already binded to another user"
   },
-  "guild_create_error_nofaction": {
-    "key": "guild_create_error_nofaction",
-    "tip": "Please select a faction for the guild."
+  "guild_create_error": {
+    "key": "guild_create_error",
+    "tip": "Failed to create guild."
   },
   "ship_unequip_all_tip": {
     "key": "ship_unequip_all_tip",
     "tip": "Are you sure you want to unequip all gear?"
   },
-  "guild_create_error": {
-    "key": "guild_create_error",
-    "tip": "Failed to create guild."
+  "guild_create_sucess": {
+    "key": "guild_create_sucess",
+    "tip": "Guild created!"
   },
   "ship_hunting_level_tips": {
     "key": "ship_hunting_level_tips",
@@ -9451,33 +9495,13 @@
     "key": "attribute_air",
     "tip": "AVI "
   },
-  "help_oil_buy_limit": {
-    "key": "help_oil_buy_limit",
-    "tip": {
-      "1": {
-        "line": true,
-        "info": " You are out of daily purchases",
-        "icon": {
-          "path": "helpbg/nooil",
-          "atlas": "helpbg/nooil",
-          "posX": 30,
-          "scale": 1,
-          "posY": -41
-        }
-      },
-      "windowSize": {
-        "y": 440
-      },
-      "helpSize": {
-        "y": 264
-      },
-      "disableScroll": true,
-      "helpbg": true
-    }
-  },
   "oil_buy_tip": {
     "key": "oil_buy_tip",
     "tip": "<size=24>Spend </size><icon name=diamond w=0.7 h=0.7/><size=25><color=#92fc63>$1</color></size> to buy <size=25><color=#92fc63>$2</color></size><size=24> Oil</size><size=2>\n\n</size><size=22>(Already bought <size=25><color=#FF0000>$3</color></size> times today)</size>"
+  },
+  "loading_tip_PoolMgr": {
+    "key": "loading_tip_PoolMgr",
+    "tip": "Adding paint..."
   },
   "player_harvestResource_error": {
     "key": "player_harvestResource_error",
@@ -9487,9 +9511,9 @@
     "key": "common_use_item_sos_used",
     "tip": "Number of Distress Signals +$1"
   },
-  "ship_vo_mainFleet_must_hasShip": {
-    "key": "ship_vo_mainFleet_must_hasShip",
-    "tip": "At least 1 ship must be deployed to the Main Fleet."
+  "backyard_theme_save_tip": {
+    "key": "backyard_theme_save_tip",
+    "tip": "Are you sure you want to save the current dorm layout as \n<color=#5FD500>$1</color>?"
   },
   "word_soundfiles_checkend_title": {
     "key": "word_soundfiles_checkend_title",
@@ -9503,21 +9527,17 @@
     "key": "ambush_display_6",
     "tip": "Danger"
   },
-  "equip_part_main_title": {
-    "key": "equip_part_main_title",
-    "tip": "Use (Main)"
+  "text_noRes_info_tip2": {
+    "key": "text_noRes_info_tip2",
+    "tip": "<color=#FF0000>$1</color> x<color=#FF0000>$2</color>"
   },
   "help_firework_produce": {
     "key": "help_firework_produce",
     "tip": "Press the Start button to begin filling the fireworks. The Fill Gauge will continuously move. There will be three Fill attempts - press the button at the appropriate time on each attempt to finish filling the fireworks.The total Fill amount can be seen on the horizontal bar at the right-hand side of the screen.Prizes are given depending on total fill amount: First-tier prize: <color=#c80a00>140%-160%</color> Second-tier prize: <color=#e66f00>120%-140% 160-180%</color>Third-tier prize: <color=#ffea01>90-120% 180-210%</color>All other fill amounts will result in a booby prize."
   },
-  "charge_title_getitem_month": {
-    "key": "charge_title_getitem_month",
-    "tip": "Receive every day for 30 days:"
-  },
-  "text_noPos_buy": {
-    "key": "text_noPos_buy",
-    "tip": "Expand"
+  "switch_to_shop_tip_3": {
+    "key": "switch_to_shop_tip_3",
+    "tip": "You don't have enough $1. Care to buy some?"
   },
   "exchangecode_use_error_16": {
     "key": "exchangecode_use_error_16",
@@ -9527,6 +9547,10 @@
     "key": "exchangecode_use_error_3",
     "tip": "Code has expired."
   },
+  "military_forbid_when_in_chapter": {
+    "key": "military_forbid_when_in_chapter",
+    "tip": "Fleet is currently attacking at sea. Unable to being exercise."
+  },
   "charge_month_card_title": {
     "key": "charge_month_card_title",
     "tip": "Extra bonus gems $1 now and items every day for a month"
@@ -9535,33 +9559,33 @@
     "key": "ad_3",
     "tip": "<material=underline c=#A9F548 event=clickPlayer args=1><color=#92fc63>$1</color></material> gets <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
   },
-  "ship_unequipFromShip_ok": {
-    "key": "ship_unequipFromShip_ok",
-    "tip": "<color=#FFD700FF>$1</color> unequipped."
-  },
-  "attribute_expend": {
-    "key": "attribute_expend",
-    "tip": "OIL "
+  "attribute_speed": {
+    "key": "attribute_speed",
+    "tip": "Speed"
   },
   "mail_sender_default": {
     "key": "mail_sender_default",
     "tip": "Headquarters"
   },
-  "friend_send_msg_erro_tip": {
-    "key": "friend_send_msg_erro_tip",
-    "tip": "Player is offline. Unable to send message."
+  "friend_msg_forbid": {
+    "key": "friend_msg_forbid",
+    "tip": "May not send requests with <color=#92fc63>blocked characters</color>."
+  },
+  "commission_normal": {
+    "key": "commission_normal",
+    "tip": "Commission: "
   },
   "challenge_unlimited_tip": {
     "key": "challenge_unlimited_tip",
     "tip": "You can attempt the Challenge Stages as many times as you like!"
   },
-  "commission_open_tip": {
-    "key": "commission_open_tip",
-    "tip": "Clear stage $1 to unlock"
-  },
   "commission_no_open": {
     "key": "commission_no_open",
     "tip": " "
+  },
+  "text_noPos_buy": {
+    "key": "text_noPos_buy",
+    "tip": "Expand"
   },
   "common_sale_out": {
     "key": "common_sale_out",
@@ -9578,10 +9602,6 @@
   "commander_material_is_rarity": {
     "key": "commander_material_is_rarity",
     "tip": "You have selected an SR Meowfficer. Would you like to continue?"
-  },
-  "number_6": {
-    "key": "number_6",
-    "tip": "6"
   },
   "number_5": {
     "key": "number_5",
@@ -9686,6 +9706,10 @@
     "key": "charge_limit_daily",
     "tip": "Available today: $1"
   },
+  "charge_title_getitem_month": {
+    "key": "charge_title_getitem_month",
+    "tip": "Receive every day for 30 days:"
+  },
   "text_noRes_tip": {
     "key": "text_noRes_tip",
     "tip": "Still need: $1"
@@ -9702,34 +9726,34 @@
       "ImageMode": true,
       "disableScroll": true,
       "helpSize": {
-        "y": 660,
-        "x": 836
+        "y": 800,
+        "x": 1176
       },
       "windowPos": {
-        "y": 15
+        "y": 80
       },
       "pageMode": false,
       "windowSize": {
-        "y": 740,
-        "x": 836
+        "y": 1200,
+        "x": 1263
       }
     }
-  },
-  "intimacy_desc_5_buff": {
-    "key": "intimacy_desc_5_buff",
-    "tip": "Current buff: All base stats (except speed and gear) +6%"
-  },
-  "equipment_select_device_destroy_tip": {
-    "key": "equipment_select_device_destroy_tip",
-    "tip": "Select gear to recycle: "
   },
   "intimacy_desc_1_buff": {
     "key": "intimacy_desc_1_buff",
     "tip": "Current buff: None"
   },
+  "equipment_select_device_destroy_tip": {
+    "key": "equipment_select_device_destroy_tip",
+    "tip": "Select gear to recycle: "
+  },
   "intimacy_desc_6": {
     "key": "intimacy_desc_6",
     "tip": "$1 is willing to trust her life with you."
+  },
+  "intimacy_desc_4": {
+    "key": "intimacy_desc_4",
+    "tip": "$1 is so happy and only wants to be with you!"
   },
   "ship_buildShipImmediately_error_noItem": {
     "key": "ship_buildShipImmediately_error_noItem",
@@ -9738,10 +9762,6 @@
   "word_preview": {
     "key": "word_preview",
     "tip": "Preview"
-  },
-  "intimacy_desc_4": {
-    "key": "intimacy_desc_4",
-    "tip": "$1 is so happy and only wants to be with you!"
   },
   "energy_desc_1": {
     "key": "energy_desc_1",
@@ -9759,6 +9779,10 @@
     "key": "charge_month_card_lefttime_tip",
     "tip": "Trade License: \n$1 days left"
   },
+  "ship_equip_profiiency": {
+    "key": "ship_equip_profiiency",
+    "tip": "Efficiency: $1%"
+  },
   "word_attr_healthy": {
     "key": "word_attr_healthy",
     "tip": "Healing"
@@ -9771,29 +9795,29 @@
     "key": "ship_shipModLayer_modSuccess",
     "tip": "Enhanced!"
   },
-  "equipment_select_device_destroy_bonus_tip": {
-    "key": "equipment_select_device_destroy_bonus_tip",
-    "tip": "Items received:"
-  },
   "batch_destroy": {
     "key": "batch_destroy",
     "tip": "Multi Recycle"
+  },
+  "friend_resume_title": {
+    "key": "friend_resume_title",
+    "tip": "Resume"
   },
   "new_airi_error_code_-1": {
     "key": "new_airi_error_code_-1",
     "tip": "Unknown Error"
   },
-  "word_own": {
-    "key": "word_own",
-    "tip": "Owned "
+  "word_reset": {
+    "key": "word_reset",
+    "tip": "Reset"
   },
   "tag_level_narrative": {
     "key": "tag_level_narrative",
     "tip": "Story"
   },
-  "word_shipNation_ai": {
-    "key": "word_shipNation_ai",
-    "tip": "KizunaAI"
+  "word_shipNation_dongHuang": {
+    "key": "word_shipNation_dongHuang",
+    "tip": "Dragon Empery"
   },
   "server_error": {
     "key": "server_error",
@@ -9803,9 +9827,9 @@
     "key": "player_changePlayerName_error_2015",
     "tip": "Name is being used by another player."
   },
-  "word_shipNation_dongHuang": {
-    "key": "word_shipNation_dongHuang",
-    "tip": "Dragon Empery"
+  "word_shipNation_baiYing": {
+    "key": "word_shipNation_baiYing",
+    "tip": "Eagle Union"
   },
   "backyard_backyardGranaryLayer_foodTimeNotice_bottom": {
     "key": "backyard_backyardGranaryLayer_foodTimeNotice_bottom",
@@ -9819,21 +9843,21 @@
     "key": "ship_limit_notice",
     "tip": "The Submarine Fleet's stats do not count towards the Status Requirements. "
   },
-  "firend_relieve_blacklist_ok": {
-    "key": "firend_relieve_blacklist_ok",
-    "tip": "Removed!"
-  },
   "friend_event_count": {
     "key": "friend_event_count",
     "tip": "Commissions: "
+  },
+  "friend_resume_manoeuvre_count": {
+    "key": "friend_resume_manoeuvre_count",
+    "tip": "Exercises: "
   },
   "sham_reset_confirm": {
     "key": "sham_reset_confirm",
     "tip": "Current stage is not yet complete. Are you sure you want to reset this stage?"
   },
-  "friend_resume_attack_count": {
-    "key": "friend_resume_attack_count",
-    "tip": "Attacks: "
+  "friend_send_msg_erro_tip": {
+    "key": "friend_send_msg_erro_tip",
+    "tip": "Player is offline. Unable to send message."
   },
   "word_speedUp": {
     "key": "word_speedUp",
@@ -9843,29 +9867,29 @@
     "key": "activity_build_end_tip",
     "tip": "Event has already ended. Unable to build."
   },
-  "friend_msg_forbid": {
-    "key": "friend_msg_forbid",
-    "tip": "May not send requests with <color=#92fc63>blocked characters</color>."
-  },
   "reject_friend_ok": {
     "key": "reject_friend_ok",
     "tip": "Friend request rejected."
-  },
-  "word_equipment_equip": {
-    "key": "word_equipment_equip",
-    "tip": "Auxiliary"
   },
   "reject_all_friend_ok": {
     "key": "reject_all_friend_ok",
     "tip": "All friend requests rejected."
   },
+  "word_equipment_equip": {
+    "key": "word_equipment_equip",
+    "tip": "Auxiliary"
+  },
+  "friend_no_request": {
+    "key": "friend_no_request",
+    "tip": "No requests found."
+  },
   "index_fleetfront": {
     "key": "index_fleetfront",
     "tip": "Vanguard "
   },
-  "ship_dockyardScene_noRole": {
-    "key": "ship_dockyardScene_noRole",
-    "tip": "You have not selected a character."
+  "ship_buildBatchShip": {
+    "key": "ship_buildBatchShip",
+    "tip": "Spend <color=#92fc63>$1 Gems</color> to receive <color=#92fc63>10 high performance ships</color>?"
   },
   "exchangecode_use_placeholder": {
     "key": "exchangecode_use_placeholder",
@@ -9875,10 +9899,6 @@
     "key": "challenge_current_level",
     "tip": "Current Level: Round $1"
   },
-  "formation_forbid_when_in_chapter": {
-    "key": "formation_forbid_when_in_chapter",
-    "tip": "Fleet is currently attacking at sea. Unable to edit formation."
-  },
   "formation_reform_tip": {
     "key": "formation_reform_tip",
     "tip": "Unable to form fleet. Would you like to edit your formation?"
@@ -9887,41 +9907,45 @@
     "key": "formation_switch_success",
     "tip": "Changed to $1."
   },
-  "ship_buildBatchShip": {
-    "key": "ship_buildBatchShip",
-    "tip": "Spend <color=#92fc63>$1 Gems</color> to receive <color=#92fc63>10 high performance ships</color>?"
-  },
-  "word_vanguard_fleet": {
-    "key": "word_vanguard_fleet",
-    "tip": "Vanguard"
+  "ship_buildShip_error_notEnoughItem": {
+    "key": "ship_buildShip_error_notEnoughItem",
+    "tip": "You don't have enough resources."
   },
   "intensify": {
     "key": "intensify",
     "tip": "Enhance"
   },
+  "word_vanguard_fleet": {
+    "key": "word_vanguard_fleet",
+    "tip": "Vanguard"
+  },
   "skill": {
     "key": "skill",
     "tip": "Skills"
+  },
+  "attribute_dodge_limit": {
+    "key": "attribute_dodge_limit",
+    "tip": "Evasion Limit "
   },
   "index_fleetrear": {
     "key": "index_fleetrear",
     "tip": "Main "
   },
-  "attribute_sonarInterval": {
-    "key": "attribute_sonarInterval",
-    "tip": "FREQ "
-  },
   "attribute_antisub": {
     "key": "attribute_antisub",
     "tip": "ASW "
   },
-  "main_notificationLayer_deleteFriend": {
-    "key": "main_notificationLayer_deleteFriend",
-    "tip": "Delete Friend"
+  "main_mailMediator_takeALot": {
+    "key": "main_mailMediator_takeALot",
+    "tip": "Big Harvest"
   },
-  "ship_buildShip_error_notEnoughItem": {
-    "key": "ship_buildShip_error_notEnoughItem",
-    "tip": "You don't have enough resources."
+  "resourceSite_startResourceSite_error": {
+    "key": "resourceSite_startResourceSite_error",
+    "tip": "Failed to sail to resource node: "
+  },
+  "attribute_expend": {
+    "key": "attribute_expend",
+    "tip": "OIL "
   },
   "exchangecode_title": {
     "key": "exchangecode_title",
@@ -9935,17 +9959,13 @@
     "key": "school_title_dajiangtang",
     "tip": "Lecture Hall "
   },
-  "attribute_armor": {
-    "key": "attribute_armor",
-    "tip": "Armor"
+  "attribute_reload": {
+    "key": "attribute_reload",
+    "tip": "RLD "
   },
   "backyard_cannot_repeat_purchase": {
     "key": "backyard_cannot_repeat_purchase",
     "tip": "May not purchase again."
-  },
-  "attribute_reload": {
-    "key": "attribute_reload",
-    "tip": "RLD "
   },
   "attribute_antiaircraft": {
     "key": "attribute_antiaircraft",
@@ -9963,6 +9983,10 @@
     "key": "which_day",
     "tip": "Day <color=#92fc63>$1</color>"
   },
+  "long_time_offline": {
+    "key": "long_time_offline",
+    "tip": "Inactive"
+  },
   "help_technologytree": {
     "key": "help_technologytree",
     "tip": [
@@ -9975,13 +9999,9 @@
     "key": "ship_shipInfoScene_equipUnlockSlostYesText",
     "tip": "Enhance Ship"
   },
-  "event_type_unlimit": {
-    "key": "event_type_unlimit",
-    "tip": "Any type"
-  },
-  "levelScene_activate_remaster": {
-    "key": "levelScene_activate_remaster",
-    "tip": "Would you like to use a <color=#ffde38>Data Key</color> and gain access to this event for 15 minutes? Once your time is up, you will need to use another Data Key."
+  "levelScene_signal_help_tip": {
+    "key": "levelScene_signal_help_tip",
+    "tip": "About Distress Signals"
   },
   "event_condition_ship_count": {
     "key": "event_condition_ship_count",
@@ -9995,49 +10015,49 @@
     "key": "event_finish_success",
     "tip": "Commission complete!"
   },
-  "equipment_upgrade_ok": {
-    "key": "equipment_upgrade_ok",
-    "tip": "Gear upgraded!"
-  },
   "event_start_success": {
     "key": "event_start_success",
     "tip": "Commission has begun!"
+  },
+  "equipment_upgrade_ok": {
+    "key": "equipment_upgrade_ok",
+    "tip": "Gear upgraded!"
   },
   "refresh_shopStreet_question": {
     "key": "refresh_shopStreet_question",
     "tip": "Spend $1 <color=#92fc63>$2</color> to refresh the list of items in the shop?\n\n<size=30>(Bought <size=30><color=#FF0000>$3</color></size> times today)</size>"
   },
+  "create_player_success": {
+    "key": "create_player_success",
+    "tip": "Character created."
+  },
   "word_exp_chinese": {
     "key": "word_exp_chinese",
     "tip": "EXP"
   },
-  "create_player_success": {
-    "key": "create_player_success",
-    "tip": "Character created."
+  "ship_unequipFromShip_ok": {
+    "key": "ship_unequipFromShip_ok",
+    "tip": "<color=#FFD700FF>$1</color> unequipped."
   },
   "ship_set_skin_error": {
     "key": "ship_set_skin_error",
     "tip": "Failed to change skins: "
   },
-  "loading_tip_PoolMgr": {
-    "key": "loading_tip_PoolMgr",
-    "tip": "Adding paint..."
-  },
   "loading_tip_ShaderMgr": {
     "key": "loading_tip_ShaderMgr",
     "tip": "Rendering visuals..."
+  },
+  "world_stamina_exchange": {
+    "key": "world_stamina_exchange",
+    "tip": "行动力不足，是否花费<icon name=oil w=0.7 h=0.7/>$1兑换行动力*$2？"
   },
   "tips_firework_completed": {
     "key": "tips_firework_completed",
     "tip": "Fireworks production complete"
   },
-  "world_help_tip": {
-    "key": "world_help_tip",
-    "tip": [
-      {
-        "info": "\n大世界说明："
-      }
-    ]
+  "levelScene_activate_remaster": {
+    "key": "levelScene_activate_remaster",
+    "tip": "Would you like to use a <color=#ffde38>Data Key</color> and gain access to this event for 15 minutes? Once your time is up, you will need to use another Data Key."
   },
   "event_condition_ship_type": {
     "key": "event_condition_ship_type",
@@ -10067,45 +10087,41 @@
     "key": "levelScene_oni_lose",
     "tip": "Special Target has fled, capture failed!"
   },
-  "levelScene_chapter_level_limit": {
-    "key": "levelScene_chapter_level_limit",
-    "tip": "Reach Commander lv. <color=#92fc63>$1</color> to unlock this stage."
+  "levelScene_chapter_win": {
+    "key": "levelScene_chapter_win",
+    "tip": "Boss defeated! Stage complete."
   },
   "ship_equipToShip_error": {
     "key": "ship_equipToShip_error",
     "tip": "Failed to equip: "
   },
-  "levelScene_chapter_win": {
-    "key": "levelScene_chapter_win",
-    "tip": "Boss defeated! Stage complete."
-  },
   "levelScene_tracking_erro": {
     "key": "levelScene_tracking_erro",
     "tip": "Defeat"
+  },
+  "levelScene_time_out": {
+    "key": "levelScene_time_out",
+    "tip": "Battle time exceeded."
   },
   "exchange_limit_skin_tip": {
     "key": "exchange_limit_skin_tip",
     "tip": "Would you like to use $1 Rental Outfit Voucher(s)\n and gain access to \"$2\" for $3 days and $4 hours?"
   },
-  "levelScene_threat_to_rule_out": {
-    "key": "levelScene_threat_to_rule_out",
-    "tip": "Eliminate Threat $1"
+  "levelScene_chapter_lock": {
+    "key": "levelScene_chapter_lock",
+    "tip": "Please complete <color=#92fc63>the previous stage</color>."
   },
   "word_apply": {
     "key": "word_apply",
     "tip": "Apply"
   },
-  "levelScene_chapter_lock": {
-    "key": "levelScene_chapter_lock",
-    "tip": "Please complete <color=#92fc63>the previous stage</color>."
+  "tactics_max_level": {
+    "key": "tactics_max_level",
+    "tip": "This skill is already fully leveled up!"
   },
   "fleet_error_no_fleet": {
     "key": "fleet_error_no_fleet",
     "tip": "Fleet does not exist."
-  },
-  "tactics_end_to_learn": {
-    "key": "tactics_end_to_learn",
-    "tip": "<color=#92fc63>$1</color> has finished class! Her <color=#92fc63>$2</color> skill received <color=#92fc63>$3</color> EXP."
   },
   "stage_finishStage_error": {
     "key": "stage_finishStage_error",
@@ -10115,13 +10131,17 @@
     "key": "ship_energy_low_desc",
     "tip": "Exhausted\nAffinity will be reduced if you attack"
   },
+  "ship_destroy_advanced_tip": {
+    "key": "ship_destroy_advanced_tip",
+    "tip": "You are about to retire a lv. 2 or higher ship. Continue retiring ships?"
+  },
   "word_get": {
     "key": "word_get",
     "tip": "Receive"
   },
-  "ship_destroy_advanced_tip": {
-    "key": "ship_destroy_advanced_tip",
-    "tip": "You are about to retire a lv. 2 or higher ship. Continue retiring ships?"
+  "main_notificationLayer_sendButton": {
+    "key": "main_notificationLayer_sendButton",
+    "tip": "Please enter a message..."
   },
   "list_empty_tip_friendui_request": {
     "key": "list_empty_tip_friendui_request",
@@ -10131,10 +10151,6 @@
     "key": "inform_select_type",
     "tip": "Please select content to report."
   },
-  "ship_shipModMediator_noticeSameButLargerStar": {
-    "key": "ship_shipModMediator_noticeSameButLargerStar",
-    "tip": "Same with higher stars"
-  },
   "ship_shipModMediator_noticeLvOver1": {
     "key": "ship_shipModMediator_noticeLvOver1",
     "tip": "Level > Lv. 1"
@@ -10143,13 +10159,13 @@
     "key": "ship_shipInfoScene_modLvMax",
     "tip": "This limit break is already fully upgraded."
   },
+  "ship_shipInfoScene_effect": {
+    "key": "ship_shipInfoScene_effect",
+    "tip": "Current EXP: <color=#92fc63>$1/$2</color>\n"
+  },
   "ship_renameShip_error_2011": {
     "key": "ship_renameShip_error_2011",
     "tip": "Name is too long!"
-  },
-  "ship_shipInfoScene_equipUnlockSlostContent": {
-    "key": "ship_shipInfoScene_equipUnlockSlostContent",
-    "tip": "Slot is locked. Please limit break selected ship to unlock."
   },
   "ship_newSkin_name": {
     "key": "ship_newSkin_name",
@@ -10159,41 +10175,45 @@
     "key": "ship_formationUI_changeFormationError_flag",
     "tip": "Formation switch error. Please check your formations!"
   },
+  "ship_formationUI_exercise_fleetName": {
+    "key": "ship_formationUI_exercise_fleetName",
+    "tip": "Exercise Fleet"
+  },
   "common_buy_success": {
     "key": "common_buy_success",
     "tip": "Purchased!"
   },
-  "ship_formationUI_exercise_fleetName": {
-    "key": "ship_formationUI_exercise_fleetName",
-    "tip": "Exercise Fleet"
+  "ship_formationUI_fleetName6": {
+    "key": "ship_formationUI_fleetName6",
+    "tip": "Fleet 6"
   },
   "technology_stop_success": {
     "key": "technology_stop_success",
     "tip": "Successfully suspended research."
   },
-  "ship_formationMediator_changeNameError_sameShip": {
-    "key": "ship_formationMediator_changeNameError_sameShip",
-    "tip": "Only one ship by the same name may be deployed to each fleet."
-  },
   "ship_dockyardScene_error_choiseRoleMore": {
     "key": "ship_dockyardScene_error_choiseRoleMore",
     "tip": "Must select at least <color=#92fc63>$1</color> character(s)"
+  },
+  "ship_dockyardScene_noRole": {
+    "key": "ship_dockyardScene_noRole",
+    "tip": "You have not selected a character."
   },
   "friend_request_msg_placeholder": {
     "key": "friend_request_msg_placeholder",
     "tip": "Your message..."
   },
-  "ship_dockyardScene_capacity": {
-    "key": "ship_dockyardScene_capacity",
-    "tip": "Dock capacity:"
+  "ship_vo_getWordsUndefined": {
+    "key": "ship_vo_getWordsUndefined",
+    "tip": "Oh no! We're experiencing some sort of random error!"
   },
   "word_attr_level": {
     "key": "word_attr_level",
     "tip": "Max Level"
   },
-  "ship_vo_getWordsUndefined": {
-    "key": "ship_vo_getWordsUndefined",
-    "tip": "Oh no! We're experiencing some sort of random error!"
+  "ship_vo_mainFleet_must_hasShip": {
+    "key": "ship_vo_mainFleet_must_hasShip",
+    "tip": "At least 1 ship must be deployed to the Main Fleet."
   },
   "energy_desc_tired": {
     "key": "energy_desc_tired",
@@ -10215,10 +10235,6 @@
     "key": "attribute_healthy",
     "tip": "Healing"
   },
-  "resourceSite_startResourceSite_error": {
-    "key": "resourceSite_startResourceSite_error",
-    "tip": "Failed to sail to resource node: "
-  },
   "resourceSite_finishResourceSite_error": {
     "key": "resourceSite_finishResourceSite_error",
     "tip": "Failed to complete harvesting: "
@@ -10231,21 +10247,21 @@
     "key": "player_changePlayerIcon_error",
     "tip": "Failed to change secretary: "
   },
+  "main_notificationMediator_sendFriendRequest": {
+    "key": "main_notificationMediator_sendFriendRequest",
+    "tip": "Friend request sent."
+  },
   "ship_shipUpgradeLayer2_uncommon_tip": {
     "key": "ship_shipUpgradeLayer2_uncommon_tip",
     "tip": "You have selected an <color=#92fc63>Elite or better</color> ship to use as an enhancing material. Continue enhancing?"
   },
-  "main_notificationLayer_sendButton": {
-    "key": "main_notificationLayer_sendButton",
-    "tip": "Please enter a message..."
+  "main_notificationLayer_deleteFriend": {
+    "key": "main_notificationLayer_deleteFriend",
+    "tip": "Delete Friend"
   },
   "attribute_scatter": {
     "key": "attribute_scatter",
     "tip": "Spread Range"
-  },
-  "main_mailMediator_takeALot": {
-    "key": "main_mailMediator_takeALot",
-    "tip": "Big Harvest"
   },
   "main_mailLayer_attachTaken": {
     "key": "main_mailLayer_attachTaken",
@@ -10255,25 +10271,25 @@
     "key": "mail_takeAttachment_error_dockYrad_full",
     "tip": "<color=#92fc63>Failed to collect.</color>\n\nYour <color=#92fc63>dock is full</color>."
   },
+  "mail_takeAttachment_error_magazine_full": {
+    "key": "mail_takeAttachment_error_magazine_full",
+    "tip": "<color=#92fc63>Failed to collect.</color>\n\nYour <color=#92fc63>gear storage is full</color>."
+  },
   "ship_remould_material_ship_on_exist": {
     "key": "ship_remould_material_ship_on_exist",
     "tip": "Selected material ship does not exist."
-  },
-  "mail_takeAttachment_error_noAttach": {
-    "key": "mail_takeAttachment_error_noAttach",
-    "tip": "Failed to collect rewards."
   },
   "mail_takeAttachment_error_noMail": {
     "key": "mail_takeAttachment_error_noMail",
     "tip": "Mail does not exist: $1"
   },
-  "word_threaten_exclude": {
-    "key": "word_threaten_exclude",
-    "tip": "Eliminate Threat"
-  },
   "login_register_full": {
     "key": "login_register_full",
     "tip": "Too many players registered."
+  },
+  "word_threaten_exclude": {
+    "key": "word_threaten_exclude",
+    "tip": "Eliminate Threat"
   },
   "login_loginScene_choiseServer": {
     "key": "login_loginScene_choiseServer",
@@ -10291,6 +10307,10 @@
     "key": "tactics_continue_to_learn",
     "tip": "continue to learn a new book?"
   },
+  "tactics_end_to_learn": {
+    "key": "tactics_end_to_learn",
+    "tip": "<color=#92fc63>$1</color> has finished class! Her <color=#92fc63>$2</color> skill received <color=#92fc63>$3</color> EXP."
+  },
   "word_destroy": {
     "key": "word_destroy",
     "tip": "Retire"
@@ -10298,22 +10318,6 @@
   "levelScene_map_lock": {
     "key": "levelScene_map_lock",
     "tip": "<color=#92fc63>Complete this chapter</color> in order to unlock the next."
-  },
-  "tactics_max_level": {
-    "key": "tactics_max_level",
-    "tip": "This skill is already fully leveled up!"
-  },
-  "exercise_replace_rivals_ok_tip": {
-    "key": "exercise_replace_rivals_ok_tip",
-    "tip": "Opponents updated!"
-  },
-  "word_mediumArmor": {
-    "key": "word_mediumArmor",
-    "tip": "Medium"
-  },
-  "word_equipment_rarity": {
-    "key": "word_equipment_rarity",
-    "tip": "Rarity"
   },
   "tactics_lesson_system_introduce": {
     "key": "tactics_lesson_system_introduce",
@@ -10340,6 +10344,18 @@
       }
     }
   },
+  "exercise_replace_rivals_ok_tip": {
+    "key": "exercise_replace_rivals_ok_tip",
+    "tip": "Opponents updated!"
+  },
+  "word_mediumArmor": {
+    "key": "word_mediumArmor",
+    "tip": "Medium"
+  },
+  "word_equipment_rarity": {
+    "key": "word_equipment_rarity",
+    "tip": "Rarity"
+  },
   "friend_relieveblacklist_success": {
     "key": "friend_relieveblacklist_success",
     "tip": "Removed from blacklist!"
@@ -10352,17 +10368,21 @@
     "key": "friend_sendFriendMsg_error_noFriend",
     "tip": "You are not friends with this player."
   },
-  "exercise_shop_refresh_tip": {
-    "key": "exercise_shop_refresh_tip",
-    "tip": "Spend <color=#92fc63>$1</color> Gems to refresh list of items?"
+  "exercise_count_insufficient": {
+    "key": "exercise_count_insufficient",
+    "tip": "<color=#92fc63>You don't have enough exercises.</color>"
+  },
+  "friend_acceptFriendRequest_error": {
+    "key": "friend_acceptFriendRequest_error",
+    "tip": "Failed to accept friend request: "
   },
   "activity_shop_lable": {
     "key": "activity_shop_lable",
     "tip": "*Available During: $1 "
   },
-  "exercise_rule_tip": {
-    "key": "exercise_rule_tip",
-    "tip": "1. Each Exercise season lasts <color=#92fc63>14</color> days. As you rise through the ranks each season, you will earn more and more Merits.\n2. Winning an Exercise Battle will earn you Merits based on your current Military Rank. If you lose, you will still earn <color=#92fc63>half</color> the rewards of a victory.\n3. Your Seasonal Score will increase when you win a battle, but <color=#92fc63>your score won't decrease if you lose.</color>\n4. Your Seasonal Score is unaffected by other players defeating or losing to your Defense Fleet.\n5. Your rank increases as you earn Seasonal Score up to the rank of Captain. After that point, your Military Rank is determined by your position on the Exercise Ladder (your Current Rank.)\n6. You can only receive your Promotion Merits <color=#92fc63>once per season and rank.</color>\n7. The Merits you earn can be exchanged for special rewards and items in the Merit Supply shop.\n8. You can refresh your opponent lineup <color=#92fc63>5</color> times a day.\n9. Your opponent lineup will also refresh automatically after you finish an Exercise Battle.\n10. Your Exercise Count will refresh at 00:00, 12:00, and 18:00 (server local time) every day.\n11. At the end of the season, all players will have their Military Rank and Current Rank reset. However, <color=#92fc63>all Merits earned will persist between seasons.</color> "
+  "exercise_shop_refresh_tip": {
+    "key": "exercise_shop_refresh_tip",
+    "tip": "Spend <color=#92fc63>$1</color> Gems to refresh list of items?"
   },
   "backyard_backyardShipInfoMediator_error_fullEnergy": {
     "key": "backyard_backyardShipInfoMediator_error_fullEnergy",
@@ -10372,21 +10392,17 @@
     "key": "friend_sendFriendMsg_error",
     "tip": "Failed to send message: "
   },
-  "exercise_count_insufficient": {
-    "key": "exercise_count_insufficient",
-    "tip": "<color=#92fc63>You don't have enough exercises.</color>"
-  },
   "backyard_energy_qiuck_up_tip": {
     "key": "backyard_energy_qiuck_up_tip",
     "tip": "You'll need to give <color=#A9F548FF>$1 cups</color> of Coffee for full energy restoration!\n\nCoffee left: <color=$2>$3 cups</color>"
   },
+  "backyard_no_ship_tip": {
+    "key": "backyard_no_ship_tip",
+    "tip": "Ship does not exist."
+  },
   "guild_quit_erro": {
     "key": "guild_quit_erro",
     "tip": "Failed to leave guild."
-  },
-  "backyard_extendArea_tip": {
-    "key": "backyard_extendArea_tip",
-    "tip": "Required: Expansion License:||$1|| ||You have: ||$2||"
   },
   "backyard_backyardShipInfoMediator_ok_addShip": {
     "key": "backyard_backyardShipInfoMediator_ok_addShip",
@@ -10395,6 +10411,10 @@
   "common_get_player_info_erro": {
     "key": "common_get_player_info_erro",
     "tip": "Failed to retrieve player info"
+  },
+  "channel_name_5": {
+    "key": "channel_name_5",
+    "tip": "Guild"
   },
   "reduce_sp3_pass_count": {
     "key": "reduce_sp3_pass_count",
@@ -10408,13 +10428,13 @@
     "key": "school_title_shangdian",
     "tip": "Munition"
   },
-  "battle_resourceSiteMediator_shipState_event": {
-    "key": "battle_resourceSiteMediator_shipState_event",
-    "tip": "She's currently on commission!"
-  },
   "battle_preCombatLayer_ready": {
     "key": "battle_preCombatLayer_ready",
     "tip": "The fleet is ready to attack at a moment's notice"
+  },
+  "battle_result_max_combo": {
+    "key": "battle_result_max_combo",
+    "tip": "Max COMBO:"
   },
   "battle_result_victory": {
     "key": "battle_result_victory",
