@@ -3006,7 +3006,7 @@
     "subtitle": "",
     "id": 622,
     "mask": "bg/bg_map_tiancheng",
-    "condition": "A1/C1ボスと交戦",
+    "condition": "A1/C1ボスに遭遇",
     "is_open": 0,
     "title": "記憶Ⅱ",
     "story": "TIANCHENGHUODONG3",
@@ -3028,7 +3028,7 @@
     "subtitle": "",
     "id": 624,
     "mask": "bg/bg_map_tiancheng",
-    "condition": "A2/C2ボスと交戦",
+    "condition": "A2/C2ボスに遭遇",
     "is_open": 0,
     "title": "記憶Ⅳ",
     "story": "TIANCHENGHUODONG5",
@@ -3061,7 +3061,7 @@
     "subtitle": "",
     "id": 627,
     "mask": "bg/bg_map_tiancheng",
-    "condition": "A3/C3ボスと交戦",
+    "condition": "A3/C3ボスに遭遇",
     "is_open": 0,
     "title": "記憶Ⅶ",
     "story": "TIANCHENGHUODONG8",
@@ -3083,7 +3083,7 @@
     "subtitle": "",
     "id": 629,
     "mask": "bg/bg_map_tiancheng",
-    "condition": "A3/C3クリア",
+    "condition": "A3/C3クリア後",
     "is_open": 0,
     "title": "記憶IX",
     "story": "TIANCHENGHUODONG9-2",
@@ -3138,7 +3138,7 @@
     "subtitle": "",
     "id": 634,
     "mask": "bg/bg_map_tiancheng",
-    "condition": "B2/D2ボスと交戦",
+    "condition": "B2/D2ボスに遭遇",
     "is_open": 0,
     "title": "残響Ⅴ",
     "story": "TIANCHENGHUODONG14",
@@ -3171,7 +3171,7 @@
     "subtitle": "",
     "id": 637,
     "mask": "bg/bg_map_tiancheng",
-    "condition": "B3/D3ボスと交戦",
+    "condition": "B3/D3ボスに遭遇",
     "is_open": 0,
     "title": "残響Ⅷ",
     "story": "TIANCHENGHUODONG17",
@@ -8018,6 +8018,50 @@
     "icon": "memorybg_8",
     "type": 1
   },
+  "1204": {
+    "subtitle": "",
+    "id": 1204,
+    "mask": "bg/bg_memory",
+    "condition": "「笑顔オーバーフロー！1」開始",
+    "is_open": 0,
+    "title": "調子が悪いの？",
+    "story": "JUANBO1",
+    "icon": "memory_juanbo",
+    "type": 1
+  },
+  "1206": {
+    "subtitle": "",
+    "id": 1206,
+    "mask": "bg/bg_memory",
+    "condition": "「笑顔オーバーフロー！3」開始",
+    "is_open": 0,
+    "title": "応援要請！",
+    "story": "JUANBO3",
+    "icon": "memory_juanbo",
+    "type": 1
+  },
+  "1208": {
+    "subtitle": "",
+    "id": 1208,
+    "mask": "bg/bg_memory",
+    "condition": "「笑顔オーバーフロー！5」開始",
+    "is_open": 0,
+    "title": "ゆっくりしていってね！",
+    "story": "JUANBO5",
+    "icon": "memory_juanbo",
+    "type": 1
+  },
+  "1210": {
+    "subtitle": "",
+    "id": 1210,
+    "mask": "bg/bg_memory",
+    "condition": "「笑顔オーバーフロー！7」開始",
+    "is_open": 0,
+    "title": "はい、笑ってー！",
+    "story": "JUANBO7",
+    "icon": "memory_juanbo",
+    "type": 1
+  },
   "76": {
     "subtitle": "",
     "id": 76,
@@ -9976,17 +10020,6 @@
     "icon": "chara_ruihe",
     "type": 1
   },
-  "247": {
-    "subtitle": "",
-    "id": 247,
-    "mask": "bg/bg_memory",
-    "condition": "「瑞鶴任務2」開始",
-    "is_open": 0,
-    "title": "瑞鶴と仲間たち",
-    "story": "RUIHE2",
-    "icon": "chara_ruihe",
-    "type": 1
-  },
   "all": [
     1,
     2,
@@ -11103,6 +11136,13 @@
     1201,
     1202,
     1203,
+    1204,
+    1205,
+    1206,
+    1207,
+    1208,
+    1209,
+    1210,
     10000,
     10001,
     10002,
@@ -11196,14 +11236,14 @@
     "icon": "memory_asituoliya",
     "type": 1
   },
-  "248": {
+  "247": {
     "subtitle": "",
-    "id": 248,
+    "id": 247,
     "mask": "bg/bg_memory",
-    "condition": "「瑞鶴任務3」開始",
+    "condition": "「瑞鶴任務2」開始",
     "is_open": 0,
-    "title": "瑞鶴と先輩たち",
-    "story": "RUIHE3",
+    "title": "瑞鶴と仲間たち",
+    "story": "RUIHE2",
     "icon": "chara_ruihe",
     "type": 1
   },
@@ -11218,6 +11258,17 @@
     "icon": "memory_tianchenghuodong",
     "type": 1
   },
+  "10000": {
+    "subtitle": "",
+    "id": 10000,
+    "mask": "bg/bg_memory",
+    "condition": "「努力、希望と計画」開始",
+    "is_open": 0,
+    "title": "プロローグ",
+    "story": "UIACT10000",
+    "icon": "activity",
+    "type": 1
+  },
   "10001": {
     "subtitle": "",
     "id": 10001,
@@ -11229,25 +11280,14 @@
     "icon": "activity",
     "type": 1
   },
-  "10049": {
+  "248": {
     "subtitle": "",
-    "id": 10049,
+    "id": 248,
     "mask": "bg/bg_memory",
-    "condition": "「別次元からの来訪者」SP.4開始",
+    "condition": "「瑞鶴任務3」開始",
     "is_open": 0,
-    "title": "異色海域PURPLE",
-    "story": "NEPU_STAGE401",
-    "icon": "memory_nepu_stage",
-    "type": 1
-  },
-  "249": {
-    "subtitle": "",
-    "id": 249,
-    "mask": "bg/bg_memory",
-    "condition": "「瑞鶴任務4」開始",
-    "is_open": 0,
-    "title": "瑞鶴と大先輩",
-    "story": "RUIHE4",
+    "title": "瑞鶴と先輩たち",
+    "story": "RUIHE3",
     "icon": "chara_ruihe",
     "type": 1
   },
@@ -11284,26 +11324,15 @@
     "icon": "memory_zhuangjia",
     "type": 1
   },
-  "250": {
+  "249": {
     "subtitle": "",
-    "id": 250,
+    "id": 249,
     "mask": "bg/bg_memory",
-    "condition": "「瑞鶴任務5」開始",
+    "condition": "「瑞鶴任務4」開始",
     "is_open": 0,
-    "title": "今日は料理担当！",
-    "story": "RUIHE5",
+    "title": "瑞鶴と大先輩",
+    "story": "RUIHE4",
     "icon": "chara_ruihe",
-    "type": 1
-  },
-  "4000": {
-    "subtitle": "",
-    "id": 4000,
-    "mask": "bg/bg_memory",
-    "condition": "鏡写されし異色B4/D4開始",
-    "is_open": 0,
-    "title": "終局Ⅰ",
-    "story": "TACT20015",
-    "icon": "activity",
     "type": 1
   },
   "10064": {
@@ -11328,17 +11357,6 @@
     "icon": "memory_yinghua",
     "type": 1
   },
-  "251": {
-    "subtitle": "",
-    "id": 251,
-    "mask": "bg/bg_memory",
-    "condition": "「瑞鶴任務6」開始",
-    "is_open": 0,
-    "title": "私なんて……",
-    "story": "RUIHE6",
-    "icon": "chara_ruihe",
-    "type": 1
-  },
   "10062": {
     "subtitle": "",
     "id": 10062,
@@ -11348,6 +11366,28 @@
     "title": "奮発",
     "story": "YINGHUA12",
     "icon": "memory_yinghua4",
+    "type": 1
+  },
+  "250": {
+    "subtitle": "",
+    "id": 250,
+    "mask": "bg/bg_memory",
+    "condition": "「瑞鶴任務5」開始",
+    "is_open": 0,
+    "title": "今日は料理担当！",
+    "story": "RUIHE5",
+    "icon": "chara_ruihe",
+    "type": 1
+  },
+  "4000": {
+    "subtitle": "",
+    "id": 4000,
+    "mask": "bg/bg_memory",
+    "condition": "鏡写されし異色B4/D4開始",
+    "is_open": 0,
+    "title": "終局Ⅰ",
+    "story": "TACT20015",
+    "icon": "activity",
     "type": 1
   },
   "10061": {
@@ -11372,15 +11412,37 @@
     "icon": "memory_yinghua",
     "type": 1
   },
-  "252": {
+  "251": {
     "subtitle": "",
-    "id": 252,
+    "id": 251,
     "mask": "bg/bg_memory",
-    "condition": "「瑞鶴任務7」開始",
+    "condition": "「瑞鶴任務6」開始",
     "is_open": 0,
-    "title": "不屈の鶴",
-    "story": "RUIHE7",
+    "title": "私なんて……",
+    "story": "RUIHE6",
     "icon": "chara_ruihe",
+    "type": 1
+  },
+  "639": {
+    "subtitle": "",
+    "id": 639,
+    "mask": "bg/bg_map_tiancheng",
+    "condition": "B3/D3クリア",
+    "is_open": 0,
+    "title": "現実",
+    "story": "TIANCHENGHUODONG19",
+    "icon": "memory_tianchenghuodong",
+    "type": 1
+  },
+  "10051": {
+    "subtitle": "",
+    "id": 10051,
+    "mask": "bg/bg_memory",
+    "condition": "「墨染まりし鋼の桜」開始",
+    "is_open": 0,
+    "title": "序",
+    "story": "YINGHUA1",
+    "icon": "memory_yinghua1",
     "type": 1
   },
   "10050": {
@@ -11394,15 +11456,37 @@
     "icon": "memory_nepu_stage",
     "type": 1
   },
-  "10051": {
+  "252": {
     "subtitle": "",
-    "id": 10051,
+    "id": 252,
     "mask": "bg/bg_memory",
-    "condition": "「墨染まりし鋼の桜」開始",
+    "condition": "「瑞鶴任務7」開始",
     "is_open": 0,
-    "title": "序",
-    "story": "YINGHUA1",
-    "icon": "memory_yinghua1",
+    "title": "不屈の鶴",
+    "story": "RUIHE7",
+    "icon": "chara_ruihe",
+    "type": 1
+  },
+  "10049": {
+    "subtitle": "",
+    "id": 10049,
+    "mask": "bg/bg_memory",
+    "condition": "「別次元からの来訪者」SP.4開始",
+    "is_open": 0,
+    "title": "異色海域PURPLE",
+    "story": "NEPU_STAGE401",
+    "icon": "memory_nepu_stage",
+    "type": 1
+  },
+  "10048": {
+    "subtitle": "",
+    "id": 10048,
+    "mask": "bg/bg_memory",
+    "condition": "「別次元からの来訪者」SP.3クリア",
+    "is_open": 0,
+    "title": "白亜の終結",
+    "story": "NEPU_STAGE302",
+    "icon": "memory_nepu_stage",
     "type": 1
   },
   "10011": {
@@ -11471,50 +11555,6 @@
     "icon": "memory_keleiwen",
     "type": 1
   },
-  "10048": {
-    "subtitle": "",
-    "id": 10048,
-    "mask": "bg/bg_memory",
-    "condition": "「別次元からの来訪者」SP.3クリア",
-    "is_open": 0,
-    "title": "白亜の終結",
-    "story": "NEPU_STAGE302",
-    "icon": "memory_nepu_stage",
-    "type": 1
-  },
-  "639": {
-    "subtitle": "",
-    "id": 639,
-    "mask": "bg/bg_map_tiancheng",
-    "condition": "B3/D3クリア",
-    "is_open": 0,
-    "title": "現実",
-    "story": "TIANCHENGHUODONG19",
-    "icon": "memory_tianchenghuodong",
-    "type": 1
-  },
-  "10002": {
-    "subtitle": "",
-    "id": 10002,
-    "mask": "bg/bg_memory",
-    "condition": "SP.1 クリア",
-    "is_open": 0,
-    "title": "立ち込める暗雲・中",
-    "story": "TACT10002",
-    "icon": "activity",
-    "type": 1
-  },
-  "255": {
-    "subtitle": "",
-    "id": 255,
-    "mask": "bg/bg_memory",
-    "condition": "「新学期」DAY3解放",
-    "is_open": 0,
-    "title": "ヒミツの昼休憩",
-    "story": "KAIXUE03",
-    "icon": "memory_keleiwen",
-    "type": 1
-  },
   "10035": {
     "subtitle": "",
     "id": 10035,
@@ -11545,6 +11585,50 @@
     "is_open": 0,
     "title": "Z23の悩み",
     "story": "TEACHER5",
+    "icon": "z23",
+    "type": 1
+  },
+  "255": {
+    "subtitle": "",
+    "id": 255,
+    "mask": "bg/bg_memory",
+    "condition": "「新学期」DAY3解放",
+    "is_open": 0,
+    "title": "ヒミツの昼休憩",
+    "story": "KAIXUE03",
+    "icon": "memory_keleiwen",
+    "type": 1
+  },
+  "10032": {
+    "subtitle": "",
+    "id": 10032,
+    "mask": "bg/bg_memory",
+    "condition": "「36年Z組ニーミ先生」DAY5解放",
+    "is_open": 0,
+    "title": "禁断のダブルイタズラ",
+    "story": "TEACHER4",
+    "icon": "z23",
+    "type": 1
+  },
+  "10031": {
+    "subtitle": "",
+    "id": 10031,
+    "mask": "bg/bg_memory",
+    "condition": "「36年Z組ニーミ先生」DAY3解放",
+    "is_open": 0,
+    "title": "ここは誰ぇ？",
+    "story": "TEACHER3",
+    "icon": "z23",
+    "type": 1
+  },
+  "10030": {
+    "subtitle": "",
+    "id": 10030,
+    "mask": "bg/bg_memory",
+    "condition": "「36年Z組ニーミ先生」DAY2解放",
+    "is_open": 0,
+    "title": "プライドオブヒモノ",
+    "story": "TEACHER2",
     "icon": "z23",
     "type": 1
   },
@@ -11911,14 +11995,14 @@
     "icon": "memory_ajiakesi",
     "type": 1
   },
-  "10032": {
+  "10029": {
     "subtitle": "",
-    "id": 10032,
+    "id": 10029,
     "mask": "bg/bg_memory",
-    "condition": "「36年Z組ニーミ先生」DAY5解放",
+    "condition": "「36年Z組ニーミ先生」DAY1解放",
     "is_open": 0,
-    "title": "禁断のダブルイタズラ",
-    "story": "TEACHER4",
+    "title": "問題児は港から",
+    "story": "TEACHER1",
     "icon": "z23",
     "type": 1
   },
@@ -11999,15 +12083,15 @@
     "icon": "memory_haman",
     "type": 1
   },
-  "10031": {
+  "10028": {
     "subtitle": "",
-    "id": 10031,
+    "id": 10028,
     "mask": "bg/bg_memory",
-    "condition": "「36年Z組ニーミ先生」DAY3解放",
+    "condition": "「最近、綾波の様子が…？」任務7解放",
     "is_open": 0,
-    "title": "ここは誰ぇ？",
-    "story": "TEACHER3",
-    "icon": "z23",
+    "title": "アヤナミ、出撃です！",
+    "story": "NICONICO7",
+    "icon": "niconico",
     "type": 1
   },
   "277": {
@@ -12021,15 +12105,15 @@
     "icon": "memory_haman",
     "type": 1
   },
-  "10030": {
+  "10027": {
     "subtitle": "",
-    "id": 10030,
+    "id": 10027,
     "mask": "bg/bg_memory",
-    "condition": "「36年Z組ニーミ先生」DAY2解放",
+    "condition": "「最近、綾波の様子が…？」任務6解放",
     "is_open": 0,
-    "title": "プライドオブヒモノ",
-    "story": "TEACHER2",
-    "icon": "z23",
+    "title": "綾波更生計画・下",
+    "story": "NICONICO6",
+    "icon": "niconico",
     "type": 1
   },
   "278": {
@@ -12549,15 +12633,15 @@
     "icon": "memory_shancheng2",
     "type": 1
   },
-  "10029": {
+  "1205": {
     "subtitle": "",
-    "id": 10029,
+    "id": 1205,
     "mask": "bg/bg_memory",
-    "condition": "「36年Z組ニーミ先生」DAY1解放",
+    "condition": "「笑顔オーバーフロー！2」開始",
     "is_open": 0,
-    "title": "問題児は港から",
-    "story": "TEACHER1",
-    "icon": "z23",
+    "title": "助けるよ！",
+    "story": "JUANBO2",
+    "icon": "memory_juanbo",
     "type": 1
   },
   "302": {
@@ -12571,15 +12655,15 @@
     "icon": "memory_shancheng2",
     "type": 1
   },
-  "10028": {
+  "1209": {
     "subtitle": "",
-    "id": 10028,
+    "id": 1209,
     "mask": "bg/bg_memory",
-    "condition": "「最近、綾波の様子が…？」任務7解放",
+    "condition": "「笑顔オーバーフロー！6」開始",
     "is_open": 0,
-    "title": "アヤナミ、出撃です！",
-    "story": "NICONICO7",
-    "icon": "niconico",
+    "title": "一緒にあそぼー！",
+    "story": "JUANBO6",
+    "icon": "memory_juanbo",
     "type": 1
   },
   "303": {
@@ -12590,28 +12674,6 @@
     "is_open": 0,
     "title": "風そよぐ",
     "story": "SHANCHENGP3",
-    "icon": "memory_shancheng2",
-    "type": 1
-  },
-  "10027": {
-    "subtitle": "",
-    "id": 10027,
-    "mask": "bg/bg_memory",
-    "condition": "「最近、綾波の様子が…？」任務6解放",
-    "is_open": 0,
-    "title": "綾波更生計画・下",
-    "story": "NICONICO6",
-    "icon": "niconico",
-    "type": 1
-  },
-  "304": {
-    "subtitle": "",
-    "id": 304,
-    "mask": "bg/bg_memory",
-    "condition": "「{namecode:79}任務4」開始",
-    "is_open": 0,
-    "title": "低気圧接近中",
-    "story": "SHANCHENGP4",
     "icon": "memory_shancheng2",
     "type": 1
   },
@@ -12626,14 +12688,14 @@
     "icon": "niconico",
     "type": 1
   },
-  "305": {
+  "304": {
     "subtitle": "",
-    "id": 305,
+    "id": 304,
     "mask": "bg/bg_memory",
-    "condition": "「{namecode:79}任務5」開始",
+    "condition": "「{namecode:79}任務4」開始",
     "is_open": 0,
-    "title": "曇り、そして――",
-    "story": "SHANCHENGP5",
+    "title": "低気圧接近中",
+    "story": "SHANCHENGP4",
     "icon": "memory_shancheng2",
     "type": 1
   },
@@ -12648,14 +12710,14 @@
     "icon": "niconico",
     "type": 1
   },
-  "306": {
+  "305": {
     "subtitle": "",
-    "id": 306,
+    "id": 305,
     "mask": "bg/bg_memory",
-    "condition": "「{namecode:79}任務6」開始",
+    "condition": "「{namecode:79}任務5」開始",
     "is_open": 0,
-    "title": "雨やどり",
-    "story": "SHANCHENGP6",
+    "title": "曇り、そして――",
+    "story": "SHANCHENGP5",
     "icon": "memory_shancheng2",
     "type": 1
   },
@@ -12670,14 +12732,14 @@
     "icon": "niconico",
     "type": 1
   },
-  "307": {
+  "306": {
     "subtitle": "",
-    "id": 307,
+    "id": 306,
     "mask": "bg/bg_memory",
-    "condition": "「{namecode:79}任務7」開始",
+    "condition": "「{namecode:79}任務6」開始",
     "is_open": 0,
-    "title": "晴れ日和",
-    "story": "SHANCHENGP7",
+    "title": "雨やどり",
+    "story": "SHANCHENGP6",
     "icon": "memory_shancheng2",
     "type": 1
   },
@@ -12692,15 +12754,15 @@
     "icon": "mikasa",
     "type": 1
   },
-  "308": {
+  "307": {
     "subtitle": "",
-    "id": 308,
+    "id": 307,
     "mask": "bg/bg_memory",
-    "condition": "「グロリアス任務1」開始",
+    "condition": "「{namecode:79}任務7」開始",
     "is_open": 0,
-    "title": "その名はグロリアス",
-    "story": "GUANGRONG1",
-    "icon": "memory_guangrong",
+    "title": "晴れ日和",
+    "story": "SHANCHENGP7",
+    "icon": "memory_shancheng2",
     "type": 1
   },
   "10018": {
@@ -12714,14 +12776,14 @@
     "icon": "mikasa",
     "type": 2
   },
-  "309": {
+  "308": {
     "subtitle": "",
-    "id": 309,
+    "id": 308,
     "mask": "bg/bg_memory",
-    "condition": "「グロリアス任務2」開始",
+    "condition": "「グロリアス任務1」開始",
     "is_open": 0,
-    "title": "演習海域にて",
-    "story": "GUANGRONG2",
+    "title": "その名はグロリアス",
+    "story": "GUANGRONG1",
     "icon": "memory_guangrong",
     "type": 1
   },
@@ -12736,14 +12798,14 @@
     "icon": "changdao",
     "type": 1
   },
-  "310": {
+  "309": {
     "subtitle": "",
-    "id": 310,
+    "id": 309,
     "mask": "bg/bg_memory",
-    "condition": "「グロリアス任務3」開始",
+    "condition": "「グロリアス任務2」開始",
     "is_open": 0,
-    "title": "女王事案Ⅰ",
-    "story": "GUANGRONG3",
+    "title": "演習海域にて",
+    "story": "GUANGRONG2",
     "icon": "memory_guangrong",
     "type": 1
   },
@@ -12758,14 +12820,14 @@
     "icon": "changdao",
     "type": 1
   },
-  "311": {
+  "310": {
     "subtitle": "",
-    "id": 311,
+    "id": 310,
     "mask": "bg/bg_memory",
-    "condition": "「グロリアス任務4」開始",
+    "condition": "「グロリアス任務3」開始",
     "is_open": 0,
-    "title": "女王事案Ⅱ",
-    "story": "GUANGRONG4",
+    "title": "女王事案Ⅰ",
+    "story": "GUANGRONG3",
     "icon": "memory_guangrong",
     "type": 1
   },
@@ -12778,6 +12840,28 @@
     "title": "妹の笑顔",
     "story": "WENSENSI7",
     "icon": "memory_wensensi",
+    "type": 1
+  },
+  "311": {
+    "subtitle": "",
+    "id": 311,
+    "mask": "bg/bg_memory",
+    "condition": "「グロリアス任務4」開始",
+    "is_open": 0,
+    "title": "女王事案Ⅱ",
+    "story": "GUANGRONG4",
+    "icon": "memory_guangrong",
+    "type": 1
+  },
+  "10002": {
+    "subtitle": "",
+    "id": 10002,
+    "mask": "bg/bg_memory",
+    "condition": "SP.1 クリア",
+    "is_open": 0,
+    "title": "立ち込める暗雲・中",
+    "story": "TACT10002",
+    "icon": "activity",
     "type": 1
   },
   "312": {
@@ -12879,15 +12963,15 @@
     "icon": "memory_actruyue",
     "type": 1
   },
-  "10000": {
+  "1207": {
     "subtitle": "",
-    "id": 10000,
+    "id": 1207,
     "mask": "bg/bg_memory",
-    "condition": "「努力、希望と計画」開始",
+    "condition": "「笑顔オーバーフロー！4」開始",
     "is_open": 0,
-    "title": "プロローグ",
-    "story": "UIACT10000",
-    "icon": "activity",
+    "title": "笑わせるよ！",
+    "story": "JUANBO4",
+    "icon": "memory_juanbo",
     "type": 1
   },
   "317": {
