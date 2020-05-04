@@ -47,7 +47,7 @@
     "view_name": "SnackView"
   },
   "3": {
-    "hub_id": 1,
+    "hub_id": 4,
     "type": 3,
     "mediator_name": "MiniHubMediator",
     "simple_config_data": {
@@ -63,7 +63,8 @@
         10,
         11,
         12
-      ]
+      ],
+      2
     ],
     "request_data": 0,
     "view_name": "ShrineView"
@@ -264,12 +265,117 @@
     "config_data": "",
     "view_name": "MusicGameView"
   },
+  "7": {
+    "hub_id": 3,
+    "type": 2,
+    "mediator_name": "HoloLiveLinkGameMediator",
+    "simple_config_data": "",
+    "id": 7,
+    "config_csv": "activity_event_linkgame",
+    "name": "holo连连看",
+    "config_csv_key": "",
+    "request_data": 1,
+    "config_data": "",
+    "view_name": "HoloLiveLinkGameView"
+  },
+  "8": {
+    "hub_id": 4,
+    "type": 2,
+    "mediator_name": "MiniHubMediator",
+    "simple_config_data": {
+      "comboRange": [
+        5,
+        10
+      ],
+      "comboAddScore": [
+        5,
+        10
+      ],
+      "targetComboScore": [
+        250,
+        500
+      ],
+      "shrineGameId": 3,
+      "targetCombo": [
+        25,
+        50
+      ],
+      "scorePerHit": 10,
+      "gameTime": 60,
+      "roundTime": 4
+    },
+    "id": 8,
+    "config_csv": "",
+    "name": "鬼怒修行QTE游戏",
+    "config_csv_key": "",
+    "request_data": 1,
+    "config_data": "",
+    "view_name": "QTEGameView"
+  },
+  "9": {
+    "hub_id": 5,
+    "type": 2,
+    "mediator_name": "MiniHubMediator",
+    "simple_config_data": "",
+    "id": 9,
+    "config_csv": "",
+    "name": "春节叠叠乐",
+    "config_csv_key": "",
+    "request_data": 1,
+    "config_data": "",
+    "view_name": "StackGameView"
+  },
+  "10": {
+    "hub_id": 6,
+    "type": 2,
+    "mediator_name": "MiniHubMediator",
+    "simple_config_data": "",
+    "id": 10,
+    "config_csv": "activity_event_question",
+    "name": "元宵答题",
+    "config_csv_key": "",
+    "request_data": 1,
+    "config_data": "",
+    "view_name": "LanternFestivalView"
+  },
+  "11": {
+    "hub_id": 7,
+    "type": 2,
+    "mediator_name": "MiniHubMediator",
+    "simple_config_data": "",
+    "id": 11,
+    "config_csv": "",
+    "name": "解密游戏",
+    "config_csv_key": "",
+    "request_data": 1,
+    "config_data": "",
+    "view_name": "DecodeMiniGameView"
+  },
+  "12": {
+    "hub_id": 8,
+    "type": 2,
+    "mediator_name": "MiniHubMediator",
+    "simple_config_data": "",
+    "id": 12,
+    "config_csv": "",
+    "name": "消消乐",
+    "config_csv_key": "",
+    "request_data": 1,
+    "config_data": "",
+    "view_name": "Match3GameView"
+  },
   "all": [
     1,
     2,
     3,
     4,
     5,
-    6
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
   ]
 }
