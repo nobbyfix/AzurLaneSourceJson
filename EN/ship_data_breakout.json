@@ -4037,6 +4037,24 @@
     "icon": "10001",
     "breakout_id": 101404
   },
+  "207092": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "id": 207092,
+    "use_char": 20709,
+    "weapon_ids": [
+      60112,
+      54014,
+      60112,
+      54014
+    ],
+    "pre_id": 207091,
+    "level": 30,
+    "breakout_view": "Hangar capacity +1/All Torpedo Bombers +1/Fighter efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 207093
+  },
   "305054": {
     "use_item": [],
     "use_char_num": 0,
@@ -4097,6 +4115,24 @@
     "breakout_view": "Hangar capacity +1/All Dive Bombers +1/Aircraft efficiency +5%",
     "icon": "10001",
     "breakout_id": 307103
+  },
+  "207093": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 207093,
+    "use_char": 20709,
+    "weapon_ids": [
+      60113,
+      54015,
+      60113,
+      54015
+    ],
+    "pre_id": 207092,
+    "level": 70,
+    "breakout_view": "All fighters +1/Fighter efficiency +7%",
+    "icon": "10001",
+    "breakout_id": 207094
   },
   "304032": {
     "use_item": [],
@@ -4170,6 +4206,19 @@
     "use_char": 10140,
     "weapon_ids": [],
     "pre_id": 101403,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
+  "207094": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 207094,
+    "use_char": 20709,
+    "weapon_ids": [],
+    "pre_id": 207093,
     "level": 0,
     "breakout_view": "N/A",
     "icon": "10001",
@@ -10638,81 +10687,6 @@
     "icon": "10001",
     "breakout_id": 201294
   },
-  "301132": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 800,
-    "id": 301132,
-    "use_char": 30113,
-    "weapon_ids": [
-      107,
-      107
-    ],
-    "pre_id": 301131,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 301133
-  },
-  "301644": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 301644,
-    "use_char": 30164,
-    "weapon_ids": [],
-    "pre_id": 301643,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
-  "102214": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 102214,
-    "use_char": 10221,
-    "weapon_ids": [],
-    "pre_id": 102213,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
-  "10500072": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 1500,
-    "id": 10500072,
-    "use_char": 1050007,
-    "weapon_ids": [
-      60452,
-      54014,
-      60452,
-      54014
-    ],
-    "pre_id": 10500071,
-    "level": 30,
-    "breakout_view": "Hangar capacity +1/All Torpedo Bombers +1/Fighter efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 10500073
-  },
-  "301133": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 1500,
-    "id": 301133,
-    "use_char": 30113,
-    "weapon_ids": [
-      72032
-    ],
-    "pre_id": 301132,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 301134
-  },
   "all": [
     100001,
     100011,
@@ -11452,6 +11426,10 @@
     207062,
     207063,
     207064,
+    207091,
+    207092,
+    207093,
+    207094,
     213011,
     213012,
     213013,
@@ -12313,18 +12291,80 @@
     999013,
     999014
   ],
-  "201294": {
+  "301132": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 800,
+    "id": 301132,
+    "use_char": 30113,
+    "weapon_ids": [
+      107,
+      107
+    ],
+    "pre_id": 301131,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 301133
+  },
+  "301644": {
     "use_item": [],
     "use_char_num": 0,
     "use_gold": 0,
-    "id": 201294,
-    "use_char": 20129,
+    "id": 301644,
+    "use_char": 30164,
     "weapon_ids": [],
-    "pre_id": 201293,
+    "pre_id": 301643,
     "level": 0,
     "breakout_view": "N/A",
     "icon": "10001",
     "breakout_id": 0
+  },
+  "102214": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 102214,
+    "use_char": 10221,
+    "weapon_ids": [],
+    "pre_id": 102213,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
+  "10500072": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "id": 10500072,
+    "use_char": 1050007,
+    "weapon_ids": [
+      60452,
+      54014,
+      60452,
+      54014
+    ],
+    "pre_id": 10500071,
+    "level": 30,
+    "breakout_view": "Hangar capacity +1/All Torpedo Bombers +1/Fighter efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 10500073
+  },
+  "301133": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 1500,
+    "id": 301133,
+    "use_char": 30113,
+    "weapon_ids": [
+      72032
+    ],
+    "pre_id": 301132,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 301134
   },
   "999014": {
     "use_item": [],
@@ -12338,6 +12378,36 @@
     "breakout_view": "N/A",
     "icon": "10001",
     "breakout_id": 0
+  },
+  "201294": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 201294,
+    "use_char": 20129,
+    "weapon_ids": [],
+    "pre_id": 201293,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
+  "999012": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 0,
+    "id": 999012,
+    "use_char": 99901,
+    "weapon_ids": [
+      101,
+      101,
+      101
+    ],
+    "pre_id": 999011,
+    "level": 30,
+    "breakout_view": "Auxiliary gun base +2/Main gun efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 999013
   },
   "301134": {
     "use_item": [],
@@ -12367,23 +12437,6 @@
     "icon": "10001",
     "breakout_id": 101064
   },
-  "999012": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 0,
-    "id": 999012,
-    "use_char": 99901,
-    "weapon_ids": [
-      101,
-      101,
-      101
-    ],
-    "pre_id": 999011,
-    "level": 30,
-    "breakout_view": "Auxiliary gun base +2/Main gun efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 999013
-  },
   "399044": {
     "use_item": [],
     "use_char_num": 0,
@@ -12397,48 +12450,66 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "301393": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 1500,
-    "id": 301393,
-    "use_char": 30139,
-    "weapon_ids": [
-      72012
-    ],
-    "pre_id": 301392,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 301394
-  },
-  "301411": {
+  "301392": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 100,
-    "id": 301411,
-    "use_char": 30141,
+    "use_gold": 800,
+    "id": 301392,
+    "use_char": 30139,
     "weapon_ids": [
-      72011
+      106,
+      106
     ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+    "pre_id": 301391,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
     "icon": "10001",
-    "breakout_id": 301412
+    "breakout_id": 301393
   },
-  "301494": {
+  "301394": {
     "use_item": [],
     "use_char_num": 0,
     "use_gold": 0,
-    "id": 301494,
-    "use_char": 30149,
+    "id": 301394,
+    "use_char": 30139,
     "weapon_ids": [],
-    "pre_id": 301493,
+    "pre_id": 301393,
     "level": 0,
     "breakout_view": "N/A",
     "icon": "10001",
     "breakout_id": 0
+  },
+  "301492": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "id": 301492,
+    "use_char": 30149,
+    "weapon_ids": [
+      107,
+      107
+    ],
+    "pre_id": 301491,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 301493
+  },
+  "301602": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 800,
+    "id": 301602,
+    "use_char": 30160,
+    "weapon_ids": [
+      107,
+      107
+    ],
+    "pre_id": 301601,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 301603
   },
   "405021": {
     "use_item": [],
@@ -12456,48 +12527,52 @@
     "icon": "10001",
     "breakout_id": 405022
   },
-  "301603": {
+  "301613": {
     "use_item": [],
     "use_char_num": 2,
     "use_gold": 1500,
-    "id": 301603,
-    "use_char": 30160,
+    "id": 301613,
+    "use_char": 30161,
     "weapon_ids": [
       72052
     ],
-    "pre_id": 301602,
+    "pre_id": 301612,
     "level": 70,
     "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
     "icon": "10001",
-    "breakout_id": 301604
+    "breakout_id": 301614
   },
-  "301614": {
+  "301622": {
     "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 301614,
-    "use_char": 30161,
-    "weapon_ids": [],
-    "pre_id": 301613,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
-  "301623": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 1500,
-    "id": 301623,
+    "use_char_num": 1,
+    "use_gold": 900,
+    "id": 301622,
     "use_char": 30162,
     "weapon_ids": [
-      72052
+      107,
+      107
     ],
-    "pre_id": 301622,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "pre_id": 301621,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
     "icon": "10001",
-    "breakout_id": 301624
+    "breakout_id": 301623
+  },
+  "301632": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 800,
+    "id": 301632,
+    "use_char": 30163,
+    "weapon_ids": [
+      107,
+      107
+    ],
+    "pre_id": 301631,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 301633
   },
   "405022": {
     "use_item": [],
@@ -12515,21 +12590,6 @@
     "breakout_view": "Unlock Magnetic Torpedo/Auxiliary gun base +1/Main gun efficiency +10%",
     "icon": "10001",
     "breakout_id": 405023
-  },
-  "301633": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 1500,
-    "id": 301633,
-    "use_char": 30163,
-    "weapon_ids": [
-      72092
-    ],
-    "pre_id": 301632,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 301634
   },
   "199024": {
     "use_item": [],
@@ -12560,6 +12620,22 @@
     "icon": "10001",
     "breakout_id": 199024
   },
+  "701032": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "id": 701032,
+    "use_char": 70103,
+    "weapon_ids": [
+      106,
+      106
+    ],
+    "pre_id": 701031,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 701033
+  },
   "405023": {
     "use_item": [],
     "use_char_num": 2,
@@ -12577,14 +12653,14 @@
     "icon": "10001",
     "breakout_id": 405024
   },
-  "701034": {
+  "702014": {
     "use_item": [],
     "use_char_num": 0,
     "use_gold": 0,
-    "id": 701034,
-    "use_char": 70103,
+    "id": 702014,
+    "use_char": 70201,
     "weapon_ids": [],
-    "pre_id": 701033,
+    "pre_id": 702013,
     "level": 0,
     "breakout_view": "N/A",
     "icon": "10001",
@@ -12603,20 +12679,18 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "702021": {
+  "199014": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 702021,
-    "use_char": 70202,
-    "weapon_ids": [
-      76111
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 199014,
+    "use_char": 19901,
+    "weapon_ids": [],
+    "pre_id": 199013,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 702022
+    "breakout_id": 0
   },
   "405024": {
     "use_item": [],
@@ -12631,14 +12705,14 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "199014": {
+  "901114": {
     "use_item": [],
     "use_char_num": 0,
     "use_gold": 0,
-    "id": 199014,
-    "use_char": 19901,
+    "id": 901114,
+    "use_char": 90111,
     "weapon_ids": [],
-    "pre_id": 199013,
+    "pre_id": 901113,
     "level": 0,
     "breakout_view": "N/A",
     "icon": "10001",
@@ -12659,38 +12733,18 @@
     "icon": "10001",
     "breakout_id": 301652
   },
-  "905032": {
+  "10100031": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 3000,
-    "id": 905032,
-    "use_char": 90503,
-    "weapon_ids": [
-      101,
-      101,
-      101
-    ],
-    "pre_id": 905031,
-    "level": 30,
-    "breakout_view": "Auxiliary gun base +2/Main gun efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 905033
-  },
-  "10100032": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 1500,
-    "id": 10100032,
+    "use_gold": 500,
+    "id": 10100031,
     "use_char": 1010003,
-    "weapon_ids": [
-      106,
-      106
-    ],
-    "pre_id": 10100031,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "weapon_ids": [],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Torpedo efficiency +5%",
     "icon": "10001",
-    "breakout_id": 10100033
+    "breakout_id": 10100032
   },
   "199011": {
     "use_item": [],
@@ -12706,6 +12760,19 @@
     "breakout_view": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
     "icon": "10001",
     "breakout_id": 199012
+  },
+  "401354": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 401354,
+    "use_char": 40135,
+    "weapon_ids": [],
+    "pre_id": 401353,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
   },
   "301652": {
     "use_item": [],
@@ -12723,20 +12790,18 @@
     "icon": "10001",
     "breakout_id": 301653
   },
-  "401461": {
+  "401464": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 1000,
-    "id": 401461,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 401464,
     "use_char": 40146,
-    "weapon_ids": [
-      60301
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock EX Barrage Ⅰ/AA gun efficiency +5%",
+    "weapon_ids": [],
+    "pre_id": 401463,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 401462
+    "breakout_id": 0
   },
   "402011": {
     "use_item": [],
@@ -12796,20 +12861,18 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "402021": {
+  "499014": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 100,
-    "id": 402021,
-    "use_char": 40202,
-    "weapon_ids": [
-      73111
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 499014,
+    "use_char": 49901,
+    "weapon_ids": [],
+    "pre_id": 499013,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 402022
+    "breakout_id": 0
   },
   "105031": {
     "use_item": [],
@@ -12843,25 +12906,25 @@
     "icon": "10001",
     "breakout_id": 103113
   },
-  "499014": {
+  "301794": {
     "use_item": [],
     "use_char_num": 0,
     "use_gold": 0,
-    "id": 499014,
-    "use_char": 49901,
+    "id": 301794,
+    "use_char": 30179,
     "weapon_ids": [],
-    "pre_id": 499013,
+    "pre_id": 301793,
     "level": 0,
     "breakout_view": "N/A",
     "icon": "10001",
     "breakout_id": 0
   },
-  "301611": {
+  "301591": {
     "use_item": [],
     "use_char_num": 1,
     "use_gold": 300,
-    "id": 301611,
-    "use_char": 30161,
+    "id": 301591,
+    "use_char": 30159,
     "weapon_ids": [
       72051
     ],
@@ -12869,7 +12932,7 @@
     "level": 10,
     "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
     "icon": "10001",
-    "breakout_id": 301612
+    "breakout_id": 301592
   },
   "301143": {
     "use_item": [],
@@ -12886,50 +12949,51 @@
     "icon": "10001",
     "breakout_id": 301144
   },
-  "301804": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 301804,
-    "use_char": 30180,
-    "weapon_ids": [],
-    "pre_id": 301803,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
-  "301382": {
+  "301811": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 800,
-    "id": 301382,
-    "use_char": 30138,
+    "use_gold": 500,
+    "id": 301811,
+    "use_char": 30181,
     "weapon_ids": [
-      106,
-      106
+      72091
     ],
-    "pre_id": 301381,
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 301812
+  },
+  "301182": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 300,
+    "id": 301182,
+    "use_char": 30118,
+    "weapon_ids": [
+      107,
+      107
+    ],
+    "pre_id": 301181,
     "level": 30,
     "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
     "icon": "10001",
-    "breakout_id": 301383
+    "breakout_id": 301183
   },
-  "301822": {
+  "302111": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 1500,
-    "id": 301822,
-    "use_char": 30182,
+    "use_gold": 500,
+    "id": 302111,
+    "use_char": 30211,
     "weapon_ids": [
-      100,
-      100
+      72251
     ],
-    "pre_id": 301821,
-    "level": 30,
-    "breakout_view": "Main gun base +1/Torpedo preload +1/AA gun efficiency +10%",
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
     "icon": "10001",
-    "breakout_id": 301823
+    "breakout_id": 302112
   },
   "301144": {
     "use_item": [],
@@ -12944,51 +13008,33 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "302112": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 1500,
-    "id": 302112,
-    "use_char": 30211,
-    "weapon_ids": [
-      106,
-      106
-    ],
-    "pre_id": 302111,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 302113
-  },
-  "303023": {
+  "303013": {
     "use_item": [],
     "use_char_num": 2,
     "use_gold": 500,
-    "id": 303023,
-    "use_char": 30302,
+    "id": 303013,
+    "use_char": 30301,
     "weapon_ids": [
       72212
     ],
-    "pre_id": 303022,
+    "pre_id": 303012,
     "level": 70,
     "breakout_view": "Improve All Out Assault/Torpedo efficiency +15%",
     "icon": "10001",
-    "breakout_id": 303024
+    "breakout_id": 303014
   },
-  "303081": {
+  "303074": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 300,
-    "id": 303081,
-    "use_char": 30308,
-    "weapon_ids": [
-      72231
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 303074,
+    "use_char": 30307,
+    "weapon_ids": [],
+    "pre_id": 303073,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 303082
+    "breakout_id": 0
   },
   "399011": {
     "use_item": [],
@@ -13005,6 +13051,19 @@
     "icon": "10001",
     "breakout_id": 399012
   },
+  "299024": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 299024,
+    "use_char": 29902,
+    "weapon_ids": [],
+    "pre_id": 299023,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
   "203091": {
     "use_item": [],
     "use_char_num": 1,
@@ -13019,19 +13078,6 @@
     "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
     "icon": "10001",
     "breakout_id": 203092
-  },
-  "299024": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 299024,
-    "use_char": 29902,
-    "weapon_ids": [],
-    "pre_id": 299023,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
   },
   "299023": {
     "use_item": [],
@@ -13049,6 +13095,22 @@
     "breakout_view": "Main gun base +1/Main gun efficiency +15%",
     "icon": "10001",
     "breakout_id": 299024
+  },
+  "299021": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 0,
+    "id": 299021,
+    "use_char": 29902,
+    "weapon_ids": [
+      24160,
+      24160
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Main gun base +1/Main gun efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 299022
   },
   "105032": {
     "use_item": [],
@@ -13097,22 +13159,6 @@
     "icon": "10001",
     "breakout_id": 103242
   },
-  "299021": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 0,
-    "id": 299021,
-    "use_char": 29902,
-    "weapon_ids": [
-      24160,
-      24160
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Main gun base +1/Main gun efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 299022
-  },
   "299014": {
     "use_item": [],
     "use_char_num": 0,
@@ -13125,6 +13171,21 @@
     "breakout_view": "N/A",
     "icon": "10001",
     "breakout_id": 0
+  },
+  "299013": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 0,
+    "id": 299013,
+    "use_char": 29901,
+    "weapon_ids": [
+      79232
+    ],
+    "pre_id": 299012,
+    "level": 70,
+    "breakout_view": "Improve EX Barrage/Main gun efficiency +15%",
+    "icon": "10001",
+    "breakout_id": 299014
   },
   "203092": {
     "use_item": [],
@@ -13141,21 +13202,6 @@
     "breakout_view": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
     "icon": "10001",
     "breakout_id": 203093
-  },
-  "299013": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 0,
-    "id": 299013,
-    "use_char": 29901,
-    "weapon_ids": [
-      79232
-    ],
-    "pre_id": 299012,
-    "level": 70,
-    "breakout_view": "Improve EX Barrage/Main gun efficiency +15%",
-    "icon": "10001",
-    "breakout_id": 299014
   },
   "299012": {
     "use_item": [],
@@ -13188,37 +13234,37 @@
     "icon": "10001",
     "breakout_id": 299012
   },
-  "605061": {
+  "605053": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 605061,
-    "use_char": 60506,
+    "use_char_num": 2,
+    "use_gold": 1500,
+    "id": 605053,
+    "use_char": 60505,
     "weapon_ids": [
+      95480,
       95480,
       95480
     ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Main gun base +1/Main gun efficiency +5%",
+    "pre_id": 605052,
+    "level": 70,
+    "breakout_view": "Main gun base +1/Main gun efficiency +15%",
     "icon": "10001",
-    "breakout_id": 605062
+    "breakout_id": 605054
   },
-  "10400023": {
+  "10400022": {
     "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 10000,
-    "id": 10400023,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "id": 10400022,
     "use_char": 1040002,
     "weapon_ids": [
-      33000,
       33000
     ],
-    "pre_id": 10400022,
-    "level": 70,
-    "breakout_view": "Main gun base +1/All weapons' efficiency +5%",
+    "pre_id": 10400021,
+    "level": 30,
+    "breakout_view": "Main gun efficiency +10%",
     "icon": "10001",
-    "breakout_id": 10400024
+    "breakout_id": 10400023
   },
   "10500071": {
     "use_item": [],
@@ -13249,21 +13295,6 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "203093": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 1500,
-    "id": 203093,
-    "use_char": 20309,
-    "weapon_ids": [
-      71212
-    ],
-    "pre_id": 203092,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/Torpedo efficiency +15%",
-    "icon": "10001",
-    "breakout_id": 203094
-  },
   "10500063": {
     "use_item": [],
     "use_char_num": 2,
@@ -13282,6 +13313,21 @@
     "icon": "10001",
     "breakout_id": 10500064
   },
+  "203093": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 1500,
+    "id": 203093,
+    "use_char": 20309,
+    "weapon_ids": [
+      71212
+    ],
+    "pre_id": 203092,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/Torpedo efficiency +15%",
+    "icon": "10001",
+    "breakout_id": 203094
+  },
   "10500062": {
     "use_item": [],
     "use_char_num": 1,
@@ -13299,6 +13345,22 @@
     "breakout_view": "Hangar capacity +1/All Fighters +1/Fighter efficiency +10%",
     "icon": "10001",
     "breakout_id": 10500063
+  },
+  "10500061": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 500,
+    "id": 10500061,
+    "use_char": 1050006,
+    "weapon_ids": [
+      60441,
+      54011
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "All Torpedo Bombers +1/Fighter efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 10500062
   },
   "105033": {
     "use_item": [],
@@ -13390,21 +13452,20 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "10500061": {
+  "301583": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 10500061,
-    "use_char": 1050006,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 301583,
+    "use_char": 30158,
     "weapon_ids": [
-      60441,
-      54011
+      72062
     ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "All Torpedo Bombers +1/Fighter efficiency +5%",
+    "pre_id": 301582,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
     "icon": "10001",
-    "breakout_id": 10500062
+    "breakout_id": 301584
   },
   "601024": {
     "use_item": [],
@@ -13450,18 +13511,52 @@
     "icon": "10001",
     "breakout_id": 102092
   },
-  "301584": {
+  "304051": {
     "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 301584,
-    "use_char": 30158,
-    "weapon_ids": [],
-    "pre_id": 301583,
-    "level": 0,
-    "breakout_view": "N/A",
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "id": 304051,
+    "use_char": 30405,
+    "weapon_ids": [
+      34100,
+      34100
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Main gun base +1/Main gun efficiency +5%",
     "icon": "10001",
-    "breakout_id": 0
+    "breakout_id": 304052
+  },
+  "401352": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "id": 401352,
+    "use_char": 40135,
+    "weapon_ids": [
+      107,
+      107
+    ],
+    "pre_id": 401351,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 401353
+  },
+  "301153": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 301153,
+    "use_char": 30115,
+    "weapon_ids": [
+      72032
+    ],
+    "pre_id": 301152,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 301154
   },
   "304053": {
     "use_item": [],
@@ -13480,21 +13575,6 @@
     "icon": "10001",
     "breakout_id": 304054
   },
-  "301153": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 301153,
-    "use_char": 30115,
-    "weapon_ids": [
-      72032
-    ],
-    "pre_id": 301152,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 301154
-  },
   "401353": {
     "use_item": [],
     "use_char_num": 2,
@@ -13510,34 +13590,20 @@
     "icon": "10001",
     "breakout_id": 401354
   },
-  "304061": {
+  "10500042": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 500,
-    "id": 304061,
-    "use_char": 30406,
+    "use_gold": 1500,
+    "id": 10500042,
+    "use_char": 1050004,
     "weapon_ids": [
-      34000,
-      34000
+      106
     ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Main gun base +1/Main gun efficiency +5%",
+    "pre_id": 10500041,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
     "icon": "10001",
-    "breakout_id": 304062
-  },
-  "401354": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 401354,
-    "use_char": 40135,
-    "weapon_ids": [],
-    "pre_id": 401353,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
+    "breakout_id": 10500043
   },
   "105034": {
     "use_item": [],
@@ -13583,20 +13649,34 @@
     "icon": "10001",
     "breakout_id": 103244
   },
-  "10500042": {
+  "10400023": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 1500,
-    "id": 10500042,
-    "use_char": 1050004,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "id": 10400023,
+    "use_char": 1040002,
     "weapon_ids": [
-      106
+      33000,
+      33000
     ],
-    "pre_id": 10500041,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "pre_id": 10400022,
+    "level": 70,
+    "breakout_view": "Main gun base +1/All weapons' efficiency +5%",
     "icon": "10001",
-    "breakout_id": 10500043
+    "breakout_id": 10400024
+  },
+  "701024": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 701024,
+    "use_char": 70102,
+    "weapon_ids": [],
+    "pre_id": 701023,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
   },
   "10400032": {
     "use_item": [],
@@ -13616,22 +13696,6 @@
     "icon": "10001",
     "breakout_id": 10400033
   },
-  "701032": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 1500,
-    "id": 701032,
-    "use_char": 70103,
-    "weapon_ids": [
-      106,
-      106
-    ],
-    "pre_id": 701031,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 701033
-  },
   "905011": {
     "use_item": [],
     "use_char_num": 1,
@@ -13647,18 +13711,23 @@
     "icon": "10001",
     "breakout_id": 905012
   },
-  "10400034": {
+  "10500032": {
     "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 10400034,
-    "use_char": 1040003,
-    "weapon_ids": [],
-    "pre_id": 10400033,
-    "level": 0,
-    "breakout_view": "N/A",
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "id": 10500032,
+    "use_char": 1050003,
+    "weapon_ids": [
+      140,
+      140,
+      140,
+      140
+    ],
+    "pre_id": 10500031,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Improve Hunting range",
     "icon": "10001",
-    "breakout_id": 0
+    "breakout_id": 10500033
   },
   "905012": {
     "use_item": [],
@@ -13709,37 +13778,6 @@
     "icon": "10001",
     "breakout_id": 905014
   },
-  "10500032": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 3000,
-    "id": 10500032,
-    "use_char": 1050003,
-    "weapon_ids": [
-      140,
-      140,
-      140,
-      140
-    ],
-    "pre_id": 10500031,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Improve Hunting range",
-    "icon": "10001",
-    "breakout_id": 10500033
-  },
-  "905014": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 905014,
-    "use_char": 90501,
-    "weapon_ids": [],
-    "pre_id": 905013,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "10500031": {
     "use_item": [],
     "use_char_num": 1,
@@ -13754,6 +13792,19 @@
     "breakout_view": "Torpedo efficiency +5%",
     "icon": "10001",
     "breakout_id": 10500032
+  },
+  "905014": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 905014,
+    "use_char": 90501,
+    "weapon_ids": [],
+    "pre_id": 905013,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
   },
   "10500024": {
     "use_item": [],
@@ -13785,6 +13836,22 @@
     "breakout_view": "Hangar capacity +1/All Torpedo Bombers +1/Dive Bomber efficiency +10%",
     "icon": "10001",
     "breakout_id": 10500023
+  },
+  "301592": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 800,
+    "id": 301592,
+    "use_char": 30159,
+    "weapon_ids": [
+      107,
+      107
+    ],
+    "pre_id": 301591,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 301593
   },
   "107082": {
     "use_item": [],
@@ -13830,20 +13897,18 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "301593": {
+  "10500014": {
     "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 1500,
-    "id": 301593,
-    "use_char": 30159,
-    "weapon_ids": [
-      72052
-    ],
-    "pre_id": 301592,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 10500014,
+    "use_char": 1050001,
+    "weapon_ids": [],
+    "pre_id": 10500013,
+    "level": 0,
+    "breakout_view": "None",
     "icon": "10001",
-    "breakout_id": 301594
+    "breakout_id": 0
   },
   "401462": {
     "use_item": [],
@@ -13877,27 +13942,29 @@
     "icon": "10001",
     "breakout_id": 404022
   },
-  "10500014": {
+  "301593": {
     "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 10500014,
-    "use_char": 1050001,
-    "weapon_ids": [],
-    "pre_id": 10500013,
-    "level": 0,
-    "breakout_view": "None",
-    "icon": "10001",
-    "breakout_id": 0
-  },
-  "301594": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 301594,
+    "use_char_num": 2,
+    "use_gold": 1500,
+    "id": 301593,
     "use_char": 30159,
+    "weapon_ids": [
+      72052
+    ],
+    "pre_id": 301592,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 301594
+  },
+  "304064": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 304064,
+    "use_char": 30406,
     "weapon_ids": [],
-    "pre_id": 301593,
+    "pre_id": 304063,
     "level": 0,
     "breakout_view": "N/A",
     "icon": "10001",
@@ -13948,22 +14015,20 @@
     "icon": "10001",
     "breakout_id": 102222
   },
-  "305012": {
+  "10500011": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 800,
-    "id": 305012,
-    "use_char": 30501,
+    "use_gold": 1000,
+    "id": 10500011,
+    "use_char": 1050001,
     "weapon_ids": [
-      101,
-      101,
-      101
+      107
     ],
-    "pre_id": 305011,
-    "level": 30,
-    "breakout_view": "Auxiliary gun base +2/Main gun efficiency +10%",
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Torpedo efficiency +5%",
     "icon": "10001",
-    "breakout_id": 305013
+    "breakout_id": 10500012
   },
   "301161": {
     "use_item": [],
@@ -13997,21 +14062,6 @@
     "icon": "10001",
     "breakout_id": 404024
   },
-  "10500011": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 1000,
-    "id": 10500011,
-    "use_char": 1050001,
-    "weapon_ids": [
-      107
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Torpedo efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 10500012
-  },
   "10400044": {
     "use_item": [],
     "use_char_num": 0,
@@ -14024,6 +14074,22 @@
     "breakout_view": "N/A",
     "icon": "10001",
     "breakout_id": 0
+  },
+  "10100052": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "id": 10100052,
+    "use_char": 1010005,
+    "weapon_ids": [
+      106,
+      106
+    ],
+    "pre_id": 10100051,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 10100053
   },
   "107083": {
     "use_item": [],
@@ -14056,19 +14122,6 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "10100053": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 10000,
-    "id": 10100053,
-    "use_char": 1010005,
-    "weapon_ids": [],
-    "pre_id": 10100052,
-    "level": 70,
-    "breakout_view": "Main gun efficiency +15%",
-    "icon": "10001",
-    "breakout_id": 10100054
-  },
   "10400042": {
     "use_item": [],
     "use_char_num": 1,
@@ -14086,21 +14139,6 @@
     "icon": "10001",
     "breakout_id": 10400043
   },
-  "301163": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 10000,
-    "id": 301163,
-    "use_char": 30116,
-    "weapon_ids": [
-      60235
-    ],
-    "pre_id": 301162,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 301164
-  },
   "10400041": {
     "use_item": [],
     "use_char_num": 1,
@@ -14116,6 +14154,34 @@
     "breakout_view": "Main gun base +1/Main gun efficiency +5%",
     "icon": "10001",
     "breakout_id": 10400042
+  },
+  "301163": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "id": 301163,
+    "use_char": 30116,
+    "weapon_ids": [
+      60235
+    ],
+    "pre_id": 301162,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 301164
+  },
+  "10400034": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 10400034,
+    "use_char": 1040003,
+    "weapon_ids": [],
+    "pre_id": 10400033,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
   },
   "10500033": {
     "use_item": [],
@@ -14207,35 +14273,33 @@
     "icon": "10001",
     "breakout_id": 10500074
   },
-  "10400022": {
+  "312012": {
     "use_item": [],
     "use_char_num": 1,
     "use_gold": 3000,
-    "id": 10400022,
-    "use_char": 1040002,
-    "weapon_ids": [
-      33000
-    ],
-    "pre_id": 10400021,
+    "id": 312012,
+    "use_char": 31201,
+    "weapon_ids": [],
+    "pre_id": 312011,
     "level": 30,
-    "breakout_view": "Main gun efficiency +10%",
+    "breakout_view": "Team ammo +1/AA gun base +1/AA gun efficiency +5%",
     "icon": "10001",
-    "breakout_id": 10400023
+    "breakout_id": 312013
   },
-  "303121": {
+  "10400013": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 1000,
-    "id": 303121,
-    "use_char": 30312,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 10400013,
+    "use_char": 1040001,
     "weapon_ids": [
-      72261
+      107
     ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+    "pre_id": 10400012,
+    "level": 70,
+    "breakout_view": "All weapons' efficiency +5%",
     "icon": "10001",
-    "breakout_id": 303122
+    "breakout_id": 10400014
   },
   "905031": {
     "use_item": [],
@@ -14252,20 +14316,20 @@
     "icon": "10001",
     "breakout_id": 905032
   },
-  "10400013": {
+  "10400012": {
     "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 10400013,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "id": 10400012,
     "use_char": 1040001,
     "weapon_ids": [
       107
     ],
-    "pre_id": 10400012,
-    "level": 70,
-    "breakout_view": "All weapons' efficiency +5%",
+    "pre_id": 10400011,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
     "icon": "10001",
-    "breakout_id": 10400014
+    "breakout_id": 10400013
   },
   "107084": {
     "use_item": [],
@@ -14311,20 +14375,20 @@
     "icon": "10001",
     "breakout_id": 905034
   },
-  "10400012": {
+  "10400011": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 1500,
-    "id": 10400012,
+    "use_gold": 500,
+    "id": 10400011,
     "use_char": 1040001,
     "weapon_ids": [
       107
     ],
-    "pre_id": 10400011,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Torpedo efficiency +5%",
     "icon": "10001",
-    "breakout_id": 10400013
+    "breakout_id": 10400012
   },
   "905034": {
     "use_item": [],
@@ -14354,20 +14418,18 @@
     "icon": "10001",
     "breakout_id": 904012
   },
-  "10400011": {
+  "10100084": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 10400011,
-    "use_char": 1040001,
-    "weapon_ids": [
-      107
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Torpedo efficiency +5%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 10100084,
+    "use_char": 1010008,
+    "weapon_ids": [],
+    "pre_id": 10100083,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 10400012
+    "breakout_id": 0
   },
   "904012": {
     "use_item": [],
@@ -14386,18 +14448,23 @@
     "icon": "10001",
     "breakout_id": 904013
   },
-  "10100084": {
+  "10100083": {
     "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 10100084,
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "id": 10100083,
     "use_char": 1010008,
-    "weapon_ids": [],
-    "pre_id": 10100083,
-    "level": 0,
-    "breakout_view": "N/A",
+    "weapon_ids": [
+      60253,
+      54015,
+      60253,
+      54014
+    ],
+    "pre_id": 10100082,
+    "level": 70,
+    "breakout_view": "All Dive Bombers +1/Dive Bomber efficiency +7%",
     "icon": "10001",
-    "breakout_id": 0
+    "breakout_id": 10100084
   },
   "904013": {
     "use_item": [],
@@ -14442,24 +14509,6 @@
     "breakout_view": "N/A",
     "icon": "10001",
     "breakout_id": 0
-  },
-  "10100083": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 10000,
-    "id": 10100083,
-    "use_char": 1010008,
-    "weapon_ids": [
-      60253,
-      54015,
-      60253,
-      54014
-    ],
-    "pre_id": 10100082,
-    "level": 70,
-    "breakout_view": "All Dive Bombers +1/Dive Bomber efficiency +7%",
-    "icon": "10001",
-    "breakout_id": 10100084
   },
   "10100082": {
     "use_item": [],
@@ -14524,6 +14573,21 @@
     "icon": "10001",
     "breakout_id": 10100073
   },
+  "10100071": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "id": 10100071,
+    "use_char": 1010007,
+    "weapon_ids": [
+      60233
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock Lv. 1 Getter Ravine/Torpedo efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 10100072
+  },
   "101072": {
     "use_item": [],
     "use_char_num": 1,
@@ -14540,21 +14604,6 @@
     "icon": "10001",
     "breakout_id": 101073
   },
-  "10100071": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 1000,
-    "id": 10100071,
-    "use_char": 1010007,
-    "weapon_ids": [
-      60233
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock Lv. 1 Getter Ravine/Torpedo efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 10100072
-  },
   "10100064": {
     "use_item": [],
     "use_char_num": 0,
@@ -14567,6 +14616,19 @@
     "breakout_view": "N/A",
     "icon": "10001",
     "breakout_id": 0
+  },
+  "10100063": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "id": 10100063,
+    "use_char": 1010006,
+    "weapon_ids": [],
+    "pre_id": 10100062,
+    "level": 70,
+    "breakout_view": "Torpedo efficiency +15%",
+    "icon": "10001",
+    "breakout_id": 10100064
   },
   "301171": {
     "use_item": [],
@@ -14582,19 +14644,6 @@
     "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
     "icon": "10001",
     "breakout_id": 301172
-  },
-  "10100063": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 10000,
-    "id": 10100063,
-    "use_char": 1010006,
-    "weapon_ids": [],
-    "pre_id": 10100062,
-    "level": 70,
-    "breakout_view": "Torpedo efficiency +15%",
-    "icon": "10001",
-    "breakout_id": 10100064
   },
   "10100062": {
     "use_item": [],
@@ -14626,6 +14675,19 @@
     "breakout_view": "Unlock Lv. 1 Lace Dance/Main gun efficiency +5%",
     "icon": "10001",
     "breakout_id": 10100062
+  },
+  "10100053": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "id": 10100053,
+    "use_char": 1010005,
+    "weapon_ids": [],
+    "pre_id": 10100052,
+    "level": 70,
+    "breakout_view": "Main gun efficiency +15%",
+    "icon": "10001",
+    "breakout_id": 10100054
   },
   "301172": {
     "use_item": [],
@@ -14718,21 +14780,23 @@
     "icon": "10001",
     "breakout_id": 10400044
   },
-  "10100052": {
+  "10100043": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 3000,
-    "id": 10100052,
-    "use_char": 1010005,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 10100043,
+    "use_char": 1010004,
     "weapon_ids": [
-      106,
-      106
+      60243,
+      54015,
+      60243,
+      54015
     ],
-    "pre_id": 10100051,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "pre_id": 10100042,
+    "level": 70,
+    "breakout_view": "All fighters +1/Dive Bomber efficiency +7%",
     "icon": "10001",
-    "breakout_id": 10100053
+    "breakout_id": 10100044
   },
   "403012": {
     "use_item": [],
@@ -14778,23 +14842,18 @@
     "icon": "10001",
     "breakout_id": 101074
   },
-  "10100043": {
+  "10100033": {
     "use_item": [],
     "use_char_num": 2,
     "use_gold": 2500,
-    "id": 10100043,
-    "use_char": 1010004,
-    "weapon_ids": [
-      60243,
-      54015,
-      60243,
-      54015
-    ],
-    "pre_id": 10100042,
+    "id": 10100033,
+    "use_char": 1010003,
+    "weapon_ids": [],
+    "pre_id": 10100032,
     "level": 70,
-    "breakout_view": "All fighters +1/Dive Bomber efficiency +7%",
+    "breakout_view": "All weapons' efficiency +5%",
     "icon": "10001",
-    "breakout_id": 10100044
+    "breakout_id": 10100034
   },
   "403013": {
     "use_item": [],
@@ -14811,18 +14870,21 @@
     "icon": "10001",
     "breakout_id": 403014
   },
-  "10100033": {
+  "10100032": {
     "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 10100033,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "id": 10100032,
     "use_char": 1010003,
-    "weapon_ids": [],
-    "pre_id": 10100032,
-    "level": 70,
-    "breakout_view": "All weapons' efficiency +5%",
+    "weapon_ids": [
+      106,
+      106
+    ],
+    "pre_id": 10100031,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
     "icon": "10001",
-    "breakout_id": 10100034
+    "breakout_id": 10100033
   },
   "199012": {
     "use_item": [],
@@ -14840,18 +14902,18 @@
     "icon": "10001",
     "breakout_id": 199013
   },
-  "10100031": {
+  "10100024": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 10100031,
-    "use_char": 1010003,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 10100024,
+    "use_char": 1010002,
     "weapon_ids": [],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Torpedo efficiency +5%",
+    "pre_id": 10100023,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 10100032
+    "breakout_id": 0
   },
   "403014": {
     "use_item": [],
@@ -14866,18 +14928,18 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "10100024": {
+  "10100023": {
     "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 10100024,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 10100023,
     "use_char": 1010002,
     "weapon_ids": [],
-    "pre_id": 10100023,
-    "level": 0,
-    "breakout_view": "N/A",
+    "pre_id": 10100022,
+    "level": 70,
+    "breakout_view": "Torpedo efficiency +15%",
     "icon": "10001",
-    "breakout_id": 0
+    "breakout_id": 10100024
   },
   "202083": {
     "use_item": [],
@@ -14893,19 +14955,6 @@
     "breakout_view": "Improve All Out Assault/Main gun efficiency +15%",
     "icon": "10001",
     "breakout_id": 202084
-  },
-  "10100023": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 10100023,
-    "use_char": 1010002,
-    "weapon_ids": [],
-    "pre_id": 10100022,
-    "level": 70,
-    "breakout_view": "Torpedo efficiency +15%",
-    "icon": "10001",
-    "breakout_id": 10100024
   },
   "10100014": {
     "use_item": [],
@@ -14932,6 +14981,23 @@
     "breakout_view": "Main gun efficiency +5%",
     "icon": "10001",
     "breakout_id": 10100012
+  },
+  "905032": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "id": 905032,
+    "use_char": 90503,
+    "weapon_ids": [
+      101,
+      101,
+      101
+    ],
+    "pre_id": 905031,
+    "level": 30,
+    "breakout_view": "Auxiliary gun base +2/Main gun efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 905033
   },
   "199013": {
     "use_item": [],
@@ -14963,34 +15029,39 @@
     "icon": "10001",
     "breakout_id": 302202
   },
-  "901114": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 901114,
-    "use_char": 90111,
-    "weapon_ids": [],
-    "pre_id": 901113,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
-  "306061": {
+  "306052": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 500,
-    "id": 306061,
-    "use_char": 30606,
+    "use_gold": 800,
+    "id": 306052,
+    "use_char": 30605,
     "weapon_ids": [
-      60371,
+      60122,
+      54011,
+      60122,
       54011
     ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "All Torpedo Bombers +1/Fighter efficiency +5%",
+    "pre_id": 306051,
+    "level": 30,
+    "breakout_view": "Hangar capacity +1/All Dive Bombers +1/Aircraft efficiency +5%",
     "icon": "10001",
-    "breakout_id": 306062
+    "breakout_id": 306053
+  },
+  "901112": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "id": 901112,
+    "use_char": 90111,
+    "weapon_ids": [
+      106,
+      106
+    ],
+    "pre_id": 901111,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 901113
   },
   "101074": {
     "use_item": [],
@@ -15021,22 +15092,6 @@
     "icon": "10001",
     "breakout_id": 302203
   },
-  "901112": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 3000,
-    "id": 901112,
-    "use_char": 90111,
-    "weapon_ids": [
-      106,
-      106
-    ],
-    "pre_id": 901111,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 901113
-  },
   "901111": {
     "use_item": [],
     "use_char_num": 1,
@@ -15051,6 +15106,21 @@
     "breakout_view": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
     "icon": "10001",
     "breakout_id": 901112
+  },
+  "408081": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 500,
+    "id": 408081,
+    "use_char": 40808,
+    "weapon_ids": [
+      73321
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock EX Barrage Ⅰ/Torpedo efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 408082
   },
   "201061": {
     "use_item": [],
@@ -15082,24 +15152,6 @@
     "icon": "10001",
     "breakout_id": 302204
   },
-  "408082": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 1500,
-    "id": 408082,
-    "use_char": 40808,
-    "weapon_ids": [
-      140,
-      140,
-      140,
-      140
-    ],
-    "pre_id": 408081,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Improve Hunting range",
-    "icon": "10001",
-    "breakout_id": 408083
-  },
   "901023": {
     "use_item": [],
     "use_char_num": 2,
@@ -15115,18 +15167,36 @@
     "icon": "10001",
     "breakout_id": 901024
   },
-  "501014": {
+  "408083": {
     "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 501014,
-    "use_char": 50101,
-    "weapon_ids": [],
-    "pre_id": 501013,
-    "level": 0,
-    "breakout_view": "N/A",
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 408083,
+    "use_char": 40808,
+    "weapon_ids": [
+      73322
+    ],
+    "pre_id": 408082,
+    "level": 70,
+    "breakout_view": "Improve EX Barrage/Torpedo efficiency +10%",
     "icon": "10001",
-    "breakout_id": 0
+    "breakout_id": 408084
+  },
+  "501022": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 800,
+    "id": 501022,
+    "use_char": 50102,
+    "weapon_ids": [
+      106,
+      106
+    ],
+    "pre_id": 501021,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/All weapons' efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 501023
   },
   "302204": {
     "use_item": [],
@@ -15141,20 +15211,18 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "501041": {
+  "901014": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 100,
-    "id": 501041,
-    "use_char": 50104,
-    "weapon_ids": [
-      74011
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 901014,
+    "use_char": 90101,
+    "weapon_ids": [],
+    "pre_id": 901013,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 501042
+    "breakout_id": 0
   },
   "301181": {
     "use_item": [],
@@ -15187,49 +15255,18 @@
     "icon": "10001",
     "breakout_id": 201063
   },
-  "901014": {
+  "502024": {
     "use_item": [],
     "use_char_num": 0,
     "use_gold": 0,
-    "id": 901014,
-    "use_char": 90101,
+    "id": 502024,
+    "use_char": 50202,
     "weapon_ids": [],
-    "pre_id": 901013,
+    "pre_id": 502023,
     "level": 0,
     "breakout_view": "N/A",
     "icon": "10001",
     "breakout_id": 0
-  },
-  "502031": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 502031,
-    "use_char": 50203,
-    "weapon_ids": [
-      74111
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
-    "icon": "10001",
-    "breakout_id": 502032
-  },
-  "105041": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 105041,
-    "use_char": 10504,
-    "weapon_ids": [
-      14100,
-      14100
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Main gun base +1/Main gun efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 105042
   },
   "901012": {
     "use_item": [],
@@ -15247,21 +15284,52 @@
     "icon": "10001",
     "breakout_id": 901013
   },
-  "502032": {
+  "105041": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 1500,
-    "id": 502032,
+    "use_gold": 500,
+    "id": 105041,
+    "use_char": 10504,
+    "weapon_ids": [
+      14100,
+      14100
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Main gun base +1/Main gun efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 105042
+  },
+  "502031": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 500,
+    "id": 502031,
     "use_char": 50203,
     "weapon_ids": [
-      105,
-      105
+      74111
     ],
-    "pre_id": 502031,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/All weapons' efficiency +3%",
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
     "icon": "10001",
-    "breakout_id": 502033
+    "breakout_id": 502032
+  },
+  "302042": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 300,
+    "id": 302042,
+    "use_char": 30204,
+    "weapon_ids": [
+      107,
+      107
+    ],
+    "pre_id": 302041,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 302043
   },
   "101331": {
     "use_item": [],
@@ -15321,34 +15389,6 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "302051": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 300,
-    "id": 302051,
-    "use_char": 30205,
-    "weapon_ids": [
-      72141
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/AA gun efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 302052
-  },
-  "301184": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 301184,
-    "use_char": 30118,
-    "weapon_ids": [],
-    "pre_id": 301183,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "808012": {
     "use_item": [],
     "use_char_num": 1,
@@ -15367,21 +15407,33 @@
     "icon": "10001",
     "breakout_id": 808013
   },
-  "302082": {
+  "301184": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 1500,
-    "id": 302082,
-    "use_char": 30208,
-    "weapon_ids": [
-      107,
-      107
-    ],
-    "pre_id": 302081,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 301184,
+    "use_char": 30118,
+    "weapon_ids": [],
+    "pre_id": 301183,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 302083
+    "breakout_id": 0
+  },
+  "302053": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 1500,
+    "id": 302053,
+    "use_char": 30205,
+    "weapon_ids": [
+      72142
+    ],
+    "pre_id": 302052,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 302054
   },
   "802014": {
     "use_item": [],
@@ -15411,19 +15463,6 @@
     "icon": "10001",
     "breakout_id": 802014
   },
-  "201064": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 201064,
-    "use_char": 20106,
-    "weapon_ids": [],
-    "pre_id": 201063,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "802012": {
     "use_item": [],
     "use_char_num": 1,
@@ -15440,6 +15479,19 @@
     "icon": "10001",
     "breakout_id": 802013
   },
+  "201064": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 201064,
+    "use_char": 20106,
+    "weapon_ids": [],
+    "pre_id": 201063,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
   "802011": {
     "use_item": [],
     "use_char_num": 1,
@@ -15454,6 +15506,21 @@
     "breakout_view": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
     "icon": "10001",
     "breakout_id": 802012
+  },
+  "801043": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 801043,
+    "use_char": 80104,
+    "weapon_ids": [
+      78022
+    ],
+    "pre_id": 801042,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 801044
   },
   "105042": {
     "use_item": [],
@@ -15472,21 +15539,6 @@
     "icon": "10001",
     "breakout_id": 105043
   },
-  "801043": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 801043,
-    "use_char": 80104,
-    "weapon_ids": [
-      78022
-    ],
-    "pre_id": 801042,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 801044
-  },
   "801041": {
     "use_item": [],
     "use_char_num": 1,
@@ -15501,6 +15553,22 @@
     "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
     "icon": "10001",
     "breakout_id": 801042
+  },
+  "801032": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "id": 801032,
+    "use_char": 80103,
+    "weapon_ids": [
+      106,
+      106
+    ],
+    "pre_id": 801031,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 801033
   },
   "101332": {
     "use_item": [],
@@ -15518,21 +15586,18 @@
     "icon": "10001",
     "breakout_id": 101333
   },
-  "801032": {
+  "801024": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 1500,
-    "id": 801032,
-    "use_char": 80103,
-    "weapon_ids": [
-      106,
-      106
-    ],
-    "pre_id": 801031,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 801024,
+    "use_char": 80102,
+    "weapon_ids": [],
+    "pre_id": 801023,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 801033
+    "breakout_id": 0
   },
   "203112": {
     "use_item": [],
@@ -15565,19 +15630,6 @@
     "icon": "10001",
     "breakout_id": 302212
   },
-  "801024": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 801024,
-    "use_char": 80102,
-    "weapon_ids": [],
-    "pre_id": 801023,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "801023": {
     "use_item": [],
     "use_char_num": 2,
@@ -15608,6 +15660,21 @@
     "icon": "10001",
     "breakout_id": 103082
   },
+  "801013": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "id": 801013,
+    "use_char": 80101,
+    "weapon_ids": [
+      79332
+    ],
+    "pre_id": 801012,
+    "level": 70,
+    "breakout_view": "Improve EX Barrage/All weapons' efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 801014
+  },
   "302212": {
     "use_item": [],
     "use_char_num": 1,
@@ -15624,21 +15691,6 @@
     "icon": "10001",
     "breakout_id": 302213
   },
-  "801013": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 10000,
-    "id": 801013,
-    "use_char": 80101,
-    "weapon_ids": [
-      79332
-    ],
-    "pre_id": 801012,
-    "level": 70,
-    "breakout_view": "Improve EX Barrage/All weapons' efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 801014
-  },
   "103111": {
     "use_item": [],
     "use_char_num": 1,
@@ -15653,6 +15705,21 @@
     "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
     "icon": "10001",
     "breakout_id": 103112
+  },
+  "801011": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "id": 801011,
+    "use_char": 80101,
+    "weapon_ids": [
+      79331
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 801012
   },
   "203113": {
     "use_item": [],
@@ -15684,20 +15751,22 @@
     "icon": "10001",
     "breakout_id": 302214
   },
-  "801011": {
+  "705013": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 1000,
-    "id": 801011,
-    "use_char": 80101,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 705013,
+    "use_char": 70501,
     "weapon_ids": [
-      79331
+      85420,
+      85420,
+      85420
     ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
+    "pre_id": 705012,
+    "level": 70,
+    "breakout_view": "Main gun base +1/Main gun efficiency +15%",
     "icon": "10001",
-    "breakout_id": 801012
+    "breakout_id": 705014
   },
   "105043": {
     "use_item": [],
@@ -15716,22 +15785,21 @@
     "icon": "10001",
     "breakout_id": 105044
   },
-  "705013": {
+  "705011": {
     "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 705013,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "id": 705011,
     "use_char": 70501,
     "weapon_ids": [
       85420,
-      85420,
       85420
     ],
-    "pre_id": 705012,
-    "level": 70,
-    "breakout_view": "Main gun base +1/Main gun efficiency +15%",
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Main gun base +1/Main gun efficiency +5%",
     "icon": "10001",
-    "breakout_id": 705014
+    "breakout_id": 705012
   },
   "302214": {
     "use_item": [],
@@ -15761,21 +15829,18 @@
     "icon": "10001",
     "breakout_id": 101334
   },
-  "705011": {
+  "702034": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 705011,
-    "use_char": 70501,
-    "weapon_ids": [
-      85420,
-      85420
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Main gun base +1/Main gun efficiency +5%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 702034,
+    "use_char": 70203,
+    "weapon_ids": [],
+    "pre_id": 702033,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 705012
+    "breakout_id": 0
   },
   "203114": {
     "use_item": [],
@@ -15785,19 +15850,6 @@
     "use_char": 20301,
     "weapon_ids": [],
     "pre_id": 203013,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
-  "702034": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 702034,
-    "use_char": 70203,
-    "weapon_ids": [],
-    "pre_id": 702033,
     "level": 0,
     "breakout_view": "N/A",
     "icon": "10001",
@@ -15832,21 +15884,6 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "102101": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 102101,
-    "use_char": 10210,
-    "weapon_ids": [
-      70141
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 102102
-  },
   "702023": {
     "use_item": [],
     "use_char_num": 2,
@@ -15862,20 +15899,20 @@
     "icon": "10001",
     "breakout_id": 702024
   },
-  "403031": {
+  "102101": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 1000,
-    "id": 403031,
-    "use_char": 40303,
+    "use_gold": 500,
+    "id": 102101,
+    "use_char": 10210,
     "weapon_ids": [
-      73211
+      70141
     ],
     "pre_id": 0,
     "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
+    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
     "icon": "10001",
-    "breakout_id": 403032
+    "breakout_id": 102102
   },
   "702022": {
     "use_item": [],
@@ -15893,6 +15930,36 @@
     "icon": "10001",
     "breakout_id": 702023
   },
+  "403031": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "id": 403031,
+    "use_char": 40303,
+    "weapon_ids": [
+      73211
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
+    "icon": "10001",
+    "breakout_id": 403032
+  },
+  "702021": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 500,
+    "id": 702021,
+    "use_char": 70202,
+    "weapon_ids": [
+      76111
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 702022
+  },
   "199021": {
     "use_item": [],
     "use_char_num": 1,
@@ -15909,18 +15976,21 @@
     "icon": "10001",
     "breakout_id": 199022
   },
-  "702014": {
+  "702012": {
     "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 702014,
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "id": 702012,
     "use_char": 70201,
-    "weapon_ids": [],
-    "pre_id": 702013,
-    "level": 0,
-    "breakout_view": "N/A",
+    "weapon_ids": [
+      7000,
+      7000
+    ],
+    "pre_id": 702011,
+    "level": 30,
+    "breakout_view": "Main gun base +1/Main gun efficiency +10%",
     "icon": "10001",
-    "breakout_id": 0
+    "breakout_id": 702013
   },
   "403032": {
     "use_item": [],
@@ -15951,22 +16021,6 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "702012": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 3000,
-    "id": 702012,
-    "use_char": 70201,
-    "weapon_ids": [
-      7000,
-      7000
-    ],
-    "pre_id": 702011,
-    "level": 30,
-    "breakout_view": "Main gun base +1/Main gun efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 702013
-  },
   "701044": {
     "use_item": [],
     "use_char_num": 0,
@@ -15975,19 +16029,6 @@
     "use_char": 70104,
     "weapon_ids": [],
     "pre_id": 701043,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
-  "101334": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 101334,
-    "use_char": 10133,
-    "weapon_ids": [],
-    "pre_id": 101333,
     "level": 0,
     "breakout_view": "N/A",
     "icon": "10001",
@@ -16008,6 +16049,32 @@
     "breakout_view": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
     "icon": "10001",
     "breakout_id": 701043
+  },
+  "101334": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 101334,
+    "use_char": 10133,
+    "weapon_ids": [],
+    "pre_id": 101333,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
+  "701034": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 701034,
+    "use_char": 70103,
+    "weapon_ids": [],
+    "pre_id": 701033,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
   },
   "199022": {
     "use_item": [],
@@ -16052,35 +16119,6 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "701024": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 701024,
-    "use_char": 70102,
-    "weapon_ids": [],
-    "pre_id": 701023,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
-  "102102": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 1500,
-    "id": 102102,
-    "use_char": 10210,
-    "weapon_ids": [
-      12100,
-      12100
-    ],
-    "pre_id": 102101,
-    "level": 30,
-    "breakout_view": "Main gun base +1/Main gun efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 102103
-  },
   "605063": {
     "use_item": [],
     "use_char_num": 2,
@@ -16098,6 +16136,38 @@
     "icon": "10001",
     "breakout_id": 605064
   },
+  "102102": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "id": 102102,
+    "use_char": 10210,
+    "weapon_ids": [
+      12100,
+      12100
+    ],
+    "pre_id": 102101,
+    "level": 30,
+    "breakout_view": "Main gun base +1/Main gun efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 102103
+  },
+  "605061": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 500,
+    "id": 605061,
+    "use_char": 60506,
+    "weapon_ids": [
+      95480,
+      95480
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Main gun base +1/Main gun efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 605062
+  },
   "10500074": {
     "use_item": [],
     "use_char_num": 0,
@@ -16110,39 +16180,6 @@
     "breakout_view": "None",
     "icon": "10001",
     "breakout_id": 0
-  },
-  "605053": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 1500,
-    "id": 605053,
-    "use_char": 60505,
-    "weapon_ids": [
-      95480,
-      95480,
-      95480
-    ],
-    "pre_id": 605052,
-    "level": 70,
-    "breakout_view": "Main gun base +1/Main gun efficiency +15%",
-    "icon": "10001",
-    "breakout_id": 605054
-  },
-  "402012": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 300,
-    "id": 402012,
-    "use_char": 40201,
-    "weapon_ids": [
-      106,
-      106
-    ],
-    "pre_id": 402011,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/All weapons' efficiency +3%",
-    "icon": "10001",
-    "breakout_id": 402013
   },
   "605051": {
     "use_item": [],
@@ -16160,6 +16197,22 @@
     "icon": "10001",
     "breakout_id": 605052
   },
+  "402012": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 300,
+    "id": 402012,
+    "use_char": 40201,
+    "weapon_ids": [
+      106,
+      106
+    ],
+    "pre_id": 402011,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/All weapons' efficiency +3%",
+    "icon": "10001",
+    "breakout_id": 402013
+  },
   "605021": {
     "use_item": [],
     "use_char_num": 1,
@@ -16175,6 +16228,19 @@
     "breakout_view": "Main gun base +1/Main gun efficiency +5%",
     "icon": "10001",
     "breakout_id": 605022
+  },
+  "603024": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 603024,
+    "use_char": 60302,
+    "weapon_ids": [],
+    "pre_id": 603023,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
   },
   "107092": {
     "use_item": [],
@@ -16209,19 +16275,6 @@
     "icon": "10001",
     "breakout_id": 402014
   },
-  "603024": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 603024,
-    "use_char": 60302,
-    "weapon_ids": [],
-    "pre_id": 603023,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "603023": {
     "use_item": [],
     "use_char_num": 2,
@@ -16253,21 +16306,6 @@
     "icon": "10001",
     "breakout_id": 603023
   },
-  "201071": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 100,
-    "id": 201071,
-    "use_char": 20107,
-    "weapon_ids": [
-      71021
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 201072
-  },
   "603021": {
     "use_item": [],
     "use_char_num": 1,
@@ -16282,6 +16320,21 @@
     "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
     "icon": "10001",
     "breakout_id": 603022
+  },
+  "201071": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 100,
+    "id": 201071,
+    "use_char": 20107,
+    "weapon_ids": [
+      71021
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 201072
   },
   "603014": {
     "use_item": [],
@@ -16311,6 +16364,21 @@
     "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
     "icon": "10001",
     "breakout_id": 603013
+  },
+  "601023": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 601023,
+    "use_char": 60102,
+    "weapon_ids": [
+      75012
+    ],
+    "pre_id": 601022,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 601024
   },
   "102103": {
     "use_item": [],
@@ -16342,20 +16410,20 @@
     "icon": "10001",
     "breakout_id": 102232
   },
-  "601023": {
+  "601021": {
     "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 601023,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "id": 601021,
     "use_char": 60102,
     "weapon_ids": [
-      75012
+      75011
     ],
-    "pre_id": 601022,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
     "icon": "10001",
-    "breakout_id": 601024
+    "breakout_id": 601022
   },
   "301201": {
     "use_item": [],
@@ -16388,21 +16456,6 @@
     "icon": "10001",
     "breakout_id": 201073
   },
-  "601021": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 601021,
-    "use_char": 60102,
-    "weapon_ids": [
-      75011
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 601022
-  },
   "502034": {
     "use_item": [],
     "use_char_num": 0,
@@ -16415,6 +16468,21 @@
     "breakout_view": "N/A",
     "icon": "10001",
     "breakout_id": 0
+  },
+  "502033": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 502033,
+    "use_char": 50203,
+    "weapon_ids": [
+      74112
+    ],
+    "pre_id": 502032,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 502034
   },
   "107093": {
     "use_item": [],
@@ -16434,20 +16502,21 @@
     "icon": "10001",
     "breakout_id": 107094
   },
-  "502033": {
+  "502032": {
     "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 502033,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "id": 502032,
     "use_char": 50203,
     "weapon_ids": [
-      74112
+      105,
+      105
     ],
-    "pre_id": 502032,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "pre_id": 502031,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/All weapons' efficiency +3%",
     "icon": "10001",
-    "breakout_id": 502034
+    "breakout_id": 502033
   },
   "901011": {
     "use_item": [],
@@ -16597,32 +16666,6 @@
     "icon": "10001",
     "breakout_id": 403044
   },
-  "502024": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 502024,
-    "use_char": 50202,
-    "weapon_ids": [],
-    "pre_id": 502023,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
-  "201074": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 201074,
-    "use_char": 20107,
-    "weapon_ids": [],
-    "pre_id": 201073,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "502022": {
     "use_item": [],
     "use_char_num": 1,
@@ -16638,6 +16681,34 @@
     "breakout_view": "Torpedo base +1/Torpedo preload +1/All weapons' efficiency +3%",
     "icon": "10001",
     "breakout_id": 502023
+  },
+  "201074": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 201074,
+    "use_char": 20107,
+    "weapon_ids": [],
+    "pre_id": 201073,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
+  "502021": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 500,
+    "id": 502021,
+    "use_char": 50202,
+    "weapon_ids": [
+      74111
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
+    "icon": "10001",
+    "breakout_id": 502022
   },
   "403044": {
     "use_item": [],
@@ -16680,21 +16751,6 @@
     "icon": "10001",
     "breakout_id": 101082
   },
-  "502021": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 502021,
-    "use_char": 50202,
-    "weapon_ids": [
-      74111
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
-    "icon": "10001",
-    "breakout_id": 502022
-  },
   "502013": {
     "use_item": [],
     "use_char_num": 2,
@@ -16724,6 +16780,21 @@
     "breakout_view": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
     "icon": "10001",
     "breakout_id": 502012
+  },
+  "501041": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 100,
+    "id": 501041,
+    "use_char": 50104,
+    "weapon_ids": [
+      74011
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 501042
   },
   "402022": {
     "use_item": [],
@@ -16756,21 +16827,18 @@
     "icon": "10001",
     "breakout_id": 901022
   },
-  "501022": {
+  "501014": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 800,
-    "id": 501022,
-    "use_char": 50102,
-    "weapon_ids": [
-      106,
-      106
-    ],
-    "pre_id": 501021,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/All weapons' efficiency +5%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 501014,
+    "use_char": 50101,
+    "weapon_ids": [],
+    "pre_id": 501013,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 501023
+    "breakout_id": 0
   },
   "901022": {
     "use_item": [],
@@ -16818,20 +16886,23 @@
     "icon": "10001",
     "breakout_id": 102234
   },
-  "408083": {
+  "408082": {
     "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 408083,
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "id": 408082,
     "use_char": 40808,
     "weapon_ids": [
-      73322
+      140,
+      140,
+      140,
+      140
     ],
-    "pre_id": 408082,
-    "level": 70,
-    "breakout_view": "Improve EX Barrage/Torpedo efficiency +10%",
+    "pre_id": 408081,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Improve Hunting range",
     "icon": "10001",
-    "breakout_id": 408084
+    "breakout_id": 408083
   },
   "901024": {
     "use_item": [],
@@ -16860,21 +16931,6 @@
     "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
     "icon": "10001",
     "breakout_id": 301722
-  },
-  "408081": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 408081,
-    "use_char": 40808,
-    "weapon_ids": [
-      73321
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock EX Barrage Ⅰ/Torpedo efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 408082
   },
   "408073": {
     "use_item": [],
@@ -16909,6 +16965,21 @@
     "icon": "10001",
     "breakout_id": 408073
   },
+  "408071": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 500,
+    "id": 408071,
+    "use_char": 40807,
+    "weapon_ids": [
+      73511
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 408072
+  },
   "101082": {
     "use_item": [],
     "use_char_num": 1,
@@ -16925,21 +16996,6 @@
     "icon": "10001",
     "breakout_id": 101083
   },
-  "408071": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 408071,
-    "use_char": 40807,
-    "weapon_ids": [
-      73511
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 408072
-  },
   "408063": {
     "use_item": [],
     "use_char_num": 2,
@@ -16954,6 +17010,24 @@
     "breakout_view": "Improve EX Barrage/Torpedo efficiency +10%",
     "icon": "10001",
     "breakout_id": 408064
+  },
+  "408062": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "id": 408062,
+    "use_char": 40806,
+    "weapon_ids": [
+      140,
+      140,
+      140,
+      140
+    ],
+    "pre_id": 408061,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Improve Hunting range",
+    "icon": "10001",
+    "breakout_id": 408063
   },
   "301211": {
     "use_item": [],
@@ -16985,24 +17059,6 @@
     "icon": "10001",
     "breakout_id": 301724
   },
-  "408062": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 3000,
-    "id": 408062,
-    "use_char": 40806,
-    "weapon_ids": [
-      140,
-      140,
-      140,
-      140
-    ],
-    "pre_id": 408061,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Improve Hunting range",
-    "icon": "10001",
-    "breakout_id": 408063
-  },
   "408061": {
     "use_item": [],
     "use_char_num": 1,
@@ -17017,6 +17073,19 @@
     "breakout_view": "Unlock EX Barrage Ⅰ/Torpedo efficiency +5%",
     "icon": "10001",
     "breakout_id": 408062
+  },
+  "408054": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 408054,
+    "use_char": 40805,
+    "weapon_ids": [],
+    "pre_id": 408053,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
   },
   "301212": {
     "use_item": [],
@@ -17092,19 +17161,6 @@
     "icon": "10001",
     "breakout_id": 301214
   },
-  "408054": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 408054,
-    "use_char": 40805,
-    "weapon_ids": [],
-    "pre_id": 408053,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "408052": {
     "use_item": [],
     "use_char_num": 1,
@@ -17122,6 +17178,21 @@
     "breakout_view": "Torpedo base +1/Improve Hunting range",
     "icon": "10001",
     "breakout_id": 408053
+  },
+  "408043": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 408043,
+    "use_char": 40804,
+    "weapon_ids": [
+      73312
+    ],
+    "pre_id": 408042,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/Torpedo efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 408044
   },
   "403052": {
     "use_item": [],
@@ -17167,36 +17238,6 @@
     "icon": "10001",
     "breakout_id": 101084
   },
-  "408043": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 408043,
-    "use_char": 40804,
-    "weapon_ids": [
-      73312
-    ],
-    "pre_id": 408042,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/Torpedo efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 408044
-  },
-  "403053": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 403053,
-    "use_char": 40305,
-    "weapon_ids": [
-      73222
-    ],
-    "pre_id": 403052,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/Main gun efficiency +15%",
-    "icon": "10001",
-    "breakout_id": 403054
-  },
   "408042": {
     "use_item": [],
     "use_char_num": 1,
@@ -17214,6 +17255,21 @@
     "breakout_view": "Torpedo base +1/Improve Hunting range",
     "icon": "10001",
     "breakout_id": 408043
+  },
+  "403053": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 403053,
+    "use_char": 40305,
+    "weapon_ids": [
+      73222
+    ],
+    "pre_id": 403052,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/Main gun efficiency +15%",
+    "icon": "10001",
+    "breakout_id": 403054
   },
   "408041": {
     "use_item": [],
@@ -17243,19 +17299,6 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "403054": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 403054,
-    "use_char": 40305,
-    "weapon_ids": [],
-    "pre_id": 403053,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "408032": {
     "use_item": [],
     "use_char_num": 1,
@@ -17274,20 +17317,18 @@
     "icon": "10001",
     "breakout_id": 408033
   },
-  "202103": {
+  "403054": {
     "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 202103,
-    "use_char": 20210,
-    "weapon_ids": [
-      71182
-    ],
-    "pre_id": 202102,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/Main gun efficiency +15%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 403054,
+    "use_char": 40305,
+    "weapon_ids": [],
+    "pre_id": 403053,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 202104
+    "breakout_id": 0
   },
   "408023": {
     "use_item": [],
@@ -17303,6 +17344,21 @@
     "breakout_view": "Improve EX Barrage/Torpedo efficiency +10%",
     "icon": "10001",
     "breakout_id": 408024
+  },
+  "202103": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 202103,
+    "use_char": 20210,
+    "weapon_ids": [
+      71182
+    ],
+    "pre_id": 202102,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/Main gun efficiency +15%",
+    "icon": "10001",
+    "breakout_id": 202104
   },
   "408022": {
     "use_item": [],
@@ -17337,6 +17393,19 @@
     "icon": "10001",
     "breakout_id": 408022
   },
+  "408014": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 408014,
+    "use_char": 40801,
+    "weapon_ids": [],
+    "pre_id": 408013,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
   "402032": {
     "use_item": [],
     "use_char_num": 1,
@@ -17352,19 +17421,6 @@
     "breakout_view": "Torpedo base +1/Torpedo preload +1/All weapons' efficiency +3%",
     "icon": "10001",
     "breakout_id": 402033
-  },
-  "408014": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 408014,
-    "use_char": 40801,
-    "weapon_ids": [],
-    "pre_id": 408013,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
   },
   "408012": {
     "use_item": [],
@@ -17399,19 +17455,6 @@
     "icon": "10001",
     "breakout_id": 404023
   },
-  "101084": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 101084,
-    "use_char": 10108,
-    "weapon_ids": [],
-    "pre_id": 101083,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "404014": {
     "use_item": [],
     "use_char_num": 0,
@@ -17420,6 +17463,19 @@
     "use_char": 40401,
     "weapon_ids": [],
     "pre_id": 404013,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
+  "101084": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 101084,
+    "use_char": 10108,
+    "weapon_ids": [],
+    "pre_id": 101083,
     "level": 0,
     "breakout_view": "N/A",
     "icon": "10001",
@@ -17457,21 +17513,6 @@
     "icon": "10001",
     "breakout_id": 404013
   },
-  "201081": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 100,
-    "id": 201081,
-    "use_char": 20108,
-    "weapon_ids": [
-      71031
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 201082
-  },
   "404011": {
     "use_item": [],
     "use_char_num": 1,
@@ -17488,6 +17529,37 @@
     "icon": "10001",
     "breakout_id": 404012
   },
+  "201081": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 100,
+    "id": 201081,
+    "use_char": 20108,
+    "weapon_ids": [
+      71031
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 201082
+  },
+  "303082": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 800,
+    "id": 303082,
+    "use_char": 30308,
+    "weapon_ids": [
+      106,
+      106
+    ],
+    "pre_id": 303081,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 303083
+  },
   "401011": {
     "use_item": [],
     "use_char_num": 1,
@@ -17502,19 +17574,6 @@
     "breakout_view": "Unlock EX Barrage Ⅰ/Torpedo efficiency +5%",
     "icon": "10001",
     "breakout_id": 401012
-  },
-  "401014": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 401014,
-    "use_char": 40101,
-    "weapon_ids": [],
-    "pre_id": 401013,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
   },
   "403073": {
     "use_item": [],
@@ -17531,20 +17590,33 @@
     "icon": "10001",
     "breakout_id": 403074
   },
-  "401193": {
+  "401184": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 401184,
+    "use_char": 40118,
+    "weapon_ids": [],
+    "pre_id": 401183,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
+  "401203": {
     "use_item": [],
     "use_char_num": 2,
-    "use_gold": 1500,
-    "id": 401193,
-    "use_char": 40119,
+    "use_gold": 500,
+    "id": 401203,
+    "use_char": 40120,
     "weapon_ids": [
       73032
     ],
-    "pre_id": 401192,
+    "pre_id": 401202,
     "level": 70,
     "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
     "icon": "10001",
-    "breakout_id": 401194
+    "breakout_id": 401204
   },
   "401012": {
     "use_item": [],
@@ -17562,18 +17634,20 @@
     "icon": "10001",
     "breakout_id": 401013
   },
-  "401204": {
+  "403033": {
     "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 401204,
-    "use_char": 40120,
-    "weapon_ids": [],
-    "pre_id": 401203,
-    "level": 0,
-    "breakout_view": "N/A",
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "id": 403033,
+    "use_char": 40303,
+    "weapon_ids": [
+      73212
+    ],
+    "pre_id": 403032,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
     "icon": "10001",
-    "breakout_id": 0
+    "breakout_id": 403034
   },
   "201082": {
     "use_item": [],
@@ -17591,20 +17665,20 @@
     "icon": "10001",
     "breakout_id": 201083
   },
-  "403033": {
+  "401251": {
     "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 10000,
-    "id": 403033,
-    "use_char": 40303,
+    "use_char_num": 1,
+    "use_gold": 500,
+    "id": 401251,
+    "use_char": 40125,
     "weapon_ids": [
-      73212
+      73041
     ],
-    "pre_id": 403032,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
     "icon": "10001",
-    "breakout_id": 403034
+    "breakout_id": 401252
   },
   "401013": {
     "use_item": [],
@@ -17621,21 +17695,20 @@
     "icon": "10001",
     "breakout_id": 401014
   },
-  "401252": {
+  "401351": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 1500,
-    "id": 401252,
-    "use_char": 40125,
+    "use_gold": 500,
+    "id": 401351,
+    "use_char": 40135,
     "weapon_ids": [
-      107,
-      107
+      73051
     ],
-    "pre_id": 401251,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
     "icon": "10001",
-    "breakout_id": 401253
+    "breakout_id": 401352
   },
   "103132": {
     "use_item": [],
@@ -17653,21 +17726,20 @@
     "icon": "10001",
     "breakout_id": 103133
   },
-  "401352": {
+  "401461": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 1500,
-    "id": 401352,
-    "use_char": 40135,
+    "use_gold": 1000,
+    "id": 401461,
+    "use_char": 40146,
     "weapon_ids": [
-      107,
-      107
+      60301
     ],
-    "pre_id": 401351,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock EX Barrage Ⅰ/AA gun efficiency +5%",
     "icon": "10001",
-    "breakout_id": 401353
+    "breakout_id": 401462
   },
   "101341": {
     "use_item": [],
@@ -17684,18 +17756,20 @@
     "icon": "10001",
     "breakout_id": 101342
   },
-  "401464": {
+  "402041": {
     "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 401464,
-    "use_char": 40146,
-    "weapon_ids": [],
-    "pre_id": 401463,
-    "level": 0,
-    "breakout_view": "N/A",
+    "use_char_num": 1,
+    "use_gold": 300,
+    "id": 402041,
+    "use_char": 40204,
+    "weapon_ids": [
+      73121
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
     "icon": "10001",
-    "breakout_id": 0
+    "breakout_id": 402042
   },
   "201083": {
     "use_item": [],
@@ -17711,21 +17785,6 @@
     "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
     "icon": "10001",
     "breakout_id": 201084
-  },
-  "402041": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 300,
-    "id": 402041,
-    "use_char": 40204,
-    "weapon_ids": [
-      73121
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
-    "icon": "10001",
-    "breakout_id": 402042
   },
   "402134": {
     "use_item": [],
@@ -17813,19 +17872,6 @@
     "icon": "10001",
     "breakout_id": 402034
   },
-  "201084": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 201084,
-    "use_char": 20108,
-    "weapon_ids": [],
-    "pre_id": 201083,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "402031": {
     "use_item": [],
     "use_char_num": 1,
@@ -17841,6 +17887,19 @@
     "icon": "10001",
     "breakout_id": 402032
   },
+  "201084": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 201084,
+    "use_char": 20108,
+    "weapon_ids": [],
+    "pre_id": 201083,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
   "402024": {
     "use_item": [],
     "use_char_num": 0,
@@ -17853,6 +17912,21 @@
     "breakout_view": "N/A",
     "icon": "10001",
     "breakout_id": 0
+  },
+  "402021": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 100,
+    "id": 402021,
+    "use_char": 40202,
+    "weapon_ids": [
+      73111
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
+    "icon": "10001",
+    "breakout_id": 402022
   },
   "899011": {
     "use_item": [],
@@ -18005,21 +18079,6 @@
     "icon": "10001",
     "breakout_id": 402044
   },
-  "401351": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 401351,
-    "use_char": 40135,
-    "weapon_ids": [
-      73051
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 401352
-  },
   "401254": {
     "use_item": [],
     "use_char_num": 0,
@@ -18048,6 +18107,22 @@
     "icon": "10001",
     "breakout_id": 401254
   },
+  "401252": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "id": 401252,
+    "use_char": 40125,
+    "weapon_ids": [
+      107,
+      107
+    ],
+    "pre_id": 401251,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 401253
+  },
   "402044": {
     "use_item": [],
     "use_char_num": 0,
@@ -18060,21 +18135,6 @@
     "breakout_view": "N/A",
     "icon": "10001",
     "breakout_id": 0
-  },
-  "401251": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 401251,
-    "use_char": 40125,
-    "weapon_ids": [
-      73041
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 401252
   },
   "401234": {
     "use_item": [],
@@ -18104,19 +18164,6 @@
     "icon": "10001",
     "breakout_id": 401234
   },
-  "103134": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 103134,
-    "use_char": 10313,
-    "weapon_ids": [],
-    "pre_id": 103133,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "401232": {
     "use_item": [],
     "use_char_num": 1,
@@ -18132,6 +18179,34 @@
     "breakout_view": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
     "icon": "10001",
     "breakout_id": 401233
+  },
+  "103134": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 103134,
+    "use_char": 10313,
+    "weapon_ids": [],
+    "pre_id": 103133,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
+  "401231": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 500,
+    "id": 401231,
+    "use_char": 40123,
+    "weapon_ids": [
+      79201
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 401232
   },
   "101343": {
     "use_item": [],
@@ -18163,21 +18238,6 @@
     "icon": "10001",
     "breakout_id": 301232
   },
-  "401231": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 401231,
-    "use_char": 40123,
-    "weapon_ids": [
-      79201
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 401232
-  },
   "401214": {
     "use_item": [],
     "use_char_num": 0,
@@ -18205,6 +18265,21 @@
     "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
     "icon": "10001",
     "breakout_id": 401214
+  },
+  "401211": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 100,
+    "id": 401211,
+    "use_char": 40121,
+    "weapon_ids": [
+      73031
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 401212
   },
   "301232": {
     "use_item": [],
@@ -18237,20 +18312,18 @@
     "icon": "10001",
     "breakout_id": 102112
   },
-  "401211": {
+  "401204": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 100,
-    "id": 401211,
-    "use_char": 40121,
-    "weapon_ids": [
-      73031
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 401204,
+    "use_char": 40120,
+    "weapon_ids": [],
+    "pre_id": 401203,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 401212
+    "breakout_id": 0
   },
   "403071": {
     "use_item": [],
@@ -18282,21 +18355,6 @@
     "icon": "10001",
     "breakout_id": 301234
   },
-  "401203": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 500,
-    "id": 401203,
-    "use_char": 40120,
-    "weapon_ids": [
-      73032
-    ],
-    "pre_id": 401202,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 401204
-  },
   "401194": {
     "use_item": [],
     "use_char_num": 0,
@@ -18309,6 +18367,21 @@
     "breakout_view": "N/A",
     "icon": "10001",
     "breakout_id": 0
+  },
+  "401193": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 1500,
+    "id": 401193,
+    "use_char": 40119,
+    "weapon_ids": [
+      73032
+    ],
+    "pre_id": 401192,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 401194
   },
   "403072": {
     "use_item": [],
@@ -18355,32 +18428,6 @@
     "icon": "10001",
     "breakout_id": 202113
   },
-  "401184": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 401184,
-    "use_char": 40118,
-    "weapon_ids": [],
-    "pre_id": 401183,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
-  "101344": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 101344,
-    "use_char": 10134,
-    "weapon_ids": [],
-    "pre_id": 101343,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "401183": {
     "use_item": [],
     "use_char_num": 2,
@@ -18395,6 +18442,19 @@
     "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
     "icon": "10001",
     "breakout_id": 401184
+  },
+  "101344": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 101344,
+    "use_char": 10134,
+    "weapon_ids": [],
+    "pre_id": 101343,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
   },
   "401182": {
     "use_item": [],
@@ -18427,6 +18487,19 @@
     "icon": "10001",
     "breakout_id": 401182
   },
+  "401014": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 401014,
+    "use_char": 40101,
+    "weapon_ids": [],
+    "pre_id": 401013,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
   "403074": {
     "use_item": [],
     "use_char_num": 0,
@@ -18440,20 +18513,20 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "303093": {
+  "303113": {
     "use_item": [],
     "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 303093,
-    "use_char": 30309,
+    "use_gold": 10000,
+    "id": 303113,
+    "use_char": 30311,
     "weapon_ids": [
-      72232
+      72262
     ],
-    "pre_id": 303092,
+    "pre_id": 303112,
     "level": 70,
     "breakout_view": "Improve All Out Assault/Torpedo efficiency +15%",
     "icon": "10001",
-    "breakout_id": 303094
+    "breakout_id": 303114
   },
   "102112": {
     "use_item": [],
@@ -18486,33 +18559,20 @@
     "icon": "10001",
     "breakout_id": 10400022
   },
-  "312012": {
+  "303151": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 3000,
-    "id": 312012,
-    "use_char": 31201,
-    "weapon_ids": [],
-    "pre_id": 312011,
-    "level": 30,
-    "breakout_view": "Team ammo +1/AA gun base +1/AA gun efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 312013
-  },
-  "303153": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 303153,
+    "use_gold": 500,
+    "id": 303151,
     "use_char": 30210,
     "weapon_ids": [
-      72252
+      72251
     ],
-    "pre_id": 303152,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/Torpedo efficiency +15%",
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
     "icon": "10001",
-    "breakout_id": 303154
+    "breakout_id": 303152
   },
   "202032": {
     "use_item": [],
@@ -18578,19 +18638,6 @@
     "icon": "10001",
     "breakout_id": 310042
   },
-  "202114": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 202114,
-    "use_char": 20211,
-    "weapon_ids": [],
-    "pre_id": 202113,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "310034": {
     "use_item": [],
     "use_char_num": 0,
@@ -18599,6 +18646,19 @@
     "use_char": 30503,
     "weapon_ids": [],
     "pre_id": 310033,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
+  "202114": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 202114,
+    "use_char": 20211,
+    "weapon_ids": [],
+    "pre_id": 202113,
     "level": 0,
     "breakout_view": "N/A",
     "icon": "10001",
@@ -18636,21 +18696,6 @@
     "icon": "10001",
     "breakout_id": 310033
   },
-  "201091": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 100,
-    "id": 201091,
-    "use_char": 20109,
-    "weapon_ids": [
-      71031
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 201092
-  },
   "202193": {
     "use_item": [],
     "use_char_num": 2,
@@ -18665,6 +18710,21 @@
     "breakout_view": "Improve All Out Assault/Main gun efficiency +15%",
     "icon": "10001",
     "breakout_id": 202194
+  },
+  "201091": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 100,
+    "id": 201091,
+    "use_char": 20109,
+    "weapon_ids": [
+      71031
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 201092
   },
   "310024": {
     "use_item": [],
@@ -18694,6 +18754,23 @@
     "breakout_view": "Main gun base +1/Main gun efficiency +15%",
     "icon": "10001",
     "breakout_id": 310024
+  },
+  "310022": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 800,
+    "id": 310022,
+    "use_char": 30502,
+    "weapon_ids": [
+      101,
+      101,
+      101
+    ],
+    "pre_id": 310021,
+    "level": 30,
+    "breakout_view": "Auxiliary weapon base +2/Main gun efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 310023
   },
   "102113": {
     "use_item": [],
@@ -18725,22 +18802,20 @@
     "icon": "10001",
     "breakout_id": 102242
   },
-  "310022": {
+  "310021": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 800,
-    "id": 310022,
+    "use_gold": 300,
+    "id": 310021,
     "use_char": 30502,
     "weapon_ids": [
-      101,
-      101,
-      101
+      34000
     ],
-    "pre_id": 310021,
-    "level": 30,
-    "breakout_view": "Auxiliary weapon base +2/Main gun efficiency +10%",
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Main gun efficiency +5%",
     "icon": "10001",
-    "breakout_id": 310023
+    "breakout_id": 310022
   },
   "301241": {
     "use_item": [],
@@ -18773,21 +18848,6 @@
     "icon": "10001",
     "breakout_id": 201093
   },
-  "310021": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 300,
-    "id": 310021,
-    "use_char": 30502,
-    "weapon_ids": [
-      34000
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Main gun efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 310022
-  },
   "310014": {
     "use_item": [],
     "use_char_num": 0,
@@ -18800,6 +18860,21 @@
     "breakout_view": "N/A",
     "icon": "10001",
     "breakout_id": 0
+  },
+  "301051": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 500,
+    "id": 301051,
+    "use_char": 30105,
+    "weapon_ids": [
+      79111
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock EX Barrage Ⅰ/Torpedo efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 301052
   },
   "301242": {
     "use_item": [],
@@ -18816,21 +18891,6 @@
     "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
     "icon": "10001",
     "breakout_id": 301243
-  },
-  "301053": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 301053,
-    "use_char": 30105,
-    "weapon_ids": [
-      79112
-    ],
-    "pre_id": 301052,
-    "level": 70,
-    "breakout_view": "Improve EX Barrage/All weapons' efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 301054
   },
   "310012": {
     "use_item": [],
@@ -18864,6 +18924,21 @@
     "icon": "10001",
     "breakout_id": 310012
   },
+  "308063": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 10000,
+    "id": 308063,
+    "use_char": 30806,
+    "weapon_ids": [
+      79422
+    ],
+    "pre_id": 308062,
+    "level": 70,
+    "breakout_view": "Improve EX Barrage/Torpedo efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 308064
+  },
   "301243": {
     "use_item": [],
     "use_char_num": 2,
@@ -18894,21 +18969,6 @@
     "icon": "10001",
     "breakout_id": 201094
   },
-  "308063": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 10000,
-    "id": 308063,
-    "use_char": 30806,
-    "weapon_ids": [
-      79422
-    ],
-    "pre_id": 308062,
-    "level": 70,
-    "breakout_view": "Improve EX Barrage/Torpedo efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 308064
-  },
   "308061": {
     "use_item": [],
     "use_char_num": 1,
@@ -18923,6 +18983,21 @@
     "breakout_view": "Unlock EX Barrage Ⅰ/Torpedo efficiency +5%",
     "icon": "10001",
     "breakout_id": 308062
+  },
+  "308053": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 308053,
+    "use_char": 30805,
+    "weapon_ids": [
+      72312
+    ],
+    "pre_id": 308052,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/Torpedo efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 308054
   },
   "301244": {
     "use_item": [],
@@ -18966,21 +19041,6 @@
     "icon": "10001",
     "breakout_id": 102243
   },
-  "308053": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 308053,
-    "use_char": 30805,
-    "weapon_ids": [
-      72312
-    ],
-    "pre_id": 308052,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/Torpedo efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 308054
-  },
   "308051": {
     "use_item": [],
     "use_char_num": 1,
@@ -18996,19 +19056,6 @@
     "icon": "10001",
     "breakout_id": 308052
   },
-  "201094": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 201094,
-    "use_char": 20109,
-    "weapon_ids": [],
-    "pre_id": 201093,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "308031": {
     "use_item": [],
     "use_char_num": 1,
@@ -19023,6 +19070,19 @@
     "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
     "icon": "10001",
     "breakout_id": 308032
+  },
+  "201094": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 201094,
+    "use_char": 20109,
+    "weapon_ids": [],
+    "pre_id": 201093,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
   },
   "308023": {
     "use_item": [],
@@ -19054,21 +19114,6 @@
     "icon": "10001",
     "breakout_id": 308014
   },
-  "101091": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 300,
-    "id": 101091,
-    "use_char": 10109,
-    "weapon_ids": [
-      70041
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
-    "icon": "10001",
-    "breakout_id": 101092
-  },
   "308011": {
     "use_item": [],
     "use_char_num": 1,
@@ -19083,6 +19128,21 @@
     "breakout_view": "Unlock EX Barrage Ⅰ/Torpedo efficiency +5%",
     "icon": "10001",
     "breakout_id": 308012
+  },
+  "101091": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 300,
+    "id": 101091,
+    "use_char": 10109,
+    "weapon_ids": [
+      70041
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/All weapons' efficiency +2%",
+    "icon": "10001",
+    "breakout_id": 101092
   },
   "307104": {
     "use_item": [],
@@ -19194,21 +19254,6 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "102243": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 102243,
-    "use_char": 10224,
-    "weapon_ids": [
-      79452
-    ],
-    "pre_id": 102242,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/Main gun efficiency +15%",
-    "icon": "10001",
-    "breakout_id": 102244
-  },
   "307063": {
     "use_item": [],
     "use_char_num": 2,
@@ -19226,6 +19271,21 @@
     "breakout_view": "All aircraft +1/Aircraft efficiency +7%",
     "icon": "10001",
     "breakout_id": 307064
+  },
+  "102243": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 102243,
+    "use_char": 10224,
+    "weapon_ids": [
+      79452
+    ],
+    "pre_id": 102242,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/Main gun efficiency +15%",
+    "icon": "10001",
+    "breakout_id": 102244
   },
   "307061": {
     "use_item": [],
@@ -19295,6 +19355,19 @@
     "icon": "10001",
     "breakout_id": 307042
   },
+  "307024": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 307024,
+    "use_char": 30702,
+    "weapon_ids": [],
+    "pre_id": 307023,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
   "103011": {
     "use_item": [],
     "use_char_num": 1,
@@ -19326,19 +19399,6 @@
     "icon": "10001",
     "breakout_id": 101093
   },
-  "307024": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 307024,
-    "use_char": 30702,
-    "weapon_ids": [],
-    "pre_id": 307023,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "307023": {
     "use_item": [],
     "use_char_num": 2,
@@ -19357,21 +19417,6 @@
     "icon": "10001",
     "breakout_id": 307024
   },
-  "301251": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 300,
-    "id": 301251,
-    "use_char": 30125,
-    "weapon_ids": [
-      72041
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 301252
-  },
   "307013": {
     "use_item": [],
     "use_char_num": 2,
@@ -19389,6 +19434,21 @@
     "breakout_view": "All aircraft +1/Aircraft efficiency +7%",
     "icon": "10001",
     "breakout_id": 307014
+  },
+  "301251": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 300,
+    "id": 301251,
+    "use_char": 30125,
+    "weapon_ids": [
+      72041
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 301252
   },
   "307012": {
     "use_item": [],
@@ -19423,6 +19483,19 @@
     "breakout_view": "All Torpedo Bombers +1/Fighter efficiency +5%",
     "icon": "10001",
     "breakout_id": 306072
+  },
+  "306064": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 306064,
+    "use_char": 30606,
+    "weapon_ids": [],
+    "pre_id": 306063,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
   },
   "301252": {
     "use_item": [],
@@ -19468,34 +19541,6 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "306064": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 306064,
-    "use_char": 30606,
-    "weapon_ids": [],
-    "pre_id": 306063,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
-  "301253": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 1500,
-    "id": 301253,
-    "use_char": 30125,
-    "weapon_ids": [
-      72042
-    ],
-    "pre_id": 301252,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 301254
-  },
   "306062": {
     "use_item": [],
     "use_char_num": 1,
@@ -19514,6 +19559,37 @@
     "icon": "10001",
     "breakout_id": 306063
   },
+  "301253": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 1500,
+    "id": 301253,
+    "use_char": 30125,
+    "weapon_ids": [
+      72042
+    ],
+    "pre_id": 301252,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 301254
+  },
+  "306061": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 500,
+    "id": 306061,
+    "use_char": 30606,
+    "weapon_ids": [
+      60371,
+      54011
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "All Torpedo Bombers +1/Fighter efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 306062
+  },
   "901113": {
     "use_item": [],
     "use_char_num": 2,
@@ -19529,23 +19605,18 @@
     "icon": "10001",
     "breakout_id": 901114
   },
-  "306052": {
+  "306024": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 800,
-    "id": 306052,
-    "use_char": 30605,
-    "weapon_ids": [
-      60122,
-      54011,
-      60122,
-      54011
-    ],
-    "pre_id": 306051,
-    "level": 30,
-    "breakout_view": "Hangar capacity +1/All Dive Bombers +1/Aircraft efficiency +5%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 306024,
+    "use_char": 30602,
+    "weapon_ids": [],
+    "pre_id": 306023,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 306053
+    "breakout_id": 0
   },
   "103012": {
     "use_item": [],
@@ -19577,19 +19648,6 @@
     "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
     "icon": "10001",
     "breakout_id": 101094
-  },
-  "306024": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 306024,
-    "use_char": 30602,
-    "weapon_ids": [],
-    "pre_id": 306023,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
   },
   "306022": {
     "use_item": [],
@@ -19689,6 +19747,19 @@
     "icon": "10001",
     "breakout_id": 305082
   },
+  "305074": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 305074,
+    "use_char": 30507,
+    "weapon_ids": [],
+    "pre_id": 305073,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
   "202123": {
     "use_item": [],
     "use_char_num": 2,
@@ -19703,19 +19774,6 @@
     "breakout_view": "Improve EX Barrage/Main gun efficiency +15%",
     "icon": "10001",
     "breakout_id": 202124
-  },
-  "305074": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 305074,
-    "use_char": 30507,
-    "weapon_ids": [],
-    "pre_id": 305073,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
   },
   "305071": {
     "use_item": [],
@@ -19800,6 +19858,23 @@
     "icon": "10001",
     "breakout_id": 305053
   },
+  "305013": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 1500,
+    "id": 305013,
+    "use_char": 30501,
+    "weapon_ids": [
+      34000,
+      34000,
+      34000
+    ],
+    "pre_id": 305012,
+    "level": 70,
+    "breakout_view": "Main gun base +1/Main gun efficiency +15%",
+    "icon": "10001",
+    "breakout_id": 305014
+  },
   "103013": {
     "use_item": [],
     "use_char_num": 2,
@@ -19828,22 +19903,22 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "305013": {
+  "305012": {
     "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 1500,
-    "id": 305013,
+    "use_char_num": 1,
+    "use_gold": 800,
+    "id": 305012,
     "use_char": 30501,
     "weapon_ids": [
-      34000,
-      34000,
-      34000
+      101,
+      101,
+      101
     ],
-    "pre_id": 305012,
-    "level": 70,
-    "breakout_view": "Main gun base +1/Main gun efficiency +15%",
+    "pre_id": 305011,
+    "level": 30,
+    "breakout_view": "Auxiliary gun base +2/Main gun efficiency +10%",
     "icon": "10001",
-    "breakout_id": 305014
+    "breakout_id": 305013
   },
   "10500012": {
     "use_item": [],
@@ -19859,34 +19934,6 @@
     "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
     "icon": "10001",
     "breakout_id": 10500013
-  },
-  "304064": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 304064,
-    "use_char": 30406,
-    "weapon_ids": [],
-    "pre_id": 304063,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
-  "201101": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 100,
-    "id": 201101,
-    "use_char": 20110,
-    "weapon_ids": [
-      71031
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 201102
   },
   "304062": {
     "use_item": [],
@@ -19904,6 +19951,37 @@
     "breakout_view": "Auxiliary gun base +2/Main gun efficiency +10%",
     "icon": "10001",
     "breakout_id": 304063
+  },
+  "201101": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 100,
+    "id": 201101,
+    "use_char": 20110,
+    "weapon_ids": [
+      71031
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 201102
+  },
+  "304061": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 500,
+    "id": 304061,
+    "use_char": 30406,
+    "weapon_ids": [
+      34000,
+      34000
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Main gun base +1/Main gun efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 304062
   },
   "10500044": {
     "use_item": [],
@@ -19934,22 +20012,6 @@
     "icon": "10001",
     "breakout_id": 10500053
   },
-  "304051": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 1000,
-    "id": 304051,
-    "use_char": 30405,
-    "weapon_ids": [
-      34100,
-      34100
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Main gun base +1/Main gun efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 304052
-  },
   "304044": {
     "use_item": [],
     "use_char_num": 0,
@@ -19979,6 +20041,23 @@
     "breakout_view": "Main gun base +1/Main gun efficiency +15%",
     "icon": "10001",
     "breakout_id": 304044
+  },
+  "304042": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "id": 304042,
+    "use_char": 30404,
+    "weapon_ids": [
+      101,
+      101,
+      101
+    ],
+    "pre_id": 304041,
+    "level": 30,
+    "breakout_view": "Auxiliary gun base +2/Main gun efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 304043
   },
   "301261": {
     "use_item": [],
@@ -20011,23 +20090,6 @@
     "icon": "10001",
     "breakout_id": 201103
   },
-  "304042": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 1500,
-    "id": 304042,
-    "use_char": 30404,
-    "weapon_ids": [
-      101,
-      101,
-      101
-    ],
-    "pre_id": 304041,
-    "level": 30,
-    "breakout_view": "Auxiliary gun base +2/Main gun efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 304043
-  },
   "304041": {
     "use_item": [],
     "use_char_num": 1,
@@ -20043,19 +20105,6 @@
     "breakout_view": "Main gun base +1/Main gun efficiency +5%",
     "icon": "10001",
     "breakout_id": 304042
-  },
-  "103014": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 103014,
-    "use_char": 10301,
-    "weapon_ids": [],
-    "pre_id": 103013,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
   },
   "304033": {
     "use_item": [],
@@ -20074,6 +20123,19 @@
     "icon": "10001",
     "breakout_id": 304034
   },
+  "103014": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 103014,
+    "use_char": 10301,
+    "weapon_ids": [],
+    "pre_id": 103013,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
   "304031": {
     "use_item": [],
     "use_char_num": 1,
@@ -20089,6 +20151,23 @@
     "breakout_view": "Main gun base +1/Main gun efficiency +5%",
     "icon": "10001",
     "breakout_id": 304032
+  },
+  "304013": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 304013,
+    "use_char": 30401,
+    "weapon_ids": [
+      34000,
+      34000,
+      34000
+    ],
+    "pre_id": 304012,
+    "level": 70,
+    "breakout_view": "Main gun base +1/Main gun efficiency +15%",
+    "icon": "10001",
+    "breakout_id": 304014
   },
   "101351": {
     "use_item": [],
@@ -20135,23 +20214,6 @@
     "icon": "10001",
     "breakout_id": 201104
   },
-  "304013": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 304013,
-    "use_char": 30401,
-    "weapon_ids": [
-      34000,
-      34000,
-      34000
-    ],
-    "pre_id": 304012,
-    "level": 70,
-    "breakout_view": "Main gun base +1/Main gun efficiency +15%",
-    "icon": "10001",
-    "breakout_id": 304014
-  },
   "304011": {
     "use_item": [],
     "use_char_num": 1,
@@ -20167,6 +20229,21 @@
     "breakout_view": "Main gun base +1/Main gun efficiency +5%",
     "icon": "10001",
     "breakout_id": 304012
+  },
+  "303153": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 303153,
+    "use_char": 30210,
+    "weapon_ids": [
+      72252
+    ],
+    "pre_id": 303152,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/Torpedo efficiency +15%",
+    "icon": "10001",
+    "breakout_id": 303154
   },
   "301264": {
     "use_item": [],
@@ -20193,21 +20270,6 @@
     "breakout_view": "Strategy: Emergency Repair chances +1/AA gun efficiency +3%",
     "icon": "10001",
     "breakout_id": 312012
-  },
-  "303151": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 303151,
-    "use_char": 30210,
-    "weapon_ids": [
-      72251
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 303152
   },
   "303141": {
     "use_item": [],
@@ -20237,19 +20299,6 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "201104": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 201104,
-    "use_char": 20110,
-    "weapon_ids": [],
-    "pre_id": 201103,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "303133": {
     "use_item": [],
     "use_char_num": 2,
@@ -20264,6 +20313,19 @@
     "breakout_view": "Improve All Out Assault/Torpedo efficiency +15%",
     "icon": "10001",
     "breakout_id": 303134
+  },
+  "201104": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 201104,
+    "use_char": 20110,
+    "weapon_ids": [],
+    "pre_id": 201103,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
   },
   "303132": {
     "use_item": [],
@@ -20297,6 +20359,21 @@
     "icon": "10001",
     "breakout_id": 303123
   },
+  "303121": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 1000,
+    "id": 303121,
+    "use_char": 30312,
+    "weapon_ids": [
+      72261
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 303122
+  },
   "312013": {
     "use_item": [],
     "use_char_num": 2,
@@ -20310,20 +20387,18 @@
     "icon": "10001",
     "breakout_id": 312014
   },
-  "303113": {
+  "303094": {
     "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 10000,
-    "id": 303113,
-    "use_char": 30311,
-    "weapon_ids": [
-      72262
-    ],
-    "pre_id": 303112,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/Torpedo efficiency +15%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 303094,
+    "use_char": 30309,
+    "weapon_ids": [],
+    "pre_id": 303093,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 303114
+    "breakout_id": 0
   },
   "101352": {
     "use_item": [],
@@ -20341,18 +20416,20 @@
     "icon": "10001",
     "breakout_id": 101353
   },
-  "303094": {
+  "303093": {
     "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 303094,
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 303093,
     "use_char": 30309,
-    "weapon_ids": [],
-    "pre_id": 303093,
-    "level": 0,
-    "breakout_view": "N/A",
+    "weapon_ids": [
+      72232
+    ],
+    "pre_id": 303092,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/Torpedo efficiency +15%",
     "icon": "10001",
-    "breakout_id": 0
+    "breakout_id": 303094
   },
   "312014": {
     "use_item": [],
@@ -20367,21 +20444,20 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "303082": {
+  "303081": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 800,
-    "id": 303082,
+    "use_gold": 300,
+    "id": 303081,
     "use_char": 30308,
     "weapon_ids": [
-      106,
-      106
+      72231
     ],
-    "pre_id": 303081,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
     "icon": "10001",
-    "breakout_id": 303083
+    "breakout_id": 303082
   },
   "399012": {
     "use_item": [],
@@ -20398,19 +20474,6 @@
     "breakout_view": "Torpedo efficiency +10%",
     "icon": "10001",
     "breakout_id": 399013
-  },
-  "303074": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 303074,
-    "use_char": 30307,
-    "weapon_ids": [],
-    "pre_id": 303073,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
   },
   "303042": {
     "use_item": [],
@@ -20443,6 +20506,21 @@
     "icon": "10001",
     "breakout_id": 303042
   },
+  "303023": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 500,
+    "id": 303023,
+    "use_char": 30302,
+    "weapon_ids": [
+      72212
+    ],
+    "pre_id": 303022,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/Torpedo efficiency +15%",
+    "icon": "10001",
+    "breakout_id": 303024
+  },
   "399013": {
     "use_item": [],
     "use_char_num": 2,
@@ -20457,21 +20535,6 @@
     "breakout_view": "Improve EX Barrage/Torpedo efficiency +15%",
     "icon": "10001",
     "breakout_id": 399014
-  },
-  "303013": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 500,
-    "id": 303013,
-    "use_char": 30301,
-    "weapon_ids": [
-      72212
-    ],
-    "pre_id": 303012,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/Torpedo efficiency +15%",
-    "icon": "10001",
-    "breakout_id": 303014
   },
   "302144": {
     "use_item": [],
@@ -20501,6 +20564,22 @@
     "icon": "10001",
     "breakout_id": 302114
   },
+  "302112": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "id": 302112,
+    "use_char": 30211,
+    "weapon_ids": [
+      106,
+      106
+    ],
+    "pre_id": 302111,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Main gun efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 302113
+  },
   "399014": {
     "use_item": [],
     "use_char_num": 0,
@@ -20514,20 +20593,18 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "302111": {
+  "302104": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 302111,
-    "use_char": 30211,
-    "weapon_ids": [
-      72251
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 302104,
+    "use_char": 30210,
+    "weapon_ids": [],
+    "pre_id": 302103,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 302112
+    "breakout_id": 0
   },
   "105191": {
     "use_item": [],
@@ -20545,18 +20622,20 @@
     "icon": "10001",
     "breakout_id": 105192
   },
-  "302104": {
+  "302093": {
     "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 302104,
-    "use_char": 30210,
-    "weapon_ids": [],
-    "pre_id": 302103,
-    "level": 0,
-    "breakout_view": "N/A",
+    "use_char_num": 2,
+    "use_gold": 500,
+    "id": 302093,
+    "use_char": 30209,
+    "weapon_ids": [
+      72142
+    ],
+    "pre_id": 302092,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/Torpedo efficiency +15%",
     "icon": "10001",
-    "breakout_id": 0
+    "breakout_id": 302094
   },
   "101353": {
     "use_item": [],
@@ -20588,21 +20667,6 @@
     "icon": "10001",
     "breakout_id": 301272
   },
-  "302093": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 500,
-    "id": 302093,
-    "use_char": 30209,
-    "weapon_ids": [
-      72142
-    ],
-    "pre_id": 302092,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/Torpedo efficiency +15%",
-    "icon": "10001",
-    "breakout_id": 302094
-  },
   "302091": {
     "use_item": [],
     "use_char_num": 1,
@@ -20617,6 +20681,22 @@
     "breakout_view": "Unlock All Out Assault Ⅰ/AA gun efficiency +5%",
     "icon": "10001",
     "breakout_id": 302092
+  },
+  "302082": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "id": 302082,
+    "use_char": 30208,
+    "weapon_ids": [
+      107,
+      107
+    ],
+    "pre_id": 302081,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 302083
   },
   "808011": {
     "use_item": [],
@@ -20664,20 +20744,20 @@
     "icon": "10001",
     "breakout_id": 102122
   },
-  "302053": {
+  "302051": {
     "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 1500,
-    "id": 302053,
+    "use_char_num": 1,
+    "use_gold": 300,
+    "id": 302051,
     "use_char": 30205,
     "weapon_ids": [
-      72142
+      72141
     ],
-    "pre_id": 302052,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/AA gun efficiency +5%",
     "icon": "10001",
-    "breakout_id": 302054
+    "breakout_id": 302052
   },
   "808013": {
     "use_item": [],
@@ -20722,22 +20802,6 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "302042": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 300,
-    "id": 302042,
-    "use_char": 30204,
-    "weapon_ids": [
-      107,
-      107
-    ],
-    "pre_id": 302041,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 302043
-  },
   "302013": {
     "use_item": [],
     "use_char_num": 2,
@@ -20752,6 +20816,21 @@
     "breakout_view": "Improve All Out Assault/Torpedo efficiency +15%",
     "icon": "10001",
     "breakout_id": 302014
+  },
+  "302011": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 500,
+    "id": 302011,
+    "use_char": 30201,
+    "weapon_ids": [
+      72161
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/AA gun efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 302012
   },
   "107111": {
     "use_item": [],
@@ -20786,20 +20865,18 @@
     "icon": "10001",
     "breakout_id": 105193
   },
-  "302011": {
+  "301834": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 302011,
-    "use_char": 30201,
-    "weapon_ids": [
-      72161
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/AA gun efficiency +5%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 301834,
+    "use_char": 30183,
+    "weapon_ids": [],
+    "pre_id": 301833,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 302012
+    "breakout_id": 0
   },
   "101354": {
     "use_item": [],
@@ -20809,19 +20886,6 @@
     "use_char": 10135,
     "weapon_ids": [],
     "pre_id": 101353,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
-  "301834": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 301834,
-    "use_char": 30183,
-    "weapon_ids": [],
-    "pre_id": 301833,
     "level": 0,
     "breakout_view": "N/A",
     "icon": "10001",
@@ -20886,6 +20950,22 @@
     "icon": "10001",
     "breakout_id": 0
   },
+  "301122": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 800,
+    "id": 301122,
+    "use_char": 30112,
+    "weapon_ids": [
+      106,
+      106
+    ],
+    "pre_id": 301121,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 301123
+  },
   "102122": {
     "use_item": [],
     "use_char_num": 1,
@@ -20902,20 +20982,21 @@
     "icon": "10001",
     "breakout_id": 102123
   },
-  "301123": {
+  "301822": {
     "use_item": [],
-    "use_char_num": 2,
+    "use_char_num": 1,
     "use_gold": 1500,
-    "id": 301123,
-    "use_char": 30112,
+    "id": 301822,
+    "use_char": 30182,
     "weapon_ids": [
-      72072
+      100,
+      100
     ],
-    "pre_id": 301122,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "pre_id": 301821,
+    "level": 30,
+    "breakout_view": "Main gun base +1/Torpedo preload +1/AA gun efficiency +10%",
     "icon": "10001",
-    "breakout_id": 301124
+    "breakout_id": 301823
   },
   "399021": {
     "use_item": [],
@@ -20933,36 +21014,21 @@
     "icon": "10001",
     "breakout_id": 399022
   },
-  "301202": {
+  "301352": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 1500,
-    "id": 301202,
-    "use_char": 30120,
+    "use_gold": 300,
+    "id": 301352,
+    "use_char": 30135,
     "weapon_ids": [
-      107,
-      107
+      106,
+      106
     ],
-    "pre_id": 301201,
+    "pre_id": 301351,
     "level": 30,
     "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
     "icon": "10001",
-    "breakout_id": 301203
-  },
-  "301353": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 500,
-    "id": 301353,
-    "use_char": 30135,
-    "weapon_ids": [
-      72012
-    ],
-    "pre_id": 301352,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 301354
+    "breakout_id": 301353
   },
   "301813": {
     "use_item": [],
@@ -20978,6 +21044,19 @@
     "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
     "icon": "10001",
     "breakout_id": 301814
+  },
+  "301374": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 301374,
+    "use_char": 30137,
+    "weapon_ids": [],
+    "pre_id": 301373,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
   },
   "399022": {
     "use_item": [],
@@ -21031,20 +21110,18 @@
     "icon": "10001",
     "breakout_id": 105194
   },
-  "301811": {
+  "301804": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 301811,
-    "use_char": 30181,
-    "weapon_ids": [
-      72091
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 301804,
+    "use_char": 30180,
+    "weapon_ids": [],
+    "pre_id": 301803,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 301812
+    "breakout_id": 0
   },
   "399023": {
     "use_item": [],
@@ -21063,21 +21140,20 @@
     "icon": "10001",
     "breakout_id": 399024
   },
-  "301592": {
+  "301601": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 800,
-    "id": 301592,
-    "use_char": 30159,
+    "use_gold": 300,
+    "id": 301601,
+    "use_char": 30160,
     "weapon_ids": [
-      107,
-      107
+      72051
     ],
-    "pre_id": 301591,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
     "icon": "10001",
-    "breakout_id": 301593
+    "breakout_id": 301602
   },
   "201111": {
     "use_item": [],
@@ -21094,21 +21170,18 @@
     "icon": "10001",
     "breakout_id": 201112
   },
-  "301602": {
+  "301604": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 800,
-    "id": 301602,
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 301604,
     "use_char": 30160,
-    "weapon_ids": [
-      107,
-      107
-    ],
-    "pre_id": 301601,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "weapon_ids": [],
+    "pre_id": 301603,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 301603
+    "breakout_id": 0
   },
   "399024": {
     "use_item": [],
@@ -21123,18 +21196,20 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "301794": {
+  "301793": {
     "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 301794,
+    "use_char_num": 2,
+    "use_gold": 1500,
+    "id": 301793,
     "use_char": 30179,
-    "weapon_ids": [],
-    "pre_id": 301793,
-    "level": 0,
-    "breakout_view": "N/A",
+    "weapon_ids": [
+      72082
+    ],
+    "pre_id": 301792,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
     "icon": "10001",
-    "breakout_id": 0
+    "breakout_id": 301794
   },
   "102123": {
     "use_item": [],
@@ -21166,20 +21241,21 @@
     "icon": "10001",
     "breakout_id": 102252
   },
-  "301793": {
+  "301792": {
     "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 1500,
-    "id": 301793,
+    "use_char_num": 1,
+    "use_gold": 800,
+    "id": 301792,
     "use_char": 30179,
     "weapon_ids": [
-      72082
+      105,
+      105
     ],
-    "pre_id": 301792,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "pre_id": 301791,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
     "icon": "10001",
-    "breakout_id": 301794
+    "breakout_id": 301793
   },
   "301281": {
     "use_item": [],
@@ -21212,22 +21288,6 @@
     "icon": "10001",
     "breakout_id": 201113
   },
-  "301792": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 800,
-    "id": 301792,
-    "use_char": 30179,
-    "weapon_ids": [
-      105,
-      105
-    ],
-    "pre_id": 301791,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 301793
-  },
   "301791": {
     "use_item": [],
     "use_char_num": 1,
@@ -21242,6 +21302,19 @@
     "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
     "icon": "10001",
     "breakout_id": 301792
+  },
+  "301724": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 301724,
+    "use_char": 30172,
+    "weapon_ids": [],
+    "pre_id": 301723,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
   },
   "107113": {
     "use_item": [],
@@ -21274,19 +21347,6 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "301724": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 301724,
-    "use_char": 30172,
-    "weapon_ids": [],
-    "pre_id": 301723,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "301722": {
     "use_item": [],
     "use_char_num": 1,
@@ -21302,6 +21362,19 @@
     "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
     "icon": "10001",
     "breakout_id": 301723
+  },
+  "301664": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 301664,
+    "use_char": 30166,
+    "weapon_ids": [],
+    "pre_id": 301663,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
   },
   "301283": {
     "use_item": [],
@@ -21333,19 +21406,6 @@
     "icon": "10001",
     "breakout_id": 201114
   },
-  "301664": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 301664,
-    "use_char": 30166,
-    "weapon_ids": [],
-    "pre_id": 301663,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "301663": {
     "use_item": [],
     "use_char_num": 2,
@@ -21360,6 +21420,22 @@
     "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
     "icon": "10001",
     "breakout_id": 301664
+  },
+  "301662": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 800,
+    "id": 301662,
+    "use_char": 30166,
+    "weapon_ids": [
+      107,
+      107
+    ],
+    "pre_id": 301661,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 301663
   },
   "301284": {
     "use_item": [],
@@ -21403,22 +21479,6 @@
     "icon": "10001",
     "breakout_id": 102253
   },
-  "301662": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 800,
-    "id": 301662,
-    "use_char": 30166,
-    "weapon_ids": [
-      107,
-      107
-    ],
-    "pre_id": 301661,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 301663
-  },
   "301661": {
     "use_item": [],
     "use_char_num": 1,
@@ -21434,19 +21494,6 @@
     "icon": "10001",
     "breakout_id": 301662
   },
-  "201114": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 201114,
-    "use_char": 20111,
-    "weapon_ids": [],
-    "pre_id": 201113,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "301654": {
     "use_item": [],
     "use_char_num": 0,
@@ -21455,6 +21502,19 @@
     "use_char": 30165,
     "weapon_ids": [],
     "pre_id": 301653,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
+  "201114": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 201114,
+    "use_char": 20111,
+    "weapon_ids": [],
+    "pre_id": 201113,
     "level": 0,
     "breakout_view": "N/A",
     "icon": "10001",
@@ -21475,19 +21535,6 @@
     "icon": "10001",
     "breakout_id": 301644
   },
-  "107114": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 107114,
-    "use_char": 10711,
-    "weapon_ids": [],
-    "pre_id": 107113,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "301642": {
     "use_item": [],
     "use_char_num": 1,
@@ -21504,6 +21551,19 @@
     "icon": "10001",
     "breakout_id": 301643
   },
+  "107114": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 107114,
+    "use_char": 10711,
+    "weapon_ids": [],
+    "pre_id": 107113,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
   "301641": {
     "use_item": [],
     "use_char_num": 1,
@@ -21518,6 +21578,21 @@
     "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
     "icon": "10001",
     "breakout_id": 301642
+  },
+  "301633": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 1500,
+    "id": 301633,
+    "use_char": 30163,
+    "weapon_ids": [
+      72092
+    ],
+    "pre_id": 301632,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 301634
   },
   "399031": {
     "use_item": [],
@@ -21534,22 +21609,6 @@
     "breakout_view": "Unlock EX Barrage Ⅰ/Main gun efficiency +5%",
     "icon": "10001",
     "breakout_id": 399032
-  },
-  "301632": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 800,
-    "id": 301632,
-    "use_char": 30163,
-    "weapon_ids": [
-      107,
-      107
-    ],
-    "pre_id": 301631,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 301633
   },
   "301631": {
     "use_item": [],
@@ -21579,6 +21638,21 @@
     "icon": "10001",
     "breakout_id": 0
   },
+  "301623": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 1500,
+    "id": 301623,
+    "use_char": 30162,
+    "weapon_ids": [
+      72052
+    ],
+    "pre_id": 301622,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 301624
+  },
   "399032": {
     "use_item": [],
     "use_char_num": 1,
@@ -21595,22 +21669,6 @@
     "icon": "10001",
     "breakout_id": 399033
   },
-  "301622": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 900,
-    "id": 301622,
-    "use_char": 30162,
-    "weapon_ids": [
-      107,
-      107
-    ],
-    "pre_id": 301621,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 301623
-  },
   "301621": {
     "use_item": [],
     "use_char_num": 1,
@@ -21625,6 +21683,19 @@
     "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
     "icon": "10001",
     "breakout_id": 301622
+  },
+  "301614": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 301614,
+    "use_char": 30161,
+    "weapon_ids": [],
+    "pre_id": 301613,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
   },
   "102253": {
     "use_item": [],
@@ -21657,20 +21728,20 @@
     "icon": "10001",
     "breakout_id": 399034
   },
-  "301613": {
+  "301611": {
     "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 1500,
-    "id": 301613,
+    "use_char_num": 1,
+    "use_gold": 300,
+    "id": 301611,
     "use_char": 30161,
     "weapon_ids": [
-      72052
+      72051
     ],
-    "pre_id": 301612,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
     "icon": "10001",
-    "breakout_id": 301614
+    "breakout_id": 301612
   },
   "301801": {
     "use_item": [],
@@ -21687,18 +21758,20 @@
     "icon": "10001",
     "breakout_id": 301802
   },
-  "301604": {
+  "301603": {
     "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 301604,
+    "use_char_num": 2,
+    "use_gold": 1500,
+    "id": 301603,
     "use_char": 30160,
-    "weapon_ids": [],
-    "pre_id": 301603,
-    "level": 0,
-    "breakout_view": "N/A",
+    "weapon_ids": [
+      72052
+    ],
+    "pre_id": 301602,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
     "icon": "10001",
-    "breakout_id": 0
+    "breakout_id": 301604
   },
   "399034": {
     "use_item": [],
@@ -21744,20 +21817,18 @@
     "icon": "10001",
     "breakout_id": 301803
   },
-  "301601": {
+  "301594": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 300,
-    "id": 301601,
-    "use_char": 30160,
-    "weapon_ids": [
-      72051
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 301594,
+    "use_char": 30159,
+    "weapon_ids": [],
+    "pre_id": 301593,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 301602
+    "breakout_id": 0
   },
   "10500013": {
     "use_item": [],
@@ -21807,20 +21878,18 @@
     "icon": "10001",
     "breakout_id": 301804
   },
-  "301591": {
+  "301584": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 300,
-    "id": 301591,
-    "use_char": 30159,
-    "weapon_ids": [
-      72051
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 301584,
+    "use_char": 30158,
+    "weapon_ids": [],
+    "pre_id": 301583,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 301592
+    "breakout_id": 0
   },
   "108011": {
     "use_item": [],
@@ -21880,21 +21949,6 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "301583": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 301583,
-    "use_char": 30158,
-    "weapon_ids": [
-      72062
-    ],
-    "pre_id": 301582,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 301584
-  },
   "301582": {
     "use_item": [],
     "use_char_num": 1,
@@ -21952,6 +22006,21 @@
     "icon": "10001",
     "breakout_id": 0
   },
+  "301563": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 301563,
+    "use_char": 30156,
+    "weapon_ids": [
+      72062
+    ],
+    "pre_id": 301562,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 301564
+  },
   "103022": {
     "use_item": [],
     "use_char_num": 1,
@@ -21983,21 +22052,6 @@
     "breakout_view": "Torpedo base +1/Torpedo preload +1/All weapons' efficiency +3%",
     "icon": "10001",
     "breakout_id": 202143
-  },
-  "301563": {
-    "use_item": [],
-    "use_char_num": 2,
-    "use_gold": 2500,
-    "id": 301563,
-    "use_char": 30156,
-    "weapon_ids": [
-      72062
-    ],
-    "pre_id": 301562,
-    "level": 70,
-    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 301564
   },
   "301562": {
     "use_item": [],
@@ -22058,6 +22112,22 @@
     "icon": "10001",
     "breakout_id": 301544
   },
+  "301542": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 800,
+    "id": 301542,
+    "use_char": 30154,
+    "weapon_ids": [
+      107,
+      107
+    ],
+    "pre_id": 301541,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 301543
+  },
   "108012": {
     "use_item": [],
     "use_char_num": 1,
@@ -22076,21 +22146,20 @@
     "icon": "10001",
     "breakout_id": 108013
   },
-  "301542": {
+  "301541": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 800,
-    "id": 301542,
+    "use_gold": 300,
+    "id": 301541,
     "use_char": 30154,
     "weapon_ids": [
-      107,
-      107
+      72056
     ],
-    "pre_id": 301541,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
     "icon": "10001",
-    "breakout_id": 301543
+    "breakout_id": 301542
   },
   "202143": {
     "use_item": [],
@@ -22107,20 +22176,18 @@
     "icon": "10001",
     "breakout_id": 202144
   },
-  "301541": {
+  "301494": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 300,
-    "id": 301541,
-    "use_char": 30154,
-    "weapon_ids": [
-      72056
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 301494,
+    "use_char": 30149,
+    "weapon_ids": [],
+    "pre_id": 301493,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 301542
+    "breakout_id": 0
   },
   "399041": {
     "use_item": [],
@@ -22136,22 +22203,6 @@
     "breakout_view": "Main gun efficiency +5%",
     "icon": "10001",
     "breakout_id": 399042
-  },
-  "301492": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 3000,
-    "id": 301492,
-    "use_char": 30149,
-    "weapon_ids": [
-      107,
-      107
-    ],
-    "pre_id": 301491,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 301493
   },
   "301414": {
     "use_item": [],
@@ -22180,6 +22231,21 @@
     "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
     "icon": "10001",
     "breakout_id": 301414
+  },
+  "301411": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 100,
+    "id": 301411,
+    "use_char": 30141,
+    "weapon_ids": [
+      72011
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 301412
   },
   "399042": {
     "use_item": [],
@@ -22225,18 +22291,20 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "301394": {
+  "301393": {
     "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 301394,
+    "use_char_num": 2,
+    "use_gold": 1500,
+    "id": 301393,
     "use_char": 30139,
-    "weapon_ids": [],
-    "pre_id": 301393,
-    "level": 0,
-    "breakout_view": "N/A",
+    "weapon_ids": [
+      72012
+    ],
+    "pre_id": 301392,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
     "icon": "10001",
-    "breakout_id": 0
+    "breakout_id": 301394
   },
   "399043": {
     "use_item": [],
@@ -22254,21 +22322,20 @@
     "icon": "10001",
     "breakout_id": 399044
   },
-  "301392": {
+  "301391": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 800,
-    "id": 301392,
+    "use_gold": 300,
+    "id": 301391,
     "use_char": 30139,
     "weapon_ids": [
-      106,
-      106
+      72011
     ],
-    "pre_id": 301391,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
     "icon": "10001",
-    "breakout_id": 301393
+    "breakout_id": 301392
   },
   "201121": {
     "use_item": [],
@@ -22285,20 +22352,18 @@
     "icon": "10001",
     "breakout_id": 201122
   },
-  "301391": {
+  "301384": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 300,
-    "id": 301391,
-    "use_char": 30139,
-    "weapon_ids": [
-      72011
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 301384,
+    "use_char": 30138,
+    "weapon_ids": [],
+    "pre_id": 301383,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 301392
+    "breakout_id": 0
   },
   "108013": {
     "use_item": [],
@@ -22315,18 +22380,21 @@
     "icon": "10001",
     "breakout_id": 108014
   },
-  "301384": {
+  "301382": {
     "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 301384,
+    "use_char_num": 1,
+    "use_gold": 800,
+    "id": 301382,
     "use_char": 30138,
-    "weapon_ids": [],
-    "pre_id": 301383,
-    "level": 0,
-    "breakout_view": "N/A",
+    "weapon_ids": [
+      106,
+      106
+    ],
+    "pre_id": 301381,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
     "icon": "10001",
-    "breakout_id": 0
+    "breakout_id": 301383
   },
   "301812": {
     "use_item": [],
@@ -22344,19 +22412,6 @@
     "icon": "10001",
     "breakout_id": 301813
   },
-  "301374": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 301374,
-    "use_char": 30137,
-    "weapon_ids": [],
-    "pre_id": 301373,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "301373": {
     "use_item": [],
     "use_char_num": 2,
@@ -22371,6 +22426,21 @@
     "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
     "icon": "10001",
     "breakout_id": 301374
+  },
+  "301371": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 100,
+    "id": 301371,
+    "use_char": 30137,
+    "weapon_ids": [
+      72011
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 301372
   },
   "301301": {
     "use_item": [],
@@ -22403,21 +22473,6 @@
     "icon": "10001",
     "breakout_id": 201123
   },
-  "301371": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 100,
-    "id": 301371,
-    "use_char": 30137,
-    "weapon_ids": [
-      72011
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 301372
-  },
   "301354": {
     "use_item": [],
     "use_char_num": 0,
@@ -22430,6 +22485,21 @@
     "breakout_view": "N/A",
     "icon": "10001",
     "breakout_id": 0
+  },
+  "301353": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 500,
+    "id": 301353,
+    "use_char": 30135,
+    "weapon_ids": [
+      72012
+    ],
+    "pre_id": 301352,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 301354
   },
   "103024": {
     "use_item": [],
@@ -22457,21 +22527,20 @@
     "icon": "10001",
     "breakout_id": 0
   },
-  "301352": {
+  "301351": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 300,
-    "id": 301352,
+    "use_gold": 100,
+    "id": 301351,
     "use_char": 30135,
     "weapon_ids": [
-      106,
-      106
+      72011
     ],
-    "pre_id": 301351,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
     "icon": "10001",
-    "breakout_id": 301353
+    "breakout_id": 301352
   },
   "101361": {
     "use_item": [],
@@ -22518,20 +22587,18 @@
     "icon": "10001",
     "breakout_id": 201124
   },
-  "301351": {
+  "301334": {
     "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 100,
-    "id": 301351,
-    "use_char": 30135,
-    "weapon_ids": [
-      72011
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 301334,
+    "use_char": 30133,
+    "weapon_ids": [],
+    "pre_id": 301333,
+    "level": 0,
+    "breakout_view": "N/A",
     "icon": "10001",
-    "breakout_id": 301352
+    "breakout_id": 0
   },
   "108014": {
     "use_item": [],
@@ -22554,19 +22621,6 @@
     "use_char": 30130,
     "weapon_ids": [],
     "pre_id": 301303,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
-  "301334": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 301334,
-    "use_char": 30133,
-    "weapon_ids": [],
-    "pre_id": 301333,
     "level": 0,
     "breakout_view": "N/A",
     "icon": "10001",
@@ -22615,19 +22669,6 @@
     "icon": "10001",
     "breakout_id": 301332
   },
-  "201124": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 201124,
-    "use_char": 20112,
-    "weapon_ids": [],
-    "pre_id": 201123,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "204022": {
     "use_item": [],
     "use_char_num": 1,
@@ -22645,6 +22686,19 @@
     "icon": "10001",
     "breakout_id": 204023
   },
+  "201124": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 201124,
+    "use_char": 20112,
+    "weapon_ids": [],
+    "pre_id": 201123,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
   "204031": {
     "use_item": [],
     "use_char_num": 1,
@@ -22660,6 +22714,22 @@
     "breakout_view": "Main gun base +1/Main gun efficiency +5%",
     "icon": "10001",
     "breakout_id": 204032
+  },
+  "204041": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 500,
+    "id": 204041,
+    "use_char": 20404,
+    "weapon_ids": [
+      24100,
+      24100
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Main gun base +1/Main gun efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 204042
   },
   "105072": {
     "use_item": [],
@@ -22678,22 +22748,6 @@
     "icon": "10001",
     "breakout_id": 105073
   },
-  "204041": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 204041,
-    "use_char": 20404,
-    "weapon_ids": [
-      24100,
-      24100
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Main gun base +1/Main gun efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 204042
-  },
   "204044": {
     "use_item": [],
     "use_char_num": 0,
@@ -22702,6 +22756,19 @@
     "use_char": 20404,
     "weapon_ids": [],
     "pre_id": 204043,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
+  },
+  "301314": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 301314,
+    "use_char": 30131,
+    "weapon_ids": [],
+    "pre_id": 301313,
     "level": 0,
     "breakout_view": "N/A",
     "icon": "10001",
@@ -22723,64 +22790,51 @@
     "icon": "10001",
     "breakout_id": 101363
   },
-  "301314": {
+  "301053": {
     "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 301314,
-    "use_char": 30131,
-    "weapon_ids": [],
-    "pre_id": 301313,
-    "level": 0,
-    "breakout_view": "N/A",
+    "use_char_num": 2,
+    "use_gold": 2500,
+    "id": 301053,
+    "use_char": 30105,
+    "weapon_ids": [
+      79112
+    ],
+    "pre_id": 301052,
+    "level": 70,
+    "breakout_view": "Improve EX Barrage/All weapons' efficiency +5%",
     "icon": "10001",
-    "breakout_id": 0
+    "breakout_id": 301054
   },
-  "301091": {
+  "301102": {
     "use_item": [],
     "use_char_num": 1,
-    "use_gold": 300,
-    "id": 301091,
-    "use_char": 30109,
+    "use_gold": 1500,
+    "id": 301102,
+    "use_char": 30110,
     "weapon_ids": [
-      72071
+      106,
+      106
     ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 301092
-  },
-  "301111": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 300,
-    "id": 301111,
-    "use_char": 30111,
-    "weapon_ids": [
-      72071
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 301112
-  },
-  "301142": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 3000,
-    "id": 301142,
-    "use_char": 30114,
-    "weapon_ids": [
-      107,
-      107
-    ],
-    "pre_id": 301141,
+    "pre_id": 301101,
     "level": 30,
     "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
     "icon": "10001",
-    "breakout_id": 301143
+    "breakout_id": 301103
+  },
+  "301123": {
+    "use_item": [],
+    "use_char_num": 2,
+    "use_gold": 1500,
+    "id": 301123,
+    "use_char": 30112,
+    "weapon_ids": [
+      72072
+    ],
+    "pre_id": 301122,
+    "level": 70,
+    "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 301124
   },
   "301302": {
     "use_item": [],
@@ -22856,6 +22910,22 @@
     "icon": "10001",
     "breakout_id": 0
   },
+  "301202": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 1500,
+    "id": 301202,
+    "use_char": 30120,
+    "weapon_ids": [
+      107,
+      107
+    ],
+    "pre_id": 301201,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+    "icon": "10001",
+    "breakout_id": 301203
+  },
   "301821": {
     "use_item": [],
     "use_char_num": 1,
@@ -22870,22 +22940,6 @@
     "breakout_view": "Unlock All Out Assault Ⅰ/Main gun efficiency +5%",
     "icon": "10001",
     "breakout_id": 301822
-  },
-  "301182": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 300,
-    "id": 301182,
-    "use_char": 30118,
-    "weapon_ids": [
-      107,
-      107
-    ],
-    "pre_id": 301181,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 301183
   },
   "301162": {
     "use_item": [],
@@ -22902,6 +22956,19 @@
     "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
     "icon": "10001",
     "breakout_id": 301163
+  },
+  "301154": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 301154,
+    "use_char": 30115,
+    "weapon_ids": [],
+    "pre_id": 301153,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
   },
   "105073": {
     "use_item": [],
@@ -22936,18 +23003,21 @@
     "icon": "10001",
     "breakout_id": 105202
   },
-  "301154": {
+  "301142": {
     "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 301154,
-    "use_char": 30115,
-    "weapon_ids": [],
-    "pre_id": 301153,
-    "level": 0,
-    "breakout_view": "N/A",
+    "use_char_num": 1,
+    "use_gold": 3000,
+    "id": 301142,
+    "use_char": 30114,
+    "weapon_ids": [
+      107,
+      107
+    ],
+    "pre_id": 301141,
+    "level": 30,
+    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
     "icon": "10001",
-    "breakout_id": 0
+    "breakout_id": 301143
   },
   "101363": {
     "use_item": [],
@@ -22994,22 +23064,6 @@
     "icon": "10001",
     "breakout_id": 301824
   },
-  "301122": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 800,
-    "id": 301122,
-    "use_char": 30112,
-    "weapon_ids": [
-      106,
-      106
-    ],
-    "pre_id": 301121,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 301123
-  },
   "301114": {
     "use_item": [],
     "use_char_num": 0,
@@ -23022,6 +23076,21 @@
     "breakout_view": "N/A",
     "icon": "10001",
     "breakout_id": 0
+  },
+  "301111": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 300,
+    "id": 301111,
+    "use_char": 30111,
+    "weapon_ids": [
+      72071
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 301112
   },
   "301312": {
     "use_item": [],
@@ -23054,22 +23123,6 @@
     "icon": "10001",
     "breakout_id": 102132
   },
-  "301102": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 1500,
-    "id": 301102,
-    "use_char": 30110,
-    "weapon_ids": [
-      106,
-      106
-    ],
-    "pre_id": 301101,
-    "level": 30,
-    "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
-    "icon": "10001",
-    "breakout_id": 301103
-  },
   "301093": {
     "use_item": [],
     "use_char_num": 2,
@@ -23084,6 +23137,21 @@
     "breakout_view": "Improve All Out Assault/All weapons' efficiency +5%",
     "icon": "10001",
     "breakout_id": 301094
+  },
+  "301091": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 300,
+    "id": 301091,
+    "use_char": 30109,
+    "weapon_ids": [
+      72071
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "Unlock All Out Assault Ⅰ/Torpedo efficiency +5%",
+    "icon": "10001",
+    "breakout_id": 301092
   },
   "301313": {
     "use_item": [],
@@ -23116,21 +23184,6 @@
     "icon": "10001",
     "breakout_id": 310014
   },
-  "301051": {
-    "use_item": [],
-    "use_char_num": 1,
-    "use_gold": 500,
-    "id": 301051,
-    "use_char": 30105,
-    "weapon_ids": [
-      79111
-    ],
-    "pre_id": 0,
-    "level": 10,
-    "breakout_view": "Unlock EX Barrage Ⅰ/Torpedo efficiency +5%",
-    "icon": "10001",
-    "breakout_id": 301052
-  },
   "301012": {
     "use_item": [],
     "use_char_num": 1,
@@ -23146,6 +23199,19 @@
     "breakout_view": "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
     "icon": "10001",
     "breakout_id": 301013
+  },
+  "213044": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 213044,
+    "use_char": 21304,
+    "weapon_ids": [],
+    "pre_id": 213043,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
   },
   "105074": {
     "use_item": [],
@@ -23177,32 +23243,6 @@
     "icon": "10001",
     "breakout_id": 105203
   },
-  "213044": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 213044,
-    "use_char": 21304,
-    "weapon_ids": [],
-    "pre_id": 213043,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
-  "101364": {
-    "use_item": [],
-    "use_char_num": 0,
-    "use_gold": 0,
-    "id": 101364,
-    "use_char": 10136,
-    "weapon_ids": [],
-    "pre_id": 101363,
-    "level": 0,
-    "breakout_view": "N/A",
-    "icon": "10001",
-    "breakout_id": 0
-  },
   "213042": {
     "use_item": [],
     "use_char_num": 1,
@@ -23218,6 +23258,19 @@
     "breakout_view": "Main gun base +1/Main gun efficiency +10%",
     "icon": "10001",
     "breakout_id": 213043
+  },
+  "101364": {
+    "use_item": [],
+    "use_char_num": 0,
+    "use_gold": 0,
+    "id": 101364,
+    "use_char": 10136,
+    "weapon_ids": [],
+    "pre_id": 101363,
+    "level": 0,
+    "breakout_view": "N/A",
+    "icon": "10001",
+    "breakout_id": 0
   },
   "213013": {
     "use_item": [],
@@ -23235,6 +23288,22 @@
     "breakout_view": "Auxiliary gun base +1/Main gun efficiency +15%",
     "icon": "10001",
     "breakout_id": 213014
+  },
+  "207091": {
+    "use_item": [],
+    "use_char_num": 1,
+    "use_gold": 500,
+    "id": 207091,
+    "use_char": 20709,
+    "weapon_ids": [
+      60111,
+      54014
+    ],
+    "pre_id": 0,
+    "level": 10,
+    "breakout_view": "All fighters +1/Fighter efficiency +3%",
+    "icon": "10001",
+    "breakout_id": 207092
   },
   "207061": {
     "use_item": [],
