@@ -1,0 +1,40 @@
+{
+  "picture": "",
+  "id": 9011,
+  "desc": "免伤、回避率提升",
+  "icon": 9011,
+  "last_effect": "",
+  "name": "属性变更",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 0.3,
+        "attr": "dodgeRateExtra"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -0.2,
+        "attr": "injureRatio"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufared",
+  "time": 0
+}

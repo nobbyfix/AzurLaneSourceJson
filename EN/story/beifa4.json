@@ -1,0 +1,379 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "stopbgm": true,
+      "sequence": [
+        [
+          "The Miniature Head Maid\n\n<size=45>Chapter 4 - An Adorable New Recruit</size>",
+          1
+        ]
+      ],
+      "mode": 1
+    },
+    {
+      "side": 2,
+      "say": "Office - Later",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-2",
+      "dir": 1,
+      "bgName": "bg_night"
+    },
+    {
+      "actor": 202180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "Good Day, \"Commander,\" Maid-in-Training Bel, reporting for duty.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "options": [
+        {
+          "content": "Ask Belfast what happened to her",
+          "flag": 1
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "actor": 202120,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "I am over here, Master. This is my— No, that's not right. Rather, I am... Hmm...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "actor": 312010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "Let me explain it, nya...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:98}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "actor": 312010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "Get it, nya? Things've gotten a teensy bit complicated, so I thought we'd just bring her over here, nya...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:98}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "actor": 202180,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "options": [
+        {
+          "content": "Tell her of course she can",
+          "flag": 1
+        },
+        {
+          "content": "Tell her she's adorable",
+          "flag": 2
+        }
+      ],
+      "say": "May I... stay here? \"Commander?\"",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "actor": 202180,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "optionFlag": 1,
+      "say": "Splendid~ You know, you're exactly as wise and as kind as the ladies said you were.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "actor": 202180,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "optionFlag": 2,
+      "say": "Does that mean... I can stay? This \"Commander\" may be a bit odd, but all the nice things the ladies said about the Commander were true.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "actor": 312010,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "I knew the Commander wouldn't leave a kid out on the street, nya~",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:98}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "say": "Thank you very much, Master. As head maid, I vow to educate this child in our ways, raising her to be a truly magnificent maid.",
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "actor": 202180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "Aye-aye! I shall do my best!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 2
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "And so, the port welcomes a new recruit...",
+      "bgName": "bg_night"
+    },
+    {
+      "stopbgm": true,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "But I still don't know how Little Bel came to be in the first place, nya...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:98}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 312010
+    },
+    {
+      "actor": 302010,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "say": "Mental Cube... logrithmic casing... radiation... two similar people... radiation... ?",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:37}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      }
+    },
+    {
+      "actor": 312010,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "say": "Yuubari, do you have an idea, nya?",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:98}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "actor": 302010,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "say": "It's like... I almost have something... but... No, it's gone...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:37}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "actor": 312010,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "say": "Sounds like we've got more experiments to do, nya...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:98}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "actor": 302010,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "say": "Right then, how shall we conduct Test #257...?",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:37}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "BEIFA4",
+  "once": true
+}

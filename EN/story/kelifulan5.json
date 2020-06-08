@@ -1,0 +1,339 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "stopbgm": true,
+      "sequence": [
+        [
+          "Knights & Awards\n\n<size=45>Chapter 5 - A Tough Team</size>",
+          1
+        ]
+      ],
+      "mode": 1
+    },
+    {
+      "side": 2,
+      "say": "Cleveland's team went on winning match after match until it was time for the final round.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "dir": 1,
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 102100,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "Next, we're up against... Wait, seriously?! Sendai, Agano, and Myoukou?!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "delay": 0.2,
+          "number": 1
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 102140,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "say": "Hmph, whatever. We'll mop the floor with them. Right, sis?",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "say": "I doubt it'll be that easy... They're probably already working out a counter to our positioning... For this match, we've gotta be cautious.",
+      "actor": 102090,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 102150,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "say": "Hooyah!",
+      "action": [
+        {
+          "y": 15,
+          "type": "shake",
+          "dur": 0.15,
+          "delay": 0.2,
+          "number": 1
+        }
+      ],
+      "subActors": [
+        {
+          "actor": 102100,
+          "pos": {
+            "x": -1125
+          },
+          "dir": -1
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "Denver & Columbia",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 102140,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "bgm": "story-4",
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "You're pretty tough after all... Guess that's why you're the flagship of Destroyer Division 3!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 302120,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "say": "Not bad, you've managed to keep up with me... But this ain't gonna be a repeat of last time we met!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:38}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "say": "I don't care if you're a heavy cruiser... I'm not gonna let you win!",
+      "actor": 102150,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 303070,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "say": "Come at me! I've trained long and hard for this, and I'm not planning on losing to you lot!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:63}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "say": "It's come down to a 1 on 1 for each of us...! They're using that strategy from way back then!",
+      "actor": 102090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 302200,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "say": "Are you displeased with my choice of tactics? *Giggle*, then say it to my face~",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:49}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "say": "Cleveland's team was struggling with the strategy the opposing team was employing.",
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 102090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "Dammit... I'm sorry, guys... It's all my fault for being such a poor leader...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "say": "We made it all the way to the finals... And if we lose here, all will have been for nothing...!",
+      "actor": 102090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "Then came the final half time. Though the match wasn't over yet, the Sakura Empire team had a pretty big point lead. Cleveland felt down, something she rarely does.",
+      "blackBg": true,
+      "bgName": "star_level_bg_103"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "KELIFULAN5",
+  "once": true
+}

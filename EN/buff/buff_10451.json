@@ -1,0 +1,71 @@
+{
+  "1": {
+    "time": 5
+  },
+  "2": {
+    "time": 6
+  },
+  "3": {
+    "time": 7
+  },
+  "4": {
+    "time": 8
+  },
+  "5": {
+    "time": 9
+  },
+  "6": {
+    "time": 10
+  },
+  "7": {
+    "time": 11
+  },
+  "8": {
+    "time": 12
+  },
+  "9": {
+    "time": 13
+  },
+  "10": {
+    "time": 15
+  },
+  "picture": "",
+  "id": 10451,
+  "desc": "无敌",
+  "icon": 10451,
+  "last_effect": "",
+  "name": "最后的反击",
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffHP",
+      "arg_list": {
+        "currentHPRatio": 0.9999,
+        "number": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "isInvincible"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufablue",
+  "time": 5
+}

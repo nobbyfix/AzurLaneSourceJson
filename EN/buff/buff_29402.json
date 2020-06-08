@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行8次攻击，触发专属弹幕-确捷II"
+  },
+  "picture": "",
+  "id": 29402,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 8,
+        "countType": 29400,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29400,
+        "skill_id": 29402
+      }
+    }
+  ],
+  "desc": "主炮每进行8次攻击，触发专属弹幕-确捷II",
+  "icon": 29400,
+  "last_effect": "",
+  "name": "专属弹幕-确捷II",
+  "color": "red",
+  "desc_get": "主炮每进行8次攻击，触发专属弹幕-确捷II",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

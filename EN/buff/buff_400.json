@@ -1,0 +1,30 @@
+{
+  "picture": "",
+  "id": 400,
+  "desc": "",
+  "last_effect": "",
+  "time": 1,
+  "icon": 400,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "armor_type": 3,
+        "buff_id": 401,
+        "minTargetNumber": 1,
+        "check_target": [
+          "TargetSelf",
+          "TargetShipArmor"
+        ],
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "穿甲对重甲破甲"
+}

@@ -1,0 +1,264 @@
+{
+  "scripts": [
+    {
+      "actor": 301120,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Let go of AI! Ikazuchi, we’re going!"
+    },
+    {
+      "actor": 301110,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Ready when you are, Inazuma! Taaaake this!"
+    },
+    {
+      "actor": 10400010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "expression": 1,
+      "say": "... ... ...!?",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "Kizuna AI clone",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "actor": 301120,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "subActors": [
+        {
+          "pos": {
+            "x": 1005
+          },
+          "actor": 301110
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "Ikazuchi & Inazuma",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "“Secret Technique: Raiden Overload!”"
+    },
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "dir": 1,
+      "withoutActorName": true,
+      "expression": 1,
+      "action": [
+        {
+          "y": -2250,
+          "type": "move",
+          "dur": 1,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "say": "KABOOOM!!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 10400010
+    },
+    {
+      "actor": 401230,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "We did it! We managed to free AI from the grasp of that clone!"
+    },
+    {
+      "actor": 101170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Kizuna AI, are you all right? Did you get hurt...?"
+    },
+    {
+      "actor": 10400020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "Waaaahh... Th-thanks... Urghhh...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "Kizuna AI",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 22.5,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 3,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "actor": 201210,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Jeez, AI, you have to stand on... your own!"
+    },
+    {
+      "actor": 10400020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "Waaah... Sho... sorry...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "Kizuna AI",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 22.5,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 3,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "actor": 101170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "There, there. Good girl, good girl~"
+    }
+  ],
+  "id": "AIGUANQIA8",
+  "mode": 2,
+  "fadein": 1.5,
+  "once": true
+}

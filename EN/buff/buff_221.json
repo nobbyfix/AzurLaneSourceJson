@@ -1,0 +1,44 @@
+{
+  "picture": "",
+  "id": 221,
+  "desc": "",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 221,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.2,
+        "attr": "damageRatioByAir"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.1,
+        "attr": "injureRatioByAir"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 1000,
+        "attr": "attackRating"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "制空权确保"
+}

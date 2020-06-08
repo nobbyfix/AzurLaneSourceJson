@@ -1,0 +1,28 @@
+{
+  "picture": "",
+  "id": 8103,
+  "desc": "潜艇run专用反潜状态",
+  "last_effect": "",
+  "time": 0,
+  "icon": 8103,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onUpdate",
+        "onFriendlyShipDying",
+        "onSubmarinFreeFloat",
+        "onAntiSubHateChain"
+      ],
+      "type": "BattleBuffAntiSubVigilance",
+      "arg_list": {
+        "sonarFrequency": 5,
+        "sonarRange": 15,
+        "vigilanceRange": 26
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "潜艇run专用反潜状态--护卫舰"
+}

@@ -1,0 +1,470 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "Enterprise Troubles\n\n<size=45>Chapter 4: Essex Versus Enterprise</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "Training Area",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "battle-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "soundeffect": "event:/battle/plane",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "This is the last round! Congratulations for making it through all the competition. I'd expect nothing less from you.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 107060,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "I would congratulate you too, but you don't seem to have broken a sweat.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "I'm not like the others though. I'm about to show you what I'm made of, so don't take me lightly!",
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "Don't worry, I always give it my all. Come!",
+      "actor": 107060,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "subActors": [
+        {
+          "actor": 107060,
+          "pos": {
+            "x": 1030.5
+          },
+          "dir": 1
+        }
+      ],
+      "hideOther": true,
+      "say": "<size=45>Haaaaaah!!</size>",
+      "actorName": "Essex&Enterprise",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "say": "Woah... things are getting intense~",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "It's nice to see them go all out every now and then, hehe.",
+      "actor": 107050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "soundeffect": "event:/battle/plane",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "How's this!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 107090,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "say": "Not bad! But you've still got a long way to go!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 107060,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "say": "I've already seen through your attacks! Now it's my turn!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 107090,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "soundeffect": "event:/battle/plane",
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 3
+      },
+      "say": "——！！",
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.4,
+            0.4
+          ]
+        ]
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "That's enough!",
+      "actor": 107050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "Woah, is this a double K.O.?",
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "So it's a draw, huh... I'm not sure how I feel about this result...",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "But, your strength is undeniable, heh. Essex, you've really grown a lot.",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "...",
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "Essex? What's the matter?",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "(mutters) This... isn't the result I wanted...",
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "Sorry, I'm a bit worn out... I'm going to head back to rest first.",
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "Essex seemed to be acting strangely.",
+      "blackBg": true,
+      "bgName": "bg_story_nepu1"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "AISAIKESI4",
+  "once": true
+}

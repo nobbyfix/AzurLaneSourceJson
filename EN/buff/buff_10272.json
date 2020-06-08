@@ -1,0 +1,30 @@
+{
+  "picture": "",
+  "id": 10272,
+  "desc": "武器开火的时候获得子弹增伤效果",
+  "icon": 10272,
+  "last_effect": "",
+  "name": "最后的荣耀",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "effect_list": [
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 10271
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufared",
+  "time": 0
+}

@@ -1,0 +1,389 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 5,
+      "actor": 102230,
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "say": "Damn it... Is this really the end?",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgm": "battle-boss-4"
+    },
+    {
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 102070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "You've gotta get up, B-Birmingham!"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 900021,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "actorName": "Purifier",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Man, they sure dumped a ton of dirty work in my lap this time. Hey, what's-your-name, Burnie-sham? You still with me? Heellloooo? Come on, get up!"
+    },
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "say": "P-please stay away from us!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 102070,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      }
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 900021,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "actorName": "Purifier",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Whoa, there! Didn't your mom teach you not to point guns at people, little girl? Especially in your state! Look at you, you're barely able to see me through those tears!"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 900021,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "actorName": "Purifier",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Tell you what: plead for your lives like you mean it and I might just spare you~"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 900021,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "actorName": "Purifier",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "After all, you're so insignificant that your fates aren't worth the brain cells it takes to remember!"
+    },
+    {
+      "say": "Juneau... Don't worry about me, just get out of here...!",
+      "actor": 102230,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 102070,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "No way! I won't abandon my friends... or surrender to the enemy!"
+    },
+    {
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "That's right! Well said!"
+    },
+    {
+      "say": "Juneau! Baltimore! Thank goodness, you're still okay!",
+      "actor": 101020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 7
+    },
+    {
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 102070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Dewey... Aylwin...! Why did you come back? Ohh! Commander!"
+    },
+    {
+      "actor": 102230,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "We're saved..."
+    },
+    {
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "You've managed to hold back a mighty enemy for such a long time. You should be proud of yourselves."
+    },
+    {
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "You there! \"Purifier,\" was it? Pick on someone your own size instead!"
+    },
+    {
+      "actor": 900021,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "say": "Aha~ Bingo! You showed up right on schedule, just like Observer predicted~",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "Purifier",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      }
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 900021,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "actorName": "Purifier",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "The lead actors haven't assembled yet... but you chumps are going to get front row seats!!"
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "XIANGTINGLIAOFA10",
+  "once": true
+}

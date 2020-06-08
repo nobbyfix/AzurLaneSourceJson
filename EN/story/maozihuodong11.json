@@ -1,0 +1,400 @@
+{
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "bgm": "bgm-cccp3",
+      "actor": 102090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "A humanoid Siren is coming our way!"
+    },
+    {
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Oh, I know her all right! I've got a bomb with her name on it!"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Once this enemy has been dealt with, we'll finally have some time to rest."
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "...Huh? What's that light coming from the Siren?!"
+    },
+    {
+      "say": "Oh crap! Look out, Commander!",
+      "actor": 702020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "The Siren's weapon glowed. Its sights are aimed at me."
+    },
+    {
+      "actor": 105140,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "delay": 0.2,
+        "dur": 0.5
+      },
+      "say": "You shall harm NO ONE!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashout": {
+        "dur": 0.5,
+        "alpha": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "dur": 0.25,
+        "alpha": [
+          0,
+          1
+        ]
+      },
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "delay": 0.25,
+        "dur": 0.25
+      },
+      "say": "A burst of entwining flame and electricity rushed towards me. South Dakota rushed in front, blocking the attack with her shield.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_cccp_1"
+    },
+    {
+      "say": "That was close, it nearly hit the Commander... Pamiat, are you okay?",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "South Dakota",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_cccp_1"
+    },
+    {
+      "say": "Oww... I'm fine, minus the back pain...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "Pamiat Merkuria",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_cccp_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "It seems Pamiat Merkuria, too, tried to protect me from the Siren's attack.",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_cccp_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "South Dakota looks like she took the hit well, but had it hit Pamiat instead, she could have suffered major damage...",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_cccp_1"
+    },
+    {
+      "say": "Oh, and I'm expecting a \"thank you\" later, got it?",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "Pamiat Merkuria",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_cccp_1"
+    },
+    {
+      "say": "You deserve my thanks as well. Had you not alerted me to it, I wouldn't have been able to block it so well.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "South Dakota",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_cccp_1"
+    },
+    {
+      "actor": 107030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "What did I miss? Oh gosh, are you okay, South Dakota?!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "actor": 105140,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "My rigging took only minor damage, but my radar and fire control are malfunctioning. I'd be hard-pressed to fight in my current state..."
+    },
+    {
+      "actor": 107030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "Malfunctioning?! Have the Sirens pulled out a new weapon on us?!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "actor": 702010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "It would seem so. I was never expecting to encounter a weapon that targets our electronics, not in these waters..."
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "options": [
+        {
+          "content": "South Dakota, I want you to fall back for now.",
+          "flag": 1
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "This about confirms that the Sirens in the Bering Sea are not like what we've fought before."
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "options": [
+        {
+          "content": "Everyone, steer clear of this new weapon at all costs!",
+          "flag": 1
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "This about confirms that the Sirens in the Bering Sea are not like what we've fought before."
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "MAOZIHUODONG11",
+  "once": true
+}

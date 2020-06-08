@@ -1,0 +1,56 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "picture": "",
+  "id": 103100,
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 103101,
+        "minTargetNumber": 1,
+        "target": "TargetSelf",
+        "targetTemplateIDList": [
+          10300041,
+          10300042,
+          10300043,
+          10300044
+        ],
+        "check_target": "TargetTemplate"
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 1,
+        "index": [
+          -1
+        ],
+        "attr": "cri"
+      }
+    }
+  ],
+  "desc": "",
+  "icon": 103100,
+  "last_effect": "",
+  "name": "双影无双",
+  "color": "red",
+  "desc_get": "",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

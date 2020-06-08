@@ -1,0 +1,514 @@
+{
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "actor": 10500070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "expression": 2,
+      "say": "Guess we never stood a chance...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "Miokawa Iiyo",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgm": "holo-control"
+    },
+    {
+      "actor": 10500050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "expression": 1,
+      "say": "Oh, blast it...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "Kakitsubata Nakiri",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "actor": 10500020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "delay": 1.5,
+        "dur": 1
+      },
+      "say": "They did it again! They used the teleport command!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashout": {
+        "dur": 1,
+        "alpha": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "actor": 401230,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "And they did so at the last possible moment... Is this some sort of automatic safety feature the server has?"
+    },
+    {
+      "say": "Hrm... I know they're just clones the Sirens made, but it's still hard to get myself to fight them.",
+      "actor": 10500070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 4
+    },
+    {
+      "actor": 10500070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "That said, I might be able to go all out if always get teleported away right before their HP hits 0. I'm not about to let an imposter beat me.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "say": "Hmh, as someone once said: a faker will never be anything more than a faker...",
+      "actor": 10500010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    {
+      "actor": 401230,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "But it's annoying that we can't reduce their numbers. They'll wear us down over time if they simply retreat, heal, and come back to fight us again."
+    },
+    {
+      "actor": 301490,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "We need only take out their stronghold before it comes to that."
+    },
+    {
+      "actor": 307060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "(Sora seems a lot more resolute than she was yesterday... That's reassuring.)"
+    },
+    {
+      "say": "I'm done being hesitant. From now on, my mind is set: we'll put a stop to the Sirens' schemes and end this whole ordeal.",
+      "actor": 10500020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "actor": 101170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "I'm getting fed up with fighting all these clones..."
+    },
+    {
+      "actor": 401230,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "I understand. Fighting clones of yourself is one thing, but it's rather distressing to fight those of your close friends."
+    },
+    {
+      "actor": 307060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "The Sirens have always played dirty like that. Once we get back, Purity's getting an earful from me!"
+    },
+    {
+      "actor": 101170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "From me too..."
+    },
+    {
+      "actor": 900021,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "say": "I can hear you, ya know!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "Purity",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "actor": 307060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Whuah?! Why are you contacting us all of a sudden, Purity?"
+    },
+    {
+      "say": "Zed, how is it going on your end?",
+      "actor": 301050,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "actor": 401230,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "We walked into an ambush, but we dealt with the Sirens and were just going to resume our search. What about the base, everything fine there?"
+    },
+    {
+      "say": "The base is functioning as normal.",
+      "actor": 301050,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "say": "While the base is fine, there's this black veil that suddenly appeared out of nowhere! I think it's expanding, and coming from the labyrinth, actually...",
+      "actor": 201210,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "actor": 301490,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "What?!"
+    },
+    {
+      "actor": 10500050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Look up, everyone!"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Just as Javelin said, there's a veil floating in the air above the labyrinth."
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Or rather, it's in the sky. It spans across the ocean, enveloping everything in its path."
+    },
+    {
+      "say": "That's not a veil, it's a barrier! And unbelievably strong one, at that! I hit it with everything I have, yet it didn't as much as cut a hole into it!",
+      "actor": 10500060,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "say": "This is obviously an impassable wall the GM made that we can't pass through without permission...",
+      "actor": 10500010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "actor": 101170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "We can't go forward like this..."
+    },
+    {
+      "actor": 301490,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "It seems we have no choice but to fall back for the time being..."
+    },
+    {
+      "say": "Say, if we can't go by air or by sea...",
+      "actor": 10500040,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "say": "Then I might have a good solution to the problem...",
+      "actor": 10500040,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "HOLOGUANQIA28",
+  "once": true
+}

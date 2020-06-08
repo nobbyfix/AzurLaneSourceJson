@@ -1,0 +1,54 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "picture": "",
+  "id": 101040,
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 101041,
+        "minTargetNumber": 1,
+        "ship_type_list": [
+          1
+        ],
+        "check_target": "TargetShipTypeFriendly",
+        "isBuffStackByCheckTarget": true
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "ship_type_list": [
+          1
+        ],
+        "skill_id": 101040,
+        "check_target": "TargetShipTypeFriendly"
+      }
+    }
+  ],
+  "desc": "队伍中每有1艘驱逐舰，受到炮击伤害降低，装填速度提高",
+  "icon": 101040,
+  "last_effect": "",
+  "name": "联结·阿萨姆",
+  "color": "blue",
+  "desc_get": "队伍中每有1艘驱逐舰，受到炮击伤害降低，装填速度提高",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

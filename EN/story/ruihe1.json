@@ -1,0 +1,294 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "The Lucky Crane\n\n<size=45>Chapter 1 - Zuikaku In The Morning</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "say": "Port - Early morning",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "dir": 1,
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "My secretary, Zuikaku, would usually come to my office and give me a report at this time of day, but it seems she's not here yet.",
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 0,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "withoutPainting": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "options": [
+        {
+          "content": "Head to the dorm to check on Zuikaku",
+          "flag": 1
+        }
+      ],
+      "say": "......",
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 307060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "*Snore*... Mmhh... *Snore*... Zzzzzzz...",
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "withoutPainting": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:96}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "As you can see, she's fast asleep... Please, forgive her, Commander...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:95}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "Zuikaku was lying in her bed, limbs stretched out in all directions, snoring loudly.",
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "Perhaps she overworked herself during last night's training... Usually, she'd even wake up before me...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:95}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "withoutPainting": true,
+      "say": "... Sis... *Snore*... Some people dream of success... but I'm gonna work hard at it... Zzzz...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:96}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "I just cleaned the room yesterday, and now she's made a mess of it...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:95}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "C'mon, Zuikaku, wake up! The Commander's here!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:95}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307060,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 1.2,
+          "number": 1,
+          "x": 30
+        },
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.1,
+          "delay": 2,
+          "number": 3
+        }
+      ],
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "say": "Com... mander?! Oh shoot, I-I'm sorry! I overslept when I- Waahh?!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:96}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "Startled, but awake, Zuikaku got out of bed. She tripped over a pillow which must've fallen off the side of her bed.",
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "Goodness gracious... Go and get yourself in order, I'll clean up the room.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:95}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "... The Commander's waiting for you, so don't dawdle. *Giggle*",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:95}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307060,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "say": "G-got it!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:96}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "RUIHE1",
+  "once": true
+}

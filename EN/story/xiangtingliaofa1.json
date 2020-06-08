@@ -1,0 +1,812 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "stopbgm": true,
+      "sequence": [
+        [
+          "<size=51>Faster...</size>",
+          1
+        ],
+        [
+          "<size=51>Faster, faster, faster...</size>",
+          2
+        ],
+        [
+          "<size=51>...</size>",
+          3.5
+        ],
+        [
+          "<size=51>Why now of all times?</size> ",
+          5
+        ],
+        [
+          "<size=51>Why did this have to happen?</size>",
+          6.5
+        ],
+        [
+          "<size=51>... ....</size>",
+          8
+        ],
+        [
+          "<size=51>Commander...</size>",
+          9.5
+        ],
+        [
+          "<size=51>Please be safe...!</size>",
+          11
+        ]
+      ],
+      "mode": 1
+    },
+    {
+      "stopbgm": true,
+      "flashin": {
+        "1": 5,
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0,
+        "dur": 0.5
+      },
+      "sequence": [
+        [
+          "",
+          1
+        ]
+      ],
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "mode": 1,
+      "blackBg": true,
+      "effects": [
+        {
+          "name": "xiangtingliaofa",
+          "active": true
+        }
+      ]
+    },
+    {
+      "actor": 207040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "xiangtingliaofa",
+          "active": false
+        },
+        {
+          "name": "UIhuohua",
+          "active": true
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "say": "Evasive manoeuvres! Those bloody...!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "airRaidAlarm",
+      "bgmDelay": 1,
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "say": "Enemy aircraft approaching from the northeast! Don't stop firing those anti-air guns! Commander's safety is our first priority!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 103160,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "actor": 102080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "No matter how many they send at us, we won't give an inch!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "Eagle Union - Newport Harbor ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "A sea of flames...",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "The dormitory, the docks, the hangars... everything was burning...",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "Terror. Panic. Anguish. Rage.",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "In mere minutes, a former paradise was reduced to cinder and ash.",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "All that remained... was a sea of flames.",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "say": "The Sirens' carriers must be nearby. We can't just sit here waiting to be attacked. Let me take the fight to them!",
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "say": "Don't be rash, Hornet. We haven't finished analyzing the intel report yet...",
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "Don't worry about me. Just keep everyone safe. I'll be right back!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": -30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 1,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "... ...",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": false
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "Not long ago...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "level02",
+      "bgmDelay": 2,
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "Look, Commander, Newport City is just ahead of us!",
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "Hehe, I didn't expect to find myself back on Eagle Union soil so soon.",
+      "actor": 207040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "A few days ago, I received a communiqué regarding an important military conference taking place in the Eagle Union.",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "As a result, the fleet is now making its way there, towards Newport City.",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "I wonder what this meeting is going to be about...",
+      "actor": 207040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "Oh, the welcoming committee is already waiting for us!~",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 207040,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "Oh! If there are people waiting for us, we must reciprocate with a magnificent welcome of our own!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "Huh? Haven't you heard the news yet, Victorious?",
+      "actor": 107070,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "Apparently, Enterprise will be coming through here today!",
+      "actor": 107070,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "Really? THE legendary hero of the Eagle Union — Enterprise? In the flesh? I'd love to finally meet her.",
+      "actor": 207040,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "(We haven't told anyone about Enterprise's emergency mission, though...)",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "Hah, I was wondering where all this racket was coming from. I see you're as lively as ever, Hornet.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "Long time no see, Baltimore~!",
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "Commander, this is the renowned lady-killer of the Eagle Union, the gallant Baltimore!",
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "Leave your jokes at the door, Hornet. Well met, Commander. I'm Baltimore.",
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "I'll be in charge of showing you around Newport City.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "Newport Harbor may be a naval base, but it's also a famous resort.",
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "If you want to make some unforgettable memories here, I have some tips for you!",
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": true
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "Unforgettable memories, huh...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "airRaidAlarm",
+      "bgmDelay": 2,
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "... .... ...",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "stopbgm": true,
+      "flashin": {
+        "1": 5,
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0,
+        "dur": 0.5
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "mode": 1,
+      "sequence": [
+        [
+          "<size=51>This was supposed to be an impregnable fortress, so how...</size>",
+          1.5
+        ],
+        [
+          "<size=51>\"Get out of here! This place is about to fall!\"</size>",
+          3
+        ],
+        [
+          "<size=51>No... I refuse...</size>",
+          4.5
+        ],
+        [
+          "<size=51>If I have to sink, I want to be with the others...</size> ",
+          6
+        ],
+        [
+          "<size=51>\"You must live on... Hope must live on...\"</size>",
+          7.5
+        ],
+        [
+          "<size=51>\"Looks like... I won't be able to keep our Promise...\"</size>",
+          9
+        ],
+        [
+          "<size=51>Why... must war always be like this...</size>",
+          10.5
+        ]
+      ],
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": false
+        }
+      ]
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "XIANGTINGLIAOFA1",
+  "once": true
+}

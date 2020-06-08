@@ -1,0 +1,43 @@
+{
+  "picture": "",
+  "id": 9070,
+  "color": "yellow",
+  "desc": "自身防空提高，炮击降低",
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
+  "last_effect": "",
+  "name": "防空模式-LV8",
+  "icon": 9070,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -2460,
+        "attr": "cannonPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 3540,
+        "attr": "antiAirPower"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufablue",
+  "time": 3
+}

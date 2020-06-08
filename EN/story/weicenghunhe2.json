@@ -1,0 +1,388 @@
+{
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "stopbgm": true,
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "blackBg": true,
+      "say": "A few days ago, a patrol fleet lead by Baltimore suddenly went missing in a mysterious fog en route to the Canal Stronghold."
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "blackBg": true,
+      "say": "A rescue fleet was immediately formed to locate the missing fleet, and to lend aid to the stronghold."
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "Canal Stronghold - Surrounding waters",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "hunhe-story",
+      "bgmDelay": 2,
+      "bgName": "bg_banama_1"
+    },
+    {
+      "actor": 103240,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "So this is the legendary Canal Stronghold? I've heard all sorts of rumors about it, but it's even more awesome seeing it in person!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_1"
+    },
+    {
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "Bremerton, have you never left NY City in your life? How have you never been here before?",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_1"
+    },
+    {
+      "say": "In any case, this stronghold is a crucial holdout against the Sirens because of how important the canal is, so of course it's gotta be big.",
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_1"
+    },
+    {
+      "actor": 106550,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "That's right. The safety of this canal is not just vitally important for the armed forces. The civilians depend on it as well.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_1"
+    },
+    {
+      "say": "That's why we can't spare any expenses in preparing for a large-scale Siren assault.",
+      "actor": 106550,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_1"
+    },
+    {
+      "actor": 103240,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "I see... I'm still worried about Baltimore and the others though...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_1"
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "We've almost arrived at the fortress, but there still hasn't been a single trace of Siren activity...",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_1"
+    },
+    {
+      "say": "There's no way Baltimore and the others would allow themselves to be captured without a fight, but there's no sign of a battle anywhere...",
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_1"
+    },
+    {
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "Do you think they got trapped in a Mirror Sea? This fog appearing out of nowhere clearly isn't normal.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_1"
+    },
+    {
+      "say": "I don't think that's likely. Normally, all communications are cut off from the Mirror Sea. However, I've been receiving a string of messages.",
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_1"
+    },
+    {
+      "actor": 106550,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "Furthermore, a convoy that was patrolling the canal safely arrived at the stronghold, even having to go through the mist.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_1"
+    },
+    {
+      "say": "However, it was mentioned that the mist was so expansive that its size couldn't be accurately assessed from coastal monitoring stations.",
+      "actor": 106550,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_1"
+    },
+    {
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "In other words, their communication equipment started to fail after entering the fog, and then they encountered Sirens... This sure doesn't smell like a coincidence to me.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_1"
+    },
+    {
+      "say": "I agree... What do you think, Enterprise?",
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_1"
+    },
+    {
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "I'm with Intrepid. This situation is no accident.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_1"
+    },
+    {
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "However, given the present conditions, we don't have a lead as to where to start searching, and we can't cover this entire area.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_1"
+    },
+    {
+      "say": "For the time being, let's head back and join up with the stronghold reinforcement fleet. We can organize our information and then draft a rescue plan.",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_1"
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "WEICENGHUNHE2",
+  "once": true
+}

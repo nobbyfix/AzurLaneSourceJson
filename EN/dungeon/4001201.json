@@ -1,0 +1,276 @@
+{
+  "id": 4001201,
+  "fleet_prefab": [],
+  "stages": [
+    {
+      "1": {
+        "preWaves": [
+          201
+        ],
+        "triggerType": 8,
+        "triggerParams": [],
+        "waveIndex": 900,
+        "key": true
+      },
+      "timeCount": 300,
+      "failCondition": 1,
+      "playerArea": [
+        -75,
+        20,
+        42,
+        68
+      ],
+      "stageIndex": 1,
+      "totalArea": [
+        -75,
+        20,
+        90,
+        70
+      ],
+      "backGroundStageID": 1,
+      "fleetCorrdinate": [
+        -80,
+        0,
+        75
+      ],
+      "enemyArea": [],
+      "passCondition": 1,
+      "waves": [
+        {
+          "preWaves": [],
+          "triggerType": 0,
+          "conditionType": 1,
+          "waveIndex": 201,
+          "triggerParams": [],
+          "spawn": [
+            {
+              "moveCast": true,
+              "corrdinate": [
+                0,
+                0,
+                55
+              ],
+              "phase": [
+                {
+                  "switchTo": 1,
+                  "addWeapon": [
+                    593501
+                  ],
+                  "switchParam": 20,
+                  "switchType": 1,
+                  "index": 0
+                },
+                {
+                  "switchTo": 2,
+                  "removeWeapon": [
+                    593501
+                  ],
+                  "switchParam": 1,
+                  "switchType": 1,
+                  "index": 1
+                },
+                {
+                  "switchTo": 3,
+                  "addWeapon": [
+                    593502
+                  ],
+                  "switchParam": 10,
+                  "switchType": 1,
+                  "index": 2
+                },
+                {
+                  "setAI": 70068,
+                  "switchTo": 4,
+                  "removeWeapon": [
+                    593502
+                  ],
+                  "switchParam": 2,
+                  "switchType": 1,
+                  "index": 3
+                },
+                {
+                  "switchTo": 5,
+                  "addWeapon": [
+                    593503
+                  ],
+                  "switchParam": 15,
+                  "switchType": 1,
+                  "index": 4
+                },
+                {
+                  "switchTo": 6,
+                  "removeWeapon": [
+                    593503
+                  ],
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 5
+                },
+                {
+                  "switchTo": 7,
+                  "addWeapon": [
+                    593504,
+                    593507
+                  ],
+                  "switchParam": 10,
+                  "switchType": 1,
+                  "index": 6
+                },
+                {
+                  "switchTo": 8,
+                  "removeWeapon": [
+                    593507
+                  ],
+                  "switchParam": 2,
+                  "switchType": 1,
+                  "index": 7
+                },
+                {
+                  "switchTo": 9,
+                  "addWeapon": [
+                    593507
+                  ],
+                  "switchParam": 15,
+                  "switchType": 1,
+                  "index": 8
+                },
+                {
+                  "switchTo": 10,
+                  "removeWeapon": [
+                    593504,
+                    593507
+                  ],
+                  "switchParam": 1,
+                  "switchType": 1,
+                  "index": 9
+                },
+                {
+                  "setAI": 70072,
+                  "switchTo": 11,
+                  "switchParam": 5,
+                  "switchType": 1,
+                  "index": 10
+                },
+                {
+                  "setAI": 70070,
+                  "switchTo": 12,
+                  "switchParam": 8,
+                  "switchType": 1,
+                  "index": 11
+                },
+                {
+                  "setAI": 70069,
+                  "switchTo": 0,
+                  "switchParam": 5,
+                  "switchType": 1,
+                  "index": 12
+                }
+              ],
+              "monsterTemplateID": 10116401,
+              "delay": 0,
+              "bossData": {
+                "icon": "dunkeerke",
+                "hpBarNum": 100
+              }
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                -15,
+                0,
+                55
+              ],
+              "phase": [
+                {
+                  "switchTo": 1,
+                  "addWeapon": [
+                    593508
+                  ],
+                  "switchParam": 30,
+                  "switchType": 1,
+                  "index": 0
+                },
+                {
+                  "setAI": 70069,
+                  "switchTo": 2,
+                  "removeWeapon": [
+                    593508
+                  ],
+                  "switchParam": 2,
+                  "switchType": 1,
+                  "index": 1
+                },
+                {
+                  "switchTo": 3,
+                  "addWeapon": [
+                    593509
+                  ],
+                  "switchParam": 15,
+                  "switchType": 1,
+                  "index": 2
+                },
+                {
+                  "switchTo": 4,
+                  "removeWeapon": [
+                    593509
+                  ],
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 3
+                },
+                {
+                  "setAI": 70070,
+                  "switchTo": 5,
+                  "switchParam": 30,
+                  "switchType": 1,
+                  "index": 4
+                },
+                {
+                  "setAI": 70071,
+                  "switchTo": 6,
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 5
+                },
+                {
+                  "switchTo": 7,
+                  "addWeapon": [
+                    593510,
+                    593512
+                  ],
+                  "switchParam": 10,
+                  "switchType": 1,
+                  "index": 6
+                },
+                {
+                  "switchTo": 8,
+                  "removeWeapon": [
+                    593510,
+                    593512
+                  ],
+                  "switchParam": 1,
+                  "switchType": 1,
+                  "index": 7
+                },
+                {
+                  "setAI": 70071,
+                  "switchTo": 0,
+                  "switchParam": 1,
+                  "switchType": 1,
+                  "index": 8
+                }
+              ],
+              "monsterTemplateID": 10116402,
+              "delay": 0,
+              "bossData": {
+                "icon": "rangbaer",
+                "hpBarNum": 100
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "bgm": "story-french2"
+}

@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行12次攻击，触发全弹发射-博加特里级I"
+  },
+  "picture": "",
+  "id": 26111,
+  "desc": "主炮每进行12次攻击，触发全弹发射-博加特里级I",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 20100,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 12,
+        "countType": 26110,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 26110,
+        "skill_id": 26111
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "全弹发射"
+}

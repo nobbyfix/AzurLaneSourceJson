@@ -1,0 +1,62 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "picture": "",
+  "id": 12540,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAntiAirWeaponFire"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 12540,
+        "time": 8,
+        "rant": 2500
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCollide"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 13,
+        "countType": 12540,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 12540,
+        "quota": 3,
+        "skill_id": 12541
+      }
+    }
+  ],
+  "desc": "",
+  "icon": 12540,
+  "last_effect": "",
+  "name": "圣胡安防空",
+  "color": "yellow",
+  "desc_get": "",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

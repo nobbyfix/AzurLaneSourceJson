@@ -1,0 +1,39 @@
+{
+  "picture": "0",
+  "aniEffect": "",
+  "desc": "3秒后回复7%HP，跳转至下一强度",
+  "uiEffect": "",
+  "id": 50010,
+  "effect_list": [
+    {
+      "targetAniEffect": "",
+      "arg_list": {
+        "exceptCaster": true,
+        "maxHPRatio": 0.07
+      },
+      "casterAniEffect": "",
+      "target_choise": "TargetAllHelp",
+      "type": "BattleSkillHeal"
+    },
+    {
+      "targetAniEffect": "",
+      "arg_list": {
+        "exceptCaster": true,
+        "buff_id": 50015
+      },
+      "casterAniEffect": "",
+      "target_choise": "TargetAllHelp",
+      "type": "BattleSkillAddBuff"
+    },
+    {
+      "target_choise": "TargetSelf",
+      "arg_list": {
+        "buff_id": 50011
+      },
+      "type": "BattleSkillAddBuff"
+    }
+  ],
+  "cd": 0,
+  "painting": 0,
+  "name": "敌方维修船维修技能"
+}

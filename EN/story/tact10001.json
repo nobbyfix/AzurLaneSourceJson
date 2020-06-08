@@ -1,0 +1,68 @@
+{
+  "id": "TACT10001",
+  "mode": 2,
+  "once": true,
+  "scripts": [
+    {
+      "shake": {
+        "speed": 1,
+        "number": 3
+      },
+      "actor": 201230,
+      "side": 2,
+      "dir": 0,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "Unknown enemy planes ahead, no fleet detected nearby!"
+    },
+    {
+      "actor": 205060,
+      "side": 1,
+      "dir": 0,
+      "nameColor": "#a9f548",
+      "say": "Damn, we have been discovered, is there a submarine in the area?",
+      "shake": {
+        "speed": 1,
+        "number": 3
+      },
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      }
+    },
+    {
+      "shake": {
+        "speed": 1,
+        "number": 3
+      },
+      "actor": 205060,
+      "side": 1,
+      "dir": 0,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "It's ok, those bombers are no match for our battleships, keep advancing, ready all anti-aircraft guns!"
+    }
+  ]
+}

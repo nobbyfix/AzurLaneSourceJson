@@ -1,0 +1,38 @@
+{
+  "picture": "",
+  "id": 40291,
+  "desc": "巡洋-战术-炮击II+巡洋-战术-雷击II",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 30,
+  "icon": 40290,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatioCommander",
+      "arg_list": {
+        "ability": "tactic",
+        "convertAttr": "attackRating",
+        "convertRate": 1.2
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatioCommander",
+      "arg_list": {
+        "ability": "tactic",
+        "convertAttr": "dodgeRate",
+        "convertRate": 1.2
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": ""
+}

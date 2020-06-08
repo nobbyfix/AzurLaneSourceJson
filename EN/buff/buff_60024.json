@@ -1,0 +1,26 @@
+{
+  "picture": "",
+  "id": 60024,
+  "desc": "测试-伤害减免",
+  "last_effect": "Shield",
+  "time": 7,
+  "icon": 60024,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 60024,
+        "attr": "injureRatio",
+        "number": -0.15
+      }
+    }
+  ],
+  "stack": 3,
+  "init_effect": "",
+  "name": "南达科他伤害减免"
+}

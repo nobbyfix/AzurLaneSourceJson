@@ -1,0 +1,35 @@
+{
+  "picture": "",
+  "id": 44,
+  "desc": "每隔15秒触发游刃有余效果",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 44,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 15,
+        "skill_id": 44
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 0,
+        "delay": 61
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "游刃有余"
+}
