@@ -1,0 +1,41 @@
+{
+  "picture": "",
+  "id": 8014,
+  "desc": "鱼雷艇AI切换跑路AI及自杀",
+  "last_effect": "",
+  "time": 0,
+  "icon": 8014,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffNewAI",
+      "arg_list": {
+        "ai_onAttach": 80004
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDeath",
+      "arg_list": {
+        "maxX": 25
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "immuneMaxAreaLimit"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "鱼雷艇AI切换自杀"
+}

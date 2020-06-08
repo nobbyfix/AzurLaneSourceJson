@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行16次攻击，触发专属弹幕-圣地亚哥"
+  },
+  "picture": "",
+  "id": 29351,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 16,
+        "countType": 29350,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29350,
+        "skill_id": 29351
+      }
+    }
+  ],
+  "desc": "主炮每进行16次攻击，触发专属弹幕-圣地亚哥",
+  "icon": 29350,
+  "last_effect": "",
+  "name": "专属弹幕-圣地亚哥",
+  "color": "red",
+  "desc_get": "主炮每进行16次攻击，触发专属弹幕-圣地亚哥",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

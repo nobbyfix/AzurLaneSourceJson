@@ -1,0 +1,503 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "萬能看板娘{namecode:20}\n\n<size=45>四　店內交流？</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "港區·軍火商店",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "這個休息日，再次躲在商店外的灌木裡，悄悄觀察店內的情況。",
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 312010,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "y": 0,
+          "type": "move",
+          "dur": 0.7,
+          "delay": 0,
+          "x": 3000
+        }
+      ],
+      "say": "{namecode:20}喵！！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorPosition": {
+        "y": 0,
+        "x": -1500
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "“碰”地一聲，傳來了撞牆的巨響。",
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 312010,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "say": "嗚嗚嗚，好過分喵，為什麼要躲開{namecode:98}喵！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 0.4,
+          "number": 2,
+          "delay": 0,
+          "x": 22.5
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 301180,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "因為妳這蠢貓會主動來找我多半沒有好事。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 312010,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "say": "我們難道不是好朋友喵！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "原來我們是好朋友嗎？",
+      "actor": 301180,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "{namecode:20}還是老樣子喵，妳應該學習{namecode:98}喵，每天都充滿活力喵！",
+      "actor": 312010,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "免了。總而言之，有什麼事？",
+      "actor": 301180,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 312010,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "say": "是有關新的促銷計畫喵！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "果然沒有好事……妳這蠢貓的促銷計畫每次都弄些奇怪的東西，我才懶得奉陪。",
+      "actor": 301180,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 312010,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "say": "這次不一樣喵，這次是很周全的喵！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "總之我沒有……",
+      "actor": 301180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 301180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "y": 60,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 4,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "subActors": [
+        {
+          "actor": 312010,
+          "pos": {
+            "x": -45
+          },
+          "dir": -1
+        }
+      ],
+      "say": "{namecode:20}喵，幫幫喵，就這一次喵！{namecode:98}一定會報答妳的喵！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "明石",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 301180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "subActors": [
+        {
+          "actor": 312010,
+          "pos": {
+            "x": -45
+          },
+          "dir": -1
+        }
+      ],
+      "say": "別貼我身上，蠢貓，放開……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 301180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "subActors": [
+        {
+          "actor": 312010,
+          "pos": {
+            "x": -45
+          },
+          "dir": -1
+        }
+      ],
+      "say": "不答應{namecode:98}就不放開喵！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "明石",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 301180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "subActors": [
+        {
+          "actor": 312010,
+          "pos": {
+            "x": -45
+          },
+          "dir": -1
+        }
+      ],
+      "say": "好好好，我答應總行了吧！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 312010,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "say": "太好了喵，那這是企劃案，{namecode:98}先去準備了喵！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "move",
+          "dur": 0.7,
+          "delay": 1,
+          "x": 2250
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 301180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "withoutActorName": true,
+      "say": "{namecode:98}離開後，{namecode:20}拿起企劃案翻了翻。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "哈……還是老樣子沒把細節想清楚……結果看起來還是要幫那只蠢貓擦屁股。",
+      "actor": 301180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "這麼說著的{namecode:20}，拿起筆在上面修修改改了起來。",
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "似乎，又理解了一點{namecode:20}的樣子。",
+      "blackBg": true,
+      "bgName": "bg_story_task"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "BUZHIHUO4",
+  "once": true
+}

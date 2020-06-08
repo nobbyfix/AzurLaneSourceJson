@@ -1,0 +1,35 @@
+{
+  "picture": "",
+  "id": 12321,
+  "desc": "",
+  "last_effect": "",
+  "time": 0,
+  "icon": 12321,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 10,
+        "countType": 12340
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 12340,
+        "buff_id": 12322
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "恶毒"
+}

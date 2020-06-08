@@ -1,0 +1,30 @@
+{
+  "picture": "",
+  "id": 4041,
+  "color": "yellow",
+  "desc": "承受先锋队伍受到的50%伤害",
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
+  "last_effect": "",
+  "name": "吸引火力",
+  "icon": 4040,
+  "effect_list": [
+    {
+      "trigger": [
+        "onTakeDamage"
+      ],
+      "type": "BattleBuffHPLink",
+      "arg_list": {
+        "number": 0.5
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufablue",
+  "time": 8
+}

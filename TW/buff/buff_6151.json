@@ -1,0 +1,44 @@
+{
+  "picture": "",
+  "id": 6021,
+  "desc": "起火機率降低20%，持续时间缩短3秒，伤害降低15%",
+  "color": "blue",
+  "last_effect": "",
+  "time": 0,
+  "icon": 6021,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.2,
+        "attr": "igniteResist"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 3,
+        "attr": "igniteShorten"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1500,
+        "attr": "igniteReduce"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "灭火器T2"
+}

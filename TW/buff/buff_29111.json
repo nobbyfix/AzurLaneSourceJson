@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行15次攻击，触发专属弹幕-{namecode:6}I"
+  },
+  "picture": "",
+  "id": 29111,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 15,
+        "countType": 29110,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29110,
+        "skill_id": 29111
+      }
+    }
+  ],
+  "desc": "主炮每进行15次攻击，触发专属弹幕-{namecode:6}I",
+  "icon": 29110,
+  "last_effect": "",
+  "name": "专属弹幕-{namecode:6}I",
+  "color": "red",
+  "desc_get": "主炮每进行15次攻击，触发专属弹幕-{namecode:6}I",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

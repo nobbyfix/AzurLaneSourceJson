@@ -1,0 +1,46 @@
+{
+  "picture": "",
+  "id": 322,
+  "desc": "时乃空",
+  "last_effect": "zhuoshao",
+  "time": 15.1,
+  "icon": 322,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "attr": "airPower",
+        "k": 0.1,
+        "number": 5,
+        "time": 3,
+        "dotType": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 60
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 61
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "点燃"
+}

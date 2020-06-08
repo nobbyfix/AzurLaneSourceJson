@@ -1,0 +1,50 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "picture": "",
+  "id": 12940,
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "nationality": 2,
+        "buff_id": 12941,
+        "minTargetNumber": 1,
+        "check_target": "TargetNationalityFriendly",
+        "isBuffStackByCheckTarget": true
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "nationality": 2,
+        "skill_id": 12940,
+        "check_target": "TargetNationalityFriendly"
+      }
+    }
+  ],
+  "desc": "",
+  "icon": 12940,
+  "last_effect": "",
+  "name": "黛朵2",
+  "color": "yellow",
+  "desc_get": "",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

@@ -1,0 +1,59 @@
+{
+  "picture": "",
+  "id": 100001,
+  "desc": "获得新武器",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 100001,
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 100002
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 100003,
+        "quota": 1,
+        "hpUpperBound": 0.8
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 100004,
+        "quota": 1,
+        "hpUpperBound": 0.5
+      }
+    },
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 100005,
+        "quota": 1,
+        "hpUpperBound": 0.2
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "阶段触发器"
+}

@@ -1,0 +1,25 @@
+{
+  "picture": "",
+  "id": 50001,
+  "desc": "每隔10秒，有100%機率攻击我方主力舰队",
+  "last_effect": "",
+  "time": 0,
+  "icon": 50001,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 50001,
+        "time": 10,
+        "rant": 10000
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "敌方战列舰跨射攻击后排buff"
+}

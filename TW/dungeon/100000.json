@@ -1,0 +1,680 @@
+{
+  "fleet_prefab": {
+    "vanguard_unitList": [
+      {
+        "oil_at_end": 55,
+        "exp": 10,
+        "id": 1,
+        "properties": {
+          "durability": 2360,
+          "cannon": 100,
+          "antiaircraft": 310,
+          "reload": 83,
+          "hit": 140,
+          "luck": 70,
+          "dodge": 164,
+          "speed": 31.5,
+          "armor": 98,
+          "air": 0,
+          "torpedo": 150
+        },
+        "tmpID": 900005,
+        "equipment": [
+          false,
+          false,
+          false
+        ],
+        "skills": [
+          {
+            "id": 4,
+            "level": 1
+          }
+        ],
+        "configId": 900005,
+        "level": 100,
+        "energy": 10,
+        "skinId": 900005
+      },
+      {
+        "oil_at_end": 55,
+        "exp": 10,
+        "id": 2,
+        "properties": {
+          "durability": 2360,
+          "cannon": 100,
+          "antiaircraft": 310,
+          "reload": 83,
+          "hit": 140,
+          "luck": 70,
+          "dodge": 164,
+          "speed": 31.5,
+          "armor": 98,
+          "air": 0,
+          "torpedo": 150
+        },
+        "tmpID": 900004,
+        "equipment": [
+          false,
+          false,
+          false
+        ],
+        "skills": [
+          {
+            "id": 4,
+            "level": 1
+          }
+        ],
+        "configId": 900004,
+        "level": 100,
+        "energy": 10,
+        "skinId": 900004
+      }
+    ]
+  },
+  "skill_hide": [
+    1,
+    2,
+    3
+  ],
+  "map_id": 10005,
+  "id": 100000,
+  "stages": [
+    {
+      "timeCount": 300,
+      "failCondition": 1,
+      "playerArea": [
+        -70,
+        20,
+        37,
+        68
+      ],
+      "stageIndex": 1,
+      "backGroundStageID": 1,
+      "totalArea": [
+        -70,
+        20,
+        90,
+        70
+      ],
+      "fleetCorrdinate": [
+        -80,
+        0,
+        75
+      ],
+      "mainUnitPosition": {
+        "1": [
+          [
+            -105,
+            0,
+            58
+          ],
+          [
+            -105,
+            0,
+            78
+          ],
+          [
+            -105,
+            0,
+            38
+          ]
+        ],
+        "-1": [
+          [
+            15,
+            0,
+            58
+          ],
+          [
+            15,
+            0,
+            78
+          ],
+          [
+            15,
+            0,
+            38
+          ]
+        ]
+      },
+      "enemyArea": [],
+      "passCondition": 1,
+      "waves": [
+        {
+          "preWaves": [],
+          "waveIndex": 400,
+          "triggerType": 5,
+          "triggerParams": {
+            "bgm": "battle-1"
+          }
+        },
+        {
+          "preWaves": [],
+          "waveIndex": 300,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 0.5
+          }
+        },
+        {
+          "preWaves": [],
+          "waveIndex": 222,
+          "triggerType": 6,
+          "triggerParams": {
+            "event": "HideSkillUI",
+            "id": "B001"
+          }
+        },
+        {
+          "preWaves": [
+            222
+          ],
+          "waveIndex": 200,
+          "triggerType": 3,
+          "triggerParams": {
+            "id": "S001"
+          }
+        },
+        {
+          "preWaves": [
+            200
+          ],
+          "waveIndex": 888,
+          "triggerType": 6,
+          "triggerParams": {
+            "event": "ShowStick",
+            "id": "B001"
+          }
+        },
+        {
+          "preWaves": [],
+          "waveIndex": 887,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 6.8
+          }
+        },
+        {
+          "preWaves": [
+            887
+          ],
+          "waveIndex": 886,
+          "triggerType": 6,
+          "triggerParams": {
+            "event": "ShowSkill_2",
+            "id": "B001"
+          }
+        },
+        {
+          "preWaves": [
+            888
+          ],
+          "triggerType": 0,
+          "conditionType": 1,
+          "waveIndex": 101,
+          "spawn": [
+            {
+              "moveCast": true,
+              "corrdinate": [
+                5,
+                0,
+                80
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10,
+              "delay": 0
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                18,
+                0,
+                65
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10,
+              "delay": 0
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                18,
+                0,
+                50
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10,
+              "delay": 0
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                5,
+                0,
+                35
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10,
+              "delay": 0
+            }
+          ],
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            101
+          ],
+          "triggerType": 3,
+          "conditionType": 0,
+          "waveIndex": 201,
+          "triggerParams": {
+            "id": "S002"
+          }
+        },
+        {
+          "preWaves": [
+            201
+          ],
+          "waveIndex": 500,
+          "triggerType": 4,
+          "triggerParams": {
+            "main_unitList": [
+              {
+                "equipment": [
+                  4,
+                  26120
+                ],
+                "skinId": 900006,
+                "properties": {
+                  "durability": 2880,
+                  "cannon": 200,
+                  "antiaircraft": 300,
+                  "reload": 83,
+                  "hit": 140,
+                  "luck": 38,
+                  "dodge": 0,
+                  "speed": 31,
+                  "armor": 115,
+                  "air": 0,
+                  "torpedo": 0
+                },
+                "configId": 900006,
+                "level": 100,
+                "id": 1,
+                "tmpID": 900006
+              },
+              {
+                "equipment": [
+                  5,
+                  26120
+                ],
+                "skinId": 900007,
+                "properties": {
+                  "durability": 3600,
+                  "cannon": 230,
+                  "antiaircraft": 300,
+                  "reload": 83,
+                  "hit": 140,
+                  "luck": 14,
+                  "dodge": 96,
+                  "speed": 28.3,
+                  "armor": 189,
+                  "air": 0,
+                  "torpedo": 0
+                },
+                "configId": 900007,
+                "level": 100,
+                "id": 2,
+                "tmpID": 900007
+              }
+            ]
+          }
+        },
+        {
+          "preWaves": [
+            201
+          ],
+          "waveIndex": 401,
+          "triggerType": 5,
+          "triggerParams": {
+            "bgm": "battle-2"
+          }
+        },
+        {
+          "preWaves": [
+            500
+          ],
+          "waveIndex": 411,
+          "triggerType": 7,
+          "triggerParams": {
+            "type": 1,
+            "zoomSize": 14,
+            "duration": 1,
+            "model": 900006
+          }
+        },
+        {
+          "preWaves": [
+            500
+          ],
+          "waveIndex": 412,
+          "triggerType": 3,
+          "triggerParams": {
+            "id": "S007"
+          }
+        },
+        {
+          "preWaves": [
+            412
+          ],
+          "waveIndex": 413,
+          "triggerType": 7,
+          "triggerParams": {
+            "type": 0
+          }
+        },
+        {
+          "preWaves": [
+            500
+          ],
+          "waveIndex": 777,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 13
+          }
+        },
+        {
+          "preWaves": [
+            777
+          ],
+          "waveIndex": 776,
+          "triggerType": 6,
+          "triggerParams": {
+            "event": "ShowSkill_1",
+            "id": "B001"
+          }
+        },
+        {
+          "preWaves": [
+            412
+          ],
+          "triggerType": 0,
+          "conditionType": 1,
+          "reinforcement": [
+            {
+              "moveCast": true,
+              "corrdinate": [
+                28,
+                0,
+                80
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10,
+              "delay": 0
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                28,
+                0,
+                30
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10,
+              "delay": 0
+            }
+          ],
+          "waveIndex": 103,
+          "spawn": [
+            {
+              "moveCast": true,
+              "reinforceDelay": 5,
+              "corrdinate": [
+                -10,
+                0,
+                55
+              ],
+              "buffList": [
+                7024,
+                7036,
+                7031
+              ],
+              "monsterTemplateID": 11,
+              "delay": 0,
+              "bossData": {
+                "icon": "ougenqinwang",
+                "hpBarNum": 20
+              }
+            }
+          ],
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            500
+          ],
+          "waveIndex": 304,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 10
+          }
+        },
+        {
+          "preWaves": [
+            304
+          ],
+          "waveIndex": 204,
+          "triggerType": 3,
+          "triggerParams": {
+            "id": "S006"
+          }
+        },
+        {
+          "preWaves": [
+            103
+          ],
+          "waveIndex": 202,
+          "triggerType": 3,
+          "triggerParams": {
+            "id": "S003"
+          }
+        },
+        {
+          "preWaves": [
+            202
+          ],
+          "waveIndex": 303,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 1
+          }
+        },
+        {
+          "preWaves": [
+            303
+          ],
+          "waveIndex": 402,
+          "triggerType": 5,
+          "triggerParams": {
+            "bgm": "battle-boss-2"
+          }
+        },
+        {
+          "preWaves": [
+            303
+          ],
+          "triggerType": 0,
+          "conditionType": 1,
+          "reinforcement": [
+            {
+              "moveCast": true,
+              "corrdinate": [
+                28,
+                0,
+                80
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10,
+              "delay": 0
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                8,
+                0,
+                65
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10,
+              "delay": 0
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                8,
+                0,
+                45
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10,
+              "delay": 0
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                28,
+                0,
+                30
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10,
+              "delay": 0
+            }
+          ],
+          "waveIndex": 104,
+          "spawn": [
+            {
+              "moveCast": true,
+              "reinforceDelay": 5,
+              "corrdinate": [
+                -10,
+                0,
+                55
+              ],
+              "buffList": [
+                7000,
+                7022,
+                7039
+              ],
+              "monsterTemplateID": 12,
+              "delay": 0,
+              "bossData": {
+                "icon": "bishimai",
+                "hpBarNum": 50
+              }
+            }
+          ],
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            402
+          ],
+          "waveIndex": 302,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 45
+          }
+        },
+        {
+          "preWaves": [
+            402
+          ],
+          "waveIndex": 431,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 39
+          }
+        },
+        {
+          "preWaves": [
+            431
+          ],
+          "waveIndex": 432,
+          "triggerType": 7,
+          "triggerParams": {
+            "type": 1,
+            "zoomSize": 14,
+            "duration": 1,
+            "model": 12
+          }
+        },
+        {
+          "preWaves": [
+            402
+          ],
+          "waveIndex": 305,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 42
+          }
+        },
+        {
+          "preWaves": [
+            305
+          ],
+          "waveIndex": 421,
+          "triggerType": 7,
+          "triggerParams": {
+            "zoomBounce": true,
+            "zoomSize": 14,
+            "model": 900006,
+            "duration": 2.4,
+            "type": 1
+          }
+        },
+        {
+          "preWaves": [
+            302
+          ],
+          "triggerType": 3,
+          "triggerParams": {
+            "id": "S004"
+          },
+          "waveIndex": 203,
+          "key": true
+        }
+      ]
+    }
+  ]
+}

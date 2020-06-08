@@ -1,0 +1,47 @@
+{
+  "picture": "",
+  "id": 8603,
+  "desc": "鱼雷易伤",
+  "color": "blue",
+  "last_effect": "Darkness",
+  "time": 0,
+  "icon": 2120,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 11,
+        "attr": "injureRatioByBulletTorpedo"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.5,
+        "attr": "injureRatioByCannon"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.5,
+        "attr": "injureRatioByAir"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "鱼雷易伤"
+}

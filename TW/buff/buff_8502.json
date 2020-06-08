@@ -1,0 +1,31 @@
+{
+  "picture": "",
+  "id": 8502,
+  "desc": "伤害降低",
+  "icon": 8502,
+  "last_effect": "",
+  "name": "万圣节EX2boss，第2阶段减伤60",
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.6,
+        "attr": "damageRatioBullet"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufablue",
+  "time": 8
+}

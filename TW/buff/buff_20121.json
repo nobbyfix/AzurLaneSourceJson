@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行15次攻击，触发全弹发射-布鲁克林级I"
+  },
+  "picture": "",
+  "id": 20121,
+  "desc": "主炮每进行15次攻击，触发全弹发射-布鲁克林级I",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 20100,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 15,
+        "countType": 20120,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 20120,
+        "skill_id": 20121
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "全弹发射"
+}

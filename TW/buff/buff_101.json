@@ -1,0 +1,44 @@
+{
+  "picture": "",
+  "id": 101,
+  "desc": "炮击和雷击提高15%，机动降低10%",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 101,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 1500,
+        "attr": "cannonPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 1500,
+        "attr": "torpedoPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -1000,
+        "attr": "dodgeRate"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "单纵阵突入"
+}

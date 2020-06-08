@@ -1,0 +1,39 @@
+{
+  "1": [],
+  "picture": "",
+  "id": 29452,
+  "desc": "主武器每进行10次攻击，触发专属弹幕-克利夫兰μII",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 29450,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 10,
+        "countType": 29450,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29450,
+        "skill_id": 29452
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "专属弹幕"
+}

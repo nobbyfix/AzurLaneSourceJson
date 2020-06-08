@@ -1,0 +1,25 @@
+{
+  "picture": "",
+  "id": 5042,
+  "desc": "每隔20秒，有機率使用照明弹",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 5040,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 20,
+        "buff_id": 5043
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "照明弹"
+}

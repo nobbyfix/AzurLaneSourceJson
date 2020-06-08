@@ -1,0 +1,38 @@
+{
+  "picture": "",
+  "id": 19211,
+  "desc": "主炮每进行8次攻击，触发小子弹弹幕",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 19210,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 8,
+        "countType": 19210,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 19210,
+        "skill_id": 19211
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "吾妻特殊弹幕I"
+}

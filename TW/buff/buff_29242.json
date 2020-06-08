@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行8次攻击，触发专属弹幕-罗恩II"
+  },
+  "picture": "",
+  "id": 29242,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 8,
+        "countType": 29240,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29240,
+        "skill_id": 29242
+      }
+    }
+  ],
+  "desc": "主炮每进行8次攻击，触发专属弹幕-罗恩II",
+  "icon": 29240,
+  "last_effect": "",
+  "name": "专属弹幕-罗恩II",
+  "color": "red",
+  "desc_get": "主炮每进行8次攻击，触发专属弹幕-罗恩II",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

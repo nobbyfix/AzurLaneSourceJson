@@ -1,0 +1,29 @@
+{
+  "picture": "",
+  "id": 301,
+  "desc": "6s减速",
+  "last_effect": "Darkness",
+  "time": 6,
+  "icon": 301,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "group": {
+          "id": 300,
+          "level": 1
+        },
+        "mul": -2000,
+        "add": 0
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "减速"
+}

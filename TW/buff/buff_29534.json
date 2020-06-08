@@ -1,0 +1,39 @@
+{
+  "1": [],
+  "picture": "",
+  "id": 29534,
+  "desc": "轻巡主炮每进行8次攻击，触发专属弹幕-里诺II",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 29530,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 8,
+        "countType": 29530,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29530,
+        "skill_id": 29533
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "专属弹幕"
+}

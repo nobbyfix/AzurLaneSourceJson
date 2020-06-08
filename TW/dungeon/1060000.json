@@ -1,0 +1,733 @@
+{
+  "beginStoy": "SANLI00",
+  "fleet_prefab": {
+    "vanguard_unitList": [
+      {
+        "oil_at_end": 55,
+        "exp": 10,
+        "id": 1,
+        "properties": {
+          "durability": 85567,
+          "cannon": 1000,
+          "antiaircraft": 310,
+          "reload": 830,
+          "hit": 140,
+          "luck": 70,
+          "dodge": 164,
+          "speed": 31.5,
+          "armor": 98,
+          "air": 0,
+          "torpedo": 150
+        },
+        "tmpID": 900040,
+        "equipment": [
+          false,
+          false,
+          false
+        ],
+        "skills": [
+          {
+            "id": 4,
+            "level": 1
+          },
+          {
+            "id": 10730,
+            "level": 7
+          }
+        ],
+        "configId": 900040,
+        "level": 100,
+        "energy": 10,
+        "skinId": 900040
+      },
+      {
+        "oil_at_end": 55,
+        "exp": 10,
+        "id": 2,
+        "properties": {
+          "durability": 76576,
+          "cannon": 1000,
+          "antiaircraft": 310,
+          "reload": 830,
+          "hit": 140,
+          "luck": 70,
+          "dodge": 164,
+          "speed": 31.5,
+          "armor": 98,
+          "air": 0,
+          "torpedo": 150
+        },
+        "tmpID": 900041,
+        "equipment": [
+          false,
+          false,
+          false
+        ],
+        "skills": [
+          {
+            "id": 4,
+            "level": 1
+          },
+          {
+            "id": 2041,
+            "level": 7
+          },
+          {
+            "id": 2051,
+            "level": 7
+          }
+        ],
+        "configId": 900041,
+        "level": 100,
+        "energy": 10,
+        "skinId": 900041
+      },
+      {
+        "oil_at_end": 55,
+        "exp": 10,
+        "id": 3,
+        "properties": {
+          "durability": 76371,
+          "cannon": 1000,
+          "antiaircraft": 310,
+          "reload": 830,
+          "hit": 140,
+          "luck": 70,
+          "dodge": 164,
+          "speed": 31.5,
+          "armor": 98,
+          "air": 0,
+          "torpedo": 150
+        },
+        "tmpID": 900042,
+        "equipment": [
+          false,
+          false,
+          false
+        ],
+        "skills": [
+          {
+            "id": 4,
+            "level": 1
+          },
+          {
+            "id": 10570,
+            "level": 7
+          },
+          {
+            "id": 2051,
+            "level": 7
+          }
+        ],
+        "configId": 900042,
+        "level": 100,
+        "energy": 10,
+        "skinId": 900042
+      }
+    ],
+    "main_unitList": [
+      {
+        "equipment": [
+          false,
+          false,
+          false
+        ],
+        "skinId": 900043,
+        "properties": {
+          "durability": 66744,
+          "cannon": 200,
+          "antiaircraft": 300,
+          "reload": 83,
+          "hit": 140,
+          "luck": 38,
+          "dodge": 0,
+          "speed": 31,
+          "armor": 1150,
+          "air": 0,
+          "torpedo": 0
+        },
+        "configId": 900043,
+        "level": 100,
+        "id": 1,
+        "tmpID": 900043
+      },
+      {
+        "equipment": [
+          false,
+          false,
+          false
+        ],
+        "skinId": 900044,
+        "properties": {
+          "durability": 68377,
+          "cannon": 230,
+          "antiaircraft": 300,
+          "reload": 83,
+          "hit": 140,
+          "luck": 14,
+          "dodge": 96,
+          "speed": 28.3,
+          "armor": 1890,
+          "air": 0,
+          "torpedo": 0
+        },
+        "configId": 900044,
+        "level": 100,
+        "id": 2,
+        "tmpID": 900044
+      }
+    ]
+  },
+  "stages": [
+    {
+      "timeCount": 600,
+      "failCondition": 1,
+      "playerArea": [
+        -70,
+        20,
+        37,
+        68
+      ],
+      "stageIndex": 1,
+      "backGroundStageID": 1,
+      "totalArea": [
+        -70,
+        20,
+        90,
+        70
+      ],
+      "fleetCorrdinate": [
+        -80,
+        0,
+        75
+      ],
+      "mainUnitPosition": {
+        "1": [
+          [
+            -105,
+            0,
+            58
+          ],
+          [
+            -105,
+            0,
+            78
+          ],
+          [
+            -105,
+            0,
+            38
+          ]
+        ],
+        "-1": [
+          [
+            15,
+            0,
+            58
+          ],
+          [
+            15,
+            0,
+            78
+          ],
+          [
+            15,
+            0,
+            38
+          ]
+        ]
+      },
+      "enemyArea": [],
+      "passCondition": 1,
+      "waves": [
+        {
+          "preWaves": [],
+          "waveIndex": 300,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 0.5
+          }
+        },
+        {
+          "preWaves": [],
+          "waveIndex": 400,
+          "triggerType": 5,
+          "triggerParams": {
+            "bgm": "story-6"
+          }
+        },
+        {
+          "preWaves": [
+            300
+          ],
+          "waveIndex": 200,
+          "triggerType": 3,
+          "triggerParams": {
+            "id": "SANLI01"
+          }
+        },
+        {
+          "preWaves": [
+            200
+          ],
+          "triggerType": 0,
+          "conditionType": 0,
+          "waveIndex": 101,
+          "spawn": [
+            {
+              "moveCast": true,
+              "corrdinate": [
+                -6,
+                0,
+                55
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10060001,
+              "delay": 0
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                0,
+                0,
+                75
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10060001,
+              "delay": 0
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                0,
+                0,
+                35
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10060001,
+              "delay": 0
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                20,
+                0,
+                65
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10060002,
+              "delay": 0
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                20,
+                0,
+                45
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10060002,
+              "delay": 0
+            }
+          ],
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            101
+          ],
+          "triggerType": 0,
+          "conditionType": 0,
+          "waveIndex": 102,
+          "spawn": [
+            {
+              "moveCast": true,
+              "corrdinate": [
+                0,
+                0,
+                55
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10060001,
+              "delay": 0
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                5,
+                0,
+                75
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10060001,
+              "delay": 0
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                5,
+                0,
+                35
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10060001,
+              "delay": 0
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                23,
+                0,
+                51
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 10060003,
+              "delay": 0
+            }
+          ],
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            102
+          ],
+          "triggerType": 3,
+          "conditionType": 0,
+          "waveIndex": 201,
+          "triggerParams": {
+            "id": "SANLI02"
+          }
+        },
+        {
+          "preWaves": [
+            201
+          ],
+          "waveIndex": 401,
+          "triggerType": 5,
+          "triggerParams": {
+            "bgm": "battle-boss-4"
+          }
+        },
+        {
+          "preWaves": [
+            201
+          ],
+          "triggerType": 0,
+          "conditionType": 0,
+          "waveIndex": 103,
+          "spawn": [
+            {
+              "moveCast": true,
+              "corrdinate": [
+                5,
+                0,
+                55
+              ],
+              "phase": [
+                {
+                  "switchTo": 1,
+                  "switchParam": 0.2,
+                  "index": 0,
+                  "switchType": 2
+                },
+                {
+                  "switchTo": 2,
+                  "addBuff": [
+                    8518
+                  ],
+                  "switchParam": 2,
+                  "switchType": 1,
+                  "index": 1
+                },
+                {
+                  "addBuff": [
+                    7023
+                  ],
+                  "index": 2,
+                  "removeWeapon": [
+                    100201,
+                    100571,
+                    313075
+                  ]
+                }
+              ],
+              "monsterTemplateID": 10060004,
+              "delay": 0,
+              "bossData": {
+                "icon": "unknown1",
+                "hpBarNum": 99
+              }
+            }
+          ],
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            401
+          ],
+          "waveIndex": 304,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 30
+          }
+        },
+        {
+          "preWaves": [
+            304
+          ],
+          "waveIndex": 900,
+          "triggerType": 8,
+          "triggerParams": []
+        },
+        {
+          "preWaves": [
+            900
+          ],
+          "waveIndex": 204,
+          "triggerType": 3,
+          "triggerParams": {
+            "id": "SANLI03"
+          }
+        },
+        {
+          "preWaves": [
+            204
+          ],
+          "waveIndex": 500,
+          "triggerType": 4,
+          "triggerParams": {
+            "main_unitList": [
+              {
+                "equipment": [
+                  800008,
+                  101,
+                  104
+                ],
+                "skinId": 900045,
+                "skills": [
+                  {
+                    "id": 8519,
+                    "level": 1
+                  },
+                  {
+                    "id": 8521,
+                    "level": 1
+                  },
+                  {
+                    "id": 4,
+                    "level": 1
+                  }
+                ],
+                "properties": {
+                  "durability": 151000,
+                  "cannon": 2000,
+                  "antiaircraft": 300,
+                  "reload": 83,
+                  "hit": 140,
+                  "luck": 38,
+                  "dodge": 0,
+                  "speed": 31,
+                  "armor": 115,
+                  "air": 0,
+                  "torpedo": 0
+                },
+                "configId": 900045,
+                "level": 100,
+                "id": 1,
+                "tmpID": 900045
+              },
+              {
+                "equipment": [
+                  800005,
+                  800006,
+                  800007
+                ],
+                "skinId": 900044,
+                "skills": [
+                  {
+                    "id": 4,
+                    "level": 1
+                  },
+                  {
+                    "id": 10800,
+                    "level": 7
+                  },
+                  {
+                    "id": 10820,
+                    "level": 7
+                  }
+                ],
+                "properties": {
+                  "durability": 154877,
+                  "cannon": 230,
+                  "antiaircraft": 300,
+                  "reload": 83,
+                  "hit": 140,
+                  "luck": 14,
+                  "dodge": 96,
+                  "speed": 28.3,
+                  "armor": 1890,
+                  "air": 0,
+                  "torpedo": 0
+                },
+                "configId": 900044,
+                "level": 100,
+                "id": 2,
+                "tmpID": 900044
+              },
+              {
+                "equipment": [
+                  800009,
+                  101,
+                  104
+                ],
+                "skinId": 900046,
+                "skills": [
+                  {
+                    "id": 4,
+                    "level": 1
+                  },
+                  {
+                    "id": 10930,
+                    "level": 7
+                  }
+                ],
+                "properties": {
+                  "durability": 155761,
+                  "cannon": 2000,
+                  "antiaircraft": 300,
+                  "reload": 83,
+                  "hit": 140,
+                  "luck": 38,
+                  "dodge": 0,
+                  "speed": 31,
+                  "armor": 115,
+                  "air": 0,
+                  "torpedo": 0
+                },
+                "configId": 900046,
+                "level": 100,
+                "id": 3,
+                "tmpID": 900046
+              }
+            ],
+            "kill_list": [
+              900043,
+              900044
+            ]
+          }
+        },
+        {
+          "preWaves": [
+            500
+          ],
+          "waveIndex": 411,
+          "triggerType": 7,
+          "triggerParams": {
+            "type": 1,
+            "zoomSize": 14,
+            "duration": 1,
+            "model": 900045
+          }
+        },
+        {
+          "preWaves": [
+            411
+          ],
+          "waveIndex": 302,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 1.1
+          }
+        },
+        {
+          "preWaves": [
+            302
+          ],
+          "waveIndex": 412,
+          "triggerType": 3,
+          "triggerParams": {
+            "id": "SANLI04"
+          }
+        },
+        {
+          "preWaves": [
+            302
+          ],
+          "waveIndex": 402,
+          "triggerType": 5,
+          "triggerParams": {
+            "bgm": "story-7"
+          }
+        },
+        {
+          "preWaves": [
+            412
+          ],
+          "waveIndex": 413,
+          "triggerType": 7,
+          "triggerParams": {
+            "type": 0
+          }
+        },
+        {
+          "preWaves": [
+            103
+          ],
+          "waveIndex": 901,
+          "triggerType": 8,
+          "triggerParams": []
+        },
+        {
+          "preWaves": [
+            901
+          ],
+          "waveIndex": 202,
+          "triggerType": 3,
+          "triggerParams": {
+            "id": "SANLI05"
+          }
+        },
+        {
+          "preWaves": [
+            202
+          ],
+          "triggerType": 3,
+          "triggerParams": {
+            "id": "SANLI06"
+          },
+          "waveIndex": 203,
+          "key": true
+        }
+      ]
+    }
+  ],
+  "id": 1060000
+}

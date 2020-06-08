@@ -1,0 +1,53 @@
+{
+  "picture": "",
+  "id": 104012,
+  "desc": "敌方属性上升4%",
+  "icon": 104010,
+  "last_effect": "jinengchufared",
+  "name": "爱碳光波-I",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 400,
+        "attr": "cannonPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 400,
+        "attr": "torpedoPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 400,
+        "attr": "airPower"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "time": 10
+}

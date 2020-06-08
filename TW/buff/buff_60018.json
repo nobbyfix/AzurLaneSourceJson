@@ -1,0 +1,27 @@
+{
+  "picture": "",
+  "id": 60018,
+  "desc": "弹射",
+  "last_effect": "",
+  "time": 0,
+  "icon": 60018,
+  "effect_list": [
+    {
+      "trigger": [
+        "onChargeWeaponBulletCreate"
+      ],
+      "type": "BattleBuffBulletHitEmitter",
+      "arg_list": {
+        "barrageID": 10001,
+        "count": 3,
+        "target": "TargetHarmNearest",
+        "damageRant": 0.7,
+        "range": 200,
+        "deltaDamageRant": -0.1
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "测试-休斯敦-技能触发被动"
+}

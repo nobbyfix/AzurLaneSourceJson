@@ -1,0 +1,36 @@
+{
+  "picture": "",
+  "id": 49,
+  "desc": "减少20%受到伤害",
+  "icon": 49,
+  "last_effect": "",
+  "time": 0,
+  "limit": [],
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.2,
+        "attr": "injureRatio",
+        "target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.2,
+        "attr": "injureRatioByAir",
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "竞技场我方加成"
+}

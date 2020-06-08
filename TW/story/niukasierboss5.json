@@ -1,0 +1,461 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "战斗！皇家女仆队！\n\n<size=45>五　作战完成</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "港口",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "作战顺利结束，大家都回到了港区。",
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "不愧是指挥官和女王陛下，真是出色的作战，是我们输了。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": -45,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 1,
+          "delay": 0.2,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 205010,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "嗯哼，女仆组虽然输了，但是让整个舰队看到了我们皇家的风采。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "做得很好，贝尔法斯特！",
+      "actor": 205010,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 202120,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "不胜惶恐。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": -45,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 1,
+          "delay": 0.2,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "然后，妳呢，纽卡斯尔？",
+      "actor": 205010,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "本王本来想说就拉妳来当一时的帮手——",
+      "actor": 205010,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "但是仔细想想，妳还是在女仆队里更合适嘛！",
+      "actor": 205010,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "原本，我觉得悠闲的生活可能更加适合我一点…",
+      "actor": 202190,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "不过，像这样被陛下叫出来，见到了许多旧识，看到大家在这里过得这么开心…",
+      "actor": 202190,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "让我的想法也稍微有些改变了呢~",
+      "actor": 202190,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "纽卡斯尔露出了笑容。",
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "能让大家过得这么开心的地方，我当然是愿意加入的，从今往后也请多多指教了。",
+      "actor": 202190,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 202110,
+      "side": 1,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "say": "太好了~",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "yeah~",
+      "actor": 203030,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 203040,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 9,
+      "say": "不过唔唔，感觉又要多一个人管我了……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "是最好的结果了呢",
+      "actor": 202080,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "陛下，我有一个提议，今晚举行一场宴会吧。",
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "作为作战成功的庆功宴，还有纽卡斯尔姐姐的欢迎仪式。",
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "很好，就这么办吧！",
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "遵命，那么，女仆组的各位，各自休整一下，三十分钟后，在厨房集合。",
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "呵呵，接下来就是女仆该做的事了",
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "那么，指挥官，我也先行告退了。",
+      "actor": 202190,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "啊，对了，殿下和女仆队一直以来劳您费心了，从今往后，也要请您多多指教了~",
+      "actor": 202190,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "就这样，演习顺利结束，舰队也迎来了新的夥伴，可喜可贺，可喜可贺",
+      "blackBg": true,
+      "bgName": "bg_story_outdoor"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "NIUKASIERBOSS5",
+  "once": true
+}

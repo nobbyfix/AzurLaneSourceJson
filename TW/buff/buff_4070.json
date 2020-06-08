@@ -1,0 +1,32 @@
+{
+  "picture": "",
+  "id": 4070,
+  "color": "blue",
+  "desc": "完全闪避",
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
+  "last_effect": "",
+  "name": "紧急回避",
+  "icon": 4070,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "perfectDodge"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufablue",
+  "time": 6
+}

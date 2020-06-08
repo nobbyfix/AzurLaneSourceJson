@@ -1,0 +1,43 @@
+{
+  "picture": "",
+  "id": 8682,
+  "desc": "",
+  "last_effect": "",
+  "time": 10,
+  "icon": 9,
+  "effect_list": [
+    {
+      "trigger": [
+        ""
+      ],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": [
+          "TargetPlayerLeaderShip"
+        ],
+        "FAura": true,
+        "buff_id": 8681
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleFleetBuffInk",
+      "arg_list": []
+    },
+    {
+      "trigger": [],
+      "type": "BattleFleetBuffBlindAura",
+      "arg_list": {
+        "target": [
+          "TargetAllHarm"
+        ]
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "视野限制-敌方隐藏光环-属性修改"
+}

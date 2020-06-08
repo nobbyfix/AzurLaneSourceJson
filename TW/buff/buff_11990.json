@@ -1,0 +1,86 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "picture": "",
+  "id": 11990,
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "maxTargetNumber": 1,
+        "ship_type_list": [
+          6,
+          7
+        ],
+        "buff_id": 11991,
+        "check_target": "TargetShipTypeFriendly"
+      }
+    },
+    {
+      "trigger": [
+        "onAllInStrikeSteady"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "maxTargetNumber": 1,
+        "ship_type_list": [
+          6,
+          7
+        ],
+        "skill_id": 11990,
+        "check_target": "TargetShipTypeFriendly"
+      }
+    },
+    {
+      "trigger": [
+        "onAllInStrikeSteady"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "maxTargetNumber": 2,
+        "check_target": "TargetShipTypeFriendly",
+        "minTargetNumber": 2,
+        "ship_type_list": [
+          6,
+          7
+        ],
+        "skill_id": 11992
+      }
+    },
+    {
+      "trigger": [
+        "onAllInStrikeSteady"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 3,
+        "ship_type_list": [
+          6,
+          7
+        ],
+        "skill_id": 11991,
+        "check_target": "TargetShipTypeFriendly"
+      }
+    }
+  ],
+  "desc": "",
+  "icon": 11990,
+  "last_effect": "",
+  "name": "恪尽职守",
+  "color": "red",
+  "desc_get": "",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

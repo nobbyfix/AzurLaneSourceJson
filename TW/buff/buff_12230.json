@@ -1,0 +1,52 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "picture": "",
+  "id": 12230,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAntiAirWeaponFire"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 12230,
+        "time": 5,
+        "rant": 3000
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "check_target": "TargetShipTag",
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Cleveland-Chan"
+        ],
+        "target": "TargetSelf",
+        "skill_id": 12231
+      }
+    }
+  ],
+  "desc": "防空炮开火时有30%機率触发，自身防空提高$1，持续5秒",
+  "icon": 12230,
+  "last_effect": "",
+  "name": "天真烂漫的少女",
+  "color": "blue",
+  "desc_get": "",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

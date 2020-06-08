@@ -1,0 +1,32 @@
+{
+  "picture": "",
+  "id": 5040,
+  "color": "yellow",
+  "desc": "回避率降低",
+  "blink": [
+    0.8,
+    0.8,
+    0.8,
+    0.3,
+    0.3
+  ],
+  "last_effect": "EVDdowm",
+  "name": "照明弹",
+  "icon": 5040,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.25,
+        "attr": "dodgeRateExtra"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

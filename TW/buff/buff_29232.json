@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行8次攻击，触发专属弹幕-海王星II"
+  },
+  "picture": "",
+  "id": 29232,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 8,
+        "countType": 29230,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29230,
+        "skill_id": 29232
+      }
+    }
+  ],
+  "desc": "主炮每进行8次攻击，触发专属弹幕-海王星II",
+  "icon": 29230,
+  "last_effect": "",
+  "name": "专属弹幕-海王星II",
+  "color": "red",
+  "desc_get": "主炮每进行8次攻击，触发专属弹幕-海王星II",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

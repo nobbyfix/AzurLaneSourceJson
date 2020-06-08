@@ -1,0 +1,46 @@
+{
+  "picture": "",
+  "id": 104015,
+  "desc": "敌方属性下降-8%",
+  "last_effect": "Darkness",
+  "time": 10,
+  "icon": 104010,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -800,
+        "attr": "cannonPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -800,
+        "attr": "torpedoPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -800,
+        "attr": "airPower"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "爱碳光波-IV"
+}

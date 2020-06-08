@@ -1,0 +1,35 @@
+{
+  "picture": "",
+  "id": 60047,
+  "desc": "召唤地狱火",
+  "last_effect": "",
+  "time": 0,
+  "icon": 60047,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 25,
+        "skill_id": 60026
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "bulletTrigger": "onBombBulletBang",
+        "skill_id": 60027
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "测试-随机技能-召唤地狱火"
+}

@@ -1,0 +1,36 @@
+{
+  "picture": "",
+  "id": 6061,
+  "desc": "命中和机动提高10%",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 6061,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "group": 6040,
+        "attr": "attackRating",
+        "number": 1000
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "group": 6040,
+        "attr": "dodgeRate",
+        "number": 1000
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "SG雷达T3"
+}
