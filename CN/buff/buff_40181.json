@@ -1,0 +1,42 @@
+{
+  "picture": "",
+  "id": 40181,
+  "desc": "潜艇-指挥-雷击II+潜艇-后勤-雷击II",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 40181,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatioCommander",
+      "arg_list": {
+        "ability": "command",
+        "group": [
+          1
+        ],
+        "convertAttr": "torpedoPower",
+        "convertRate": 0.4
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatioCommander",
+      "arg_list": {
+        "ability": "support",
+        "group": [
+          2
+        ],
+        "convertAttr": "torpedoPower",
+        "convertRate": 0.4
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "潜艇-指挥-雷击II+潜艇-后勤-雷击II具体效果"
+}

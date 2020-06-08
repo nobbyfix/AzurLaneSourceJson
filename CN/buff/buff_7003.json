@@ -1,0 +1,59 @@
+{
+  "picture": "",
+  "id": 7003,
+  "desc": "精英怪-旗舰-暂时无用，里面的具体配置也是有问题的",
+  "last_effect": "jingyingguaibuffjinse",
+  "time": 0,
+  "icon": 7003,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "group": 0,
+        "attr": "maxHP",
+        "number": 10000
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffNewAI",
+      "arg_list": {
+        "ai_onRemove": 10012,
+        "ai_onAttach": 10012
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "group": 0,
+        "attr": "armor",
+        "number": 10000
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate",
+        "onRemove"
+      ],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "max_distance": 20,
+        "exceptCaster": true,
+        "buff_id": 7006
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "精英怪-旗舰"
+}

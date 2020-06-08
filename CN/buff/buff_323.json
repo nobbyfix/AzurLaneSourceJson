@@ -1,0 +1,38 @@
+{
+  "picture": "",
+  "id": 323,
+  "desc": "4s减速",
+  "last_effect": "Darkness",
+  "time": 4,
+  "icon": 323,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": -4000,
+        "add": 0
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "attr": "airPower",
+        "k": 0,
+        "number": 23,
+        "time": 3.5,
+        "dotType": 2
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "苏俄冰锥减速"
+}

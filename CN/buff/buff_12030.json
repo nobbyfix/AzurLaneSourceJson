@@ -1,0 +1,75 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "picture": "",
+  "id": 12030,
+  "effect_list": [
+    {
+      "trigger": [
+        "onBulletCollide"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 8,
+        "countType": 12030,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 12030,
+        "quota": 3,
+        "skill_id": 12030
+      }
+    },
+    {
+      "trigger": [
+        "onBulletCollide"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 24,
+        "countType": 12031,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 12031,
+        "quota": 1,
+        "skill_id": 12031
+      }
+    }
+  ],
+  "desc": "主炮每击中8次敌人，增加自身炮击、装填，最多触发3次",
+  "icon": 12030,
+  "last_effect": "",
+  "name": "划破夜空之火",
+  "color": "red",
+  "desc_get": "主炮每击中8次敌人，增加自身炮击、装填，最多叠加3层",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

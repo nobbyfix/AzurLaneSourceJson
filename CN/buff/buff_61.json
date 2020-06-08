@@ -1,0 +1,34 @@
+{
+  "picture": "",
+  "id": 61,
+  "desc": "额外提升闪避5%",
+  "icon": 61,
+  "last_effect": "",
+  "time": 0,
+  "limit": [],
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.05,
+        "attr": "dodgeRateExtra"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.25,
+        "attr": "injureRatio"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "驱逐竞技场加成"
+}

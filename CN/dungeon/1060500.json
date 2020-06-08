@@ -1,0 +1,254 @@
+{
+  "id": 1060500,
+  "stages": [
+    {
+      "timeCount": 300,
+      "failCondition": 1,
+      "playerArea": [
+        -75,
+        20,
+        42,
+        68
+      ],
+      "stageIndex": 1,
+      "backGroundStageID": 1,
+      "totalArea": [
+        -75,
+        20,
+        90,
+        70
+      ],
+      "fleetCorrdinate": [
+        -80,
+        0,
+        75
+      ],
+      "mainUnitPosition": {
+        "1": [
+          [
+            -105,
+            0,
+            58
+          ],
+          [
+            -105,
+            0,
+            78
+          ],
+          [
+            -105,
+            0,
+            38
+          ]
+        ],
+        "-1": [
+          [
+            15,
+            0,
+            58
+          ],
+          [
+            15,
+            0,
+            78
+          ],
+          [
+            15,
+            0,
+            38
+          ]
+        ]
+      },
+      "enemyArea": [],
+      "passCondition": 1,
+      "waves": [
+        {
+          "preWaves": [],
+          "waveIndex": 100,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 0.5
+          }
+        },
+        {
+          "preWaves": [
+            100
+          ],
+          "triggerType": 0,
+          "conditionType": 1,
+          "waveIndex": 201,
+          "triggerParams": [],
+          "spawn": [
+            {
+              "moveCast": true,
+              "score": 0,
+              "corrdinate": [
+                -15,
+                0,
+                55
+              ],
+              "phase": [
+                {
+                  "setAI": 90004,
+                  "switchTo": 1,
+                  "switchParam": 1,
+                  "switchType": 1,
+                  "index": 0
+                },
+                {
+                  "switchTo": 2,
+                  "addWeapon": [
+                    594001,
+                    594003,
+                    594002,
+                    594004
+                  ],
+                  "switchParam": 2.5,
+                  "switchType": 1,
+                  "index": 1
+                },
+                {
+                  "switchTo": 3,
+                  "addWeapon": [],
+                  "removeWeapon": [
+                    594003
+                  ],
+                  "switchParam": 2.5,
+                  "switchType": 1,
+                  "index": 2
+                },
+                {
+                  "switchTo": 4,
+                  "addWeapon": [
+                    594005,
+                    594006
+                  ],
+                  "removeWeapon": [
+                    594001
+                  ],
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 3
+                },
+                {
+                  "switchTo": 5,
+                  "addWeapon": [
+                    594015
+                  ],
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 4
+                },
+                {
+                  "setAI": 10001,
+                  "switchTo": 6,
+                  "removeWeapon": [
+                    594015,
+                    594005,
+                    594006
+                  ],
+                  "addWeapon": [
+                    594001
+                  ],
+                  "switchParam": 2,
+                  "switchType": 1,
+                  "index": 5
+                },
+                {
+                  "switchTo": 7,
+                  "addWeapon": [
+                    594004
+                  ],
+                  "switchParam": 2,
+                  "switchType": 1,
+                  "index": 6
+                },
+                {
+                  "switchTo": 8,
+                  "removeWeapon": [
+                    594002
+                  ],
+                  "switchParam": 1,
+                  "switchType": 1,
+                  "index": 7
+                },
+                {
+                  "switchTo": 9,
+                  "addWeapon": [
+                    594016
+                  ],
+                  "switchParam": 10,
+                  "switchType": 1,
+                  "index": 8
+                },
+                {
+                  "switchTo": 10,
+                  "removeWeapon": [
+                    594016
+                  ],
+                  "switchParam": 2,
+                  "switchType": 1,
+                  "index": 9
+                },
+                {
+                  "switchTo": 200,
+                  "removeWeapon": [
+                    594001
+                  ],
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 10
+                },
+                {
+                  "setAI": 10001,
+                  "switchTo": 201,
+                  "addWeapon": [
+                    594016
+                  ],
+                  "switchParam": 2,
+                  "switchType": 1,
+                  "index": 200
+                },
+                {
+                  "switchTo": 202,
+                  "addWeapon": [
+                    594002
+                  ],
+                  "switchParam": 15,
+                  "switchType": 1,
+                  "index": 201
+                },
+                {
+                  "setAI": 90004,
+                  "switchTo": 0,
+                  "removeWeapon": [
+                    594016
+                  ],
+                  "switchParam": 2,
+                  "switchType": 1,
+                  "index": 202
+                }
+              ],
+              "monsterTemplateID": 10070501,
+              "delay": 1,
+              "bossData": {
+                "icon": "ceshizhe",
+                "hpBarNum": 100
+              }
+            }
+          ]
+        },
+        {
+          "preWaves": [
+            201
+          ],
+          "triggerType": 8,
+          "triggerParams": [],
+          "waveIndex": 900,
+          "key": true
+        }
+      ]
+    }
+  ],
+  "fleet_prefab": []
+}

@@ -1,0 +1,32 @@
+{
+  "picture": "",
+  "id": 10862,
+  "color": "red",
+  "desc": "提高雷击属性",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "last_effect": "",
+  "name": "强袭模式·EX",
+  "icon": 10862,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 3000,
+        "attr": "torpedoPower"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufared",
+  "time": 5
+}

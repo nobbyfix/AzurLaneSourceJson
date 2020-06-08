@@ -1,0 +1,47 @@
+{
+  "picture": "",
+  "id": 8602,
+  "desc": "炮击易伤",
+  "color": "red",
+  "last_effect": "Darkness",
+  "time": 0,
+  "icon": 2120,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 6,
+        "attr": "injureRatioByCannon"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.5,
+        "attr": "injureRatioByBulletTorpedo"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.5,
+        "attr": "injureRatioByAir"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "炮击易伤"
+}

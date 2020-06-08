@@ -1,0 +1,32 @@
+{
+  "picture": "",
+  "id": 8057,
+  "desc": "武器攻击速度加快0.5倍",
+  "icon": 8057,
+  "last_effect": "lansebuff",
+  "name": "武器攻击速度加快0.5倍",
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 50,
+        "attr": "loadspeed"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

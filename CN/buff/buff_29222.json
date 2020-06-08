@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行6次攻击，触发专属弹幕-伊吹II"
+  },
+  "picture": "",
+  "id": 29222,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 6,
+        "countType": 29220,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29220,
+        "skill_id": 29222
+      }
+    }
+  ],
+  "desc": "主炮每进行6次攻击，触发专属弹幕-伊吹II",
+  "icon": 29220,
+  "last_effect": "",
+  "name": "专属弹幕-伊吹II",
+  "color": "red",
+  "desc_get": "主炮每进行6次攻击，触发专属弹幕-伊吹II",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

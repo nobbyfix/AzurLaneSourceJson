@@ -1,0 +1,33 @@
+{
+  "picture": "",
+  "id": 60008,
+  "desc": "600081DOT,600082HOT",
+  "last_effect": "hongsebuff",
+  "time": 5,
+  "icon": 60008,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "minRestHPRatio": 0.01,
+        "time": 1,
+        "maxHPRatio": 0.06
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffHOT",
+      "arg_list": {
+        "maxHPRatio": 0.3
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "测试-不死鸟-DOT和HOT"
+}

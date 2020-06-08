@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行12次攻击，触发专属弹幕-圣女贞德I"
+  },
+  "picture": "",
+  "id": 29541,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 12,
+        "countType": 29540,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29540,
+        "skill_id": 29541
+      }
+    }
+  ],
+  "desc": "主炮每进行12次攻击，触发专属弹幕-圣女贞德I",
+  "icon": 29540,
+  "last_effect": "",
+  "name": "专属弹幕-圣女贞德I",
+  "color": "red",
+  "desc_get": "主炮每进行12次攻击，触发专属弹幕-圣女贞德I",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

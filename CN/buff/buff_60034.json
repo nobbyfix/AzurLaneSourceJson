@@ -1,0 +1,42 @@
+{
+  "picture": "",
+  "id": 60034,
+  "desc": "触发:主炮额外一轮攻击1",
+  "last_effect": "lingxing",
+  "time": 0,
+  "icon": 60034,
+  "effect_list": [
+    {
+      "trigger": [
+        "onBulletKill"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 60033
+      }
+    },
+    {
+      "trigger": [
+        "onBulletKill"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 60016
+      }
+    },
+    {
+      "trigger": [
+        "onBulletKill"
+      ],
+      "type": "BattleBuffWeaponCoolDown",
+      "arg_list": {
+        "weapon": "ChargeWeapon"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "测试-声望-战神-被动触发"
+}

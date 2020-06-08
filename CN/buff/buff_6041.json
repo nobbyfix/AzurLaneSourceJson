@@ -1,0 +1,36 @@
+{
+  "picture": "",
+  "id": 6041,
+  "desc": "命中和机动提高3%",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 6041,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "group": 6040,
+        "attr": "attackRating",
+        "number": 300
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "group": 6040,
+        "attr": "dodgeRate",
+        "number": 300
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "SG雷达T1"
+}

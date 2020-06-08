@@ -1,0 +1,62 @@
+{
+  "picture": "",
+  "id": 19091,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffShiftBullet",
+      "arg_list": {
+        "bullet_id": 1402,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 2,
+        "countType": 19091,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "countType": 19091,
+        "delay": 1.5,
+        "count": 1
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 19091
+      }
+    }
+  ],
+  "desc": "主炮炮弹修改为高爆弹，主炮进行2次攻击，切换为穿甲弹",
+  "icon": 19090,
+  "last_effect": "",
+  "name": "专业装填手",
+  "color": "red",
+  "desc_get": "主炮炮弹修改为高爆弹，主炮进行2次攻击，切换为穿甲弹",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

@@ -1,0 +1,44 @@
+{
+  "picture": "",
+  "id": 231,
+  "desc": "",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 231,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.12,
+        "attr": "damageRatioByAir"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.06,
+        "attr": "injureRatioByAir"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 500,
+        "attr": "attackRating"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "制空权优势"
+}

@@ -1,0 +1,437 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": {
+    "1": {
+      "mode": 1,
+      "sequence": [
+        [
+          "{namecode:71}的宴会\n\n<size=45>三 缘由</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    "2": {
+      "actor": 304020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "指挥官果然不记得了吗？之前还跟您说过这件事呢~",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_task"
+    },
+    "3": {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "在{namecode:71}笑容的注视下，似乎想起了什么…",
+      "bgName": "bg_story_task"
+    },
+    "4": {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.7,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.7,
+        "dur": 0.7
+      },
+      "say": "数日前·港区近海",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "level",
+      "bgmDelay": 2,
+      "bgName": "bg_story_nepu1"
+    },
+    "5": {
+      "say": "海域…确认完毕，没有发现异常",
+      "actor": 304040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "6": {
+      "actor": 304030,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "嗯…~虽然也不是说喜欢战斗啦，不过，像这样的日常巡逻还是有点没意思啊…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "7": {
+      "say": "要珍惜每一个和平的时刻呀~毕竟…随时可能有新的战斗在等着我们呢",
+      "actor": 304020,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "8": {
+      "say": "嘻嘻，{namecode:72}你这么无聊，要不要我们来对练一下？",
+      "actor": 304040,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "9": {
+      "actor": 304030,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "哼，来呀！我可不会输给你！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "10": {
+      "say": "哎呀呀，真是有精神呢…咳咳，现在还在巡逻任务中哟，这么松懈可不行。要玩也等到任务完成以后再玩",
+      "actor": 304020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "11": {
+      "actor": 304040,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "是…",
+      "subActors": [
+        {
+          "pos": {
+            "x": 1125
+          },
+          "actor": 304030
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:73}&{namecode:72}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "12": {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "看上去一副温柔模样的{namecode:71}，却意外地有震慑他人的气场",
+      "bgName": "bg_story_nepu1"
+    },
+    "13": {
+      "say": "目标海域巡逻完毕，准备返航吧~",
+      "actor": 304020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "14": {
+      "actor": 304020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "呵呵，大家都辛苦了呢~",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "options": [
+        {
+          "content": "慰劳大家",
+          "flag": 1
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "15": {
+      "say": "呵呵呵…指挥官也辛苦了。对了…说到慰劳…",
+      "actor": 304020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "16": {
+      "say": "不如来开个宴会吧！",
+      "actor": 304020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "17": {
+      "actor": 304040,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "say": "哦哦哦！{namecode:71}姐的宴会！",
+      "subActors": [
+        {
+          "pos": {
+            "x": 1125
+          },
+          "actor": 304030
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:73}&{namecode:72}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "18": {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.7,
+        "black": true
+      },
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.7,
+        "dur": 0.7
+      },
+      "say": "说起来，似乎是有这么一件事…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_task"
+    },
+    "19": {
+      "say": "哎呀呀，指挥官还真是…",
+      "actor": 304020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    "20": {
+      "say": "哈啊…本来还以为指挥官会记得，并且来帮忙的呢",
+      "actor": 304020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    "21": {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "有种微妙的罪恶感…",
+      "blackBg": true,
+      "bgName": "bg_story_task"
+    },
+    "action": [
+      {
+        "y": -75,
+        "type": "move",
+        "dur": 0.3,
+        "delay": 0,
+        "x": 0
+      }
+    ]
+  },
+  "fadeType": 2,
+  "mode": 2,
+  "id": "BIRUI3",
+  "once": true
+}

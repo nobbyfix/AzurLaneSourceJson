@@ -1,0 +1,32 @@
+{
+  "picture": "",
+  "id": 19021,
+  "color": "red",
+  "desc": "提高装填属性",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "last_effect": "",
+  "name": "海之女神",
+  "icon": 19021,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 3000,
+        "attr": "loadSpeed"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufared",
+  "time": 15
+}

@@ -1,0 +1,26 @@
+{
+  "picture": "",
+  "id": 60020,
+  "desc": "鱼雷狂乱",
+  "last_effect": "",
+  "time": 0,
+  "icon": 60020,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "check_target": "TargetAllHarmTorpedoBullet",
+        "target": "TargetAllHelp",
+        "buff_id": 60021,
+        "checkTargetMaxDistance": 20,
+        "isBuffStackByCheckTarget": true
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "测试-反击-技能触发被动"
+}

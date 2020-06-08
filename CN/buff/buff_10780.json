@@ -1,0 +1,65 @@
+{
+  "1": {
+    "desc": "幸运舰？"
+  },
+  "2": {
+    "desc": "幸运舰？"
+  },
+  "3": {
+    "desc": "幸运舰？"
+  },
+  "4": {
+    "desc": "幸运舰？"
+  },
+  "5": {
+    "desc": "幸运舰？"
+  },
+  "6": {
+    "desc": "幸运舰？"
+  },
+  "7": {
+    "desc": "幸运舰？"
+  },
+  "8": {
+    "desc": "幸运舰？"
+  },
+  "9": {
+    "desc": "幸运舰？"
+  },
+  "10": {
+    "desc": "幸运舰？"
+  },
+  "picture": "",
+  "id": 10780,
+  "desc": "每隔20秒，自身获得随机效果，持续5.0秒(满级10.0秒)",
+  "color": "blue",
+  "last_effect": "",
+  "time": 0,
+  "icon": 10780,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 20,
+        "buff_id": 10784
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 10780
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "幸运舰？"
+}

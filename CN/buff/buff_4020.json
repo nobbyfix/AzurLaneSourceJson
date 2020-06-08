@@ -1,0 +1,26 @@
+{
+  "picture": "",
+  "id": 4020,
+  "desc": "50%减伤",
+  "color": "blue",
+  "last_effect": "",
+  "time": 0.1,
+  "icon": 4020,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.5,
+        "attr": "injureRatio",
+        "target": "TargetSelf"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "重点防护"
+}

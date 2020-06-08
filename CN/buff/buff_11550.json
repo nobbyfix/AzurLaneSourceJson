@@ -1,0 +1,66 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "picture": "",
+  "id": 11550,
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "nationality": 1,
+        "exceptCaster": true,
+        "buff_id": 11551,
+        "minTargetNumber": 1,
+        "ship_type_list": [
+          3,
+          5
+        ],
+        "check_target": [
+          "TargetNationalityFriendly",
+          "TargetShipTypeFriendly"
+        ],
+        "isBuffStackByCheckTarget": true
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "nationality": 1,
+        "exceptCaster": true,
+        "check_target": [
+          "TargetNationalityFriendly",
+          "TargetShipTypeFriendly"
+        ],
+        "minTargetNumber": 1,
+        "ship_type_list": [
+          3,
+          5
+        ],
+        "skill_id": 11550
+      }
+    }
+  ],
+  "desc": "出击时，队友中每有一个白鹰联邦角色，自身炮击、防空、机动属性上升$1，最多3层",
+  "icon": 11550,
+  "last_effect": "",
+  "name": "Big Mamie",
+  "color": "red",
+  "desc_get": "出击时，队友中每有一个白鹰联邦角色，自身炮击、防空、机动属性上升$1，最多3层",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

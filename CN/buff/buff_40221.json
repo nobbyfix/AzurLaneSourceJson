@@ -1,0 +1,25 @@
+{
+  "picture": "",
+  "id": 40221,
+  "desc": "该入口提供战外挂载到战内",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 40220,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrCommander",
+      "arg_list": {
+        "ability": "command",
+        "convertAttr": "damageRatioBullet",
+        "convertRate": 0.00012
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "若旗舰为战列舰，旗舰造成的伤害提高，依据指挥属性"
+}

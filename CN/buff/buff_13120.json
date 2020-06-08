@@ -1,0 +1,70 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "picture": "",
+  "id": 13120,
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 13121,
+        "minTargetNumber": 1,
+        "ship_type_list": [
+          6,
+          7
+        ],
+        "check_target": "TargetShipTypeFriendly",
+        "isBuffStackByCheckTarget": true
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "ship_type_list": [
+          6,
+          7
+        ],
+        "skill_id": 13120,
+        "check_target": "TargetShipTypeFriendly"
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "streakRange": [
+          0,
+          2
+        ],
+        "skill_id": 13121
+      }
+    }
+  ],
+  "desc": "",
+  "icon": 13120,
+  "last_effect": "",
+  "name": "里诺",
+  "color": "red",
+  "desc_get": "",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

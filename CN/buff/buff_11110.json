@@ -1,0 +1,57 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "picture": "",
+  "id": 11110,
+  "effect_list": [
+    {
+      "trigger": [
+        "onChargeWeaponFire"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 11110
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 11111
+      }
+    },
+    {
+      "trigger": [
+        "onBulletHit"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "index": [
+          1
+        ],
+        "weaponType": 23,
+        "buff_id": 11112
+      }
+    }
+  ],
+  "desc": "战斗内，第一轮炮击伤害提高$1，主炮炮击命中敌人时，使目标受到伤害提高$2，持续8秒",
+  "icon": 11110,
+  "last_effect": "",
+  "name": "约克公爵2技能",
+  "color": "yellow",
+  "desc_get": "战斗内，第一轮炮击伤害提高$1，主炮炮击命中敌人时，使目标受到伤害提高$2，持续8秒",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

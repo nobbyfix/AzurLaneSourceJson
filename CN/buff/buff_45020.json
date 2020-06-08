@@ -1,0 +1,42 @@
+{
+  "picture": "",
+  "id": 45020,
+  "desc": "舰队成员造成伤害提高3%",
+  "last_effect": "",
+  "time": 0,
+  "icon": 45020,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFlagShip",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 45021
+      }
+    },
+    {
+      "trigger": [
+        "onSubLeader",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHelp",
+          "TargetShipType"
+        ],
+        "ship_type_list": [
+          8,
+          17
+        ],
+        "buff_id": 45021
+      }
+    }
+  ],
+  "stack": 2,
+  "init_effect": "jinengchufared",
+  "name": "指挥喵天赋-侵略如火"
+}

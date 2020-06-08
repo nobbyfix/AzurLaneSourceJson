@@ -1,0 +1,46 @@
+{
+  "picture": "",
+  "id": 43,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 48
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 30,
+        "skill_id": 43
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 0,
+        "delay": 31
+      }
+    }
+  ],
+  "desc": "前排全灭30秒后触发绝地反击效果，随后每15秒触发1次，最多可叠加5次",
+  "icon": 43,
+  "last_effect": "",
+  "name": "绝地反击",
+  "color": "绝地反击",
+  "desc_get": "前排全灭30秒后触发绝地反击效果，随后每15秒触发1次，最多可叠加5次",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

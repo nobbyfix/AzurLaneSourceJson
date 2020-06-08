@@ -1,0 +1,311 @@
+{
+  "fleet_prefab": {
+    "vanguard_unitList": [
+      {
+        "oil_at_end": 55,
+        "exp": 10,
+        "id": 1,
+        "properties": {
+          "durability": 85567,
+          "cannon": 1000,
+          "antiaircraft": 310,
+          "reload": 830,
+          "hit": 140,
+          "luck": 70,
+          "dodge": 164,
+          "speed": 31.5,
+          "armor": 98,
+          "air": 0,
+          "torpedo": 150
+        },
+        "tmpID": 900185,
+        "equipment": [
+          false,
+          false,
+          false
+        ],
+        "skills": [
+          {
+            "id": 9061,
+            "level": 1
+          },
+          {
+            "id": 9071,
+            "level": 1
+          },
+          {
+            "id": 20142,
+            "level": 1
+          }
+        ],
+        "configId": 900185,
+        "level": 120,
+        "energy": 10,
+        "skinId": 900185
+      },
+      {
+        "oil_at_end": 55,
+        "exp": 10,
+        "id": 2,
+        "properties": {
+          "durability": 85567,
+          "cannon": 1000,
+          "antiaircraft": 310,
+          "reload": 830,
+          "hit": 140,
+          "luck": 70,
+          "dodge": 164,
+          "speed": 31.5,
+          "armor": 98,
+          "air": 0,
+          "torpedo": 150
+        },
+        "tmpID": 900186,
+        "equipment": [
+          false,
+          false,
+          false
+        ],
+        "skills": [
+          {
+            "id": 9081,
+            "level": 1
+          },
+          {
+            "id": 9071,
+            "level": 1
+          },
+          {
+            "id": 20142,
+            "level": 1
+          }
+        ],
+        "configId": 900186,
+        "level": 120,
+        "energy": 10,
+        "skinId": 900186
+      }
+    ],
+    "main_unitList": [
+      {
+        "equipment": [
+          false,
+          false,
+          false
+        ],
+        "skinId": 900184,
+        "skills": [
+          {
+            "id": 9050,
+            "level": 1
+          }
+        ],
+        "properties": {
+          "durability": 66744,
+          "cannon": 200,
+          "antiaircraft": 300,
+          "reload": 83,
+          "hit": 140,
+          "luck": 38,
+          "dodge": 0,
+          "speed": 31,
+          "armor": 1150,
+          "air": 0,
+          "torpedo": 0
+        },
+        "configId": 900184,
+        "level": 120,
+        "id": 1,
+        "tmpID": 900184
+      }
+    ]
+  },
+  "map_id": 10005,
+  "bgm": "battle-maid",
+  "id": 4000,
+  "stages": [
+    {
+      "timeCount": 300,
+      "failCondition": 1,
+      "playerArea": [
+        -70,
+        20,
+        37,
+        68
+      ],
+      "stageIndex": 1,
+      "backGroundStageID": 1,
+      "totalArea": [
+        -70,
+        20,
+        90,
+        70
+      ],
+      "fleetCorrdinate": [
+        -80,
+        0,
+        75
+      ],
+      "mainUnitPosition": {
+        "1": [
+          [
+            -105,
+            0,
+            58
+          ],
+          [
+            -105,
+            0,
+            78
+          ],
+          [
+            -105,
+            0,
+            38
+          ]
+        ],
+        "-1": [
+          [
+            15,
+            0,
+            58
+          ],
+          [
+            15,
+            0,
+            78
+          ],
+          [
+            15,
+            0,
+            38
+          ]
+        ]
+      },
+      "enemyArea": [],
+      "passCondition": 1,
+      "waves": [
+        {
+          "preWaves": [],
+          "waveIndex": 100,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 0.5
+          }
+        },
+        {
+          "preWaves": [
+            100
+          ],
+          "waveIndex": 200,
+          "triggerType": 3,
+          "triggerParams": {
+            "id": "FENGBAOQIANXI1"
+          }
+        },
+        {
+          "preWaves": [
+            200
+          ],
+          "triggerType": 0,
+          "conditionType": 1,
+          "spawn": [
+            {
+              "reinforceDelay": 5,
+              "moveCast": true,
+              "corrdinate": [
+                5,
+                0,
+                55
+              ],
+              "buffList": [],
+              "monsterTemplateID": 12300022,
+              "delay": 0,
+              "bossData": {
+                "icon": "xiefeierde",
+                "hpBarNum": 30
+              }
+            }
+          ],
+          "waveIndex": 101,
+          "key": true,
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            101
+          ],
+          "triggerType": 0,
+          "conditionType": 1,
+          "spawn": [
+            {
+              "reinforceDelay": 5,
+              "moveCast": true,
+              "corrdinate": [
+                10,
+                0,
+                55
+              ],
+              "buffList": [],
+              "monsterTemplateID": 12300023,
+              "delay": 0,
+              "bossData": {
+                "icon": "huangjiafangzhou",
+                "hpBarNum": 30
+              }
+            }
+          ],
+          "waveIndex": 102,
+          "key": true,
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            102
+          ],
+          "triggerType": 0,
+          "conditionType": 1,
+          "spawn": [
+            {
+              "reinforceDelay": 5,
+              "corrdinate": [
+                5,
+                0,
+                55
+              ],
+              "moveCast": true,
+              "monsterTemplateID": 12300024,
+              "delay": 0,
+              "bossData": {
+                "icon": "weiershi",
+                "hpBarNum": 30
+              }
+            }
+          ],
+          "waveIndex": 103,
+          "key": true,
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            103
+          ],
+          "waveIndex": 900,
+          "triggerType": 8,
+          "triggerParams": []
+        },
+        {
+          "preWaves": [
+            900
+          ],
+          "triggerType": 3,
+          "triggerParams": {
+            "id": "FENGBAOQIANXI10"
+          },
+          "waveIndex": 202,
+          "key": true
+        }
+      ]
+    }
+  ]
+}
