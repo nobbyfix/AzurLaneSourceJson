@@ -1,0 +1,608 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "セントーと先輩たち\n\n<size=45>五　映画の中にいたような…</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "actor": 207020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "よもや私が一番欲しがっているものを手にするとは…全く罪な後輩よ……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 206040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "そ、そうですか…？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 207040,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "アーク・ロイヤル、後輩に愚痴を垂れ流すのはやめなさい。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 207020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "say": "ふん、セントーが今持っているものがどれだけ大切かあなたにはわかるまい……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 206040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "ヴィクトリアス先輩も！おはようございます！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 0.5
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 207040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "おはよう。指揮官、この前の任務の報告書よ。あとで確認して。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "options": [
+        {
+          "content": "書類を確認する",
+          "flag": 1
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "あら、よくよく見ると、セントーには意外と親近感を感じるわね。なんだろ……変装すれば私のこともうまく演じれたり？",
+      "actor": 207040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 207020,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "そうか？ヴィクトリアスもそう思っているのか？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "回復早っ！？……ええと、念の為確認するけど、それって羨ましさから来てるんじゃないよね？",
+      "actor": 207040,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 207020,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "断じて違う！私もセントーにそんな感じの雰囲気があると思って近づいたまでだ。…それでさっきの話に繋がったわけだが。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 0.4,
+          "number": 2,
+          "delay": 1,
+          "x": 22.5
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "ま、まあね。",
+      "actor": 207040,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "実は私もお二人に同じような親近感を感じていました。",
+      "actor": 206040,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 0.5
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "そう？まあアーク・ロイヤルは置いといて、私たちは意外と気が合うかも。なにか飲みながらおしゃべりでもしない？",
+      "actor": 207040,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 207040,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "指揮官、少し休憩させていただいていいかしら？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "options": [
+        {
+          "content": "（うなずく）",
+          "flag": 1
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 207040,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "そういえば、セントーの耳って結構珍しいよね？デュークと同じ本物？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 206040,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "そうですね…私、ほとんどの先輩たちと耳の形が違うので、自分でもちょっと不思議です。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 207020,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "確かに重桜の獣耳とも違うな。なんでだろう。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 207020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "options": [
+        {
+          "content": "（頭を振る）",
+          "flag": 1
+        }
+      ],
+      "say": "指揮官はなにか手がかりでも持っていないのか？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 2
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "えっと、私にもよくはわかりませんが、時々なんとなくこんな考えが浮かぶことがあります……",
+      "actor": 206040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 207040,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "それって？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 206040,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "セントーはすなわちケンタウルス、森の中に棲む存在だと聞きましたけど、",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 206040,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "そのケンタウルスから「森」という「認識」が付け加えられたんじゃないかな、と……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "「認識」、か……夕張や明石とか科学部の連中が好きそうな話だな。",
+      "actor": 207020,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 206040,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "あの二人とはお知り合いですか？ぜひお話を聞いてみたいです。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "結局デュークと同じでわからずじまいね……そうだ、今度衣装を私にも作らせてよ。私、こういうファンタジーっぽい服は結構すきなのよ？",
+      "actor": 207040,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 206040,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "それは構いませんが……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "じゃあ決まりね！まだ任務があるから私はこれで失礼するわ。――指揮官、秘書艦はお返しするわ。",
+      "actor": 207040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 207020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "私も任務に戻るとしよう。セントー、今度駆逐艦の妹たちと遊ぶときは、わ、私も呼んでくれないか…？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 0.4,
+          "number": 2,
+          "delay": 1.5,
+          "x": 22.5
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 206040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "say": "もちろんです！よろしくお願いします！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "BANRENMA5",
+  "once": true
+}

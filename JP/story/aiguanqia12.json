@@ -1,0 +1,329 @@
+{
+  "scripts": [
+    {
+      "actor": 301050,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "障害物があるせいで、向こう側へ行けないです。何とかしてあれを排除したいところですけど…"
+    },
+    {
+      "actor": 101170,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "あの水陸両用車、邪魔"
+    },
+    {
+      "actor": 401230,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "何か良い方法があればいいのですが…"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 10400030,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "キズナアイ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "みんなー、なんか見つけたよー！えーっと、これは…何かのスイッチかな？"
+    },
+    {
+      "actor": 301110,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "これが「じばくすいっち」なのかな？押したらどっかーん！「ゲームオーバー」になっちゃったりして"
+    },
+    {
+      "actor": 301120,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "雷の言う通り、そういう可能性もあるから、あまり不用意に触らない方がよさそうですね……"
+    },
+    {
+      "soundeffect": "event:/ui/boat_drag",
+      "side": 2,
+      "say": "ポチッ",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "dir": 1
+    },
+    {
+      "actor": 10400030,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 5,
+      "say": "あわわ！間違えて押しちゃった！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "キズナアイ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "actor": 201210,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "subActors": [
+        {
+          "pos": {
+            "x": 555
+          },
+          "actor": 101170
+        },
+        {
+          "pos": {
+            "x": 1125
+          },
+          "actor": 301110
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "みんな",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "……………"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "（爆発……は起きなかった）"
+    },
+    {
+      "actor": 201210,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "あ、あれ…？い、生きてる…？"
+    },
+    {
+      "actor": 301120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "あちらのほうから爆発音が聞こえてきましたよ"
+    },
+    {
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 401230,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "あれは…さっきまで道を塞いでいた車が消し飛んでいます！"
+    },
+    {
+      "actor": 10400030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "や、やったー！これで奥へ進めるね！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "キズナアイ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "actor": 301120,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "subActors": [
+        {
+          "pos": {
+            "x": 555
+          },
+          "actor": 401230
+        },
+        {
+          "pos": {
+            "x": 1125
+          },
+          "actor": 301050
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "全员",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "ジトーーーーー"
+    },
+    {
+      "actor": 10400030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 6,
+      "say": "み、みんなごめんってば～！許して～！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "キズナアイ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 22.5,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 3,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "actor": 101170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "アイ、ドンマイ"
+    }
+  ],
+  "id": "AIGUANQIA12",
+  "mode": 2,
+  "fadein": 1.5,
+  "once": true
+}

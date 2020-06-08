@@ -1,0 +1,35 @@
+{
+  "picture": "",
+  "id": 46,
+  "desc": "每隔15秒触发绝地反击效果",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 46,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 15,
+        "skill_id": 46
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 0,
+        "delay": 61
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "绝地反击"
+}

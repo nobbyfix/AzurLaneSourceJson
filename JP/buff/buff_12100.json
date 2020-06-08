@@ -1,0 +1,50 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "picture": "",
+  "id": 12100,
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "nationality": 4,
+        "buff_id": 12101,
+        "minTargetNumber": 1,
+        "check_target": "TargetNationalityFriendly",
+        "isBuffStackByCheckTarget": true
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 1,
+        "nationality": 4,
+        "skill_id": 12100,
+        "check_target": "TargetNationalityFriendly"
+      }
+    }
+  ],
+  "desc": "出击时，队友中每有一个铁血角色，自身航空、防空、装填属性上升$1",
+  "icon": 12100,
+  "last_effect": "",
+  "name": "铁血第一航母",
+  "color": "yellow",
+  "desc_get": "出击时，队友中每有一个铁血角色，自身航空、防空、装填属性上升1.0%(满级5.0%)",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

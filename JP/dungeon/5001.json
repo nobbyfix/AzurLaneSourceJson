@@ -1,0 +1,106 @@
+{
+  "id": 5001,
+  "stages": [
+    {
+      "timeCount": 1800,
+      "failCondition": 1,
+      "playerArea": [
+        -75,
+        20,
+        42,
+        68
+      ],
+      "stageIndex": 1,
+      "backGroundStageID": 1,
+      "totalArea": [
+        -75,
+        20,
+        90,
+        70
+      ],
+      "fleetCorrdinate": [
+        -80,
+        0,
+        75
+      ],
+      "mainUnitPosition": {
+        "1": [
+          [
+            -105,
+            0,
+            58
+          ],
+          [
+            -105,
+            0,
+            78
+          ],
+          [
+            -105,
+            0,
+            38
+          ]
+        ],
+        "-1": [
+          [
+            15,
+            0,
+            58
+          ],
+          [
+            15,
+            0,
+            78
+          ],
+          [
+            15,
+            0,
+            38
+          ]
+        ]
+      },
+      "enemyArea": [],
+      "passCondition": 1,
+      "waves": [
+        {
+          "preWaves": [],
+          "triggerType": 0,
+          "conditionType": 0,
+          "waveIndex": 101,
+          "spawn": [
+            {
+              "score": 0,
+              "corrdinate": [
+                -15,
+                0,
+                55
+              ],
+              "phase": [
+                {
+                  "switchTo": 1,
+                  "switchParam": 200,
+                  "index": 0,
+                  "switchType": 1
+                }
+              ],
+              "monsterTemplateID": 10106031,
+              "delay": 0,
+              "moveCast": true
+            }
+          ],
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            101
+          ],
+          "triggerType": 8,
+          "triggerParams": [],
+          "waveIndex": 900,
+          "key": true
+        }
+      ]
+    }
+  ],
+  "fleet_prefab": []
+}

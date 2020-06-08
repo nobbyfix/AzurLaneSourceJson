@@ -1,0 +1,562 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "ナイト・オブ・ロイヤル\n\n<size=45>五 ささやかな悩み</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "今日も秘書艦の仕事に励もうか！早く執務室へ――",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "うん？指揮官の他にも誰かがいる…？",
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "ふふ、大丈夫ですよ～必要でしたらまたいつでも声をかけてくださいね。指揮官さま",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "？？？",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "blackBg": true,
+      "say": "（この声は……イラストリアス？）"
+    },
+    {
+      "say": "私はこれで失礼します",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "イラストリアス",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 207030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "y": 0,
+          "type": "move",
+          "dur": 0.6,
+          "delay": 0,
+          "x": -2250
+        }
+      ],
+      "say": "あら、ウォースパイトさま、おはようございます",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorPosition": {
+        "y": 0,
+        "x": 2250
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 205020,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "お、おはよう",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "withoutActorName": true,
+      "say": "（すらりっ）",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 207030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "withoutActorName": true,
+      "say": "（ぼいんっ）",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "blackBg": true,
+      "say": "（こ、この謎の敗北感は……）"
+    },
+    {
+      "actor": 207030,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "ウォースパイトさま、お顔色が悪いようですが……昨夜はよく眠れなかったのですか？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 205020,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "そ、そうね……でも心配ないわ。この程度の疲労など仕事に障らないわよ",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 0.4,
+          "number": 2,
+          "delay": 0,
+          "x": 22.5
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "ウォースパイトさまがそう仰るのなら……お大事になさってくださいね",
+      "actor": 207030,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "ありがとう。気をつけるわ",
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "……",
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "say": "委託のレポートは確か……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "blackBg": true,
+      "say": "（そういえば、後輩たちはみんな……）"
+    },
+    {
+      "actor": 205030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "withoutActorName": true,
+      "blackBg": true,
+      "effects": [
+        {
+          "name": "memoryFog",
+          "active": true
+        }
+      ],
+      "say": "……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "actor": 207030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "withoutActorName": true,
+      "blackBg": true,
+      "say": "……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "actor": 201100,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "withoutActorName": true,
+      "blackBg": true,
+      "say": "……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "effects": [
+        {
+          "name": "memoryFog",
+          "active": false
+        }
+      ],
+      "say": "（だ、ダメだ…相手にならない……）",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "はい？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 60,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 1,
+          "delay": 0.15,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "あっ…すまない指揮官、少し考え込んでいただけだわ",
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "任務は全部完了した？今日は捗るわね……次の予定まで時間が空いているが、何をしようかしら？",
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "ロイヤルネイビーの栄光なる歴史を聞きたい？",
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "…ふん、そんなに聞きたければ教えてあげても構わないわ。話が長くなるから覚悟してちょうだい",
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "ではこのウォースパイトのカンレキから始めようかしら！ロイヤルネイビー大艦隊、第二戦艦艦隊に配属された私は……",
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "blackBg": true,
+      "say": "（……なんだか気持ちが晴れやかになったな）"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "YANZHAN5",
+  "once": true
+}

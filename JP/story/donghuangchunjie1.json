@@ -1,0 +1,507 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "ワイワイ旧正月！\n\n<size=45>一 新しい冒険の始まり！</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "母港・東煌寮",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "main-chunjie",
+      "bgmDelay": 2,
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "say": "春節（しゅんせつ）だ！万事順調一家団欒、みんなあけましておめでとう！えっへん！",
+      "actor": 501020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "actor": 501020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "どう、姉さん？新年の挨拶ちゃんとできたでしょ？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "actor": 501010,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "もう、「えっへん」とか言わない！挨拶くらいまじめにやりなさいよ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "actor": 501020,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "じゃあほとんど問題なしってことでいいよね！よし、これでみんなと遊びに行けるぞー！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "move",
+          "dur": 0.5,
+          "delay": 0.3,
+          "x": -2250
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "actor": 501010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "y": 0,
+          "type": "move",
+          "dur": 0.5,
+          "delay": 0,
+          "x": 750
+        }
+      ],
+      "subActors": [
+        {
+          "pos": {
+            "x": -825
+          },
+          "actor": 501020
+        }
+      ],
+      "say": "こら！みんな春節の準備で忙しいから、迷惑をかけてどうするの！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorPosition": {
+        "y": 0,
+        "x": -750
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "say": "ちぇ。つまんない～あっそうだ姉さん！灯篭（とうろう）をかけるの手伝いに行ってもいい？",
+      "actor": 501020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "say": "気づかれないだろうと思って、抜け出すんじゃないわよ！……太原（タイゲン）、撫順がどこにも行かないよう見張って",
+      "actor": 501010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "say": "あ、はい。でも鞍山（アンシャン）姉さん、撫順（ブジュン）姉さんを見張るのはちょっと……",
+      "actor": 501041,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "actor": 101382,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": "2",
+      "say": "鞍山、キッチンの方で少し手を借りたいです",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "actor": 101392,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "お、おかしいな……ほぼレシピ通り作ったのに……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "actor": 101382,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "ほぼ、ですか…変なものでも入れたのでしょうか……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "actor": 101392,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "せ、せっかく作るわけだし新しいアレンジでも入れようかなって……鞍山さん、お願い～",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "say": "はい！今行きますよ！",
+      "actor": 501010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "say": "もう、忙しくて手がまわらないのね……撫順、太原、ちゃんとみんなの手伝いをするのよ！",
+      "actor": 501010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "say": "はいよ～、姉さんいってらっしゃーい！",
+      "actor": 501020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "actor": 501041,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "say": "それじゃ撫順姉さん、灯篭を取りに行きましょうか",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "say": "へへ、実は灯篭掛けはもう済んでるよ！鞍山姉さんも行ったし、やっと遊びに行けるよ！",
+      "actor": 501020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "say": "太原も一緒に来ない？今すっごく面白いことを思いついたんだから！",
+      "actor": 501020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "actor": 501041,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "えええっ！？で、でも鞍山姉さんはさっき――",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 0.4,
+          "number": 2,
+          "delay": 0,
+          "x": 22.5
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "say": "大丈夫大丈夫、すぐ戻ってくるから。母港のどこかに爆竹（ばくちく）を作る火薬がないか見てくるだけだもん～",
+      "actor": 501020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "actor": 501041,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "ば、爆竹ですか！？あ、危ないですよ……うっかりしたら――",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "say": "春節は爆竹を鳴らしてなんぼだよ？はいはい、姉さんの話を聞いてかるーく回ってくるだけでいいから、さあさあ～",
+      "actor": 501020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    },
+    {
+      "actor": 501041,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "expression": 1,
+      "say": "えっ、えええ……撫順姉さん、せめて自分で歩かせてくださいよ……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_102"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "DONGHUANGCHUNJIE1",
+  "once": true
+}

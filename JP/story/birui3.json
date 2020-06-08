@@ -1,0 +1,437 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": {
+    "1": {
+      "mode": 1,
+      "sequence": [
+        [
+          "御召艦の宴\n\n<size=45>三 きっかけは良しなに</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    "2": {
+      "actor": 304020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "思い出しました？この前お話したことを……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_task"
+    },
+    "3": {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "そういえば、宴会の話は確か……",
+      "bgName": "bg_story_task"
+    },
+    "4": {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.7,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.7,
+        "dur": 0.7
+      },
+      "say": "数日前、母港周辺海域",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "level",
+      "bgmDelay": 2,
+      "bgName": "bg_story_nepu1"
+    },
+    "5": {
+      "say": "周辺海域…よし、異常なしっと。",
+      "actor": 304040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "6": {
+      "actor": 304030,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "別に戦いたいわけじゃないけど、この定期パトロールって平和すぎてなんだか面白くないよね……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "7": {
+      "say": "平和な日こそ大切にしないと。戦いがいつ始まるかは誰にもわからないですもの。",
+      "actor": 304020,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "8": {
+      "say": "榛名、そんなにふてくされてるなら、私と組手でもやってみないかい？",
+      "actor": 304040,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "9": {
+      "actor": 304030,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "！ならかかってこい！絶対に負けないッ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "10": {
+      "say": "元気そうなのはいいですけど…まだ任務中ですよ？やるなら母港に戻ってからにしてちょうだい。",
+      "actor": 304020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "11": {
+      "actor": 304040,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "はい…",
+      "subActors": [
+        {
+          "pos": {
+            "x": 1125
+          },
+          "actor": 304030
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:73}&{namecode:72}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "12": {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "言葉こそ厳しくないが、気迫で二人を止めさせた比叡だった。",
+      "bgName": "bg_story_nepu1"
+    },
+    "13": {
+      "say": "……ふぅ。ここまでですね。母港に帰還しましょうか。",
+      "actor": 304020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "14": {
+      "actor": 304020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "みんな、お疲れ様でした。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "options": [
+        {
+          "content": "みんなを労う",
+          "flag": 1
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "15": {
+      "say": "ふふ、指揮官様もお疲れ様でした。労うといえば……",
+      "actor": 304020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "16": {
+      "say": "宴会を開いてはどうでしょうか？",
+      "actor": 304020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "17": {
+      "actor": 304040,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "say": "おおお！比叡さんの宴会！",
+      "subActors": [
+        {
+          "pos": {
+            "x": 1125
+          },
+          "actor": 304030
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:73}&{namecode:72}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    "18": {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.7,
+        "black": true
+      },
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.7,
+        "dur": 0.7
+      },
+      "say": "そういえばそんなことがあったな……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_task"
+    },
+    "19": {
+      "say": "あらら、指揮官様ったら……",
+      "actor": 304020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    "20": {
+      "say": "手伝いに来てくださるのではないかと楽しみにしていましたのに……",
+      "actor": 304020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    "21": {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "すみませんでした……",
+      "blackBg": true,
+      "bgName": "bg_story_task"
+    },
+    "action": [
+      {
+        "y": -75,
+        "type": "move",
+        "dur": 0.3,
+        "delay": 0,
+        "x": 0
+      }
+    ]
+  },
+  "fadeType": 2,
+  "mode": 2,
+  "id": "BIRUI3",
+  "once": true
+}

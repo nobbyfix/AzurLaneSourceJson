@@ -1,0 +1,536 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "bgm": "level02",
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "2隻目の補給艦も撃破。U-110はサメだぞ。がおー",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 408080,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "dir": 1
+    },
+    {
+      "actor": 408080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "新しい目標に向けてゴ―"
+    },
+    {
+      "actor": 408080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "ん？あなたたちは…"
+    },
+    {
+      "actor": 201070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "ブルドッグたちはロイヤルの駆逐艦です。補給艦ではありません"
+    },
+    {
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 201010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "かかったね潜水艦！今回は逃さないわよ！"
+    },
+    {
+      "action": [
+        {
+          "y": -1000,
+          "type": "move",
+          "dur": 2,
+          "delay": 0.5,
+          "x": 0
+        }
+      ],
+      "actor": 408080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "………ぷくぷく"
+    },
+    {
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.1,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 201010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "無言で潜ろうとするな！"
+    },
+    {
+      "actor": 408080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "withoutActorName": true,
+      "expression": 1,
+      "say": "アマゾンの威嚇射撃を受け、浅く潜ったU-110は海から顔を出した。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 1000,
+          "type": "move",
+          "dur": 1,
+          "delay": 2,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actorPosition": {
+        "y": -1000,
+        "x": 0
+      }
+    },
+    {
+      "say": "いきなり",
+      "actor": 408080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 201010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "あんた、名前を言ってごらんなさい！"
+    },
+    {
+      "actor": 408080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "…………"
+    },
+    {
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 0.4,
+          "number": 3,
+          "delay": 0,
+          "x": 30
+        }
+      ],
+      "actor": 408080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "U-110はサメだぞー。怖いぞー"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 408080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "withoutActorName": true,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "U-110は背ビレ（？）を揺らしてアマゾンたちを威嚇（？）した。"
+    },
+    {
+      "actor": 201010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "……なにこれ？"
+    },
+    {
+      "actor": 201070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "にんにく……？"
+    },
+    {
+      "actor": 408080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "……にんにく？"
+    },
+    {
+      "actor": 201070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "うん、にんにく"
+    },
+    {
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 201010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "………何言ってるんだこいつら……"
+    },
+    {
+      "actor": 201070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "サメはかっこいいお魚さんと思います。はい"
+    },
+    {
+      "actor": 408080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "うん、かっこいいぞー。怖いぞー。がおー"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 408080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "withoutActorName": true,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "U-110はサメの咆哮（？）をブルドッグに放った。"
+    },
+    {
+      "actor": 201070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "でもこれはサメじゃありません。にんにくっ子です。失望しました"
+    },
+    {
+      "say": "にんにくっ子じゃない。サメだぞー",
+      "actor": 408080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "actor": 408080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "U-110をバカにする子、お仕置きだ！"
+    },
+    {
+      "actor": 201070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "（小声）アマゾンさん、今です"
+    },
+    {
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 201010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "ん？"
+    },
+    {
+      "actor": 201070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "（小声）動きを止めました。チャンスです"
+    },
+    {
+      "actor": 201010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "え？……そ、そういえばそうだわね！"
+    },
+    {
+      "actor": 201010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "ふふん！このアマゾンが対潜戦の手本を見せてやるわ！"
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "ZUIZHENGUIDEBAOWU4",
+  "once": true
+}

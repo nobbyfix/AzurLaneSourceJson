@@ -1,0 +1,31 @@
+{
+  "picture": "",
+  "id": 10202,
+  "desc": "伤害提高",
+  "icon": 10202,
+  "last_effect": "",
+  "name": "LuckyE",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "damageRatioBullet"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufared",
+  "time": 8
+}

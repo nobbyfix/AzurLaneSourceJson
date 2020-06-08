@@ -1,0 +1,26 @@
+{
+  "picture": "",
+  "id": 40251,
+  "desc": "先锋受到的伤害降低,依据后勤属性,持续30秒",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 30,
+  "icon": 40250,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrCommander",
+      "arg_list": {
+        "ability": "support",
+        "convertAttr": "injureRatio",
+        "convertRate": -0.00018
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": ""
+}

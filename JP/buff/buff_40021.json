@@ -1,0 +1,36 @@
+{
+  "picture": "",
+  "id": 40021,
+  "desc": "战列-指挥-炮击II+战列-指挥-防空II",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 40021,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatioCommander",
+      "arg_list": {
+        "ability": "command",
+        "convertAttr": "cannonPower",
+        "convertRate": 0.8
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatioCommander",
+      "arg_list": {
+        "ability": "command",
+        "convertAttr": "antiAirPower",
+        "convertRate": 0.8
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "战列-指挥-炮击II+战列-指挥-防空II具体效果"
+}

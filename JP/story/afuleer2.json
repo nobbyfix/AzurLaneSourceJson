@@ -1,0 +1,507 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "アヴローラと愉快な仲間たち\n\n<size=45>二、ノスタルジック</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "アヴローラから艦種連携演習の話を聞いた。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "大したことはしていませんよ？皆の進む先にある暁を指し示したまで――",
+      "actor": 702010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "と言っても流石にちょっとわかりにくいでしょうか。うーん……どこから説明すればいいでしょう？",
+      "actor": 702010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "アヴローラは透明の液体が入った2つのステンレスカップを持ってきた。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "多分話が長くなりますから、お飲み物でもいかがでしょうか？",
+      "actor": 702010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "この間北方連合から取り寄せてきた本場の飲み物ですよ",
+      "actor": 702010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "本場の飲み物……もしかして「アレ」か……",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "さっきカップに中身を注いだガラス瓶の上のラベルは、確か――",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 702010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "指揮官、どうぞ",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "options": [
+        {
+          "content": "ブルジョワ的に少し飲む",
+          "flag": 1
+        },
+        {
+          "content": "プロレタリアート的にガツンと飲む",
+          "flag": 2
+        }
+      ],
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "……もし本当に「アレ」だとしたら、ここは――",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "optionFlag": 1,
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "……あ、アルコールだこれ……",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "optionFlag": 1,
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "ほんの少しだけしか飲んでいないのに、口の中はまるで焼かれているかのような灼熱感を感じる。",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 702010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "optionFlag": 1,
+      "say": "指揮官、大丈夫ですか…？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "optionFlag": 2,
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "体の中から炎が燃え上がっているような気がする…",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "optionFlag": 2,
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "液体を通す口と喉、内蔵だけでなく、頭の中までが強烈な灼熱感に包まれ、目が眩む。",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "optionFlag": 2,
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "…………意識をしっかり取り戻すのに数分かかった。",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 702010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "optionFlag": 2,
+      "say": "指揮官、大丈夫ですか…？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "人にとっての「暁の光」、そして私達北方連合の艦船のカンレキと革命（レヴォリュツィヤ）……",
+      "actor": 702010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "指揮官には色々お話しますね――",
+      "actor": 702010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "say": "アヴローラは落ち着いた口調で、北方連合の数々のエピソードを語りだした。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-2",
+      "bgmDelay": 1,
+      "bgName": "bg_story_task"
+    },
+    {
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "個性豊かな仲間たちとのドタバタな日常",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "セイレーンとの戦いにおける数々の出来事",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "白一色の北の景色と多彩な文化、人々の生活や風習――",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "次々と話題が変わっていくうちに、ウォッカの瓶がいつの間にか空っぽになっていた。",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "いつか、指揮官と一緒に北方連合を旅してみたいですね～",
+      "actor": 702010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "彼女の言葉から微かなノスタルジックと、計り知れない前向きさを感じ取れた。",
+      "blackBg": true,
+      "bgName": "bg_story_task"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "AFULEER2",
+  "once": true
+}

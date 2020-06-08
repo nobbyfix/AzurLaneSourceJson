@@ -1,0 +1,378 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "dir": 1,
+      "effects": [
+        {
+          "name": "miwu_01",
+          "active": true
+        }
+      ],
+      "side": 2,
+      "say": "運河要塞・東部",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-6",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "海霧に覆われた海。見渡す限り、どこまでも「白」が続いている。",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    },
+    {
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "まさか鏡面海域が突然発生するとは……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    },
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "say": "各員、距離を維持しつつ防衛陣形を取れ！セイレーンの奇襲に備えよう！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 103160,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "運河要塞へ前進中のユニオン艦隊が突如出現した鏡面海域に覆われ、セイレーンの襲来に警戒していた。",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    },
+    {
+      "say": "ヘレナ、レーダーの様子は？",
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    },
+    {
+      "actor": 102050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "さっきから何も映らないの…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    },
+    {
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "say": "セイレーンの艦船は確実にいる。だがレーダーには何も映らない",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    },
+    {
+      "actor": 102050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "鏡面海域ではレーダー波がジャミングを受けるから、目視とセンサーによる戦闘を強いられるけど",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    },
+    {
+      "actor": 102050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "この霧ではそれも難しい…このままでは……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    },
+    {
+      "actor": 102160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "ええ、海霧が突如発生したとの連絡を受けた時から鏡面海域の可能性を考えたけど",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    },
+    {
+      "say": "まあ案の定、といったところかしら",
+      "actor": 102160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    },
+    {
+      "say": "すまない。鏡面海域の可能性を承知の上で霧に突入した私のミスだ",
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    },
+    {
+      "actor": 102160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "仕方ないわよ。進行上通らなければならないもの。…で、これからどうする？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    },
+    {
+      "say": "どうするも何も、セイレーンを叩くか脱出するまでだ。もしここのセイレーンが運河要塞を襲おうとする連中ならむしろラッキーだな",
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    },
+    {
+      "actor": 102160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "そうね。戦って勝つに越したことはないけど…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    },
+    {
+      "actor": 102160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "ヘレナ、無理だと思うけど、念の為に運河要塞に通信してみてもらえないかしら？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    },
+    {
+      "actor": 102050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "連絡なら無事に送れたわ！ジャミングを受けている様子は無いみたい！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    },
+    {
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "expression": 1,
+      "say": "通信が無事？！今までの鏡面海域と違う……これは一体……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_battle_night"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "MIWUZHIXIA2",
+  "once": true
+}

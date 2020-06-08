@@ -1,0 +1,515 @@
+{
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "side": 2,
+      "say": "ラ・ガリソニエールの突撃により、空母艦隊は被害を受け、制空権を失ってしまう―――",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "level-french2",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "dir": 1
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "アルジェリーの計画では、そうなるはずだった。"
+    },
+    {
+      "soundeffect": "event:/battle/plane",
+      "side": 2,
+      "say": "だが…………",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "dir": 1
+    },
+    {
+      "actor": 902010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "expression": 2,
+      "say": "この艦載機たち…直掩機がなぜこんなにいるの！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "say": "リシュリューの勘が当たっていましたね。近づけさせませんよ",
+      "actor": 807010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 4
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "事前に待機していた直掩機隊によりヴィシアの量産艦は次々と火柱を上げた。"
+    },
+    {
+      "say": "アルジェリー、こういう状況になったときはどうすべきか言ってなかったな…",
+      "actor": 902010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    {
+      "say": "…と、考えても仕方ないでしょ。なったからには楽しまないと",
+      "actor": 902010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "actor": 807010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "まだやるつもりですか？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "actor": 207030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "ラ・ガリソニエールさん、これ以上戦っても勝てないのにどうして……"
+    },
+    {
+      "say": "ん？だって楽しいもん。それにできれば空母を無力化してってアルジェリーに言われたし",
+      "actor": 902010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "まあお互い沈まず大怪我で済む程度に、そっちも楽しもうよ！ほら！",
+      "actor": 902010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "actor": 807010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "あー、また暴走し始めましたか……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "actor": 902010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "expression": 1,
+      "say": "イラストリアスさんだっけ？まずはあなたに遊んで貰うよ！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "move",
+          "dur": 0.5,
+          "delay": 0.8,
+          "x": 2500
+        }
+      ]
+    },
+    {
+      "soundeffect": "event:/battle/plane",
+      "actor": 207030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "…………っ！"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "stopbgm": true,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "通信機",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "――――！"
+    },
+    {
+      "actor": 903020,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "say": "ラ・ガリソニエール！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "アルジェリー",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#ff5c5c"
+    },
+    {
+      "actor": 805010,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "say": "イラストリアスさん！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "リシュリュー",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "bgm": "hunhe-battle",
+      "actor": 902010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "アルジェリー？どうしたの？"
+    },
+    {
+      "say": "どうしたのって、奇襲が失敗したら早く撤退するに決まってるじゃない！相手と刺し違えるつもり？",
+      "actor": 903020,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#ff5c5c"
+    },
+    {
+      "say": "そんなの聞いてないよ…死ぬ気で空母を倒してきてってことだと思ってたのに",
+      "actor": 902010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "はいはい、「神穹の壁」を通って早く戻ってきなさい。まだ勝算があるから無駄に戦力を消耗しないで",
+      "actor": 903020,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#ff5c5c"
+    },
+    {
+      "actor": 902010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "expression": 2,
+      "say": "…そういうこと。イラストリアス、ベアルン、またあとでね？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "move",
+          "dur": 0.5,
+          "delay": 0.8,
+          "x": -2500
+        }
+      ]
+    },
+    {
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 207030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "………"
+    },
+    {
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "delay": 0.25,
+        "dur": 0.25
+      },
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "dur": 0.25,
+        "alpha": [
+          0,
+          1
+        ]
+      },
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "ラ・ガリソニエールは残り少ない量産艦と共に「神穹の壁」をすり抜けて、戦場から離脱した。"
+    },
+    {
+      "say": "イラストリアスさん、ベアルン、ここは追撃せず合流しましょう。アルジェリーたちとの決戦の時は近いです",
+      "actor": 805010,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "actor": 207030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "はい、わかりました"
+    },
+    {
+      "actor": 207030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "リシュリュー様もきっと、アイリスの子たちで悩んでいたのですね…ふふふ"
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "SHENGYONGQU24",
+  "once": true
+}

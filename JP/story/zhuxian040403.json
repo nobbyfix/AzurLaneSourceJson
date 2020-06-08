@@ -1,0 +1,850 @@
+{
+  "fadein": 1.5,
+  "scripts": {
+    "1": {
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "流石に翔鶴型のニセモノともなると戦闘力も上がるか…だが…！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgm": "battle-boss-1"
+    },
+    "2": {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "エンタープライズの放った矢に貫かれ、ニセモノの艦船は爆発とともに姿を消した。"
+    },
+    "3": {
+      "say": "しかし、今の敵はさっきこちらを襲ってきた攻撃隊と比べて、精度も練度もかなり劣っていると見た",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    "4": {
+      "say": "この程度の敵なら、よほどの数ならまだしも、同じ程度の数であればアストリアたちもシカゴも遅れを取ることはなかったはず",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    "5": {
+      "say": "やっぱりこの海域にレッドアクシズの艦隊も展開している、と見るべきか……",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    "6": {
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "……！新手か！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    "7": {
+      "actor": 307060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "say": "まさかユニオンの空母のニセモノにまで出くわすとはね…でも実力なら大したことないわ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      }
+    },
+    "8": {
+      "say": "この程度なら龍驤ちゃんも何体か倒せるはず…って瑞鶴！どこ行くの？",
+      "actor": 307050,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      }
+    },
+    "9": {
+      "actor": 307060,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "このままではエンタープライズに接近できないよ！敵に逃げられる前に攻撃しないと！"
+    },
+    "10": {
+      "actor": 307050,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "比叡たちの主力艦隊がまだ出撃して間もないわ！もうちょっと待ったほうが…"
+    },
+    "11": {
+      "actor": 307060,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "エンタープライズがこっちにまだ気づいていないようだし、ここは赤城先輩たちを見倣って「先手必勝」ってね！"
+    },
+    "12": {
+      "actor": 307050,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "もう瑞鶴ったら～！！"
+    },
+    "13": {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": true
+        }
+      ],
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "say": "破壊された量産艦から立ち昇る炎に包まれ、熱気を帯びた嵐が巻き起きようとする黄昏の海。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_suoluomen_1"
+    },
+    "14": {
+      "say": "ユニオンと重桜の空母がついに対峙する。",
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": true
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_suoluomen_1"
+    },
+    "15": {
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": true
+        }
+      ],
+      "say": "………………",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "エンタープライズ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_suoluomen_1"
+    },
+    "16": {
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": true
+        }
+      ],
+      "say": "………………",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "瑞鶴",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_suoluomen_1"
+    },
+    "17": {
+      "say": "遠く離れていても感じ取れる強者の視線。一触即発の戦い。",
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": true
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_suoluomen_1"
+    },
+    "18": {
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": true
+        }
+      ],
+      "say": "（……最後のセイレーン…空母・瑞鶴と同じか）",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "エンタープライズ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_suoluomen_1"
+    },
+    "19": {
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": true
+        }
+      ],
+      "say": "（あれが…エンタープライズ……例えニセモノでも、こんな強そうな雰囲気をたたえているなんて……！）",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "瑞鶴",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_suoluomen_1"
+    },
+    "20": {
+      "say": "交わす言葉は不要。一目だけで相手のただならぬ気配を察知できた。",
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": true
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_suoluomen_1"
+    },
+    "21": {
+      "say": "お互い、相手に聞こえない声で、自分を戒め、戦闘態勢へ――",
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": true
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_suoluomen_1"
+    },
+    "22": {
+      "say": "手加減なし、全力で相手してやろう",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "エンタープライズ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_suoluomen_2"
+    },
+    "23": {
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": true
+        }
+      ],
+      "say": "エンタープライズ…相手にとって不足なし！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "瑞鶴",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_suoluomen_2"
+    },
+    "24": {
+      "say": "今、戦いが始まろうとしている。",
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": true
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_suoluomen_2"
+    },
+    "25": {
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": true
+        }
+      ],
+      "say": "重桜五航戦、空母瑞鶴――",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "瑞鶴",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_suoluomen_2"
+    },
+    "26": {
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": true
+        }
+      ],
+      "say": "TaskForce61、G16、エンタープライズ――",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "エンタープライズ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_suoluomen_2"
+    },
+    "27": {
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "say": "参る！！\n 前進！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "二人",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_suoluomen_2"
+    },
+    "28": {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "say": "――！！！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      }
+    },
+    "29": {
+      "say": "なに？！",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 4
+    },
+    "30": {
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 307060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "なんだ！？増援！？"
+    },
+    "31": {
+      "say": "エンプラ姉！周りの量産艦が突然一斉にこちらに接近してきた！",
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    "32": {
+      "actor": 307050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "瑞鶴！気をつけて！量産艦が無差別に攻撃してくるよ！"
+    },
+    "33": {
+      "actor": 307060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "なんて卑怯な！アズールレーン！味方ごと攻撃に巻き込むつもりか？！"
+    },
+    "34": {
+      "say": "落ち着け！攻撃してくるのは味方ではなくセイレーンだ！",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 4
+    },
+    "35": {
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 307060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "「駒」の分際で何を…って今普通に会話できてる？！"
+    },
+    "36": {
+      "say": "なんだこの分からず屋！エンプラ姉！このままではレッドアクシズとセイレーンを見分けられないよ！",
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    "37": {
+      "actor": 307050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "撤退よ！比叡たちがもう龍驤ちゃんを救出したわ！"
+    },
+    "38": {
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 307060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "え、ええ…！"
+    },
+    "39": {
+      "actor": 307060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "覚えていろよエンタープライズ！次回は絶対に勝負するからね！"
+    },
+    "40": {
+      "say": "……分かった！",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 4
+    },
+    "effects": [
+      {
+        "name": "UIhuohua",
+        "active": true
+      }
+    ]
+  },
+  "fadeType": 1,
+  "mode": 2,
+  "id": "ZHUXIAN040403",
+  "once": true
+}

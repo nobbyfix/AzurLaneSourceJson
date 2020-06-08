@@ -1,0 +1,294 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "幸運の鶴\n\n<size=45>その一  瑞鶴の朝</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "say": "母港・朝",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "dir": 1,
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "この時間になるといつも秘書艦の瑞鶴が朝の報告をしに来るのだが、どうやらまだ来ていないようだ。",
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 0,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "withoutPainting": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "options": [
+        {
+          "content": "重桜の空母寮へ瑞鶴の様子を見に行く",
+          "flag": 1
+        }
+      ],
+      "say": "……",
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 307060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "ぐう…はぁ…ぐう…Zzzzzzz",
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "withoutPainting": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:96}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "こんな感じです…指揮官、申し訳ございません…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:95}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "ベッドで大の字で寝転んでいる瑞鶴は豪快ないびきをかいている。",
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "昨晩の特訓で張り切りすぎたのかしら…いつもは私より早く起きてくるのに…。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:95}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "withoutPainting": true,
+      "say": "…翔鶴姉…ぐぅうう…今度こそ…ぜったーいに…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:96}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "もう…昨日も片づけたのにまたこんなに散らかしちゃって……。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:95}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "ほら瑞鶴起きて、指揮官が来ているのよ？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:95}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307060,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 1.2,
+          "number": 1,
+          "x": 30
+        },
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.1,
+          "delay": 2,
+          "number": 3
+        }
+      ],
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "say": "しき…あぅ！？ごごごめんなさい寝坊しちゃっ… ってわああ！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:96}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "慌てて起き上がる瑞鶴。床に蹴落とした布団を踏んで転びかける。",
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "あらら…片づけはお姉ちゃんに任せて、もう早く支度して？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:95}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "…指揮官が待っているからね？うふふ",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:95}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307060,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "say": "は、はい！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:96}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "RUIHE1",
+  "once": true
+}

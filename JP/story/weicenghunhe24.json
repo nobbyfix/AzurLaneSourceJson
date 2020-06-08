@@ -1,0 +1,598 @@
+{
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "bgm": "hunhe-battle",
+      "side": 2,
+      "say": "運河要塞？・外洋？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "dir": 1,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "effects": [
+        {
+          "name": "miwu_01",
+          "active": true
+        }
+      ]
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "波の壁がそのまま通り過ぎ、まるで何事も起きなかったかのように海は元に戻っていた。霧に覆われ続けている以外は。"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "ブルーギルに救出されたイントレピッドは――"
+    },
+    {
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 5,
+      "say": "げほげほ……助かった……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "say": "イントレピッド、大丈夫？！",
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "だ、大丈夫。ちょっと溺れて……",
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    {
+      "actor": 101440,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "ブルーギル、ナイスタイミング！"
+    },
+    {
+      "actor": 108040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "ブルーギル、パトロールから帰還した！"
+    },
+    {
+      "say": "セイレーンの大群に遭遇して、そして大きな波に巻き込まれて気づいたらここに…みんなはもうセイレーンと戦っていたの？",
+      "actor": 108040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "えっ…さっきからずっと戦いっぱなしだけど、ブルーギルはそうじゃなかったの？"
+    },
+    {
+      "say": "（こっちは結構派手に戦ってたのに、気づかないなんてことはないはず…）",
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "あっちからなにかが近づいて来ますよ。とりあえずこれで……",
+      "actor": 102270,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 6
+    },
+    {
+      "dir": 1,
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "say": "――！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      }
+    },
+    {
+      "actor": 102260,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 5,
+      "say": "あわわ！みんな大丈夫？！ちょっと返事して！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0.5,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "actor": 102270,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 7,
+      "say": "リノ？なんでここに？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "actor": 102260,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "マーブルヘッド！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "actor": 102260,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 5,
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 10,
+        "number": 2
+      },
+      "say": "…って、なんでいきなり撃ってきたの！空砲だからセイレーンじゃないってのは分かったけど…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "say": "まあ、セイレーンの「駒」って可能性もありますしぃ？",
+      "actor": 102270,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 7
+    },
+    {
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "あれ？リノはバンカー・ヒルたちとは別行動を取っていたんじゃなかった？"
+    },
+    {
+      "say": "え！そっちこそなんで要塞の湾内まで戻ってきたの？",
+      "actor": 102260,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "さ、流石に今の波で要塞近くまで押し返されたわけじゃないよね…",
+      "actor": 101440,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 5
+    },
+    {
+      "say": "ブレマートン！カサブランカ！バンカー・ヒル！こっちこっちー",
+      "actor": 102260,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 10,
+        "number": 2
+      },
+      "say": "みんなもいるの？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "say": "あ、捜索チームのみんな！",
+      "actor": 103240,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 4
+    },
+    {
+      "say": "どうやらみんな同じ異常気象？の波に遭遇したようですね",
+      "actor": 106550,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "ブルーギルも大きな波に押されて気づいたら違う場所にいた…ってもしかしたら私たち、セイレーンに「転移」させられたってこと？",
+      "actor": 102270,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 6
+    },
+    {
+      "actor": 107170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "にわかに信じがたいが、可能性を否定できないな"
+    },
+    {
+      "say": "つまり…今の場所は要塞周辺海域でいうどの辺なの？",
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "actor": 107170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "それがわからないんだ。さっきから計器が狂いっぱなしでな。鏡面海域の中にいる、ってのもありうる"
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "エンタープライズ先輩とボルチモアも見つかっていないまま、ね…"
+    },
+    {
+      "say": "まあでも、合流できたのは戦力的に嬉しいことじゃない？ここでやるべきことは――",
+      "actor": 103240,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    {
+      "soundeffect": "event:/battle/plane",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "この霧の発生源を見つけること！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 107110
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "WEICENGHUNHE24",
+  "once": true
+}

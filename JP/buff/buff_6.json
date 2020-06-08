@@ -1,0 +1,33 @@
+{
+  "picture": "",
+  "id": 6,
+  "desc": "装填提升",
+  "last_effect": "",
+  "time": 0,
+  "icon": 6,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 30000,
+        "attr": "loadSpeed"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 300,
+        "attr": "loadSpeed"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "冷却时间缩短"
+}

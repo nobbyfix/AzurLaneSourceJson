@@ -1,0 +1,319 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "stopbgm": true,
+      "sequence": [
+        [
+          "栄光なる間奏曲\n\n<size=45>その五　駆逐艦たちと</size>",
+          1
+        ]
+      ],
+      "mode": 1
+    },
+    {
+      "side": 2,
+      "bgm": "story-1",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "母港・工場",
+      "dir": 1,
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "今日は明石に頼まれて、工場の備品と装備を整理することになった。",
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 201030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "こーら、アカスタもサボらないで手伝うの！グロリアスさんの手伝いをするって約束したじゃない！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 22.5,
+          "type": "shake",
+          "dur": 0.1,
+          "delay": 0,
+          "number": 1
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 201020,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "say": "ふはあああ……やってるよ…ここは埃が多すぎるかな…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "あっ、そこなら私が片付けますので、アーデントとアカスタは備品リストのチェックをまずお願い。",
+      "actor": 207060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 201020,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "say": "全部グロリアスがやってる気がするけど…私たちが手伝おうって言ったのに、これでいいのかな……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "いいのいいの。元々ここは埃っぽい場所ですし、ここは私にまかせてちょうだい。それに指揮官も手伝ってくれていますしね。",
+      "actor": 207060,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 201030,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "say": "グロリアスさん、本当に大丈夫なの？結構大変な仕事だよ？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "options": [
+        {
+          "content": "自分とグロリアスだけでやる",
+          "flag": 1
+        },
+        {
+          "content": "やっぱり駆逐艦たちに手伝ってもらう",
+          "flag": 2
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 207060,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "optionFlag": 1,
+      "say": "大丈夫ですよ。指揮官もそう言っていますし",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 201030,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "optionFlag": 1,
+      "say": "でも……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 201020,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "optionFlag": 1,
+      "say": "指揮官に任せていいかな。アーデント、あっちの仕事を先にすませてからまたこっちに戻ればいいでしょ？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 207060,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "optionFlag": 2,
+      "say": "指揮官？駆逐艦たちはまだあっちの仕事がありますから、ここは私達だけでも十分だと思いますが……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 201030,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "optionFlag": 2,
+      "say": "私達は大丈夫よ！グロリアスさんの手伝いを言い出したのはこっちだし……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 201020,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "optionFlag": 2,
+      "say": "アーデント、ちょっと……（コソコソ）……はい、私達は先に向こうに行ってくるかな。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "お願いしますね。……さて指揮官、私たちも働きましょう！",
+      "actor": 207060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "やること自体は単純だが、大きい装備がこれだけあれば空母のグロリアスでも結構しんどい。……駆逐艦たちに手伝ってもらったとしてもあまり変わらない気がする。",
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "ぐううう……お、重い……はあ、はあ、はあ……",
+      "actor": 207060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "グロリアスは大丈夫だろうか……",
+      "blackBg": true,
+      "bgName": "bg_story_outdoor"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "GUANGRONG5",
+  "once": true
+}

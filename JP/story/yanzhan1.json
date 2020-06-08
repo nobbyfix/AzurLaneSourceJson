@@ -1,0 +1,521 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "ナイト・オブ・ロイヤル\n\n<size=45>一 陛下との朝</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "母港・ロイヤル寮",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "Zzzzzzzz………",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "クイーン・エリザベス",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "むっ、陛下はまだ眠っておられるのですか",
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "blackBg": true,
+      "say": "（普段ならこの時間にはもう起きているはずだが…）"
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "blackBg": true,
+      "say": "（やはり昨日寝たのが遅すぎたのかしら）"
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "blackBg": true,
+      "say": "（重要な会議があるから、すぐ陛下を起こさないと）"
+    },
+    {
+      "say": "ぐぅ…ウォースパイトぉ…私から離れないでぇ……Zzzz……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "クイーン・エリザベス",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "say": "（ここはどうすれば……？）",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "options": [
+        {
+          "content": "やっぱり優しく……",
+          "flag": 1
+        },
+        {
+          "content": "強硬手段で行くわ！",
+          "flag": 2
+        }
+      ]
+    },
+    {
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "optionFlag": 1,
+      "say": "陛下、起きてください。陛下がまとめなければならない大事な会議がありますよ。陛下――",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "optionFlag": 1,
+      "say": "ぐぅ……んん……あれぇ？ウォースパイトぉ？そばにいるじゃない……よかったぁ……って、あれ？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 0.4,
+          "number": 2,
+          "delay": 0,
+          "x": 22.5
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "optionFlag": 2,
+      "say": "（やはり強硬手段に限るわね…シーツは……陛下、失礼しますよ）",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "optionFlag": 2,
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 12.75,
+        "number": 2
+      },
+      "say": "はぁぁぁぁ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "optionFlag": 2,
+      "say": "きゃああああああああ！！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.1,
+          "number": 4,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "optionFlag": 2,
+      "say": "うぉ、ウォースパイトなにするのよ！！……って、あれ？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0.15,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "今の夢だったの……ってもうこんな時間！？",
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "もう！なんでもっと早く起こしに来ないのよ！会議に遅刻しそうじゃない！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0.15,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "blackBg": true,
+      "say": "（想定内の反応…でもこれなら会議に遅れずに済むわ）"
+    },
+    {
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "say": "コホン！とにかく、ロイヤルとユニオンにとって二回目の大規模合同演習を開催する予定よ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "演習に向けての準備とリハーサルはウォースパイトに一任する！王家の戦士たち、健闘を期待するわ！",
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "ウォースパイト、この私を失望させないでちょうだい！いいわね！",
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "ははっ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": -45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 1,
+          "delay": 0.2,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "blackBg": true,
+      "say": "（寝坊の影響は出ていないのね……さすが陛下、これしきのことで取り乱したりするはずがないわ）"
+    },
+    {
+      "say": "では、これより私がロイヤルネイビーの訓練を引き受けさせてもらうわ！",
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "blackBg": true,
+      "say": "一人前の戦士になるのは決して容易いことではない……後輩たち、覚悟しなさい！"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "YANZHAN1",
+  "once": true
+}

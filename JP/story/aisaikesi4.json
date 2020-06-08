@@ -1,0 +1,470 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "先輩とわだかまり\n\n<size=45>四　VSエンタープライズ</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "演習海域",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "battle-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "soundeffect": "event:/battle/plane",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "これで最後の勝負だ！ここまで勝ち続けるとは、さすが我が自慢の後輩だな！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 107060,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "先輩こそ、ずっと余裕綽々ではありませんか…！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "今回はそううまく行かせません！エセックスの実力、しっかり見てください！",
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "どんな時も全力で立ち向かうのが私の流儀だ。来い！",
+      "actor": 107060,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "subActors": [
+        {
+          "actor": 107060,
+          "pos": {
+            "x": 1030.5
+          },
+          "dir": 1
+        }
+      ],
+      "hideOther": true,
+      "say": "<size=45>はああああああ！！！</size>",
+      "actorName": "エセックス＆エンタープライズ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "say": "おお…めっちゃ盛り上がってるね～",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "たまにはこういうのもいいわね。ふふふ",
+      "actor": 107050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "soundeffect": "event:/battle/plane",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "これでどうです！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 107090,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "say": "悪くない！だがまだ甘い！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 107060,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "say": "先輩の攻撃こそ予測済みです！次はこっちの番！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 107090,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "soundeffect": "event:/battle/plane",
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 3
+      },
+      "say": "——！！",
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.4,
+            0.4
+          ]
+        ]
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "ここまでよ！",
+      "actor": 107050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "こりゃ…どうじに撃沈判定か……",
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "引き分け…か。良いのか悪いのか…",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "だがあなたの実力はこの目で確かに見た。ふふ、エセックス、強くなったな",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "……",
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "エセックス？どうした？",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "（小声）こんな結果、望んでいません……",
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "すみません、少し疲労が蓄積されましたので先に失礼します",
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "エセックスの様子はどこか変だ。",
+      "blackBg": true,
+      "bgName": "bg_story_nepu1"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "AISAIKESI4",
+  "once": true
+}

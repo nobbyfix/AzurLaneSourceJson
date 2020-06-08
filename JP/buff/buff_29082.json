@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行10次攻击，触发专属弹幕-标枪II"
+  },
+  "picture": "",
+  "id": 29082,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 10,
+        "countType": 29080,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29080,
+        "skill_id": 29082
+      }
+    }
+  ],
+  "desc": "主炮每进行10次攻击，触发专属弹幕-标枪II",
+  "icon": 29080,
+  "last_effect": "",
+  "name": "专属弹幕-标枪II",
+  "color": "red",
+  "desc_get": "主炮每进行10次攻击，触发专属弹幕-标枪II",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

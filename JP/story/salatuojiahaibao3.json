@@ -1,0 +1,486 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "青き海のアイドル\n\n<size=45>三 アザラシちゃんを守るもの</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "actor": 107034,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "むむ、この方向で間違いないみたい……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "出現情報を集めて、アザラシちゃんの居場所のヒントをどんどんつかめたような気がする。",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 107034,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "指揮官、そろそろだよ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "指揮官、悪いがちょっとそこで止まってもらうぞ",
+      "actor": 105140,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "ええと、「ぼくたちはアザラシちゃんの守護者だぞー」",
+      "actor": 105190,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "「ここを通りたければぼくたちの質問に答えてもらうぞー」",
+      "actor": 105200,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "「質問に答えられない悪い子にはアザラシちゃんの居場所を教えられないぞ」",
+      "actor": 105140,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "すごく……棒読みだった……",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 105200,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "では質問、アザラシって何科の動物なの？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "options": [
+        {
+          "content": "アザラシ科",
+          "flag": 1
+        },
+        {
+          "content": "猫科？",
+          "flag": 2
+        },
+        {
+          "content": "助けてサラ先生！",
+          "flag": 3
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 107034,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "optionFlag": 1,
+      "say": "指揮官、さっすが！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 107034,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 5,
+      "optionFlag": 2,
+      "say": "海豹と書くけど猫科じゃないよ！アザラシ科だよ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 107034,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "optionFlag": 3,
+      "say": "ふっふっふーアザラシ科だよ♪",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "あたりー。前に進んでいいよ",
+      "actor": 105200,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "どうやらこれで前に進んでもいいようだ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 107034,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "…っぷ！本当にこれをやるとは思ってなかったよ～",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "…別に？面白いし",
+      "actor": 105190,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "まあ、この子たちが面白いと言ってるからね。僕は付き合っているだけだ",
+      "actor": 105140,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 105200,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "姉貴は楽しくないの？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "そんなことはない。正しいことをしているのはいい気分だ",
+      "actor": 105140,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "まあまあ、いいんじゃない？みんな多分びっくりすると思うし！",
+      "actor": 107034,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 107034,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "それより、例の準備は出来た？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "ああ、順調に進んでいる",
+      "actor": 105140,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "ありがと~！助かったよ～",
+      "actor": 107034,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "（なんの話をしているんだ…？）",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 107034,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "expression": 1,
+      "say": "よぉし！指揮官、次行ってみよう！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "SALATUOJIAHAIBAO3",
+  "once": true
+}

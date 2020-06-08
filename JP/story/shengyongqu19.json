@@ -1,0 +1,331 @@
+{
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "actor": 901030,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#ff5c5c",
+      "expression": 6,
+      "say": "この大型駆逐艦ヴォークラン、簡単にやられるとは思わないことよ！ピーちゃん！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgm": "hunhe-battle"
+    },
+    {
+      "say": "こっちの「マホウ」を完全に回避できたのですね。ですが本番はこれから――！",
+      "actor": 801040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    {
+      "action": [
+        {
+          "y": 0,
+          "type": "move",
+          "dur": 0.5,
+          "delay": 0.7,
+          "x": -2500
+        }
+      ],
+      "actor": 901030,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "本気を出されちゃ困るよ！ええい、くらえ！"
+    },
+    {
+      "dir": 1,
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "say": "―――！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      }
+    },
+    {
+      "say": "ヴォークランちゃん、ずっと距離を取ってぐるぐると回っているから、艤装の動力部を狙いづらいよ！",
+      "actor": 801030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "actor": 802020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "こちらの意図がバレたのでしょうか。アルジェリーさんもきっとそれを分かっててこの配置を取ったのですね"
+    },
+    {
+      "say": "（バレたからには仕方ありません。量産型を掃討しつつ、ヴォークランを包囲します！）",
+      "actor": 802020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    {
+      "say": "みんな、損傷状況の報告をお願いします！",
+      "actor": 802020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "ル・テメレール、状態良好！すごく軽微な損傷が何箇所かあるけど大丈夫！",
+      "actor": 801030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 4
+    },
+    {
+      "say": "こっちも大丈夫です。戦闘継続に問題ありません",
+      "actor": 801040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 0.4,
+          "number": 2,
+          "delay": 0,
+          "x": 30
+        }
+      ],
+      "actor": 201120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "ふぉ、フォーチュン、ニ番砲塔にダメージ…動力部も損傷が…"
+    },
+    {
+      "say": "フォーチュンさん……",
+      "actor": 801040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "actor": 802020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "（今回の作戦、アイリスの子が前衛として前に出ているのに、損傷はロイヤル艦に集中している。つまり…）"
+    },
+    {
+      "actor": 201120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "うぅ……"
+    },
+    {
+      "say": "ヴォークランちゃん、なんで…？",
+      "actor": 801030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "リシュリューさん、すみません――戦闘方針を変えます！急所を外すのに変更はありませんが、兵装を狙ってください！",
+      "actor": 802020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    {
+      "say": "ロイヤルの子だって傷つけさせちゃダメですからね…！",
+      "actor": 801040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "SHENGYONGQU19",
+  "once": true
+}

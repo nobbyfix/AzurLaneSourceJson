@@ -1,0 +1,42 @@
+{
+  "picture": "",
+  "id": 60037,
+  "desc": "跑路AI及自杀",
+  "last_effect": "",
+  "time": 0,
+  "icon": 60037,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffNewAI",
+      "arg_list": {
+        "ai_onAttach": 80004
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDeath",
+      "arg_list": {
+        "maxX": 30
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 60037,
+        "attr": "immuneMaxAreaLimit",
+        "number": 1
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "测试-运输船-新AI及自杀"
+}

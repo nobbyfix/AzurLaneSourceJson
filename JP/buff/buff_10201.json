@@ -1,0 +1,42 @@
+{
+  "picture": "",
+  "id": 10201,
+  "desc": "buff触发器",
+  "icon": 10201,
+  "last_effect": "",
+  "name": "LuckyE",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 10201,
+        "rant": 10000
+      }
+    },
+    {
+      "trigger": [
+        "onAllInStrike"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 10202,
+        "rant": 10000
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufared",
+  "time": 3
+}

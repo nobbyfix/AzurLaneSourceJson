@@ -1,0 +1,512 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "その女、賢妻につき\n\n<size=45>七 大鳳の消失・下</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "say": "大鳳が部屋にやってくるときの香り、部屋を掃除するときの物音、そして用意してくれる朝食の匂いもなかった。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "……大鳳？",
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 307050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "say": "指揮官、どうかしました？顔色がすごく悪いのですが…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "大鳳ちゃん？…いいえ私は見ていませんが…あの子はいつも指揮官と一緒なのでは…？",
+      "actor": 307050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "say": "執務室に入っても、いつも机の上に丁寧にまとめられている書類もなかった。休暇を取った連絡もない。",
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 108020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "actorPosition": {
+        "y": 0,
+        "x": 1500
+      },
+      "say": "指揮官！？よかった……早く来て！た、大鳳が――",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "move",
+          "dur": 0.4,
+          "delay": 0,
+          "x": -675
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 108020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.2,
+        "dur": 0.2
+      },
+      "say": "ごめん！わたし、昨日「雑誌で献身的になりすぎると嫌われる可能性もあるぞって」、大鳳に冗談を言っちゃったんだけど、",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.2,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 108020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "ただの冗談だからってその時は何も思わなかったんだけど、その後あの子、急に自分の部屋に引きこもって出て来てくれなくなっちゃったの……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 108020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "お願い指揮官！大鳳を部屋から連れ出して！指揮官だけが頼りなんだ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0.2,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "blackBg": true,
+      "expression": 2,
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "say": "心当たりはあった。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "options": [
+        {
+          "content": "ドアを叩いて何のために来たのかを告げる",
+          "flag": 1
+        }
+      ],
+      "bgm": "story-2"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "大鳳",
+      "blackBg": true,
+      "say": "指揮官様……"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "大鳳",
+      "blackBg": true,
+      "say": "ドア越しの大鳳の声がすごく弱々しかった。"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "大鳳",
+      "blackBg": true,
+      "say": "大鳳は…大鳳はずっと指揮官様のためにやっていると思っていましたけど、指揮官様の気持ちを考えたことはありませんでした…"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "大鳳",
+      "blackBg": true,
+      "say": "昨日アルバコアに言われて、大鳳は初めて自分が嫌われていることに気づきました"
+    },
+    {
+      "options": [
+        {
+          "content": "今のままでいい",
+          "flag": 1
+        }
+      ],
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "大鳳",
+      "blackBg": true,
+      "say": "大鳳は指揮官様のことが大好きです。愛しています。指揮官様のこと以外なんにも考えられません……大鳳は一体どうしたら良いのでしょうか……"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "大鳳",
+      "blackBg": true,
+      "say": "…指揮官様は大鳳のことが嫌いだから、休暇を薦めたのではないのですか？"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "大鳳",
+      "blackBg": true,
+      "say": "大鳳がしつこくて、指揮官様のすべてを知りたくて、指揮官様のすべてを大鳳にまかせてもらいたくて、指揮官様に大鳳がいないとダメなようになってほしくて、"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "大鳳",
+      "blackBg": true,
+      "say": "それでも大鳳のことが嫌いなのではないと仰るのですか？"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "options": [
+        {
+          "content": "それでもいい",
+          "flag": 1
+        }
+      ],
+      "blackBg": true,
+      "say": "今にも泣きそうな声だった。"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "大鳳",
+      "blackBg": true,
+      "say": "………………"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "大鳳",
+      "blackBg": true,
+      "say": "本当……ですね？"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "大鳳",
+      "blackBg": true,
+      "say": "大鳳のことを嫌いになっていなくて、大鳳のことを適当に宥めているのでもなくて、大鳳のことが本当に本当に好きなのですか？"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "blackBg": true,
+      "say": "…————"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "blackBg": true,
+      "say": "こちらが答え終わるのを待つことなく、ドアが力強く開かれた。"
+    },
+    {
+      "actor": 307070,
+      "side": 2,
+      "dir": 1,
+      "actorScale": 1,
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 12.75,
+        "number": 2
+      },
+      "say": "<size=45>指揮官様あああああ！！！</size>",
+      "action": [
+        {
+          "to": [
+            1.8,
+            1.8,
+            1.8
+          ],
+          "type": "zoom",
+          "delay": 0.01,
+          "dur": 0.2
+        },
+        {
+          "y": -225,
+          "type": "move",
+          "dur": 0.2,
+          "delay": 0.01,
+          "x": 0
+        }
+      ],
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "飛び込んできた大鳳を受け止めた。大鳳も、自分も知っている――",
+      "bgName": "bg_story_room"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "「好きだ」――答えはそれしかなかった。",
+      "blackBg": true,
+      "bgName": "bg_story_room"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "DAFENG7",
+  "once": true
+}

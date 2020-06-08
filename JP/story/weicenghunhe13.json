@@ -1,0 +1,515 @@
+{
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "bgm": "hunhe-battle",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "運河要塞？・外洋？",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "effects": [
+        {
+          "name": "miwu_01",
+          "active": true
+        }
+      ]
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "エセックスたちは霧の中に現れるセイレーンを撃退しながら、慎重に脱出ルートを探していた。"
+    },
+    {
+      "say": "もぉ、一体敵はどこから湧いてくるんですかねー",
+      "actor": 102270,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 5
+    },
+    {
+      "say": "（このままでは戦力を消耗してジリ貧に…なんとかしなくちゃ…！）",
+      "actor": 102270,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 6
+    },
+    {
+      "say": "マーブルヘッド、どうしたの？",
+      "actor": 101440,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 5
+    },
+    {
+      "actor": 102270,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 7,
+      "say": "クーパーちゃんちょっと静かにしてくれません？さっきから「サイクロンスマッシャー！」とか叫び続けるせいで集中できませんって",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "actor": 101440,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "それぼくの新しい必殺技の名前だよ！カッコいいでしょう！"
+    },
+    {
+      "say": "変に叫んでセイレーンを引き寄せなければいいですけどぉ",
+      "actor": 102270,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 6
+    },
+    {
+      "actor": 101440,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 5,
+      "say": "い、言われてみれば確かに……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 0.4,
+          "number": 2,
+          "delay": 0,
+          "x": 30
+        }
+      ]
+    },
+    {
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "say": "（脱出ルートが全然見つかりそうにない…今の所はまだ戦えるけど、このままではいずれ倒れる）",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      }
+    },
+    {
+      "say": "（セイレーンなら私たちが消耗しきった時に現れるはず、そうなっては――）",
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "（エセックスがさっきから全然喋らないけど…エンタープライズさんが行方不明でかなりショックなのかもね）",
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "（…ないか。エセックスはただ「エンタープライズ先輩ならどうするか」って考え込んでるだけかも）",
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "（エンタープライズ先輩なら何をするか…）"
+    },
+    {
+      "say": "（エンタープライズさんの評価をいちいち気にしすぎだと思うけどな。あの子）",
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "エセックス、大丈夫？"
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "（エンタープライズ先輩なら…）"
+    },
+    {
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 10,
+        "number": 2
+      },
+      "say": "エセックス！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "わわわ！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.1,
+          "number": 3,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "say": "……流石に考え過ぎじゃない？セイレーンの新手が接近しているってクーパーちゃんから連絡があったよ",
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 4
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "だ、大丈夫よ！ただエンタープライズ先輩なら……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "say": "エンタープライズさんならきっと、皆を率いて敵を攻撃するだろうね",
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "say": "というかエンタープライズさんの戦い方とか、基本参考にならないと思うよ……",
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "――そうだ！ここが鏡面海域と同じくセイレーンが作り出したのなら、発生源が絶対どこかにあるはずよ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "その発生源を壊せば、きっとこの霧を解除できるはず！"
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "イントレピッド、ありがとう！助かった！"
+    },
+    {
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 5,
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 10,
+        "number": 2
+      },
+      "say": "えええええ！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "WEICENGHUNHE13",
+  "once": true
+}

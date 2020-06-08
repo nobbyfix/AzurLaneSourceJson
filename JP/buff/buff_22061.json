@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行24次攻击，触发全弹发射-{namecode:26}级I"
+  },
+  "picture": "",
+  "id": 22061,
+  "desc": "主炮每进行24次攻击，触发全弹发射-{namecode:26}级I",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 20000,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 24,
+        "countType": 22060,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 22060,
+        "skill_id": 22061
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "全弹发射"
+}

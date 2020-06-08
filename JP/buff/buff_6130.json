@@ -1,0 +1,36 @@
+{
+  "1": {
+    "desc": "被击沉时恢复全队其他角色耐久10.0%"
+  },
+  "picture": "",
+  "id": 6130,
+  "desc": "被击沉时恢复全队其他角色耐久10%",
+  "color": "blue",
+  "last_effect": "",
+  "time": 0,
+  "icon": 6130,
+  "effect_list": [
+    {
+      "trigger": [
+        "onDying"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 6130
+      }
+    },
+    {
+      "trigger": [
+        "onDying"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 1
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "珍珠之泪"
+}

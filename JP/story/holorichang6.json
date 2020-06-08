@@ -1,0 +1,802 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "「幻想と真実の二重奏」-日常編\n\n<size=45>六 ゲームについて</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "母港・寮舎",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "holo-mio",
+      "bgmDelay": 2,
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "このセーブデータはマスタキーを持ってるのー。リフトに乗って、塔から出て渓谷通ったら行けるのー",
+      "actor": 106010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900211,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "なるほどね！完全に理解した！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900211,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "ロングアイランドちゃん、ここから自分でやるから、もう帰っても大丈夫だよ。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "本当に大丈夫？このマップは幽霊さんも手こずったほど激ムズだよー？",
+      "actor": 106010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900211,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "余裕余裕！似たようなゲームをやったことあるんだから！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "じゃあ頑張ってね～",
+      "actor": 106010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 106010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 0.5
+      },
+      "say": "おまたせ～じゃあ続きいくよー。ってこのゲーム、幽霊さんまだ初心者なの！とにかく手を分けて探索するの！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "じゃあ、こっちはうちに任せて～",
+      "actor": 900215,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "……おっ、このルート当たりっぽい！",
+      "actor": 106010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "うちもヒント見つけたよ。",
+      "actor": 900215,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900215,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "不思議だね～。こっちにも同じようなゲームがあるんだね。いろんなところが似てるなー",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "そうなの？",
+      "actor": 106010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900215,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "そうだよ～。たとえば初期装備を王様からもらったりとかさ。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "そういうのはもう定番だからかなー",
+      "actor": 106010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 106010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "あ！これだー！ミオちゃん、素材を渡して～。クラフトで合体させるのー！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900215,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "たぶんそうだねー。違う世界でも定番ってあるんだなー。あくあちゃんが今やってるゲームも、似た感じのを知ってるし。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "あ、うちもアイテムを見つけた。ちょっと待ってね。",
+      "actor": 900215,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "んー……でも、あのゲームはちょっと違うのね……何回やっても安定しないタイプ……",
+      "actor": 106010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900211,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "うわーー！！ここどこ！！？どうしてここにエリートがいるのよ！！！？？？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900211,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "すみません、すみません、すみません、すみません、わああああ！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.1,
+          "number": 4,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900211,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "ねええええええ！！！死ぬー！！！！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "…………",
+      "actor": 106010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900215,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "あははは、まぁ、あくあちゃんだからね。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900211,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "もう一回、もう一回だけ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900215,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "あくあちゃん。今日はここで終わりとしない？もう夜遅いし。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900211,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "え？夜ってのは、日付が変わってから始まるものじゃない？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "そうなの！夜はまだこれからだよー！",
+      "actor": 106010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "だめだよー。夜ふかしは体に毒だからね。",
+      "actor": 900215,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900215,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "ゲームも大事だけど、健康のほうがもっと大事。健康だから楽しくゲームができるんだよー？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "ぐぬぬ、返す言葉がないの……",
+      "actor": 106010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "ミオちゃん、なんだかお母さんっぽい。",
+      "actor": 106010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900211,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "そりゃあホロライブ「お母さんになってほしい」ランキング一位だから！ねっ、ミオママ！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900215,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "どうしてあくあちゃんまでそういうこと言うかなぁ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900211,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "ミオママ～。わたし、明日ミオママの作ったお弁当食べたーい！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 0.3,
+          "number": 2,
+          "delay": 0,
+          "x": 30
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 106010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "ミオママ、幽霊さんも～",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 0.3,
+          "number": 2,
+          "delay": 0,
+          "x": 30
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900215,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "……ちゃんと早くベッドに入ったら、作ってあげてもいいよ。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900211,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "はーーい！",
+      "subActors": [
+        {
+          "pos": {
+            "x": 1185
+          },
+          "actor": 106010
+        }
+      ],
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "二人",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 900215,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "expression": 4,
+      "say": "はぁ～、なんでママ扱いされちゃうのかな～！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "HOLORICHANG6",
+  "once": true
+}

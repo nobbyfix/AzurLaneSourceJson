@@ -1,0 +1,42 @@
+{
+  "picture": "",
+  "id": 45030,
+  "desc": "舰队成员受到伤害降低3%",
+  "last_effect": "",
+  "time": 0,
+  "icon": 45030,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFlagShip",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 45031
+      }
+    },
+    {
+      "trigger": [
+        "onSubLeader ",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": [
+          "TargetAllHelp",
+          "TargetShipType"
+        ],
+        "ship_type_list": [
+          8,
+          17
+        ],
+        "buff_id": 45031
+      }
+    }
+  ],
+  "stack": 2,
+  "init_effect": "jinengchufared",
+  "name": "指挥喵天赋-不动如山"
+}

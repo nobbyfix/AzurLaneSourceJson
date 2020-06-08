@@ -1,0 +1,542 @@
+{
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "actor": 301050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "say": "そろそろ終点です",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgm": "holo-fbk"
+    },
+    {
+      "actor": 401230,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "…？あのおにぎりみたいな建物は…？"
+    },
+    {
+      "actor": 10500030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "おにぎり！？やばいやばいやばいやばい！あのおにぎりの裏はマグマの湖だよ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 4,
+          "delay": 0.5,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "say": "あれ？マップに書いてるゴールはここじゃないよ？まつり、てっきりこれ仕様だと…うわああああ！",
+      "actor": 10500040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "セイレーンの罠なの！？ってこの高速回転でどうやって脱出して…あわわわ！",
+      "actor": 10500010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "actor": 301490,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "瑞鶴！"
+    },
+    {
+      "actor": 307060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "この回転じゃ艦載機飛ばしても掴まれないよ！"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 900021,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "ピュリっち",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "えー皆様、慌てずこっちの艤装にしっかり掴まってくださぁーい"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "みんな",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "うわわわわわわ！！"
+    },
+    {
+      "actor": 10500070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 0.5
+      },
+      "say": "ピュリっちの艤装！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "bgmDelay": 1,
+      "bgm": "holo-inochi-inst"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 900021,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "ピュリっち",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "私、記憶喪失だけどこいつの出し方覚えてるんだーいやぁこんなピンチで活躍できるとは思わなかったよなぁ～"
+    },
+    {
+      "actor": 101170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "ピュリファイアー、凄い"
+    },
+    {
+      "actor": 900021,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "あははは！もっと褒めちぎっていいんだぜ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "ピュリっち",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 0.3,
+          "number": 2,
+          "delay": 0,
+          "x": 40
+        }
+      ]
+    },
+    {
+      "actor": 401230,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "セ、セイレーンに助けられたなんて…！指揮官にはどう報告すれば……"
+    },
+    {
+      "actor": 301490,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "そらさん！みんなは大丈夫か！"
+    },
+    {
+      "say": "みんなは無事だよ！でもあの列車、完全にマグマの中に突っ込んだね…",
+      "actor": 10500020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "actor": 307060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "まずはピュリっちの艤装で着地して…ん？あれは…壁？それと巨大な壁画…？"
+    },
+    {
+      "actor": 10500030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "あの壁画、なんか前のと違わない？"
+    },
+    {
+      "actor": 10500050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "壁画の中のそら先輩、艤装付きになってる！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "say": "あっちのまつり、こういうところは結構凝ってるね……",
+      "actor": 10500040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "actor": 401230,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "やっぱり、今までの私たちが出会った「駒」とは違いますね"
+    },
+    {
+      "say": "ただの「敵」として扱うのは、やっぱりちょっと微妙な気がする…",
+      "actor": 10500060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "actor": 307060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "艦船としてセイレーンを倒すのが私たちの役目だけど、あなた達にまでそれを強要するつもりはないわ"
+    },
+    {
+      "say": "ううん、元は余たち自身だから、別にそこまで気負う必要ないよ",
+      "actor": 10500050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "まあ、良い方に考えれば、セイレーンの親玉を倒せば全ては元通りになるから、頑張れば戦いは避けられるはずだしね",
+      "actor": 10500070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 4
+    },
+    {
+      "actor": 301490,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "……すまない。迷惑をかけるな"
+    },
+    {
+      "say": "ちょっと迷ったけど…もう迷わない。ここからみんなを連れて帰るために、あの人たちを倒すしかないなら…わたしはやる！",
+      "actor": 10500020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "ふふん、これしきの駆け引き、余裕余裕。無理そうなら、その時はこのあくあ様に任せて！",
+      "actor": 10500030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 5
+    },
+    {
+      "say": "私は……あれ、まつりちゃん？",
+      "actor": 10500010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    {
+      "say": "うーん、まつり、ちょっとアイデアがあるかも",
+      "actor": 10500040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "HOLOGUANQIA42",
+  "once": true
+}

@@ -1,0 +1,472 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "アヴローラと愉快な仲間たち\n\n<size=45>一、勝利の暁</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "今日は母港の軽巡洋艦たちを集めた、艦種連携演習が行われていた――",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "battle-2",
+      "bgmDelay": 2,
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "actor": 102060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "しまった！もう、私も撃沈されたじゃない……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": -1000,
+          "type": "move",
+          "dur": 1,
+          "delay": 1.2,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "actor": 102090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "また撃沈判定か…これ以上こちらの戦線がもたないぞ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 3,
+          "delay": 0.5,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "say": "も、もしかして明石たちは仮想敵艦の設定を間違えていませんか？こんなに強い敵が出てくるなんて聞いていませんよ！",
+      "actor": 202110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "say": "姉さん！今は目の前の敵に集中してください！でないと撃沈されますよ！",
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "味方の軽巡洋艦たちが苦戦していた。",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "say": "姉ちゃん、平海たちはどうする？",
+      "actor": 502030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "actor": 502020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "まずは回避に専念しなさい！でもこの状況じゃ……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "actor": 702010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "say": "みんな、諦めないで！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "say": "海の上に、闘志を奮い立たせる声――防護巡洋艦・アヴローラの声が響く。",
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "say": "セイレーンとの戦いで、私の仲間たちは数倍の敵相手でも決して屈することはありませんでした",
+      "actor": 702010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "say": "この演習を本物の戦場に見立てて、私達の底力を――艦船の意地を見せるべきです！",
+      "actor": 702010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "say": "へへ、アヴローラさんまでそういうのなら――",
+      "actor": 102090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "say": "頑張らなければなりませんね。クリーブランド様、よろしいでしょうか",
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "actor": 102090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "もちろんさ！みんな、ここは各個撃破でいこう！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 3,
+          "delay": 0.5,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "say": "平海、私達も前進するわよ！ついてきて！",
+      "actor": 502020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "actor": 502030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "はい！姉ちゃん！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 3,
+          "delay": 0.5,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "actor": 202110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "もう、カッコいいこと言っては飛び出して……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.1,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "say": "わ、私も行くわよ！みんなが行くのでしたら！",
+      "actor": 202110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "say": "ふふふ、これでこそ革命（レヴォリュツィヤ）ですね～",
+      "actor": 702010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "say": "アヴローラの激励の言葉で、仲間たちは勇気を奮い立たせて攻撃に転じ、敵艦をすべて撃破した。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu2"
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "……ちなみに、敵の強さは本当に明石の設定ミスだった。",
+      "blackBg": true,
+      "bgName": "bg_story_nepu2"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "AFULEER1",
+  "once": true
+}

@@ -1,0 +1,357 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "ハムマン観察記録\n\n<size=45>その四 不機嫌の理由・下</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "dir": 1,
+      "actor": 101250,
+      "side": 2,
+      "say": "見られた…ハムマン…見られちゃった………",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "dir": 1,
+      "actor": 101240,
+      "side": 0,
+      "say": "まあ不本意ながら見ちゃったけど、あれは一体何なの？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "dir": 1,
+      "actor": 101250,
+      "side": 1,
+      "say": "かくかくしかじか",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 101250,
+      "side": 1,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "…ってい、いまの忘れなさい！忘れるのだぞ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 4,
+          "x": 30
+        }
+      ],
+      "actor": 101240,
+      "side": 0,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "あわわわ急に揺するな！って別に大したことないじゃん……",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 101250,
+      "side": 1,
+      "dir": 1,
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 3
+        }
+      ],
+      "say": "大したことなんだぞ！指揮官、今どうしてるのかな……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 101240,
+      "side": 0,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "というか、ハムマンが素直に謝らないからややこしくなったじゃない？",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "action": [
+        {
+          "y": -30,
+          "type": "shake",
+          "dur": 0.5,
+          "number": 1
+        },
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "delay": 0.5,
+          "number": 3
+        }
+      ],
+      "actor": 101250,
+      "side": 1,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "それはそうだけど…でもハムマン一人では謝れないのだ！シムスも手伝って！",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 101240,
+      "side": 0,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "いや私に言われても…そうだ、ヨークタウンさんに聞けばいいんじゃない！",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.1,
+          "number": 1
+        }
+      ],
+      "actor": 101250,
+      "side": 1,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "そうだ！ヨークタウン姉さんなら…！ありがとうシムス！執務室をちょっと見てて！",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 0,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "バタバタとハムマンが走り去った。",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 101240,
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "あっ……ったくまたこんな急に…",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 101240,
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "でもさっきのハムマンのあの顔はきっちり録画できたし、まあこれぐらいは必要投資ってことで～",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "options": [
+        {
+          "content": "執務室にいるシムスの後ろへ回り込み注意する",
+          "flag": 1
+        }
+      ],
+      "actor": 101240,
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "あとでどういたずらしてやるっかなーイッヒッヒッ匕♪",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 101240,
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "きゃっ！？指揮官、いつの間に！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "delay": 2,
+          "number": 1
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 101240,
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "ヨークタウンの居場所に連れてって？別にいいけど…あと今の録画データは削除しろって…そんなー！？",
+      "blackBg": true,
+      "bgName": "bg_story_task"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "HAMAN4",
+  "once": true
+}

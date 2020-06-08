@@ -1,0 +1,27 @@
+{
+  "picture": "",
+  "id": 45011,
+  "desc": "舰种属于主力舰队，则主炮的子弹暴击率提高3%",
+  "last_effect": "",
+  "time": 0,
+  "icon": 45010,
+  "effect_list": [
+    {
+      "trigger": [
+        "onBulletCreate",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 0.03,
+        "index": [
+          1
+        ],
+        "attr": "cri"
+      }
+    }
+  ],
+  "stack": 2,
+  "init_effect": "jinengchufared",
+  "name": "指挥喵天赋-一发入魂"
+}

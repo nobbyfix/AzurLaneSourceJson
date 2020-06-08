@@ -1,0 +1,46 @@
+{
+  "picture": "",
+  "id": 60045,
+  "desc": "治疗光环",
+  "last_effect": "hongsebuff",
+  "time": 0,
+  "icon": 60045,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "max_distance": 20,
+        "exceptCaster": true,
+        "buff_id": 60046
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDeath",
+      "arg_list": {
+        "time": 10
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 104,
+        "attr": "isSpirit",
+        "number": 1
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "测试-随机技能-治疗之泉-治疗光环"
+}

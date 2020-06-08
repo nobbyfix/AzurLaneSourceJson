@@ -1,0 +1,461 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "戦え！ロイヤルメイド隊\n\n<size=45>五　演習完了</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "母港",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "合同演習が無事終了し、皆母港に帰還した",
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "さすがはご主人様の艦隊です。私達ロイヤルメイド隊の敗北でした",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": -45,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 1,
+          "delay": 0.2,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 205010,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "まあいいわ！負けこそしたけど、ロイヤルメイド隊の実力をこの母港のメンバー全員に見せつけたし…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "ベル、よくやったわ！",
+      "actor": 205010,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 202120,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "恐縮でございます",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": -45,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 1,
+          "delay": 0.2,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "で、ニューカッスルはこれからどうする？",
+      "actor": 205010,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "元々今回限りの助っ人として呼んできたわけだけど……",
+      "actor": 205010,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "よくよく考えるとやはりあなたはメイド隊と一緒にいるのが一番似合うわ！",
+      "actor": 205010,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "私はどちらにいても差し支えありませんが……",
+      "actor": 202190,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "確かにメイド隊の皆さんがここで楽しくやっているのを見ていたら、少しこの母港の空気を吸ってみたくなりましたね",
+      "actor": 202190,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "陛下のご厚意に感謝申し上げます",
+      "actor": 202190,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "ニューカッスルはベルファストたちメイド隊に向けて――",
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "ニューカッスル、これより一メイドとしてロイヤルメイド隊に復帰いたします",
+      "actor": 202190,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 202110,
+      "side": 1,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "say": "よかった～",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "Yeah～！",
+      "actor": 203030,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 203040,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 9,
+      "say": "でもこれってサボりづらくなりますよね…うぅ……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "最善の結果ですね",
+      "actor": 202080,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "陛下、不躾ながら提案ですが、このあと差し支えなければ合同演習の無事終了と、",
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "ニューカッスルさんのメイド隊復帰のお祝いとして、パーティーをご用意させていただいてもよろしいでしょうか",
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "いいわ！そうしなさい！",
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "かしこまりました。ではロイヤルメイド隊の皆さん、30分後ロイヤル寮のキッチンに集合してください",
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "裏で準備してくださったベルちゃんも呼んで――次は「メイドとしての仕事」をいたしましょう",
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "……お先に失礼いたします。貴方様",
+      "actor": 202190,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "これからも、ロイヤルメイド隊をよろしくお願い申し上げます",
+      "actor": 202190,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "ニューカッスルはこちらに優雅に一礼した。",
+      "blackBg": true,
+      "bgName": "bg_story_outdoor"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "NIUKASIERBOSS5",
+  "once": true
+}

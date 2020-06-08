@@ -1,0 +1,428 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "軽空母龍驤ここにあり\n\n<size=45>六 宿敵！？伝説のアイドルとは</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "actor": 306060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "殿は今何しているのでしょうか……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_school"
+    },
+    {
+      "soundeffect": "event:/battle/plane",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 2,
+          "delay": 0.2,
+          "x": 0
+        }
+      ],
+      "say": "ジャジャーン！艦載機によるサプライズ攻撃！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 107030,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 306060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "はあ………",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 107030,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "あ、あれ？龍驤ちゃん？今日はノリ悪いよ…？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 306060,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "サラトガさん……今日はそちらの悪戯に付き合う気分じゃありません。ご容赦を",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "そう…？じゃあこのサラトガちゃんがお悩み解決してあげるよ！",
+      "actor": 107030,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "そ、そういうわけにはいきません！サラトガさんはユニオンの空母、自分は……",
+      "actor": 306060,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 306060,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "同じ艦隊の仲間なので敵ではありませんが、だからといって簡単に気を許す相手ではありませぬぞ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0.2,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "聞けばこの間、殿にレキシントンさんとの「らいぶ」とやらのチケットを手渡しに行ったそうじゃありませんか！",
+      "actor": 306060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 306060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "殿の大事な勤務時間を奪うなど、秘書艦として自分は断じて許せませんっ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 306060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "…………ずばり、宿敵（ライバル）です！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0.2,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "なるほど、恋わずらいだ",
+      "actor": 107030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 306060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "え？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 107030,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "わかった。つまるところ龍驤ちゃんは指揮官にいいところを見てほしいって思ってるわけね",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 306060,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "なっ！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0.2,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "話は聞いたよ？確かにアレはちょっと災難だったけど、指揮官はそんなに心が狭い人間ではないからね！",
+      "actor": 107030,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "だから、いっそコクっちゃってもいいぐらい、指揮官に本当の気持ちを伝えたほうがいいって！",
+      "actor": 107030,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 306060,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "そ、そんなの自分には………",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 0.4,
+          "number": 2,
+          "delay": 0.2,
+          "x": 60
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "きっと大丈夫！サラトガちゃん、みんなの恋も応援しているからね♪",
+      "actor": 107030,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 306060,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "expression": 3,
+      "say": "サラトガさん…………",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "LONGXIANG6",
+  "once": true
+}

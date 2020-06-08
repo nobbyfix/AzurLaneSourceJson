@@ -1,0 +1,544 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "シンプルパーティー？\n\n<size=45>四 エンディングは定番の？</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "色々と苦労してそうな子もいるけど、なんだかんだでみんな楽しんでいるようでなによりだ",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "bsm-5",
+      "bgmDelay": 2,
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "actor": 403043,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "あはははは！！この完璧な主催っぷりには言葉も出ないぐらい恐れおののいたか？「ちび陛下」～",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "actor": 205011,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "誰が「ちび陛下」よ！！そっちこそ駆逐艦と比べても大して背が高くないじゃない！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 3,
+          "delay": 0.5,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "actor": 403043,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "なんですって！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        },
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 1,
+          "delay": 0.5,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "ものすごいレベルの低い口喧嘩を見た。",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "actor": 403053,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "姉ちゃん！やめて！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "actor": 202123,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "……仲睦まじいことでベルファスト、感心いたしました",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "actor": 403043,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 3,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "expression": 4,
+      "say": "誰が！！",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "subActors": [
+        {
+          "actor": 205011,
+          "pos": {
+            "x": 1185
+          },
+          "expression": 1
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "二人",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "options": [
+        {
+          "content": "ポチッとな",
+          "flag": 1
+        }
+      ],
+      "say": "このままでは埒が明かないな……よし、この間作った「例のもの」を使おう",
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "actor": 403043,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "今何をした！？",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "subActors": [
+        {
+          "actor": 205011,
+          "pos": {
+            "x": 1185
+          },
+          "expression": 1
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "二人",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "soundeffect": "event:/battle/firework",
+      "side": 2,
+      "dir": 1,
+      "hidePaintObj": true,
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "say": "（ポン！）",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "actor": 403043,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "あ、あれは――",
+      "subActors": [
+        {
+          "actor": 205011,
+          "pos": {
+            "x": 1185
+          },
+          "expression": 3
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "二人",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "actor": 403043,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "…………ふ、ふふふ、ははははは！どうだ！下等生物が用意してくれた花火は？！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "actor": 205011,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "ま、まあ…ロイヤルの花火には及ばないけど一応は…ってこれ夏祭りに作ったものじゃない！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "actor": 403043,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "ば、バレた！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "花火工房で作った花火を少し残してもらえてよかったな。後で明石の店に行ってお礼を言おう",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "soundeffect": "event:/battle/firework",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "花火を見物しながらのお酒、美味しいわね",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 403033,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "actor": 905011,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "鉄血も結局これか…まあ、時にはこういう派手さも大事、か",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "actor": 408022,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintObj": true,
+      "say": "うるさい……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "actor": 499011,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "戦場でも美しい花火を見られるといいですね～",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "actor": 199011,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "あははは…そ、それどういう意味っすか……？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "actor": 301143,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 5,
+      "say": "翔鶴！はむはむ…見て！花火だぞ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "actor": 307051,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "もう、しゃべるのは食べ終わってからにしたほうがいいですよ？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_115"
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "soundeffect": "event:/battle/firework",
+      "side": 2,
+      "say": "――みんなでパーティーを楽しんだ。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "dir": 1,
+      "blackBg": true,
+      "bgName": "star_level_bg_115"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "DACHAOLIFU4",
+  "once": true
+}

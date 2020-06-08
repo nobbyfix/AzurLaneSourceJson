@@ -1,0 +1,34 @@
+{
+  "picture": "",
+  "id": 2040,
+  "color": "red",
+  "desc": "3秒内1号位置装备发射的子弹伤害提高",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "last_effect": "",
+  "name": "重点打击",
+  "icon": 2040,
+  "effect_list": [
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 1,
+        "index": [
+          1
+        ],
+        "attr": "damageRatioBullet"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufared",
+  "time": 3
+}

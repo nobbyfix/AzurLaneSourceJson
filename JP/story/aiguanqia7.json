@@ -1,0 +1,502 @@
+{
+  "scripts": [
+    {
+      "actor": 301120,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "ここが次のバーチャル鏡面海域ですか…なんだか騒がしいですね"
+    },
+    {
+      "actor": 10400030,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "expression": 1,
+      "say": "―――！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "ニセキズナアイ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "actor": 10400010,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "expression": 1,
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "subActors": [
+        {
+          "actor": 10400010,
+          "pos": {
+            "y": 150,
+            "x": 300
+          },
+          "expression": 1
+        },
+        {
+          "actor": 10400010,
+          "pos": {
+            "y": 150,
+            "x": 900
+          },
+          "expression": 1
+        },
+        {
+          "actor": 10400010,
+          "pos": {
+            "y": -150,
+            "x": 600
+          },
+          "expression": 1
+        },
+        {
+          "actor": 10400010,
+          "pos": {
+            "y": 0,
+            "x": 1200
+          },
+          "expression": 1
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "ニセキズナアイ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "―――！"
+    },
+    {
+      "actor": 101170,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "これは……ライブ……？サンディエゴ…？"
+    },
+    {
+      "actor": 201210,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "なんでこんなところでライブしてるの～～～！？"
+    },
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "say": "ずどーん！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "dir": 1,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      }
+    },
+    {
+      "actor": 301120,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "一斉に攻撃してきました…！"
+    },
+    {
+      "actor": 301110,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "なるほどね！これが「じんかいせんじゅつ」ってことね！"
+    },
+    {
+      "actor": 401230,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "仕方ありません、片っ端からニセキズナアイを倒して探すしかなさそうですね"
+    },
+    {
+      "actor": 10400020,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "action": [
+        {
+          "y": 0,
+          "type": "move",
+          "dur": 0.5,
+          "delay": 0,
+          "x": 555
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "キズナアイ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "わかりました！今の私にかかれば敵を倒すことくらい、ちょちょいのちょいですよ！"
+    },
+    {
+      "actor": 10400020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 6,
+      "say": "手始めにあのニセキズナアイを倒しちゃいますよ～！おりゃーーー！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "キズナアイ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "move",
+          "dur": 0.5,
+          "delay": 1,
+          "x": 2250
+        }
+      ]
+    },
+    {
+      "say": "あっ、アイさんいけません！一人で突っ込んでは！",
+      "actor": 401230,
+      "side": 0,
+      "hideOther": true,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "dir": 1
+    },
+    {
+      "actor": 10400010,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "expression": 1,
+      "say": "………！！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "ニセキズナアイ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "say": "ずどーん！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "dir": 1,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      }
+    },
+    {
+      "actor": 10400020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "あ゛あ゛あ゛あ゛あ゛あ゛あ゛あ゛あ゛ぁ゛ぁ゛ぁ゛！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "キズナアイ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "actor": 10400020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "み゛ん゛な゛～！た゛す゛け゛て゛ーーーー！！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "キズナアイ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": -2250,
+          "type": "move",
+          "dur": 0.5,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "actor": 301110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "なるほどね！これが「いっきゅうふらぐけんちくし」ってやつなんだよね！すごい！"
+    },
+    {
+      "say": "迅速なフラグ回収、感服するです",
+      "actor": 301050,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      }
+    },
+    {
+      "actor": 101170,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "キズナアイは一級フラグ建築士…"
+    },
+    {
+      "actor": 201210,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "こ、こういうおっちょこちょいな感じの方が指揮官は好きなのかな・・・？"
+    },
+    {
+      "actor": 401230,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "感心してないで、早く助けに行きますよ！！"
+    },
+    {
+      "actor": 301120,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "うぅ、でもやっぱりどれが本物かわかりづらいですね…"
+    }
+  ],
+  "id": "AIGUANQIA7",
+  "mode": 2,
+  "fadein": 1.5,
+  "once": true
+}

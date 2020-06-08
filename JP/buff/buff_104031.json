@@ -1,0 +1,55 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "picture": "",
+  "id": 104031,
+  "desc": "连接着的羁绊-检测TAG",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 104030,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "ship_tag_list": [
+          "KizunaAI"
+        ],
+        "buff_id": 104032,
+        "minTargetNumber": 2,
+        "target": "TargetSelf",
+        "check_target": "TargetShipTag",
+        "isBuffStackByCheckTarget": true
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "maxTargetNumber": 1,
+        "check_target": "TargetShipTag",
+        "target": "TargetSelf",
+        "ship_tag_list": [
+          "KizunaAI"
+        ],
+        "skill_id": 104031
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "连接着的羁绊"
+}

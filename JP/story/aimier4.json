@@ -1,0 +1,364 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "踊り子天使エミール\n\n<size=45>四 我慢我慢！</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "母港·執務室",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "……今回の任務の報告書を提出するわ。指揮官、ご確認を。",
+      "actor": 904010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "報告書と共に、ダンケルクはお菓子の入った小箱を渡してきた。",
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 904010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "それと…実はお菓子を少し作ったのだけど、指揮官、食べる？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "options": [
+        {
+          "content": "了承する",
+          "flag": 1
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "……それにしても、ダンケルクは毎日美味しそうなお菓子を作っているな……",
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "あら、エミールもいたの？こっちに来てみんなで食べましょう？",
+      "actor": 904010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "ええと…食べたいけど…ううん、今日はダメよ！",
+      "actor": 802010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "そう…？ああ、ごめんなさい、今日はスイーツ禁止の日だったかしら。じゃあ今度、食べたかったら声をかけてちょうだい。",
+      "actor": 904010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "ありがとう～",
+      "actor": 802010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "じゃあここに置いておくわ。指揮官、ごゆっくりどうぞ。",
+      "actor": 904010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "options": [
+        {
+          "content": "美味しそうに食べる（実際美味しい）",
+          "flag": 1
+        },
+        {
+          "content": "食べずに棚にしまう",
+          "flag": 2
+        }
+      ],
+      "say": "ダンケルクが執務室から退室した。さて、このお菓子はどうしようか――",
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 802010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "optionFlag": 1,
+      "say": "指揮官、私……ぜ、絶対に負けないわよ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 802010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "optionFlag": 2,
+      "say": "指揮官、私のことを気にしなくてもいいのに……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "だ、だってダンケルクの作ったお菓子は美味しすぎて、一個でも食べたら手が止まらないんだもの…",
+      "actor": 802010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "そして増え続ける体重、拙くなるステップ…二度と人前で踊れなくなる悲しい結末…",
+      "actor": 802010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "それはまさに、悪魔の誘惑だわ！だから私、ダンケルクのお菓子は週に一度しか食べないって決めたの！今週分はもう……あああ…",
+      "actor": 802010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "options": [
+        {
+          "content": "励ましてみる",
+          "flag": 1
+        }
+      ],
+      "say": "エミールは珍しく頭を抱えた。",
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "女の子だから気にするわよ！指揮官も、そういうところには気を配ったほうがいいわよ？",
+      "actor": 802010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "体形に気をつけないと将来後悔するわ！",
+      "actor": 802010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "そもそも、指揮官として――",
+      "actor": 802010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "……なぜかエミールに３０分ぐらい説教された。",
+      "blackBg": true,
+      "bgName": "bg_story_task"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "AIMIER4",
+  "once": true
+}

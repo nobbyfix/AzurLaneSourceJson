@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行12次攻击，触发全弹发射-亚特兰大级I"
+  },
+  "picture": "",
+  "id": 20131,
+  "desc": "主炮每进行12次攻击，触发全弹发射-亚特兰大级I",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 20100,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 12,
+        "countType": 20130,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 20130,
+        "skill_id": 20131
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "全弹发射"
+}

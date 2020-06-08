@@ -1,0 +1,41 @@
+{
+  "picture": "",
+  "id": 11015,
+  "desc": "无敌",
+  "icon": 11015,
+  "last_effect": "",
+  "name": "铁底湾之夜",
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffHP",
+      "arg_list": {
+        "currentHPRatio": 0.9999,
+        "number": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "isInvincible"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufablue",
+  "time": 5
+}

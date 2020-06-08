@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行8次攻击，触发专属弹幕-{namecode:45}II"
+  },
+  "picture": "",
+  "id": 29162,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 8,
+        "countType": 29160,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29160,
+        "skill_id": 29162
+      }
+    }
+  ],
+  "desc": "主炮每进行8次攻击，触发专属弹幕-{namecode:45}II",
+  "icon": 29000,
+  "last_effect": "",
+  "name": "专属弹幕-{namecode:45}II",
+  "color": "red",
+  "desc_get": "主炮每进行8次攻击，触发专属弹幕-{namecode:45}II",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

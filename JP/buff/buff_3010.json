@@ -1,0 +1,32 @@
+{
+  "picture": "",
+  "id": 3010,
+  "color": "red",
+  "desc": "伤害提高",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "last_effect": "",
+  "name": "强袭空母",
+  "icon": 3010,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "damageRatioBullet"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufared",
+  "time": 10
+}

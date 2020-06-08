@@ -1,0 +1,576 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "特別パーティー、開幕！\n\n<size=45>一　エセックスの悩み</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "母校・大講堂",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "サフォーク、クリーブランド様より寄贈していただいた盆栽はあちらです。そう、ゲートの前でお願いします",
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "ケント、陛下用の食器は6セットで。あとシェフィ、シャンデリアはお願い",
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "この箱はここに置いて大丈夫ですね？",
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 202120,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "エセックス様？はい、こちらで問題ございません。あとは私たちロイヤルメイド隊にお任せください",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "ありがとう。ふぅ…大講堂がここまで様変わりするのを見ると、やはり感動しますね……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "今回は私たちロイヤルがパーティーの準備を担当しておりますゆえ、最高のおもてなしをご提供できなければ陛下がご立腹になることでしょう",
+      "actor": 202120,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 202120,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "エセックス様にはここ数日色々とお手伝いをしていただいたこと、改めて感謝いたします",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": -45,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 1,
+          "delay": 1,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "あ、いいえ、私は好きで手伝っているだけです",
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "本当によろしいのですか？お手伝いしていただいた身としては誠に恐縮ですが……",
+      "actor": 202120,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "新しく艦隊に加わったエセックス様には、パーティー前のイベントを楽しんでいただきたく存じます。",
+      "actor": 202120,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "お気持ちありがとうございます。ベルファストさん。私はこれでいいです",
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "艦隊のみんなは様々な戦いを経たから、こうしてお祭りを楽しめるわけで、新参者の私にはその資格はまだありません",
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "ここでお手伝いをしていなかったとしても、多分どこかの演習海域で自主練をしていましたね",
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "素晴らしい考えです。エセックス様",
+      "actor": 202120,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "ですがここの準備はもう少しで一段落します。エセックス様はこのままここにいても暇になるだけだと存じますが…？",
+      "actor": 202120,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "そうですか……と、急に言われても行く宛があまりないですし、やはり演習海域に――",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "？？？",
+      "say": "それなら心配は無用だ",
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "この声は……！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.1,
+          "number": 1,
+          "delay": 0.2,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "あら、ご機嫌麗しゅうございます。エンタープライズ様",
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "ここがパーティーの会場予定地か……もうかなり準備が進んでいるな",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "エンタープライズ様のお褒めに預かり光栄でございます",
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "エセックスのほうもお世話になったようだな。感謝する。次は私に任せてくれ",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "エンタープライズ先輩、今何と……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "さっきの会話は聞かせてもらった。ふふ、先輩と呼ばれた以上後輩を一人で放置するわけにはいかないな。そうだろう？",
+      "actor": 107060,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "ゆるいイベントに興味がないのなら、これはどうだ？",
+      "actor": 107060,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "チラシ？これは……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "「母港一武道会開催にゃ！腕に自信のある奴、他陣営のあいつと戦いたい奴、どんどん参加してにゃ！」",
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "重要なのはここだ",
+      "actor": 107060,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "「空母グループはスペシャルゲスト『エンタープライズ』が参加にゃ！決勝戦はVSエンタープライズだにゃ！」",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "say": "………………",
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    },
+    {
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "say": "どうだ？参加する気になったか？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_school"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "HUIHUA1",
+  "once": true
+}

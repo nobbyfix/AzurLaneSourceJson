@@ -1,0 +1,339 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "stopbgm": true,
+      "sequence": [
+        [
+          "ナイト＆アワード\n\n<size=45>その五　強敵登場！？</size>",
+          1
+        ]
+      ],
+      "mode": 1
+    },
+    {
+      "side": 2,
+      "say": "クリーブランドたちは順調に決勝戦まで勝ち上った。\t",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "dir": 1,
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 102100,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "次の相手は……嘘！？川内に阿賀野、それに妙高まで！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "delay": 0.2,
+          "number": 1
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 102140,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "say": "ふん、相手が誰だろうと叩き潰すまでだ。そうですね、クリーブ姉貴？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "say": "いや、そううまくは行かないだろうね…相手は恐らくこっちの配置を研究しているはず…この戦い、慎重に行かないと。",
+      "actor": 102090,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 102150,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "say": "うん！",
+      "action": [
+        {
+          "y": 15,
+          "type": "shake",
+          "dur": 0.15,
+          "delay": 0.2,
+          "number": 1
+        }
+      ],
+      "subActors": [
+        {
+          "actor": 102100,
+          "pos": {
+            "x": -1125
+          },
+          "dir": -1
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "デンバー&コロンビア",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 102140,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "bgm": "story-4",
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "さすがは三水戦のリーダー、手強い…！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 302120,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "say": "俺とここまで戦えるとは……あの時のようには行かないぞ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:38}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "say": "相手が重巡だろうと…私の理想は絶対に負けないっ！",
+      "actor": 102150,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 303070,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "say": "来い！臥薪嘗胆した末の訓練の成果を見せてやる！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:63}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "say": "まさか全員一対一に持ちこたえるとは…！あのときの戦訓を活かしてるのか！",
+      "actor": 102090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 302200,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "say": "私たちの戦術に不満でも？うふふ、素直にやられなさいな～",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:49}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "say": "重桜チームの各個撃破の戦術にクリーブランドたちが苦戦している。",
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 102090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "くっ……指揮官…みんな……すまない、リーダーの私が不甲斐なかったせいで……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "say": "決勝戦だというのに……ここで負けたら……っ！",
+      "actor": 102090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "最後のインターバル。まだ試合が終了していないとはいえ、重桜チームとの得点差がかなり大きい。クリーブランドも珍しくちょっと落ち込んでいた。",
+      "blackBg": true,
+      "bgName": "star_level_bg_103"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "KELIFULAN5",
+  "once": true
+}

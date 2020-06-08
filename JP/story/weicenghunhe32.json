@@ -1,0 +1,531 @@
+{
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "dir": 1,
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "say": "イントレピッドたちの集中攻撃により、セイレーンは変形が阻止され、大ダメージを受けたように見えた。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgm": "hunhe-boss"
+    },
+    {
+      "say": "（フィギュアもガジェットも可動部とか接続部とかが一番強度が弱いから！）",
+      "actor": 102260,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "say": "そのまま関節部を狙い続けて！そうすれば敵の変形を阻止できるよ！",
+      "actor": 102260,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 5
+    },
+    {
+      "say": "リノ、機械にも詳しいのですか？",
+      "actor": 106550,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "actor": 102260,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "え？あはは…そ、そうかもね！"
+    },
+    {
+      "actor": 900234,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "expression": 3,
+      "say": "……しょうがない",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "？？？",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "！！！"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 3
+      },
+      "say": "エセックス、ブレマートン、水上にいる皆聞こえてる！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "ブルーギル",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_5"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 4
+      },
+      "say": "今すごくやばいものが向こうから近づいているよ！海面下に気をつけて回避して！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "ブルーギル",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_5"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "say": "ってもう来ていますけど！！なにこれ？！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "マーブルヘッド",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_5"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "say": "機械の触手！？…ど、どこから！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "カサブランカ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_5"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "say": "いくらなんでも水圧とか摩擦とか計算が合わないじゃありませんかーーー！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "マーブルヘッド",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_5"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "say": "このままでは攻撃できない…！くっ…！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "エセックス",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_banama_5"
+    },
+    {
+      "actor": 106550,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "say": "ふぅ……あのセイレーンに逃げられてしまいましたね……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "bgmDelay": 1,
+      "bgm": "hunhe-battle"
+    },
+    {
+      "say": "でもちょっと妙だったね…殺気とか全然感じられなかったし……",
+      "actor": 102260,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 5
+    },
+    {
+      "say": "よくわからない触手を避けるのに気を取られたし…",
+      "actor": 101440,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 5
+    },
+    {
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "セイレーンたち、撤退し始めているよ。通信もそろそろ回復するところかな"
+    },
+    {
+      "say": "ここの場所は…よし！とにかくこれで要塞は大丈夫なはず！",
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "うん、次はエンタープライズ先輩とボルチモアたちの捜索…えええ？！"
+    },
+    {
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "エンタープライズ先輩！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "say": "ボルチモアもいる！？いつの間に……",
+      "actor": 107170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "say": "突然で悪かったな。すまん、ちょっとセイレーンの追撃を撒くのに時間をかけすぎた",
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "say": "一体何があったの？",
+      "actor": 107110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "ん？ああ、迷っていたらよくわからないやつが現れて、そしてエンタープライズと出会って、そのままここまで来ただけさ"
+    },
+    {
+      "say": "まあ話すとまた長くなるから、みんなまずは要塞に戻ろう",
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "say": "エンタープライズも、ほら",
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "ああ、帰ろう。みんな、無事で良かった",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "WEICENGHUNHE32",
+  "once": true
+}

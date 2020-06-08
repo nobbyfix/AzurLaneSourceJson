@@ -1,0 +1,792 @@
+{
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "actor": 901030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "blackBg": true,
+      "expression": 1,
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 1,
+          "x": 0
+        }
+      ],
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "アルジェリーさん、その…さすがに私一人で前衛全員を相手するのは無理だよ…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "effects": [
+        {
+          "name": "memoryFog",
+          "active": true
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgm": "bgm-cccp2"
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 903020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "blackBg": true,
+      "say": "無理があるのは分かっているわ。だから回避に専念して、狙うならロイヤル艦を集中して狙って"
+    },
+    {
+      "actor": 901030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "blackBg": true,
+      "expression": 3,
+      "say": "それはそうするけど、向こうが撤退してくれないときはどうする…？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "actor": 903020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "blackBg": true,
+      "expression": 2,
+      "say": "そのときは私がフォローを入れるわ。あ、そうだ。潜水艦に気をつけてちょうだい",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "actor": 901030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "blackBg": true,
+      "expression": 5,
+      "say": "潜水艦？このあたりにヴィシアか鉄血の潜水艦がいるの？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 903020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "blackBg": true,
+      "say": "それはまだ秘密かな？とにかく、気をつけて"
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 901030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "blackBg": true,
+      "say": "了解！アルジェリーさんの作戦だからきっと上手くいくよ！任せて！"
+    },
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "bgm": "level-french2",
+      "effects": [
+        {
+          "name": "memoryFog",
+          "active": false
+        }
+      ],
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "say": "―――！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "dir": 1
+    },
+    {
+      "actor": 901030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "expression": 3,
+      "say": "（回避に専念するって言っても、なんか向こうも急に本気になってない！？）",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    },
+    {
+      "say": "（やっぱりロイヤル艦だけを攻撃してるのがバレたかな…向こうにとってはロイヤル艦は友軍だし、流石に放っておくわけにはいかないよね…）",
+      "actor": 901030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 5
+    },
+    {
+      "actor": 901030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.25,
+        "dur": 0.25
+      },
+      "say": "（ええと、そろそろアルジェリーさんの「フォロー」が来る時間だし、タイミングを見て後退しよう！）",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.25,
+        "black": true
+      }
+    },
+    {
+      "actor": 801040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.25,
+        "dur": 0.25
+      },
+      "say": "これが本当の「マホウ」…じゃなくて、攻撃よ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.25,
+        "black": true
+      }
+    },
+    {
+      "say": "（わわ！？しまった！アルジェリーさんの作戦を考えてたらピーちゃんが…！）",
+      "actor": 901030,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    {
+      "say": "外れましたか…！ヴォークラン、どうしました？あなたまでタルテュみたいに考え込んで…",
+      "actor": 801040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 4
+    },
+    {
+      "say": "なんでもないよ！そろそろ時間だから――えい！",
+      "actor": 901030,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 9
+    },
+    {
+      "say": "ヴォークラン！……これは…",
+      "actor": 801040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 10
+    },
+    {
+      "say": "煙幕散布！ヴォークラン、逃げるのですか？！",
+      "actor": 802020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "actor": 901030,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#ff5c5c",
+      "expression": 8,
+      "say": "だって勝てっこないんだもん！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "move",
+          "dur": 0.5,
+          "delay": 0.7,
+          "x": -2500
+        }
+      ]
+    },
+    {
+      "say": "ヴォークラン！待って！",
+      "actor": 801040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "ルピニャート！リシュリューさんに深追いしないでって言われましたよね？陣形を立て直して！",
+      "actor": 802020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "結局ヴォークランちゃん、何しに来たのかな…",
+      "actor": 801030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 8
+    },
+    {
+      "say": "わかりません。リシュリューさんたちはもう聖堂に進んでいますし、こっちにもダメージが――いいえ、あります、ね…",
+      "actor": 802020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 201120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "あ、あの……"
+    },
+    {
+      "say": "フォーチュンちゃん、損傷は大丈夫？？",
+      "actor": 801030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 8
+    },
+    {
+      "actor": 201120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "だ、大丈夫です…ありがとうございます……気を使わせてしまいましてごめんなさい"
+    },
+    {
+      "say": "どうしました…？急に",
+      "actor": 801040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 4
+    },
+    {
+      "actor": 201120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "え、ええと、フッドさまたち、ヴィシアの子にひどいことをしました…よね？"
+    },
+    {
+      "actor": 201120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "わたしが言うのは差し出がましいことですけど、ロイヤルの一員としては、その…"
+    },
+    {
+      "actor": 201120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "せっかく戦闘に参加したのに、みんなに守ってもらって…それに、ロイヤルがみんなのことを疑ってるって思われたら残念だなって…"
+    },
+    {
+      "actor": 201120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "よ、要するに、陛下もロイヤルも、イラストリアスさんも決してみんなを疑っていません…！"
+    },
+    {
+      "action": [
+        {
+          "y": -30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 1,
+          "delay": 0.5,
+          "x": 0
+        }
+      ],
+      "actor": 201120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "すべてはきっとカンレ…運命…のはずです！ごめんなさい…！"
+    },
+    {
+      "say": "………………",
+      "actor": 802020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "ええ、分かっていますよ。リシュリューさんもきっとそれが分かってて、ロイヤルと協力したのです",
+      "actor": 802020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "actor": 201120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "……は、はい"
+    },
+    {
+      "say": "ダンケルクさんの件は、確かにロイヤルに非がありますし、リシュリューさんも申し訳なく考えています。ですが……",
+      "actor": 802020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "actor": 802020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "私たちは、立ち止まるわけにはいきません"
+    },
+    {
+      "say": "アイリスは一つであるべきです。そして、本国を鉄血に掌握されているような状態では、アイリスに未来はありません",
+      "actor": 802020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "actor": 802020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "――ですから、今は共に、戦いましょう"
+    },
+    {
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 3,
+          "delay": 0.5,
+          "x": 0
+        }
+      ],
+      "actor": 201120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "ジャンヌさん……はい！"
+    },
+    {
+      "say": "ヴィシアの艦隊は撤退しましたし、そろそろこちらもリシュリューさんたちのもとに戻りましょう……っ！？",
+      "actor": 802020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "SHENGYONGQU20",
+  "once": true
+}
