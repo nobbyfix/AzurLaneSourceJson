@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行12次攻击，触发全弹发射-阿瑞托莎级I"
+  },
+  "picture": "",
+  "id": 21131,
+  "desc": "主炮每进行12次攻击，触发全弹发射-阿瑞托莎级I",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 20100,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 12,
+        "countType": 21130,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 21130,
+        "skill_id": 21131
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "全弹发射"
+}

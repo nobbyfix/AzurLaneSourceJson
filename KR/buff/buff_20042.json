@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行10次攻击，触发全弹发射-弗莱彻级II"
+  },
+  "picture": "",
+  "id": 20042,
+  "desc": "主炮每进行10次攻击，触发全弹发射-弗莱彻级II",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 20000,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 10,
+        "countType": 20040,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 20040,
+        "skill_id": 20042
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "全弹发射"
+}

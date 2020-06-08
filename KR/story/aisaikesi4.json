@@ -1,0 +1,470 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "선배와의 앙금\n\n<size=45>VS 엔터프라이즈</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "연습전 해역",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "battle-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "soundeffect": "event:/battle/plane",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "say": "이걸로 마지막 승부다! 여기까지 연전연승할 줄이야, 역시 내 자랑스러운 후배구나!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 107060,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "expression": 2,
+      "say": "선배야말로, 여유가 넘치시네요…!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "이번엔 쉽지 않을 겁니다! 에식스의 실력, 제대로 봐두시라고요!",
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "어떤 때에도 전력을 다하는 게 나의 방식이다. 와라!",
+      "actor": 107060,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 107090,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "subActors": [
+        {
+          "actor": 107060,
+          "pos": {
+            "x": 1030.5
+          },
+          "dir": 1
+        }
+      ],
+      "hideOther": true,
+      "say": "<size=45>하아아아아아아!!!</size>",
+      "actorName": "에식스&엔터프라이즈",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "say": "오오…분위기 장난 아닌데~~",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "가끔은 이런 것도 나쁘지 않네요. 후후후",
+      "actor": 107050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "soundeffect": "event:/battle/plane",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "say": "이건 어떻습니까!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 107090,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "say": "나쁘지 않군! 하지만 아직 물러!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 107060,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "say": "선배의 공격이야말로 전부 예측했다고요! 다음은 제 차례에요!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 107090,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "soundeffect": "event:/battle/plane",
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 3
+      },
+      "say": "——！！",
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.4,
+            0.4
+          ]
+        ]
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "거기까지에요!",
+      "actor": 107050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "이거…동시에 격침 판정인가……",
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "무승부…인가. 이거, 좋은 건지 나쁜 건지…",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "하지만 네 실력은 이 눈에 확실히 담아두었다. 후후, 에식스, 강해졌구나.",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "……",
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "에식스? 왜 그래?",
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "(작은 목소리로) 이런 결과를 바란 게 아니었는데……",
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "죄송해요, 조금 피곤해서…먼저 실례할게요!",
+      "actor": 107090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "에식스의 저런 모습…뭔가 좀 이상하다.",
+      "blackBg": true,
+      "bgName": "bg_story_nepu1"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "AISAIKESI4",
+  "once": true
+}

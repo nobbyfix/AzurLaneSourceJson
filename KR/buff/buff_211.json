@@ -1,0 +1,34 @@
+{
+  "picture": "",
+  "id": 211,
+  "desc": "舰队伤害降低50%",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 211,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.5,
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "danyaokuifa"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "弹药匮乏"
+}

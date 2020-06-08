@@ -1,0 +1,34 @@
+{
+  "picture": "",
+  "id": 504,
+  "desc": "舰队伤害提高",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 504,
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 505
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineAid"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 505
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "活动buff-祭典祈愿效果-战斗伤害提高"
+}

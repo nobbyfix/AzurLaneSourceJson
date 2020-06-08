@@ -1,0 +1,441 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "항구탈출 대작전!\n\n<size=45>4 드디어 종점!</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "actor": 202180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "여기가 부두입니다. 출격이나 군사 의뢰 시에는 다들 여기서 바다로 나간답니다.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "bgmDelay": 2,
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "여기가…… 부두……",
+      "actor": 304060,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 407020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "expression": 2,
+      "say": "크, 크흠! 벨이라고 했나. 수고했다! 감사를 표하지.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 202180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "say": "달리 분부하실 일이 있다면, 언제든지 말씀해 주십시오(꾸벅).",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": -22.5,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 1,
+          "delay": 0.5,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 304060,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#92fc63",
+      "expression": 2,
+      "say": "저기, 그러니까, 벨?",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "네, 무슨 일이신지요?",
+      "actor": 202180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "보아하니, 경도 우리와 마찬가지로 장비에 비해서도 몸집이 꽤 작다.",
+      "actor": 407020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "혹시 경도 이곳의 지휘관에게 유괴되었다면……",
+      "actor": 407020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 407020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "expression": 2,
+      "say": "우리와 함께 녀석의 마수로부터, 푸른 바다로 탈출하지 않겠는가!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "네. 저로 괜찮으시다면, 바다에 나가는 정도는 전혀 문제없습니다만, 하지만……",
+      "actor": 202180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "여기에는 주인님, 폐하, 그리고 언니들이 있습니다. 제게는, 이곳이 있어야 할 곳입니다.",
+      "actor": 202180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "그리고, 여기서 다 함께 지내면 무척 즐겁다구요?",
+      "actor": 202180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "벨……………",
+      "actor": 304060,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 407020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "expression": 4,
+      "say": "그, 그런……………",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "하지만, 괜찮을까요? 체펠린님과 히에이님, 조금 전에는 방향을 잡는 데도 고생하셨습니다.",
+      "actor": 202180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "집으로 돌아가는 길을 잘 찾으실 수 있을지……",
+      "actor": 202180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 407020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "expression": 4,
+      "say": "앗………",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "휘잉~…………",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "여기 있었네요.",
+      "actor": 307010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "흥, 쓸데없는 뒷바라지를 하게 만드는군.",
+      "actor": 407010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "그런 말씀 마세요. 이런 건 어른들이 돌봐줘야 하니까요.",
+      "actor": 304020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "say": "그렇다냥! 아카시 혼자선 도저히 찾을 수 없었다냥!",
+      "actor": 312010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    },
+    {
+      "actor": 304060,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "blackBg": true,
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "say": "저 사람들은~~!?",
+      "subActors": [
+        {
+          "pos": {
+            "x": 1125
+          },
+          "actor": 407020
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "꼬마 그라프 체펠린＆꼬마 히에이",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_outdoor"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "GANGQUTAOLI4",
+  "once": true
+}

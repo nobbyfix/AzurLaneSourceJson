@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行10次攻击，触发专属弹幕-Z23II"
+  },
+  "picture": "",
+  "id": 29202,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 10,
+        "countType": 29200,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29200,
+        "skill_id": 29202
+      }
+    }
+  ],
+  "desc": "主炮每进行10次攻击，触发专属弹幕-Z23II",
+  "icon": 29200,
+  "last_effect": "",
+  "name": "专属弹幕-Z23II",
+  "color": "red",
+  "desc_get": "主炮每进行10次攻击，触发专属弹幕-Z23II",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

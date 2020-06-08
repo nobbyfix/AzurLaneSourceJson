@@ -1,0 +1,47 @@
+{
+  "picture": "",
+  "id": 328,
+  "desc": "持续伤害",
+  "last_effect": "zhuoshao",
+  "time": 10,
+  "icon": 328,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "attr": "cannonPower",
+        "k": 0,
+        "number": 8,
+        "time": 3,
+        "dotType": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 60
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 61
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "阿尔及利亚特殊标记燃烧"
+}

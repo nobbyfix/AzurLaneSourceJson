@@ -1,0 +1,44 @@
+{
+  "picture": "",
+  "id": 111,
+  "desc": "机动提高30%，炮击和雷击降低5%",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 111,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -500,
+        "attr": "cannonPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": -500,
+        "attr": "torpedoPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 3000,
+        "attr": "dodgeRate"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "复纵阵回避"
+}

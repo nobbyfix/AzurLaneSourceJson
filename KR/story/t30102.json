@@ -1,0 +1,69 @@
+{
+  "id": "T30102",
+  "mode": 2,
+  "once": true,
+  "scripts": [
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 307020,
+      "side": 2,
+      "say": "!! 적기 직상! 급강하! \"제로\" 긴급 발함!",
+      "nameColor": "#ff0000",
+      "actorName": "{namecode:92}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "shake": {
+        "speed": 1,
+        "number": 3
+      }
+    },
+    {
+      "actor": 307010,
+      "side": 2,
+      "dir": -1,
+      "nameColor": "#ff0000",
+      "say": "!? 각 기 장비 교체를 멈춰! 긴급 발함!",
+      "shake": {
+        "speed": 1,
+        "number": 3
+      },
+      "actorName": "{namecode:91}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      }
+    },
+    {
+      "actor": 107060,
+      "side": 0,
+      "dir": -1,
+      "nameColor": "#92fc63",
+      "say": "이미 늦었어! 맥클러스키 편대, 날려버려라!",
+      "shake": {
+        "speed": 1,
+        "number": 3
+      },
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      }
+    }
+  ]
+}

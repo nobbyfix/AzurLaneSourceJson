@@ -1,0 +1,232 @@
+{
+  "id": 10401410,
+  "fleet_prefab": [],
+  "map_id": 10001,
+  "stages": [
+    {
+      "timeCount": 180,
+      "failCondition": 1,
+      "playerArea": [
+        -70,
+        20,
+        37,
+        68
+      ],
+      "stageIndex": 1,
+      "backGroundStageID": 1,
+      "totalArea": [
+        -70,
+        20,
+        90,
+        70
+      ],
+      "fleetCorrdinate": [
+        -80,
+        0,
+        75
+      ],
+      "mainUnitPosition": {
+        "1": [
+          [
+            -105,
+            0,
+            58
+          ],
+          [
+            -105,
+            0,
+            78
+          ],
+          [
+            -105,
+            0,
+            38
+          ]
+        ],
+        "-1": [
+          [
+            15,
+            0,
+            58
+          ],
+          [
+            15,
+            0,
+            78
+          ],
+          [
+            15,
+            0,
+            38
+          ]
+        ]
+      },
+      "enemyArea": [],
+      "passCondition": 1,
+      "waves": [
+        {
+          "preWaves": [],
+          "waveIndex": 100,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 0.5
+          }
+        },
+        {
+          "preWaves": [],
+          "waveIndex": 202,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 13
+          }
+        },
+        {
+          "preWaves": [],
+          "waveIndex": 203,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 28
+          }
+        },
+        {
+          "preWaves": [
+            100
+          ],
+          "triggerType": 0,
+          "conditionType": 1,
+          "spawn": [
+            {
+              "moveCast": true,
+              "corrdinate": [
+                11,
+                0,
+                75
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 104005,
+              "delay": 0
+            },
+            {
+              "moveCast": true,
+              "monsterTemplateID": 104006,
+              "delay": 0,
+              "corrdinate": [
+                0,
+                0,
+                55
+              ]
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                11,
+                0,
+                35
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 104005,
+              "delay": 0
+            }
+          ],
+          "waveIndex": 101,
+          "key": true,
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            101
+          ],
+          "triggerType": 0,
+          "conditionType": 0,
+          "spawn": [
+            {
+              "moveCast": true,
+              "corrdinate": [
+                11,
+                0,
+                75
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 104003,
+              "delay": 0
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                15,
+                0,
+                65
+              ],
+              "buffList": [
+                8001
+              ],
+              "monsterTemplateID": 104012,
+              "delay": 0
+            },
+            {
+              "reinforceDelay": 5,
+              "corrdinate": [
+                20,
+                0,
+                55
+              ],
+              "buffList": [
+                8001
+              ],
+              "monsterTemplateID": 104030,
+              "delay": 0,
+              "moveCast": true
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                15,
+                0,
+                45
+              ],
+              "buffList": [
+                8001
+              ],
+              "monsterTemplateID": 104014,
+              "delay": 0
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                11,
+                0,
+                35
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 104003,
+              "delay": 0
+            }
+          ],
+          "waveIndex": 102,
+          "key": true,
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            102
+          ],
+          "waveIndex": 900,
+          "triggerType": 8,
+          "triggerParams": []
+        }
+      ]
+    }
+  ]
+}

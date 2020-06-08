@@ -1,0 +1,812 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "stopbgm": true,
+      "sequence": [
+        [
+          "<size=51>빨리</size>",
+          1
+        ],
+        [
+          "<size=51>빨리, 빨리, 더 빨리</size>",
+          2
+        ],
+        [
+          "<size=51>…</size>",
+          3.5
+        ],
+        [
+          "<size=51>이렇게 마음이 다급했던 적은 없다</size> ",
+          5
+        ],
+        [
+          "<size=51>어째서 오늘인 걸까</size>",
+          6.5
+        ],
+        [
+          "<size=51>왜 하필 지금인 걸까</size>",
+          8
+        ],
+        [
+          "<size=51>…</size>",
+          9.5
+        ],
+        [
+          "<size=51>부디 무사하기를…</size>",
+          11
+        ]
+      ],
+      "mode": 1
+    },
+    {
+      "stopbgm": true,
+      "flashin": {
+        "1": 5,
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0,
+        "dur": 0.5
+      },
+      "sequence": [
+        [
+          "",
+          1
+        ]
+      ],
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "mode": 1,
+      "blackBg": true,
+      "effects": [
+        {
+          "name": "xiangtingliaofa",
+          "active": true
+        }
+      ]
+    },
+    {
+      "actor": 207040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "xiangtingliaofa",
+          "active": false
+        },
+        {
+          "name": "UIhuohua",
+          "active": true
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "say": "조심해! 이런…!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "airRaidAlarm",
+      "bgmDelay": 1,
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "say": "동북쪽에 적기가 또 있어! 대공화력은 멈추지 말고 지휘관의 안전을 우선 확보하도록!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actor": 103160,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "actor": 102080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "몇 놈이 와도 상관없어, 어디 맘껏 와보라고!!!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "유니온·뉴포트 항구 ",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "혼란과 불바다",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "숙소도, 도크도, 격납고도 불타고 있다",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "두려움, 다급함, 슬픔, 분노",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "고작 몇분 만에 과거의 아름다웠던 휴양지는 더 이상 존재하지 않게 되었다",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "남은 것이라곤 오직, 혼란과… 불바다",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "say": "근처에 세이렌 항모 함대가 있을 거야, 이렇게 지키고만 있는 건 방법이 아니지, 내가 나가서 해치우겠어!",
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "say": "호넷, 경솔하지 마, 전술 분석 데이터가 아직…",
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "걱정 마, 모두를 잘 지키고 있어, 금방 돌아올 테니까!!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": -30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 1,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "…",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": false
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "얼마 전",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "level02",
+      "bgmDelay": 2,
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "봐요, 지휘관. 앞이 바로 뉴포트 항구에요.",
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "특별 회의 참가 일로 또 유니온 본토에 주둔하게 될 줄은.",
+      "actor": 207040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "며칠 전, 지휘부에 갑작스럽게도 중요 군사 회의가 열린다는 전보가 도착했다.",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "현재 함대는 유니온 본토로 향하는 중이다.",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "그 \"앞으로의 작전방침을 결정할 수 있는\" 회의에서는 대체 무슨 얘기를 하려는 걸까…",
+      "actor": 207040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "빨리빨리, 우릴 맞이하러 온 사람들이 손을 흔들고 있잖아~",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 207040,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "호넷, 얌전히 굴어야지. 아무리 조급해도 레이디의 품격을 잃어선 안돼.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "흐흥, 빅토리어스 넌 몰랐지? 놀라지 말고 들어~~~",
+      "actor": 107070,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "실은, 전에 계속 전선에서 전투에 참가했던 엔터프라이즈 언니가 마침 이 근처에서 수리 중이라고!",
+      "actor": 107070,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "흠? 확실히 엔터프라이즈 씨는 본 지 꽤 오래되었네, 정말 다행이야!",
+      "actor": 207040,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "(엔터프라이즈가 정찰 임무에 나간 건 잠시 비밀로 해둘까…)",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "멀리서부터 시끄러운 소리가 들렸어, 여전히 힘이 넘쳐나는구나, 호넷.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "오랜만이야~ 히히, 지휘관, 여기 소개할게.",
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "앞에 서있는 이 분이, 바로 명성이 자자한 유니온의 정의의 사자, 멋지고 위풍당당한──볼티모어!",
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "처음 뵙겠습니다, 지휘관. 저는 볼티모어로, 그저 지나는 길이었던 평범한 중순양함입니다…",
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "하하, 농담이었어요. 전 이곳의 방어함대의 기함입니다. 모두 머무시는 동안의 접대는 제가 맡고 있지요.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "뉴포트 항구는 군사 항구이긴 하지만 주변이 유명한 휴양지이기도 합니다.",
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "say": "잠시 파견나오셨다 생각하시고 편히 있으세요. 분명 이곳이 잊지 못할 추억을 남겨드릴 겁니다~",
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_nepu1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": true
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "잊지 못할 추억이라…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "airRaidAlarm",
+      "bgmDelay": 2,
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "...............",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_xiangting_1"
+    },
+    {
+      "stopbgm": true,
+      "flashin": {
+        "1": 5,
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0,
+        "dur": 0.5
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "mode": 1,
+      "sequence": [
+        [
+          "<size=51>분명 가장 안전한 요새였을텐데, 어째서 이렇게…</size>",
+          1.5
+        ],
+        [
+          "<size=51>「어서 가, 이곳도 곧 점령되겠어」</size>",
+          3
+        ],
+        [
+          "<size=51>갈 수 없어…</size>",
+          4.5
+        ],
+        [
+          "<size=51>…모두와 함께</size> ",
+          6
+        ],
+        [
+          "<size=51>「약속은…여기까지인가 보네」</size>",
+          7.5
+        ],
+        [
+          "<size=51>.....</size>",
+          9
+        ],
+        [
+          "<size=51>......!</size>",
+          10.5
+        ]
+      ],
+      "effects": [
+        {
+          "name": "UIhuohua",
+          "active": false
+        }
+      ]
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "XIANGTINGLIAOFA1",
+  "once": true
+}

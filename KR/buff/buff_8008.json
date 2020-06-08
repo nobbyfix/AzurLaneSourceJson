@@ -1,0 +1,43 @@
+{
+  "picture": "",
+  "id": 8008,
+  "desc": "自爆船冲撞自杀buff加速等效果",
+  "last_effect": "",
+  "time": 0,
+  "icon": 8008,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "group": 8003,
+        "mul": -8000,
+        "add": 0
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDeath",
+      "arg_list": {
+        "minX": -80
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "immuneMaxAreaLimit"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "自爆船冲撞自杀buff加速等效果"
+}

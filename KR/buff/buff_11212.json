@@ -1,0 +1,32 @@
+{
+  "picture": "",
+  "id": 11212,
+  "color": "red",
+  "desc": "提高属性",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "last_effect": "",
+  "name": "歼灭模式",
+  "icon": 11210,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 20000,
+        "attr": "loadSpeed"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufared",
+  "time": 10
+}

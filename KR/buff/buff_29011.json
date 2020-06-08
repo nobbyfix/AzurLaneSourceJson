@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行15次攻击，触发专属弹幕-英格兰I"
+  },
+  "picture": "",
+  "id": 29011,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 15,
+        "countType": 29010,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29010,
+        "skill_id": 29011
+      }
+    }
+  ],
+  "desc": "主炮每进行15次攻击，触发专属弹幕-英格兰I",
+  "icon": 29000,
+  "last_effect": "",
+  "name": "专属弹幕-英格兰I",
+  "color": "red",
+  "desc_get": "主炮每进行15次攻击，触发专属弹幕-英格兰I",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

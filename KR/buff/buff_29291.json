@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行15次攻击，触发专属弹幕-22I"
+  },
+  "picture": "",
+  "id": 29291,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 15,
+        "countType": 29290,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29290,
+        "skill_id": 29291
+      }
+    }
+  ],
+  "desc": "主炮每进行15次攻击，触发专属弹幕-22I",
+  "icon": 29290,
+  "last_effect": "",
+  "name": "专属弹幕-22I",
+  "color": "red",
+  "desc_get": "主炮每进行15次攻击，触发专属弹幕-22I",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

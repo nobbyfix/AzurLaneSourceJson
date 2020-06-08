@@ -1,0 +1,27 @@
+{
+  "picture": "",
+  "id": 60010,
+  "desc": "回血",
+  "last_effect": "Health",
+  "time": 0,
+  "icon": 60010,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "time": 20,
+        "check_target": "TargetHelpLeastHP",
+        "minTargetNumber": 1,
+        "target": "TargetSelf",
+        "targetMaxHPRatio": 0.75,
+        "skill_id": 60005
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "测试-女灶神-技能触发被动"
+}

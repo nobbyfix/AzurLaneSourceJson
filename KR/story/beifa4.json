@@ -1,0 +1,379 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "stopbgm": true,
+      "sequence": [
+        [
+          "귀여운 꼬마 메이드\n\n<size=45>제4장 - 꼬마 동료 참전!</size>",
+          1
+        ]
+      ],
+      "mode": 1
+    },
+    {
+      "side": 2,
+      "say": "그 뒤 - 모항 집무실",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-2",
+      "dir": 1,
+      "bgName": "bg_night"
+    },
+    {
+      "actor": 202180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "say": "잘 부탁드립니다. 메이드 벨파스트, 착임했습니다!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "options": [
+        {
+          "content": "베, 벨파스트?!",
+          "flag": 1
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "actor": 202120,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "say": "저는 여기 있습니다. 이 아이는 저의……아니, 정확히 말하자면 저는 아닙니다만……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 1
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "actor": 312010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "say": "사실은……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:98}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "actor": 312010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "이러이러하고 저러저러해서 말이다냥. 조금 복잡한 사정으로 착임이 늦어졌다냥……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:98}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "actor": 202180,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "options": [
+        {
+          "content": "다, 당연히 있어도 되지!",
+          "flag": 1
+        },
+        {
+          "content": "꼬마 벨파 귀여워!!!",
+          "flag": 2
+        }
+      ],
+      "say": "벨파스트는…여기 있으면 안 되나요…? 지휘관님?",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "actor": 202180,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "optionFlag": 1,
+      "say": "다행이다…역시 언니들이 얘기해준 대로, 지휘관님은 자상하신 분이시네요.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "actor": 202180,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "optionFlag": 2,
+      "say": "이걸로…괜찮다는 의미인가요? 좀 이해하기 어려운데…그래도 지휘관님은 역시 언니들이 얘기해준 대로 좋은 분이네요.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "actor": 312010,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "say": "지휘관이라면 꼬마 벨파를 버릴리 없다고 믿고 있었다냥~",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:98}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "say": "주인님, 감사합니다. 메이드팀의 리더로서, 반드시 이 아이를 우수한 메이드로 키울 수 있도록 약속드리겠습니다.",
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "actor": 202180,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "say": "네! 벨파스트, 열심히 할게요!",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 2
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_night"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "이렇게, 새로운 멤버가 모항에 들어오게 되었다.",
+      "bgName": "bg_night"
+    },
+    {
+      "stopbgm": true,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "blackBg": true,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "그런데…왜 꼬마 벨파가 여기 나타난 걸까냥……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:98}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 312010
+    },
+    {
+      "actor": 302010,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "blackBg": true,
+      "say": "성정 큐브…열광선의 발사…닮아있는 두 사람…발사…?",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:37}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "paintingFadeOut": {
+        "time": 0.5,
+        "side": 0
+      }
+    },
+    {
+      "actor": 312010,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "blackBg": true,
+      "say": "유바리…뭔가 짚이는 거라도 있는 거냥?",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:98}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "actor": 302010,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "blackBg": true,
+      "say": "흐으음…뭔가 있었던 것 같기도 하고…없었던 것 같기도 하고…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:37}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "actor": 312010,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "blackBg": true,
+      "say": "계속해서 실험해봐야 겠구냥…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:98}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "actor": 302010,
+      "side": 1,
+      "dir": 1,
+      "nameColor": "#92fc63",
+      "blackBg": true,
+      "say": "응…그럼…257 번째의 실험은…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "{namecode:37}",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "BEIFA4",
+  "once": true
+}

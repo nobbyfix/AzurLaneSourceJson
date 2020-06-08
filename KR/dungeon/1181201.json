@@ -1,0 +1,319 @@
+{
+  "id": 1181201,
+  "fleet_prefab": [],
+  "stages": [
+    {
+      "timeCount": 300,
+      "failCondition": 1,
+      "playerArea": [
+        -75,
+        20,
+        42,
+        68
+      ],
+      "stageIndex": 1,
+      "totalArea": [
+        -75,
+        20,
+        90,
+        70
+      ],
+      "backGroundStageID": 1,
+      "fleetCorrdinate": [
+        -80,
+        0,
+        75
+      ],
+      "enemyArea": [],
+      "passCondition": 1,
+      "waves": [
+        {
+          "preWaves": [],
+          "triggerType": 0,
+          "conditionType": 1,
+          "waveIndex": 201,
+          "triggerParams": [],
+          "spawn": [
+            {
+              "moveCast": true,
+              "corrdinate": [
+                10,
+                0,
+                35
+              ],
+              "phase": [
+                {
+                  "switchTo": 1,
+                  "addWeapon": [
+                    606120,
+                    606121
+                  ],
+                  "switchParam": 2,
+                  "switchType": 1,
+                  "index": 0
+                },
+                {
+                  "switchTo": 2,
+                  "addWeapon": [
+                    606122
+                  ],
+                  "switchParam": 2,
+                  "switchType": 1,
+                  "index": 1
+                },
+                {
+                  "switchTo": 3,
+                  "removeWeapon": [
+                    606122
+                  ],
+                  "switchParam": 0.5,
+                  "switchType": 1,
+                  "index": 2
+                },
+                {
+                  "setAI": 90030,
+                  "switchTo": 4,
+                  "addWeapon": [
+                    606123,
+                    606124,
+                    606125
+                  ],
+                  "switchParam": 1,
+                  "switchType": 1,
+                  "index": 3
+                },
+                {
+                  "switchTo": 6,
+                  "removeWeapon": [
+                    606123,
+                    606120
+                  ],
+                  "switchParam": 4.5,
+                  "switchType": 1,
+                  "index": 4
+                },
+                {
+                  "switchTo": 7,
+                  "addWeapon": [
+                    606122,
+                    606128
+                  ],
+                  "switchParam": 2,
+                  "switchType": 1,
+                  "index": 6
+                },
+                {
+                  "switchTo": 8,
+                  "removeWeapon": [
+                    606122,
+                    606128
+                  ],
+                  "switchParam": 5,
+                  "switchType": 1,
+                  "index": 7
+                },
+                {
+                  "setAI": 20006,
+                  "switchTo": 9,
+                  "addWeapon": [
+                    606120
+                  ],
+                  "switchParam": 4,
+                  "switchType": 1,
+                  "index": 8
+                },
+                {
+                  "switchTo": 10,
+                  "removeWeapon": [
+                    606125
+                  ],
+                  "switchParam": 1,
+                  "switchType": 1,
+                  "index": 9
+                },
+                {
+                  "setAI": 90029,
+                  "switchTo": 11,
+                  "removeWeapon": [
+                    606120,
+                    606124
+                  ],
+                  "switchParam": 1,
+                  "switchType": 1,
+                  "index": 10
+                },
+                {
+                  "switchTo": 114,
+                  "addWeapon": [
+                    606126,
+                    606127,
+                    606128
+                  ],
+                  "switchParam": 7,
+                  "switchType": 1,
+                  "index": 11
+                },
+                {
+                  "switchTo": 1,
+                  "addWeapon": [
+                    606124
+                  ],
+                  "removeWeapon": [
+                    606126,
+                    606127,
+                    606124,
+                    606128
+                  ],
+                  "switchParam": 1,
+                  "switchType": 1,
+                  "index": 114
+                }
+              ],
+              "monsterTemplateID": 11800502,
+              "delay": 0,
+              "bossData": {
+                "icon": "tiancheng",
+                "hpBarNum": 100
+              }
+            },
+            {
+              "moveCast": true,
+              "corrdinate": [
+                10,
+                0,
+                75
+              ],
+              "phase": [
+                {
+                  "switchTo": 1,
+                  "addWeapon": [
+                    606130
+                  ],
+                  "switchParam": 2,
+                  "switchType": 1,
+                  "index": 0
+                },
+                {
+                  "switchTo": 2,
+                  "addWeapon": [
+                    606134
+                  ],
+                  "switchParam": 2,
+                  "switchType": 1,
+                  "index": 1
+                },
+                {
+                  "switchTo": 3,
+                  "switchParam": 0.5,
+                  "index": 2,
+                  "switchType": 1
+                },
+                {
+                  "setAI": 90030,
+                  "switchTo": 4,
+                  "addWeapon": [
+                    606132,
+                    606135
+                  ],
+                  "switchParam": 1,
+                  "switchType": 1,
+                  "index": 3
+                },
+                {
+                  "switchTo": 6,
+                  "removeWeapon": [
+                    606134,
+                    606135
+                  ],
+                  "switchParam": 1,
+                  "switchType": 1,
+                  "index": 4
+                },
+                {
+                  "setAI": 20006,
+                  "switchTo": 7,
+                  "addWeapon": [
+                    606133
+                  ],
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 6
+                },
+                {
+                  "switchTo": 8,
+                  "removeWeapon": [
+                    606133
+                  ],
+                  "switchParam": 3.5,
+                  "switchType": 1,
+                  "index": 7
+                },
+                {
+                  "setAI": 90030,
+                  "switchTo": 10,
+                  "removeWeapon": [
+                    606132
+                  ],
+                  "switchParam": 8,
+                  "switchType": 1,
+                  "index": 8
+                },
+                {
+                  "switchTo": 10,
+                  "addWeapon": [
+                    606131,
+                    606135
+                  ],
+                  "switchParam": 1,
+                  "switchType": 1,
+                  "index": 9
+                },
+                {
+                  "setAI": 90028,
+                  "switchTo": 11,
+                  "removeWeapon": [
+                    606131
+                  ],
+                  "switchParam": 2,
+                  "switchType": 1,
+                  "index": 10
+                },
+                {
+                  "switchTo": 114,
+                  "switchParam": 7,
+                  "index": 11,
+                  "switchType": 1
+                },
+                {
+                  "switchTo": 1,
+                  "removeWeapon": [
+                    606135
+                  ],
+                  "switchParam": 1,
+                  "switchType": 1,
+                  "index": 114
+                }
+              ],
+              "monsterTemplateID": 11800501,
+              "delay": 0,
+              "bossData": {
+                "icon": "jiahezhanlie",
+                "hpBarNum": 100
+              }
+            }
+          ]
+        },
+        {
+          "preWaves": [
+            201
+          ],
+          "triggerType": 8,
+          "triggerParams": [],
+          "waveIndex": 900,
+          "key": true
+        }
+      ]
+    }
+  ],
+  "bgm": "battle-boss-tiancheng"
+}

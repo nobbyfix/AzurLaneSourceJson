@@ -1,0 +1,45 @@
+{
+  "picture": "",
+  "id": 8615,
+  "desc": "",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 2120,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.4,
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": 0,
+        "add": -12
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 8615
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "Darkness",
+  "name": "2019年2月世界BOSS死亡debuff"
+}

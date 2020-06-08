@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行10次攻击，触发专属弹幕-{namecode:16}II"
+  },
+  "picture": "",
+  "id": 29122,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 10,
+        "countType": 29120,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29120,
+        "skill_id": 29122
+      }
+    }
+  ],
+  "desc": "主炮每进行10次攻击，触发专属弹幕-{namecode:16}II",
+  "icon": 29120,
+  "last_effect": "",
+  "name": "专属弹幕-{namecode:16}II",
+  "color": "red",
+  "desc_get": "主炮每进行10次攻击，触发专属弹幕-{namecode:16}II",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

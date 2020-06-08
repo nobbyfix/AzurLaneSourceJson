@@ -1,0 +1,70 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "picture": "",
+  "id": 12000,
+  "effect_list": [
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": "TargetPlayerByType",
+        "shipType": 6,
+        "buff_id": 12001
+      }
+    },
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": "TargetPlayerByType",
+        "shipType": 7,
+        "buff_id": 12001
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 12000
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "check_target": "TargetTemplate",
+        "minTargetNumber": 1,
+        "target": "TargetSelf",
+        "targetTemplateIDList": [
+          101051,
+          101052,
+          101053,
+          101054
+        ],
+        "skill_id": 12001
+      }
+    }
+  ],
+  "desc": "队伍中(存活)时降低轻母、航母受到的伤害$1",
+  "icon": 12000,
+  "last_effect": "",
+  "name": "远东的羁绊",
+  "color": "yellow",
+  "desc_get": "在队伍中(存活)时降低轻母、航母受到的伤害",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}
