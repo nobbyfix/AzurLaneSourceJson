@@ -1,0 +1,51 @@
+{
+  "picture": "",
+  "id": 8703,
+  "color": "yellow",
+  "desc": "",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "last_effect": "",
+  "name": "2020年6月世界BOSS叠加buff",
+  "icon": 2120,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 10000,
+        "attr": "cannonPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 14000,
+        "attr": "airPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.3,
+        "attr": "injureRatio"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufared",
+  "time": 0
+}
