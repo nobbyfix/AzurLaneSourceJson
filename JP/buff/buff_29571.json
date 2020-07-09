@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行15次攻击，触发特殊弹幕-美因茨I"
+  },
+  "picture": "",
+  "id": 29571,
+  "desc": "主炮每进行15次攻击，触发特殊弹幕-美因茨I",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 29570,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 15,
+        "countType": 29570,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29570,
+        "skill_id": 29571
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "特殊弹幕"
+}
