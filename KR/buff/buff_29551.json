@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行9次攻击，触发特殊弹幕-柴郡I"
+  },
+  "picture": "",
+  "id": 29551,
+  "desc": "主炮每进行9次攻击，触发特殊弹幕-柴郡I",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 29550,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 9,
+        "countType": 29550,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29550,
+        "skill_id": 29551
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "特殊弹幕"
+}
