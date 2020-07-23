@@ -1,0 +1,35 @@
+{
+  "picture": "",
+  "id": 8722,
+  "desc": "",
+  "last_effect": "",
+  "name": "英系v2潜艇减伤护盾",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.6,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 8671
+      }
+    }
+  ],
+  "desc_get": "",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}
