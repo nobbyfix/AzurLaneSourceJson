@@ -1,0 +1,466 @@
+{
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "side": 2,
+      "say": "バレンツ海・ロイヤル支援艦隊",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "xingnong-4",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "dir": 1
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "シェフィールドとパーシュース、ヴァンパイアたち支援艦隊は鉄血の「主力艦隊」に向けて前進していた。"
+    },
+    {
+      "actor": 202080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "ティルピッツの長距離砲撃にしても精度が低すぎます。やはり……"
+    },
+    {
+      "actor": 403040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "そこまでだわ"
+    },
+    {
+      "actor": 202080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "……ドイッチュラント"
+    },
+    {
+      "actor": 403040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "そんな少ない戦力で我が鉄血の主力艦隊に挑んでくるなんて、その無駄な勇気を褒めてやるわ"
+    },
+    {
+      "actor": 403040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "あんたたちを倒すのはティルピッツではなく、この鉄血のスピリチュアルリーダーこと私、ドイッチュラントよ！"
+    },
+    {
+      "action": [
+        {
+          "y": 0,
+          "type": "move",
+          "dur": 0.5,
+          "delay": 0.5,
+          "x": 2500
+        }
+      ],
+      "actor": 202080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "邪魔はしないでいただきたいのですが"
+    },
+    {
+      "soundeffect": "event:/battle/plane",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "シェフィ、避けなさい！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 206060
+    },
+    {
+      "soundeffect": "event:/battle/wave",
+      "side": 2,
+      "say": "パーシュースの放った艦載機が先制攻撃しようと爆弾を投下した――が、ドイッチュラントの体をそのまま「通り抜けた」。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "dir": 1
+    },
+    {
+      "actor": 202080,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "subActors": [
+        {
+          "pos": {
+            "x": 1185
+          },
+          "actor": 206060
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "シェフィールド&パーシュース",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "……！？"
+    },
+    {
+      "actor": 403040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 10,
+        "number": 2
+      },
+      "say": "フフフ……あははははは！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "say": "見たか下等生物たち！我が鉄血の技術は世界一だわ！",
+      "actor": 403040,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#ff5c5c"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "爆弾が通り抜けたドイッチュラントの体が半透明になり――そのまま海の上から跡型もなく消え去った。",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ]
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "ドイッチュラントだけではない―。ティルピッツやシャルンホルスト姉妹、アドミラル・グラーフ・シュペー……鉄血の主力艦隊の艦影がまるで最初から存在しなかったかのように海から消えてなくなった"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "残ったのは、いくつかの量産型艦のみ――"
+    },
+    {
+      "say": "鉄血の主力艦隊が……消えた？",
+      "actor": 206060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 4
+    },
+    {
+      "actor": 201230,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "そのようね！レーダーからも消えたわ！"
+    },
+    {
+      "actor": 202080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "レーダーだけでなく目視まで……これは鉄血の最新技術というより……"
+    },
+    {
+      "say": "はぁ…シェフィの推測通りよ",
+      "actor": 206060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 201230,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "鉄血の主力艦隊は最初からここにいなくて、わたしたちはずっと幻と追いかけっこしてたわけね"
+    },
+    {
+      "actor": 206060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "結果的にいえばそうなるわね"
+    },
+    {
+      "actor": 202080,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "…………"
+    },
+    {
+      "actor": 201230,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "でもあの量産艦たちは本物のようね。ほらもう狙ってきているし…！"
+    },
+    {
+      "actor": 206060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "雨降れば量産艦固まるってことね…！"
+    },
+    {
+      "actor": 201230,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "subActors": [
+        {
+          "pos": {
+            "x": 1185
+          },
+          "actor": 202080
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "ヴァンパイア&シェフィールド",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "……？"
+    },
+    {
+      "say": "…とりあえずほかの艦隊に打電するわ。こいつらを片付けるわよ",
+      "actor": 206060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 4
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "YONGYEHUANGUANG26",
+  "once": true
+}

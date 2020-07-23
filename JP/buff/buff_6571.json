@@ -1,0 +1,46 @@
+{
+  "picture": "",
+  "id": 6571,
+  "desc": "",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 6570,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffShiftBullet",
+      "arg_list": {
+        "bullet_id": 1803,
+        "index": [
+          2
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onTorpedoWeaponBulletCreate"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 0.05,
+        "attr": "damageRatioByBulletTorpedo"
+      }
+    },
+    {
+      "trigger": [
+        "onTorpedoWeaponFire"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 1
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": ""
+}
