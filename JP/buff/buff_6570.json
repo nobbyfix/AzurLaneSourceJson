@@ -9,11 +9,19 @@
   "effect_list": [
     {
       "trigger": [
-        "onAttach"
+        "onStartGame"
       ],
-      "type": "BattleBuffAddBuff",
+      "type": "BattleBuffCastSkill",
       "arg_list": {
-        "buff_id": 6571
+        "minWeaponNumber": 1,
+        "type": [
+          5
+        ],
+        "index": [
+          2
+        ],
+        "check_weapon": true,
+        "skill_id": 6570
       }
     }
   ],
