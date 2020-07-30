@@ -1,7 +1,7 @@
 {
   "picture": "",
   "id": 10201,
-  "desc": "buff触发器",
+  "desc": "伤害提高，闪避",
   "icon": 10201,
   "last_effect": "",
   "name": "LuckyE",
@@ -15,28 +15,39 @@
   "effect_list": [
     {
       "trigger": [
-        "onAttach"
+        "onAttach",
+        "onRemove"
       ],
-      "type": "BattleBuffCastSkill",
+      "type": "BattleBuffAddAttr",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 10201,
-        "rant": 10000
+        "number": 1,
+        "attr": "damageRatioBullet"
       }
     },
     {
       "trigger": [
-        "onAllInStrike"
+        "onAttach",
+        "onRemove"
       ],
-      "type": "BattleBuffCastSkill",
+      "type": "BattleBuffAddAttr",
       "arg_list": {
-        "target": "TargetSelf",
-        "skill_id": 10202,
-        "rant": 10000
+        "number": 1,
+        "attr": "perfectDodge"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 1,
+        "attr": "immuneDirectHit"
       }
     }
   ],
   "stack": 1,
   "init_effect": "jinengchufared",
-  "time": 3
+  "time": 8
 }

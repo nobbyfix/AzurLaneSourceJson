@@ -64,105 +64,28 @@
       "waves": [
         {
           "preWaves": [],
-          "waveIndex": 100,
-          "triggerType": 1,
-          "triggerParams": {
-            "timeout": 0.5
-          }
-        },
-        {
-          "preWaves": [
-            100
-          ],
           "triggerType": 0,
           "conditionType": 0,
-          "reinforcement": [
-            {
-              "score": 0,
-              "corrdinate": [
-                0,
-                0,
-                80
-              ],
-              "buffList": [
-                8001,
-                8007
-              ],
-              "monsterTemplateID": 702,
-              "delay": 0,
-              "moveCast": true
-            },
-            {
-              "score": 0,
-              "corrdinate": [
-                0,
-                0,
-                65
-              ],
-              "buffList": [
-                8001,
-                8007,
-                8027,
-                8028
-              ],
-              "monsterTemplateID": 701,
-              "delay": 0,
-              "moveCast": true
-            },
-            {
-              "score": 0,
-              "corrdinate": [
-                0,
-                0,
-                45
-              ],
-              "buffList": [
-                8001,
-                8007,
-                8027,
-                8028
-              ],
-              "monsterTemplateID": 701,
-              "delay": 0,
-              "moveCast": true
-            },
-            {
-              "score": 0,
-              "corrdinate": [
-                0,
-                0,
-                30
-              ],
-              "buffList": [
-                8001,
-                8007
-              ],
-              "monsterTemplateID": 702,
-              "delay": 0,
-              "moveCast": true
-            }
-          ],
           "waveIndex": 101,
           "spawn": [
             {
-              "reinforceDelay": 1,
               "score": 0,
-              "moveCast": true,
               "corrdinate": [
                 -15,
                 0,
-                77
+                55
               ],
-              "buffList": [
-                8001,
-                8007
+              "phase": [
+                {
+                  "switchTo": 1,
+                  "switchParam": 200,
+                  "index": 0,
+                  "switchType": 1
+                }
               ],
-              "monsterTemplateID": 700,
+              "monsterTemplateID": 10106031,
               "delay": 0,
-              "bossData": {
-                "icon": "awuwei",
-                "hpBarNum": 50
-              }
+              "moveCast": true
             }
           ],
           "triggerParam": []

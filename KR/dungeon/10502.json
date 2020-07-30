@@ -291,7 +291,8 @@
           ],
           "preWaves": [
             101,
-            102
+            102,
+            500
           ],
           "triggerType": 0,
           "conditionType": 0,
@@ -352,6 +353,17 @@
         },
         {
           "preWaves": [
+            101,
+            102
+          ],
+          "waveIndex": 500,
+          "triggerType": 3,
+          "triggerParams": {
+            "id": "TACT10008"
+          }
+        },
+        {
+          "preWaves": [
             104
           ],
           "waveIndex": 205,
@@ -364,17 +376,29 @@
           "preWaves": [
             205
           ],
-          "waveIndex": 501,
           "triggerType": 3,
           "triggerParams": {
-            "id": "TACT10005",
+            "id": "TACT10009"
+          },
+          "waveIndex": 501,
+          "key": true
+        },
+        {
+          "preWaves": [
+            501,
+            205
+          ],
+          "waveIndex": 502,
+          "triggerType": 3,
+          "triggerParams": {
+            "id": "TACT10010",
             "progress": 100
           }
         },
         {
           "preWaves": [
-            205,
-            501
+            501,
+            502
           ],
           "triggerType": 1,
           "conditionType": 0,
