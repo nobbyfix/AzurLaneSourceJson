@@ -1,0 +1,529 @@
+{
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "actor": 201330,
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "say": "再次装填完毕，全弹发射！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgm": "xinnong-4"
+    },
+    {
+      "actor": 205100,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "哦哦…就是这股气势！伊卡洛斯，干得好！"
+    },
+    {
+      "say": "很好，果然很有效果。看来侵扰者的机动能力并不强，是因为搭载了过多精密设备的原因么...",
+      "actor": 205090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "actor": 205090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "爱丁堡，指挥官还在报告里说过什么消灭极地塞壬的诀窍么？"
+    },
+    {
+      "actor": 202110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "这个...哎？！我想想…想想……"
+    },
+    {
+      "say": "…果然还是那个爱丁堡。",
+      "actor": 205100,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    {
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 202110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "呜…！"
+    },
+    {
+      "say": "哈哈，别在意。解决掉麻烦的侵扰者以后，剩下的不过是火力标靶而已…嗯？伊卡洛斯，怎么了吗？",
+      "actor": 205090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "say": "唔…总感觉有一些奇怪的地方，可能只是我想多了…",
+      "actor": 201330,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "actor": 205100,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "大家都是抗命的同伴了，有什么想说的话尽管说出来！"
+    },
+    {
+      "say": "这批塞壬能突破北方联合的封锁线，一定是集中了非常强大的火力吧...",
+      "actor": 201330,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "可是现在，除了数量多一些，侵扰者稍微麻烦一点之外，总感觉少了什么……",
+      "actor": 201330,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "say": "唔…被你这么一说，倒确实是——",
+      "actor": 205090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 10,
+        "number": 2
+      },
+      "say": "——终于发现了么，一群迟钝的家伙，我都快等的不耐烦了！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "通讯器",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      }
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "actorName": "通讯器",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "畏惧吧，颤栗吧，感受从幽暗之中渗入骨髓的恐惧吧！"
+    },
+    {
+      "actor": 201330,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "被严重干扰的通讯器突然发出声音了？！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ]
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "actorName": "通讯器",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "呼呼…成了！果然这样的登场不论用多少次都是一样帅啊~！"
+    },
+    {
+      "actor": 202110,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "啊！我想起来了！这个就是报告中指挥官提过的，在冰雪要塞作战中遇到的通讯频道污染！"
+    },
+    {
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 10,
+        "number": 2
+      },
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "actorName": "通讯器",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "喂喂喂喂喂，通讯频道污染是什么意思！？不要看不起人啊！"
+    },
+    {
+      "say": "哼，你就是这批塞壬舰队的指挥官？",
+      "actor": 205100,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "actorName": "通讯器",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "不错！擅自入侵吾之领地之人，就永远的冻结在这片冰海之中吧！"
+    },
+    {
+      "actor": 205100,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "巴伦之海的入侵者…你打算把自己冻结在冰海之中么？"
+    },
+    {
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 10,
+        "number": 2
+      },
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "actorName": "通讯器",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "什么？！算了…今天特意为你们准备了很多新玩具，一会儿看你们还能嘴硬多久！"
+    },
+    {
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "actorName": "通讯器",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "——————————"
+    },
+    {
+      "say": "通讯器里的声音消失了…",
+      "actor": 201330,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "say": "可惜，牙买加被分配到护航舰队里了，不然感觉她们还可能交流一下…",
+      "actor": 205090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "say": "光凭刚才那令人火大的说话口气，就已经足够罪无可恕了！",
+      "actor": 205100,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 2
+    },
+    {
+      "actor": 205100,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "大家都打起精神来，一会儿好好教教这个“清除者”什么叫做社交礼仪！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ]
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "YONGYEHUANGUANG32",
+  "once": true
+}
