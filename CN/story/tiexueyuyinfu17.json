@@ -113,7 +113,7 @@
       "expression": 3
     },
     {
-      "actor": 205050,
+      "soundeffect": "event:/battle/boom2",
       "side": 0,
       "dir": -1,
       "nameColor": "#a9f548",
@@ -123,17 +123,43 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
-      "effects": [
-        {
-          "destroy": true,
-          "name": "paoji_qiaozhiwushi",
-          "active": false
-        }
-      ]
+      "actor": 205050
     },
     {
       "soundeffect": "event:/battle/boom2",
@@ -175,12 +201,6 @@
           ]
         ]
       },
-      "effects": [
-        {
-          "name": "paoji_qiaozhiwushi",
-          "active": true
-        }
-      ],
       "seDelay": 1.3
     }
   ],
