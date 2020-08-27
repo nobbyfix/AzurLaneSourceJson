@@ -209,12 +209,6 @@
       "say": "Feuer!"
     },
     {
-      "soundeffect": "event:/battle/boom2",
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
       "flashN": {
         "color": [
           1,
@@ -247,21 +241,20 @@
           ]
         ]
       },
-      "effects": [
-        {
-          "name": "paoji_bisimai",
-          "active": true
-        }
-      ],
+      "soundeffect": "event:/battle/boom2",
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
       "seDelay": 1.3
     },
     {
+      "say": "지근탄인가!? 흥, 초탄인데도 제법이군…!",
       "actor": 205050,
       "side": 0,
       "dir": -1,
       "nameColor": "#a9f548",
-      "expression": 1,
-      "say": "지근탄인가!? 흥, 초탄인데도 제법이군…!",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -270,13 +263,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "effects": [
-        {
-          "destory": true,
-          "name": "paoji_bisimai",
-          "active": false
-        }
-      ]
+      "expression": 1
     },
     {
       "say": "그렇다면 원하는 대로……",
@@ -295,12 +282,11 @@
       "expression": 1
     },
     {
+      "say": "전 함대, 포격 준비! 로열 네이비의 영광을 위해, 쏴라!",
       "actor": 205050,
       "side": 0,
       "dir": -1,
       "nameColor": "#a9f548",
-      "expression": 3,
-      "say": "전 함대, 포격 준비! 로열 네이비의 영광을 위해, 쏴라!",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -309,21 +295,9 @@
         "alpha": 0.3,
         "time": 1
       },
-      "effects": [
-        {
-          "destory": true,
-          "name": "paoji_qiaozhiwushi",
-          "active": false
-        }
-      ]
+      "expression": 3
     },
     {
-      "soundeffect": "event:/battle/boom2",
-      "dialogShake": {
-        "speed": 0.09,
-        "x": 8.5,
-        "number": 2
-      },
       "flashN": {
         "color": [
           1,
@@ -356,12 +330,12 @@
           ]
         ]
       },
-      "effects": [
-        {
-          "name": "paoji_qiaozhiwushi",
-          "active": true
-        }
-      ],
+      "soundeffect": "event:/battle/boom2",
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
       "seDelay": 1.3
     }
   ],
