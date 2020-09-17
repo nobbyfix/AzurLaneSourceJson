@@ -1,0 +1,52 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "picture": "",
+  "id": 13620,
+  "effect_list": [
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": [
+          "TargetPlayerMainFleet",
+          "TargetNationality"
+        ],
+        "nationality": 3,
+        "buff_id": 13621
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 3,
+        "nationality": 3,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetNationality"
+        ],
+        "skill_id": 13620
+      }
+    }
+  ],
+  "desc": "",
+  "icon": 13620,
+  "last_effect": "",
+  "name": "",
+  "color": "red",
+  "desc_get": "",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}
