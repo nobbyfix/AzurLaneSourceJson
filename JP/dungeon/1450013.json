@@ -1,0 +1,543 @@
+{
+  "id": 1221201,
+  "stages": [
+    {
+      "timeCount": 300,
+      "failCondition": 1,
+      "playerArea": [
+        -75,
+        20,
+        42,
+        68
+      ],
+      "stageIndex": 1,
+      "backGroundStageID": 1,
+      "totalArea": [
+        -75,
+        20,
+        90,
+        70
+      ],
+      "fleetCorrdinate": [
+        -80,
+        0,
+        75
+      ],
+      "mainUnitPosition": {
+        "1": [
+          [
+            -105,
+            0,
+            58
+          ],
+          [
+            -105,
+            0,
+            78
+          ],
+          [
+            -105,
+            0,
+            38
+          ]
+        ],
+        "-1": [
+          [
+            15,
+            0,
+            58
+          ],
+          [
+            15,
+            0,
+            78
+          ],
+          [
+            15,
+            0,
+            38
+          ]
+        ]
+      },
+      "enemyArea": [],
+      "passCondition": 1,
+      "waves": [
+        {
+          "preWaves": [],
+          "waveIndex": 100,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 0.5
+          }
+        },
+        {
+          "preWaves": [
+            100
+          ],
+          "triggerType": 0,
+          "conditionType": 1,
+          "waveIndex": 201,
+          "triggerParams": [],
+          "spawn": [
+            {
+              "phase": [
+                {
+                  "removeWeapon": [],
+                  "setAI": 70086,
+                  "index": 0,
+                  "addWeapon": [],
+                  "dive": "STATE_RAID",
+                  "switchParam": 1.5,
+                  "switchType": 1,
+                  "switchTo": 15
+                },
+                {
+                  "switchTo": 14,
+                  "removeWeapon": [],
+                  "addWeapon": [
+                    620334
+                  ],
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 15
+                },
+                {
+                  "switchTo": 13,
+                  "removeWeapon": [
+                    620334
+                  ],
+                  "addWeapon": [
+                    620335
+                  ],
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 14
+                },
+                {
+                  "switchTo": 12,
+                  "removeWeapon": [
+                    620335
+                  ],
+                  "addWeapon": [
+                    620334
+                  ],
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 13
+                },
+                {
+                  "switchTo": 11,
+                  "removeWeapon": [
+                    620334
+                  ],
+                  "addWeapon": [],
+                  "switchParam": 0.5,
+                  "switchType": 1,
+                  "index": 12
+                },
+                {
+                  "removeWeapon": [],
+                  "addBuff": [
+                    8724
+                  ],
+                  "index": 11,
+                  "addWeapon": [
+                    620333
+                  ],
+                  "dive": "STATE_FLOAT",
+                  "switchParam": 0.5,
+                  "switchType": 1,
+                  "switchTo": 1
+                },
+                {
+                  "switchTo": 2,
+                  "removeWeapon": [],
+                  "addWeapon": [
+                    620318,
+                    620319,
+                    620320,
+                    620321
+                  ],
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 1
+                },
+                {
+                  "switchTo": 3,
+                  "removeWeapon": [
+                    620318,
+                    620319,
+                    620320,
+                    620321
+                  ],
+                  "addWeapon": [],
+                  "switchParam": 2,
+                  "switchType": 1,
+                  "index": 2
+                },
+                {
+                  "setAI": 10001,
+                  "switchTo": 4,
+                  "removeWeapon": [
+                    620333
+                  ],
+                  "addWeapon": [
+                    620324
+                  ],
+                  "switchParam": 4,
+                  "switchType": 1,
+                  "index": 3
+                },
+                {
+                  "setAI": 70086,
+                  "switchTo": 5,
+                  "removeWeapon": [],
+                  "addWeapon": [
+                    620325,
+                    620326,
+                    620327,
+                    620328
+                  ],
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 4
+                },
+                {
+                  "switchTo": 6,
+                  "removeWeapon": [
+                    620324,
+                    620325,
+                    620326,
+                    620327,
+                    620328
+                  ],
+                  "addWeapon": [
+                    620333
+                  ],
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 5
+                },
+                {
+                  "setAI": 10001,
+                  "switchTo": 7,
+                  "removeWeapon": [],
+                  "addWeapon": [],
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 6
+                },
+                {
+                  "switchTo": 8,
+                  "removeWeapon": [
+                    620333
+                  ],
+                  "addWeapon": [
+                    620324
+                  ],
+                  "switchParam": 4,
+                  "switchType": 1,
+                  "index": 7
+                },
+                {
+                  "switchTo": 9,
+                  "removeWeapon": [
+                    620324
+                  ],
+                  "addWeapon": [],
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 8
+                },
+                {
+                  "switchTo": 10,
+                  "removeWeapon": [],
+                  "addWeapon": [
+                    620331,
+                    620332
+                  ],
+                  "switchParam": 6,
+                  "switchType": 1,
+                  "index": 9
+                },
+                {
+                  "setAI": 70086,
+                  "switchTo": 11,
+                  "removeWeapon": [
+                    620331,
+                    620332
+                  ],
+                  "addWeapon": [],
+                  "switchParam": 0.5,
+                  "switchType": 1,
+                  "index": 10
+                }
+              ],
+              "score": 0,
+              "moveCast": true,
+              "corrdinate": [
+                -15,
+                0,
+                55
+              ],
+              "buffList": [
+                8001,
+                8007,
+                8675,
+                8671
+              ],
+              "monsterTemplateID": 13300425,
+              "delay": 0,
+              "bossData": {
+                "icon": "unknown5",
+                "hpBarNum": 40
+              }
+            }
+          ]
+        },
+        {
+          "preWaves": [
+            201
+          ],
+          "triggerType": 8,
+          "triggerParams": [],
+          "waveIndex": 900,
+          "key": true
+        }
+      ]
+    }
+  ],
+  "fleet_prefab": {
+    "vanguard_unitList": [
+      {
+        "oil_at_end": 55,
+        "exp": 10,
+        "id": 1,
+        "properties": {
+          "durability": 85567,
+          "cannon": 1000,
+          "antiaircraft": 310,
+          "reload": 830,
+          "hit": 140,
+          "luck": 70,
+          "dodge": 164,
+          "speed": 31.5,
+          "armor": 98,
+          "air": 0,
+          "torpedo": 150
+        },
+        "tmpID": 900240,
+        "equipment": [
+          false,
+          false,
+          false
+        ],
+        "skills": [
+          {
+            "id": 10410,
+            "level": 10
+          },
+          {
+            "id": 29052,
+            "level": 1
+          }
+        ],
+        "configId": 900240,
+        "level": 100,
+        "energy": 10,
+        "skinId": 900240
+      },
+      {
+        "oil_at_end": 55,
+        "exp": 10,
+        "id": 2,
+        "properties": {
+          "durability": 85567,
+          "cannon": 1000,
+          "antiaircraft": 310,
+          "reload": 830,
+          "hit": 140,
+          "luck": 70,
+          "dodge": 164,
+          "speed": 31.5,
+          "armor": 98,
+          "air": 0,
+          "torpedo": 150
+        },
+        "tmpID": 900241,
+        "equipment": [
+          false,
+          false,
+          false
+        ],
+        "skills": [
+          {
+            "id": 10250,
+            "level": 10
+          },
+          {
+            "id": 29082,
+            "level": 1
+          }
+        ],
+        "configId": 900241,
+        "level": 100,
+        "energy": 10,
+        "skinId": 900241
+      },
+      {
+        "oil_at_end": 55,
+        "exp": 10,
+        "id": 3,
+        "properties": {
+          "durability": 85567,
+          "cannon": 1000,
+          "antiaircraft": 310,
+          "reload": 830,
+          "hit": 140,
+          "luck": 70,
+          "dodge": 164,
+          "speed": 31.5,
+          "armor": 98,
+          "air": 0,
+          "torpedo": 150
+        },
+        "tmpID": 900242,
+        "equipment": [
+          false,
+          false,
+          false
+        ],
+        "skills": [
+          {
+            "id": 10530,
+            "level": 10
+          },
+          {
+            "id": 29202,
+            "level": 1
+          }
+        ],
+        "configId": 900242,
+        "level": 100,
+        "energy": 10,
+        "skinId": 900242
+      }
+    ],
+    "main_unitList": [
+      {
+        "equipment": [
+          false,
+          false,
+          false
+        ],
+        "skinId": 900269,
+        "skills": [
+          {
+            "id": 11640,
+            "level": 10
+          },
+          {
+            "id": 11650,
+            "level": 10
+          },
+          {
+            "id": 11660,
+            "level": 10
+          }
+        ],
+        "properties": {
+          "durability": 68377,
+          "cannon": 230,
+          "antiaircraft": 300,
+          "reload": 83,
+          "hit": 140,
+          "luck": 14,
+          "dodge": 96,
+          "speed": 28.3,
+          "armor": 1890,
+          "air": 0,
+          "torpedo": 0
+        },
+        "configId": 900269,
+        "level": 120,
+        "id": 1,
+        "tmpID": 900269
+      },
+      {
+        "equipment": [
+          false,
+          false,
+          false
+        ],
+        "skinId": 900270,
+        "skills": [
+          {
+            "id": 13070,
+            "level": 10
+          },
+          {
+            "id": 13080,
+            "level": 10
+          },
+          {
+            "id": 13090,
+            "level": 10
+          }
+        ],
+        "properties": {
+          "durability": 66744,
+          "cannon": 200,
+          "antiaircraft": 300,
+          "reload": 83,
+          "hit": 140,
+          "luck": 38,
+          "dodge": 0,
+          "speed": 31,
+          "armor": 1150,
+          "air": 0,
+          "torpedo": 0
+        },
+        "configId": 900270,
+        "level": 120,
+        "id": 2,
+        "tmpID": 900270
+      },
+      {
+        "equipment": [
+          false,
+          false,
+          false
+        ],
+        "skinId": 900271,
+        "skills": [
+          {
+            "id": 11980,
+            "level": 10
+          },
+          {
+            "id": 11990,
+            "level": 10
+          }
+        ],
+        "properties": {
+          "durability": 68377,
+          "cannon": 230,
+          "antiaircraft": 300,
+          "reload": 83,
+          "hit": 140,
+          "luck": 14,
+          "dodge": 96,
+          "speed": 28.3,
+          "armor": 1890,
+          "air": 0,
+          "torpedo": 0
+        },
+        "configId": 900271,
+        "level": 120,
+        "id": 3,
+        "tmpID": 900271
+      }
+    ]
+  }
+}
