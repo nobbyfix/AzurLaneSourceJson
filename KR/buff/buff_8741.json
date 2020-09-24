@@ -1,0 +1,81 @@
+{
+  "picture": "",
+  "id": 8741,
+  "desc": "15秒第一波并提升我方5%炮击，20秒第二波并提升我方5%雷击，25秒第三波并提升我方5%航空",
+  "last_effect": "",
+  "name": "信浓活动梦境力量支援弹幕 难度2",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "time": 15,
+        "rant": 10000,
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 8734
+      }
+    },
+    {
+      "trigger": [
+        "onFlagShip"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 8736
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "time": 18,
+        "rant": 10000,
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 8735
+      }
+    },
+    {
+      "trigger": [
+        "onFlagShip"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 8737
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "time": 25,
+        "rant": 10000,
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 8736
+      }
+    },
+    {
+      "trigger": [
+        "onFlagShip"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 8738
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "time": 30
+}

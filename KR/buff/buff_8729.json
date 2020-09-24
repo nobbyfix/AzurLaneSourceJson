@@ -1,0 +1,34 @@
+{
+  "picture": "",
+  "id": 8729,
+  "desc": "",
+  "last_effect": "",
+  "time": 0,
+  "color": "blue",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 8728
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 40,
+        "buff_id": 8728
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "潜艇水面减伤（上浮/下沉间隔20秒）"
+}
