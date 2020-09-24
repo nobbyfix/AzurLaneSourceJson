@@ -39,14 +39,9 @@
       "type": "BattleBuffCastSkill",
       "arg_list": {
         "maxTargetNumber": 1,
-        "check_target": "TargetShipTypeFriendly",
-        "ship_type_list": [
-          1,
-          2,
-          3,
-          9,
-          11,
-          18
+        "check_target": [
+          "TargetAllHelp",
+          "TargetPlayerVanguardFleet"
         ],
         "quota": 1,
         "skill_id": 10840
