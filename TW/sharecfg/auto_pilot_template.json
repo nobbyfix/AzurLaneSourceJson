@@ -1,4 +1,30 @@
 {
+  "70107": {
+    "id": 70107,
+    "default": 1,
+    "name": "2020信浓活动T1测试者第一波浮游炮2",
+    "list": [
+      {
+        "to": 2,
+        "type": 6,
+        "index": 1,
+        "param": {
+          "duration": 2,
+          "x": 0,
+          "z": -20
+        }
+      },
+      {
+        "to": 1,
+        "type": 1,
+        "index": 2,
+        "param": {
+          "z": -40,
+          "x": -180
+        }
+      }
+    ]
+  },
   "90013": {
     "id": 90013,
     "default": 1,
@@ -1073,20 +1099,42 @@
       }
     ]
   },
-  "90000": {
-    "id": 90000,
+  "70110": {
+    "id": 70110,
     "default": 1,
-    "name": "转圈",
+    "name": "2020信浓活动信浓第一波移动到下方",
     "list": [
       {
-        "to": 1,
-        "type": 4,
+        "to": 2,
+        "type": 2,
         "index": 1,
         "param": {
-          "radius": 10,
-          "z": 55,
-          "antiClockWise": true,
-          "x": -20,
+          "z": -35,
+          "x": -20
+        }
+      },
+      {
+        "to": 3,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": 2
+        }
+      },
+      {
+        "to": 4,
+        "type": 2,
+        "index": 3,
+        "param": {
+          "z": 70,
+          "x": 5
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 4,
+        "param": {
           "duration": -1
         }
       }
@@ -1483,18 +1531,23 @@
       }
     ]
   },
-  "90001": {
-    "id": 90001,
+  "70111": {
+    "id": 70111,
     "default": 1,
-    "name": "前进",
+    "name": "2020信浓活动信浓第二波小范围随机移动",
     "list": [
       {
         "to": 1,
-        "type": 2,
+        "type": 3,
         "index": 1,
         "param": {
-          "z": 0,
-          "x": 500
+          "moveCount": 500,
+          "duration": -1,
+          "X1": -15,
+          "X2": 0,
+          "Z1": 35,
+          "Z2": 75,
+          "stopCount": 1
         }
       }
     ]
@@ -1788,18 +1841,43 @@
       }
     ]
   },
-  "90002": {
-    "id": 90002,
+  "70112": {
+    "id": 70112,
     "default": 1,
-    "name": "后退",
+    "name": "2020信浓活动信浓第三波移动到上方",
     "list": [
       {
-        "to": 1,
+        "to": 2,
         "type": 2,
         "index": 1,
         "param": {
-          "z": 0,
-          "x": -500
+          "z": 32,
+          "x": -20
+        }
+      },
+      {
+        "to": 3,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": 2
+        }
+      },
+      {
+        "to": 4,
+        "type": 2,
+        "index": 3,
+        "param": {
+          "z": -65,
+          "x": 5
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 4,
+        "param": {
+          "duration": -1
         }
       }
     ]
@@ -2158,26 +2236,35 @@
       }
     ]
   },
-  "90003": {
-    "id": 90003,
+  "20015": {
+    "id": 20015,
     "default": 1,
-    "name": "回中后停留",
+    "name": "潜艇AI-4 移动到屏幕中部停留10秒后继续前进",
     "list": [
       {
-        "to": 1,
-        "type": 1,
+        "to": 2,
+        "type": 2,
         "index": 1,
         "param": {
-          "z": 55,
-          "x": -20
+          "z": 0,
+          "x": -35
+        }
+      },
+      {
+        "to": 3,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": 10
         }
       },
       {
         "to": 1,
-        "type": 0,
-        "index": 2,
+        "type": 2,
+        "index": 3,
         "param": {
-          "duration": -1
+          "z": 0,
+          "x": -150
         }
       }
     ]
@@ -3524,6 +3611,39 @@
       }
     ]
   },
+  "20016": {
+    "id": 20016,
+    "default": 1,
+    "name": "潜艇AI-5 移动到屏幕中部停留5秒后继续前进",
+    "list": [
+      {
+        "to": 2,
+        "type": 2,
+        "index": 1,
+        "param": {
+          "z": 0,
+          "x": -35
+        }
+      },
+      {
+        "to": 3,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": 5
+        }
+      },
+      {
+        "to": 1,
+        "type": 2,
+        "index": 3,
+        "param": {
+          "z": 0,
+          "x": -150
+        }
+      }
+    ]
+  },
   "90023": {
     "id": 90023,
     "default": 1,
@@ -3768,6 +3888,51 @@
       }
     ]
   },
+  "70102": {
+    "id": 70102,
+    "default": 1,
+    "name": "2020信浓活动T6测试者 辅助航母行动轨迹",
+    "list": [
+      {
+        "to": 2,
+        "type": 2,
+        "index": 1,
+        "param": {
+          "z": 0,
+          "x": -25
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
+        }
+      }
+    ]
+  },
+  "99997": {
+    "id": 99997,
+    "default": 1,
+    "name": "测试随机移动上",
+    "list": [
+      {
+        "to": 1,
+        "type": 3,
+        "index": 1,
+        "param": {
+          "moveCount": 240,
+          "duration": -1,
+          "X1": -30,
+          "X2": 0,
+          "Z1": 55,
+          "Z2": 85,
+          "stopCount": 80
+        }
+      }
+    ]
+  },
   "90024": {
     "id": 90024,
     "default": 1,
@@ -3785,6 +3950,30 @@
           "Z1": 30,
           "Z2": 80,
           "stopCount": 90
+        }
+      }
+    ]
+  },
+  "99991": {
+    "id": 99991,
+    "default": 1,
+    "name": "13章防空船往左移动30",
+    "list": [
+      {
+        "to": 2,
+        "type": 2,
+        "index": 1,
+        "param": {
+          "z": 0,
+          "x": -30
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
         }
       }
     ]
@@ -3835,6 +4024,203 @@
         "param": {
           "z": -50,
           "x": 0
+        }
+      }
+    ]
+  },
+  "70056": {
+    "id": 70056,
+    "default": 1,
+    "name": "国庆BOSS 日向 AI",
+    "list": [
+      {
+        "to": 2,
+        "type": 1,
+        "index": 1,
+        "param": {
+          "z": 55,
+          "x": 0
+        }
+      },
+      {
+        "to": 3,
+        "type": 4,
+        "index": 2,
+        "param": {
+          "radius": 20,
+          "z": 35,
+          "antiClockWise": true,
+          "x": 0,
+          "duration": 6
+        }
+      },
+      {
+        "to": 4,
+        "type": 1,
+        "index": 3,
+        "param": {
+          "z": 55,
+          "x": 0
+        }
+      },
+      {
+        "to": 5,
+        "type": 4,
+        "index": 4,
+        "param": {
+          "radius": 20,
+          "z": 75,
+          "antiClockWise": false,
+          "x": 0,
+          "duration": 6
+        }
+      },
+      {
+        "to": 2,
+        "type": 1,
+        "index": 5,
+        "param": {
+          "z": 55,
+          "x": 0
+        }
+      }
+    ]
+  },
+  "70077": {
+    "id": 70077,
+    "default": 1,
+    "name": "世界BOSS黛朵移动至下方",
+    "list": [
+      {
+        "to": 2,
+        "type": 1,
+        "index": 1,
+        "param": {
+          "z": 25,
+          "x": -15
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
+        }
+      }
+    ]
+  },
+  "70021": {
+    "id": 70021,
+    "default": 1,
+    "name": "万圣节 Z20 boss",
+    "list": [
+      {
+        "to": 2,
+        "type": 4,
+        "index": 1,
+        "param": {
+          "radius": 25,
+          "z": 55,
+          "antiClockWise": false,
+          "x": 15,
+          "duration": 2
+        }
+      },
+      {
+        "to": 3,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": 1
+        }
+      },
+      {
+        "to": 4,
+        "type": 4,
+        "index": 3,
+        "param": {
+          "radius": 25,
+          "z": 55,
+          "antiClockWise": true,
+          "x": 15,
+          "duration": 2
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 4,
+        "param": {
+          "duration": 1
+        }
+      }
+    ]
+  },
+  "90002": {
+    "id": 90002,
+    "default": 1,
+    "name": "后退",
+    "list": [
+      {
+        "to": 1,
+        "type": 2,
+        "index": 1,
+        "param": {
+          "z": 0,
+          "x": -500
+        }
+      }
+    ]
+  },
+  "70057": {
+    "id": 70057,
+    "default": 1,
+    "name": "11-4 T字走位1 从外场走到隔离栏，然后往下走，往右走几步，往上走到头，往右走，再往下走到头，往左走到隔离栏，回到上下中间位置，结束",
+    "list": [
+      {
+        "to": 2,
+        "type": 1,
+        "index": 1,
+        "param": {
+          "z": 55,
+          "x": -15
+        }
+      },
+      {
+        "to": 3,
+        "type": 1,
+        "index": 2,
+        "param": {
+          "z": 75,
+          "x": -15
+        }
+      },
+      {
+        "to": 4,
+        "type": 1,
+        "index": 3,
+        "param": {
+          "z": 75,
+          "x": -5
+        }
+      },
+      {
+        "to": 5,
+        "type": 1,
+        "index": 4,
+        "param": {
+          "z": 25,
+          "x": -5
+        }
+      },
+      {
+        "to": 1,
+        "type": 1,
+        "index": 5,
+        "param": {
+          "z": 25,
+          "x": -15
         }
       }
     ]
@@ -4119,6 +4505,88 @@
       }
     ]
   },
+  "70018": {
+    "id": 70018,
+    "default": 1,
+    "name": "万圣节 卡尔斯鲁厄",
+    "list": [
+      {
+        "to": 2,
+        "type": 1,
+        "index": 1,
+        "param": {
+          "z": 60,
+          "x": -20
+        }
+      },
+      {
+        "to": 1,
+        "type": 1,
+        "index": 2,
+        "param": {
+          "z": 80,
+          "x": -5
+        }
+      }
+    ]
+  },
+  "70103": {
+    "id": 70103,
+    "default": 1,
+    "name": "2020信浓活动T6测试者 辅助航母飞机行动轨迹",
+    "list": [
+      {
+        "to": 2,
+        "type": 2,
+        "index": 1,
+        "param": {
+          "z": -13,
+          "x": -8
+        }
+      },
+      {
+        "to": 3,
+        "type": 2,
+        "index": 2,
+        "param": {
+          "z": -13,
+          "x": -150
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 3,
+        "param": {
+          "duration": -1
+        }
+      }
+    ]
+  },
+  "90003": {
+    "id": 90003,
+    "default": 1,
+    "name": "回中后停留",
+    "list": [
+      {
+        "to": 1,
+        "type": 1,
+        "index": 1,
+        "param": {
+          "z": 55,
+          "x": -20
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
+        }
+      }
+    ]
+  },
   "90025": {
     "id": 90025,
     "default": 1,
@@ -4169,121 +4637,53 @@
       }
     ]
   },
-  "99997": {
-    "id": 99997,
+  "90001": {
+    "id": 90001,
     "default": 1,
-    "name": "测试随机移动上",
+    "name": "前进",
     "list": [
       {
         "to": 1,
-        "type": 3,
-        "index": 1,
-        "param": {
-          "moveCount": 240,
-          "duration": -1,
-          "X1": -30,
-          "X2": 0,
-          "Z1": 55,
-          "Z2": 85,
-          "stopCount": 80
-        }
-      }
-    ]
-  },
-  "99991": {
-    "id": 99991,
-    "default": 1,
-    "name": "13章防空船往左移动30",
-    "list": [
-      {
-        "to": 2,
         "type": 2,
         "index": 1,
         "param": {
           "z": 0,
-          "x": -30
+          "x": 500
         }
-      },
+      }
+    ]
+  },
+  "90000": {
+    "id": 90000,
+    "default": 1,
+    "name": "转圈",
+    "list": [
       {
         "to": 1,
-        "type": 0,
-        "index": 2,
+        "type": 4,
+        "index": 1,
         "param": {
+          "radius": 10,
+          "z": 55,
+          "antiClockWise": true,
+          "x": -20,
           "duration": -1
         }
       }
     ]
   },
-  "70056": {
-    "id": 70056,
+  "80008": {
+    "id": 80008,
     "default": 1,
-    "name": "国庆BOSS 日向 AI",
+    "name": "序章俾斯麦必杀前走位",
     "list": [
       {
         "to": 2,
         "type": 1,
         "index": 1,
         "param": {
-          "z": 55,
-          "x": 0
-        }
-      },
-      {
-        "to": 3,
-        "type": 4,
-        "index": 2,
-        "param": {
-          "radius": 20,
-          "z": 35,
-          "antiClockWise": true,
-          "x": 0,
-          "duration": 6
-        }
-      },
-      {
-        "to": 4,
-        "type": 1,
-        "index": 3,
-        "param": {
-          "z": 55,
-          "x": 0
-        }
-      },
-      {
-        "to": 5,
-        "type": 4,
-        "index": 4,
-        "param": {
-          "radius": 20,
-          "z": 75,
-          "antiClockWise": false,
-          "x": 0,
-          "duration": 6
-        }
-      },
-      {
-        "to": 2,
-        "type": 1,
-        "index": 5,
-        "param": {
-          "z": 55,
-          "x": 0
-        }
-      }
-    ]
-  },
-  "70077": {
-    "id": 70077,
-    "default": 1,
-    "name": "世界BOSS黛朵移动至下方",
-    "list": [
-      {
-        "to": 2,
-        "type": 1,
-        "index": 1,
-        "param": {
-          "z": 25,
-          "x": -15
+          "z": 65,
+          "x": -5
         }
       },
       {
@@ -4300,6 +4700,70 @@
     "id": 80007,
     "default": 1,
     "name": "水雷AI",
+    "list": [
+      {
+        "to": 1,
+        "type": 2,
+        "index": 1,
+        "param": {
+          "z": 0,
+          "x": -500
+        }
+      }
+    ]
+  },
+  "80006": {
+    "id": 80006,
+    "default": 1,
+    "name": "超时撤退",
+    "list": [
+      {
+        "to": 2,
+        "type": 2,
+        "index": 1,
+        "param": {
+          "z": 0,
+          "x": 200
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
+        }
+      }
+    ]
+  },
+  "80004": {
+    "id": 80004,
+    "default": 1,
+    "name": "运输船-跑路",
+    "list": [
+      {
+        "to": 2,
+        "type": 2,
+        "index": 1,
+        "param": {
+          "z": 0,
+          "x": 200
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
+        }
+      }
+    ]
+  },
+  "80000": {
+    "id": 80000,
+    "default": 1,
+    "name": "自爆船AI",
     "list": [
       {
         "to": 1,
@@ -4509,103 +4973,77 @@
       }
     ]
   },
-  "70057": {
-    "id": 70057,
+  "70109": {
+    "id": 70109,
     "default": 1,
-    "name": "11-4 T字走位1 从外场走到隔离栏，然后往下走，往右走几步，往上走到头，往右走，再往下走到头，往左走到隔离栏，回到上下中间位置，结束",
+    "name": "潜艇在屏幕分割线靠左随机移动",
+    "list": [
+      {
+        "to": 1,
+        "type": 3,
+        "index": 1,
+        "param": {
+          "moveCount": 240,
+          "duration": -1,
+          "X1": -40,
+          "X2": -25,
+          "Z1": 35,
+          "Z2": 75,
+          "stopCount": 90
+        }
+      }
+    ]
+  },
+  "70104": {
+    "id": 70104,
+    "default": 1,
+    "name": "2020信浓活动T6测试者 辅助航母飞机行动轨迹",
     "list": [
       {
         "to": 2,
-        "type": 1,
+        "type": 2,
         "index": 1,
         "param": {
-          "z": 55,
-          "x": -15
+          "z": -5,
+          "x": -8
         }
       },
       {
         "to": 3,
-        "type": 1,
+        "type": 2,
         "index": 2,
         "param": {
-          "z": 75,
-          "x": -15
-        }
-      },
-      {
-        "to": 4,
-        "type": 1,
-        "index": 3,
-        "param": {
-          "z": 75,
-          "x": -5
-        }
-      },
-      {
-        "to": 5,
-        "type": 1,
-        "index": 4,
-        "param": {
-          "z": 25,
-          "x": -5
-        }
-      },
-      {
-        "to": 1,
-        "type": 1,
-        "index": 5,
-        "param": {
-          "z": 25,
-          "x": -15
-        }
-      }
-    ]
-  },
-  "70018": {
-    "id": 70018,
-    "default": 1,
-    "name": "万圣节 卡尔斯鲁厄",
-    "list": [
-      {
-        "to": 2,
-        "type": 1,
-        "index": 1,
-        "param": {
-          "z": 60,
-          "x": -20
-        }
-      },
-      {
-        "to": 1,
-        "type": 1,
-        "index": 2,
-        "param": {
-          "z": 80,
-          "x": -5
-        }
-      }
-    ]
-  },
-  "80008": {
-    "id": 80008,
-    "default": 1,
-    "name": "序章俾斯麦必杀前走位",
-    "list": [
-      {
-        "to": 2,
-        "type": 1,
-        "index": 1,
-        "param": {
-          "z": 65,
-          "x": -5
+          "z": -5,
+          "x": -150
         }
       },
       {
         "to": 1,
         "type": 0,
-        "index": 2,
+        "index": 3,
         "param": {
           "duration": -1
+        }
+      }
+    ]
+  },
+  "70108": {
+    "id": 70108,
+    "default": 1,
+    "name": "2020信浓活动拉菲随机移动",
+    "list": [
+      {
+        "to": 1,
+        "type": 3,
+        "index": 1,
+        "param": {
+          "moveCount": 40,
+          "duration": -1,
+          "X1": -15,
+          "X2": 0,
+          "Z1": 35,
+          "Z2": 75,
+          "stopCount": 20
         }
       }
     ]
@@ -4660,24 +5098,33 @@
       }
     ]
   },
-  "80006": {
-    "id": 80006,
+  "70105": {
+    "id": 70105,
     "default": 1,
-    "name": "超时撤退",
+    "name": "2020信浓活动T6测试者 辅助航母飞机行动轨迹",
     "list": [
       {
         "to": 2,
         "type": 2,
         "index": 1,
         "param": {
-          "z": 0,
-          "x": 200
+          "z": 3,
+          "x": -8
+        }
+      },
+      {
+        "to": 3,
+        "type": 2,
+        "index": 2,
+        "param": {
+          "z": 3,
+          "x": -150
         }
       },
       {
         "to": 1,
         "type": 0,
-        "index": 2,
+        "index": 3,
         "param": {
           "duration": -1
         }
@@ -4734,42 +5181,54 @@
       }
     ]
   },
-  "80004": {
-    "id": 80004,
+  "70101": {
+    "id": 70101,
     "default": 1,
-    "name": "运输船-跑路",
+    "name": "2020信浓活动T6测试者第一波浮游炮2",
     "list": [
       {
         "to": 2,
-        "type": 2,
+        "type": 6,
         "index": 1,
         "param": {
-          "z": 0,
-          "x": 200
+          "duration": 8,
+          "x": 0,
+          "z": -35
         }
       },
       {
         "to": 1,
-        "type": 0,
+        "type": 1,
         "index": 2,
         "param": {
-          "duration": -1
+          "z": -120,
+          "x": -100
         }
       }
     ]
   },
-  "80000": {
-    "id": 80000,
+  "70100": {
+    "id": 70100,
     "default": 1,
-    "name": "自爆船AI",
+    "name": "2020信浓活动T6测试者第一波浮游炮1",
     "list": [
       {
-        "to": 1,
-        "type": 2,
+        "to": 2,
+        "type": 6,
         "index": 1,
         "param": {
-          "z": 0,
-          "x": -500
+          "duration": 8,
+          "x": 0,
+          "z": 5
+        }
+      },
+      {
+        "to": 1,
+        "type": 1,
+        "index": 2,
+        "param": {
+          "z": 155,
+          "x": -100
         }
       }
     ]
@@ -5643,49 +6102,28 @@
       }
     ]
   },
-  "70021": {
-    "id": 70021,
+  "70106": {
+    "id": 70106,
     "default": 1,
-    "name": "万圣节 Z20 boss",
+    "name": "2020信浓活动T1测试者第一波浮游炮1",
     "list": [
       {
         "to": 2,
-        "type": 4,
+        "type": 6,
         "index": 1,
         "param": {
-          "radius": 25,
-          "z": 55,
-          "antiClockWise": false,
-          "x": 15,
-          "duration": 2
-        }
-      },
-      {
-        "to": 3,
-        "type": 0,
-        "index": 2,
-        "param": {
-          "duration": 1
-        }
-      },
-      {
-        "to": 4,
-        "type": 4,
-        "index": 3,
-        "param": {
-          "radius": 25,
-          "z": 55,
-          "antiClockWise": true,
-          "x": 15,
-          "duration": 2
+          "duration": 2,
+          "x": 0,
+          "z": -10
         }
       },
       {
         "to": 1,
-        "type": 0,
-        "index": 4,
+        "type": 1,
+        "index": 2,
         "param": {
-          "duration": 1
+          "z": 125,
+          "x": -180
         }
       }
     ]

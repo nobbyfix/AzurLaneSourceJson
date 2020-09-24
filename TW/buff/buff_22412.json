@@ -1,0 +1,41 @@
+{
+  "1": {
+    "desc": "主炮每进行10次攻击，触发全弹发射-樫野II"
+  },
+  "picture": "",
+  "id": 22412,
+  "desc": "主炮每进行10次攻击，触发全弹发射-樫野II",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 20000,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 10,
+        "countType": 22410,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 22410,
+        "skill_id": 22412
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "全弹发射"
+}
