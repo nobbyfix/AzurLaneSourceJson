@@ -1,0 +1,60 @@
+{
+  "picture": "",
+  "id": 13771,
+  "desc": "",
+  "last_effect": "",
+  "time": 3.1,
+  "icon": 13770,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffStun",
+      "arg_list": {
+        "checkTargetMaxDistance": 300,
+        "check_target": "TargetSelf"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 1,
+        "quota": 1,
+        "skill_id": 13771
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 2,
+        "quota": 1,
+        "skill_id": 13771
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 13772,
+        "quota": 1,
+        "rant": 5000
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "定身"
+}

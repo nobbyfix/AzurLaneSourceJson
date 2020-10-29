@@ -3126,18 +3126,18 @@
       }
     ]
   },
-  "90005": {
-    "id": 90005,
+  "70115": {
+    "id": 70115,
     "default": 1,
-    "name": "回中后停留_中心",
+    "name": "回正上方",
     "list": [
       {
         "to": 1,
         "type": 1,
         "index": 1,
         "param": {
-          "z": 55,
-          "x": -35
+          "z": 70,
+          "x": -5
         }
       },
       {
@@ -3465,6 +3465,30 @@
       }
     ]
   },
+  "70116": {
+    "id": 70116,
+    "default": 1,
+    "name": "回正下方",
+    "list": [
+      {
+        "to": 1,
+        "type": 1,
+        "index": 1,
+        "param": {
+          "z": 40,
+          "x": -5
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
+        }
+      }
+    ]
+  },
   "90022": {
     "id": 90022,
     "default": 1,
@@ -3575,6 +3599,64 @@
         "index": 2,
         "param": {
           "duration": -1
+        }
+      }
+    ]
+  },
+  "70056": {
+    "id": 70056,
+    "default": 1,
+    "name": "国庆BOSS 日向 AI",
+    "list": [
+      {
+        "to": 2,
+        "type": 1,
+        "index": 1,
+        "param": {
+          "z": 55,
+          "x": 0
+        }
+      },
+      {
+        "to": 3,
+        "type": 4,
+        "index": 2,
+        "param": {
+          "radius": 20,
+          "z": 35,
+          "antiClockWise": true,
+          "x": 0,
+          "duration": 6
+        }
+      },
+      {
+        "to": 4,
+        "type": 1,
+        "index": 3,
+        "param": {
+          "z": 55,
+          "x": 0
+        }
+      },
+      {
+        "to": 5,
+        "type": 4,
+        "index": 4,
+        "param": {
+          "radius": 20,
+          "z": 75,
+          "antiClockWise": false,
+          "x": 0,
+          "duration": 6
+        }
+      },
+      {
+        "to": 2,
+        "type": 1,
+        "index": 5,
+        "param": {
+          "z": 55,
+          "x": 0
         }
       }
     ]
@@ -3908,64 +3990,6 @@
       }
     ]
   },
-  "70056": {
-    "id": 70056,
-    "default": 1,
-    "name": "国庆BOSS 日向 AI",
-    "list": [
-      {
-        "to": 2,
-        "type": 1,
-        "index": 1,
-        "param": {
-          "z": 55,
-          "x": 0
-        }
-      },
-      {
-        "to": 3,
-        "type": 4,
-        "index": 2,
-        "param": {
-          "radius": 20,
-          "z": 35,
-          "antiClockWise": true,
-          "x": 0,
-          "duration": 6
-        }
-      },
-      {
-        "to": 4,
-        "type": 1,
-        "index": 3,
-        "param": {
-          "z": 55,
-          "x": 0
-        }
-      },
-      {
-        "to": 5,
-        "type": 4,
-        "index": 4,
-        "param": {
-          "radius": 20,
-          "z": 75,
-          "antiClockWise": false,
-          "x": 0,
-          "duration": 6
-        }
-      },
-      {
-        "to": 2,
-        "type": 1,
-        "index": 5,
-        "param": {
-          "z": 55,
-          "x": 0
-        }
-      }
-    ]
-  },
   "70077": {
     "id": 70077,
     "default": 1,
@@ -4136,6 +4160,30 @@
         "param": {
           "z": 65,
           "x": -100
+        }
+      }
+    ]
+  },
+  "90005": {
+    "id": 90005,
+    "default": 1,
+    "name": "回中后停留_中心",
+    "list": [
+      {
+        "to": 1,
+        "type": 1,
+        "index": 1,
+        "param": {
+          "z": 55,
+          "x": -35
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
         }
       }
     ]
