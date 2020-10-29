@@ -2923,18 +2923,18 @@
       }
     ]
   },
-  "90005": {
-    "id": 90005,
+  "70115": {
+    "id": 70115,
     "default": 1,
-    "name": "回中后停留_中心",
+    "name": "回正上方",
     "list": [
       {
         "to": 1,
         "type": 1,
         "index": 1,
         "param": {
-          "z": 55,
-          "x": -35
+          "z": 70,
+          "x": -5
         }
       },
       {
@@ -3258,6 +3258,30 @@
           "Z1": 10,
           "Z2": -10,
           "stopCount": 90
+        }
+      }
+    ]
+  },
+  "70116": {
+    "id": 70116,
+    "default": 1,
+    "name": "回正下方",
+    "list": [
+      {
+        "to": 1,
+        "type": 1,
+        "index": 1,
+        "param": {
+          "z": 40,
+          "x": -5
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
         }
       }
     ]
@@ -3681,6 +3705,30 @@
       }
     ]
   },
+  "99991": {
+    "id": 99991,
+    "default": 1,
+    "name": "13章防空船往左移动30",
+    "list": [
+      {
+        "to": 2,
+        "type": 2,
+        "index": 1,
+        "param": {
+          "z": 0,
+          "x": -30
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
+        }
+      }
+    ]
+  },
   "70006": {
     "id": 70006,
     "default": 1,
@@ -3906,54 +3954,6 @@
       }
     ]
   },
-  "99991": {
-    "id": 99991,
-    "default": 1,
-    "name": "13章防空船往左移动30",
-    "list": [
-      {
-        "to": 2,
-        "type": 2,
-        "index": 1,
-        "param": {
-          "z": 0,
-          "x": -30
-        }
-      },
-      {
-        "to": 1,
-        "type": 0,
-        "index": 2,
-        "param": {
-          "duration": -1
-        }
-      }
-    ]
-  },
-  "70102": {
-    "id": 70102,
-    "default": 1,
-    "name": "2020信浓活动T6测试者 辅助航母行动轨迹",
-    "list": [
-      {
-        "to": 2,
-        "type": 2,
-        "index": 1,
-        "param": {
-          "z": 0,
-          "x": -25
-        }
-      },
-      {
-        "to": 1,
-        "type": 0,
-        "index": 2,
-        "param": {
-          "duration": -1
-        }
-      }
-    ]
-  },
   "70056": {
     "id": 70056,
     "default": 1,
@@ -4012,23 +4012,26 @@
       }
     ]
   },
-  "90024": {
-    "id": 90024,
+  "70102": {
+    "id": 70102,
     "default": 1,
-    "name": "随机移动_偏左",
+    "name": "2020信浓活动T6测试者 辅助航母行动轨迹",
     "list": [
       {
-        "to": 1,
-        "type": 3,
+        "to": 2,
+        "type": 2,
         "index": 1,
         "param": {
-          "moveCount": 240,
-          "duration": -1,
-          "X1": -30,
-          "X2": -10,
-          "Z1": 30,
-          "Z2": 80,
-          "stopCount": 90
+          "z": 0,
+          "x": -25
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
         }
       }
     ]
@@ -4053,6 +4056,74 @@
         "index": 2,
         "param": {
           "duration": -1
+        }
+      }
+    ]
+  },
+  "90024": {
+    "id": 90024,
+    "default": 1,
+    "name": "随机移动_偏左",
+    "list": [
+      {
+        "to": 1,
+        "type": 3,
+        "index": 1,
+        "param": {
+          "moveCount": 240,
+          "duration": -1,
+          "X1": -30,
+          "X2": -10,
+          "Z1": 30,
+          "Z2": 80,
+          "stopCount": 90
+        }
+      }
+    ]
+  },
+  "70021": {
+    "id": 70021,
+    "default": 1,
+    "name": "万圣节 Z20 boss",
+    "list": [
+      {
+        "to": 2,
+        "type": 4,
+        "index": 1,
+        "param": {
+          "radius": 25,
+          "z": 55,
+          "antiClockWise": false,
+          "x": 15,
+          "duration": 2
+        }
+      },
+      {
+        "to": 3,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": 1
+        }
+      },
+      {
+        "to": 4,
+        "type": 4,
+        "index": 3,
+        "param": {
+          "radius": 25,
+          "z": 55,
+          "antiClockWise": true,
+          "x": 15,
+          "duration": 2
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 4,
+        "param": {
+          "duration": 1
         }
       }
     ]
@@ -4103,53 +4174,6 @@
         "param": {
           "z": -50,
           "x": 0
-        }
-      }
-    ]
-  },
-  "70021": {
-    "id": 70021,
-    "default": 1,
-    "name": "万圣节 Z20 boss",
-    "list": [
-      {
-        "to": 2,
-        "type": 4,
-        "index": 1,
-        "param": {
-          "radius": 25,
-          "z": 55,
-          "antiClockWise": false,
-          "x": 15,
-          "duration": 2
-        }
-      },
-      {
-        "to": 3,
-        "type": 0,
-        "index": 2,
-        "param": {
-          "duration": 1
-        }
-      },
-      {
-        "to": 4,
-        "type": 4,
-        "index": 3,
-        "param": {
-          "radius": 25,
-          "z": 55,
-          "antiClockWise": true,
-          "x": 15,
-          "duration": 2
-        }
-      },
-      {
-        "to": 1,
-        "type": 0,
-        "index": 4,
-        "param": {
-          "duration": 1
         }
       }
     ]
@@ -4243,6 +4267,30 @@
         "param": {
           "z": 80,
           "x": -5
+        }
+      }
+    ]
+  },
+  "90005": {
+    "id": 90005,
+    "default": 1,
+    "name": "回中后停留_中心",
+    "list": [
+      {
+        "to": 1,
+        "type": 1,
+        "index": 1,
+        "param": {
+          "z": 55,
+          "x": -35
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
         }
       }
     ]

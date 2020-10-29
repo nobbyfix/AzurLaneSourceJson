@@ -1,0 +1,35 @@
+{
+  "picture": "",
+  "id": 13752,
+  "desc": "持续伤害",
+  "last_effect": "",
+  "time": 2.1,
+  "icon": 13750,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "attr": "airPower",
+        "k": 0,
+        "number": 200,
+        "time": 2,
+        "dotType": 1
+      }
+    },
+    {
+      "trigger": [
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 13753
+      }
+    }
+  ],
+  "stack": 2,
+  "init_effect": "",
+  "name": ""
+}
