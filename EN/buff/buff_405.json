@@ -1,0 +1,47 @@
+{
+  "picture": "",
+  "id": 405,
+  "desc": "标记",
+  "last_effect": "Darkness",
+  "time": 6,
+  "icon": 405,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddTag",
+      "arg_list": {
+        "tag": "ShadowClaw"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.1,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetShipTag",
+        "ship_tag_list": [
+          "roonμ"
+        ],
+        "buff_id": 406
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "ShadowClaw"
+}
