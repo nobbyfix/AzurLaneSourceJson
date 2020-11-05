@@ -1,0 +1,34 @@
+{
+  "picture": "",
+  "id": 510,
+  "desc": "舰队减伤提高",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 510,
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 511
+      }
+    },
+    {
+      "trigger": [
+        "onSubmarineAid"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetAllHelp",
+        "buff_id": 511
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "活动buff-偶像能力效果-战斗减伤提高"
+}
