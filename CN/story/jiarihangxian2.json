@@ -1,0 +1,374 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "actor": 201210,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "…看到了！那就是{namecode:98}报告里提到的新岛了吧！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "doa_story1",
+      "bgmDelay": 2,
+      "bgName": "bg_map_doa"
+    },
+    {
+      "say": "虽然确实只是个小岛，不过…距离港区这么近的海域，竟然有之前没有发现的岛屿？也太奇怪了…",
+      "actor": 401230,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_doa"
+    },
+    {
+      "say": "前方发现船影！是……皮筏艇的说？",
+      "actor": 301050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_doa"
+    },
+    {
+      "say": "敌人…？先来两发鱼雷问候一下？",
+      "actor": 101170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_doa"
+    },
+    {
+      "say": "好像没看到武装…啊，对面好像也发现我们了……",
+      "actor": 201210,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_doa"
+    },
+    {
+      "say": "看来不是要开战的样子，先了解下情况看看吧！",
+      "actor": 401230,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_doa"
+    },
+    {
+      "say": "……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "flashin": {
+        "1": 5,
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0,
+        "dur": 0.5
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_doa"
+    },
+    {
+      "actor": 900302,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "太好了，总算遇到其他人了！我叫做霞，请问…你们是附近的居民吗？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "？？？",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_doa"
+    },
+    {
+      "say": "霞…小姐？我是Z23，这边的分别是{namecode:6}、拉菲、标枪，我们是奉命前来进行海域调查的“舰船”…",
+      "actor": 401230,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_doa"
+    },
+    {
+      "say": "舰…船？啊，这么说起来，你们好像直接在海上漂着呢…这难道是某种忍术…？",
+      "actor": 900302,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_doa"
+    },
+    {
+      "say": "“忍术”…哈哈哈，像是重樱的小伙伴们会说的话呢！",
+      "actor": 201210,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_doa"
+    },
+    {
+      "say": "{namecode:6}…可不会忍术的说。",
+      "actor": 301050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_doa"
+    },
+    {
+      "say": "不知道舰船…莫非……",
+      "actor": 101170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_doa"
+    },
+    {
+      "say": "看来这就是谜之信里说的“新的邂逅”了…那个，霞小姐，你是从那个岛出来的吗？",
+      "actor": 401230,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_doa"
+    },
+    {
+      "actor": 900302,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "是的，具体的情况有些一言难尽…总之就是在不明所以的情况下，我和几位同伴突然被带到了这里…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_doa"
+    },
+    {
+      "say": "啊，难道各位就是“绿色猫娘的愉快伙伴们”？",
+      "actor": 900302,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_doa"
+    },
+    {
+      "say": "是在讲…{namecode:98}的说？",
+      "actor": 301050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_doa"
+    },
+    {
+      "actor": 201210,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "咦？霞认识{namecode:98}吗？！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_doa"
+    },
+    {
+      "actor": 900302,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "expression": 2,
+      "say": "唔…还真的跟那东西上写的一样啊…总、总之，先请各位跟我到我的伙伴们那里吧。具体的情况，之后慢慢再聊——",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_doa"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "JIARIHANGXIAN2",
+  "once": true
+}

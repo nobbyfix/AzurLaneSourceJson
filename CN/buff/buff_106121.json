@@ -1,0 +1,33 @@
+{
+  "picture": "",
+  "id": 106121,
+  "desc": "主炮飞行速度提高",
+  "icon": 106120,
+  "last_effect": "",
+  "name": "",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "effect_list": [
+    {
+      "trigger": [
+        "onBulletCreate"
+      ],
+      "type": "BattleBuffAddBulletAttr",
+      "arg_list": {
+        "number": 0.1,
+        "index": [
+          1
+        ],
+        "attr": "bulletSpeedRatio"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufared",
+  "time": 0
+}
