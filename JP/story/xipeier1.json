@@ -1,0 +1,389 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "幸せテンプレート\n\n<size=45>一 なんだかいつもより……</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "母港・執務室前──",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-1",
+      "bgmDelay": 2,
+      "bgName": "bg_main_day"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "執務室の前に、秘書艦の「妹」――アドミラル・ヒッパー級3番艦、プリンツ・オイゲンが立っていた。",
+      "bgName": "bg_main_day"
+    },
+    {
+      "actor": 403030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "あら、guten Morgen指揮官。ずいぶんとお寝坊さんのようね？姉さんがプンプン\nしていたわよ、いつまで待っても来ないって",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "プリンツ・オイゲン",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_main_day"
+    },
+    {
+      "actor": 403030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "y": 0,
+          "type": "move",
+          "dur": 3,
+          "delay": 1.5,
+          "x": 3750
+        }
+      ],
+      "say": "ふふふ……秘書艦として、いいところ見せたいのかしらね？それじゃ、また。姉さんの相手はよろしくね",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "プリンツ・オイゲン",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_main_day"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "オイゲンに言われて、執務室に入るなり、怒っているヒッパーが目に浮かぶ……覚悟を決めて、執務室の扉を開いた。",
+      "bgName": "bg_main_day"
+    },
+    {
+      "actor": 403010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.1,
+          "number": 3,
+          "delay": 0.1,
+          "x": 0
+        }
+      ],
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": false
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": false,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "say": "あっ……！！お、遅いじゃないの、この寝ぼすけ！どれだけ待たせる気よ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "アドミラル・ヒッパー",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 403010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "え？起こしに来て欲しかった？はあ？！私が秘書艦だからって何言ってんの！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "アドミラル・ヒッパー",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "いつも通りの反応に安心しつつ、席に着いた。",
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 403010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 0.3,
+          "number": 2,
+          "delay": 0,
+          "x": 15
+        }
+      ],
+      "say": "…………（ちらちら）",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "アドミラル・ヒッパー",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "なんだか視線を感じる……",
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 403010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.1,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "say": "な、何よ？集中しなさいっての！それとも……何か、大事な用でもあるのかしら……？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "アドミラル・ヒッパー",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 403010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.1,
+          "number": 3,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "say": "……は、はぁ！？見てないし！誰があんたのことなんか！あんたこそっ、何をそんな、平然と……！こっちはずっと、気が気じゃないっての……！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "アドミラル・ヒッパー",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 403010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "y": 30,
+          "type": "shake",
+          "dur": 0.1,
+          "number": 3,
+          "delay": 0,
+          "x": 0
+        },
+        {
+          "y": 0,
+          "type": "move",
+          "dur": 0.6,
+          "delay": 1.5,
+          "x": 2000
+        }
+      ],
+      "say": "ああもうっ、気が散ってしょうがないわ！少し、外の空気を吸ってくるから！サボるんじゃないわよ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "アドミラル・ヒッパー",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "そうまくし立てると、執務室を飛び出していった",
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 403030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "options": [
+        {
+          "content": "心当たりがない",
+          "flag": 1
+        },
+        {
+          "content": "怒らせすぎた？",
+          "flag": 2
+        }
+      ],
+      "say": "あら……また会えたわね指揮官。なんか姉さんが急に飛び出してきたけど、どうしたの？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "プリンツ・オイゲン",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 403030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "ふふふ、わからないって顔してるわね。指揮官らしいわ",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "プリンツ・オイゲン",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 403030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "姉さん、あれで実はシャイなところもあるわよ？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "プリンツ・オイゲン",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "なんだか生温かい目で見守られている気がするのだった。",
+      "bgName": "bg_story_task"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "XIPEIER1",
+  "once": true
+}
