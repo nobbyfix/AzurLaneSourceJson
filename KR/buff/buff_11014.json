@@ -8,7 +8,7 @@
   "effect_list": [
     {
       "trigger": [
-        "onDying"
+        "onBeforeFatalDamage"
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
@@ -18,11 +18,20 @@
     },
     {
       "trigger": [
-        "onDying"
+        "onBeforeFatalDamage"
       ],
       "type": "BattleBuffCancelBuff",
       "arg_list": {
         "count": 1
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 11016
       }
     }
   ],

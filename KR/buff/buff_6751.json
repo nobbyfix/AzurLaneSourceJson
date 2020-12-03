@@ -1,0 +1,33 @@
+{
+  "picture": "",
+  "id": 6751,
+  "desc": "白鹰阵营角色装备时，受到致命伤害时回避本次伤害，不会阵亡，8秒内回避所有伤害，8秒后阵亡",
+  "color": "blue",
+  "last_effect": "",
+  "time": 0,
+  "icon": 6751,
+  "effect_list": [
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 6751
+      }
+    },
+    {
+      "trigger": [
+        "onBeforeFatalDamage"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 1
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "白鹰精英损管"
+}
