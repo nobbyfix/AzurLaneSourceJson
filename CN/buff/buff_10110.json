@@ -68,15 +68,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "check_target": "TargetTemplate",
-        "minTargetNumber": 1,
-        "target": "TargetSelf",
-        "targetTemplateIDList": [
-          103071,
-          103072,
-          103073,
-          103074
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
         ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Indianapolis"
+        ],
+        "target": "TargetSelf",
         "skill_id": 10110
       }
     }

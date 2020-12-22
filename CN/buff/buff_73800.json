@@ -1,0 +1,26 @@
+{
+  "picture": "",
+  "id": 73800,
+  "desc": "战斗对象的血量下降到X%时，生成一个永久存在的护盾",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 73800,
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "hpOutInterval": true,
+        "hpLowerBound": 0.3,
+        "buff_id": 73801
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "濒死护盾"
+}

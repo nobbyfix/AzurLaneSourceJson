@@ -1,0 +1,158 @@
+{
+  "fleet_prefab": [],
+  "map_id": 10001,
+  "bgm": "story-6",
+  "id": 296003,
+  "stages": [
+    {
+      "timeCount": 80,
+      "failCondition": 1,
+      "playerArea": [
+        -70,
+        20,
+        37,
+        68
+      ],
+      "stageIndex": 1,
+      "totalArea": [
+        -70,
+        20,
+        90,
+        70
+      ],
+      "backGroundStageID": 1,
+      "fleetCorrdinate": [
+        -80,
+        0,
+        75
+      ],
+      "enemyArea": [],
+      "passCondition": 1,
+      "waves": [
+        {
+          "preWaves": [],
+          "waveIndex": 100,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 0.5
+          }
+        },
+        {
+          "preWaves": [],
+          "waveIndex": 202,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 3
+          }
+        },
+        {
+          "preWaves": [
+            101
+          ],
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 0.5
+          },
+          "waveIndex": 203,
+          "key": true
+        },
+        {
+          "preWaves": [
+            100
+          ],
+          "triggerType": 0,
+          "conditionType": 1,
+          "waveIndex": 101,
+          "spawn": [
+            {
+              "affix": true,
+              "score": 0,
+              "moveCast": true,
+              "corrdinate": [
+                -10,
+                0,
+                55
+              ],
+              "phase": [
+                {
+                  "setAI": 10001,
+                  "switchTo": 1,
+                  "switchParam": 1,
+                  "switchType": 1,
+                  "index": 0
+                },
+                {
+                  "switchTo": 2,
+                  "addWeapon": [
+                    2961000,
+                    2961050,
+                    2962000
+                  ],
+                  "switchParam": 18,
+                  "switchType": 1,
+                  "index": 1
+                },
+                {
+                  "switchTo": 3,
+                  "addWeapon": [
+                    2962100,
+                    2962200
+                  ],
+                  "removeWeapon": [
+                    2961000,
+                    2961050
+                  ],
+                  "switchParam": 24,
+                  "switchType": 1,
+                  "index": 2
+                },
+                {
+                  "switchTo": 4,
+                  "addWeapon": [
+                    2963100
+                  ],
+                  "removeWeapon": [
+                    2962100,
+                    2962200
+                  ],
+                  "switchParam": 4,
+                  "switchType": 1,
+                  "index": 3
+                },
+                {
+                  "switchTo": -1,
+                  "removeWeapon": [
+                    2963100,
+                    2962000
+                  ],
+                  "addWeapon": [
+                    2964100,
+                    2964200,
+                    2964000
+                  ],
+                  "switchType": 0,
+                  "index": 4
+                }
+              ],
+              "monsterTemplateID": 295003,
+              "delay": 0,
+              "bossData": {
+                "icon": "feilong_alter",
+                "hpBarNum": 100
+              }
+            }
+          ],
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            203
+          ],
+          "waveIndex": 900,
+          "triggerType": 8,
+          "triggerParams": []
+        }
+      ]
+    }
+  ]
+}

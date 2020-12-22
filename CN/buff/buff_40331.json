@@ -1,0 +1,36 @@
+{
+  "picture": "",
+  "id": 40331,
+  "desc": "航母-战术-机动I+航母-战术-防空I",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 40330,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatioCommander",
+      "arg_list": {
+        "ability": "tactic",
+        "convertAttr": "dodgeRate",
+        "convertRate": 0.4
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatioCommander",
+      "arg_list": {
+        "ability": "tactic",
+        "convertAttr": "antiAirPower",
+        "convertRate": 0.4
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": ""
+}

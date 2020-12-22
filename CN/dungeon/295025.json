@@ -1,0 +1,233 @@
+{
+  "fleet_prefab": [],
+  "map_id": 10001,
+  "bgm": "story-6",
+  "id": 295025,
+  "stages": [
+    {
+      "timeCount": 120,
+      "failCondition": 1,
+      "playerArea": [
+        -70,
+        20,
+        37,
+        68
+      ],
+      "stageIndex": 1,
+      "totalArea": [
+        -70,
+        20,
+        90,
+        70
+      ],
+      "backGroundStageID": 1,
+      "fleetCorrdinate": [
+        -80,
+        0,
+        75
+      ],
+      "enemyArea": [],
+      "passCondition": 1,
+      "waves": [
+        {
+          "preWaves": [],
+          "waveIndex": 100,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 0.5
+          }
+        },
+        {
+          "preWaves": [],
+          "waveIndex": 202,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 13
+          }
+        },
+        {
+          "preWaves": [],
+          "waveIndex": 203,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 40
+          }
+        },
+        {
+          "preWaves": [
+            100
+          ],
+          "triggerType": 0,
+          "conditionType": 1,
+          "spawn": [
+            {
+              "affix": true,
+              "score": 0,
+              "moveCast": true,
+              "corrdinate": [
+                -10,
+                0,
+                55
+              ],
+              "phase": [
+                {
+                  "setAI": 10001,
+                  "switchTo": 1,
+                  "addWeapon": [
+                    2009000,
+                    2009001,
+                    2009002,
+                    2004610,
+                    2004520
+                  ],
+                  "switchParam": 72,
+                  "switchType": 1,
+                  "index": 0
+                },
+                {
+                  "setAI": 100000,
+                  "switchTo": 2,
+                  "addWeapon": [
+                    2009230
+                  ],
+                  "removeWeapon": [
+                    2009000,
+                    2009001,
+                    2009002,
+                    2009016,
+                    2009100
+                  ],
+                  "switchParam": 8,
+                  "switchType": 1,
+                  "index": 1
+                },
+                {
+                  "setAI": 20006,
+                  "switchTo": 2,
+                  "addWeapon": [
+                    2009200,
+                    2009210,
+                    2009220
+                  ],
+                  "removeWeapon": [
+                    2009230
+                  ],
+                  "switchParam": 120,
+                  "switchType": 1,
+                  "index": 2
+                }
+              ],
+              "monsterTemplateID": 294105,
+              "delay": 0,
+              "bossData": {
+                "icon": "zhumo",
+                "hpBarNum": 100
+              }
+            }
+          ],
+          "waveIndex": 101,
+          "key": true,
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            202
+          ],
+          "triggerType": 10,
+          "conditionType": 1,
+          "spawn": [
+            {
+              "cld_data": [
+                1
+              ],
+              "coordinate": [
+                -50,
+                22,
+                75
+              ],
+              "life_time": 20,
+              "prefab": "shandian_wuyun",
+              "behaviours": 10000
+            },
+            {
+              "cld_data": [
+                1
+              ],
+              "coordinate": [
+                -40,
+                22,
+                75
+              ],
+              "life_time": 20,
+              "prefab": "shandian_wuyun",
+              "behaviours": 10000
+            },
+            {
+              "cld_data": [
+                1
+              ],
+              "coordinate": [
+                -60,
+                22,
+                75
+              ],
+              "life_time": 20,
+              "prefab": "shandian_wuyun",
+              "behaviours": 10000
+            },
+            {
+              "coordinate": [
+                -50,
+                0,
+                65
+              ],
+              "life_time": 20,
+              "cld_data": [
+                15
+              ],
+              "behaviours": 10003
+            }
+          ],
+          "waveIndex": 102,
+          "key": true,
+          "triggerParam": []
+        },
+        {
+          "airFighter": [
+            {
+              "totalNumber": 10,
+              "templateID": 2200920,
+              "attr": {
+                "attackRating": 23,
+                "maxHP": 15,
+                "airPower": 40
+              },
+              "formation": 10008,
+              "interval": 16,
+              "onceNumber": 5,
+              "delay": 0,
+              "weaponID": []
+            }
+          ],
+          "preWaves": [
+            203
+          ],
+          "triggerType": 0,
+          "conditionType": 1,
+          "spawn": [],
+          "waveIndex": 103,
+          "key": true,
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            101
+          ],
+          "waveIndex": 900,
+          "triggerType": 8,
+          "triggerParams": []
+        }
+      ]
+    }
+  ]
+}

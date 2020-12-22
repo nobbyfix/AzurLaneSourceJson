@@ -1,0 +1,206 @@
+{
+  "id": 294050,
+  "fleet_prefab": [],
+  "map_id": 10001,
+  "stages": [
+    {
+      "timeCount": 180,
+      "failCondition": 1,
+      "playerArea": [
+        -70,
+        20,
+        37,
+        68
+      ],
+      "stageIndex": 1,
+      "totalArea": [
+        -70,
+        20,
+        90,
+        70
+      ],
+      "backGroundStageID": 1,
+      "fleetCorrdinate": [
+        -80,
+        0,
+        75
+      ],
+      "enemyArea": [],
+      "passCondition": 1,
+      "waves": [
+        {
+          "preWaves": [],
+          "waveIndex": 100,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 0.5
+          }
+        },
+        {
+          "preWaves": [],
+          "waveIndex": 202,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 16
+          }
+        },
+        {
+          "preWaves": [],
+          "waveIndex": 203,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 40
+          }
+        },
+        {
+          "preWaves": [
+            100
+          ],
+          "triggerType": 0,
+          "conditionType": 1,
+          "spawn": [
+            {
+              "score": 0,
+              "corrdinate": [
+                0,
+                0,
+                80
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 209101,
+              "delay": 0,
+              "moveCast": true
+            },
+            {
+              "affix": true,
+              "moveCast": true,
+              "score": 0,
+              "corrdinate": [
+                -10,
+                0,
+                55
+              ],
+              "phase": [
+                {
+                  "setAI": 10001,
+                  "switchTo": 1,
+                  "switchParam": 1,
+                  "switchType": 1,
+                  "index": 0
+                },
+                {
+                  "switchTo": 0,
+                  "switchParam": 200,
+                  "index": 1,
+                  "switchType": 1
+                }
+              ],
+              "monsterTemplateID": 293011,
+              "delay": 0,
+              "bossData": {
+                "icon": "sairenquzhu_i",
+                "hpBarNum": 50
+              }
+            },
+            {
+              "score": 0,
+              "corrdinate": [
+                0,
+                0,
+                30
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 209101,
+              "delay": 0,
+              "moveCast": true
+            }
+          ],
+          "waveIndex": 101,
+          "key": true,
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            202
+          ],
+          "triggerType": 10,
+          "conditionType": 1,
+          "waveIndex": 102,
+          "spawn": [
+            {
+              "cld_data": [
+                15
+              ],
+              "behaviours": 105,
+              "coordinate": [
+                -30,
+                0,
+                65
+              ],
+              "life_time": 3.5,
+              "delay": 0,
+              "prefab": "haidihuoshan_yujing"
+            },
+            {
+              "cld_data": [
+                15
+              ],
+              "behaviours": 105,
+              "coordinate": [
+                -45,
+                0,
+                40
+              ],
+              "life_time": 3.5,
+              "delay": 5,
+              "prefab": "haidihuoshan_yujing"
+            },
+            {
+              "cld_data": [
+                15
+              ],
+              "behaviours": 105,
+              "coordinate": [
+                -60,
+                0,
+                65
+              ],
+              "life_time": 3.5,
+              "delay": 10,
+              "prefab": "haidihuoshan_yujing"
+            },
+            {
+              "cld_data": [
+                15
+              ],
+              "behaviours": 105,
+              "coordinate": [
+                -30,
+                0,
+                40
+              ],
+              "life_time": 3.5,
+              "delay": 15,
+              "prefab": "haidihuoshan_yujing"
+            }
+          ],
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            101
+          ],
+          "waveIndex": 900,
+          "triggerType": 8,
+          "triggerParams": []
+        }
+      ]
+    }
+  ]
+}

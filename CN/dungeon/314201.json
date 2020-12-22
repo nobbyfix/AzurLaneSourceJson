@@ -1,0 +1,182 @@
+{
+  "fleet_prefab": [],
+  "map_id": 10001,
+  "bgm": "story-6",
+  "id": 314201,
+  "stages": [
+    {
+      "timeCount": 180,
+      "failCondition": 1,
+      "playerArea": [
+        -70,
+        20,
+        37,
+        68
+      ],
+      "stageIndex": 1,
+      "totalArea": [
+        -70,
+        20,
+        90,
+        70
+      ],
+      "backGroundStageID": 1,
+      "fleetCorrdinate": [
+        -80,
+        0,
+        75
+      ],
+      "enemyArea": [],
+      "passCondition": 1,
+      "waves": [
+        {
+          "preWaves": [],
+          "waveIndex": 100,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 0.5
+          }
+        },
+        {
+          "preWaves": [],
+          "waveIndex": 202,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 20
+          }
+        },
+        {
+          "preWaves": [],
+          "waveIndex": 203,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 40
+          }
+        },
+        {
+          "airFighter": [
+            {
+              "totalNumber": 60,
+              "templateID": 2030030,
+              "attr": {
+                "attackRating": 23,
+                "maxHP": 15,
+                "airPower": 40
+              },
+              "formation": 20001,
+              "interval": 12,
+              "onceNumber": 10,
+              "delay": 0,
+              "weaponID": [
+                1100759
+              ]
+            }
+          ],
+          "preWaves": [
+            100
+          ],
+          "triggerType": 0,
+          "conditionType": 1,
+          "spawn": [
+            {
+              "phase": [
+                {
+                  "setAI": 10001,
+                  "switchTo": 1,
+                  "addRandomWeapon": [
+                    [
+                      2030000
+                    ],
+                    [
+                      2030001
+                    ]
+                  ],
+                  "addWeapon": [
+                    2030120,
+                    2030020
+                  ],
+                  "switchParam": 12,
+                  "switchType": 1,
+                  "index": 0
+                },
+                {
+                  "story": "WNN209",
+                  "switchTo": 2,
+                  "switchParam": 0.5,
+                  "switchType": 2,
+                  "index": 1
+                },
+                {
+                  "addWeapon": [
+                    2030200
+                  ],
+                  "story": "WNN209A",
+                  "index": 2,
+                  "removeRandomWeapon": [
+                    2030000,
+                    2030001
+                  ],
+                  "removeWeapon": [
+                    2030120,
+                    2030020
+                  ],
+                  "switchParam": 7,
+                  "switchType": 1,
+                  "switchTo": 3
+                },
+                {
+                  "removeBuff": [
+                    8045,
+                    8046
+                  ],
+                  "index": 3,
+                  "addWeapon": [
+                    2030300,
+                    2030320,
+                    2030340,
+                    2030330,
+                    2030335
+                  ],
+                  "removeWeapon": [
+                    2030200
+                  ],
+                  "switchParam": 900,
+                  "switchType": 1,
+                  "switchTo": 0
+                }
+              ],
+              "moveCast": true,
+              "score": 0,
+              "corrdinate": [
+                0,
+                0,
+                55
+              ],
+              "buffList": [
+                8050,
+                8051
+              ],
+              "monsterTemplateID": 295000,
+              "delay": 0,
+              "bossData": {
+                "icon": "huangjiafangzhou",
+                "hpBarNum": 100
+              }
+            }
+          ],
+          "waveIndex": 101,
+          "key": true,
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            101
+          ],
+          "waveIndex": 900,
+          "triggerType": 8,
+          "triggerParams": []
+        }
+      ]
+    }
+  ]
+}

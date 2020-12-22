@@ -1,0 +1,24 @@
+{
+  "picture": "",
+  "id": 73201,
+  "desc": "战斗对象每隔X秒，生成一个可以吸收自身血量Y%伤害的护盾，持续Z秒",
+  "color": "red",
+  "last_effect": "Shield_enemy",
+  "time": 5,
+  "icon": 73200,
+  "effect_list": [
+    {
+      "trigger": [
+        "onStack",
+        "onTakeDamage"
+      ],
+      "type": "BattleBuffShield",
+      "arg_list": {
+        "casterMaxHPRatio": 2000
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "吸收装甲"
+}

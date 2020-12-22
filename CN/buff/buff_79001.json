@@ -1,0 +1,27 @@
+{
+  "picture": "",
+  "id": 79001,
+  "desc": "战斗对象的血量下降到X%时，召唤特殊怪物",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 73500,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "targetMaxHPRatio": 0.99,
+        "check_target": "TargetSelf",
+        "minTargetNumber": 1,
+        "target": "TargetSelf",
+        "skill_id": 79001
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "血量召唤"
+}

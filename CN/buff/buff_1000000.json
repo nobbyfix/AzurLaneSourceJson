@@ -1,0 +1,25 @@
+{
+  "picture": "",
+  "id": 1000000,
+  "desc": "6s减速",
+  "last_effect": "Darkness",
+  "time": 240,
+  "icon": 310,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 8000,
+        "attr": "velocity"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "提速"
+}
