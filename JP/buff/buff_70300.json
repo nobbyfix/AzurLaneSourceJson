@@ -1,0 +1,31 @@
+{
+  "picture": "",
+  "id": 70300,
+  "color": "red",
+  "desc": "防空提高50%",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "last_effect": "",
+  "name": "防空提高",
+  "icon": 70300,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 5000,
+        "attr": "antiAirPower"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

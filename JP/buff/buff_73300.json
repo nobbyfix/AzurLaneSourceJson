@@ -1,0 +1,25 @@
+{
+  "picture": "",
+  "id": 73300,
+  "desc": "战斗对象每隔X秒，生成一个降低被暴击伤害Y%的护盾，持续Z秒",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 73300,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 20,
+        "buff_id": 73301
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "韧性装甲"
+}

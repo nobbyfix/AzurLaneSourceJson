@@ -1,0 +1,31 @@
+{
+  "picture": "",
+  "id": 72600,
+  "color": "red",
+  "desc": "对轻母伤害提高50%",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "last_effect": "",
+  "name": "对轻母增伤",
+  "icon": 72600,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.5,
+        "attr": "damageRatioByShipType_6"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

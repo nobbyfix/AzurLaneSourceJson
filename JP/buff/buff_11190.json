@@ -18,15 +18,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "check_target": "TargetTemplate",
-        "minTargetNumber": 1,
-        "target": "TargetSelf",
-        "targetTemplateIDList": [
-          301611,
-          301612,
-          301613,
-          301614
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
         ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Hamakaze"
+        ],
+        "target": "TargetSelf",
         "skill_id": 11190
       }
     }

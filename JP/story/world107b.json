@@ -1,0 +1,323 @@
+{
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "偵察機が艦隊を発見したわよ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgm": "bsm-1"
+    },
+    {
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "…って、鉄血のティルピッツ！？どうしてここに！？"
+    },
+    {
+      "actor": 105120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "こちらに向かっている？"
+    },
+    {
+      "say": "ううん、向こうはバミューダ海域に向かっているよ。どうやらこちらの存在に気づいていないようね",
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 3
+    },
+    {
+      "say": "セイレーン作戦のことは向こうも知っているし、変なことはしないとは思うが",
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 1
+    },
+    {
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "念の為こちらから合流するか？もしかしたら協力してもらえるかもしれない"
+    },
+    {
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "そうね…でもいいの？たしか向こうは向こうで独自で作戦を練っているでしょう？"
+    },
+    {
+      "actor": 105120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "上層部の話し合いも最終的にどうなったかわかりませんわね…もしかしたら、鉄血の行動自体向こうの上層部が知らないパターンも"
+    },
+    {
+      "options": [
+        {
+          "content": "サラトガに知らせよう",
+          "flag": 1
+        }
+      ],
+      "actor": 105120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "一応ここはユニオンの海域ですから、合流が無理ならNA海域の東側に引き返させたほうが良さそうですね"
+    },
+    {
+      "actor": 900284,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "voice": "event:/tb/8/tb-8",
+      "say": "通信データ転送中です。データを転送しました",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "actor": 103160,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "指揮官、どうする？カロの言うことが正しかったら、私達が動くことで女王陛下の折衝の邪魔になりかねない"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "NA海域の状況はすでに各陣営・勢力で入り乱れている。これ以上状況を複雑にするのは得策ではない。"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "ここは気にせず探索を続けよう。"
+    },
+    {
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "私も同意する。陣営間の連携も大事だが、こと上層部が絡んでしまっては安易に動かないほうがいい"
+    },
+    {
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "とはいえ、私たちの存在を示したほうが後々何か好転するかもしれない"
+    },
+    {
+      "say": "艦載機で上を通ってみる、とか？",
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "expression": 4
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "良い案だ。TBに艦載機の飛行コースもサポートしてもらおう"
+    },
+    {
+      "actor": 900284,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "voice": "event:/tb/21/tb-21",
+      "say": "艦載機飛行コースセッティング中です。鉄血艦隊の上空を通過するコースをセッティングしました",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "say": "よぉし、任せて！鉄血の子たちとうまく顔合わせしてくるよ！"
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "WORLD107B",
+  "once": true
+}

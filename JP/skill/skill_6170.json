@@ -8,32 +8,16 @@
     {
       "targetAniEffect": "",
       "arg_list": {
-        "effectFilter": [
-          [
-            "TargetID",
-            "=",
-            312011
-          ],
-          [
-            "TargetID",
-            "=",
-            312012
-          ],
-          [
-            "TargetID",
-            "=",
-            312013
-          ],
-          [
-            "TargetID",
-            "=",
-            312014
-          ]
+        "ship_tag_list": [
+          "Akashi"
         ],
         "buff_id": 6171
       },
       "casterAniEffect": "",
-      "target_choise": "TargetSelf",
+      "target_choise": [
+        "TargetSelf",
+        "TargetShipTag"
+      ],
       "type": "BattleSkillAddBuff"
     }
   ],

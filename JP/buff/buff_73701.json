@@ -1,0 +1,28 @@
+{
+  "picture": "",
+  "id": 73701,
+  "desc": "战斗对象的血量下降到X%时，每Y秒回复自身Z%血量，持续M秒",
+  "color": "blue",
+  "last_effect": "",
+  "time": 15,
+  "icon": 73700,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "targetMaxHPRatio": 0.99,
+        "check_target": "TargetSelf",
+        "minTargetNumber": 1,
+        "target": "TargetSelf",
+        "time": 3,
+        "skill_id": 73701
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "濒死再生"
+}

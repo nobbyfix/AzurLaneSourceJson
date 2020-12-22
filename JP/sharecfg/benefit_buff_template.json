@@ -36,10 +36,10 @@
     "benefit_condition": [
       "lv",
       "<",
-      30
+      60
     ],
     "id": 4,
-    "desc": "指揮官Lvが30以下の場合、通常海域のノーマルモード・ハードモード、デイリーチャレンジで入手する指揮官と艦の経験値が100%アップ",
+    "desc": "指揮官Lvが60以下の場合、通常海域のノーマルモード・ハードモード、デイリーチャレンジで入手する指揮官と艦の経験値が100%アップ",
     "max_time": 0,
     "name": "経験値強化",
     "benefit_effect": "100",
@@ -47,64 +47,59 @@
     "icon": "Props/xinshou",
     "hide": 0
   },
-  "27": {
-    "benefit_condition": [
-      "activity",
-      753,
-      0
-    ],
-    "id": 27,
-    "desc": "メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵に与えるダメージが2%アップ",
+  "5": {
+    "benefit_condition": "",
+    "id": 5,
+    "desc": "普通关卡、困难关卡、活动关卡的油耗增加200%",
     "max_time": 0,
-    "name": "アピールVocal",
-    "benefit_effect": "502",
-    "benefit_type": "battle_buff",
-    "icon": "Props/yanchangli2",
+    "name": "石油消耗增加",
+    "benefit_effect": "100",
+    "benefit_type": "more_oil",
+    "icon": "Props/xinshou",
     "hide": 0
   },
-  "31": {
-    "benefit_condition": [
-      "activity",
-      753,
-      0
-    ],
-    "id": 31,
-    "desc": "メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵から受けるダメージが3%ダウン",
+  "6": {
+    "benefit_condition": "",
+    "id": 6,
+    "desc": "普通关卡、困难关卡、活动关卡的指挥官经验获取提高200%",
     "max_time": 0,
-    "name": "エンゲージDance",
-    "benefit_effect": "514",
-    "benefit_type": "battle_buff",
-    "icon": "Props/wudaoli3",
+    "name": "指挥官经验加成",
+    "benefit_effect": "100",
+    "benefit_type": "user_battle_exp",
+    "icon": "Props/xinshou",
     "hide": 0
   },
-  "38": {
-    "benefit_condition": [
-      "activity",
-      779,
-      0
-    ],
-    "id": 38,
-    "desc": "戦術教室でスキルを強化する場合、所要時間-3%",
+  "7": {
+    "benefit_condition": "",
+    "id": 7,
+    "desc": "普通关卡、困难关卡、活动关卡的角色经验获取提高200%",
     "max_time": 0,
-    "name": "<color=#00BFFF>TEC</color>LV.1：",
-    "benefit_effect": "300",
-    "benefit_type": "skill_learncost_up",
-    "icon": "Props/buff_minigame_10",
+    "name": "舰娘经验加成",
+    "benefit_effect": "100",
+    "benefit_type": "ship_battle_exp",
+    "icon": "Props/xinshou",
     "hide": 0
   },
-  "46": {
-    "benefit_condition": [
-      "activity",
-      779,
-      0
-    ],
-    "id": 46,
-    "desc": "寮舎経験値入手＋5％",
+  "8": {
+    "benefit_condition": "",
+    "id": 8,
+    "desc": "普通关卡、困难关卡、活动关卡额外掉落一次",
     "max_time": 0,
-    "name": "<color=#FF69B4>APL</color>MAX：",
-    "benefit_effect": "5",
-    "benefit_type": "dorm_exp",
-    "icon": "Props/buff_minigame_12",
+    "name": "掉落加成",
+    "benefit_effect": "1",
+    "benefit_type": "extra_drop",
+    "icon": "Props/xinshou",
+    "hide": 0
+  },
+  "9": {
+    "benefit_condition": "",
+    "id": 9,
+    "desc": "活动掉落额外掉落一次，不与每日首次掉落叠加",
+    "max_time": 0,
+    "name": "活动掉落加成",
+    "benefit_effect": "1",
+    "benefit_type": "extra_activity_drop",
+    "icon": "Props/xinshou",
     "hide": 0
   },
   "10": {
@@ -118,271 +113,6 @@
     "icon": "Props/buff_minigame_10",
     "hide": 0
   },
-  "12": {
-    "benefit_condition": "",
-    "id": 12,
-    "desc": "秘書艦の親密度上昇スピードがアップ\n残り時間:$1",
-    "max_time": 86400,
-    "name": "良縁祈願",
-    "benefit_effect": "1",
-    "benefit_type": "intimacy_up_extra",
-    "icon": "Props/buff_minigame_12",
-    "hide": 0
-  },
-  "14": {
-    "benefit_condition": [
-      "activity",
-      686,
-      [
-        5,
-        2
-      ]
-    ],
-    "id": 14,
-    "desc": "メイン海域・イベント海域における経験値入手+4%",
-    "max_time": 0,
-    "name": "舰娘经验加成2",
-    "benefit_effect": "4",
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/xinshou",
-    "hide": 0
-  },
-  "16": {
-    "benefit_condition": [
-      "activity",
-      686,
-      [
-        6,
-        1
-      ]
-    ],
-    "id": 16,
-    "desc": "メイン海域・イベント海域で与えるダメージ+1%",
-    "max_time": 0,
-    "name": "战斗伤害加成1",
-    "benefit_effect": "500",
-    "benefit_type": "battle_buff",
-    "icon": "Props/buff_minigame_11",
-    "hide": 0
-  },
-  "20": {
-    "benefit_condition": [
-      "activity",
-      686,
-      [
-        7,
-        2
-      ]
-    ],
-    "id": 20,
-    "desc": "戦術教室でスキルを強化する場合、所要時間-4%",
-    "max_time": 0,
-    "name": "战术学院学习时间缩短2",
-    "benefit_effect": "400",
-    "benefit_type": "skill_learncost_up",
-    "icon": "Props/buff_minigame_10",
-    "hide": 0
-  },
-  "24": {
-    "benefit_condition": [
-      "activity",
-      686,
-      [
-        8,
-        3
-      ]
-    ],
-    "id": 24,
-    "desc": "寮舎経験値入手＋5％",
-    "max_time": 0,
-    "name": "后宅经验加成3",
-    "benefit_effect": "5",
-    "benefit_type": "dorm_exp",
-    "icon": "Props/buff_minigame_12",
-    "hide": 0
-  },
-  "28": {
-    "benefit_condition": [
-      "activity",
-      753,
-      0
-    ],
-    "id": 28,
-    "desc": "メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵に与えるダメージが3%アップ",
-    "max_time": 0,
-    "name": "アピールVocal",
-    "benefit_effect": "504",
-    "benefit_type": "battle_buff",
-    "icon": "Props/yanchangli3",
-    "hide": 0
-  },
-  "32": {
-    "benefit_condition": [
-      "activity",
-      753,
-      0
-    ],
-    "id": 32,
-    "desc": "メイン・ハード・イベント・作戦履歴海域における艦船が得られる経験値が3%アップ",
-    "max_time": 0,
-    "name": "メモリーPerformance",
-    "benefit_effect": "3",
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/biaoyanli1",
-    "hide": 0
-  },
-  "40": {
-    "benefit_condition": [
-      "activity",
-      779,
-      0
-    ],
-    "id": 40,
-    "desc": "戦術教室でスキルを強化する場合、所要時間-5%",
-    "max_time": 0,
-    "name": "<color=#00BFFF>TEC</color>MAX：",
-    "benefit_effect": "500",
-    "benefit_type": "skill_learncost_up",
-    "icon": "Props/buff_minigame_10",
-    "hide": 0
-  },
-  "33": {
-    "benefit_condition": [
-      "activity",
-      753,
-      0
-    ],
-    "id": 33,
-    "desc": "メイン・ハード・イベント・作戦履歴海域における艦船が得られる経験値が4%アップ",
-    "max_time": 0,
-    "name": "メモリーPerformance",
-    "benefit_effect": "4",
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/biaoyanli2",
-    "hide": 0
-  },
-  "41": {
-    "benefit_condition": [
-      "activity",
-      779,
-      0
-    ],
-    "id": 41,
-    "desc": "メイン・ハード・イベント・作戦履歴海域における艦船が得られる経験値が3%アップ",
-    "max_time": 0,
-    "name": "<color=#ffde38>STM</color>LV.1：",
-    "benefit_effect": "3",
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/biaoyanli1",
-    "hide": 0
-  },
-  "17": {
-    "benefit_condition": [
-      "activity",
-      686,
-      [
-        6,
-        2
-      ]
-    ],
-    "id": 17,
-    "desc": "メイン海域・イベント海域で与えるダメージ+2%",
-    "max_time": 0,
-    "name": "战斗伤害加成2",
-    "benefit_effect": "502",
-    "benefit_type": "battle_buff",
-    "icon": "Props/buff_minigame_11",
-    "hide": 0
-  },
-  "21": {
-    "benefit_condition": [
-      "activity",
-      686,
-      [
-        7,
-        3
-      ]
-    ],
-    "id": 21,
-    "desc": "戦術教室でスキルを強化する場合、所要時間-5%",
-    "max_time": 0,
-    "name": "战术学院学习时间缩短3",
-    "benefit_effect": "500",
-    "benefit_type": "skill_learncost_up",
-    "icon": "Props/buff_minigame_10",
-    "hide": 0
-  },
-  "25": {
-    "benefit_condition": "",
-    "id": 25,
-    "desc": "「刹那觀る胡蝶の夢」イベントステージにて入手できる「特装コア（ブリ集め）」は2倍になります",
-    "max_time": 0,
-    "name": "活动关卡特装原型掉落加成",
-    "benefit_effect": "0",
-    "benefit_type": "urpt_drop_up",
-    "icon": "Props/buff_urptup",
-    "hide": 0
-  },
-  "29": {
-    "benefit_condition": [
-      "activity",
-      753,
-      0
-    ],
-    "id": 29,
-    "desc": "メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵から受けるダメージが1%ダウン",
-    "max_time": 0,
-    "name": "エンゲージDance",
-    "benefit_effect": "510",
-    "benefit_type": "battle_buff",
-    "icon": "Props/wudaoli1",
-    "hide": 0
-  },
-  "34": {
-    "benefit_condition": [
-      "activity",
-      753,
-      0
-    ],
-    "id": 34,
-    "desc": "メイン・ハード・イベント・作戦履歴海域における艦船が得られる経験値が5%アップ",
-    "max_time": 0,
-    "name": "メモリーPerformance",
-    "benefit_effect": "5",
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/biaoyanli3",
-    "hide": 0
-  },
-  "42": {
-    "benefit_condition": [
-      "activity",
-      779,
-      0
-    ],
-    "id": 42,
-    "desc": "メイン・ハード・イベント・作戦履歴海域における艦船が得られる経験値が4%アップ",
-    "max_time": 0,
-    "name": "<color=#ffde38>STM</color>LV.2：",
-    "benefit_effect": "4",
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/biaoyanli2",
-    "hide": 0
-  },
-  "35": {
-    "benefit_condition": [
-      "activity",
-      779,
-      0
-    ],
-    "id": 35,
-    "desc": "メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵に与えるダメージが1%アップ",
-    "max_time": 0,
-    "name": "<color=#ff5c5c>POW</color>LV.1：",
-    "benefit_effect": "500",
-    "benefit_type": "battle_buff",
-    "icon": "Props/yanchangli1",
-    "hide": 0
-  },
   "11": {
     "benefit_condition": "",
     "id": 11,
@@ -392,6 +122,17 @@
     "benefit_effect": "504",
     "benefit_type": "battle_buff",
     "icon": "Props/buff_minigame_11",
+    "hide": 0
+  },
+  "12": {
+    "benefit_condition": "",
+    "id": 12,
+    "desc": "秘書艦の親密度上昇スピードがアップ\n残り時間:$1",
+    "max_time": 86400,
+    "name": "良縁祈願",
+    "benefit_effect": "1",
+    "benefit_type": "intimacy_up_extra",
+    "icon": "Props/buff_minigame_12",
     "hide": 0
   },
   "13": {
@@ -408,6 +149,24 @@
     "max_time": 0,
     "name": "舰娘经验加成1",
     "benefit_effect": "3",
+    "benefit_type": "ship_battle_exp",
+    "icon": "Props/xinshou",
+    "hide": 0
+  },
+  "14": {
+    "benefit_condition": [
+      "activity",
+      686,
+      [
+        5,
+        2
+      ]
+    ],
+    "id": 14,
+    "desc": "メイン海域・イベント海域における経験値入手+4%",
+    "max_time": 0,
+    "name": "舰娘经验加成2",
+    "benefit_effect": "4",
     "benefit_type": "ship_battle_exp",
     "icon": "Props/xinshou",
     "hide": 0
@@ -430,6 +189,42 @@
     "icon": "Props/xinshou",
     "hide": 0
   },
+  "16": {
+    "benefit_condition": [
+      "activity",
+      686,
+      [
+        6,
+        1
+      ]
+    ],
+    "id": 16,
+    "desc": "メイン海域・イベント海域で与えるダメージ+1%",
+    "max_time": 0,
+    "name": "战斗伤害加成1",
+    "benefit_effect": "500",
+    "benefit_type": "battle_buff",
+    "icon": "Props/buff_minigame_11",
+    "hide": 0
+  },
+  "17": {
+    "benefit_condition": [
+      "activity",
+      686,
+      [
+        6,
+        2
+      ]
+    ],
+    "id": 17,
+    "desc": "メイン海域・イベント海域で与えるダメージ+2%",
+    "max_time": 0,
+    "name": "战斗伤害加成2",
+    "benefit_effect": "502",
+    "benefit_type": "battle_buff",
+    "icon": "Props/buff_minigame_11",
+    "hide": 0
+  },
   "18": {
     "benefit_condition": [
       "activity",
@@ -446,6 +241,60 @@
     "benefit_effect": "504",
     "benefit_type": "battle_buff",
     "icon": "Props/buff_minigame_11",
+    "hide": 0
+  },
+  "19": {
+    "benefit_condition": [
+      "activity",
+      686,
+      [
+        7,
+        1
+      ]
+    ],
+    "id": 19,
+    "desc": "戦術教室でスキルを強化する場合、所要時間-3%",
+    "max_time": 0,
+    "name": "战术学院学习时间缩短1",
+    "benefit_effect": "300",
+    "benefit_type": "skill_learncost_up",
+    "icon": "Props/buff_minigame_10",
+    "hide": 0
+  },
+  "20": {
+    "benefit_condition": [
+      "activity",
+      686,
+      [
+        7,
+        2
+      ]
+    ],
+    "id": 20,
+    "desc": "戦術教室でスキルを強化する場合、所要時間-4%",
+    "max_time": 0,
+    "name": "战术学院学习时间缩短2",
+    "benefit_effect": "400",
+    "benefit_type": "skill_learncost_up",
+    "icon": "Props/buff_minigame_10",
+    "hide": 0
+  },
+  "21": {
+    "benefit_condition": [
+      "activity",
+      686,
+      [
+        7,
+        3
+      ]
+    ],
+    "id": 21,
+    "desc": "戦術教室でスキルを強化する場合、所要時間-5%",
+    "max_time": 0,
+    "name": "战术学院学习时间缩短3",
+    "benefit_effect": "500",
+    "benefit_type": "skill_learncost_up",
+    "icon": "Props/buff_minigame_10",
     "hide": 0
   },
   "22": {
@@ -466,6 +315,53 @@
     "icon": "Props/buff_minigame_12",
     "hide": 0
   },
+  "23": {
+    "benefit_condition": [
+      "activity",
+      686,
+      [
+        8,
+        2
+      ]
+    ],
+    "id": 23,
+    "desc": "寮舎経験値入手＋4％",
+    "max_time": 0,
+    "name": "后宅经验加成2",
+    "benefit_effect": "4",
+    "benefit_type": "dorm_exp",
+    "icon": "Props/buff_minigame_12",
+    "hide": 0
+  },
+  "24": {
+    "benefit_condition": [
+      "activity",
+      686,
+      [
+        8,
+        3
+      ]
+    ],
+    "id": 24,
+    "desc": "寮舎経験値入手＋5％",
+    "max_time": 0,
+    "name": "后宅经验加成3",
+    "benefit_effect": "5",
+    "benefit_type": "dorm_exp",
+    "icon": "Props/buff_minigame_12",
+    "hide": 0
+  },
+  "25": {
+    "benefit_condition": "",
+    "id": 25,
+    "desc": "「刹那觀る胡蝶の夢」イベントステージにて入手できる「特装コア（ブリ集め）」は2倍になります",
+    "max_time": 0,
+    "name": "活动关卡特装原型掉落加成",
+    "benefit_effect": "0",
+    "benefit_type": "urpt_drop_up",
+    "icon": "Props/buff_urptup",
+    "hide": 0
+  },
   "26": {
     "benefit_condition": [
       "activity",
@@ -479,6 +375,51 @@
     "benefit_effect": "500",
     "benefit_type": "battle_buff",
     "icon": "Props/yanchangli1",
+    "hide": 0
+  },
+  "27": {
+    "benefit_condition": [
+      "activity",
+      753,
+      0
+    ],
+    "id": 27,
+    "desc": "メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵に与えるダメージが2%アップ",
+    "max_time": 0,
+    "name": "アピールVocal",
+    "benefit_effect": "502",
+    "benefit_type": "battle_buff",
+    "icon": "Props/yanchangli2",
+    "hide": 0
+  },
+  "28": {
+    "benefit_condition": [
+      "activity",
+      753,
+      0
+    ],
+    "id": 28,
+    "desc": "メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵に与えるダメージが3%アップ",
+    "max_time": 0,
+    "name": "アピールVocal",
+    "benefit_effect": "504",
+    "benefit_type": "battle_buff",
+    "icon": "Props/yanchangli3",
+    "hide": 0
+  },
+  "29": {
+    "benefit_condition": [
+      "activity",
+      753,
+      0
+    ],
+    "id": 29,
+    "desc": "メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵から受けるダメージが1%ダウン",
+    "max_time": 0,
+    "name": "エンゲージDance",
+    "benefit_effect": "510",
+    "benefit_type": "battle_buff",
+    "icon": "Props/wudaoli1",
     "hide": 0
   },
   "30": {
@@ -496,6 +437,81 @@
     "icon": "Props/wudaoli2",
     "hide": 0
   },
+  "31": {
+    "benefit_condition": [
+      "activity",
+      753,
+      0
+    ],
+    "id": 31,
+    "desc": "メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵から受けるダメージが3%ダウン",
+    "max_time": 0,
+    "name": "エンゲージDance",
+    "benefit_effect": "514",
+    "benefit_type": "battle_buff",
+    "icon": "Props/wudaoli3",
+    "hide": 0
+  },
+  "32": {
+    "benefit_condition": [
+      "activity",
+      753,
+      0
+    ],
+    "id": 32,
+    "desc": "メイン・ハード・イベント・作戦履歴海域における艦船が得られる経験値が3%アップ",
+    "max_time": 0,
+    "name": "メモリーPerformance",
+    "benefit_effect": "3",
+    "benefit_type": "ship_battle_exp",
+    "icon": "Props/biaoyanli1",
+    "hide": 0
+  },
+  "33": {
+    "benefit_condition": [
+      "activity",
+      753,
+      0
+    ],
+    "id": 33,
+    "desc": "メイン・ハード・イベント・作戦履歴海域における艦船が得られる経験値が4%アップ",
+    "max_time": 0,
+    "name": "メモリーPerformance",
+    "benefit_effect": "4",
+    "benefit_type": "ship_battle_exp",
+    "icon": "Props/biaoyanli2",
+    "hide": 0
+  },
+  "34": {
+    "benefit_condition": [
+      "activity",
+      753,
+      0
+    ],
+    "id": 34,
+    "desc": "メイン・ハード・イベント・作戦履歴海域における艦船が得られる経験値が5%アップ",
+    "max_time": 0,
+    "name": "メモリーPerformance",
+    "benefit_effect": "5",
+    "benefit_type": "ship_battle_exp",
+    "icon": "Props/biaoyanli3",
+    "hide": 0
+  },
+  "35": {
+    "benefit_condition": [
+      "activity",
+      779,
+      0
+    ],
+    "id": 35,
+    "desc": "メイン・ハード・イベント・作戦履歴海域における味方艦隊が敵に与えるダメージが1%アップ",
+    "max_time": 0,
+    "name": "<color=#ff5c5c>POW</color>LV.1：",
+    "benefit_effect": "500",
+    "benefit_type": "battle_buff",
+    "icon": "Props/yanchangli1",
+    "hide": 0
+  },
   "36": {
     "benefit_condition": [
       "activity",
@@ -509,21 +525,6 @@
     "benefit_effect": "502",
     "benefit_type": "battle_buff",
     "icon": "Props/yanchangli2",
-    "hide": 0
-  },
-  "44": {
-    "benefit_condition": [
-      "activity",
-      779,
-      0
-    ],
-    "id": 44,
-    "desc": "寮舎経験値入手＋3％",
-    "max_time": 0,
-    "name": "<color=#FF69B4>APL</color>LV.1：",
-    "benefit_effect": "3",
-    "benefit_type": "dorm_exp",
-    "icon": "Props/buff_minigame_12",
     "hide": 0
   },
   "37": {
@@ -541,6 +542,111 @@
     "icon": "Props/yanchangli3",
     "hide": 0
   },
+  "38": {
+    "benefit_condition": [
+      "activity",
+      779,
+      0
+    ],
+    "id": 38,
+    "desc": "戦術教室でスキルを強化する場合、所要時間-3%",
+    "max_time": 0,
+    "name": "<color=#00BFFF>TEC</color>LV.1：",
+    "benefit_effect": "300",
+    "benefit_type": "skill_learncost_up",
+    "icon": "Props/buff_minigame_10",
+    "hide": 0
+  },
+  "39": {
+    "benefit_condition": [
+      "activity",
+      779,
+      0
+    ],
+    "id": 39,
+    "desc": "戦術教室でスキルを強化する場合、所要時間-4%",
+    "max_time": 0,
+    "name": "<color=#00BFFF>TEC</color>LV.2：",
+    "benefit_effect": "400",
+    "benefit_type": "skill_learncost_up",
+    "icon": "Props/buff_minigame_10",
+    "hide": 0
+  },
+  "40": {
+    "benefit_condition": [
+      "activity",
+      779,
+      0
+    ],
+    "id": 40,
+    "desc": "戦術教室でスキルを強化する場合、所要時間-5%",
+    "max_time": 0,
+    "name": "<color=#00BFFF>TEC</color>MAX：",
+    "benefit_effect": "500",
+    "benefit_type": "skill_learncost_up",
+    "icon": "Props/buff_minigame_10",
+    "hide": 0
+  },
+  "41": {
+    "benefit_condition": [
+      "activity",
+      779,
+      0
+    ],
+    "id": 41,
+    "desc": "メイン・ハード・イベント・作戦履歴海域における艦船が得られる経験値が3%アップ",
+    "max_time": 0,
+    "name": "<color=#ffde38>STM</color>LV.1：",
+    "benefit_effect": "3",
+    "benefit_type": "ship_battle_exp",
+    "icon": "Props/biaoyanli1",
+    "hide": 0
+  },
+  "42": {
+    "benefit_condition": [
+      "activity",
+      779,
+      0
+    ],
+    "id": 42,
+    "desc": "メイン・ハード・イベント・作戦履歴海域における艦船が得られる経験値が4%アップ",
+    "max_time": 0,
+    "name": "<color=#ffde38>STM</color>LV.2：",
+    "benefit_effect": "4",
+    "benefit_type": "ship_battle_exp",
+    "icon": "Props/biaoyanli2",
+    "hide": 0
+  },
+  "43": {
+    "benefit_condition": [
+      "activity",
+      779,
+      0
+    ],
+    "id": 43,
+    "desc": "メイン・ハード・イベント・作戦履歴海域における艦船が得られる経験値が5%アップ",
+    "max_time": 0,
+    "name": "<color=#ffde38>STM</color>MAX：",
+    "benefit_effect": "5",
+    "benefit_type": "ship_battle_exp",
+    "icon": "Props/biaoyanli3",
+    "hide": 0
+  },
+  "44": {
+    "benefit_condition": [
+      "activity",
+      779,
+      0
+    ],
+    "id": 44,
+    "desc": "寮舎経験値入手＋3％",
+    "max_time": 0,
+    "name": "<color=#FF69B4>APL</color>LV.1：",
+    "benefit_effect": "3",
+    "benefit_type": "dorm_exp",
+    "icon": "Props/buff_minigame_12",
+    "hide": 0
+  },
   "45": {
     "benefit_condition": [
       "activity",
@@ -556,11 +662,53 @@
     "icon": "Props/buff_minigame_12",
     "hide": 0
   },
+  "46": {
+    "benefit_condition": [
+      "activity",
+      779,
+      0
+    ],
+    "id": 46,
+    "desc": "寮舎経験値入手＋5％",
+    "max_time": 0,
+    "name": "<color=#FF69B4>APL</color>MAX：",
+    "benefit_effect": "5",
+    "benefit_type": "dorm_exp",
+    "icon": "Props/buff_minigame_12",
+    "hide": 0
+  },
+  "47": {
+    "benefit_condition": "61001",
+    "id": 47,
+    "desc": "燃料消費2倍\n戦闘報酬2倍",
+    "max_time": 0,
+    "name": "特殊作战加成描述",
+    "benefit_effect": "0",
+    "benefit_type": "desc",
+    "icon": "Props/xinshou",
+    "hide": 0
+  },
+  "48": {
+    "benefit_condition": "",
+    "id": 48,
+    "desc": "好感度、心情值、指挥官经验、指挥喵经验、舰船经验加成",
+    "max_time": 0,
+    "name": "特殊作战加成",
+    "benefit_effect": "100",
+    "benefit_type": "chapter_up",
+    "icon": "Props/xinshou",
+    "hide": 0
+  },
   "all": [
     1,
     2,
     3,
     4,
+    5,
+    6,
+    7,
+    8,
+    9,
     10,
     11,
     12,
@@ -597,72 +745,8 @@
     43,
     44,
     45,
-    46
-  ],
-  "43": {
-    "benefit_condition": [
-      "activity",
-      779,
-      0
-    ],
-    "id": 43,
-    "desc": "メイン・ハード・イベント・作戦履歴海域における艦船が得られる経験値が5%アップ",
-    "max_time": 0,
-    "name": "<color=#ffde38>STM</color>MAX：",
-    "benefit_effect": "5",
-    "benefit_type": "ship_battle_exp",
-    "icon": "Props/biaoyanli3",
-    "hide": 0
-  },
-  "19": {
-    "benefit_condition": [
-      "activity",
-      686,
-      [
-        7,
-        1
-      ]
-    ],
-    "id": 19,
-    "desc": "戦術教室でスキルを強化する場合、所要時間-3%",
-    "max_time": 0,
-    "name": "战术学院学习时间缩短1",
-    "benefit_effect": "300",
-    "benefit_type": "skill_learncost_up",
-    "icon": "Props/buff_minigame_10",
-    "hide": 0
-  },
-  "23": {
-    "benefit_condition": [
-      "activity",
-      686,
-      [
-        8,
-        2
-      ]
-    ],
-    "id": 23,
-    "desc": "寮舎経験値入手＋4％",
-    "max_time": 0,
-    "name": "后宅经验加成2",
-    "benefit_effect": "4",
-    "benefit_type": "dorm_exp",
-    "icon": "Props/buff_minigame_12",
-    "hide": 0
-  },
-  "39": {
-    "benefit_condition": [
-      "activity",
-      779,
-      0
-    ],
-    "id": 39,
-    "desc": "戦術教室でスキルを強化する場合、所要時間-4%",
-    "max_time": 0,
-    "name": "<color=#00BFFF>TEC</color>LV.2：",
-    "benefit_effect": "400",
-    "benefit_type": "skill_learncost_up",
-    "icon": "Props/buff_minigame_10",
-    "hide": 0
-  }
+    46,
+    47,
+    48
+  ]
 }

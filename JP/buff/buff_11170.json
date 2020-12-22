@@ -18,19 +18,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "check_target": "TargetTemplate",
-        "minTargetNumber": 1,
-        "target": "TargetSelf",
-        "targetTemplateIDList": [
-          202081,
-          202082,
-          202083,
-          202084,
-          202251,
-          202252,
-          202253,
-          202254
+        "starget": "TargetSelf",
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
         ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Sheffield"
+        ],
+        "target": "TargetSelf",
         "skill_id": 11170
       }
     }

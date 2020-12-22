@@ -1,0 +1,52 @@
+{
+  "picture": "",
+  "id": 74203,
+  "color": "red",
+  "desc": "战斗对象对我方舰队造成X次伤害后，下一次伤害倍率提高至Y倍",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "last_effect": "",
+  "name": "穿透",
+  "icon": 74200,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 3,
+        "attr": "damageRatioBullet"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 9999,
+        "attr": "attackRating"
+      }
+    },
+    {
+      "trigger": [
+        "onBulletHit"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 1
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

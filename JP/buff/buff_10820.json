@@ -34,6 +34,18 @@
   "effect_list": [
     {
       "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 3,
+        "nationality": 3,
+        "skill_id": 10821,
+        "check_target": "TargetNationalityFriendly"
+      }
+    },
+    {
+      "trigger": [
         "onAllInStrike"
       ],
       "type": "BattleBuffCastSkill",

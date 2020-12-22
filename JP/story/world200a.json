@@ -1,0 +1,476 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "side": 2,
+      "dir": 1,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "リバープール・作戦会議室",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "story-richang",
+      "bgmDelay": 2,
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "actor": 107030,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "say": "じゃあ指揮官、エンタープライズ、そしてロイヤルのみんな、セイレーン作戦頑張りましょー！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "actor": 204030,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": false,
+      "say": "ええ、ロイヤル艦隊もすぐ行動を開始しますわ",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "actor": 204030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "say": "「セイレーン作戦」、とうとう始まりましたわ",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "通信ご苦労よ。フッド",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "お褒めいただき光栄にございます。ふふ、本当は陛下の演説を聞きたかったものですわ",
+      "actor": 204030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "そういう仕事はフッドのほうが適任よ。そもそも今回ロイヤル艦隊を率いるのはあんたじゃない",
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "陛下、レッドアクシズとの折衝交渉、本当に大丈夫ですか？",
+      "actor": 205020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "鉄血の艦船から誘ってきたのだから、受けない理由はないわ。ロイヤルのメンツがかかっているもの",
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "よく考えてみなさいウォースパイト。下僕の役に立つし、ユニオンと重桜に恩を売れるし、鉄血を出し抜けるし…と、後ろの2つは冗談よ",
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "なにより鉄血艦隊とはよく些細なことで争ってたじゃない。セイレーン作戦が決行されようとしている今が絶好のチャンスよ",
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "セイレーンを叩く。そのために協力せよ。単純明快よ",
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "仰るとおりでございますわ。ただ……",
+      "actor": 204030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "何？上層部のこと？それともフリードリヒのこと？確かに怪しいわ",
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "まあ、今回はジョージが護衛をやってくれるし、安心なさい",
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "というわけで、フッド、ウォースパイト、セイレーン作戦と王都のことは任せたわよ！",
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "actor": 205020,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "ははっ！",
+      "subActors": [
+        {
+          "pos": {
+            "x": 1185
+          },
+          "actor": 204030
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "ウォースパイト&フッド",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "あとメイド隊の子は…ベル、あんたを連れて行くわ！シェフィは別任務だし…統括はニューカッスルとエディンバラに任せなさい！",
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "かしこまりました。すぐ手配いたします",
+      "actor": 202120,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "actor": 205060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "すみません陛下。上層部から指揮官に送られた、「TB」という存在をご存知ですか？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "「TB」？……知ってるわ。それが何か？",
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "ええ、上層部の最新技術で開発されたと聞きましたが、正体についてもしかして陛下は何か情報をお掴みになっているのではと",
+      "actor": 205060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "知らないわよ。調査はしてるけど、今は特になにもないわ",
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "当の本人は「チューリング・テストを通過できません」とか言ってるけど、正直不思議ちゃんにも程があるって感じね",
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "say": "まあ、その話はまた今度にして…ほかには何かある？",
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    },
+    {
+      "actor": 205010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "say": "…じゃあひとまずこれで！セイレーン作戦、ロイヤルの栄光のために頑張りなさい！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_guild_blue"
+    }
+  ],
+  "fadeType": 1,
+  "mode": 2,
+  "id": "WORLD200A",
+  "once": true
+}

@@ -1,0 +1,31 @@
+{
+  "picture": "",
+  "id": 71200,
+  "color": "blue",
+  "desc": "减伤类型用例,受到航空伤害降低50%",
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
+  "last_effect": "",
+  "name": "航空减伤",
+  "icon": 71200,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.5,
+        "attr": "damageGetRatioByAir"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}
