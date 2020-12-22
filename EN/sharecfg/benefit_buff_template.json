@@ -36,10 +36,10 @@
     "benefit_condition": [
       "lv",
       "<",
-      30
+      60
     ],
     "id": 4,
-    "desc": "Earn 100% bonus Commander EXP and Ship EXP from Normal stages, Hard stages, Event stages, War Archives stages and daily missions when you are lower than lv. 30.",
+    "desc": "Earn 100% bonus Commander EXP and Ship EXP from Normal stages, Hard stages, Event stages, War Archives stages and daily missions when you are lower than lv. 60.",
     "max_time": 0,
     "name": "EXP Bonus",
     "benefit_effect": "100",
@@ -244,6 +244,17 @@
     "benefit_effect": "500",
     "benefit_type": "skill_learncost_up",
     "icon": "Props/buff_minigame_10",
+    "hide": 0
+  },
+  "48": {
+    "benefit_condition": "",
+    "id": 48,
+    "desc": "Mood, Affection, Commander EXP, Meowfficer EXP, and Ship EXP Bonus",
+    "max_time": 0,
+    "name": "High-Efficiency Operation Bonus",
+    "benefit_effect": "100",
+    "benefit_type": "chapter_up",
+    "icon": "Props/xinshou",
     "hide": 0
   },
   "33": {
@@ -526,36 +537,6 @@
     "icon": "Props/buff_minigame_12",
     "hide": 0
   },
-  "37": {
-    "benefit_condition": [
-      "activity",
-      30770,
-      0
-    ],
-    "id": 37,
-    "desc": "Deal 3% more damage in Campaign, Hard Mode, Event, and War Archives stages.",
-    "max_time": 0,
-    "name": "<color=#ff5c5c>POW </color>MAX:",
-    "benefit_effect": "504",
-    "benefit_type": "battle_buff",
-    "icon": "Props/yanchangli3",
-    "hide": 0
-  },
-  "45": {
-    "benefit_condition": [
-      "activity",
-      30770,
-      0
-    ],
-    "id": 45,
-    "desc": "Earn 4% more EXP in the Dormitory.",
-    "max_time": 0,
-    "name": "<color=#FF69B4>APL</color> Lv. 2:",
-    "benefit_effect": "4",
-    "benefit_type": "dorm_exp",
-    "icon": "Props/buff_minigame_12",
-    "hide": 0
-  },
   "all": [
     1,
     2,
@@ -597,8 +578,51 @@
     43,
     44,
     45,
-    46
+    46,
+    47,
+    48
   ],
+  "37": {
+    "benefit_condition": [
+      "activity",
+      30770,
+      0
+    ],
+    "id": 37,
+    "desc": "Deal 3% more damage in Campaign, Hard Mode, Event, and War Archives stages.",
+    "max_time": 0,
+    "name": "<color=#ff5c5c>POW </color>MAX:",
+    "benefit_effect": "504",
+    "benefit_type": "battle_buff",
+    "icon": "Props/yanchangli3",
+    "hide": 0
+  },
+  "45": {
+    "benefit_condition": [
+      "activity",
+      30770,
+      0
+    ],
+    "id": 45,
+    "desc": "Earn 4% more EXP in the Dormitory.",
+    "max_time": 0,
+    "name": "<color=#FF69B4>APL</color> Lv. 2:",
+    "benefit_effect": "4",
+    "benefit_type": "dorm_exp",
+    "icon": "Props/buff_minigame_12",
+    "hide": 0
+  },
+  "47": {
+    "benefit_condition": "61001",
+    "id": 47,
+    "desc": "2x Oil Consumption\n2x Rewards",
+    "max_time": 0,
+    "name": "High-Efficiency Operation Description",
+    "benefit_effect": "0",
+    "benefit_type": "desc",
+    "icon": "Props/xinshou",
+    "hide": 0
+  },
   "43": {
     "benefit_condition": [
       "activity",

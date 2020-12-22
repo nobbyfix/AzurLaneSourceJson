@@ -1,0 +1,49 @@
+{
+  "id": "W1023",
+  "mode": 2,
+  "once": true,
+  "scripts": [
+    {
+      "say": "Siren device has been successfully neutralized. Commencing component analysis...",
+      "actor": 900284,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    },
+    {
+      "actor": 900284,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "say": "Warning: The device's built-in alarm has activated, and a Siren fleet is approaching.",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "options": [
+        {
+          "content": "Intercept them.",
+          "flag": 0
+        },
+        {
+          "content": "Evade them.",
+          "flag": 1
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "nameColor": "#a9f548"
+    }
+  ]
+}

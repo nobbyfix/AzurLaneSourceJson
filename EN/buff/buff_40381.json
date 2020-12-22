@@ -1,0 +1,25 @@
+{
+  "picture": "",
+  "id": 40381,
+  "desc": "该入口提供战外挂载到战内",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 40380,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "time": 20,
+        "quota": 1,
+        "buff_id": 40382
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "进入战斗时，若旗舰为战列、战巡、航战中的一种,战斗开始后20秒，触发额外弹幕"
+}

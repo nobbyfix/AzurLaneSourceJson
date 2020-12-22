@@ -68,19 +68,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "check_target": "TargetTemplate",
-        "minTargetNumber": 1,
-        "target": "TargetSelf",
-        "targetTemplateIDList": [
-          307021,
-          307022,
-          307023,
-          307024,
-          305071,
-          305072,
-          305073,
-          305074
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
         ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Kaga"
+        ],
+        "target": "TargetSelf",
         "skill_id": 10430
       }
     }

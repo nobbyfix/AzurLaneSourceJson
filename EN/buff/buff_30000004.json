@@ -1,0 +1,26 @@
+{
+  "picture": "",
+  "id": 30000004,
+  "desc": "AT盾血量监听",
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "hpOutInterval": true,
+        "hpLowerBound": 0.9,
+        "buff_id": 30000003
+      }
+    }
+  ],
+  "last_effect": "ATdun",
+  "time": 0,
+  "icon": 30000004,
+  "last_effect_cld_scale": true,
+  "stack": 1,
+  "init_effect": "",
+  "name": "AT·FIELD"
+}

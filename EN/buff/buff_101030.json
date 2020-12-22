@@ -18,19 +18,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "check_target": "TargetTemplate",
-        "minTargetNumber": 1,
-        "target": "TargetSelf",
-        "targetTemplateIDList": [
-          10100041,
-          10100042,
-          10100043,
-          10100044,
-          10100081,
-          10100082,
-          10100083,
-          10100084
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
         ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "VertGH"
+        ],
+        "target": "TargetSelf",
         "skill_id": 101030
       }
     },
@@ -41,17 +37,13 @@
       "type": "BattleBuffCastSkill",
       "arg_list": {
         "maxTargetNumber": 0,
-        "check_target": "TargetTemplate",
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
         "target": "TargetSelf",
-        "targetTemplateIDList": [
-          10100041,
-          10100042,
-          10100043,
-          10100044,
-          10100081,
-          10100082,
-          10100083,
-          10100084
+        "ship_tag_list": [
+          "VertGH"
         ],
         "skill_id": 101031
       }

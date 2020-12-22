@@ -18,23 +18,15 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "check_target": "TargetTemplate",
-        "minTargetNumber": 1,
-        "target": "TargetSelf",
-        "targetTemplateIDList": [
-          103091,
-          103092,
-          103093,
-          103094,
-          103101,
-          103102,
-          103103,
-          103104,
-          103131,
-          103132,
-          103133,
-          103134
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
         ],
+        "minTargetNumber": 1,
+        "ship_tag_list": [
+          "Astoria-Class"
+        ],
+        "target": "TargetSelf",
         "skill_id": 11470
       }
     }

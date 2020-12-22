@@ -1,0 +1,36 @@
+{
+  "picture": "",
+  "id": 74201,
+  "desc": "战斗对象对我方舰队造成X次伤害后，下一次伤害倍率提高至Y倍",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 74200,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 5,
+        "countType": 74201
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 74201,
+        "buff_id": 74203
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "穿透"
+}
