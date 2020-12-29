@@ -1,0 +1,593 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "bgm": "battle-seiren-theme",
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "say": "―――――！！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "dir": 1,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 406010,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "say": "バリアの撃破を確認した！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 407030,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "say": "さあ、破滅の時間よ！コンパイラー！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 900230,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": false,
+      "say": "緊急展開。シールド、再起動",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#ff5c5c",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 403090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "なっ！？バリアが復活した！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.1,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 401240,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 6,
+      "say": "こ、ここまでやるとは………",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 402050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "しかも本体はいまだに無傷…どうして…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 304010,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "say": "重桜艦隊金剛、参りますわ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 307060,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "say": "まだ諦めるのは早いわよ！私たちも攻撃に参加する！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 307050,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "say": "補給物資を自由に使っていいと言われたからには、少しでも手伝わないと気が済みませんからね",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 305020,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "say": "山城も手伝います！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "dir": 1,
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "say": "―――――！！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 304010,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "say": "バリアが破れましたわ！今がチャンスよ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "expression": 4,
+      "actor": 900230,
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "say": "…………っ！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 403090,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": false,
+      "nameColor": "#a9f548",
+      "say": "アイゼンくん！全力でぶっ放すわよ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "say": "移動モジュールヒートアップ完了。潜航モード――",
+      "actor": 900230,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#ff5c5c",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 403090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "はあああ！！ってあわわわわ！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 407030,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "say": "どうした、ハインリヒ！？こちらからコンパイラーの位置を確認できなくなったわ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 402050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "コンパイラーはその…潜水艦みたいに海に潜ったんです！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 403090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "水上戦闘用の艤装と潜航艤装両方持ってるっていうの！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "side": 1,
+      "dir": 1,
+      "paintingNoise": true,
+      "nameColor": "#ff5c5c",
+      "say": "さようなら",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "コンパイラー",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 403090,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "say": "このままじゃあ見失っちゃうよ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 403030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "say": "U-37、最後はあなたの出番みたいね。あのセイレーンを足止めできる？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_fuxiangxian_3"
+    },
+    {
+      "actor": 408100,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "blackBg": true,
+      "say": "こっちはもう待ち伏せ位置にいるよ！ふふん、遠洋の狩人の力を見るがいい！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_134"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "FUXIANGXIANZUOZHAN30",
+  "once": true
+}

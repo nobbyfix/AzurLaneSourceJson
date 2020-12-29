@@ -18,7 +18,7 @@
     "tip": "<color=#92fc63FF>入手方法\nノーマル2-3</color>"
   },
   "world_movelimit_event_text": {
-    "tip": "エリアに未完了の任務が存在しているため、エリア移動を行えません"
+    "tip": "エリアに未完了の任務が存在しているため、エリカ移動を行えません"
   },
   "world_map_locked_border": {
     "tip": "周辺エリアが確保されていません"
@@ -768,7 +768,7 @@
     "tip": "一"
   },
   "buildship_new_tip": {
-    "tip": "「マリー・ローズ」、「ほのか」、「かすみ」などが出現率UP"
+    "tip": "「プリンツ・ハインリヒ」「ペーター・シュトラッサー」などが出現率UP"
   },
   "result_firework_produce": {
     "tip": "花火制作完了！評価："
@@ -1198,7 +1198,7 @@
     "tip": "強化を中止すると、スキル経験値は少し入手できますが、<color=#92fc63>教科書は消費されます</color>。続けますか？"
   },
   "world_boss_progress_item_desc": {
-    "tip": "セイレーン作戦で集めた「余燼座標情報」は解析を行うと、余燼戦を開放することが出来ます。余燼座標情報は一度解析すると消費され、また最大値に溜められた状態では新たな余燼座標情報を入手することが出来ません。\n本日の解析可能回数：$1/$2\n余燼座標情報入手量　$3"
+    "tip": "セイレーン作戦で集めた「余燼座標情報」は解析を行うと、余燼戦を開放することが出来ます。余燼座標情報は一度解析すると消費され、また最大値に溜められた状態では新たな余燼座標情報を入手することが出来ません。\n本日の解析回数：$1/$2\n余燼座標情報入手量　$3"
   },
   "levelScene_chapter_strategying": {
     "tip": "ステージ<color=#92fc63>$1</color> 攻略中"
@@ -1355,7 +1355,7 @@
         "info": "　物資拠出のやり方：\n大艦隊メンバーは「貢献」画面で、自分の所持資源を\n消費し、「物資拠出」を行うことが出来ます。\n「物資拠出」を行うと、大艦隊メンバーは「貢献Pt」、\n大艦隊は「大艦隊資金」「兵站施設増築進捗」をそれ\nぞれ入手/前進出来ます。\n"
       },
       {
-        "info": "・開発対象は24時間に1度しか変更できません。また\n、開発対象のデフォルト設定は「大艦隊容量＋」にな\nります。"
+        "info": "・開発対象は24時間に1度しか変更できません。また\n、開発対象のデフォルト設定は「大艦隊容量＋」にな\nります。\n(new!)・毎日の進捗ゲージの進捗可能回数は、大艦隊\nメンバー数上限×3になります。進捗可能回数が上限に\n達してしまった場合、「物資拠出」を行っても、進捗ゲ\nージが前進することはありません。（個人貢献Ptは獲得\nできます）"
       }
     ]
   },
@@ -2502,6 +2502,9 @@
   "resourceSite_beginScanMap_ok": {
     "tip": "索敵成功"
   },
+  "guild_donate_capital_toplimit": {
+    "tip": "本日の資源拠出による大艦隊資金入手数が上限に達しています（個人貢献Ptは増加します）"
+  },
   "ship_exchange_question": {
     "tip": "勲章を<color=#92fc63>$1</color>消費して、<color=#92fc63>$2</color>を支援要請しますか？"
   },
@@ -2613,6 +2616,9 @@
   },
   "ranking_word_6": {
     "tip": "階級"
+  },
+  "guild_donate_techpoint_toplimit": {
+    "tip": "本日の資源拠出による兵站施設開発進捗が上限に達しています（個人貢献Ptは増加します）"
   },
   "reflux_help_tip": {
     "tip": [
@@ -2794,7 +2800,7 @@
     "tip": "現在のエリアは任務エリアではありません"
   },
   "world_stamina_recover": {
-    "tip": "※行動力が100を下回った場合、 <color=#92fc63>10分</color> 毎に行動力が<color=#92fc63>1</color>回復します"
+    "tip": "※行動力が200を下回った場合、 <color=#92fc63>10分</color> 毎に行動力が<color=#92fc63>1</color>回復します"
   },
   "destory_ship_input_erro": {
     "tip": "表示されている数字を入力してください"
@@ -3055,6 +3061,9 @@
   },
   "ins_click_like_success": {
     "tip": "いいね！しました"
+  },
+  "guild_boss_formation_exist_event_ship": {
+    "tip": "$1が軍事委託を遂行しているため、強敵戦に参加できません"
   },
   "main_navalAcademyScene_systemClose": {
     "tip": "この機能は現在開放されていません"
@@ -4334,11 +4343,20 @@
   "ins_word_day": {
     "tip": "$1日前"
   },
+  "word_equipment_all": {
+    "tip": "全部"
+  },
   "meta_energy_ship_level_need": {
     "tip": "必要艦船Lv： $1/$2"
   },
   "tips_dispense_completed": {
     "tip": "装薬完了"
+  },
+  "formation_reform_tip": {
+    "tip": "隊列維持ができません！編成しますか？"
+  },
+  "world_setting_quickmode": {
+    "tip": "TB案内軽量化"
   },
   "word_equipskin_type": {
     "tip": "種類"
@@ -4346,11 +4364,26 @@
   "backyard_cant_put_tip": {
     "tip": "配置できません"
   },
+  "world_setting_title": {
+    "tip": "セイレーン作戦設定"
+  },
   "challenge_casual_click_switch": {
     "tip": "現在NORMALモードです。\n累計得点:$1\nモードを切り替えますか?"
   },
+  "world_fleet_stop": {
+    "tip": "艦隊移動が停止しました"
+  },
+  "level_scene_title_word_5": {
+    "tip": "推奨:"
+  },
   "system_database_busy": {
     "tip": "通信エラーが発生しました。しばらく置いてから再度接続してください"
+  },
+  "commander_is_in_bigworld": {
+    "tip": "オフニャがセイレーン作戦に参加しています"
+  },
+  "world_collection_3": {
+    "tip": "完了"
   },
   "blueprint_mod_success": {
     "tip": "強化成功"
@@ -4364,23 +4397,35 @@
   "naval_academy_res_desc_class": {
     "tip": "大講堂を強化すると、<color=#92fc63>熟練度上限、授業における熟練度変換の速さ</color>と<color=#92fc63>熟練度入手倍率</color>が上昇"
   },
+  "world_collection_2": {
+    "tip": "完了"
+  },
+  "world_collection_1": {
+    "tip": "完了"
+  },
   "buy_furniture_overtime": {
     "tip": "購入可能期間外です"
   },
   "tactics_noskill_erro": {
     "tip": "強化対象が必須です"
   },
+  "meta_pt_left": {
+    "tip": "残り$1日"
+  },
+  "world_word_world": {
+    "tip": "全員"
+  },
   "word_activity": {
     "tip": "活动"
   },
-  "chapter_tip_bp_ammo": {
-    "tip": "由于充分的战前准备，队伍弹药量+2"
+  "word_chuansong": {
+    "tip": "コイン"
   },
-  "commander_is_in_bigworld": {
-    "tip": "オフニャがセイレーン作戦に参加しています"
+  "word_shipNation_meta": {
+    "tip": "???"
   },
-  "world_collection_3": {
-    "tip": "完了"
+  "world_boss_challenge_cnt": {
+    "tip": "交戦数"
   },
   "meta_voice_name_feeling3": {
     "tip": "理解"
@@ -4391,11 +4436,11 @@
   "school_title_zhihuimiao": {
     "tip": "オフニャ"
   },
-  "world_collection_2": {
-    "tip": "完了"
+  "word_take_effect": {
+    "tip": "で有効化"
   },
-  "world_collection_1": {
-    "tip": "完了"
+  "meta_boss_unlock": {
+    "tip": "セイレーン作戦1章クリアで開放された「余燼戦」」で、解析Ptを入手できます"
   },
   "commander_main_pos": {
     "tip": "指揮ニャ"
@@ -4418,38 +4463,17 @@
   "login_newPlayerScene_word_biaoqiang": {
     "tip": "私の名前はジャベリン！はい！指揮官も名前を教えてくださいね！"
   },
-  "msgbox_text_goon_fight": {
-    "tip": "戦闘継続"
+  "meta_pt_notenough": {
+    "tip": "セイレーン作戦の【余燼戦】で解析Ptを手に入れよう！"
   },
-  "world_word_world": {
-    "tip": "全員"
+  "special_transform_limit_reach": {
+    "tip": "すでに改造アイテムか改造済の艦船を所持しているため、交換できません"
   },
   "backyard_backyardGranaryLayer_foodMaxIncreaseNotice": {
     "tip": "食糧庫を<color=#92fc63>$1</color>から<color=#92fc63>$2</color>に拡張する"
   },
   "new_airi_error_code_100115": {
     "tip": "このデバイスのゲーム利用は制限されています"
-  },
-  "map_event_skip": {
-    "tip": "既読ストーリーをスキップする"
-  },
-  "backyard_backyardShipInfoMediator_error_noFood": {
-    "tip": "食糧が足りません"
-  },
-  "word_shipNation_meta": {
-    "tip": "???"
-  },
-  "world_boss_challenge_cnt": {
-    "tip": "交戦数"
-  },
-  "word_take_effect": {
-    "tip": "で有効化"
-  },
-  "meta_boss_unlock": {
-    "tip": "セイレーン作戦1章クリアで開放された「余燼戦」」で、解析Ptを入手できます"
-  },
-  "meta_pt_notenough": {
-    "tip": "セイレーン作戦の【余燼戦】で解析Ptを手に入れよう！"
   },
   "meta_help": {
     "tip": [
@@ -4458,29 +4482,23 @@
       }
     ]
   },
+  "backyard_backyardShipInfoMediator_error_noFood": {
+    "tip": "食糧が足りません"
+  },
   "common_daily_limit": {
     "tip": "每日上限(未使用)"
   },
   "equip_ammo_type_10": {
     "tip": "なし"
   },
-  "sofmapsd_4": {
-    "tip": "営業目標達成にゃ！\n指揮官、ありがとにゃ！"
-  },
-  "refresh_shopStreet_question": {
-    "tip": "<color=#92fc63>$2</color>の$1で商品リストを更新しますか？\n\n<size=22>( 本日は既に<size=25><color=#ff5c5c>$3</color></size> 回購入しました)</size>"
+  "buy_item_quest": {
+    "tip": "購入しますか？"
   },
   "equip_ammo_type_7": {
     "tip": "SAP弾"
   },
-  "fleet_repairShips_error_fullEnergy": {
-    "tip": "耐久が満タンです！"
-  },
-  "fate_phase_word": {
-    "tip": "研究進捗"
-  },
-  "intimacy_desc_7_buff": {
-    "tip": "補正値：全性能（速力、装備以外）12%アップ"
+  "word_live2dfiles_main_update_tip": {
+    "tip": "Live2Dアセットを更新する必要があります。アセットを更新しますか？"
   },
   "equip_ammo_type_3": {
     "tip": "通常弾"
@@ -4491,21 +4509,23 @@
   "equip_ammo_type_1": {
     "tip": "徹甲弾"
   },
+  "sofmapsd_4": {
+    "tip": "営業目標達成にゃ！\n指揮官、ありがとにゃ！"
+  },
   "world_boss_pt_recove_desc": {
     "tip": "毎日０時回数リセット"
   },
   "world_boss_ad": {
     "tip": "[$1]TIER.$2"
   },
-  "help_jiujiu_expedition_game": {
-    "tip": [
-      {
-        "info": "■遊び方\n・饅頭の隣にある「未探索のマス」をタップすると、\n「探索回数」を1回消費し饅頭を移動させることができ\nます。\n・饅頭が未探索マスに移動すると、未探索のマスが探索\n済マスになり、マスの内容によって下記の結果が発生し\nます。\n通常マス：資源を少し入手します\n宝箱マス：宝箱が出現します。宝箱を開けると、ランダ\nムな報酬を入手できます\n敵マス：敵が出現します。敵をタップするとイベント戦\n闘を開始でき、イベント戦闘に勝利すると報酬を入手で\nきます・ミニマップを全部探索すると、次のミニマップ\nに移動できます"
-      }
-    ]
+  "fleet_repairShips_error_fullEnergy": {
+    "tip": "耐久が満タンです！"
   },
-  "read_the_user_agreement": {
-    "tip": "利用規約を最後までスクロールしてご確認ください"
+  "not_exist_guild_use_item": {
+    "tip": "大艦隊に所属していないため、アイテムを使用できません"
+  },
+  "intimacy_desc_7_buff": {
+    "tip": "補正値：全性能（速力、装備以外）12%アップ"
   },
   "meta_voice_name_feeling5": {
     "tip": "愛"
@@ -4513,14 +4533,35 @@
   "meta_voice_name_feeling4": {
     "tip": "同調"
   },
-  "world_catsearch_leavemap": {
-    "tip": "サルベージ作業中のオフニャが作業を中止してしまいます。（ターン経過分の報酬を入手できます）\nエリアから移動しますか？"
+  "charge_title": {
+    "tip": "$1で$3を$2つ購入します"
+  },
+  "meta_voice_name_feeling1": {
+    "tip": "失望"
+  },
+  "meta_skillbtn_tactics": {
+    "tip": "習 得"
+  },
+  "meta_toast_tactics": {
+    "tip": "習得EXP"
+  },
+  "read_the_user_agreement": {
+    "tip": "利用規約を最後までスクロールしてご確認ください"
+  },
+  "world_setting_quickmodetip": {
+    "tip": "ONに設定されている場合、セイレーン作戦の一部のTBチュートリアル/メッセージが次回ログインまで1回しか表示されなくなります"
+  },
+  "meta_switch_skill_box_title": {
+    "tip": "$1の習得を開始しますか？"
+  },
+  "meta_unlock_skill_tip": {
+    "tip": "<color=#92fc63>$2</color>習得には下記の素材が必要"
   },
   "event_giveup_fail": {
     "tip": "緊急帰還失敗:"
   },
-  "meta_voice_name_feeling1": {
-    "tip": "失望"
+  "world_joint_boss_is_death": {
+    "tip": "対象は現在挑戦できません。ほかの対象をお試しください"
   },
   "guild_member_max_count": {
     "tip": "メンバー数は上限になっています"
@@ -4528,14 +4569,14 @@
   "sos_lock": {
     "tip": "救援海域は開放されていません"
   },
-  "meta_skillbtn_tactics": {
-    "tip": "習 得"
+  "shop_label_unlimt_cnt": {
+    "tip": "無制限"
   },
   "meta_exp_per_day": {
     "tip": "習得EXP"
   },
-  "meta_toast_tactics": {
-    "tip": "習得EXP"
+  "meta_break": {
+    "tip": "※限界突破で★UP！"
   },
   "doa_main": {
     "tip": [
@@ -4574,35 +4615,35 @@
       }
     ]
   },
-  "newplayer_notice_3": {
-    "tip": "上級任務全クリアで開放"
+  "meta_energy_active_box_tip": {
+    "tip": "META艦船を限界突破しますか？\n（艦船の★が増加します）"
   },
   "vote_vote_group": {
     "tip": "$1グループ"
   },
-  "meta_switch_skill_box_title": {
-    "tip": "$1の習得を開始しますか？"
+  "empty_tip_mailboxui": {
+    "tip": "メールはありません"
   },
-  "meta_unlock_skill_tip": {
-    "tip": "<color=#92fc63>$2</color>習得には下記の素材が必要"
+  "world_boss_award_limit": {
+    "tip": "作戦進捗<color=#FFDE00FF>$1%</color>で開放"
   },
-  "jiujiu_expedition_book_tip": {
-    "tip": "前のコレクションが完成すると開放されます"
+  "meta_award_get": {
+    "tip": "開放済"
   },
   "world_event_teleport_alter": {
     "tip": "ほかのエリアに移動すると、戦闘中の艦隊は自動的に戦闘から離脱します"
   },
-  "world_word_guild_player": {
-    "tip": "玩家(未使用)"
+  "ship_profile_voice_locked_design": {
+    "tip": "強化レベル$1で開放"
   },
-  "meta_break": {
-    "tip": "※限界突破で★UP！"
+  "meta_story_tip_2": {
+    "tip": "后开放(未使用)"
   },
-  "meta_energy_active_box_tip": {
-    "tip": "META艦船を限界突破しますか？\n（艦船の★が増加します）"
+  "meta_story_tip_1": {
+    "tip": "解锁剧情(未使用)"
   },
-  "backyard_theme_save_tip": {
-    "tip": "寮舎配置を保存しますか？:\n<color=#92fc63>$1</color>"
+  "meta_syn_rate": {
+    "tip": "未配置tip"
   },
   "world_word_guild": {
     "tip": "艦隊"
@@ -4613,8 +4654,8 @@
   "ship_buildShip_not_position": {
     "tip": "建造待ちが一杯です"
   },
-  "meta_award_get": {
-    "tip": "開放済"
+  "meta_story_lock": {
+    "tip": "需要完成前置剧情才能进行资讯同步(未使用)"
   },
   "ship_dockyardScene_error_choiseRoleLess": {
     "tip": " <color=#92fc63>$1</color> まで選択できます"
@@ -4622,36 +4663,8 @@
   "words_settings_create_inherit": {
     "tip": "引継コード発行"
   },
-  "help_technolog0": {
-    "tip": {
-      "1": {
-        "icon": {
-          "atlas": "helpbg/technologytree1",
-          "path": ""
-        }
-      },
-      "2": {
-        "icon": {
-          "atlas": "helpbg/technologytree2",
-          "path": ""
-        }
-      },
-      "ImageMode": true,
-      "disableScroll": true,
-      "helpSize": {
-        "y": 1024,
-        "x": 1176
-      },
-      "defaultpage": 2,
-      "windowPos": {
-        "y": -70
-      },
-      "pageMode": true,
-      "windowSize": {
-        "y": 873,
-        "x": 1263
-      }
-    }
+  "meta_sys_lock_tip": {
+    "tip": "META研究室将在开放大型作战的信标·烬功能后开启(未使用)"
   },
   "backyard_backyardScene_quest_saveFurniture": {
     "tip": "マイセットを<color=#92fc63>保存</color>しますか？"
@@ -4708,17 +4721,17 @@
   "dont_remind_today": {
     "tip": "次回からは表示しない"
   },
-  "meta_story_tip_2": {
-    "tip": "后开放(未使用)"
+  "world_resource_fill": {
+    "tip": "備蓄物資交換券が所持可能上限に達しています"
   },
-  "meta_story_tip_1": {
-    "tip": "解锁剧情(未使用)"
+  "world_map_version": {
+    "tip": "アセットが更新されましたため、エリアがリセットされました"
   },
-  "meta_syn_rate": {
-    "tip": "未配置tip"
+  "lose_condition_display_quanmie": {
+    "tip": "味方艦隊全滅"
   },
-  "meta_pt_left": {
-    "tip": "残り$1日"
+  "world_max_challenge_cnt": {
+    "tip": "挑戦人数が上限に達しています。ほかの対象をお試しください"
   },
   "word_comfort_level": {
     "tip": "快適度"
@@ -4752,36 +4765,15 @@
   "login_loginScene_server_vindicate": {
     "tip": "メンテナンス中です"
   },
-  "meta_story_lock": {
-    "tip": "需要完成前置剧情才能进行资讯同步(未使用)"
-  },
-  "card_pairs_tips": {
-    "tip": "本日はこれ以上「月餅」を入手できません。新しいゲームを始めますか？"
-  },
-  "meta_sys_lock_tip": {
-    "tip": "META研究室将在开放大型作战的信标·烬功能后开启(未使用)"
-  },
-  "world_resource_fill": {
-    "tip": "備蓄物資交換券が所持可能上限に達しています"
-  },
-  "world_map_version": {
-    "tip": "アセットが更新されましたため、エリアがリセットされました"
-  },
-  "equip_info_1": {
-    "tip": "ダメージ"
-  },
-  "world_max_challenge_cnt": {
-    "tip": "挑戦人数が上限に達しています。ほかの対象をお試しください"
-  },
-  "help_summer_stamp": {
+  "help_summer_food": {
     "tip": [
       {
-        "info": "■概要\nミニゲームを遊んで「スタンプ」を14個集めると、画面\n左側のイラスト内のボタンをタップすることで、\n駆逐艦「ジュノー」の着せ替え「ちょっと美味しい日」\nを入手できます。\n※ボタンはスタンプを14個全部集めると表示されます。"
+        "info": "■概要\n「グルメ街」とは、艦船の買い出しの依頼に応じ、制\n限時間内にみんなが欲しがる食べ物を屋台で購入する\nミニゲームになります。\n正しい食べ物を購入すると、制限時間が増加し、得点\nを得ることが出来ます。\n制限時間終了、もしくはゲームを中断した場合、ゲー\nムクリアになります。\n■遊び方\n・「スタート」をタップすると、画面左のキャラに買\nい出し内容が表示されます。\n・10秒後、買い出し内容の表示が消え、代わりに購入\nできる食べ物の一覧が出現します。\n・制限時間内に食べ物のアイコンをタップすると、購\n入する食べ物を選択することができます。また選択済\nみの食べ物アイコンをタップすると、選択をキャンセ\nルすることができます。\n・食べ物を3種類選択すると、買い出し結果画面が表\n示されます。\n・購入した食べ物が買い出し内容と一致（並び順を含\nむ）した場合、得点を入手することが出来ます。\n・結果画面で「続ける」をタップすると、ミニゲーム\nを継続することが出来ます。「終了」をタップするか\n、もしくは制限時間が0になると、ミニゲームを終了\nできます。\n■報酬について\nゲーム終了時の得点に応じて、賞品を入手出来ます。\n一等賞　20点以上\n二等賞　12点以上\n三等賞　5点以上\n四等賞　4点以下"
       }
     ]
   },
-  "word_shipNation_other": {
-    "tip": "その他"
+  "card_pairs_tips": {
+    "tip": "本日はこれ以上「月餅」を入手できません。新しいゲームを始めますか？"
   },
   "world_boss_none": {
     "tip": "座標解析の期限が過ぎています"
@@ -4792,20 +4784,41 @@
   "ship_vo_mainFleet_must_hasShip": {
     "tip": "主力艦隊は一隻以上が必須です！"
   },
-  "buildship_special_tip": {
-    "tip": "「伊13」常設実装！"
-  },
   "world_joint_not_refresh_frequently": {
     "tip": "しばらく経ってから再度行ってください"
   },
   "world_joint_boss_award_expired": {
     "tip": "報酬の受取に失敗しました"
   },
+  "world_word_guild_player": {
+    "tip": "玩家(未使用)"
+  },
+  "word_shipNation_other": {
+    "tip": "その他"
+  },
+  "world_word_guild_member": {
+    "tip": "大舰队成员(未使用)"
+  },
+  "world_word_expired": {
+    "tip": "座標の有効期限が過ぎています"
+  },
+  "world_joint_call_world_support_txt": {
+    "tip": "指挥官$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
+  },
+  "buildship_special_tip": {
+    "tip": "「伊13」常設実装！"
+  },
+  "world_joint_call_friend_support_txt": {
+    "tip": "战友$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
+  },
+  "world_joint_call_support_success": {
+    "tip": "援軍要請に成功しました"
+  },
   "meta_energy_preview_title": {
     "tip": "完全強化後性能"
   },
   "shop_street_activity_tip": {
-    "tip": "*<color=#A1E400FF>20.11.26-20.12.9</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します"
+    "tip": "*<color=#A1E400FF>20.12.29-21.1.13</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します"
   },
   "word_museum_help": {
     "tip": [
@@ -4832,47 +4845,20 @@
   "battle_resourceSiteLayer_maxLv": {
     "tip": "最高<color=#92fc63>Lv$1</color>"
   },
-  "world_word_guild_member": {
-    "tip": "大舰队成员(未使用)"
-  },
-  "world_word_expired": {
-    "tip": "座標の有効期限が過ぎています"
-  },
-  "world_joint_call_world_support_txt": {
-    "tip": "指挥官$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
-  },
-  "formation_switch_tip": {
-    "tip": "隊列維持ができません！操作艦隊を<color=#92fc63>$1</color>に変更します"
-  },
-  "bulin_tip_other2": {
-    "tip": "＞＜まだ表示できないプリン"
-  },
-  "world_joint_call_friend_support_txt": {
-    "tip": "战友$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
-  },
-  "world_joint_call_support_success": {
-    "tip": "援軍要請に成功しました"
-  },
-  "challenge_normal_tip": {
-    "tip": "チャレンジステージをクリアし、自己ベストを狙おう！"
-  },
-  "text_noRes_info_tip": {
-    "tip": "<color=#ff5c5c>$2$1</color>"
-  },
-  "world_joint_boss_is_death": {
-    "tip": "対象は現在挑戦できません。ほかの対象をお試しください"
-  },
-  "ship_remould_material_unlock_skill": {
-    "tip": "習得: <color=#92fc63>$1</color>"
-  },
   "meta_learn_skill": {
     "tip": "习得技能：$1(未使用)"
   },
   "index_without_limit": {
     "tip": "無制限"
   },
-  "equip_part_main_title": {
-    "tip": "適用(主砲)"
+  "text_noRes_info_tip2": {
+    "tip": "<color=#ff5c5c>$2</color>の<color=#ff5c5c>$1</color>"
+  },
+  "formation_switch_tip": {
+    "tip": "隊列維持ができません！操作艦隊を<color=#92fc63>$1</color>に変更します"
+  },
+  "bulin_tip_other2": {
+    "tip": "＞＜まだ表示できないプリン"
   },
   "help_act_event": {
     "tip": {
@@ -4899,32 +4885,79 @@
       }
     }
   },
-  "word_live2dfiles_update_end": {
-    "tip": "更新完了"
+  "world_instruction_submarine_3": {
+    "tip": "既に潜水艦隊が出撃しています"
+  },
+  "challenge_normal_tip": {
+    "tip": "チャレンジステージをクリアし、自己ベストを狙おう！"
+  },
+  "text_noRes_info_tip": {
+    "tip": "<color=#ff5c5c>$2$1</color>"
+  },
+  "help_xinnian2021__meishiyemian": {
+    "tip": [
+      {
+        "info": "■概要\n「饅頭グルメ」とは、艦船の買い出しの依頼に応じ、制\n限時間内にみんなが欲しがる食べ物を屋台で購入するミ\nニゲームになります。\n正しい食べ物を購入すると、制限時間が増加し、得点を\n得ることができます。\n\n制限時間終了、もしくはゲームを中断した場合、ゲーム\nクリアになります。"
+      },
+      {
+        "info": "■遊び方"
+      },
+      {
+        "info": "・ゲーム回数を所持している状態でミニゲームをクリア\nすると、アイテム「グルメ券」を入手できます。「グル\nメ券」を7つ集めると、駆逐艦「Z28」を入手できます。\n・「スタート」をタップすると、画面左のキャラに買い\n出し内容が表示されます。\n・5秒後、買い出し内容の表示が消え、代わりに購入でき\nる食べ物の一覧が出現します。\n・制限時間内に食べ物のアイコンをタップすると、購入す\nる食べ物を選択することができます。また選択済みの食\nべ物アイコンをタップすると、選択をキャンセルするこ\nとができます。\n・食べ物を3種類選択すると、買い出し結果画面が表示さ\nれます。\n・購入した食べ物が買い出し内容と一致（並び順を含む）\nした場合、得点を入手することができます。\n・結果画面で「続ける」をタップすると、ミニゲームを継\n続することができます。「終了」をタップするか、もしく\nは制限時間が0になると、ミニゲームを終了できます。"
+      }
+    ]
+  },
+  "ship_remould_material_unlock_skill": {
+    "tip": "習得: <color=#92fc63>$1</color>"
+  },
+  "help_xinnian2021__qiaozhong": {
+    "tip": [
+      {
+        "info": "■概要\n「幸運祈願」では、お賽銭（5資金）を消費することで、\n一定時間、様々な効果を得られます。\n「幸運祈願可能回数」は毎日1回だけ、「饅頭雪合戦」を\nクリアした際に2回加算されます。"
+      },
+      {
+        "info": "■遊び方"
+      },
+      {
+        "info": "・鐘を鳴らすことで、幸運祈願の効果を選択することがで\nきます。\n・幸運祈願効果\n　学業祈願：戦術教室でスキルを新たに強化する場合、\n所要時間が少し短縮\n　開運招福：メイン海域及び作戦履歴海域戦闘時、味方\nが与えるダメージが微増\n　良縁祈願：秘書艦の親密度上昇スピードがアップ\n・幸運祈願は同時に一種類しか適用できず、同じ祈願を複\n数回行っても効果は上乗せされません。\n・幸運祈願の効果は24時間持続します。また、幸運祈願の\n効果適用中にもう一回祈願すると、前の祈願の効果・持続\n時間が上書きされます。"
+      },
+      {
+        "info": "■注意"
+      },
+      {
+        "info": "「幸運祈願可能回数」が0の場合でもお賽銭を入れること\nができますが、幸運祈願を行うことができません。"
+      }
+    ]
+  },
+  "guild_create_error": {
+    "tip": "大艦隊結成失敗"
+  },
+  "activity_level_limit_tip": {
+    "tip": "注意：<color=#92fc63>指揮官レベル50以上、またはノーマルモードを全部クリアしないと</color>ハードモードを選択できません"
   },
   "common_dont_remind_dur_login": {
     "tip": "次回アプリ起動まで表示しない"
   },
+  "word_live2dfiles_update_end": {
+    "tip": "更新完了"
+  },
+  "guild_event_start_event_tip": {
+    "tip": "派遣を行いますと、作戦終了まで艦船を変更できません。艦船を派遣しますか？"
+  },
   "sham_ship_equip_forbid_2": {
     "tip": "「鏡面海域」に出撃すると出撃メンバーを変更できず、また出撃メンバーの装備も変更できません。出撃しますか？"
   },
-  "text_apply": {
-    "tip": "申 請"
-  },
-  "ship_formationUI_fleetName_hard_ss": {
-    "tip": "難しい潜水艦隊"
-  },
-  "indexsort_index": {
-    "tip": "フィルター"
+  "ship_formationUI_fleetName_hard": {
+    "tip": "難しい艦隊"
   },
   "venusvolleyball_return_tip": {
     "tip": "ミニゲームを終了しますか？"
   },
+  "indexsort_index": {
+    "tip": "フィルター"
+  },
   "venusvolleyball_rule_tip": {
     "tip": "先に$1点をGET"
-  },
-  "text_forward": {
-    "tip": "確 認"
   },
   "venusvolleyball_help": {
     "tip": [
@@ -4941,6 +4974,9 @@
         "info": "本試合と、本試合クリア後に開放される自由にプレイで\nきる練習試合の2種類あります。\n・試合に参加するには、「スタート」をタップし、チー\nムキャラを選択する必要があります。\n・試合では、メンバーが自動でフィールドを動き、また\n画面をタイミングよくタップすると、サーブやアタック\nが成功判定になります。\n・本試合はチームメンバーを変更することができません。\n・本試合は毎日、何回でも再チャレンジすることができ\nます。\n・自由試合は毎回、チームメンバーを選び直すことがで\nきます。"
       }
     ]
+  },
+  "text_forward": {
+    "tip": "確 認"
   },
   "hunter_npc": {
     "tip": [
@@ -4971,34 +5007,41 @@
       }
     ]
   },
-  "word_status_inClass": {
-    "tip": "<size=23>授業中</size>"
-  },
-  "equipment_skin_no_old_ship": {
-    "tip": "艦が存在しません"
+  "backyard_sort_tag_comfortable": {
+    "tip": "快適度"
   },
   "collect_idol_tip": {
     "tip": "※アイテムを選択枠にドラッグすると元の位置に戻せます"
   },
-  "word_attr_torpedo": {
-    "tip": "雷装"
+  "equipment_skin_no_old_ship": {
+    "tip": "艦が存在しません"
   },
   "upgrade_complete_tip": {
     "tip": "レッスン完了"
   },
-  "ship_remould_warning_310034": {
-    "tip": "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n副兵装は<color=#92fc63>【水上機】</color>に変更されます。\n副兵装枠に装備されている兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
+  "word_attr_torpedo": {
+    "tip": "雷装"
   },
   "upgrade_idol_tip": {
     "tip": "レッスンを行う項目を選んでください"
   },
-  "login_newPlayerScene_name_tooShort": {
-    "tip": "名前が短すぎです"
+  "ship_remould_warning_310034": {
+    "tip": "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n副兵装は<color=#92fc63>【水上機】</color>に変更されます。\n副兵装枠に装備されている兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
   },
   "practise_idol_help": {
     "tip": [
       {
         "info": "■レッスンについて\n海域や期間限定任務で獲得した<color=#92fc63>「激唱エンブレム」</color>が\n一定数を越えると、イベントバナーより「レッスン」を\n行うことができます。\n\n「レッスン」を行うと、「レッスンLv」が上昇し、イ\nベント期間中、各種海域の戦闘で有利になります。\nまた、「レッスンLv」を最大まで上昇させると、追加\nの報酬を入手できます。\n\n「レッスン」は3種類あり、「レッスンLv」を上げる\nことで下記の効果がそれぞれ強化されていきます。\nアピールVocal：海域における味方艦隊が敵艦隊に与\nえるダメージを上昇させる\nエンゲージDance：海域における味方艦隊が敵艦隊か\nら受けるダメージを軽減させる\nメモリーPerformance：海域における味方艦隊が得ら\nれる経験値を上昇させる\n\n現在の「レッスンLv」はイベントバナー右側のアイコ\nンをタップすることで確認できます。"
+      }
+    ]
+  },
+  "login_newPlayerScene_name_tooShort": {
+    "tip": "名前が短すぎです"
+  },
+  "fleet_antisub_range_tip": {
+    "tip": [
+      {
+        "info": "対潜探知について\n\n■概要\n味方前衛艦隊に【駆逐艦】【軽巡洋艦】が編成されてお\nり、かつ戦闘中戦闘可能な状態でいる場合、敵潜水艦が\n味方の「探知範囲」内に入ると自動で「探知済」状態に\nなります。\n「探知済」状態の敵潜水艦は味方の爆雷攻撃で狙えるよ\nうになりますが、「探知範囲」から離れて一定の時間が\n経過すると再度「未探知」状態に戻ります。\n\n■探知範囲の計算方法について\n味方前衛艦隊の「探知範囲」の広さ（同心円の半径）は\n4つの項目で計算されます。\n①前衛艦隊【駆逐艦】【軽巡洋艦】のそれぞれ「対潜」\n艦船基本ステータスの最大値\n②主力艦隊艦船の「対潜」ステータスの合計値\n③兵装「ソナー」による「探知範囲」の増加値\n④その他海域マップ効果・敵艦スキルなど\n\n※スキルや装備、オフニャ、艦隊技術による「対潜」ス\nテータスは探知範囲に影響しません\n"
       }
     ]
   },
@@ -5011,15 +5054,8 @@
   "world_mapbuff_attrtxt_2": {
     "tip": "耐久適応"
   },
-  "fleet_antisub_range_tip": {
-    "tip": [
-      {
-        "info": "対潜探知について\n\n■概要\n味方前衛艦隊に【駆逐艦】【軽巡洋艦】が編成されてお\nり、かつ戦闘中戦闘可能な状態でいる場合、敵潜水艦が\n味方の「探知範囲」内に入ると自動で「探知済」状態に\nなります。\n「探知済」状態の敵潜水艦は味方の爆雷攻撃で狙えるよ\nうになりますが、「探知範囲」から離れて一定の時間が\n経過すると再度「未探知」状態に戻ります。\n\n■探知範囲の計算方法について\n味方前衛艦隊の「探知範囲」の広さ（同心円の半径）は\n4つの項目で計算されます。\n①前衛艦隊【駆逐艦】【軽巡洋艦】のそれぞれ「対潜」\n艦船基本ステータスの最大値\n②主力艦隊艦船の「対潜」ステータスの合計値\n③兵装「ソナー」による「探知範囲」の増加値\n④その他海域マップ効果・敵艦スキルなど\n\n※スキルや装備、オフニャ、艦隊技術による「対潜」ス\nテータスは探知範囲に影響しません\n"
-      }
-    ]
-  },
-  "friend_search_page_tip": {
-    "tip": "一回で<color=#92fc63>$1</color>人まで検索できます"
+  "mail_takeAttachment_error_noAttach": {
+    "tip": "添付アイテムは受け取りできませんでした"
   },
   "ur_exchange_help_tip": {
     "tip": [
@@ -5040,11 +5076,14 @@
   "trade_card_tips4": {
     "tip": "$1.$2.$3"
   },
-  "shop_word_exchange": {
-    "tip": "交 換"
+  "guild_ship_in_battle": {
+    "tip": "$1は作戦に参加しています。作戦終了後に派遣編成が更新されます"
   },
   "trade_card_tips2": {
     "tip": "お知らせにゃ。\n指揮官が購入した貿易許可証は、$1で期間満了になったにゃ。\n貿易許可証を購入すると毎日ボーナスが貰えるにゃ～\n明石のお店で、引き続き購入するのはいかがかにゃ？"
+  },
+  "trade_card_tips1": {
+    "tip": "ショップ"
   },
   "tag_level_bomb": {
     "tip": "英系轰炸"
@@ -5052,8 +5091,8 @@
   "event_flush_success": {
     "tip": "商品更新成功"
   },
-  "trade_card_tips1": {
-    "tip": "ショップ"
+  "jiujiu_expedition_stg_tip": {
+    "tip": "現在のステージをクリアすると解放されます"
   },
   "guild_word_commder": {
     "tip": "司令"
@@ -5061,14 +5100,14 @@
   "equip_part_sub_title": {
     "tip": "適用(副砲)"
   },
-  "jiujiu_expedition_stg_tip": {
-    "tip": "現在のステージをクリアすると解放されます"
-  },
-  "vote_love_confirm": {
-    "tip": "特別票を1枚投票しますか？"
+  "build_ship_quickly_buy_tool": {
+    "tip": "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>ダイヤを消費して、\n高速建造材を<color=#92fc63>$2</color>個購入しますか？"
   },
   "jiujiu_expedition_reward_tip": {
     "tip": "ステージを探索し、報酬を手に入れよう！"
+  },
+  "jiujiu_expedition_book_tip": {
+    "tip": "前のコレクションが完成すると開放されます"
   },
   "meta_energy_preview_tip": {
     "tip": "好感度及びケッコンの効果は含まない"
@@ -5076,14 +5115,14 @@
   "index_other": {
     "tip": "その他"
   },
-  "shop_label_unlimt_cnt": {
-    "tip": "無制限"
-  },
-  "new_airi_error_code_100230": {
-    "tip": "SDK起動に失敗しました"
+  "guild_start_event_consume_tip": {
+    "tip": "$1の大艦隊資金を消費して【$2】を発令しますか？"
   },
   "destroy_ur_rarity_tip": {
     "tip": "<color=#92fc63>UR艦船</color>が選択されています、下の枠に<color=#92fc63>「$1」</color>を入力してください"
+  },
+  "build_ship_accumulative": {
+    "tip": "累计建造:"
   },
   "word_max_page": {
     "tip": "最大"
@@ -5091,8 +5130,12 @@
   "levelScene_openCargo_erro": {
     "tip": "戦利品確認失敗:"
   },
-  "build_ship_accumulative": {
-    "tip": "累计建造:"
+  "help_jiujiu_expedition_game": {
+    "tip": [
+      {
+        "info": "■遊び方\n・饅頭の隣にある「未探索のマス」をタップすると、\n「探索回数」を1回消費し饅頭を移動させることができ\nます。\n・饅頭が未探索マスに移動すると、未探索のマスが探索\n済マスになり、マスの内容によって下記の結果が発生し\nます。\n通常マス：資源を少し入手します\n宝箱マス：宝箱が出現します。宝箱を開けると、ランダ\nムな報酬を入手できます\n敵マス：敵が出現します。敵をタップするとイベント戦\n闘を開始でき、イベント戦闘に勝利すると報酬を入手で\nきます・ミニマップを全部探索すると、次のミニマップ\nに移動できます"
+      }
+    ]
   },
   "backyard_backyardScene_comforChatContent1": {
     "tip": "<size=30>快適度計算時に適用される家具数：\n壁紙:<color=#92fc63>$1</color>/床:<color=#92fc63>$4</color>/家具:<color=#92fc63>$2</color>/雑貨:<color=#92fc63>$3</color>/マット:<color=#92fc63>$5</color>/壁飾り:<color=#92fc63>$6</color>/蒐集品:<color=#92fc63>$7</color>\n</size>"
@@ -5109,12 +5152,6 @@
   "meta_voice_name_propose": {
     "tip": "ケッコン"
   },
-  "win_condition_display_qijian": {
-    "tip": "敵中枢艦隊撃破"
-  },
-  "technology_canot_refresh": {
-    "tip": "研究中は研究項目一覧を更新できません"
-  },
   "help_rollingBallGame": {
     "tip": [
       {
@@ -5122,17 +5159,20 @@
       }
     ]
   },
-  "word_device": {
-    "tip": "設備"
+  "technology_canot_refresh": {
+    "tip": "研究中は研究項目一覧を更新できません"
   },
   "word_shipState_guild_event": {
     "tip": "大艦隊作戦に参加しているため、退役できません"
   },
-  "world_close": {
-    "tip": "セイレーン作戦開催期間外です"
+  "word_device": {
+    "tip": "設備"
   },
-  "equip_info_21": {
-    "tip": "艦載機耐久"
+  "levelScene_tracking_error_pre": {
+    "tip": "<color=#92fc63>$1</color>クリアで参加可能"
+  },
+  "equip_info_18": {
+    "tip": "拡散角度"
   },
   "guild_mission_info_tip": {
     "tip": [
@@ -5156,12 +5196,15 @@
         "info": "■大艦隊資金について\n・大艦隊には、メンバー全員にメリットをもたらす資源\n「大艦隊資金」が存在します。\n・大艦隊司令/副司令は大艦隊資金を消費することで、下\n記の操作を行うことが出来ます。\n　1 メンバーが毎日資源を受領できる「大艦隊補給」を\n購入\n   2 母港機能を強化できる「兵站施設」を増築\n　3 「大艦隊作戦」を発令\n"
       },
       {
-        "info": "■大艦隊資金を増やすためには\n・大艦隊資金を増やすためには、「物資拠出」を行うか、\n「大艦隊任務」を発令し、メンバーでそれを完成さ\nせる必要があります。\n・「物資拠出」は大艦隊メンバーが「貢献」で自分の所\n持している資源を消費し、いつでも行うことが出来ま\nす。\n・「物資拠出」を行うと、大艦隊メンバーは「貢献Pt」\nを入手することができ、また大艦隊資金を増やすこと\nが出来ます。\n・「大艦隊任務」は大艦隊司令/副司令が「貢献」で選択\nでき、また一般メンバーは同じ画面で任務を受領する\nことができます。\n・「大艦隊任務」をクリアするメンバー個人は、クリア\nした時点で「貢献Pt」を入手でき、また大艦隊資金を\n増やすことが\n出来ます。\n・「大艦隊任務」のメンバー個別報酬は一回しか入手で\nきませんが、任務を何回も完成し、大艦隊全体の任務\n完成度に貢献することも可能です。\n・「大艦隊任務」がメンバー全員でクリアした場合、更\nに大艦隊資金を増やすことが出来ます。\n"
+        "info": "■大艦隊資金を増やすためには\n・大艦隊資金を増やすためには、「物資拠出」を行うか、\n「大艦隊任務」を発令し、メンバーでそれを完成さ\nせる必要があります。\n・「物資拠出」は大艦隊メンバーが「貢献」で自分の所\n持している資源を消費し、いつでも行うことが出来ま\nす。\n・「物資拠出」を行うと、大艦隊メンバーは「貢献Pt」\nを入手することができ、また大艦隊資金を増やすこと\nが出来ます。\n(new!)・毎日の「物資拠出」による大艦隊資金入手可\n能回数は、艦隊のメンバー数上限×３になります。大艦\n隊資金入手可能回数が上限に達してしまいますと、そ\nの日に「物資拠出」を行っても大艦隊資金が増加しませ\nん（個人貢献Ptが増加します）\n・「大艦隊任務」は大艦隊司令/副司令が「貢献」で選択\nでき、また一般メンバーは同じ画面で任務を受領する\nことができます。\n・「大艦隊任務」をクリアするメンバー個人は、クリア\nした時点で「貢献Pt」を入手でき、また大艦隊資金を\n増やすことが\n出来ます。\n・「大艦隊任務」のメンバー個別報酬は一回しか入手で\nきませんが、任務を何回も完成し、大艦隊全体の任務\n完成度に貢献することも可能です。\n・「大艦隊任務」がメンバー全員でクリアした場合、更\nに大艦隊資金を増やすことが出来ます。\n"
       },
       {
         "info": "■大艦隊補給について\n・大艦隊司令/副司令は、大艦隊資金を消費し「貢献」に\nて「大艦隊補給」を購入することができます。\n・「大艦隊補給」が購入されますと、購入日からの14日\n間、全ての大艦隊メンバーは毎日「大艦隊補給」にて\n資源を受け取ることができます。\n・また、「大艦隊補給」の受取可能回数は最大3回（3日\n分）までストックすることができます。\n・新たに大艦隊に参加したメンバーは参加初日、大艦隊\n補給を購入酒るうことが出来ません。"
       }
     ]
+  },
+  "backyard_unopen": {
+    "tip": "相手の寮舎が開放されていません"
   },
   "rolling_ball_help": {
     "tip": [
@@ -5182,23 +5225,23 @@
   "battle_resourceSiteLayer_shipTypeCount": {
     "tip": "$1X$2"
   },
-  "not_exist_guild_use_item": {
-    "tip": "大艦隊に所属していないため、アイテムを使用できません"
-  },
   "guild_use_battleitem_success": {
     "tip": "大艦隊作戦参加可能回数が+$1回復しました"
   },
-  "ranking_word_5": {
-    "tip": "ランキング"
-  },
   "guild_use_donateitem_success": {
     "tip": "資源拠出可能回数が+$1回復しました"
+  },
+  "ranking_word_5": {
+    "tip": "ランキング"
   },
   "guild_battle_log": {
     "tip": "[$1] $2 は大艦隊資金$3 を消費し、大艦隊作戦を発令しました"
   },
   "guild_weektask_log": {
     "tip": "[$1] 大艦隊任務が完成されました。 大艦隊資金＋$2"
+  },
+  "guild_supply_log": {
+    "tip": "[$1] $2 は大艦隊資金$3 を消費し、大艦隊補給を$4日分購入しました"
   },
   "ship_shipModMediator_noticeStarOver4": {
     "tip": "星4以上"
@@ -5209,57 +5252,11 @@
   "elite_disable_unsatisfied": {
     "tip": "この章の全ステージが☆3達成必須です"
   },
-  "guild_supply_log": {
-    "tip": "[$1] $2 は大艦隊資金$3 を消費し、大艦隊補給を$4日分購入しました"
+  "tec_target_catchup_select_tip": {
+    "tip": "特別計画艦「$1」を選択しますか？"
   },
-  "challenge_help": {
-    "tip": [
-      {
-        "info": "  チャレンジモードとは"
-      },
-      {
-        "info": "  ・チャレンジモードとは、高練度の指揮官（Lv80以\n上）が参加可能な期間限定コンテンツになります。\n ・専用の編成で数々のチャレンジステージをクリアし\nていくと、自己最高得点を刷新することができます。\n ・チャレンジモード開催期間中の自己最高得点に応じ\nて、記念チャットフレームを入手できます。\n ・チャレンジのステージは開催期間中、毎週月曜日0\n時にランダムで再構成されます。\n"
-      },
-      {
-        "info": "■遊び方"
-      },
-      {
-        "info": "  1.チャンレンジモード画面では、「編成」でチャレン\nジ専用編成を編成でき、「戦闘開始」でチャレンジステ\nージに挑むことができます"
-      },
-      {
-        "info": "  2.チャレンジステージは複数のステージがあります。\n攻略中は艦船の損傷状況はチャレンジモードでは記憶さ\nれ、次のステージ反映されます。ステージの攻略進捗と\n艦船の損傷状況は戦闘を中断させることでリセットでき\nます。"
-      },
-      {
-        "info": "  3.チャレンジステージにおける戦闘は燃料を消費せず\n、艦船の好感度・勝敗数計算・艦船/指揮官/オフニャ経\n験値には影響しません。チャレンジモード開放期間中に\n何回も挑むことができます。"
-      },
-      {
-        "info": "  4. チャレンジステージをクリアすると、戦闘時間と艦\n船の損傷状況に応じて点が得られます。そして戦闘で中\n断/敗北にならず、ステージを連続でクリアすると、累\n計得点が上乗せされます。"
-      },
-      {
-        "info": "  5.チャレンジモード開放期間中に得られた最高得点に\n応じて、チャレンジモード画面左下で報酬を受け取るこ\nとができます。（各累計得点の達成報酬は1回しか受領\nできません）"
-      },
-      {
-        "info": "  6.チャレンジステージは、チャレンジモード開放期間\n中毎週月曜日0:00に再構成されます。開放期間におけ\nる最高得点はリセットされません。"
-      },
-      {
-        "info": "  7.チャレンジモードのステージを全部クリアすると、\n腕試しモード「UNLIMITED」に切り替えられるよう\nになります。「UNLIMITED」では、チャレンジステ\nージを無限に挑むことができますが、ステージをクリア\nしても点を入手できません。\n"
-      },
-      {
-        "info": "  ■注意点"
-      },
-      {
-        "info": "  ・チャレンジモードでは、オフニャと潜水艦を編成す\nることができます。一回の戦闘につき、潜水支援を1回\n行うことができます。また、潜水艦の損傷状況も記憶さ\nれます。"
-      },
-      {
-        "info": "  ・チャレンジステージ攻略中は専用編成を変更するこ\nとができず、また「緊急修理要員」を使用することがで\nきません。"
-      },
-      {
-        "info": "  ・チャレンジモードの戦闘中はいつでも戦闘を中断す\nることができます。戦闘を中断した場合、ステージの攻\n略進捗がリセットされ、中断時のステージより1個前の\nステージまでの累計得点が計算されます。また、何らか\nの理由（通信状況など）によって戦闘が中断された場合\nでも、手動での戦闘中断したと同じ扱いになります。"
-      },
-      {
-        "info": "  ・チャレンジモードにおける戦闘は月曜日の0:00を\n跨いでしまった場合、ステージが再構成されましたため\n、戦闘を中断してもステージ攻略進捗がリセットされ、\n得点が計算されなくなります。ご注意！"
-      }
-    ]
+  "guild_report_tooltip": {
+    "tip": "作戦報告（報酬）は最大20個分しかストックできません。過去未受取の報酬は報酬追加時に削除されます。ご注意！"
   },
   "text_noPos_clear": {
     "tip": "整理"
@@ -5270,17 +5267,14 @@
   "battle_preCombatLayer_damage_before_end": {
     "tip": "時間制限内で最大ダメージを狙おう"
   },
-  "guild_report_tooltip": {
-    "tip": "作戦報告（報酬）は最大20個分しかストックできません。過去未受取の報酬は報酬追加時に削除されます。ご注意！"
-  },
   "guild_exist_report_award_when_exit": {
     "tip": "未受取の作戦報酬があります。報酬を確認しますか？"
   },
-  "word_attr_speciality": {
-    "tip": "特性"
-  },
   "guild_not_exist_notifycation": {
     "tip": "大艦隊連絡板に書き込みはありません"
+  },
+  "word_attr_speciality": {
+    "tip": "特性"
   },
   "guild_get_report_failed": {
     "tip": "作戦報告情報を受け取るのに失敗しました"
@@ -5288,20 +5282,23 @@
   "guild_formation_erro_in_boss_battle": {
     "tip": "強敵と交戦中になっています。支援派遣艦船を変更できません"
   },
+  "shops_msgbox_output": {
+    "tip": "入手："
+  },
   "trade_card_tips3": {
     "tip": "お知らせにゃ。\n指揮官が購入した貿易許可証は、$1で期間満了になるにゃ。\n貿易許可証を購入すると毎日ボーナスが貰えるにゃ～\n明石のお店で、引き続き購入するのはいかがかにゃ？"
   },
   "battle_battleMediator_goOnFight": {
     "tip": "戦闘継続"
   },
-  "guild_ship_in_battle": {
-    "tip": "$1は作戦に参加しています。作戦終了後に派遣編成が更新されます"
-  },
-  "word_billboard": {
-    "tip": "ランキング"
+  "tech_simulate_closed": {
+    "tip": "弾幕確認機能が開放されていませ"
   },
   "guild_fleet_is_legal": {
     "tip": "前衛艦隊・主力艦隊にそれぞれ1隻以上配置しなければなりません"
+  },
+  "world_instruction_supply_2": {
+    "tip": "艦隊整備発令可能になるまであと$1"
   },
   "collection_hadAward": {
     "tip": "報酬受取済"
@@ -5373,23 +5370,23 @@
       }
     }
   },
-  "mail_sender_default": {
-    "tip": "司令部"
-  },
   "guild_boss_formation_3": {
     "tip": "同名艦船を選択することが出来ません"
   },
+  "vote_final_rule1": {
+    "tip": "※本戦に参加する12艦で10日間の投票をへてランキングを決めます。予選での投票数はカウントされません。同日でも同じ艦に通常票を複数回投票可能です。\n※本戦ランキング上位艦に新しい衣装が実装される可能性があります。"
+  },
   "guild_not_exist": {
     "tip": "大艦隊が存在しません"
-  },
-  "vote_final_title2": {
-    "tip": "報酬について"
   },
   "guild_ship_from": {
     "tip": "from:"
   },
   "guild_word_people": {
     "tip": "人"
+  },
+  "commander_reset_talent": {
+    "tip": "リセット可能"
   },
   "world_task_view3": {
     "tip": "不明"
@@ -5400,20 +5397,20 @@
   "text_nofood_no": {
     "tip": "無視する"
   },
-  "guild_start_event_consume_tip": {
-    "tip": "$1の大艦隊資金を消費して【$2】を発令しますか？"
-  },
   "guild_event_info_desc2": {
     "tip": "作戦事件参加艦船の合計$1: <color=$2>$3/$4</color>"
   },
-  "world_fleetName1": {
-    "tip": "第 一 艦 隊"
+  "mail_sender_default": {
+    "tip": "司令部"
+  },
+  "guild_next_edit_fleet_time": {
+    "tip": "$1後、新しい艦隊を派遣できます"
   },
   "battle_resourceSiteLayer_quest_end": {
     "tip": "緊急帰還させると、この委託がリストから消滅します。強制帰還させますか？"
   },
-  "guild_next_edit_fleet_time": {
-    "tip": "$1後、新しい艦隊を派遣できます"
+  "guild_curr_fleet_can_not_edit": {
+    "tip": "艦隊編成を変更できません"
   },
   "guild_name_invaild": {
     "tip": "既に使われている名前です"
@@ -5421,11 +5418,11 @@
   "word_live2dfiles_update_end_title": {
     "tip": "アセット更新完了"
   },
-  "guild_curr_fleet_can_not_edit": {
-    "tip": "艦隊編成を変更できません"
-  },
   "guild_word_effect_addition": {
     "tip": "効率UP："
+  },
+  "text_clear": {
+    "tip": "クリア"
   },
   "levelScene_who_to_exchange": {
     "tip": "交戦する艦隊を変更しますか？"
@@ -5435,9 +5432,6 @@
   },
   "mail_count": {
     "tip": "添付アイテム$1個"
-  },
-  "guild_event_start_event_tip": {
-    "tip": "派遣を行いますと、作戦終了まで艦船を変更できません。艦船を派遣しますか？"
   },
   "guild_wrod_battle_target": {
     "tip": "作戦目標："
@@ -5454,8 +5448,11 @@
   "guild_event_is_lock": {
     "tip": "作戦事件が開放されていません"
   },
-  "guidl_r_box_time_desc": {
-    "tip": "ネコハコR訓練時間短縮$1"
+  "guild_box_gold_desc": {
+    "tip": "ネコハコ購入コスト-$1"
+  },
+  "equip_info_extralevel_2": {
+    "tip": "レベル2"
   },
   "collection_award_ship": {
     "tip": "$1開発完了！建造ラインナップに追加されました"
@@ -5466,38 +5463,38 @@
   "word_gem_icon": {
     "tip": "<icon name=diamond w=0.7 h=0.7/>"
   },
-  "equip_info_extralevel_3": {
-    "tip": "レベル3"
-  },
   "guild_fleet_exist_same_kind_ship": {
     "tip": "同名艦を選択できません"
   },
   "guild_fleet_can_not_edit": {
     "tip": "艦隊を編集できません"
   },
-  "word_torpedo": {
-    "tip": "魚雷"
-  },
   "guild_event_not_exist": {
     "tip": "作戦事件が存在しません"
   },
-  "lanternRiddles_answer_is_wrong": {
-    "tip": "残念！不正解でした…"
+  "word_torpedo": {
+    "tip": "魚雷"
   },
   "guild_join_event_exist_finished_mission_tip": {
     "tip": "すでに発生しました作戦事件の報酬を入手できません。作戦に参加しますか？"
   },
+  "lanternRiddles_answer_is_wrong": {
+    "tip": "残念！不正解でした…"
+  },
+  "equip_info_22": {
+    "tip": "艦載機最大回避"
+  },
   "guild_guildgold_no_enough_for_battle": {
     "tip": "大艦隊作戦を発令するのに必要な大艦隊資金はありません"
-  },
-  "equip_info_23": {
-    "tip": "適用艦種"
   },
   "guild_join_event_cnt_label": {
     "tip": "参加可能回数："
   },
-  "ship_formationUI_fleetName_normal": {
-    "tip": "普通艦隊"
+  "word_easy": {
+    "tip": "簡単"
+  },
+  "new_airi_error_code_100230": {
+    "tip": "SDK起動に失敗しました"
   },
   "jiujiu_expedition_help": {
     "tip": [
@@ -5512,8 +5509,8 @@
   "guild_total_effect": {
     "tip": "効率："
   },
-  "word_sr": {
-    "tip": "SR"
+  "number_0": {
+    "tip": "零"
   },
   "secondary_password_help": {
     "tip": [
@@ -5543,26 +5540,72 @@
   "energy_desc_4": {
     "tip": "いいことが起こりそうな予感！\n<color=#92fc63>（入手経験値増加）</color>"
   },
-  "intimacy_desc_propose_vertical": {
-    "tip": "愛は幸せの導き、想いは永遠の絆\n守りたいものはあなたの笑顔\nお互いを深く愛し、支え合い\n末永く運命を共にすることを、誓います\n\n         $1"
-  },
-  "guild_private_awards": {
-    "tip": "メンバー報酬："
+  "guild_public_awards": {
+    "tip": "大艦隊報酬："
   },
   "guild_not_exist_battle": {
     "tip": "大艦隊作戦が存在しません"
   },
-  "word_equipment_torpedo": {
-    "tip": "魚雷"
-  },
   "guild_tech_donate_target": {
     "tip": "物資進捗$1が必要です"
   },
-  "trophy_achieved": {
-    "tip": "勲章を入手しました！"
+  "word_equipment_torpedo": {
+    "tip": "魚雷"
+  },
+  "medal_help_tip": {
+    "tip": [
+      {
+        "info": "-栄典勲章について"
+      },
+      {
+        "info": "・「栄典勲章」とは、指揮官の作戦における活躍を実\n績（勲章）として登録できるシステムになります。"
+      },
+      {
+        "info": "・入手した勲章、未入手の勲章の入手条件については\n「栄典勲章」で確認することができます。"
+      },
+      {
+        "info": "-勲章の入手方法について"
+      },
+      {
+        "info": "・勲章の入手条件を満たすと「栄典勲章」で勲章を入手\nすることができます。"
+      },
+      {
+        "info": "・複数の勲章の入手条件を同時に満たすこともできます"
+      },
+      {
+        "info": "・同じ種類の勲章にはレベルがあり、下のレベルの勲章\nを入手すると、上のレベルの勲章が解禁されます。"
+      },
+      {
+        "info": "・一部の勲章は入手するために複数の条件を達成する必\n要があるものも存在します。"
+      },
+      {
+        "info": "-勲章を飾ろう"
+      },
+      {
+        "info": "・入手した勲章は指揮官のプロフィール画面で飾ること\nができます。"
+      },
+      {
+        "info": "・プロフィール画面に飾られている勲章は、他人から見\nる「個人情報画面」と「履歴画面」にも表示されます。"
+      },
+      {
+        "info": "-その他"
+      },
+      {
+        "info": "・艦船の育成（練度/親密度）に関する入手条件は、一\n種類の艦船を複数隻所持しても、最高値の一隻分しか計\n算されません。"
+      },
+      {
+        "info": "・改造（近代化改修）済みの艦船は改造前の艦船と同じ\n艦船として計算されます。"
+      },
+      {
+        "info": "・艦船を退役させても、入手条件の進捗には影響しませ\nん。"
+      }
+    ]
   },
   "guild_tech_label_dev_progress": {
     "tip": "物資進捗"
+  },
+  "ship_quick_change_noequip": {
+    "tip": "変更する装備は存在ありません"
   },
   "commander_get": {
     "tip": "資金$1を消費し、ネコハコを$2個購入しますか？"
@@ -5577,8 +5620,8 @@
       }
     ]
   },
-  "word_shipNation_baiYing": {
-    "tip": "ユニオン"
+  "world_close": {
+    "tip": "セイレーン作戦開催期間外です"
   },
   "help_level_ui": {
     "tip": {
@@ -5680,81 +5723,17 @@
   "event_confirm_flush": {
     "tip": "遂行中の委託がありますが、本当にリストを更新しますか？"
   },
-  "help_command_room": {
-    "tip": {
-      "1": {
-        "icon": {
-          "atlas": "helpbg/commander_build",
-          "path": ""
-        }
-      },
-      "2": {
-        "icon": {
-          "atlas": "helpbg/commander_info",
-          "path": ""
-        }
-      },
-      "3": {
-        "icon": {
-          "atlas": "helpbg/commander_ability1",
-          "path": ""
-        }
-      },
-      "4": {
-        "icon": {
-          "atlas": "helpbg/commander_ability2",
-          "path": ""
-        }
-      },
-      "5": {
-        "icon": {
-          "atlas": "helpbg/commander_ability3",
-          "path": ""
-        }
-      },
-      "6": {
-        "icon": {
-          "atlas": "helpbg/commander_up",
-          "path": ""
-        }
-      },
-      "7": {
-        "icon": {
-          "atlas": "helpbg/commander_skill1",
-          "path": ""
-        }
-      },
-      "8": {
-        "icon": {
-          "atlas": "helpbg/commander_skill2",
-          "path": ""
-        }
-      },
-      "ImageMode": true,
-      "disableScroll": true,
-      "helpSize": {
-        "y": 1024,
-        "x": 1176
-      },
-      "defaultpage": 1,
-      "windowPos": {
-        "y": -70
-      },
-      "pageMode": true,
-      "windowSize": {
-        "y": 873,
-        "x": 1263
-      }
-    }
+  "guild_cancel_tech_tip": {
+    "tip": "【$1】の開発を中止しようとしています（増築進捗が保存されます）。開発対象から外しますか？"
   },
   "guild_commder_in_impeach_time": {
     "tip": "大艦隊司令は弾劾されています"
   },
-  "guild_cancel_tech_tip": {
-    "tip": "【$1】の開発を中止しようとしています（増築進捗が保存されます）。開発対象から外しますか？"
-  },
   "guild_start_tech_group_tip": {
     "tip": "【$1】の開発を始めようとしています。開発対象を確定しますか？"
+  },
+  "guild_tech_livness_no_enough": {
+    "tip": "貢献度$1で増築可能"
   },
   "word_fighter": {
     "tip": "戦闘機"
@@ -5765,8 +5744,8 @@
   "dont_remind_session": {
     "tip": "次回からは表示しない"
   },
-  "guild_tech_livness_no_enough": {
-    "tip": "貢献度$1で増築可能"
+  "guild_member_max_cnt_desc": {
+    "tip": "大艦隊最大メンバー数+$1"
   },
   "word_normal_junhe": {
     "tip": "普通"
@@ -5774,29 +5753,29 @@
   "ship_remould_no_gold": {
     "tip": "資源が不足しています"
   },
-  "guild_member_max_cnt_desc": {
-    "tip": "大艦隊最大メンバー数+$1"
-  },
   "guidl_ssr_box_time_desc": {
     "tip": "ネコハコSSR訓練時間短縮$3"
   },
   "guidl_sr_box_time_desc": {
     "tip": "ネコハコSR訓練時間短縮$2"
   },
+  "guidl_r_box_time_desc": {
+    "tip": "ネコハコR訓練時間短縮$1"
+  },
   "guild_fleet_update_done": {
     "tip": "艦隊編成が更新されました"
-  },
-  "guild_box_gold_desc": {
-    "tip": "ネコハコ購入コスト-$1"
   },
   "guild_tech_oil_desc": {
     "tip": "燃料備蓄上限+$1"
   },
+  "guild_tech_gold_desc": {
+    "tip": "物資備蓄上限＋$1"
+  },
   "option_desc4": {
     "tip": "（OFF状態）図鑑に登録済みのレアリティR以下の艦船入手時、入手演出をスキップする"
   },
-  "guild_tech_gold_desc": {
-    "tip": "物資備蓄上限＋$1"
+  "guild_exist_activation_tech": {
+    "tip": "兵站施設は同時に1種類までしか開発できません"
   },
   "msgbox_text_apply": {
     "tip": "申 請"
@@ -5804,17 +5783,17 @@
   "common_use_item_sos_max": {
     "tip": "これ以上は受信できません"
   },
-  "guild_exist_activation_tech": {
-    "tip": "兵站施設は同時に1種類までしか開発できません"
+  "bulin_tip7": {
+    "tip": "2-4海域に出撃にゃ！"
   },
   "memorybook_get_award_tip": {
     "tip": "需要收集全部「港区回忆」才可获取「晃悠悠纪念章」"
   },
-  "bulin_tip_other1": {
-    "tip": "入手条件ヒントは20分につき1個しか表示できないプリン！表示するプリン？"
-  },
   "guild_not_exist_tech": {
     "tip": "兵站施設が存在しません"
+  },
+  "guild_not_exist_activation_tech": {
+    "tip": "作業中の兵站施設が存在しません"
   },
   "anniversary_task_title_5": {
     "tip": "いわば忠義。栄光の女王陛下に仕えし者は自然の恩恵を授かる。"
@@ -5822,20 +5801,20 @@
   "word_level_upperLimit": {
     "tip": "Lv最大"
   },
-  "guild_not_exist_activation_tech": {
-    "tip": "作業中の兵站施設が存在しません"
-  },
   "guild_shop_must_select_goods": {
     "tip": "交換するアイテムを選択してください"
-  },
-  "friend_deleteFriend_error": {
-    "tip": "友達削除失敗:"
   },
   "guild_shop_label_5": {
     "tip": "以下の艦船から一隻を選択してください"
   },
+  "friend_deleteFriend_error": {
+    "tip": "友達削除失敗:"
+  },
   "guild_shop_label_4": {
     "tip": "消費"
+  },
+  "guild_shop_label_2": {
+    "tip": "交換可能数"
   },
   "sure_resume_volume": {
     "tip": "音声設定を初期化しますか？"
@@ -5843,32 +5822,32 @@
   "main_settingsScene_quest_exist": {
     "tip": "ログアウトしますか？"
   },
-  "guild_shop_label_2": {
-    "tip": "交換可能数"
+  "guild_shop_exchange_tip": {
+    "tip": "このアイテムとを交換しますか？"
   },
   "reflux_pt_not_enough": {
     "tip": "明石Ptが足りません"
   },
-  "guild_shop_exchange_tip": {
-    "tip": "このアイテムとを交換しますか？"
-  },
   "guild_shop_refresh_all_tip": {
     "tip": "$2を<color=#92fc63>$1</color><icon name=guildicon w=0.7 h=0.7/>消費し、ラインナップを更新しますか？"
-  },
-  "ship_formationUI_fleetName_extra_ss": {
-    "tip": "EX潜水艦隊"
   },
   "guild_shop_refresh_done": {
     "tip": "リセットしました"
   },
-  "new_airi_error_code_100112": {
-    "tip": "アカウント連携に失敗しました"
+  "ship_formationUI_fleetName_extra_ss": {
+    "tip": "EX潜水艦隊"
   },
   "guild_op_only_administrator": {
     "tip": "この操作は大艦隊司令/副司令でのみ行なえます"
   },
-  "anniversary_task_title_6": {
-    "tip": "いわば勇気。自由を信ずる者は机械なる神の叡冠を戴くが運命。"
+  "new_airi_error_code_100112": {
+    "tip": "アカウント連携に失敗しました"
+  },
+  "anniversary_task_title_3": {
+    "tip": "科学の世紀の終焉に、芽生えた革命の種子は反撃の旌旗を翻し、"
+  },
+  "diamond": {
+    "tip": "ダイヤ"
   },
   "cannot_build_multiple_printblue": {
     "tip": "現在進行中の<color=#92fc63>$1</color>開発を一時停止し、開発対象を<color=#92fc63>$2</color>に変更しますか？開発進捗が保存されます。\n開発開始・再開<color=#92fc63>24時間以内</color>は開発対象を変更できません。"
@@ -5876,8 +5855,8 @@
   "word_room": {
     "tip": "ROOM$1"
   },
-  "word_photo_mode": {
-    "tip": "カメラ"
+  "guild_supply_no_open": {
+    "tip": "大艦隊補給が購入されていません"
   },
   "collect_chapter_is_activation": {
     "tip": "海域に出撃中です。海域から撤退しますか？"
@@ -5894,8 +5873,8 @@
   "energy_desc_happy": {
     "tip": "やる気満々！いつも以上に戦闘力を発揮できます"
   },
-  "guild_supply_no_open": {
-    "tip": "大艦隊補給が購入されていません"
+  "guild_donate_addition_techpoint_tip": {
+    "tip": "大艦隊拠出度が$1増加しました"
   },
   "word_piece": {
     "tip": "個"
@@ -5903,14 +5882,14 @@
   "limit_skin_time_day": {
     "tip": "殘り:$1日"
   },
-  "guild_donate_addition_techpoint_tip": {
-    "tip": "大艦隊拠出度が$1増加しました"
-  },
   "guild_donate_addition_capital_tip": {
     "tip": "大艦隊資金が$1増加しました"
   },
   "guild_donate_tip": {
     "tip": "<color=#92FC63FF>$1×$2</color>(所持数：<color=$4>$3</color>)を大艦隊に拠出しようとしています。拠出を行いますか？"
+  },
+  "ranking_word_3": {
+    "tip": "0"
   },
   "vote_success": {
     "tip": "投票成功！"
@@ -5918,11 +5897,11 @@
   "sofmapsd_2": {
     "tip": "クーポンを明石に渡して、\nご褒美を受け取ってにゃ！"
   },
-  "ranking_word_9": {
-    "tip": "得点"
+  "attribute_antisub": {
+    "tip": "対潜"
   },
-  "which_day": {
-    "tip": "<color=#92fc63>$1</color>日目"
+  "guild_commander_and_sub_op": {
+    "tip": "この操作は大艦隊司令/副司令でのみ行なえます"
   },
   "vote_rank_refresh_time": {
     "tip": "※現サーバーの投票数になります(30分毎更新)"
@@ -5933,8 +5912,8 @@
   "index_shipType_hangMu": {
     "tip": "空母"
   },
-  "guild_commander_and_sub_op": {
-    "tip": "この操作は大艦隊司令/副司令でのみ行なえます"
+  "guild_private_awards": {
+    "tip": "メンバー報酬："
   },
   "re_battle": {
     "tip": "再度出撃"
@@ -5960,11 +5939,11 @@
   "word_soundfiles_noneedupdate": {
     "tip": "更新完了"
   },
-  "guild_public_awards": {
-    "tip": "大艦隊報酬："
-  },
   "guild_week_task_state_is_wrong": {
     "tip": "大艦隊任務情報を正常に読み込めません"
+  },
+  "military_forbid_when_in_chapter": {
+    "tip": "艦隊が出撃しています！"
   },
   "qiuqiu_total_count": {
     "tip": "累計数"
@@ -5972,17 +5951,17 @@
   "battle_preCombatLayer_auto_confirm": {
     "tip": "選択中の編成をオススメ編成に変更しますか？"
   },
-  "mail_takeAttachment_error_noAttach": {
-    "tip": "添付アイテムは受け取りできませんでした"
-  },
   "guild_trainee_duty_change_tip": {
     "tip": "メンバー貢献度が100に到達する必要があります"
   },
-  "msgbox_text_upgrade": {
-    "tip": "増 築"
+  "msgbox_text_consume": {
+    "tip": "はい"
   },
   "tech_catchup_sentence_pauses": {
     "tip": "――"
+  },
+  "formation_forbid_when_in_chapter": {
+    "tip": "艦隊が出撃しています！"
   },
   "backyard_traning_tip": {
     "tip": "寮舎の「訓練」に配置された艦はコンディションが回復し、経験値も入手可能"
@@ -5990,33 +5969,26 @@
   "equip_info_15": {
     "tip": "照準範囲"
   },
-  "military_forbid_when_in_chapter": {
-    "tip": "艦隊が出撃しています！"
+  "tec_speedup_overflow": {
+    "tip": "余分となる戦術データパックの経験値$1が変換されなくなります。戦術データパックを使用しますか？"
   },
   "friend_resume_collection_rate": {
     "tip": "達成率:"
   },
-  "tec_speedup_overflow": {
-    "tip": "余分となる戦術データパックの経験値$1が変換されなくなります。戦術データパックを使用しますか？"
+  "returner_match_tip": {
+    "tip": "<color=#FF5C5C>ランダムに現役指揮官の</color>UIDを自動入力し、カムバックミッションを始めます。自動検索を行いますか？"
   },
   "guild_donate_log": {
     "tip": "[$1] $2 は$3$4 を消費し拠出任務を完了しました 大艦隊資金＋$5"
   },
-  "tec_target_catchup_select_tip": {
-    "tip": "特別計画艦「$1」を選択しますか？"
+  "word_live2dfiles_update": {
+    "tip": "更新中…"
   },
-  "anniversary_task_title_14": {
-    "tip": "あなたは、支配されない自我を持つ「ニンゲン」に相応しい――"
+  "resolve_amount_prefix": {
+    "tip": "分解数："
   },
   "comander_repalce_tip": {
     "tip": "$1の$2に装備されているオフニャです。\nオフニャの装備を切り替えますか？"
-  },
-  "help_summer_shrine": {
-    "tip": [
-      {
-        "info": "■概要\n「幸運祈願」では、お賽銭（5資金）を消費すること\nで、一定時間、様々な効果を得られます。\n幸運祈願の可能回数はスタンプを1回手に入れるたび\nに1回増えます。\n■遊び方\n・賽銭箱の上の縄をスワイプして引っ張ると、幸運\n祈願の効果を選択することが出来ます。\n・幸運祈願効果\n　学業祈願：戦術教室でスキルを新たに強化する場合\n、所要時間が少し短縮\n　開運招福：メイン海域及び作戦履歴海域戦闘時、味方\nが与えるダメージが微増\n　良縁祈願：秘書艦の親密度上昇スピードがアップ\n・幸運祈願は同時に一種類しか適用できず、同じ祈願\nを複数回行っても効果は上乗せされません。\n・幸運祈願の効果は24時間持続します。また、幸運祈\n願の効果適用中にもう一回祈願すると、前の祈願の効\n果・持続時間が上書きされます。\n■注意\n「幸運祈願可能回数」が0の場合でもお賽銭を入れるこ\nとが出来ますが、幸運祈願を行うことが出来ません。"
-      }
-    ]
   },
   "tec_target_catchup_selected": {
     "tip": "強化指向"
@@ -6027,6 +5999,9 @@
   "tec_tendency_cur_3": {
     "tip": "研究指向 / Ⅲ"
   },
+  "tec_tendency_cur_2": {
+    "tip": "研究指向 / Ⅱ"
+  },
   "word_equipment_cannon": {
     "tip": "艦砲"
   },
@@ -6036,20 +6011,20 @@
   "word_train": {
     "tip": "休憩"
   },
-  "tec_tendency_cur_2": {
-    "tip": "研究指向 / Ⅱ"
-  },
   "tec_tendency_cur_0": {
     "tip": "研究指向/指向なし"
   },
   "tec_tendency_2": {
     "tip": "特別計画Ⅱ"
   },
-  "task_taskMediator_getResource": {
-    "tip": "入手：<color=#92fc63>$1</color>,数量:<color=#92fc63>X$2</color>"
+  "world_catsearch_leavemap": {
+    "tip": "サルベージ作業中のオフニャが作業を中止してしまいます。（ターン経過分の報酬を入手できます）\nエリアから移動しますか？"
   },
   "tec_settings_btn_word": {
     "tip": "指向設定"
+  },
+  "equip_info_extralevel_3": {
+    "tip": "レベル3"
   },
   "guidl_event_ship_in_event": {
     "tip": "ほかの任務に従事しているため、選択できません"
@@ -6060,11 +6035,11 @@
   "msgbox_text_cancel_fight": {
     "tip": "戦闘中止"
   },
-  "equip_info_extralevel_2": {
-    "tip": "レベル2"
-  },
   "equip_info_31": {
     "tip": "攻速"
+  },
+  "fightfail_noequip": {
+    "tip": "兵装が装備されていません"
   },
   "word_attr_antiaircraft": {
     "tip": "対空"
@@ -6079,29 +6054,29 @@
       }
     ]
   },
-  "fenjie_lantu_tip": {
-    "tip": "対応の特別計画艦が強化レベル30に達成した場合、余剰強化ユニットを分解できます"
+  "equip_info_29": {
+    "tip": "伤害属性类型"
   },
   "levelScene_unselect_SP_OP": {
     "tip": "アイテムを使用しない"
   },
-  "equip_info_29": {
-    "tip": "伤害属性类型"
+  "equip_info_26": {
+    "tip": "強化後スキル"
   },
   "blueprint_simulation_confirm_19901": {
     "tip": "<size=28>弾幕確認機能（模擬戦）を起動しますか？(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型三連装152mm両用砲Mk17\n試作型三連装152mm両用砲Mk17\n四連装ボフォース40mm機関砲</color></size>"
   },
-  "equip_info_26": {
-    "tip": "強化後スキル"
-  },
   "equip_info_25": {
     "tip": "0"
+  },
+  "equip_info_23": {
+    "tip": "適用艦種"
   },
   "guild_join_event_max_cnt_tip": {
     "tip": "参加可能回数が不足しています"
   },
-  "equip_info_22": {
-    "tip": "艦載機最大回避"
+  "equip_info_21": {
+    "tip": "艦載機耐久"
   },
   "ship_buildShip_error_noTemplate": {
     "tip": "建造配置が存在しません:<color=#92fc63>$1</color>"
@@ -6112,20 +6087,17 @@
   "guild_boss_fleet_desc": {
     "tip": "1.作戦編成は最大<color=#92fc63>9</color>名の艦船によって構成されます。\n2.前衛・主力艦隊にそれぞれ<color=#92fc63>1</color>隻以上所持艦船から選択しなければなりません。\n3.ほかの大艦隊メンバーの派遣支援艦船から最大<color=#92fc63>3</color>隻選択できます。\n4.強敵のHPをゼロにすると、大艦隊作戦が終了します。指揮官は1日に1回しか強敵と交戦できません"
   },
-  "equip_info_18": {
-    "tip": "拡散角度"
-  },
   "equip_info_17": {
     "tip": "弾薬射程"
   },
   "equip_info_16": {
     "tip": "照準角度"
   },
-  "login_newPlayerScene_error_notChoiseShip": {
-    "tip": "初期艦を選択してください"
-  },
   "equip_info_13": {
     "tip": "特性"
+  },
+  "login_newPlayerScene_error_notChoiseShip": {
+    "tip": "初期艦を選択してください"
   },
   "equip_info_12": {
     "tip": "投射範囲"
@@ -6133,23 +6105,26 @@
   "main_mailLayer_attachTaken": {
     "tip": "受け取りました"
   },
-  "word_shipState_collect": {
-    "tip": "委託に出かけています"
-  },
   "equip_info_10": {
     "tip": "機銃射程"
   },
-  "equipment_upgrade_quick_interface_materials_consume": {
-    "tip": "下記の素材が消費されます"
+  "word_shipState_collect": {
+    "tip": "委託に出かけています"
   },
-  "word_status_rest": {
-    "tip": "<size=23>休憩中</size>"
+  "equipment_upgrade_quick_interface_source_chosen": {
+    "tip": "素材を選択してください"
+  },
+  "word_status_inClass": {
+    "tip": "<size=23>授業中</size>"
   },
   "equip_info_4": {
     "tip": "スキル"
   },
   "equip_info_3": {
     "tip": "補正込発射速度"
+  },
+  "ship_formationUI_fleetName6": {
+    "tip": "第六艦隊"
   },
   "charge_erro": {
     "tip": "購入に失敗しました"
@@ -6182,8 +6157,8 @@
       }
     ]
   },
-  "ship_formationUI_fleetName6": {
-    "tip": "第六艦隊"
+  "equip_info_1": {
+    "tip": "ダメージ"
   },
   "world_map_dangerous_confirm": {
     "tip": "1回しかチャレンジできない、高難易度のクエストが開放されます。強敵に備えて慎重に挑戦してください"
@@ -6225,20 +6200,20 @@
   "sham_reset_err_limit": {
     "tip": "今日はこれ以上戦況をリセットできません"
   },
-  "lose_condition_display_quanmie": {
-    "tip": "味方艦隊全滅"
+  "bulin_tip_other1": {
+    "tip": "入手条件ヒントは20分につき1個しか表示できないプリン！表示するプリン？"
   },
   "channel_name_2": {
     "tip": "全員"
-  },
-  "bulin_tip_other3": {
-    "tip": "ステージから撤退するブリン？（報酬を入手できません）"
   },
   "win_condition_display_shangchuan_tip": {
     "tip": "輸送船が目標地点に到着しました。海上護衛成功！"
   },
   "win_condition_display_shangchuan": {
     "tip": "輸送船が指定位置に到達"
+  },
+  "equipment_skin_unload_failed": {
+    "tip": "外装を装備できませんでした"
   },
   "towerclimbing_sign_help": {
     "tip": [
@@ -6250,8 +6225,8 @@
   "course_exit_confirm": {
     "tip": "授業はまだ始まっていません。大講堂画面を閉じますか？"
   },
-  "equipment_skin_unmatch_equipment": {
-    "tip": "この兵装は装備中の外装を適用できません。外装は倉庫に戻されました"
+  "win_condition_display_qijian": {
+    "tip": "敵中枢艦隊撃破"
   },
   "help_build_1": {
     "tip": "\t\t\t\t\t   <size=25>$1建造概率分布</size>\n\n\t\t\t\t\t\t\t<color=#ffde38>超稀有舰船</color>：$2%\n\t\t\t\t\t\t\t <color=#d797ff>精锐舰船</color>：$3%\n\t\t\t\t\t\t\t <color=#3dc6ff>稀有舰船</color>：$4%\n\t\t\t\t\t\t\t 普通舰船：$5%"
@@ -6329,14 +6304,14 @@
       }
     ]
   },
-  "backyard_unopen": {
-    "tip": "相手の寮舎が開放されていません"
+  "ship_remould_warning_402134": {
+    "tip": "<size=35>改造で<color=#92fc63>1つ目の【設備】</color>が\n<color=#92fc63>【ヘリ】</color>を装備できるようになり。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
   },
   "word_study": {
     "tip": "勉強"
   },
-  "word_soundfiles_download_title": {
-    "tip": "ボイス更新"
+  "backyard_rest_tip": {
+    "tip": "寮舎の「休憩」に配置された艦はコンディションが回復する"
   },
   "tactics_lesson_repeated": {
     "tip": "既に戦術教室で勉強中"
@@ -6344,14 +6319,11 @@
   "new_airi_error_code_100229": {
     "tip": "すでに削除済みです"
   },
-  "backyard_class_tip": {
-    "tip": "授業に参加すると経験値が上昇します"
+  "words_show_my_backyardship_toggle": {
+    "tip": "友達の寮舎で秘書艦を表示"
   },
   "word_equip": {
     "tip": "装備"
-  },
-  "words_show_my_backyardship_toggle": {
-    "tip": "友達の寮舎で秘書艦を表示"
   },
   "words_show_friend_backyardship_toggle": {
     "tip": "寮舎で友達の秘書艦を表示"
@@ -6359,8 +6331,11 @@
   "backyard_theme_total_print": {
     "tip": "合計"
   },
-  "word_shipState_tactics": {
-    "tip": "戦術教室で勉強中です"
+  "complete": {
+    "tip": "委託\n完了"
+  },
+  "msgbox_text_upgrade": {
+    "tip": "増 築"
   },
   "loading_tip_MsgboxMgr": {
     "tip": "対話インタフェース構築中…"
@@ -6368,14 +6343,11 @@
   "tec_act_catchup_btn_word": {
     "tip": "強化イベント"
   },
-  "common_flag_ship": {
-    "tip": "<size=23>秘書艦</size>"
+  "building_tip": {
+    "tip": "任務一覧の<color=#92fc63>期間限定任務</color>をクリアし、増築に必要な素材を入手しよう！"
   },
   "ship_max_star": {
     "tip": "限界突破できません"
-  },
-  "building_tip": {
-    "tip": "任務一覧の<color=#92fc63>期間限定任務</color>をクリアし、増築に必要な素材を入手しよう！"
   },
   "towerclimbing_gametip": {
     "tip": [
@@ -6384,29 +6356,32 @@
       }
     ]
   },
-  "main_3": {
-    "tip": "メイン\n3"
-  },
   "equipment_upgrade_initial_node": {
     "tip": "この兵装は兵装開発では入手出来ません"
   },
-  "word_rename_time_tip": {
-    "tip": "あと$1日間名前を変更できません"
+  "main_3": {
+    "tip": "メイン\n3"
   },
-  "word_status_inFight": {
-    "tip": "<size=23>出撃中</size>"
+  "ambush_display_3": {
+    "tip": "普通"
   },
   "equipment_upgrade_feedback_equipment_can_be_produced": {
     "tip": "素材となる兵装が不足しています。兵装開発で素材を入手してください"
   },
+  "word_status_inFight": {
+    "tip": "<size=23>出撃中</size>"
+  },
   "equipment_upgrade_feedback_equipment_consume": {
     "tip": "<color=#92fc63>$1</color>が装備中の<color=#92fc63>$2</color>が開発素材として消費されます"
+  },
+  "equipment_upgrade_feedback_lack_of_materials": {
+    "tip": "素材不足"
   },
   "new_airi_error_code_200280": {
     "tip": "このアイテムはすでに所持済みです"
   },
-  "equipment_upgrade_feedback_lack_of_materials": {
-    "tip": "素材不足"
+  "equipment_upgrade_quick_interface_materials_consume": {
+    "tip": "下記の素材が消費されます"
   },
   "battle_repair_special_tip": {
     "tip": "<color=#92fc63>応急修理小隊</color>を使用しますか？"
@@ -6426,20 +6401,20 @@
   "word_cannon": {
     "tip": "艦砲"
   },
-  "equipment_upgrade_quick_interface_source_chosen": {
-    "tip": "素材を選択してください"
+  "equipment_upgrade_coin_consume": {
+    "tip": "資金消費"
   },
   "event_special_update": {
     "tip": "緊急委託「$1」出現！"
   },
-  "equipment_upgrade_coin_consume": {
-    "tip": "資金消費"
+  "equipment_upgrade_equipped_tag": {
+    "tip": "装備中："
   },
   "tactics_should_exist_skill": {
     "tip": "強化対象が必須です"
   },
-  "equipment_upgrade_equipped_tag": {
-    "tip": "装備中："
+  "special_operation_tip1": {
+    "tip": "消費アイテムがありません"
   },
   "word_ema": {
     "tip": "絵馬"
@@ -6450,32 +6425,32 @@
   "npc_breakout_tip": {
     "tip": "イベント終了時「正式加入」していないキャラは母港からいなくなります。※強化・限界突破に使用したアイテムは返還されません。続けますか？"
   },
-  "special_operation_tip1": {
-    "tip": "消費アイテムがありません"
-  },
   "collect_tip2": {
     "tip": "出撃中の艦船がいます。委託チームを編成できません"
-  },
-  "word_attr_range": {
-    "tip": "射程"
   },
   "collect_tip": {
     "tip": "出撃編成中の艦船がいます。委託チームを編成できません"
   },
+  "word_attr_range": {
+    "tip": "射程"
+  },
+  "LinkLinkGame_CurTime": {
+    "tip": "所要時間:"
+  },
   "collection_getResource_error": {
     "tip": "報酬受取失敗:"
-  },
-  "sort_attribute": {
-    "tip": "ｽﾃｰﾀｽ"
   },
   "target_chapter_is_lock": {
     "tip": "この章の海域はまだ開放されていません"
   },
+  "oil_buy_tip_2": {
+    "tip": "燃料が<size=28><color=#ff5c5c>$4</color></size>不足しています。<icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>$1</color></size>を 消費し燃料<size=30><color=#92fc63>$2</color></size>を購入しますか？\n\n<size=28><color=#a2a2a2>( 本日購入 <size=28><color=#ff5c5c>$3</color></size>  回 )</color></size>"
+  },
   "res_music_new_tip": {
     "tip": "$1個のBGMのが更新されました"
   },
-  "oil_buy_tip_2": {
-    "tip": "燃料が<size=28><color=#ff5c5c>$4</color></size>不足しています。<icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>$1</color></size>を 消費し燃料<size=30><color=#92fc63>$2</color></size>を購入しますか？\n\n<size=28><color=#a2a2a2>( 本日購入 <size=28><color=#ff5c5c>$3</color></size>  回 )</color></size>"
+  "title_item_ways": {
+    "tip": "<color=#92fc63>$1</color>は下記の方法で入手可能"
   },
   "guild_impeach_sucess": {
     "tip": "弾劾しました"
@@ -6486,14 +6461,14 @@
   "word_shipState_sham": {
     "tip": "特殊作戦を遂行しています"
   },
-  "title_item_ways": {
-    "tip": "<color=#92fc63>$1</color>は下記の方法で入手可能"
+  "shop_word_cancel": {
+    "tip": "戻 る"
   },
   "new_skin_no_choose": {
     "tip": "着せ替えする艦を選択していません。着せ替えせず元の画面に戻りますか？"
   },
-  "shop_word_cancel": {
-    "tip": "戻 る"
+  "shop_word_exchange": {
+    "tip": "交 換"
   },
   "word_dockyardUpgrade": {
     "tip": "限界突破"
@@ -6507,44 +6482,41 @@
   "new_airi_error_code_200240": {
     "tip": "Google Playをバージョンアップしてください"
   },
-  "shops_msgbox_output": {
-    "tip": "入手："
-  },
   "shops_msgbox_exchange_count": {
     "tip": "交換数量:"
   },
   "activity_shop_exchange_count": {
     "tip": "交換可能"
   },
-  "submarine_approach": {
-    "tip": "敵潜探知"
+  "harbour_bomb_tip": {
+    "tip": "港が破壊されました！"
   },
   "apple_link_title": {
     "tip": "連携中のアカウント完了"
   },
-  "words_desc_unlock": {
-    "tip": "パスワード機能で制限されている操作です"
-  },
   "res_pic_new_tip": {
     "tip": "$1枚のスチルが更新されました"
+  },
+  "words_desc_unlock": {
+    "tip": "パスワード機能で制限されている操作です"
   },
   "res_downloading": {
     "tip": "ダウンロード中"
   },
+  "activity_puzzle_get15": {
+    "tip": "<color=#92fc63FF>入手方法\n限定任務6</color>"
+  },
   "list_empty_tip_guildrequestui": {
     "tip": "大艦隊申請はありません"
-  },
-  "transcode_desc": {
-    "tip": "※引継ぎパスワードに使用期限はございません\n※あらかじめ発行し、保管していただくことをお勧めいたします"
   },
   "retire_title": {
     "tip": "一括退役設定"
   },
-  "secretary_pos_save": {
-    "tip": "秘書艦の表示設定を保存しますか？"
-  },
   "retire_2": {
     "tip": "<color=#ff5c5c>3回限界突破</color>を行った艦船を<color=#ff5c5c>所持していない</color>場合、その艦船と同名の艦船は"
+  },
+  "secretary_pos_save": {
+    "tip": "秘書艦の表示設定を保存しますか？"
   },
   "undermist_tip": {
     "tip": "次の任務は明日に開放されます"
@@ -6586,11 +6558,14 @@
       }
     }
   },
+  "sofmapsd_3": {
+    "tip": "ムフフ、これで売上がUPにゃ！"
+  },
   "coloring_erase_warning": {
     "tip": "着色済みの枠から色を削除した場合、着色した際に使用した絵の具はもとに戻りません。本当に削除しますか？"
   },
-  "sofmapsd_3": {
-    "tip": "ムフフ、これで売上がUPにゃ！"
+  "common_flag_ship": {
+    "tip": "<size=23>秘書艦</size>"
   },
   "number_4": {
     "tip": "四"
@@ -6598,20 +6573,17 @@
   "equip_info_30": {
     "tip": "属性效率"
   },
-  "fightfail_noequip": {
-    "tip": "兵装が装備されていません"
+  "fightfail_equip": {
+    "tip": "全艦隊を海域から引き上げ（撤退）、ドックで装備を強化しますか？"
   },
   "msgbox_text_noPos_clear": {
     "tip": "整 理"
   },
-  "fightfail_equip": {
-    "tip": "全艦隊を海域から引き上げ（撤退）、ドックで装備を強化しますか？"
+  "indexsort_typeeng": {
+    "tip": "TYPE"
   },
   "ship_buildShipImmediately_error_noSHip": {
     "tip": "建造中の艦がありません"
-  },
-  "indexsort_typeeng": {
-    "tip": "TYPE"
   },
   "indexsort_rarityeng": {
     "tip": "RARITY"
@@ -6619,11 +6591,11 @@
   "indexsort_campeng": {
     "tip": "AFFILIATION"
   },
-  "word_not_get": {
-    "tip": "未開放"
-  },
   "indexsort_rarity": {
     "tip": "ﾚｱﾘﾃｨ"
+  },
+  "word_not_get": {
+    "tip": "未開放"
   },
   "indexsort_type": {
     "tip": "タイプ"
@@ -6631,14 +6603,14 @@
   "indexsort_sort": {
     "tip": "ソート"
   },
-  "activity_puzzle_get11": {
-    "tip": "<color=#92fc63FF>入手方法\n限定任務2</color>"
-  },
   "index_no_limit": {
     "tip": "すべて"
   },
-  "list_empty_tip_joinguildui": {
-    "tip": "条件を満す大艦隊が存在しません"
+  "activity_puzzle_get11": {
+    "tip": "<color=#92fc63FF>入手方法\n限定任務2</color>"
+  },
+  "warning_mail_max_2": {
+    "tip": "メール所持数が上限に達しています。メールを整理してください"
   },
   "index_special": {
     "tip": "特殊"
@@ -6646,21 +6618,81 @@
   "index_strengthen": {
     "tip": "強化可能"
   },
+  "sort_attribute": {
+    "tip": "ｽﾃｰﾀｽ"
+  },
   "ship_book": {
     "tip": "教科書"
   },
   "guild_fire_duty_limit": {
     "tip": "役職が自分より上のメンバーを除名することができません"
   },
-  "LinkLinkGame_CurTime": {
-    "tip": "所要時間:"
-  },
-  "help_shipinfo_fashion": {
-    "tip": [
-      {
-        "info": "\n着せ替え：\n\n 「期間外」着せ替え入手期間外です"
+  "help_shipinfo_intensify": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/strength",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/break",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/equip",
+          "path": ""
+        }
+      },
+      "4": {
+        "icon": {
+          "atlas": "helpbg/bullet",
+          "path": ""
+        }
+      },
+      "5": {
+        "icon": {
+          "atlas": "helpbg/energy",
+          "path": ""
+        }
+      },
+      "6": {
+        "icon": {
+          "atlas": "helpbg/maxlevel",
+          "path": ""
+        }
+      },
+      "7": {
+        "icon": {
+          "atlas": "helpbg/levelup",
+          "path": ""
+        }
+      },
+      "8": {
+        "icon": {
+          "atlas": "helpbg/fanqian",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "disableScroll": true,
+      "helpSize": {
+        "y": 1024,
+        "x": 1176
+      },
+      "defaultpage": 8,
+      "windowPos": {
+        "y": -70
+      },
+      "pageMode": true,
+      "windowSize": {
+        "y": 873,
+        "x": 1263
       }
-    ]
+    }
   },
   "LanternRiddle_wait_time_tip": {
     "tip": "再回答まで:"
@@ -6675,8 +6707,11 @@
   "lanternRiddles_answer_is_right": {
     "tip": "正解です！"
   },
-  "commander_replace_talent_not_exist": {
-    "tip": "不正なアビリティ（変更先のアビリティ）です"
+  "discount_time": {
+    "tip": "<color=grey>割引残り時間</color> <color=#92fc63>$1</color>"
+  },
+  "bulin_tip_other3": {
+    "tip": "ステージから撤退するブリン？（報酬を入手できません）"
   },
   "new_airi_error_code_100303": {
     "tip": "正しい認証コードを入力してください"
@@ -6696,8 +6731,8 @@
   "guild_tech_gold_no_enough": {
     "tip": "兵站施設増築に必要な資金が不足しています"
   },
-  "bulin_tip7": {
-    "tip": "2-4海域に出撃にゃ！"
+  "bulin_tip6": {
+    "tip": "みんなお腹が減ってるのかにゃ？"
   },
   "help_firework": {
     "tip": [
@@ -6706,26 +6741,23 @@
       }
     ]
   },
-  "bulin_tip6": {
-    "tip": "みんなお腹が減ってるのかにゃ？"
-  },
-  "npcfriendly_count": {
-    "tip": "目標友好度："
-  },
-  "login_newPlayerScene_name_existOtherChar": {
-    "tip": "使用できない文字が含まれています"
+  "common_shopId_noFound": {
+    "tip": "商品idが見つかりません"
   },
   "bulin_tip4": {
     "tip": "ドックの様子をチェックにゃ！"
   },
+  "login_newPlayerScene_name_existOtherChar": {
+    "tip": "使用できない文字が含まれています"
+  },
   "bulin_tip2": {
     "tip": "在庫商品を確認するにゃ！"
   },
-  "pocky_jiujiu": {
-    "tip": "饅頭量産中"
-  },
   "bulin_tip1": {
     "tip": "1-2海域に出撃にゃ！"
+  },
+  "pocky_jiujiu": {
+    "tip": "饅頭量産中"
   },
   "special_animal7": {
     "tip": "[浦波のカワイイ図鑑No.7]\nレインボーマンチカン：寝るときに虹のようなよだれを垂らしてしまう謎生物。そのよだれもまた虹を作る永久機関なのだ"
@@ -6733,11 +6765,14 @@
   "special_animal6": {
     "tip": "[浦波のカワイイ図鑑No.6]\nマッスル饅頭：機体の高性能化を極めた饅頭。科学部の強化型オフニャと日々競い合っている模様"
   },
-  "award_window_pt_title": {
-    "tip": "カムバックPt："
+  "limit_skin_time_overtime": {
+    "tip": "利用期間外です"
   },
   "special_animal3": {
     "tip": "[浦波のカワイイ図鑑No.3]\nアザラシボール：空気を大量に吸い込むことで、短時間ながら浮遊できる謎生物。鉄血のHe 178のエンジンがこいつから着想したわけではない"
+  },
+  "special_animal1": {
+    "tip": "[浦波のカワイイ図鑑No.1]\nブリザードウーパー：急速冷凍のスキルを有する謎生物。拡張パックでさらなる能力を会得できるらしい"
   },
   "text_noPos_intensify": {
     "tip": "強化"
@@ -6745,18 +6780,15 @@
   "mingshi_task_tip_9": {
     "tip": "見つかったにゃ？\n暗号は……<<color=#92fc63>S</color>>\n次の目標は…<<color=#92fc63>ライバルと戦う場所</color>>にゃ！"
   },
-  "special_animal1": {
-    "tip": "[浦波のカワイイ図鑑No.1]\nブリザードウーパー：急速冷凍のスキルを有する謎生物。拡張パックでさらなる能力を会得できるらしい"
-  },
-  "event_flush_fail": {
-    "tip": "商品更新失敗:"
-  },
   "help_chunjie_jiulou": {
     "tip": [
       {
         "info": "■饅頭年玉について\n・「饅頭年玉」では、ミニゲームで手に入れた「年玉」\nを開封し、報酬を入手できます。\n・「年玉」は「四天王大冒険・撫順編」「四天王大冒険・\n鞍山編」「東煌すごろく」「饅頭タワー」を遊ぶことで\n入手できます。\n・入手した「年玉」を開封する際は「年玉・大」から優先\n的に開封されます。開封すると、ダイヤなどの報酬をラ\nンダムで獲得できます。\n・「年玉・大」は最大で15個入手できます"
       }
     ]
+  },
+  "event_flush_fail": {
+    "tip": "商品更新失敗:"
   },
   "help_chunjie_stamp": {
     "tip": [
@@ -6772,20 +6804,20 @@
       }
     ]
   },
-  "word_soundfiles_checking_title": {
-    "tip": "チェック中…"
-  },
-  "ship_upgradeStar_error": {
-    "tip": "限界突破失敗:"
+  "word_soundfiles_download_title": {
+    "tip": "ボイス更新"
   },
   "word_equipskin_aircraft": {
     "tip": "艦載機"
   },
-  "equipment_skin_replace_done": {
-    "tip": "装備外装を変更しました"
+  "ship_upgradeStar_error": {
+    "tip": "限界突破失敗:"
   },
   "word_equipskin_all": {
     "tip": "全て"
+  },
+  "equipment_skin_replace_done": {
+    "tip": "装備外装を変更しました"
   },
   "qte_game_help": {
     "tip": {
@@ -6828,6 +6860,9 @@
       }
     ]
   },
+  "ship_shipModLayer_effect": {
+    "tip": "経験値:<color=#92fc63>$1/$2</color>\n"
+  },
   "word_gold": {
     "tip": "資金"
   },
@@ -6837,11 +6872,11 @@
   "new_airi_error_code_200340": {
     "tip": "購入がキャンセルされました"
   },
-  "event_type_unlimit": {
-    "tip": "無制限"
-  },
   "seven_choose_one": {
     "tip": "招待状は1回しか使用できません。\n<color=#92fc63>$1</color>を招待しますか？\n（艦船と記念アイテムを入手できます）"
+  },
+  "title_limit_time": {
+    "tip": "「限定」"
   },
   "attribute_torpedo": {
     "tip": "雷装"
@@ -6849,14 +6884,14 @@
   "number_7": {
     "tip": "七"
   },
-  "title_limit_time": {
-    "tip": "「限定」"
-  },
   "shops_rest_day": {
     "tip": "ラインナップ更新まで:"
   },
-  "tips_fail_secondarypwd_much_times": {
-    "tip": "パスワードが間違っています。<color=#92FC63>%s</color>後再度お試しください"
+  "words_settings_unlock_commander": {
+    "tip": "オフニャ保護解除"
+  },
+  "fenjie_lantu_tip": {
+    "tip": "対応の特別計画艦が強化レベル30に達成した場合、余剰強化ユニットを分解できます"
   },
   "sofmap_attention": {
     "tip": [
@@ -6871,11 +6906,8 @@
   "world_item_origin": {
     "tip": "入手条件"
   },
-  "msgbox_text_consume": {
-    "tip": "はい"
-  },
-  "option_desc5": {
-    "tip": "（ON状態）画面タップ時、タップ時演出を表示する"
+  "word_reset": {
+    "tip": "クリア"
   },
   "msgbox_text_prepage": {
     "tip": "次へ"
@@ -6889,14 +6921,17 @@
   "msgbox_text_noPos_intensify": {
     "tip": "強 化"
   },
-  "ship_energy_low_desc": {
-    "tip": "疲労\n 出撃すると親密度が下がり、もらえる経験値が半分に"
+  "newplayer_notice_8": {
+    "tip": "海域を上手く攻略できない時は、「新兵任務」で様々な報酬を手に入れて戦力を充実させましょう！"
+  },
+  "msgbox_text_buy": {
+    "tip": "購 入"
   },
   "backyard_backyardShipInfoMediator_ok_unlock": {
     "tip": "開放成功"
   },
-  "msgbox_text_buy": {
-    "tip": "購 入"
+  "msgbox_text_goon_fight": {
+    "tip": "戦闘継続"
   },
   "meta_award_got": {
     "tip": "受取済"
@@ -6904,8 +6939,8 @@
   "word_maintain": {
     "tip": "メンテ後"
   },
-  "list_empty_tip_storehouseui_equip": {
-    "tip": "装備を所持していません"
+  "words_show_touch_effect": {
+    "tip": "タッチエフェクト表示"
   },
   "word_proficiency": {
     "tip": ""
@@ -6913,14 +6948,14 @@
   "guild_should_input_keyword": {
     "tip": "キーワードが入力されていません"
   },
-  "words_battle_hide_bg": {
-    "tip": "衣装背景の戦闘時非表示"
+  "confirm_unlock_ship_main": {
+    "tip": "既に秘書艦枠に配置されている艦船です"
   },
   "charge_time_out": {
     "tip": "支払情報を確認しています…"
   },
-  "confirm_unlock_ship_main": {
-    "tip": "既に秘書艦枠に配置されている艦船です"
+  "main_mailLayer_quest_deleteNotTakeAttach": {
+    "tip": "<color=#92fc63>添付ファイルは受け取っていません</color>、本当に削除しますか?"
   },
   "ship_profile_voice_locked": {
     "tip": "開放条件を満たしていません"
@@ -6928,17 +6963,14 @@
   "tec_target_need_print": {
     "tip": "強化残り"
   },
-  "resolve_amount_prefix": {
-    "tip": "分解数："
+  "event_start_success": {
+    "tip": "委託開始"
   },
   "backyard_backyardScene_restSuccess": {
     "tip": "<color=#92fc63>マイセットを戻しました</color>"
   },
   "new_airi_error_code_100404": {
     "tip": "通信エラーが発生しました"
-  },
-  "event_finish_success": {
-    "tip": "委託完了"
   },
   "collection_help": {
     "tip": {
@@ -6974,14 +7006,11 @@
   "secretary_unlock4": {
     "tip": "9-4クリアで開放"
   },
-  "levelScene_remaster_tickets_not_enough": {
-    "tip": "データキーが不足しています"
-  },
   "secretary_unlock2": {
     "tip": "3-4クリアで開放"
   },
-  "word_freeGem": {
-    "tip": "ダイヤ"
+  "levelScene_remaster_tickets_not_enough": {
+    "tip": "データキーが不足しています"
   },
   "secretary_help": {
     "tip": [
@@ -6993,23 +7022,17 @@
       }
     ]
   },
+  "word_freeGem": {
+    "tip": "ダイヤ"
+  },
+  "activity_puzzle_get14": {
+    "tip": "<color=#92fc63FF>入手方法\n限定任務5</color>"
+  },
   "newplayer_notice_5": {
     "tip": "クリアで「ネルソン」をGET"
   },
-  "activity_puzzle_get15": {
-    "tip": "<color=#92fc63FF>入手方法\n限定任務6</color>"
-  },
   "pocky_jiujiu_desc": {
     "tip": "今日も饅頭たちが頑張って働いている…"
-  },
-  "common_no_dorm_gold": {
-    "tip": "<color=#92fc63>コイン</color>が足りません！"
-  },
-  "level_chapter_state_safety": {
-    "tip": "<color=#92fc63>【安全海域】</color>"
-  },
-  "player_changePlayerIcon_ok": {
-    "tip": "秘書艦を変更しました！"
   },
   "hololive_dalaozhang": {
     "tip": [
@@ -7021,6 +7044,15 @@
       }
     ]
   },
+  "common_no_dorm_gold": {
+    "tip": "<color=#92fc63>コイン</color>が足りません！"
+  },
+  "level_chapter_state_safety": {
+    "tip": "<color=#92fc63>【安全海域】</color>"
+  },
+  "player_changePlayerIcon_ok": {
+    "tip": "秘書艦を変更しました！"
+  },
   "hololive_goodmorning": {
     "tip": [
       {
@@ -7031,11 +7063,11 @@
       }
     ]
   },
-  "world_instruction_detect_1": {
-    "tip": "行動力を$1消費し、海域偵察を行いますか？（指揮官行動力：$2 指揮官指令は前に発動した指令からの時間経過に応じて消費行動力が変化します）"
-  },
   "reselect_music_game": {
     "tip": "進行中のゲームを中断し、曲選択からやり直しますか？"
+  },
+  "world_instruction_detect_1": {
+    "tip": "行動力を$1消費し、海域偵察を行いますか？（指揮官行動力：$2 指揮官指令は前に発動した指令からの時間経過に応じて消費行動力が変化します）"
   },
   "restart_music_game": {
     "tip": "進行中のゲームを中断し、最初からやり直しますか？"
@@ -7059,6 +7091,9 @@
   "ins_word_like": {
     "tip": "いいね！$1件"
   },
+  "rename_commander_erro": {
+    "tip": "名前変更失敗$1"
+  },
   "friend_add_ok": {
     "tip": "友達追加しました"
   },
@@ -7068,17 +7103,14 @@
   "collection_way_is_unopen": {
     "tip": "現在は入手できません"
   },
-  "change_display_medal_success": {
-    "tip": "勲章展示設定を変更しました"
+  "ins_word_hour": {
+    "tip": "$1時間前"
   },
   "clear_transcode_cache_success": {
     "tip": "ユーザーデータを削除しました"
   },
-  "ins_word_hour": {
-    "tip": "$1時間前"
-  },
-  "build_ship_quickly_buy_stone": {
-    "tip": "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>ダイヤを消費して、\nキューブを<color=#92fc63>$2</color>個購入しますか？"
+  "event_condition_ship_count": {
+    "tip": "<color=#92fc63>$1</color>隻以上必要"
   },
   "music_collection": {
     "tip": [
@@ -7096,6 +7128,9 @@
       }
     ]
   },
+  "option_desc6": {
+    "tip": "（ON状態）ロード画面のアスペクト比に端末の画面設定を適用させる"
+  },
   "sham_my_assist_ship_level_limit": {
     "tip": "出撃する艦のレベルが$1以上必要です"
   },
@@ -7105,8 +7140,8 @@
   "world_sairen_description3": {
     "tip": "エリアのセイレーン支配度　<color=#ff5c5c>$1%</color>"
   },
-  "option_desc6": {
-    "tip": "（ON状態）ロード画面のアスペクト比に端末の画面設定を適用させる"
+  "option_desc5": {
+    "tip": "（ON状態）画面タップ時、タップ時演出を表示する"
   },
   "msgbox_text_exchange": {
     "tip": "交 換"
@@ -7114,14 +7149,14 @@
   "common_already owned": {
     "tip": "獲得済"
   },
-  "word_own": {
-    "tip": "所持中の"
-  },
   "option_desc1": {
     "tip": "（ON状態）他指揮官の艦船につけられた独自の名前を表示する"
   },
   "pt_ship_goal": {
     "tip": "撃破数："
+  },
+  "pt_ship_now": {
+    "tip": "撃破数合計："
   },
   "guild_apply_erro": {
     "tip": "参加申請に失敗しました"
@@ -7163,11 +7198,11 @@
   "commander_rename_success_tip": {
     "tip": "更名成功"
   },
-  "pt_ship_now": {
-    "tip": "撃破数合計："
-  },
   "text_consume": {
     "tip": "確定"
+  },
+  "ship_formationUI_fleetName_hard_ss": {
+    "tip": "難しい潜水艦隊"
   },
   "new_airi_error_code_200270": {
     "tip": "Google Playをバージョンアップしてください"
@@ -7197,8 +7232,8 @@
   "open_system_tip": {
     "tip": "$1が開放されました！"
   },
-  "ship_formationUI_fleetName_hard": {
-    "tip": "難しい艦隊"
+  "ship_formationUI_fleetName_normal": {
+    "tip": "普通艦隊"
   },
   "ship_upgradeStar_select_material_tip": {
     "tip": "突破素材を選択してください"
@@ -7212,8 +7247,8 @@
   "inform_chat_msg": {
     "tip": "空メッセージを送信できません"
   },
-  "word_easy": {
-    "tip": "簡単"
+  "word_billboard": {
+    "tip": "ランキング"
   },
   "commander_get_1": {
     "tip": "毎日一回目のネコハコ購入は無料だにゃ！"
@@ -7230,11 +7265,11 @@
   "commander_talent_not_exist": {
     "tip": "不正なアビリティ（すでに存在しているアビリティ）です"
   },
-  "destory_important_equipment_input_erro": {
-    "tip": "装備名が間違えています"
-  },
   "change_skin_secretary_ship_success": {
     "tip": "秘書艦に設定しました"
+  },
+  "guild_create_sucess": {
+    "tip": "大艦隊結成成功"
   },
   "battle_result_total_score": {
     "tip": "スコア："
@@ -7242,8 +7277,8 @@
   "bismarck_award_tip": {
     "tip": "実績達成で記念アイテムGET！"
   },
-  "guild_create_error": {
-    "tip": "大艦隊結成失敗"
+  "technology_task_build_tip": {
+    "tip": "研究開始するには下記の資源・アイテムを消費します：$1"
   },
   "link_link_help_tip": {
     "tip": [
@@ -7279,20 +7314,11 @@
   "commander_rename_warning": {
     "tip": "オフニャの名前を$1に変更しますか？"
   },
-  "buleprint_need_level_tip": {
-    "tip": "該当艦がレベル$1で開放"
+  "loading_tip_ShaderMgr": {
+    "tip": "視覚センサー起動中…"
   },
   "technology_refresh_tip": {
     "tip": "研究項目一覧を更新しますか？"
-  },
-  "loading_tip_PoolMgr": {
-    "tip": "有機塗装素子充填中…"
-  },
-  "dailyLevel_opened": {
-    "tip": "開放"
-  },
-  "ship_formationUI_exercise_fleetName": {
-    "tip": "演習艦隊"
   },
   "help_vote": {
     "tip": [
@@ -7310,14 +7336,23 @@
       }
     ]
   },
+  "dailyLevel_opened": {
+    "tip": "開放"
+  },
+  "ship_formationUI_exercise_fleetName": {
+    "tip": "演習艦隊"
+  },
+  "tips_shrine_nobuff": {
+    "tip": "賽銭︵資金5︶を入れました。\nこれ以上は祈願できません…"
+  },
   "gold": {
     "tip": "資金"
   },
   "backyard_cant_buy_tip": {
     "tip": "購入できません"
   },
-  "tips_shrine_nobuff": {
-    "tip": "賽銭︵資金5︶を入れました。\nこれ以上は祈願できません…"
+  "tips_shrine_buff": {
+    "tip": "賽銭︵資金5︶を入れ   　 を祈願しました"
   },
   "help_equipment_skin": {
     "tip": [
@@ -7326,8 +7361,8 @@
       }
     ]
   },
-  "tips_shrine_buff": {
-    "tip": "賽銭︵資金5︶を入れ   　 を祈願しました"
+  "tips_summergame_exit": {
+    "tip": "ゲームを中断すると現在の進捗が保存されません。本当に中断しますか？"
   },
   "backyard_backyardGranaryLayer_noFood": {
     "tip": "寮舎の食糧庫が空っぽになりました…"
@@ -7335,16 +7370,20 @@
   "backyard_extendCapacity_ok": {
     "tip": "食糧庫が<color=#92fc63>$1</color>拡張されました！"
   },
-  "tips_summergame_exit": {
-    "tip": "ゲームを中断すると現在の進捗が保存されません。本当に中断しますか？"
+  "help_summer_stamp": {
+    "tip": [
+      {
+        "info": "■概要\nミニゲームを遊んで「スタンプ」を14個集めると、画面\n左側のイラスト内のボタンをタップすることで、\n駆逐艦「ジュノー」の着せ替え「ちょっと美味しい日」\nを入手できます。\n※ボタンはスタンプを14個全部集めると表示されます。"
+      }
+    ]
   },
   "world_boss_fleet": {
     "tip": "余燼戦編成"
   },
-  "help_summer_food": {
+  "help_summer_shrine": {
     "tip": [
       {
-        "info": "■概要\n「グルメ街」とは、艦船の買い出しの依頼に応じ、制\n限時間内にみんなが欲しがる食べ物を屋台で購入する\nミニゲームになります。\n正しい食べ物を購入すると、制限時間が増加し、得点\nを得ることが出来ます。\n制限時間終了、もしくはゲームを中断した場合、ゲー\nムクリアになります。\n■遊び方\n・「スタート」をタップすると、画面左のキャラに買\nい出し内容が表示されます。\n・10秒後、買い出し内容の表示が消え、代わりに購入\nできる食べ物の一覧が出現します。\n・制限時間内に食べ物のアイコンをタップすると、購\n入する食べ物を選択することができます。また選択済\nみの食べ物アイコンをタップすると、選択をキャンセ\nルすることができます。\n・食べ物を3種類選択すると、買い出し結果画面が表\n示されます。\n・購入した食べ物が買い出し内容と一致（並び順を含\nむ）した場合、得点を入手することが出来ます。\n・結果画面で「続ける」をタップすると、ミニゲーム\nを継続することが出来ます。「終了」をタップするか\n、もしくは制限時間が0になると、ミニゲームを終了\nできます。\n■報酬について\nゲーム終了時の得点に応じて、賞品を入手出来ます。\n一等賞　20点以上\n二等賞　12点以上\n三等賞　5点以上\n四等賞　4点以下"
+        "info": "■概要\n「幸運祈願」では、お賽銭（5資金）を消費すること\nで、一定時間、様々な効果を得られます。\n幸運祈願の可能回数はスタンプを1回手に入れるたび\nに1回増えます。\n■遊び方\n・賽銭箱の上の縄をスワイプして引っ張ると、幸運\n祈願の効果を選択することが出来ます。\n・幸運祈願効果\n　学業祈願：戦術教室でスキルを新たに強化する場合\n、所要時間が少し短縮\n　開運招福：メイン海域及び作戦履歴海域戦闘時、味方\nが与えるダメージが微増\n　良縁祈願：秘書艦の親密度上昇スピードがアップ\n・幸運祈願は同時に一種類しか適用できず、同じ祈願\nを複数回行っても効果は上乗せされません。\n・幸運祈願の効果は24時間持続します。また、幸運祈\n願の効果適用中にもう一回祈願すると、前の祈願の効\n果・持続時間が上書きされます。\n■注意\n「幸運祈願可能回数」が0の場合でもお賽銭を入れるこ\nとが出来ますが、幸運祈願を行うことが出来ません。"
       }
     ]
   },
@@ -7358,17 +7397,14 @@
       }
     ]
   },
-  "friend_no_request": {
-    "tip": "友達申請がありません"
-  },
-  "world_boss_tip": {
-    "tip": "「<color=#7e7e7f>$1</color>」が作戦進捗に<color=#8299bc>$2</color>Ptを貢献しました！"
-  },
-  "backyard_filter_tag_other": {
-    "tip": "その他"
+  "charge_items_title": {
+    "tip": "下記アイテムを入手できます"
   },
   "ship_shipModMediator_noticeSameButLargerStar": {
     "tip": "星が多い方"
+  },
+  "backyard_filter_tag_other": {
+    "tip": "その他"
   },
   "word_reward": {
     "tip": "報酬"
@@ -7379,26 +7415,29 @@
   "desc_base_hp": {
     "tip": "港耐久度：$1/$2"
   },
+  "desc_defense_reward": {
+    "tip": "クリア時、防御対象の耐久度に応じて報酬を獲得できます"
+  },
   "task_taskMediator_getItem": {
     "tip": "入手：<color=#92fc63>$1</color>,数量:<color=#92fc63>X$2</color>"
   },
-  "desc_defense_reward": {
-    "tip": "クリア時、防御対象の耐久度に応じて報酬を獲得できます"
+  "simulation_advantage_counting": {
+    "tip": "$1秒後特殊戦術を発動します"
   },
   "login_loginMediator_vertifyFail": {
     "tip": "データにエラー:"
   },
-  "simulation_enhanced": {
-    "tip": "相手は特殊戦術を発動しました"
-  },
   "text_win_condition": {
     "tip": "勝利条件"
+  },
+  "desc_quick_play": {
+    "tip": "移動演出高速化"
   },
   "newplayer_notice_1": {
     "tip": "初級任務全クリアで開放"
   },
-  "desc_quick_play": {
-    "tip": "移動演出高速化"
+  "submarine_approach": {
+    "tip": "敵潜探知"
   },
   "retire_setting_help": {
     "tip": [
@@ -7407,14 +7446,11 @@
       }
     ]
   },
-  "harbour_bomb_tip": {
-    "tip": "港が破壊されました！"
+  "common_buy_gold_success": {
+    "tip": "資金 <color=#92fc63>$1</color> を購入しました！"
   },
   "equipment_upgrade_overlimit": {
     "tip": "これ以上強化できません"
-  },
-  "common_buy_gold_success": {
-    "tip": "資金 <color=#92fc63>$1</color> を購入しました！"
   },
   "help_tempesteve": {
     "tip": [
@@ -7435,14 +7471,17 @@
       }
     ]
   },
-  "word_equipment_antiaircraft": {
-    "tip": "対空"
-  },
   "secondarypassword_incorrectpwd_error": {
     "tip": "パスワードが間違っています。（あと<color=#FF5C5C>%d</color>回入力可能）"
   },
+  "word_equipment_antiaircraft": {
+    "tip": "対空"
+  },
   "Word_Ship_Exp_Buff": {
     "tip": "経験値＋"
+  },
+  "words_information": {
+    "tip": "情報"
   },
   "levelScene_bomb_help_tip": {
     "tip": {
@@ -7481,14 +7520,14 @@
   "commander_reset_talent_erro": {
     "tip": "アビリティをリセットできませんでした$1"
   },
-  "words_information": {
-    "tip": "情報"
+  "tips_fail_secondarypwd_much_times": {
+    "tip": "パスワードが間違っています。<color=#92FC63>%s</color>後再度お試しください"
   },
   "msgbox_text_analyse": {
     "tip": "分 解"
   },
-  "words_settings_unlock_commander": {
-    "tip": "オフニャ保護解除"
+  "destination_can_not_reach": {
+    "tip": "目標海域には辿り着けません"
   },
   "resourceSite_error_noSite": {
     "tip": "委託が存在しません"
@@ -7496,11 +7535,11 @@
   "meta_repair_effect_unlock": {
     "tip": "強化率$1%達成"
   },
-  "empty_tip_mailboxui": {
-    "tip": "メールはありません"
-  },
   "list_empty_tip_friendui_black": {
     "tip": "指揮官をブロックしていません"
+  },
+  "ship_unequipFromShip_ok": {
+    "tip": "兵装<color=#FFD700FF>$1</color>を取り外しました"
   },
   "word_status_inEvent": {
     "tip": "<size=23>委託中</size>"
@@ -7572,17 +7611,17 @@
       }
     }
   },
-  "ship_unequipFromShip_ok": {
-    "tip": "兵装<color=#FFD700FF>$1</color>を取り外しました"
+  "list_empty_tip_joinguildui": {
+    "tip": "条件を満す大艦隊が存在しません"
   },
   "index_not_obtained": {
     "tip": "未入手"
   },
-  "guild_duty_tip_1": {
-    "tip": "<color=#7FAFFF>職務</color>"
-  },
   "list_empty_tip_storehouseui_item": {
     "tip": "素材を所持していません"
+  },
+  "list_empty_tip_storehouseui_equip": {
+    "tip": "装備を所持していません"
   },
   "propose_intimacy_tip": {
     "tip": "好感度100(現在$1)"
@@ -7593,17 +7632,14 @@
   "msgbox_text_cancel_g": {
     "tip": "戻 る"
   },
-  "backyard_is_loading": {
-    "tip": "ただいま家具を準備しています…"
+  "list_empty_tip_billboardui": {
+    "tip": "ランキングデータはありません"
   },
   "story_skip_confirm": {
     "tip": "未読シナリオをスキップしますか？\nスキップしたシナリオは「思い出」で閲覧できます"
   },
   "loading_tip_FontMgr": {
     "tip": "自律ライブラリー初期化中…"
-  },
-  "list_empty_tip_billboardui": {
-    "tip": "ランキングデータはありません"
   },
   "pass_times": {
     "tip": "通关次数"
@@ -7617,23 +7653,26 @@
   "commander_prefab_rename_time": {
     "tip": "$1秒経過前は再度変更できません"
   },
-  "task_level_notenough": {
-    "tip": "需要达到$1级才能进行任务"
+  "task_taskMediator_getResource": {
+    "tip": "入手：<color=#92fc63>$1</color>,数量:<color=#92fc63>X$2</color>"
   },
   "commander_prefab_rename_success": {
     "tip": "名前変更成功"
   },
-  "skill": {
-    "tip": "スキル"
+  "attribute_max_distance_damage": {
+    "tip": "爆風軽減"
   },
   "challenge_combat_score": {
     "tip": "ステージ得点：$1"
   },
+  "challenge_season_update_infinite_switch": {
+    "tip": "現在UNLIMITEDモードです。\n現在のステージ:$1\nチャレンジステージが更新されたため、最高クリア数が更新されません。\nモードを切り替えますか？"
+  },
   "word_start": {
     "tip": "増築/強化開始"
   },
-  "challenge_season_update_infinite_switch": {
-    "tip": "現在UNLIMITEDモードです。\n現在のステージ:$1\nチャレンジステージが更新されたため、最高クリア数が更新されません。\nモードを切り替えますか？"
+  "challenge_season_update_casual_switch": {
+    "tip": "現在NORMALモードです。\n累計得点:$1\nチャレンジステージが更新されたため、最高得点が更新されません。\nモードを切り替えますか？"
   },
   "index_shipType_weiXiu": {
     "tip": "工作"
@@ -7644,20 +7683,66 @@
   "ship_profile_voice_locked_meta": {
     "tip": "维修进度达到$1%后解锁(未使用)"
   },
-  "challenge_season_update_casual_switch": {
-    "tip": "現在NORMALモードです。\n累計得点:$1\nチャレンジステージが更新されたため、最高得点が更新されません。\nモードを切り替えますか？"
-  },
-  "level_scene_title_word_5": {
-    "tip": "推奨:"
-  },
-  "word_propose_changename_title": {
-    "tip": "<color=#92fc63>$1</color>はあなたの専属艦になりました。名前を変更しますか？"
+  "error_refresh_sub_chapter": {
+    "tip": "これ以上救援任務を展開できません"
   },
   "challenge_season_update": {
     "tip": "チャレンジステージが更新されました"
   },
+  "word_propose_changename_title": {
+    "tip": "<color=#92fc63>$1</color>はあなたの専属艦になりました。名前を変更しますか？"
+  },
   "challenge_infinite_click_switch": {
     "tip": "現在UNLIMITEDモードです。\n現在のステージ:$1\nモードを切り替えますか?"
+  },
+  "challenge_help": {
+    "tip": [
+      {
+        "info": "  チャレンジモードとは"
+      },
+      {
+        "info": "  ・チャレンジモードとは、高練度の指揮官（Lv80以\n上）が参加可能な期間限定コンテンツになります。\n ・専用の編成で数々のチャレンジステージをクリアし\nていくと、自己最高得点を刷新することができます。\n ・チャレンジモード開催期間中の自己最高得点に応じ\nて、記念チャットフレームを入手できます。\n ・チャレンジのステージは開催期間中、毎週月曜日0\n時にランダムで再構成されます。\n"
+      },
+      {
+        "info": "■遊び方"
+      },
+      {
+        "info": "  1.チャンレンジモード画面では、「編成」でチャレン\nジ専用編成を編成でき、「戦闘開始」でチャレンジステ\nージに挑むことができます"
+      },
+      {
+        "info": "  2.チャレンジステージは複数のステージがあります。\n攻略中は艦船の損傷状況はチャレンジモードでは記憶さ\nれ、次のステージ反映されます。ステージの攻略進捗と\n艦船の損傷状況は戦闘を中断させることでリセットでき\nます。"
+      },
+      {
+        "info": "  3.チャレンジステージにおける戦闘は燃料を消費せず\n、艦船の好感度・勝敗数計算・艦船/指揮官/オフニャ経\n験値には影響しません。チャレンジモード開放期間中に\n何回も挑むことができます。"
+      },
+      {
+        "info": "  4. チャレンジステージをクリアすると、戦闘時間と艦\n船の損傷状況に応じて点が得られます。そして戦闘で中\n断/敗北にならず、ステージを連続でクリアすると、累\n計得点が上乗せされます。"
+      },
+      {
+        "info": "  5.チャレンジモード開放期間中に得られた最高得点に\n応じて、チャレンジモード画面左下で報酬を受け取るこ\nとができます。（各累計得点の達成報酬は1回しか受領\nできません）"
+      },
+      {
+        "info": "  6.チャレンジステージは、チャレンジモード開放期間\n中毎週月曜日0:00に再構成されます。開放期間におけ\nる最高得点はリセットされません。"
+      },
+      {
+        "info": "  7.チャレンジモードのステージを全部クリアすると、\n腕試しモード「UNLIMITED」に切り替えられるよう\nになります。「UNLIMITED」では、チャレンジステ\nージを無限に挑むことができますが、ステージをクリア\nしても点を入手できません。\n"
+      },
+      {
+        "info": "  ■注意点"
+      },
+      {
+        "info": "  ・チャレンジモードでは、オフニャと潜水艦を編成す\nることができます。一回の戦闘につき、潜水支援を1回\n行うことができます。また、潜水艦の損傷状況も記憶さ\nれます。"
+      },
+      {
+        "info": "  ・チャレンジステージ攻略中は専用編成を変更するこ\nとができず、また「緊急修理要員」を使用することがで\nきません。"
+      },
+      {
+        "info": "  ・チャレンジモードの戦闘中はいつでも戦闘を中断す\nることができます。戦闘を中断した場合、ステージの攻\n略進捗がリセットされ、中断時のステージより1個前の\nステージまでの累計得点が計算されます。また、何らか\nの理由（通信状況など）によって戦闘が中断された場合\nでも、手動での戦闘中断したと同じ扱いになります。"
+      },
+      {
+        "info": "  ・チャレンジモードにおける戦闘は月曜日の0:00を\n跨いでしまった場合、ステージが再構成されましたため\n、戦闘を中断してもステージ攻略進捗がリセットされ、\n得点が計算されなくなります。ご注意！"
+      }
+    ]
   },
   "word_star": {
     "tip": "突破"
@@ -7668,20 +7753,84 @@
   "new_airi_error_code_100222": {
     "tip": "Twitter連携に失敗しました"
   },
-  "returner_match_tip": {
-    "tip": "<color=#FF5C5C>ランダムに現役指揮官の</color>UIDを自動入力し、カムバックミッションを始めます。自動検索を行いますか？"
+  "returner_max_count": {
+    "tip": "現役指揮官のカムバック枠が満員です"
   },
   "common_no_item": {
     "tip": "アイテムが<color=#92fc63>[$1]</color>足りません！"
   },
-  "returner_max_count": {
-    "tip": "現役指揮官のカムバック枠が満員です"
-  },
-  "energy_desc_1": {
-    "tip": "もうヘトヘト…\n<color=#FF552E>（出撃すると親密度が下がり、経験値が半分に）</color>"
+  "md5_error": {
+    "tip": "エラーが発生しました。ゲームを再起動してください"
   },
   "tip_pray_build_pool_fail": {
     "tip": "選べる特別建造・構築失敗"
+  },
+  "help_commander_info": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/commander_build",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/commander_info",
+          "path": ""
+        }
+      },
+      "3": {
+        "icon": {
+          "atlas": "helpbg/commander_ability1",
+          "path": ""
+        }
+      },
+      "4": {
+        "icon": {
+          "atlas": "helpbg/commander_ability2",
+          "path": ""
+        }
+      },
+      "5": {
+        "icon": {
+          "atlas": "helpbg/commander_ability3",
+          "path": ""
+        }
+      },
+      "6": {
+        "icon": {
+          "atlas": "helpbg/commander_up",
+          "path": ""
+        }
+      },
+      "7": {
+        "icon": {
+          "atlas": "helpbg/commander_skill1",
+          "path": ""
+        }
+      },
+      "8": {
+        "icon": {
+          "atlas": "helpbg/commander_skill2",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "disableScroll": true,
+      "helpSize": {
+        "y": 1024,
+        "x": 1176
+      },
+      "defaultpage": 2,
+      "windowPos": {
+        "y": -70
+      },
+      "pageMode": true,
+      "windowSize": {
+        "y": 873,
+        "x": 1263
+      }
+    }
   },
   "level_click_to_move": {
     "tip": "移動先を選択してください"
@@ -7689,14 +7838,8 @@
   "word_date": {
     "tip": "日"
   },
-  "formation_forbid_when_in_chapter": {
-    "tip": "艦隊が出撃しています！"
-  },
   "attire_time_stamp": {
     "tip": "$1日$2時間$3分"
-  },
-  "word_shop": {
-    "tip": "ショップ"
   },
   "returner_help": {
     "tip": [
@@ -7705,11 +7848,17 @@
       }
     ]
   },
+  "word_shop": {
+    "tip": "ショップ"
+  },
   "ship_formationMediator_changeNameError_sameShip": {
     "tip": "同じ艦を編成できません"
   },
   "dress_up_success": {
     "tip": "チャット設定変更成功"
+  },
+  "award_window_pt_title": {
+    "tip": "カムバックPt："
   },
   "word_shipType_weiXiu": {
     "tip": "工作"
@@ -7720,14 +7869,14 @@
   "special_animal4": {
     "tip": "[浦波のカワイイ図鑑No.4]\nゆー…ちゃん？：あんなの、ぬいぐるみの動き方じゃありませんよ！"
   },
-  "limit_skin_time_overtime": {
-    "tip": "利用期間外です"
-  },
   "limit_skin_time_min": {
     "tip": "殘り:$1分"
   },
   "word_comingSoon": {
     "tip": "準備中"
+  },
+  "change_display_medal_success": {
+    "tip": "勲章展示設定を変更しました"
   },
   "dont_add_self": {
     "tip": "自分を追加できません"
@@ -7738,11 +7887,11 @@
   "ins_word_minu": {
     "tip": "$1分前"
   },
-  "rename_commander_erro": {
-    "tip": "名前変更失敗$1"
-  },
   "return_award_bind_erro": {
     "tip": "UID入力失敗$1"
+  },
+  "guild_join_cd": {
+    "tip": "大艦隊から脱退すると、24時間は新たな大艦隊に参加できません"
   },
   "word_live2dfiles_checkend": {
     "tip": "更新開始"
@@ -7753,8 +7902,8 @@
   "word_furniture": {
     "tip": "家具"
   },
-  "warning_mail_max_2": {
-    "tip": "メール所持数が上限に達しています。メールを整理してください"
+  "index_rare6": {
+    "tip": "Uレア"
   },
   "friend_fetchFriendMsg_error": {
     "tip": "情報取得失敗:"
@@ -7762,14 +7911,14 @@
   "word_rankScore": {
     "tip": "スコア"
   },
-  "index_rare6": {
-    "tip": "Uレア"
-  },
-  "guild_create_sucess": {
-    "tip": "大艦隊結成成功"
+  "guild_list_refresh_sucess": {
+    "tip": "検索結果が更新されました"
   },
   "index_shipType_qianTing": {
     "tip": "潜水艦"
+  },
+  "ship_shipInfoScene_modLvMax": {
+    "tip": "これ以上突破できません"
   },
   "backyard_backyardScene_name": {
     "tip": "<color=#92fc63>$1の寮舎</color>"
@@ -7777,14 +7926,14 @@
   "guild_create_confirm": {
     "tip": "<icon name=diamond w=0.7 h=0.7/>$1で大艦隊を結成しますか？"
   },
-  "ship_shipInfoScene_modLvMax": {
-    "tip": "これ以上突破できません"
+  "index_shipType_zhongXun": {
+    "tip": "重巡"
   },
   "loading_tip_TipsMgr": {
     "tip": "自己回復機能展開中…"
   },
-  "index_shipType_zhongXun": {
-    "tip": "重巡"
+  "index_shipType_quZhu": {
+    "tip": "駆逐"
   },
   "login_loginMediator_kickLoginOut": {
     "tip": "サーバーとの接続が中断しました"
@@ -7801,8 +7950,8 @@
   "ship_buildShipImmediately_error_finished": {
     "tip": "建造が完了しました"
   },
-  "index_shipType_quZhu": {
-    "tip": "駆逐"
+  "world_stamina_text": {
+    "tip": "燃料を<color=#92fc63>$1</color>消費し行動力を<color=#92fc63>$2</color>回復します（今週回復可能回数$3/$4回）"
   },
   "word_food": {
     "tip": "食糧"
@@ -7822,8 +7971,18 @@
   "login": {
     "tip": "ログ\nイン"
   },
-  "world_stamina_text": {
-    "tip": "燃料を<color=#92fc63>$1</color>消費し行動力を<color=#92fc63>$2</color>回復します（今週回復可能回数$3/$4回）"
+  "help_xinnian2021__meishi": {
+    "tip": [
+      {
+        "info": "■概要\n「饅頭グルメ」とは、艦船の買い出しの依頼に応じ、制\n限時間内にみんなが欲しがる食べ物を屋台で購入するミ\nニゲームになります。\n正しい食べ物を購入すると、制限時間が増加し、得点を\n得ることができます。\n\n制限時間終了、もしくはゲームを中断した場合、ゲーム\nクリアになります。"
+      },
+      {
+        "info": "■遊び方"
+      },
+      {
+        "info": "・ゲーム回数を所持している状態でミニゲームをクリア\nすると、アイテム「グルメ券」を入手できます。「グル\nメ券」を7つ集めると、駆逐艦「Z28」を入手できます。\n・「スタート」をタップすると、画面左のキャラに買い\n出し内容が表示されます。\n・5秒後、買い出し内容の表示が消え、代わりに購入でき\nる食べ物の一覧が出現します。\n・制限時間内に食べ物のアイコンをタップすると、購入す\nる食べ物を選択することができます。また選択済みの食\nべ物アイコンをタップすると、選択をキャンセルするこ\nとができます。\n・食べ物を3種類選択すると、買い出し結果画面が表示さ\nれます。\n・購入した食べ物が買い出し内容と一致（並び順を含む）\nした場合、得点を入手することができます。\n・結果画面で「続ける」をタップすると、ミニゲームを継\n続することができます。「終了」をタップするか、もしく\nは制限時間が0になると、ミニゲームを終了できます。"
+      }
+    ]
   },
   "ship_formationUI_fleetName11": {
     "tip": "第一潜水艦隊"
@@ -7831,8 +7990,8 @@
   "resourceSite_beginScanMap_error": {
     "tip": "索敵失敗:"
   },
-  "world_instruction_submarine_7": {
-    "tip": "当前海域部署的潜艇舰队弹药耗尽，是否消耗\n$1行动力为潜艇舰队补充弹药并恢复状态？\n(当前行动力：$2；指令使用间隔越短，行动力消耗越高)"
+  "intimacy_desc_propose_vertical": {
+    "tip": "愛は幸せの導き、想いは永遠の絆\n守りたいものはあなたの笑顔\nお互いを深く愛し、支え合い\n末永く運命を共にすることを、誓います\n\n         $1"
   },
   "eva_ship_success": {
     "tip": "送信しました"
@@ -7849,32 +8008,32 @@
   "word_wall": {
     "tip": "壁飾り"
   },
-  "number_0": {
-    "tip": "零"
+  "word_votes": {
+    "tip": "得票数量"
   },
   "equipment_select_device_tip": {
     "tip": "装備を選択してください"
   },
-  "word_votes": {
-    "tip": "得票数量"
+  "electrotherapy_wanning": {
+    "tip": "鏡面海域化領域・接近中"
   },
   "word_least_page": {
     "tip": "最小"
   },
-  "electrotherapy_wanning": {
-    "tip": "鏡面海域化領域・接近中"
+  "blueprint_simulation_confirm_89902": {
+    "tip": "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型406mm/50三連装砲\n152mm三連装砲Mle1930\n二連装37mm高射砲Mle1936</color></size>"
   },
   "battle_resourceSiteMediator_shipState_rest": {
     "tip": "寮舎で休憩中です…"
   },
-  "blueprint_simulation_confirm_89902": {
-    "tip": "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型406mm/50三連装砲\n152mm三連装砲Mle1930\n二連装37mm高射砲Mle1936</color></size>"
+  "blueprint_simulation_confirm_49904": {
+    "tip": "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型305mmSKC39三連装砲\n533mm四連装磁気魚雷\n105mmSKC連装高角砲</color></size>"
   },
   "guild_sort_cszz": {
     "tip": "レッドアクシズ"
   },
-  "blueprint_simulation_confirm_49904": {
-    "tip": "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型305mmSKC39三連装砲\n533mm四連装磁気魚雷\n105mmSKC連装高角砲</color></size>"
+  "blueprint_simulation_confirm_29903": {
+    "tip": "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型234mm連装砲\n533mm四連装魚雷\n連装ボフォース40mm機関砲STAAG</color></size>"
   },
   "commander_unlock_done": {
     "tip": "保護解除に成功しました"
@@ -7885,14 +8044,14 @@
   "charge_commander_bag_max": {
     "tip": "猫ハウス（オフニャ所持数）が上限になっています。これ以上増築できません"
   },
-  "blueprint_simulation_confirm_29903": {
-    "tip": "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型234mm連装砲\n533mm四連装魚雷\n連装ボフォース40mm機関砲STAAG</color></size>"
-  },
   "blueprint_simulation_confirm_99901": {
     "tip": "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n380mm四連装砲Mle1935\n152mm三連装砲Mle1930\n二連装37mm高射砲Mle1936</color></size>"
   },
   "blueprint_simulation_confirm_39904": {
     "tip": "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n試作型三連装310mm砲\n100mm二連装九八式高角砲\n試作型五式40mm高射機関砲</color></size>"
+  },
+  "blueprint_simulation_confirm_39903": {
+    "tip": "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n100mm二連装九八式高角砲\n610mm四連装魚雷\n試作型五式40mm高射機関砲</color></size>"
   },
   "word_shipType_hangMu": {
     "tip": "空母"
@@ -7900,17 +8059,14 @@
   "resource_max_tip_collect": {
     "tip": "報酬を受け取ることができません"
   },
-  "blueprint_simulation_confirm_39903": {
-    "tip": "<size=28>弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）\n使用兵装：<color=#ff5c5c>\n100mm二連装九八式高角砲\n610mm四連装魚雷\n試作型五式40mm高射機関砲</color></size>"
-  },
   "blueprint_simulation_confirm": {
     "tip": "弾幕確認機能（模擬戦）を起動しますか？\n(※実際の艦の性能とは異なります）"
   },
+  "fate_phase_word": {
+    "tip": "研究進捗"
+  },
   "equip_ammo_type_5": {
     "tip": "通常"
-  },
-  "mingshi_task_tip_1": {
-    "tip": "見つかったにゃ？\n暗号は……<<color=#92fc63>T</color>>\n次の目標は…<<color=#92fc63>素材を置く場所</color>>にゃ！"
   },
   "technology_uplevel_error_studying": {
     "tip": "$1—陣営技術を強化中です"
@@ -7918,14 +8074,11 @@
   "levelScene_chapter_win": {
     "tip": "中枢艦隊撃破、ステージクリア"
   },
+  "destory_important_equipment_tip": {
+    "tip": "装備<color=#FFDE00FF>“$1”</color>を廃棄しますか？下の枠に装備の名前を入力してください"
+  },
   "change_skin_secretary_ship": {
     "tip": "秘書艦に設定する"
-  },
-  "tech_simulate_closed": {
-    "tip": "弾幕確認機能が開放されていませ"
-  },
-  "destroy_high_level_tip": {
-    "tip": "<color=#92fc63>$1Lv1以外</color>"
   },
   "help_battle_ac": {
     "tip": [
@@ -7934,8 +8087,11 @@
       }
     ]
   },
-  "elite_condition_torpedo": {
-    "tip": "雷撃合計"
+  "destroy_high_level_tip": {
+    "tip": "<color=#92fc63>$1Lv1以外</color>"
+  },
+  "elite_condition_durability": {
+    "tip": "耐久合計"
   },
   "black_white_grid_switch_tip": {
     "tip": "本局游戏未结束，无法切换"
@@ -7943,8 +8099,11 @@
   "black_white_grid_reset": {
     "tip": "是否重置?"
   },
-  "reject_friend_ok": {
-    "tip": "拒否しました"
+  "reject_all_friend_ok": {
+    "tip": "一括拒否しました"
+  },
+  "word_propose_ring_tip": {
+    "tip": "未来の専属艦に、誓いの指輪を――"
   },
   "equipment_upgrade_quick_interface_feedback_source_chosen": {
     "tip": "素材となる装備を選択してください"
@@ -7952,8 +8111,8 @@
   "elite_condition_reload": {
     "tip": "装填合計"
   },
-  "ambush_display_3": {
-    "tip": "普通"
+  "chapter_tip_change": {
+    "tip": "陣形変更：$1"
   },
   "world_collection_back": {
     "tip": "タップで戻る"
@@ -7964,14 +8123,14 @@
   "main_navalAcademyScene_quest_stopClass": {
     "tip": "0"
   },
-  "error_refresh_sub_chapter": {
-    "tip": "これ以上救援任務を展開できません"
+  "text_retreat": {
+    "tip": "撤 退"
   },
   "amercian_notice_5": {
     "tip": "本段階はまだ開放されていません"
   },
-  "text_retreat": {
-    "tip": "撤 退"
+  "text_exchange": {
+    "tip": "交 換"
   },
   "help_shipinfo_hunting": {
     "tip": [
@@ -7980,17 +8139,17 @@
       }
     ]
   },
-  "text_exchange": {
-    "tip": "交 換"
+  "text_nextpage": {
+    "tip": "次へ"
   },
   "commander_play_erro": {
     "tip": "強化に失敗しました$1"
   },
-  "text_nextpage": {
-    "tip": "次へ"
-  },
   "text_prepage": {
     "tip": "前へ"
+  },
+  "text_apply": {
+    "tip": "申 請"
   },
   "guild_word_sea": {
     "tip": "近海"
@@ -7998,23 +8157,23 @@
   "commander_lock_done": {
     "tip": "保護に成功しました"
   },
-  "text_clear": {
-    "tip": "クリア"
+  "text_exit": {
+    "tip": "戻 る"
   },
   "word_shipState_activity": {
     "tip": "この艦は特別作戦編成に編成されています"
   },
-  "text_exit": {
-    "tip": "戻 る"
+  "take_all_mail": {
+    "tip": "<color='#92fc63FF'>全てのメールを開封</color>しますか？"
   },
-  "technology_task_build_tip": {
-    "tip": "研究開始するには下記の資源・アイテムを消費します：$1"
+  "common_no_limit": {
+    "tip": "無制限"
   },
-  "backyard_food_remind": {
-    "tip": "<color=yellow>$1</color>は食糧庫の上限までしか補充出来ません。本当に使用しますか?"
+  "levelScene_map_lock": {
+    "tip": "この章をクリアする必要があります"
   },
-  "buy_item_quest": {
-    "tip": "購入しますか？"
+  "trophy_achieved": {
+    "tip": "勲章を入手しました！"
   },
   "levelScene_sham_win": {
     "tip": "「鏡面海域」掃討完了"
@@ -8022,63 +8181,17 @@
   "guild_tech_label_condition": {
     "tip": "物資進捗が上昇しました"
   },
-  "medal_help_tip": {
-    "tip": [
-      {
-        "info": "-栄典勲章について"
-      },
-      {
-        "info": "・「栄典勲章」とは、指揮官の作戦における活躍を実\n績（勲章）として登録できるシステムになります。"
-      },
-      {
-        "info": "・入手した勲章、未入手の勲章の入手条件については\n「栄典勲章」で確認することができます。"
-      },
-      {
-        "info": "-勲章の入手方法について"
-      },
-      {
-        "info": "・勲章の入手条件を満たすと「栄典勲章」で勲章を入手\nすることができます。"
-      },
-      {
-        "info": "・複数の勲章の入手条件を同時に満たすこともできます"
-      },
-      {
-        "info": "・同じ種類の勲章にはレベルがあり、下のレベルの勲章\nを入手すると、上のレベルの勲章が解禁されます。"
-      },
-      {
-        "info": "・一部の勲章は入手するために複数の条件を達成する必\n要があるものも存在します。"
-      },
-      {
-        "info": "-勲章を飾ろう"
-      },
-      {
-        "info": "・入手した勲章は指揮官のプロフィール画面で飾ること\nができます。"
-      },
-      {
-        "info": "・プロフィール画面に飾られている勲章は、他人から見\nる「個人情報画面」と「履歴画面」にも表示されます。"
-      },
-      {
-        "info": "-その他"
-      },
-      {
-        "info": "・艦船の育成（練度/親密度）に関する入手条件は、一\n種類の艦船を複数隻所持しても、最高値の一隻分しか計\n算されません。"
-      },
-      {
-        "info": "・改造（近代化改修）済みの艦船は改造前の艦船と同じ\n艦船として計算されます。"
-      },
-      {
-        "info": "・艦船を退役させても、入手条件の進捗には影響しませ\nん。"
-      }
-    ]
-  },
   "medal_notice_2": {
     "tip": "選択中"
+  },
+  "medal_notice_1": {
+    "tip": "最高レベルの勲章のみ表示"
   },
   "guild_modify_erro": {
     "tip": "情報変更に失敗しました"
   },
-  "medal_notice_1": {
-    "tip": "最高レベルの勲章のみ表示"
+  "backyard_class_tip": {
+    "tip": "授業に参加すると経験値が上昇します"
   },
   "charge_success": {
     "tip": "購入に成功しました"
@@ -8092,8 +8205,8 @@
   "option_desc8": {
     "tip": "ONにすると、自分の寮舎画面で来訪した（寮舎表示をONにした）友達の秘書艦が表示される"
   },
-  "backyard_rest_tip": {
-    "tip": "寮舎の「休憩」に配置された艦はコンディションが回復する"
+  "word_shipState_tactics": {
+    "tip": "戦術教室で勉強中です"
   },
   "oil_buy_limit_tip": {
     "tip": "<size=22>(本日購入可能回数<color=#ff5c5c>$1</color>/$2回)</size>"
@@ -8107,9 +8220,6 @@
   "building_complete_tip": {
     "tip": "増築に成功しました"
   },
-  "mission": {
-    "tip": "任務"
-  },
   "no_airspace_competition": {
     "tip": "制空戦なし"
   },
@@ -8120,6 +8230,9 @@
       }
     ]
   },
+  "backyard_is_loading": {
+    "tip": "ただいま家具を準備しています…"
+  },
   "mingshi_get_tip": {
     "tip": "「奇妙な素材」を発見しました！"
   },
@@ -8129,8 +8242,8 @@
   "list_empty_tip_equipmentdesignui": {
     "tip": "設計図を所持していません"
   },
-  "world_boss_award_limit": {
-    "tip": "作戦進捗<color=#FFDE00FF>$1%</color>で開放"
+  "world_boss_tip": {
+    "tip": "「<color=#7e7e7f>$1</color>」が作戦進捗に<color=#8299bc>$2</color>Ptを貢献しました！"
   },
   "help_summer_feast": {
     "tip": [
@@ -8144,12 +8257,6 @@
   },
   "technology_stop_tip": {
     "tip": "研究を中止しますか？（消費したアイテム・資源は元に戻りません）"
-  },
-  "md5_error": {
-    "tip": "エラーが発生しました。ゲームを再起動してください"
-  },
-  "reconnect_tip": {
-    "tip": "通信エラーが発生しました。再接続しますか？\n[$1]"
   },
   "help_monopoly": {
     "tip": [
@@ -8226,8 +8333,14 @@
       }
     ]
   },
+  "reconnect_tip": {
+    "tip": "通信エラーが発生しました。再接続しますか？\n[$1]"
+  },
   "exit_backyard_exp_display": {
     "tip": "$1が訓練で$2の経験値を入手しました"
+  },
+  "tag_level_oni": {
+    "tip": "特殊单位"
   },
   "commander_fleet_pos_not_exist": {
     "tip": "オフニャが装備されていません"
@@ -8235,17 +8348,14 @@
   "test_ship_upgrade_tip": {
     "tip": "ブリは限界突破できません"
   },
-  "tag_level_oni": {
-    "tip": "特殊单位"
-  },
   "tag_level_fighting": {
     "tip": "攻略中"
   },
-  "ship_updateShipLock_ok_unlock": {
-    "tip": "<color=#92fc63>$1</color>をアンロックしました"
-  },
   "school_title_xueyuan": {
     "tip": "戦術教室"
+  },
+  "ship_updateShipLock_ok_unlock": {
+    "tip": "<color=#92fc63>$1</color>をアンロックしました"
   },
   "common_count_noenough": {
     "tip": "回数が足りません"
@@ -8253,17 +8363,17 @@
   "levelScene_activate_loop_mode_failed": {
     "tip": "海域危険度が【安全海域】・海域★3達成で周回モードを選択できるようになります"
   },
-  "ship_vo_inClass": {
-    "tip": "戦術教室で勉強中です"
-  },
   "draw_little_luck_3": {
     "tip": "明石のお店に来ると運も良くなるかもにゃ～"
   },
-  "ship_getShip_error_full": {
-    "tip": "<color=#92fc63>ドックが一杯です</color>"
+  "ship_vo_inClass": {
+    "tip": "戦術教室で勉強中です"
   },
   "draw_medium_luck_3": {
     "tip": "明石にも運を分けてほしいにゃ！"
+  },
+  "ship_getShip_error_full": {
+    "tip": "<color=#92fc63>ドックが一杯です</color>"
   },
   "draw_medium_luck_2": {
     "tip": "運が続いているうちに頑張るにゃ！"
@@ -8274,23 +8384,26 @@
   "draw_big_luck_3": {
     "tip": "今日はきっといいことがあるにゃ！"
   },
-  "word_soundfiles_retry": {
-    "tip": "リトライ"
-  },
   "draw_big_luck_2": {
     "tip": "豪運にゃ！ちょっと羨ましいにゃ～"
   },
-  "resource_max_tip_battle": {
-    "tip": "出撃すると資源は入手できません。本当に出撃しますか？"
+  "word_soundfiles_retry": {
+    "tip": "リトライ"
+  },
+  "guild_duty_tip_1": {
+    "tip": "<color=#7FAFFF>職務</color>"
   },
   "map_event_save_rurutie": {
     "tip": "<color=#92fc63>ルルティエ</color>の救出に成功しました！"
   },
+  "word_photo_mode": {
+    "tip": "カメラ"
+  },
   "backyard_backyardShipInfoMediator_error_fleetOnlyOneShip": {
     "tip": "艦隊は一隻以上が必須です！"
   },
-  "word_video_mode": {
-    "tip": "録画"
+  "map_event_skip": {
+    "tip": "既読ストーリーをスキップする"
   },
   "world_word_friend": {
     "tip": "友達"
@@ -8310,20 +8423,14 @@
   "main_navalAcademyScene_upgrade_complete": {
     "tip": "$1増築完了、備蓄上限+$2"
   },
-  "word_chuansong": {
-    "tip": "コイン"
-  },
   "npc_strength_tip": {
     "tip": "イベント終了時「正式加入」していないキャラは母港からいなくなります。※強化・限界突破に使用したアイテムは返還されません。続けますか？"
   },
   "npc_propse_tip": {
     "tip": "「正式加入」していないコラボキャラはケッコンを行えません"
   },
-  "amercian_notice_3": {
-    "tip": "報酬交換期間：2019.1.24~2.20"
-  },
-  "just_now": {
-    "tip": "直前"
+  "amercian_notice_2": {
+    "tip": "※目標報酬を全て入手後、次の段階が開放されます"
   },
   "utaware_formal_notice": {
     "tip": [
@@ -8344,20 +8451,23 @@
       }
     ]
   },
-  "backyard_backyardScene_error_noFurniture": {
-    "tip": "配置できる家具がありません"
+  "just_now": {
+    "tip": "直前"
   },
   "spece_illegal_tip": {
     "tip": "名前にスペースを入れることはできません"
   },
+  "backyard_backyardScene_error_noFurniture": {
+    "tip": "配置できる家具がありません"
+  },
   "ranking_word_10": {
     "tip": "演習Pt"
   },
+  "ranking_word_9": {
+    "tip": "得点"
+  },
   "guild_left_donate_cnt": {
     "tip": "残り拠出回数：$1回"
-  },
-  "ranking_word_3": {
-    "tip": "0"
   },
   "ranking_word_2": {
     "tip": "入手率"
@@ -8371,14 +8481,14 @@
   "amercian_notice_4": {
     "tip": "女王の褒章"
   },
+  "amercian_notice_3": {
+    "tip": "報酬交換期間：2019.1.24~2.20"
+  },
   "npc_learn_skill_tip": {
     "tip": "イベント終了時「正式加入」していないキャラは母港からいなくなります。※スキル強化に使用したアイテムは返還されません。続けますか？"
   },
   "intimacy_desc_7": {
     "tip": "$1があなたにすべてを託している"
-  },
-  "amercian_notice_2": {
-    "tip": "※目標報酬を全て入手後、次の段階が開放されます"
   },
   "commander_lock_tip": {
     "tip": "オフニャを保護しますか？"
@@ -8411,31 +8521,16 @@
       }
     ]
   },
+  "commander_build_rate_tip": {
+    "tip": "ネコハコ出現率：SSR 5%、SR 35%、R 60%"
+  },
   "world_shop_bag_unactivated": {
     "tip": "セイレーン作戦が開放されていないため、ショップを利用できません"
   },
   "backyard_rename_success": {
     "tip": "寮舎名前変更成功"
   },
-  "commander_build_rate_tip": {
-    "tip": "ネコハコ出現率：SSR 5%、SR 35%、R 60%"
-  },
-  "guild_tech_consume_tip": {
-    "tip": "<icon name=guildicon w=0.7 h=0.7/>$1と<icon name=gold w=0.7 h=0.7/>$2を消費し【$3】を増築 しようとしています。増築を行いますか？"
-  },
-  "world_instruction_submarine_2": {
-    "tip": "行動力を$1消費し、潜水支援を行いますか？（指揮官行動力：$2 指揮官指令は前に発動した指令からの時間経過に応じて消費行動力が変化します）"
-  },
-  "commission_idle": {
-    "tip": "待機枠"
-  },
-  "meta_voice_name_feeling2": {
-    "tip": "認識"
-  },
-  "warning_pray_build_pool": {
-    "tip": "「選べる特別建造」の出現率変更の艦船を<color=#FF5C5C>確定すると以後</color>変更できません。\n出現確率変更艦船を選び直しますか？"
-  },
-  "help_commander_info": {
+  "help_command_room": {
     "tip": {
       "1": {
         "icon": {
@@ -8491,7 +8586,7 @@
         "y": 1024,
         "x": 1176
       },
-      "defaultpage": 2,
+      "defaultpage": 1,
       "windowPos": {
         "y": -70
       },
@@ -8502,8 +8597,26 @@
       }
     }
   },
+  "guild_tech_consume_tip": {
+    "tip": "<icon name=guildicon w=0.7 h=0.7/>$1と<icon name=gold w=0.7 h=0.7/>$2を消費し【$3】を増築 しようとしています。増築を行いますか？"
+  },
+  "world_instruction_submarine_2": {
+    "tip": "行動力を$1消費し、潜水支援を行いますか？（指揮官行動力：$2 指揮官指令は前に発動した指令からの時間経過に応じて消費行動力が変化します）"
+  },
+  "commission_idle": {
+    "tip": "待機枠"
+  },
+  "meta_voice_name_feeling2": {
+    "tip": "認識"
+  },
+  "warning_pray_build_pool": {
+    "tip": "「選べる特別建造」の出現率変更の艦船を<color=#FF5C5C>確定すると以後</color>変更できません。\n出現確率変更艦船を選び直しますか？"
+  },
   "apply_permission_record_audio_tip1": {
     "tip": "ARカメラ機能を利用するには、\n写真の撮影と動画の利用を許可する必要があります"
+  },
+  "ship_energy_low_desc": {
+    "tip": "疲労\n 出撃すると親密度が下がり、もらえる経験値が半分に"
   },
   "world_catsearch_help_3": {
     "tip": {
@@ -8532,20 +8645,20 @@
   "msgbox_text_noPos_buy": {
     "tip": "拡 張"
   },
-  "newplayer_notice_8": {
-    "tip": "海域を上手く攻略できない時は、「新兵任務」で様々な報酬を手に入れて戦力を充実させましょう！"
+  "newplayer_notice_3": {
+    "tip": "上級任務全クリアで開放"
   },
   "meta_cur_pt": {
     "tip": "解析Pt"
   },
-  "charge_items_title": {
-    "tip": "下記アイテムを入手できます"
+  "reflux_word_1": {
+    "tip": "残り時間"
   },
   "ship_remould_max_level": {
     "tip": "改造が最大になっています"
   },
-  "reflux_word_2": {
-    "tip": "開放"
+  "buildship_light_tip": {
+    "tip": "「ヘイゼルウッド」、「荒潮」常設実装！"
   },
   "common_activity_not_start": {
     "tip": "イベントはまだ開始されていません"
@@ -8712,14 +8825,35 @@
       }
     ]
   },
-  "buildship_light_tip": {
-    "tip": "「ヘイゼルウッド」、「荒潮」常設実装！"
-  },
-  "build_ship_quickly_buy_tool": {
-    "tip": "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>ダイヤを消費して、\n高速建造材を<color=#92fc63>$2</color>個購入しますか？"
+  "build_ship_quickly_buy_stone": {
+    "tip": "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>ダイヤを消費して、\nキューブを<color=#92fc63>$2</color>個購入しますか？"
   },
   "commander_material_is_maxLevel": {
     "tip": "オフニャのレベルが最大になっています。これ以上強化を行っても経験値が得られません。続けますか？"
+  },
+  "tactics_lesson_system_introduce": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/tactics",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "disableScroll": true,
+      "helpSize": {
+        "y": 1024,
+        "x": 1176
+      },
+      "windowPos": {
+        "y": -70
+      },
+      "pageMode": true,
+      "windowSize": {
+        "y": 873,
+        "x": 1263
+      }
+    }
   },
   "escort_less_count_to_combat": {
     "tip": "今日はこれ以上挑戦できません"
@@ -8727,11 +8861,8 @@
   "login_newPlayerScene_name_tooLong": {
     "tip": "名前が長すぎです"
   },
-  "attribute_antisub": {
-    "tip": "対潜"
-  },
-  "skin_remain_time": {
-    "tip": "販売終了まで"
+  "word_take_video_tip": {
+    "tip": "録画中に右側のボタンをタップすると録画を終了することが出来ます"
   },
   "commander_capcity_is_max": {
     "tip": "猫ハウスがいっぱいにゃ…"
@@ -8745,17 +8876,20 @@
   "commander_build_done": {
     "tip": "オフニャ訓練開始！"
   },
-  "common_compare_larger": {
-    "tip": ">"
+  "elite_condition_air": {
+    "tip": "航空合計"
+  },
+  "word_ssr": {
+    "tip": "SSR"
   },
   "guild_word_consume": {
     "tip": "消費"
   },
-  "commander_reset_talent": {
-    "tip": "リセット可能"
-  },
   "commander_reset_talent_tip": {
     "tip": "アビリティをリセットしますか？"
+  },
+  "ship_destroy_advanced_tip": {
+    "tip": "退役艦船に<color=#92fc63>Lvが2以上</color>の艦船がありますが、続けますか？"
   },
   "word_soundfiles_update_end_title": {
     "tip": "ボイス更新完了"
@@ -8763,14 +8897,14 @@
   "world_catsearch_stop": {
     "tip": "サルベージ作業を中止し、オフニャを呼び戻りますか？（ターン経過分の報酬を入手できます）"
   },
-  "oil_buy_tip": {
-    "tip": "<icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>$1</color></size>で  <size=30><color=#92fc63>$2</color></size><size=30> 燃料を購入する</size><size=2>\n\n</size><size=30>( 本日購入 <size=30><color=#FF0000>$3</color></size> 回 )</size>"
+  "commander_reset_talent_is_not_need": {
+    "tip": "初期状態ではリセットできません"
   },
   "guild_msg_is_null": {
     "tip": "空メッセージは送信できません。"
   },
-  "commander_reset_talent_is_not_need": {
-    "tip": "初期状態ではリセットできません"
+  "commander_lock_erro": {
+    "tip": "保護に失敗しました$1"
   },
   "login_loginScene_error_noMailBox": {
     "tip": "メールアドレスを入力してください"
@@ -8787,11 +8921,11 @@
   "backyarad_theme_replace": {
     "tip": "セット【$1】のアイテムの一部はほかの階に配置されています。配置中のアイテムをスキップしました"
   },
-  "commander_lock_erro": {
-    "tip": "保護に失敗しました$1"
-  },
   "commander_equip_to_fleet_erro": {
     "tip": "オフニャを装備できませんでした$1"
+  },
+  "commander_talent_learned": {
+    "tip": "アビリティ$1を習得しました"
   },
   "vote_final_rule2": {
     "tip": "本戦ランキング上位艦に新しい衣装が実装される可能性があります。"
@@ -8802,8 +8936,8 @@
   "event_giveup": {
     "tip": "委託中止"
   },
-  "commander_talent_learned": {
-    "tip": "アビリティ$1を習得しました"
+  "commander_replace_talent_not_exist": {
+    "tip": "不正なアビリティ（変更先のアビリティ）です"
   },
   "lanternRiddles_wait_for_reanswer": {
     "tip": "再回答時間が経過すると再度回答できるようになります！"
@@ -8811,17 +8945,11 @@
   "login_gate_not_ready": {
     "tip": "ただいまメンテナンス中です"
   },
-  "discount_time": {
-    "tip": "<color=grey>割引残り時間</color> <color=#92fc63>$1</color>"
-  },
   "acl_gold_total_count": {
     "tip": "累計資金消費："
   },
   "acl_gold_count": {
     "tip": "目標消費："
-  },
-  "word_kiss": {
-    "tip": "(*ﾟ▽ﾟ*)"
   },
   "goldship_help_tip": {
     "tip": [
@@ -8854,14 +8982,20 @@
       }
     ]
   },
+  "word_kiss": {
+    "tip": "(*ﾟ▽ﾟ*)"
+  },
+  "word_museum_1": {
+    "tip": "今日はこれ以上モデルパーツを入手できません"
+  },
   "new_airi_error_code_100302": {
     "tip": "認証メッセージの送信回数が上限に達したため、しばらく経ってからお試しください"
   },
   "backyard_shipAddMoney_ok": {
     "tip": "<color=#92fc63>$1</color>が<color=#92fc63>$2</color>コインを発見しました！"
   },
-  "word_museum_1": {
-    "tip": "今日はこれ以上モデルパーツを入手できません"
+  "skin_remain_time": {
+    "tip": "販売終了まで"
   },
   "commander_select_matiral_erro": {
     "tip": "オフニャのレベルが最大になっています。同じ名前のオフニャを消費するスキル強化以外強化を行えません"
@@ -8869,14 +9003,11 @@
   "world_instruction_submarine_6": {
     "tip": "エリア移動を行うと、潜水艦隊が出撃待機状態になります。エリア移動を行いますか？"
   },
-  "word_take_video_tip": {
-    "tip": "録画中に右側のボタンをタップすると録画を終了することが出来ます"
+  "acl_oil_count": {
+    "tip": "目標消費"
   },
   "chapter_ap_not_enough": {
     "tip": "AP不足"
-  },
-  "acl_oil_count": {
-    "tip": "目標消費"
   },
   "resource_verify_fail": {
     "tip": "キャッシュクリアが完了しました。「確定」をタップしてゲームを再起動し、最新データの適用をお願いします$1"
@@ -8884,11 +9015,14 @@
   "levelScene_chapter_is_activation": {
     "tip": "海域<color=#92fc63>$1</color>に出撃しています。海域攻略状況を確認しますか？\n（撤退で出撃中の海域から撤退することが可能です）"
   },
+  "friend_resume_manoeuvre_count": {
+    "tip": "演習回数:"
+  },
   "help_build": {
     "tip": "\t\t\t\t\t   <size=25>$1建造概率分布</size>\n\n\t\t\t\t\t\t\t<color=#ffde38>超稀有舰船</color>：$2%\n\t\t\t\t\t\t\t <color=#d797ff>精锐舰船</color>：$3%\n\t\t\t\t\t\t\t <color=#3dc6ff>稀有舰船</color>：$4%\n\t\t\t\t\t\t\t 普通舰船：$5%"
   },
-  "friend_event_count": {
-    "tip": "委託達成:"
+  "reflux_word_2": {
+    "tip": "開放"
   },
   "world_battle_pause": {
     "tip": "OPERATION"
@@ -8902,11 +9036,11 @@
   "open_skill_pos": {
     "tip": "<icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffde38>$1</color>を消費し\n教室枠を拡張しますか？"
   },
-  "reflux_word_1": {
-    "tip": "残り時間"
-  },
   "word_save_ok": {
     "tip": "写真を保存しました"
+  },
+  "word_video_mode": {
+    "tip": "録画"
   },
   "world_task_maplock": {
     "tip": "エリア内に未完了の任務が存在しているため、エリアから移動できません。<color=#ff5c5c>情報</color>で確認してください"
@@ -8926,9 +9060,6 @@
   "word_sell_out": {
     "tip": "売切れ"
   },
-  "diamond": {
-    "tip": "ダイヤ"
-  },
   "oil": {
     "tip": "燃料"
   },
@@ -8937,6 +9068,9 @@
   },
   "touch_body": {
     "tip": "タッチ\n1"
+  },
+  "mission_complete": {
+    "tip": "任務\n完了"
   },
   "shop_buyItem_error": {
     "tip": "購入失敗:"
@@ -8947,14 +9081,14 @@
   "backyard_theme_bought": {
     "tip": "既に購入済みです"
   },
-  "mission_complete": {
-    "tip": "任務\n完了"
+  "mission": {
+    "tip": "任務"
   },
   "air_supremacy_value": {
     "tip": "制空値"
   },
-  "complete": {
-    "tip": "委託\n完了"
+  "main_2": {
+    "tip": "メイン\n2"
   },
   "intimacy_desc_3_buff": {
     "tip": "補正値：全性能（速力、装備以外）1%アップ"
@@ -8962,11 +9096,11 @@
   "world_fleetName4": {
     "tip": "第 四 艦 隊"
   },
-  "main_2": {
-    "tip": "メイン\n2"
+  "equipment_skin_unmatch_equipment": {
+    "tip": "この兵装は装備中の外装を適用できません。外装は倉庫に戻されました"
   },
-  "twitter_link_title": {
-    "tip": "連携中のツイッター：$1"
+  "world_consume_carry_tips": {
+    "tip": "未配置tip"
   },
   "firend_relieve_blacklist_tip": {
     "tip": "$1をブロックリストから削除しますか？"
@@ -8980,8 +9114,8 @@
   "guild_boss_formation_exist_invaild_ship": {
     "tip": "大艦隊メンバーの支援派遣編成が変更されたため、強敵戦編成が更新されました。"
   },
-  "levelScene_tracking_error_pre": {
-    "tip": "<color=#92fc63>$1</color>クリアで参加可能"
+  "backyard_addFood_error": {
+    "tip": "食糧補充失敗:"
   },
   "levelScene_escort_help_tip": {
     "tip": [
@@ -9014,11 +9148,11 @@
   "word_attr_air": {
     "tip": "航空"
   },
-  "backyard_addFood_error": {
-    "tip": "食糧補充失敗:"
-  },
   "ai_change_1": {
     "tip": "潜水艦隊・支援待機態勢に移行しました"
+  },
+  "guild_modify_info_tip": {
+    "tip": "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>で大艦隊名を変更しますか？"
   },
   "playerinfo_mask_word": {
     "tip": "NGワードが含まれています"
@@ -9026,14 +9160,14 @@
   "new_airi_error_code_200130": {
     "tip": "購入に失敗しました、決済システムにエラーが発生しました"
   },
-  "guild_modify_info_tip": {
-    "tip": "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>で大艦隊名を変更しますか？"
+  "guild_log_new_guild_join": {
+    "tip": "新メンバー <color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> が大艦隊に参加しました"
   },
   "word_expAdd": {
     "tip": "EXP+$1"
   },
-  "guild_log_quit": {
-    "tip": "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color>が大艦隊から脱退しました"
+  "anniversary_task_title_14": {
+    "tip": "あなたは、支配されない自我を持つ「ニンゲン」に相応しい――"
   },
   "levelScene_new_chapter_coming": {
     "tip": "新章開放"
@@ -9041,17 +9175,17 @@
   "tec_target_catchup_progress": {
     "tip": "当期強化ユニット累計入手数"
   },
-  "word_live2dfiles_main_update_tip": {
-    "tip": "Live2Dアセットを更新する必要があります。アセットを更新しますか？"
-  },
   "anniversary_task_title_11": {
     "tip": "鋼の記憶をリュウコツに、人々の願いで形作られし者、"
+  },
+  "anniversary_task_title_10": {
+    "tip": "いわば敬虔。輝く物語の結末を夢見る者に書き手のご加護あれ。"
   },
   "resource_max_tip_event": {
     "tip": "委託報酬を受け取ることができません"
   },
-  "anniversary_task_title_10": {
-    "tip": "いわば敬虔。輝く物語の結末を夢見る者に書き手のご加護あれ。"
+  "anniversary_task_title_6": {
+    "tip": "いわば勇気。自由を信ずる者は机械なる神の叡冠を戴くが運命。"
   },
   "guild_supply_help_tip": {
     "tip": [
@@ -9084,11 +9218,11 @@
   "invalidate_evaluation": {
     "tip": "NGワードが含まれています"
   },
-  "anniversary_task_title_3": {
-    "tip": "科学の世紀の終焉に、芽生えた革命の種子は反撃の旌旗を翻し、"
-  },
   "anniversary_task_title_2": {
     "tip": "共に進むは波を切る鋼鉄の大翼、想い寄せられし歴史の結び目。"
+  },
+  "hide_chat_warning": {
+    "tip": "チャット機能を停止すると、チャットメッセージを受信しなくなります。チャット機能を停止しますか？"
   },
   "which_day_2": {
     "tip": "$1日目"
@@ -9099,20 +9233,48 @@
   "word_shipInfoScene_equip": {
     "tip": "艦船装備"
   },
-  "hide_chat_warning": {
-    "tip": "チャット機能を停止すると、チャットメッセージを受信しなくなります。チャット機能を停止しますか？"
+  "help_technolog0": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/technologytree1",
+          "path": ""
+        }
+      },
+      "2": {
+        "icon": {
+          "atlas": "helpbg/technologytree2",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "disableScroll": true,
+      "helpSize": {
+        "y": 1024,
+        "x": 1176
+      },
+      "defaultpage": 2,
+      "windowPos": {
+        "y": -70
+      },
+      "pageMode": true,
+      "windowSize": {
+        "y": 873,
+        "x": 1263
+      }
+    }
   },
   "meta_pt_point": {
     "tip": "解析Pt"
   },
-  "ship_profile_voice_locked_design": {
-    "tip": "強化レベル$1で開放"
+  "ship_profile_voice_locked_intimacy": {
+    "tip": "好感度$1で開放"
   },
   "equipment_max_level": {
     "tip": "装備レベルが最大です"
   },
-  "ship_profile_voice_locked_intimacy": {
-    "tip": "好感度$1で開放"
+  "blueprint_max_level_tip": {
+    "tip": "現在は最大レベルに到達しています"
   },
   "switch_to_shop_tip_noDockyard": {
     "tip": "ドックが一杯です。艦を退役するか、所持枠拡張をお願いします"
@@ -9120,8 +9282,8 @@
   "word_contribution": {
     "tip": "贡献"
   },
-  "blueprint_max_level_tip": {
-    "tip": "現在は最大レベルに到達しています"
+  "buleprint_need_level_tip": {
+    "tip": "該当艦がレベル$1で開放"
   },
   "vote_get_book": {
     "tip": "応援指令を入手しました"
@@ -9131,9 +9293,6 @@
   },
   "text_cancel_fight": {
     "tip": "戦闘中止"
-  },
-  "twitter_login_tips": {
-    "tip": "ツイッター連携を行うと、現在ログイン中のアカウントがログイン解除されます。ツイッター連携を行いますか？"
   },
   "blueprint_cannot_build_tip": {
     "tip": "開発対象が変更可能になるまで$1"
@@ -9145,35 +9304,35 @@
       }
     ]
   },
+  "friend_resume_attack_count": {
+    "tip": "出撃数:"
+  },
   "common_wait": {
     "tip": "少し時間を置いてから再度お試しください"
   },
   "ship_upgradeStar_maxLevel": {
     "tip": "これ以上限界突破できません"
   },
-  "friend_resume_manoeuvre_count": {
-    "tip": "演習回数:"
-  },
   "blueprint_task_update_tip": {
     "tip": "艦船の開発進捗に更新がありました。開発ドックをご確認ください"
   },
-  "guild_sort_time": {
-    "tip": "時間"
+  "guild_log_quit": {
+    "tip": "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color>が大艦隊から脱退しました"
+  },
+  "event_type_unlimit": {
+    "tip": "無制限"
   },
   "words_settings_resolve_equip": {
     "tip": "装備廃棄"
   },
-  "ship_quick_change_noequip": {
-    "tip": "変更する装備は存在ありません"
-  },
   "main_notificationLayer_sendButton": {
     "tip": "メッセージ入力"
   },
-  "ship_vo_moveout_formation": {
-    "tip": "艦隊から外しますか？"
-  },
   "technology_start_erro": {
     "tip": "研究失敗"
+  },
+  "ship_vo_moveout_formation": {
+    "tip": "艦隊から外しますか？"
   },
   "technology_start_up": {
     "tip": "研究開始"
@@ -9181,20 +9340,20 @@
   "change_technology_refresh_erro": {
     "tip": "研究項目・変更失敗"
   },
-  "open_skill_class_success": {
-    "tip": "教室枠を追加しました"
-  },
   "technology_refresh_sucess": {
     "tip": "研究項目一覧・更新成功"
+  },
+  "open_skill_class_success": {
+    "tip": "教室枠を追加しました"
   },
   "printblue_build_erro": {
     "tip": "開発失敗"
   },
+  "words_battle_hide_bg": {
+    "tip": "衣装背景の戦闘時非表示"
+  },
   "level_ammo_supply_p1": {
     "tip": "弾薬が$1補充されました"
-  },
-  "words_battle_expose_line": {
-    "tip": "空母発見範囲を表示"
   },
   "task_is_not_existence": {
     "tip": "任務$1は存在しません"
@@ -9210,6 +9369,9 @@
   },
   "extra_chapter_record_not_updated": {
     "tip": "自己最高スコア未更新"
+  },
+  "extra_chapter_record_updated": {
+    "tip": "自己最高スコア更新！"
   },
   "help_battle_defense": {
     "tip": {
@@ -9275,9 +9437,6 @@
   "battle_preCombatLayer_clear_confirm": {
     "tip": "選択中の編成をクリアしますか？"
   },
-  "extra_chapter_record_updated": {
-    "tip": "自己最高スコア更新！"
-  },
   "extra_chapter_socre_tip": {
     "tip": "今回のスコア：<color=#92fc63>$1</color>\n自己最高スコア：<color=#92fc63>$2</color>\n $3"
   },
@@ -9290,20 +9449,20 @@
   "emoji_type_3": {
     "tip": "ドット"
   },
+  "emoji_type_1": {
+    "tip": "デフォルト"
+  },
   "sec_floor_limit_tip": {
     "tip": "寮舎1F最大拡張完了で開放"
   },
-  "emoji_type_1": {
-    "tip": "デフォルト"
+  "emoji_type_0": {
+    "tip": "お気に入り"
   },
   "new_airi_error_code_200210": {
     "tip": "決済システムにエラーが発生しました"
   },
   "word_shipNation_saDing": {
     "tip": "サディア帝国"
-  },
-  "emoji_type_0": {
-    "tip": "お気に入り"
   },
   "equip_skin_detail_tip": {
     "tip": "下記の装備外装を入手可能"
@@ -9314,14 +9473,17 @@
   "activity_hit_monster_erro": {
     "tip": "攻撃に失敗しました"
   },
+  "activity_hit_monster_help": {
+    "tip": "年獣ミニゲームルール"
+  },
   "battle_repair_normal_name": {
     "tip": "無料残り回数:"
   },
   "number_10": {
     "tip": "十"
   },
-  "activity_hit_monster_help": {
-    "tip": "年獣ミニゲームルール"
+  "activity_hit_monster_nocount": {
+    "tip": "回数が足りません"
   },
   "ship_vo_event": {
     "tip": "特殊任務に参加しています！"
@@ -9329,8 +9491,8 @@
   "tactics_lesson_full": {
     "tip": "教室が一杯です！"
   },
-  "activity_hit_monster_nocount": {
-    "tip": "回数が足りません"
+  "destory_important_equipment_input_erro": {
+    "tip": "装備名が間違えています"
   },
   "main_notificationMediator_beFriend": {
     "tip": "<color=#92fc63>「$1」</color>と友達になりました"
@@ -9341,14 +9503,14 @@
   "tech_simulate_quit": {
     "tip": "弾幕確認機能を終了しますか？\n（※実際の能力とは異なります）"
   },
-  "destory_important_equipment_tip": {
-    "tip": "装備<color=#FFDE00FF>“$1”</color>を廃棄しますか？下の枠に装備の名前を入力してください"
-  },
   "battle_preCombatLayer_boss_destruct": {
     "tip": "自爆を阻止した上ボス撃破"
   },
   "battle_result_boss_destruct": {
     "tip": "自爆を阻止した上ボス撃破"
+  },
+  "twitter_link_title": {
+    "tip": "連携中のツイッター：$1"
   },
   "idle": {
     "tip": "待機"
@@ -9371,23 +9533,23 @@
   "task_submitTask_error_notFinish": {
     "tip": "任務がまだ完了されていません"
   },
-  "equipment_skin_unload_failed": {
-    "tip": "外装を装備できませんでした"
-  },
   "equipment_skin_count_noenough": {
     "tip": "装備外装が不足しています"
   },
   "equipment_skin_no_new_ship": {
     "tip": "艦が存在しません"
   },
-  "equipment_newEquipLayer_getNewEquip": {
-    "tip": "装備入手:<color=#92fc63>$1</color>"
-  },
   "equipment_skin_no_old_skinorequipment": {
     "tip": "兵装か外装が装備されていません"
   },
+  "equipment_newEquipLayer_getNewEquip": {
+    "tip": "装備入手:<color=#92fc63>$1</color>"
+  },
   "challenge_current_score": {
     "tip": "累計得点：$1"
+  },
+  "word_status_rest": {
+    "tip": "<size=23>休憩中</size>"
   },
   "ship_buildShipMediator_finishBuild": {
     "tip": "建造完了"
@@ -9404,8 +9566,8 @@
   "new_airi_error_code_100234": {
     "tip": "このアカウントはログインできません"
   },
-  "backyard_sort_tag_comfortable": {
-    "tip": "快適度"
+  "guild_word_ordinary": {
+    "tip": "一般"
   },
   "player_changeManifesto_ok": {
     "tip": "コメントを変更しました"
@@ -9413,20 +9575,20 @@
   "levelScene_chapter_open_count_down": {
     "tip": "残り時間"
   },
-  "guild_word_home": {
-    "tip": "トップ"
-  },
   "backyard_sort_tag_default": {
     "tip": "ID順"
-  },
-  "ship_vo_isCharacter": {
-    "tip": "秘書艦を退役できません"
   },
   "level_diffcult_chapter_state_safety": {
     "tip": "<size=32><color=#92fc63>☆3達成＆海域脅威度を「安全海域」にすると、敵中枢艦隊が最初から出現するようになります</color></size>"
   },
+  "ship_vo_isCharacter": {
+    "tip": "秘書艦を退役できません"
+  },
   "ten_even_draw": {
     "tip": "$1回交換する"
+  },
+  "oil_buy_tip": {
+    "tip": "<icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>$1</color></size>で  <size=30><color=#92fc63>$2</color></size><size=30> 燃料を購入する</size><size=2>\n\n</size><size=30>( 本日購入 <size=30><color=#FF0000>$3</color></size> 回 )</size>"
   },
   "word_threaten": {
     "tip": "脅威"
@@ -9434,28 +9596,8 @@
   "backyard_extendArea_erro": {
     "tip": "寮舎拡張に失敗しました…<color=#92fc63>$1</color>"
   },
-  "help_oil_buy_limit": {
-    "tip": {
-      "1": {
-        "line": true,
-        "info": "                                    これ以上購入できません",
-        "icon": {
-          "path": "",
-          "atlas": "helpbg/nooil",
-          "posX": 30,
-          "scale": 1,
-          "posY": -41
-        }
-      },
-      "windowSize": {
-        "y": 440
-      },
-      "helpSize": {
-        "y": 264
-      },
-      "disableScroll": true,
-      "helpbg": true
-    }
+  "twitter_login_tips": {
+    "tip": "ツイッター連携を行うと、現在ログイン中のアカウントがログイン解除されます。ツイッター連携を行いますか？"
   },
   "word_attr_luck": {
     "tip": "消費"
@@ -9466,8 +9608,8 @@
   "common_not_get_ship": {
     "tip": "未入手"
   },
-  "take_all_mail": {
-    "tip": "<color='#92fc63FF'>全てのメールを開封</color>しますか？"
+  "word_shipNation_all": {
+    "tip": "全陣営"
   },
   "login_loginMediator_loginSuccess": {
     "tip": "ログインしました"
@@ -9484,26 +9626,20 @@
   "destroy_high_rarity_tip": {
     "tip": "<color=#92fc63>Sレア以上</color>"
   },
-  "chat_level_not_enough": {
-    "tip": "指揮官Lv$1以上で発言できるようになります"
-  },
   "guild_shop_flash_success": {
     "tip": "更新完了"
   },
   "course_proficiency_tip": {
     "tip": "限界突破を3回行った<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>レベル$1</color></material>の艦は出撃時、得られる経験値の<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$2%</color></material>分の熟練度を獲得できます"
   },
-  "friend_msg_forbid": {
-    "tip": "NGワードが含まれています"
+  "word_soundfiles_checking_title": {
+    "tip": "チェック中…"
   },
   "course_proficiency_not_enough": {
     "tip": "熟練度が不足しています"
   },
   "course_class_name": {
     "tip": "今日の授業：《$1》"
-  },
-  "number_9": {
-    "tip": "九"
   },
   "course_class_help": {
     "tip": [
@@ -9512,20 +9648,26 @@
       }
     ]
   },
+  "number_9": {
+    "tip": "九"
+  },
   "course_student_max_level": {
     "tip": "LvMAXのキャラは配置できません"
   },
   "need_break_tip": {
     "tip": "要限界突破"
   },
-  "intimacy_desc_4": {
-    "tip": "$1があなたと一緒にいるといつも嬉しそう"
+  "energy_desc_1": {
+    "tip": "もうヘトヘト…\n<color=#FF552E>（出撃すると親密度が下がり、経験値が半分に）</color>"
   },
   "clear_transcode_cache_confirm": {
     "tip": "本当にユーザーデータを削除しますか？\n※復元できない場合があります"
   },
   "set_birth_empty_tip": {
     "tip": "正しい誕生日を入力してください"
+  },
+  "transcode_empty_tip": {
+    "tip": "正しい引継ぎパスワードを入力して下さい"
   },
   "login_loginMediator_kickUndefined": {
     "tip": "接続が中断されました:[$1]"
@@ -9539,8 +9681,8 @@
   "ship_vo_vanguardFleet_exist_same_ship": {
     "tip": "前衛艦隊に同じ艦を編成できません"
   },
-  "transcode_empty_tip": {
-    "tip": "正しい引継ぎパスワードを入力して下さい"
+  "transcode_desc": {
+    "tip": "※引継ぎパスワードに使用期限はございません\n※あらかじめ発行し、保管していただくことをお勧めいたします"
   },
   "res_unlock_tip": {
     "tip": "下記アイテムを消費して、音楽鑑賞を開放（アセットダウンロード）します"
@@ -9567,8 +9709,8 @@
       }
     ]
   },
-  "activity_puzzle_get14": {
-    "tip": "<color=#92fc63FF>入手方法\n限定任務5</color>"
+  "activity_puzzle_get7": {
+    "tip": "<color=#92fc63FF>入手方法\nノーマル2-2</color>"
   },
   "new_airi_error_code_100228": {
     "tip": "アカウントが削除されました"
@@ -9576,11 +9718,11 @@
   "word_expand": {
     "tip": "拡張"
   },
-  "activity_puzzle_get7": {
-    "tip": "<color=#92fc63FF>入手方法\nノーマル2-2</color>"
-  },
   "activity_puzzle_get4": {
     "tip": "<color=#92fc63FF>入手方法\nノーマル3-1</color>"
+  },
+  "activity_puzzle_get1": {
+    "tip": "<color=#92fc63FF>入手方法\n限定任務7</color>"
   },
   "ship_buildSingleShip": {
     "tip": "<color=#92fc63>$1ダイヤ</color>で<color=#92fc63>1隻分高速建造</color>しますか？"
@@ -9588,8 +9730,8 @@
   "activity_level_difficulty_tip": {
     "tip": "注意：ハードモードを選択すると、<color=#92fc63>ノーマルモードでの攻略進捗がなくなります</color>"
   },
-  "activity_puzzle_get1": {
-    "tip": "<color=#92fc63FF>入手方法\n限定任務7</color>"
+  "words_battle_expose_line": {
+    "tip": "空母発見範囲を表示"
   },
   "printblue_build_success": {
     "tip": "開発開始"
@@ -9600,9 +9742,6 @@
   "levelScene_tracking_error_retry": {
     "tip": "出撃にエラーが発生しました"
   },
-  "words_show_touch_effect": {
-    "tip": "タッチエフェクト表示"
-  },
   "words_display_ship_get_effect": {
     "tip": "入手済艦の入手演出"
   },
@@ -9612,20 +9751,23 @@
   "vote_rank_in_current_server": {
     "tip": "※現在のサーバーでの順位です"
   },
+  "vote_vote_time": {
+    "tip": "投票期間: $1-$2"
+  },
   "word_pt": {
     "tip": "PT素子"
   },
-  "vote_vote_time": {
-    "tip": "投票期間: $1-$2"
+  "vote_final_title2": {
+    "tip": "報酬について"
   },
   "guild_boss_formation_1": {
     "tip": "大艦隊メンバーの支援派遣艦船を最大3隻まで選択できます"
   },
-  "vote_final_rule1": {
-    "tip": "※本戦に参加する12艦で10日間の投票をへてランキングを決めます。予選での投票数はカウントされません。同日でも同じ艦に通常票を複数回投票可能です。\n※本戦ランキング上位艦に新しい衣装が実装される可能性があります。"
+  "intimacy_desc_5_buff": {
+    "tip": "補正値：全性能（速力、装備以外）6%アップ"
   },
-  "intimacy_desc_1_detail": {
-    "tip": "$1があなたに失望した…\n<color=#ffde38><size=18>(効果なし)</size></color>"
+  "vote_love_confirm": {
+    "tip": "特別票を1枚投票しますか？"
   },
   "jiujiu_expedition_amount_tip": {
     "tip": "探索回数が不足しています（探索回数はデイリーログイン・限定任務で入手できます）"
@@ -9667,8 +9809,8 @@
       }
     }
   },
-  "equipment_select_device_destroy_bonus_tip": {
-    "tip": "素材入手:"
+  "chapter_tip_bp_ammo": {
+    "tip": "由于充分的战前准备，队伍弹药量+2"
   },
   "new_airi_error_code_200250": {
     "tip": "APIに問題が発生しました"
@@ -9676,26 +9818,23 @@
   "ambush_display_2": {
     "tip": "低"
   },
-  "chapter_tip_change": {
-    "tip": "陣形変更：$1"
-  },
   "chapter_tip_aovid_failed": {
     "tip": "回避失敗"
+  },
+  "chapter_tip_aovid_succeed": {
+    "tip": "回避成功"
   },
   "intimacy_desc_3": {
     "tip": "$1があなたのことを信頼しているようだ"
   },
-  "chapter_tip_aovid_succeed": {
-    "tip": "回避成功"
+  "simulation_enhanced": {
+    "tip": "相手は特殊戦術を発動しました"
   },
   "login_game_rigister_full": {
     "tip": "サーバーは満員です"
   },
   "text_lose_condition": {
     "tip": "敗北条件"
-  },
-  "simulation_advantage_counting": {
-    "tip": "$1秒後特殊戦術を発動します"
   },
   "remould_ship_count_more": {
     "tip": "1隻以上選択しています"
@@ -9706,14 +9845,14 @@
   "npcfriendly_total_count": {
     "tip": "友好度："
   },
+  "npcfriendly_count": {
+    "tip": "目標友好度："
+  },
   "ship_formationUI_fleetName12": {
     "tip": "第二潜水艦隊"
   },
   "bulin_tip5": {
     "tip": "1-4海域に出撃にゃ！"
-  },
-  "common_shopId_noFound": {
-    "tip": "商品idが見つかりません"
   },
   "activity_switch_tip": {
     "tip": "注意：ノーマルモードを選択すると、<color=#92fc63>ハードモードでの攻略進捗がなくなります</color>（ノーマルモードを全部クリアしないとハードモードを選択できません）。本当に難易度を変更しますか？"
@@ -9721,8 +9860,18 @@
   "activity_level_pass_easy_tip": {
     "tip": "注意：<color=#92fc63>ノーマルモードを全部クリアしないと</color>エクストラモードを選択できません"
   },
-  "activity_level_limit_tip": {
-    "tip": "注意：<color=#92fc63>指揮官レベル50以上、またはノーマルモードを全部クリアしないと</color>ハードモードを選択できません"
+  "snowball_help": {
+    "tip": [
+      {
+        "info": "■概要\n「饅頭雪合戦」とは、駆逐艦たちが投げてくる雪玉を避\nけながら、雪玉を駆逐艦に当てることで得点を稼いでい\nくミニゲームです。\n「饅頭雪合戦」は毎日1試合開放されていき、7試合をク\nリアすると、春月のきせかえを入手できます。"
+      },
+      {
+        "info": "■遊び方"
+      },
+      {
+        "info": "・画面左のボタンをタップし、陸奥を操作します。\n・陸奥に駆逐艦たちの雪玉が当たってしまうと、ライフ\nが1減少します。ライフが0になるとミニゲームが終了し\nます。\n・画面右側に出現する下記のキャラをタップすると、雪\n玉を投げて攻撃でき、当たったキャラに応じて得点が\n増減します：\n　睦月、如月、卯月、文月、夕立、雪風　　+100\n　アーク・ロイヤル　+100\n　採掘饅頭、白露　-50\n・画面右側の「ぼむゲージ」が時間に応じて増加します。\nゲージが満タンの場合、ゲージをタップすると敵の雪玉\nを全部消すことができ、さらに雪玉爆撃を行うことがで\nきます。\n・「終了」をタップするか、もしくはライフが0になると\n、ミニゲームが終了します。"
+      }
+    ]
   },
   "activity_level_easy_tip": {
     "tip": "注意：ノーマルモードを選択すると、<color=#92fc63>ノーマルモードを全部クリアしないと</color>ハードモードを選択できなくなります"
@@ -9736,14 +9885,17 @@
   "prop_destroyProp_error": {
     "tip": "売却失敗:"
   },
-  "several_hours_before": {
-    "tip": "<color=#92fc63>$1</color>時間前"
-  },
   "ship_renameShip_error_4": {
     "tip": "まだ変更できません"
   },
+  "several_hours_before": {
+    "tip": "<color=#92fc63>$1</color>時間前"
+  },
   "word_r": {
     "tip": "R"
+  },
+  "word_sr": {
+    "tip": "SR"
   },
   "battle_resourceSiteLayer_avgLv": {
     "tip": "平均練度<color=#92fc63>Lv$1</color>"
@@ -9751,14 +9903,11 @@
   "commander_select_min_cnt": {
     "tip": "$1以上のオフニャを選択する必要があります"
   },
-  "word_ssr": {
-    "tip": "SSR"
+  "word_rename_time_tip": {
+    "tip": "あと$1日間名前を変更できません"
   },
   "ambush_display_4": {
     "tip": "中"
-  },
-  "word_propose_ring_tip": {
-    "tip": "未来の専属艦に、誓いの指輪を――"
   },
   "word_propose_changename_tip1": {
     "tip": "艦船名前変更（他ユーザー含む）を表示にしますか？"
@@ -9769,11 +9918,14 @@
   "mingshi_task_tip_6": {
     "tip": "見つかったにゃ？\n暗号は……<<color=#92fc63>A</color>>\n次の目標は…<<color=#92fc63>お休みする場所</color>>にゃ！"
   },
+  "mingshi_task_tip_5": {
+    "tip": "見つかったにゃ？\n暗号は……<<color=#92fc63>H</color>>\n次の目標は…<<color=#92fc63>艦隊を編成する場所</color>>にゃ！"
+  },
   "ship_equipToShip_error_noEquip": {
     "tip": "装備が存在しません"
   },
-  "mingshi_task_tip_5": {
-    "tip": "見つかったにゃ？\n暗号は……<<color=#92fc63>H</color>>\n次の目標は…<<color=#92fc63>艦隊を編成する場所</color>>にゃ！"
+  "mingshi_task_tip_1": {
+    "tip": "見つかったにゃ？\n暗号は……<<color=#92fc63>T</color>>\n次の目標は…<<color=#92fc63>素材を置く場所</color>>にゃ！"
   },
   "fate_attr_word": {
     "tip": "竜骨編纂による強化効果："
@@ -9787,26 +9939,26 @@
   "word_air_defense_artillery": {
     "tip": "対空"
   },
-  "word_live2dfiles_update": {
-    "tip": "更新中…"
-  },
   "word_live2dfiles_noneedupdate": {
     "tip": "更新完了"
   },
   "word_live2dfiles_checkend_title": {
     "tip": "アセット確認完了"
   },
-  "word_soundfiles_checkfailed": {
-    "tip": "更新チェック失敗"
-  },
   "word_live2dfiles_checking": {
     "tip": "チェック中…"
+  },
+  "word_soundfiles_checkfailed": {
+    "tip": "更新チェック失敗"
   },
   "word_live2dfiles_download": {
     "tip": "ダウンロード開始"
   },
   "word_soundfiles_update_retry": {
     "tip": "リトライ"
+  },
+  "reject_friend_ok": {
+    "tip": "拒否しました"
   },
   "battle_levelScene_0Oil": {
     "tip": "燃料ポイントが空になりました"
@@ -9829,20 +9981,17 @@
   "option_desc9": {
     "tip": "ONにすると、自分が訪問した友達の寮舎に自分の秘書艦が表示されるようになる"
   },
-  "ship_remould_warning_402134": {
-    "tip": "<size=35>改造で<color=#92fc63>1つ目の【設備】</color>が\n<color=#92fc63>【ヘリ】</color>を装備できるようになり。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
-  },
   "ship_remould_warning_303154": {
     "tip": "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n主砲枠は<color=#92fc63>主砲（軽巡用）</color>→<color=#92fc63>主砲（重巡用）</color>に変更されるため、現在装備中の主砲枠の兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
   },
   "ship_remould_warning_310044": {
     "tip": "<size=35>改造で<color=#92fc63>$1</color>の艦種が変更されます。\n副兵装は<color=#92fc63>【水上機】</color>に変更されます。\n副兵装枠に装備されている兵装は外されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
   },
-  "ship_shipModLayer_effect1or2": {
-    "tip": "増加補正: <color=#92fc63>$1</color>"
-  },
   "ship_remould_warning_203114": {
     "tip": "<size=35>改造で<color=#92fc63>【魚雷】枠</color>が\n<color=#92fc63>【副兵装】枠</color>に変更されます。\n改造を続けますか？<color=#92fc63><material=underline c=#A9F548 event=clickDetail>詳細確認</material></color></size>"
+  },
+  "ship_shipModLayer_effect1or2": {
+    "tip": "増加補正: <color=#92fc63>$1</color>"
   },
   "ship_remould_warning_201514": {
     "tip": "改造後、「魚雷」砲座が-1、「対空砲」砲座が+1されます。改造を続けますか？"
@@ -9878,14 +10027,17 @@
       }
     ]
   },
+  "world_task_refuse1": {
+    "tip": "デイリー任務受領数が上限に達しています"
+  },
   "login_loginMediator_kickTimeError": {
     "tip": "長時間未通信のため接続が中断しました"
   },
   "word_succeed": {
     "tip": ""
   },
-  "world_sairen_title": {
-    "tip": "セイレーン支配度"
+  "sham_team_limit": {
+    "tip": "主力艦隊と前衛艦隊それぞれ１隻以上が必要です"
   },
   "world_fleet_formation_not_valid": {
     "tip": "$1を編成する必要があります"
@@ -9893,41 +10045,41 @@
   "levelScene_remaster_do_not_open": {
     "tip": "まだ開放されていません"
   },
-  "sham_team_limit": {
-    "tip": "主力艦隊と前衛艦隊それぞれ１隻以上が必要です"
-  },
   "sham_count_reset": {
     "tip": "「鏡面海域」掃討作戦は既に完了しました。戦況をリセット（1回/日）しますか？"
   },
   "backyard_food_count": {
     "tip": "食糧庫上限: $1"
   },
+  "backyard_food_remind": {
+    "tip": "<color=yellow>$1</color>は食糧庫の上限までしか補充出来ません。本当に使用しますか?"
+  },
   "text_cancel": {
     "tip": "戻 る"
-  },
-  "common_no_limit": {
-    "tip": "無制限"
   },
   "level_scene_full_hp": {
     "tip": "使用失敗:耐久が満タンです"
   },
+  "exchangecode_use_error_16": {
+    "tip": "使用済のシリアルコードです"
+  },
   "login_game_banned": {
     "tip": "利用が停止されています"
-  },
-  "attribute_sonarInterval": {
-    "tip": "発信頻度"
-  },
-  "new_airi_error_code_200160": {
-    "tip": "不正な購入リクエストです"
   },
   "level_scene_formation_active_already": {
     "tip": "陣形が変更されました"
   },
-  "battle_battleMediator_existFight": {
-    "tip": "戦域離脱"
+  "new_airi_error_code_200160": {
+    "tip": "不正な購入リクエストです"
   },
   "common_compare_equal": {
     "tip": "="
+  },
+  "battle_battleMediator_existFight": {
+    "tip": "戦域離脱"
+  },
+  "common_compare_larger": {
+    "tip": ">"
   },
   "commander_select_max": {
     "tip": "これ以上選択できません"
@@ -9935,8 +10087,8 @@
   "battle_resourceSiteLayer_collecTime": {
     "tip": "委託時間: <color=#92fc63>--:--:--</color>"
   },
-  "elite_condition_air": {
-    "tip": "航空合計"
+  "elite_condition_torpedo": {
+    "tip": "雷撃合計"
   },
   "setting_interface_revert_check": {
     "tip": "ボタン配置を初期化しますか？"
@@ -9944,20 +10096,17 @@
   "word_attr_ac": {
     "tip": "制空"
   },
-  "elite_condition_durability": {
-    "tip": "耐久合計"
-  },
   "elite_fleet_confirm": {
     "tip": "$1が出撃条件に<color=#ff5c5c>満たしていません</color>ため、戦闘に参加できませんが、本当に出撃しますか？"
   },
   "formation_chapter_lock": {
     "tip": "$1章クリアで第$2艦隊開放"
   },
-  "common_no_resource": {
-    "tip": "資源が不足しています！"
-  },
   "ship_equip_exchange_tip": {
     "tip": "<color=#92fc63>$1</color>に装備されている<color=#92fc63>$2</color>を<color=#92fc63>$3</color>に装備しますか？"
+  },
+  "common_no_resource": {
+    "tip": "資源が不足しています！"
   },
   "login_wait_tip": {
     "tip": "同時接続数が最大になっています。\n（接続待ち:$1人）"
@@ -9965,23 +10114,26 @@
   "charge_ship_bag_max": {
     "tip": "現在はこれ以上拡張できません"
   },
+  "chat_level_not_enough": {
+    "tip": "指揮官Lv$1以上で発言できるようになります"
+  },
   "destroy_eliteequipment_tip": {
     "tip": "$1の装備が選択されています。続けますか？"
   },
   "new_airi_error_code_100100": {
     "tip": "このデバイスによるゲーム利用は制限されています"
   },
-  "destination_can_not_reach": {
-    "tip": "目標海域には辿り着けません"
-  },
-  "text_noRes_info_tip2": {
-    "tip": "<color=#ff5c5c>$2</color>の<color=#ff5c5c>$1</color>"
+  "long_time_offline": {
+    "tip": "結構前"
   },
   "resource_max_tip_retire_1": {
     "tip": "これ以上燃料を入手できません。退役を続けますか？"
   },
   "resource_max_tip_retire": {
     "tip": "退役させることができません"
+  },
+  "resource_max_tip_battle": {
+    "tip": "出撃すると資源は入手できません。本当に出撃しますか？"
   },
   "common_no_gold": {
     "tip": "<color=#92fc63>資金</color>が足りません！"
@@ -9992,14 +10144,14 @@
   "return_award_bind_success": {
     "tip": "UID入力成功"
   },
-  "guild_join_cd": {
-    "tip": "大艦隊から脱退すると、24時間は新たな大艦隊に参加できません"
-  },
   "guild_sort_power": {
     "tip": "がっつり"
   },
   "guild_set_duty_title": {
     "tip": "$1に任命する："
+  },
+  "guild_sort_time": {
+    "tip": "時間"
   },
   "blueprint_destory_tip": {
     "tip": "特別計画艦は廃棄できません"
@@ -10011,20 +10163,17 @@
       }
     ]
   },
-  "guild_log_new_guild_join": {
-    "tip": "新メンバー <color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> が大艦隊に参加しました"
-  },
   "guild_faction_change_tip": {
     "tip": "所属陣営を変更すると、30日間再度変更できなくなりますが、本当に変更しますか？"
   },
   "guild_word_member": {
     "tip": "メンバー"
   },
+  "guild_word_home": {
+    "tip": "トップ"
+  },
   "backyard_sort_tag_price": {
     "tip": "価格"
-  },
-  "guild_word_ordinary": {
-    "tip": "一般"
   },
   "guild_word_picked": {
     "tip": "主力"
@@ -10041,20 +10190,20 @@
   "guild_duty_id_is_null": {
     "tip": "役職を設定する必要があります"
   },
+  "tip_add_task": {
+    "tip": "新しい任務：$1"
+  },
   "index_rare3": {
     "tip": "レア"
-  },
-  "guild_list_refresh_sucess": {
-    "tip": "検索結果が更新されました"
   },
   "guild_search_sucess": {
     "tip": "検索完了"
   },
-  "word_shipInfoScene_infomation": {
-    "tip": "艦船詳細"
-  },
   "guild_rejecet_apply_sucess": {
     "tip": "申請を拒否しました"
+  },
+  "word_shipInfoScene_infomation": {
+    "tip": "艦船詳細"
   },
   "guild_no_exist": {
     "tip": "大艦隊は存在しません"
@@ -10071,17 +10220,48 @@
   "guild_tip_quit": {
     "tip": "大艦隊から脱退しますか？"
   },
+  "guild_create_error_nomanifesto": {
+    "tip": "大艦隊メッセージが必要です"
+  },
   "new_airi_error_code_100240": {
     "tip": "Appleアカウントの情報を正しく入力してください"
   },
-  "guild_create_error_nomanifesto": {
-    "tip": "大艦隊メッセージが必要です"
+  "guild_create_error_nofaction": {
+    "tip": "大艦隊陣営が必要です"
   },
   "word_cv_key_main": {
     "tip": "メイン"
   },
-  "guild_create_error_nofaction": {
-    "tip": "大艦隊陣営が必要です"
+  "help_xinnian2021_feast": {
+    "tip": [
+      {
+        "info": "■概要\n「母港正月2021」イベントとは、ミニゲームを楽しみな\nがら、「春月」の着せ替えと駆逐艦「Z28」を入手でき\nるイベントです。"
+      },
+      {
+        "info": "■ミニゲームについて"
+      },
+      {
+        "info": "「饅頭雪合戦」をタップすると、ミニゲーム「饅頭雪合\n戦」をプレイすることができます。\n試合が開放されている状態でゲームをクリアすると、試\n合を進捗させることができ、「幸運祈願」可能回数が2\n回増加します。\n「饅頭雪合戦」を最後まで進めると、駆逐艦「春月」の\n着せ替えを入手できます。\n\n「饅頭グルメ」をタップすると、ミニゲーム「饅頭グル\nメ」をプレイすることができます。\nゲーム進捗可能回数を所持している状態でゲームをクリ\nアすると、収集アイテムを1個入手でき、\nさらにアイテムを7つ集めると駆逐艦「Z28」を入手でき\nます。"
+      },
+      {
+        "info": "■幸運祈願"
+      },
+      {
+        "info": "幸運祈願回数を所持している状態では、資金5を消費し\nて幸運祈願の行うことが出来ます。"
+      },
+      {
+        "info": "■着せ替え"
+      },
+      {
+        "info": "着せかえショップに遷移できます。"
+      },
+      {
+        "info": "■限定建造"
+      },
+      {
+        "info": "期間限定建造画面に遷移できます。"
+      }
+    ]
   },
   "vote_book_is_over": {
     "tip": "人気投票キャンペーンは終了しました"
@@ -10089,8 +10269,28 @@
   "guild_info_update": {
     "tip": "情報が更新されました"
   },
-  "tip_add_task": {
-    "tip": "新しい任務：$1"
+  "help_oil_buy_limit": {
+    "tip": {
+      "1": {
+        "line": true,
+        "info": "                                    これ以上購入できません",
+        "icon": {
+          "path": "",
+          "atlas": "helpbg/nooil",
+          "posX": 30,
+          "scale": 1,
+          "posY": -41
+        }
+      },
+      "windowSize": {
+        "y": 440
+      },
+      "helpSize": {
+        "y": 264
+      },
+      "disableScroll": true,
+      "helpbg": true
+    }
   },
   "login_failed": {
     "tip": "ログイン失敗"
@@ -10101,8 +10301,8 @@
   "summary_page_un_rearch": {
     "tip": "まだ入手してい\nません"
   },
-  "ship_destroy_advanced_tip": {
-    "tip": "退役艦船に<color=#92fc63>Lvが2以上</color>の艦船がありますが、続けますか？"
+  "backyard_theme_save_tip": {
+    "tip": "寮舎配置を保存しますか？:\n<color=#92fc63>$1</color>"
   },
   "world_mapbuff_attrtxt_3": {
     "tip": "回復撹乱"
@@ -10110,8 +10310,8 @@
   "blueprint_stop_success": {
     "tip": "開発中止に成功しました"
   },
-  "long_time_offline": {
-    "tip": "結構前"
+  "equip_part_main_title": {
+    "tip": "適用(主砲)"
   },
   "levelScene_tracking_error_3001": {
     "tip": "委託に出かけている艦があります！"
@@ -10143,8 +10343,8 @@
   "new_airi_error_code_200110": {
     "tip": "購入に失敗しました、今月の購入上限金額に達しています"
   },
-  "exchangecode_use_error_16": {
-    "tip": "使用済のシリアルコードです"
+  "exchangecode_use_error_3": {
+    "tip": "無効なシリアルコードです"
   },
   "battle_levelScene_lock": {
     "tip": "<color=#92fc63>前のステージ</color>を攻略すると開放されます"
@@ -10152,14 +10352,14 @@
   "new_airi_error_code_100224": {
     "tip": "Googleとの通信に失敗しました"
   },
-  "exchangecode_use_error_3": {
-    "tip": "無効なシリアルコードです"
+  "world_instruction_redeploy_3": {
+    "tip": "エネルギー供給装置を運んでいるため、艦隊を再編成できません"
   },
   "levelScene_chapter_unlock_tip": {
     "tip": "指揮官Lv<color=#92fc63>$1</color>で開放"
   },
-  "world_instruction_submarine_1": {
-    "tip": "この海域では命令を発令できません"
+  "world_fleetName1": {
+    "tip": "第 一 艦 隊"
   },
   "battle_result_score": {
     "tip": "輸送艦撃破*$1："
@@ -10169,9 +10369,6 @@
   },
   "guild_boss_cnt_no_enough": {
     "tip": "挑戦回数が不足しています"
-  },
-  "world_item_recycle_1": {
-    "tip": "セイレーン作戦リセットのため、下記アイテムが変換されます"
   },
   "commission_normal": {
     "tip": "軍事委託:"
@@ -10197,11 +10394,11 @@
   "number_3": {
     "tip": "三"
   },
-  "ship_mod_exp_to_attr_tip": {
-    "tip": "*同じ艦で強化時経験値が2倍"
-  },
   "shop_extendship_success": {
     "tip": "ドック拡張成功"
+  },
+  "ship_mod_exp_to_attr_tip": {
+    "tip": "*同じ艦で強化時経験値が2倍"
   },
   "help_build_5": {
     "tip": "<size=19>\t\t\t\t\t\t\t<color=#ffde38>超稀有舰船</color>：$2%\n\t\t\t\t\t\t\t <color=#d797ff>精锐舰船</color>：$3%\n\t\t\t\t\t\t\t <color=#3dc6ff>稀有舰船</color>：$4%\n\t\t\t\t\t\t\t 普通舰船：$5%\n\n\t\t\t\t\t\t\t  【限时建造】\n\t\t\t<color=#ffde38>圣黑之心</color>：2.25%<color=#92fc63FF>(up!)</color>    <color=#ffde38>翡绿之心</color>：2.25%<color=#92fc63FF>(up!)</color>\n\t\t\t<color=#ffde38>绀紫之心</color>：0.75%           <color=#ffde38>群白之心</color>：0.75%\n\t\t\t<color=#d797ff>诺瓦露　</color>：3.15%<color=#92fc63FF>(up!)</color>     <color=#d797ff>布兰　　</color>：1.05%</size>"
@@ -10209,81 +10406,24 @@
   "help_build_2": {
     "tip": "\t\t\t\t\t   <size=25>$1建造概率分布</size>\n\n\t\t\t\t\t\t\t<color=#ffde38>超稀有舰船</color>：$2%\n\t\t\t\t\t\t\t <color=#d797ff>精锐舰船</color>：$3%\n\t\t\t\t\t\t\t <color=#3dc6ff>稀有舰船</color>：$4%\n\t\t\t\t\t\t\t 普通舰船：$5%"
   },
+  "help_shipinfo_fashion": {
+    "tip": [
+      {
+        "info": "\n着せ替え：\n\n 「期間外」着せ替え入手期間外です"
+      }
+    ]
+  },
   "LinkLinkGame_BestTime": {
     "tip": "最高記錄:"
   },
-  "help_shipinfo_intensify": {
-    "tip": {
-      "1": {
-        "icon": {
-          "atlas": "helpbg/strength",
-          "path": ""
-        }
-      },
-      "2": {
-        "icon": {
-          "atlas": "helpbg/break",
-          "path": ""
-        }
-      },
-      "3": {
-        "icon": {
-          "atlas": "helpbg/equip",
-          "path": ""
-        }
-      },
-      "4": {
-        "icon": {
-          "atlas": "helpbg/bullet",
-          "path": ""
-        }
-      },
-      "5": {
-        "icon": {
-          "atlas": "helpbg/energy",
-          "path": ""
-        }
-      },
-      "6": {
-        "icon": {
-          "atlas": "helpbg/maxlevel",
-          "path": ""
-        }
-      },
-      "7": {
-        "icon": {
-          "atlas": "helpbg/levelup",
-          "path": ""
-        }
-      },
-      "8": {
-        "icon": {
-          "atlas": "helpbg/fanqian",
-          "path": ""
-        }
-      },
-      "ImageMode": true,
-      "disableScroll": true,
-      "helpSize": {
-        "y": 1024,
-        "x": 1176
-      },
-      "defaultpage": 8,
-      "windowPos": {
-        "y": -70
-      },
-      "pageMode": true,
-      "windowSize": {
-        "y": 873,
-        "x": 1263
-      }
-    }
-  },
-  "friend_resume_title": {
-    "tip": "履歴"
+  "word_own": {
+    "tip": "所持中の"
   },
   "charge_limit_daily": {
     "tip": "本日購入可能回数：$1"
+  },
+  "charge_title_getitem_month": {
+    "tip": "30日間毎日入手："
   },
   "main_playerInfoLayer_inputName": {
     "tip": "名前を入力してください"
@@ -10291,23 +10431,23 @@
   "main_mailLayer_noAttach": {
     "tip": "添付なし"
   },
-  "charge_title_getitem_month": {
-    "tip": "30日間毎日入手："
+  "intimacy_desc_1_detail": {
+    "tip": "$1があなたに失望した…\n<color=#ffde38><size=18>(効果なし)</size></color>"
   },
   "vote_primary_rule": {
     "tip": "<size=20>予選</size>\n<size=19>参加艦は4グループに分けられ、一つのグループに5日間の投票期間が設けられ、グループの上位3艦（全12艦）が本戦に参加できます。</size>\n\n<size=20>本戦</size>\n<size=19>本戦に参加する12艦で10日間の投票を経て最終ランキングを決めます。予選での投票数がカウントされません。</size>\n\n<size=20>報酬について</size>\n<size=19>本戦ランキング上位艦に新しい衣装が実装される可能性があります。</size>\n\n<size=20>投票について</size>\n<size=19>Lv15以上の指揮官は毎日特定の任務達成で通常票を最大3票まで入手できます（通常票は毎日リセットされます）。 \n特別票は同じ艦に通常票を投票した後に投票できるようになります。また、特別票は毎日リセットせず、本戦まで持ち越せます。\n\n※得票数が同じ場合、「最後に投票されたキャラ」が上位になります</size>"
   },
-  "intimacy_desc_5_buff": {
-    "tip": "補正値：全性能（速力、装備以外）6%アップ"
-  },
   "intimacy_desc_1_buff": {
     "tip": "補正値：なし"
+  },
+  "intimacy_desc_6": {
+    "tip": "$1があなたにすべてを託している"
   },
   "equipment_equipmentScene_selectError_more": {
     "tip": "<color=#92fc63>$1</color> まで選択できます"
   },
-  "intimacy_desc_6": {
-    "tip": "$1があなたにすべてを託している"
+  "intimacy_desc_4": {
+    "tip": "$1があなたと一緒にいるといつも嬉しそう"
   },
   "err_cloth_change_noship": {
     "tip": "$1は所持していません"
@@ -10429,11 +10569,11 @@
       }
     }
   },
-  "charge_title": {
-    "tip": "$1で$3を$2つ購入します"
-  },
   "charge_month_card_lefttime_tip": {
     "tip": "貿易許可証残り$1日"
+  },
+  "equipment_select_device_destroy_bonus_tip": {
+    "tip": "素材入手:"
   },
   "ship_equip_profiiency": {
     "tip": "補正:$1%"
@@ -10444,14 +10584,14 @@
   "build_ship_tip": {
     "tip": "$2を<color=#ff5c5c>$1隻</color>建造するには下記アイテムを消費します:\n<color=$5>資金$3</color>と<color=$5>メンタルキューブ$4</color>"
   },
-  "ship_shipModLayer_effect": {
-    "tip": "経験値:<color=#92fc63>$1/$2</color>\n"
-  },
   "batch_destroy": {
     "tip": "一括廃棄"
   },
   "friend_resume_data_title": {
     "tip": "情報"
+  },
+  "friend_resume_title": {
+    "tip": "履歴"
   },
   "levelScene_strategying": {
     "tip": "攻略中です"
@@ -10529,14 +10669,11 @@
   "option_desc2": {
     "tip": "（ON状態）自律戦闘モードで戦闘終了時、端末バイブレーション機能で通知する"
   },
-  "word_reset": {
-    "tip": "クリア"
+  "ship_shipInfoScene_effect": {
+    "tip": "経験値:<color=#92fc63>$1/$2</color>\n"
   },
   "exercise_count_recover_tip": {
     "tip": "( <color=#92fc63>$1</color> 後回復)"
-  },
-  "ship_shipInfoScene_effect": {
-    "tip": "経験値:<color=#92fc63>$1/$2</color>\n"
   },
   "word_shipNation_ai": {
     "tip": "KizunaAI"
@@ -10544,17 +10681,20 @@
   "word_shipNation_dongHuang": {
     "tip": "東煌"
   },
+  "word_shipNation_baiYing": {
+    "tip": "ユニオン"
+  },
   "word_nowenergy": {
     "tip": "ｺﾝﾃﾞｨｼｮﾝ"
   },
-  "word_shipNation_all": {
-    "tip": "全陣営"
+  "firend_relieve_blacklist_ok": {
+    "tip": "解除成功"
   },
   "ship_unequip_all_tip": {
     "tip": "装備を全部外しますか？"
   },
-  "firend_relieve_blacklist_ok": {
-    "tip": "解除成功"
+  "friend_event_count": {
+    "tip": "委託達成:"
   },
   "ship_hunting_level_tips": {
     "tip": "※限界突破と装備効果、オフニャによる支援範囲Lv上昇のみが反映されます。"
@@ -10571,11 +10711,11 @@
   "attribute_air": {
     "tip": "航空"
   },
-  "friend_resume_attack_count": {
-    "tip": "出撃数:"
-  },
   "friend_send_msg_null_tip": {
     "tip": "空メッセージを送信できません"
+  },
+  "friend_send_msg_erro_tip": {
+    "tip": "友達がオフラインです"
   },
   "player_harvestResource_error": {
     "tip": "資源調達失敗:"
@@ -10583,8 +10723,8 @@
   "common_use_item_sos_used": {
     "tip": "救助信号受信数+$1"
   },
-  "friend_send_msg_erro_tip": {
-    "tip": "友達がオフラインです"
+  "friend_msg_forbid": {
+    "tip": "NGワードが含まれています"
   },
   "word_soundfiles_checkend_title": {
     "tip": "更新チェック完了"
@@ -10595,14 +10735,14 @@
   "ambush_display_6": {
     "tip": "危険"
   },
-  "reject_all_friend_ok": {
-    "tip": "一括拒否しました"
+  "friend_no_request": {
+    "tip": "友達申請がありません"
   },
   "help_firework_produce": {
     "tip": "開始ボタンをタップし、装薬を準備！\nもう一回ボタンをタップすると1回の装薬が終了！\n3回の装薬量が適切量（合計150％）に近づくように\n目押ししましょう！\n一等賞：<color=#c80a00>140%-160%</color> \n二等賞：<color=#e66f00>120%-140% 160-180%</color>\n三等賞：<color=#ffea01>90-120% 180-210%</color>\n3回の装薬合計値は画面右上のゲージで確認できます。"
   },
-  "main_mailLayer_quest_deleteNotTakeAttach": {
-    "tip": "<color=#92fc63>添付ファイルは受け取っていません</color>、本当に削除しますか?"
+  "friend_search_page_tip": {
+    "tip": "一回で<color=#92fc63>$1</color>人まで検索できます"
   },
   "fleet_antisub_range": {
     "tip": "対潜探知範囲："
@@ -10619,9 +10759,6 @@
   "ad_3": {
     "tip": "<material=underline c=#92fc63 event=clickPlayer args=1><color=#92fc63>$1</color></material> 艦船入手 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
   },
-  "formation_reform_tip": {
-    "tip": "隊列維持ができません！編成しますか？"
-  },
   "formation_switch_success": {
     "tip": "操作艦隊を$1に切り替えました"
   },
@@ -10631,14 +10768,17 @@
   "intensify": {
     "tip": "強化"
   },
+  "skill": {
+    "tip": "スキル"
+  },
   "challenge_unlimited_tip": {
     "tip": "チャレンジステージを無限に挑戦可能！"
   },
-  "attribute_max_distance_damage": {
-    "tip": "爆風軽減"
-  },
   "attribute_dodge_limit": {
     "tip": "回避上限"
+  },
+  "attribute_sonarInterval": {
+    "tip": "発信頻度"
   },
   "common_sale_out": {
     "tip": "売切れ"
@@ -10651,30 +10791,6 @@
   },
   "commander_material_is_rarity": {
     "tip": "SSRのオフニャが選択されています。続けますか？"
-  },
-  "tactics_lesson_system_introduce": {
-    "tip": {
-      "1": {
-        "icon": {
-          "atlas": "helpbg/tactics",
-          "path": ""
-        }
-      },
-      "ImageMode": true,
-      "disableScroll": true,
-      "helpSize": {
-        "y": 1024,
-        "x": 1176
-      },
-      "windowPos": {
-        "y": -70
-      },
-      "pageMode": true,
-      "windowSize": {
-        "y": 873,
-        "x": 1263
-      }
-    }
   },
   "attribute_angle": {
     "tip": "射角"
@@ -10699,6 +10815,9 @@
   },
   "zan_ship_eva_error_7": {
     "tip": "イイネ済です"
+  },
+  "which_day": {
+    "tip": "<color=#92fc63>$1</color>日目"
   },
   "text_noRes_tip": {
     "tip": "$1が必要です"
@@ -10738,11 +10857,11 @@
   "equipment_select_device_destroy_tip": {
     "tip": "廃棄する装備を選択:"
   },
-  "event_condition_ship_count": {
-    "tip": "<color=#92fc63>$1</color>隻以上必要"
-  },
   "event_flush_not_enough": {
     "tip": "更新可能回数が足りません"
+  },
+  "event_finish_fail": {
+    "tip": "委託完了失敗:"
   },
   "ship_buildShipImmediately_error_noItem": {
     "tip": "高速建造材がありません"
@@ -10750,8 +10869,8 @@
   "word_preview": {
     "tip": "プレビュー"
   },
-  "event_finish_fail": {
-    "tip": "委託完了失敗:"
+  "event_finish_success": {
+    "tip": "委託完了"
   },
   "world_wind_move": {
     "tip": "目標エリアに移動できません。目標エリアにいる艦隊を移動してください"
@@ -10759,8 +10878,8 @@
   "juese_tiyan": {
     "tip": "お試しステージをプレイしますか？"
   },
-  "event_start_success": {
-    "tip": "委託開始"
+  "refresh_shopStreet_question": {
+    "tip": "<color=#92fc63>$2</color>の$1で商品リストを更新しますか？\n\n<size=22>( 本日は既に<size=25><color=#ff5c5c>$3</color></size> 回購入しました)</size>"
   },
   "equip_ammo_type_9": {
     "tip": "瞬発式"
@@ -10774,23 +10893,23 @@
   "ship_shipModLayer_modSuccess": {
     "tip": "強化成功"
   },
-  "levelScene_map_lock": {
-    "tip": "この章をクリアする必要があります"
-  },
   "create_player_success": {
     "tip": "ユーザー登録しました"
-  },
-  "new_airi_error_code_-1": {
-    "tip": "不明なエラーが発生しました"
   },
   "mail_takeAttachment_error_magazine_full": {
     "tip": "<color=#92fc63>受取失敗:</color><color=#92fc63>装備倉庫が一杯です</color>"
   },
+  "new_airi_error_code_-1": {
+    "tip": "不明なエラーが発生しました"
+  },
+  "loading_tip_PoolMgr": {
+    "tip": "有機塗装素子充填中…"
+  },
   "tag_level_narrative": {
     "tip": "ストーリー"
   },
-  "loading_tip_ShaderMgr": {
-    "tip": "視覚センサー起動中…"
+  "task_level_notenough": {
+    "tip": "需要达到$1级才能进行任务"
   },
   "commander_prefab_name": {
     "tip": "セット$1"
@@ -10810,17 +10929,17 @@
   "ship_limit_notice": {
     "tip": "潜水艦ステータスが含まれない"
   },
-  "world_consume_carry_tips": {
-    "tip": "未配置tip"
-  },
   "world_exit_tip": {
     "tip": "メイン画面に戻りますか？"
+  },
+  "world_sairen_title": {
+    "tip": "セイレーン支配度"
   },
   "sham_reset_confirm": {
     "tip": "本日「鏡面海域」の掃討はまだ完了していません。戦況をリセットしますか？"
   },
-  "world_task_refuse1": {
-    "tip": "デイリー任務受領数が上限に達しています"
+  "world_item_recycle_1": {
+    "tip": "セイレーン作戦リセットのため、下記アイテムが変換されます"
   },
   "word_speedUp": {
     "tip": "高速建造材を使用しました"
@@ -10828,8 +10947,8 @@
   "activity_build_end_tip": {
     "tip": "建造"
   },
-  "world_instruction_supply_2": {
-    "tip": "艦隊整備発令可能になるまであと$1"
+  "world_instruction_supply_1": {
+    "tip": "是否消耗$1行动力申请一份基础补给？(当前行动力：$2)(未使用)"
   },
   "world_instruction_morale_1": {
     "tip": "$1の指揮官行動力を消費し、全艦隊の耐久・士気を回復し「戦闘損傷」効果を削除しますか？（現在行動力：$2。このオーダーは一定の時間内に一度しか使用できません）"
@@ -10837,14 +10956,14 @@
   "word_equipment_equip": {
     "tip": "設備"
   },
-  "world_instruction_supply_1": {
-    "tip": "是否消耗$1行动力申请一份基础补给？(当前行动力：$2)(未使用)"
+  "world_instruction_submarine_7": {
+    "tip": "当前海域部署的潜艇舰队弹药耗尽，是否消耗\n$1行动力为潜艇舰队补充弹药并恢复状态？\n(当前行动力：$2；指令使用间隔越短，行动力消耗越高)"
   },
   "index_fleetfront": {
     "tip": "前衛艦隊"
   },
-  "world_instruction_submarine_3": {
-    "tip": "既に潜水艦隊が出撃しています"
+  "world_instruction_submarine_1": {
+    "tip": "この海域では命令を発令できません"
   },
   "exchangecode_use_placeholder": {
     "tip": "英数のみ入力できます"
@@ -10890,7 +11009,7 @@
     "tip": "素材不足"
   },
   "world_transport_locked": {
-    "tip": "確保していない海域は海域マップの端でのみエリア移動を行えます"
+    "tip": "エリアが確保していません。艦隊をマップの端に移動してから再度操作してください"
   },
   "exchangecode_title": {
     "tip": "シリアル入力"
@@ -11200,7 +11319,7 @@
     "tip": "オススメ"
   },
   "activity_shop_lable": {
-    "tip": "※交換可能期間：$1"
+    "tip": "※交換可能期間：<color=#FFCF81>$1</color>"
   },
   "backyard_addShip_error": {
     "tip": "休憩艦船配置失敗:"
@@ -11259,8 +11378,8 @@
   "word_equipment_aircraft": {
     "tip": "艦載機"
   },
-  "word_equipment_all": {
-    "tip": "全部"
+  "world_boss_maintenance": {
+    "tip": "メンテナンス開始直前のため、挑戦できません"
   },
   "word_mat": {
     "tip": "マット"
