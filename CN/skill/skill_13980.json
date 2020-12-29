@@ -1,0 +1,44 @@
+{
+  "castCV": "skill",
+  "picture": "0",
+  "id": 13980,
+  "desc": "提高舰队中所有铁血成员的防空属性,提升自身雷击属性",
+  "uiEffect": "",
+  "aniEffect": {
+    "offset": [
+      0,
+      -2,
+      0
+    ],
+    "effect": "jineng"
+  },
+  "effect_list": [
+    {
+      "targetAniEffect": "",
+      "arg_list": {
+        "nationality": 4,
+        "buff_id": 13981
+      },
+      "casterAniEffect": "",
+      "target_choise": [
+        "TargetAllHelp",
+        "TargetNationality"
+      ],
+      "type": "BattleSkillAddBuff"
+    },
+    {
+      "targetAniEffect": "",
+      "arg_list": {
+        "buff_id": 13983
+      },
+      "casterAniEffect": "",
+      "target_choise": [
+        "TargetSelf"
+      ],
+      "type": "BattleSkillAddBuff"
+    }
+  ],
+  "cd": 0,
+  "painting": 1,
+  "name": "空之戍卫"
+}
