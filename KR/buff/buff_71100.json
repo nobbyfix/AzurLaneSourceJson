@@ -1,0 +1,31 @@
+{
+  "picture": "",
+  "id": 71100,
+  "color": "blue",
+  "desc": "减伤类型用例,受到雷击伤害降低50%",
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
+  "last_effect": "",
+  "name": "雷击减伤",
+  "icon": 71100,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.5,
+        "attr": "damageGetRatioByBulletTorpedo"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

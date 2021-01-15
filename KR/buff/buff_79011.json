@@ -1,0 +1,50 @@
+{
+  "picture": "",
+  "id": 79011,
+  "desc": "",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 0,
+  "icon": 8661,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixRange",
+      "arg_list": {
+        "bulletRangeOffset": 18
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "group": {
+          "id": 300,
+          "level": 10
+        },
+        "mul": 10000,
+        "add": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -12,
+        "attr": "damageEnhanceProjectile"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "失重"
+}

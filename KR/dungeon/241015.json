@@ -1,9 +1,7 @@
 {
+  "id": 241015,
   "fleet_prefab": [],
-  "type": 1,
   "map_id": 10001,
-  "lose_condition": 1,
-  "win_condition": 1,
   "stages": [
     {
       "timeCount": 180,
@@ -79,7 +77,7 @@
           "waveIndex": 202,
           "triggerType": 1,
           "triggerParams": {
-            "timeout": 13
+            "timeout": 15
           }
         },
         {
@@ -87,7 +85,7 @@
           "waveIndex": 203,
           "triggerType": 1,
           "triggerParams": {
-            "timeout": 26
+            "timeout": 30
           }
         },
         {
@@ -95,29 +93,10 @@
           "waveIndex": 204,
           "triggerType": 1,
           "triggerParams": {
-            "timeout": 39
+            "timeout": 50
           }
         },
         {
-          "airFighter": [
-            {
-              "totalNumber": 5,
-              "templateID": 1000900,
-              "score": 1,
-              "onceNumber": 5,
-              "formation": 10006,
-              "interval": 10,
-              "attr": {
-                "attackRating": 23,
-                "maxHP": 90,
-                "airPower": 125
-              },
-              "delay": 0,
-              "weaponID": [
-                316508
-              ]
-            }
-          ],
           "preWaves": [
             100
           ],
@@ -127,7 +106,7 @@
             {
               "score": 0,
               "corrdinate": [
-                11,
+                0,
                 0,
                 75
               ],
@@ -135,14 +114,14 @@
                 8001,
                 8007
               ],
-              "monsterTemplateID": 204101,
+              "monsterTemplateID": 204210,
               "delay": 0,
               "moveCast": true
             },
             {
               "score": 0,
               "corrdinate": [
-                0,
+                5,
                 0,
                 55
               ],
@@ -150,14 +129,40 @@
                 8001,
                 8007
               ],
-              "monsterTemplateID": 204101,
+              "monsterTemplateID": 204210,
               "delay": 0,
               "moveCast": true
             },
             {
               "score": 0,
               "corrdinate": [
-                11,
+                -15,
+                0,
+                55
+              ],
+              "buffList": [
+                8050,
+                8051
+              ],
+              "monsterTemplateID": 242007,
+              "delay": 0,
+              "moveCast": true
+            },
+            {
+              "score": 0,
+              "corrdinate": [
+                -10,
+                0,
+                40
+              ],
+              "monsterTemplateID": 242104,
+              "delay": 0,
+              "moveCast": true
+            },
+            {
+              "score": 0,
+              "corrdinate": [
+                0,
                 0,
                 35
               ],
@@ -165,7 +170,7 @@
                 8001,
                 8007
               ],
-              "monsterTemplateID": 204101,
+              "monsterTemplateID": 204210,
               "delay": 0,
               "moveCast": true
             }
@@ -181,7 +186,7 @@
               "corrdinate": [
                 30,
                 0,
-                80
+                50
               ],
               "buffList": [
                 8001,
@@ -194,9 +199,9 @@
             {
               "score": 0,
               "corrdinate": [
-                30,
+                40,
                 0,
-                30
+                50
               ],
               "buffList": [
                 8001,
@@ -217,25 +222,9 @@
             {
               "score": 0,
               "corrdinate": [
-                0,
+                -15,
                 0,
                 75
-              ],
-              "buffList": [
-                8001,
-                8007
-              ],
-              "monsterTemplateID": 204101,
-              "delay": 0,
-              "moveCast": true
-            },
-            {
-              "reinforceDelay": 4,
-              "score": 0,
-              "corrdinate": [
-                -10,
-                0,
-                55
               ],
               "buffList": [
                 8001,
@@ -248,7 +237,7 @@
             {
               "score": 0,
               "corrdinate": [
-                0,
+                -15,
                 0,
                 35
               ],
@@ -256,9 +245,33 @@
                 8001,
                 8007
               ],
-              "monsterTemplateID": 204101,
+              "monsterTemplateID": 204210,
               "delay": 0,
               "moveCast": true
+            },
+            {
+              "score": 0,
+              "corrdinate": [
+                -5,
+                0,
+                55
+              ],
+              "moveCast": true,
+              "monsterTemplateID": 242109,
+              "delay": 0,
+              "reinforceDelay": 6
+            },
+            {
+              "score": 0,
+              "corrdinate": [
+                0,
+                0,
+                50
+              ],
+              "moveCast": true,
+              "monsterTemplateID": 242001,
+              "delay": 0,
+              "reinforceDelay": 6
             }
           ],
           "waveIndex": 102,
@@ -266,6 +279,38 @@
           "triggerParam": []
         },
         {
+          "reinforcement": [
+            {
+              "score": 0,
+              "corrdinate": [
+                0,
+                0,
+                70
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 204211,
+              "delay": 0,
+              "moveCast": true
+            },
+            {
+              "score": 0,
+              "corrdinate": [
+                0,
+                0,
+                30
+              ],
+              "buffList": [
+                8001,
+                8007
+              ],
+              "monsterTemplateID": 204211,
+              "delay": 0,
+              "moveCast": true
+            }
+          ],
           "preWaves": [
             102,
             101
@@ -274,57 +319,33 @@
           "conditionType": 0,
           "spawn": [
             {
+              "reinforceDelay": 6,
               "score": 0,
               "corrdinate": [
                 0,
                 0,
-                75
+                55
+              ],
+              "buffList": [
+                8050,
+                8051
+              ],
+              "monsterTemplateID": 242006,
+              "delay": 0,
+              "moveCast": true
+            },
+            {
+              "score": 0,
+              "corrdinate": [
+                -15,
+                0,
+                50
               ],
               "buffList": [
                 8001,
                 8007
               ],
-              "monsterTemplateID": 204101,
-              "delay": 0,
-              "moveCast": true
-            },
-            {
-              "score": 0,
-              "corrdinate": [
-                -10,
-                0,
-                55
-              ],
-              "monsterTemplateID": 204209,
-              "delay": 0,
-              "moveCast": true
-            },
-            {
-              "score": 0,
-              "corrdinate": [
-                10,
-                0,
-                55
-              ],
-              "buffList": [
-                8001
-              ],
-              "monsterTemplateID": 204106,
-              "delay": 0,
-              "moveCast": true
-            },
-            {
-              "score": 0,
-              "corrdinate": [
-                0,
-                0,
-                35
-              ],
-              "buffList": [
-                8001,
-                8007
-              ],
-              "monsterTemplateID": 204101,
+              "monsterTemplateID": 204210,
               "delay": 0,
               "moveCast": true
             }
@@ -343,6 +364,5 @@
         }
       ]
     }
-  ],
-  "id": 601120
+  ]
 }

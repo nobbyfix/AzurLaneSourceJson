@@ -1,0 +1,71 @@
+{
+  "picture": "",
+  "id": 72100,
+  "color": "red",
+  "desc": "对前排伤害提高50%",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "last_effect": "",
+  "name": "对前排增伤",
+  "icon": 72100,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.5,
+        "attr": "damageRatioByShipType_1"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.5,
+        "attr": "damageRatioByShipType_2"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.5,
+        "attr": "damageRatioByShipType_3"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.5,
+        "attr": "damageRatioByShipType_18"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.5,
+        "attr": "damageRatioByShipType_19"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

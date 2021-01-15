@@ -1,0 +1,28 @@
+{
+  "picture": "",
+  "id": 74302,
+  "desc": "战斗对象对我方舰队造成X次伤害后，下一次伤害会导致我方舰队速度降低X%，持续Y秒",
+  "color": "red",
+  "last_effect": "",
+  "time": 8,
+  "icon": 74300,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetShipTag",
+        "ship_tag_list": [
+          "A1"
+        ],
+        "buff_id": 74301
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "干涉"
+}

@@ -1,0 +1,61 @@
+{
+  "picture": "",
+  "id": 39004,
+  "color": "yellow",
+  "desc": "",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "last_effect": "",
+  "name": "大舰队世界boss_1_阶段3",
+  "icon": 39000,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 8000,
+        "attr": "cannonPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 8000,
+        "attr": "torpedoPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttrRatio",
+      "arg_list": {
+        "number": 8000,
+        "attr": "airPower"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.15,
+        "attr": "injureRatio"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufared",
+  "time": 0
+}

@@ -24,12 +24,12 @@
       "type": "BattleBuffCastSkill",
       "arg_list": {
         "hpUpperBound": 0.3,
-        "target": "TargetTemplate",
-        "targetTemplateIDList": [
-          105131,
-          105132,
-          105133,
-          105134
+        "target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "ship_tag_list": [
+          "Washington"
         ],
         "quota": 1,
         "skill_id": 11010

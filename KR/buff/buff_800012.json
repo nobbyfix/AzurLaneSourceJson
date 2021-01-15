@@ -1,0 +1,52 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "picture": "",
+  "id": 800012,
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "nationality": 101,
+        "exceptCaster": true,
+        "check_target": "TargetNationalityFriendly",
+        "minTargetNumber": 1,
+        "skill_id": 101010
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "nationality": 101,
+        "exceptCaster": true,
+        "buff_id": 101012,
+        "minTargetNumber": 1,
+        "check_target": "TargetNationalityFriendly",
+        "isBuffStackByCheckTarget": true
+      }
+    }
+  ],
+  "desc": "出击时，若队伍中有超次元海王星阵营角色，自身伤害提高，受到伤害降低，每有1位超次元海王星阵营角色，自身伤害额外提高，受到伤害额外降低",
+  "icon": 101010,
+  "last_effect": "Health",
+  "name": "皇家方舟技能3",
+  "color": "yellow",
+  "desc_get": "出击时，若队伍中有超次元海王星阵营角色，自身伤害提高，受到伤害降低，每有1位超次元海王星阵营角色，自身伤害额外提高，受到伤害额外降低",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}

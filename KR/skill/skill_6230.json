@@ -25,32 +25,16 @@
     {
       "targetAniEffect": "",
       "arg_list": {
-        "effectFilter": [
-          [
-            "TargetID",
-            "=",
-            305111
-          ],
-          [
-            "TargetID",
-            "=",
-            305112
-          ],
-          [
-            "TargetID",
-            "=",
-            305113
-          ],
-          [
-            "TargetID",
-            "=",
-            305114
-          ]
+        "ship_tag_list": [
+          "Mikasa"
         ],
         "buff_id": 6231
       },
       "casterAniEffect": "",
-      "target_choise": "TargetSelf",
+      "target_choise": [
+        "TargetSelf",
+        "TargetShipTag"
+      ],
       "type": "BattleSkillAddBuff"
     }
   ],

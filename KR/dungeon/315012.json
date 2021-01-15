@@ -1,0 +1,246 @@
+{
+  "fleet_prefab": [],
+  "map_id": 10001,
+  "bgm": "story-6",
+  "id": 315012,
+  "stages": [
+    {
+      "timeCount": 180,
+      "failCondition": 1,
+      "playerArea": [
+        -70,
+        20,
+        37,
+        68
+      ],
+      "stageIndex": 1,
+      "totalArea": [
+        -70,
+        20,
+        90,
+        70
+      ],
+      "backGroundStageID": 1,
+      "fleetCorrdinate": [
+        -80,
+        0,
+        75
+      ],
+      "enemyArea": [],
+      "passCondition": 1,
+      "waves": [
+        {
+          "preWaves": [],
+          "waveIndex": 100,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 0.5
+          }
+        },
+        {
+          "preWaves": [],
+          "waveIndex": 202,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 40
+          }
+        },
+        {
+          "preWaves": [],
+          "waveIndex": 203,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 40
+          }
+        },
+        {
+          "preWaves": [
+            100
+          ],
+          "triggerType": 0,
+          "conditionType": 1,
+          "spawn": [
+            {
+              "score": 0,
+              "buffList": [
+                8050,
+                8051
+              ],
+              "affix": true,
+              "moveCast": true,
+              "corrdinate": [
+                30,
+                0,
+                55
+              ],
+              "phase": [
+                {
+                  "setAI": 100020,
+                  "switchTo": 1,
+                  "addWeapon": [
+                    2011430,
+                    2011990
+                  ],
+                  "switchParam": 8,
+                  "switchType": 1,
+                  "index": 0
+                },
+                {
+                  "setAI": 10001,
+                  "switchTo": 2,
+                  "addWeapon": [
+                    2011340
+                  ],
+                  "removeWeapon": [
+                    2011990
+                  ],
+                  "switchParam": 6,
+                  "switchType": 1,
+                  "index": 1
+                },
+                {
+                  "switchTo": 3,
+                  "addWeapon": [
+                    2011500
+                  ],
+                  "removeWeapon": [
+                    2011340,
+                    2011400
+                  ],
+                  "switchParam": 24,
+                  "switchType": 1,
+                  "index": 2
+                },
+                {
+                  "switchTo": 1,
+                  "addWeapon": [
+                    2011900
+                  ],
+                  "removeWeapon": [
+                    2011500,
+                    2011400
+                  ],
+                  "switchParam": 20,
+                  "switchType": 1,
+                  "index": 3
+                }
+              ],
+              "monsterTemplateID": 296001,
+              "delay": 0,
+              "bossData": {
+                "icon": "zhumo",
+                "hpBarNum": 100
+              }
+            }
+          ],
+          "waveIndex": 101,
+          "key": true,
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            202
+          ],
+          "triggerType": 10,
+          "conditionType": 1,
+          "waveIndex": 102,
+          "spawn": [
+            {
+              "cld_data": [
+                15
+              ],
+              "behaviours": 105,
+              "coordinate": [
+                -30,
+                0,
+                65
+              ],
+              "life_time": 3.5,
+              "delay": 0,
+              "prefab": "haidihuoshan_yujing"
+            },
+            {
+              "cld_data": [
+                15
+              ],
+              "behaviours": 105,
+              "coordinate": [
+                -45,
+                0,
+                40
+              ],
+              "life_time": 3.5,
+              "delay": 4,
+              "prefab": "haidihuoshan_yujing"
+            },
+            {
+              "cld_data": [
+                15
+              ],
+              "behaviours": 105,
+              "coordinate": [
+                -60,
+                0,
+                65
+              ],
+              "life_time": 3.5,
+              "delay": 8,
+              "prefab": "haidihuoshan_yujing"
+            },
+            {
+              "cld_data": [
+                15
+              ],
+              "behaviours": 105,
+              "coordinate": [
+                -30,
+                0,
+                40
+              ],
+              "life_time": 3.5,
+              "delay": 12,
+              "prefab": "haidihuoshan_yujing"
+            },
+            {
+              "cld_data": [
+                15
+              ],
+              "behaviours": 105,
+              "coordinate": [
+                -45,
+                0,
+                65
+              ],
+              "life_time": 3.5,
+              "delay": 16,
+              "prefab": "haidihuoshan_yujing"
+            },
+            {
+              "cld_data": [
+                15
+              ],
+              "behaviours": 105,
+              "coordinate": [
+                -60,
+                0,
+                40
+              ],
+              "life_time": 3.5,
+              "delay": 20,
+              "prefab": "haidihuoshan_yujing"
+            }
+          ],
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            101
+          ],
+          "waveIndex": 900,
+          "triggerType": 8,
+          "triggerParams": []
+        }
+      ]
+    }
+  ]
+}

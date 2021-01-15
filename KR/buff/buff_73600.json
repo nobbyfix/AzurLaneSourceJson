@@ -1,0 +1,26 @@
+{
+  "picture": "",
+  "id": 73600,
+  "desc": "战斗对象的血量下降到X%时，有Y%概率将炮击伤害降为1",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 73600,
+  "effect_list": [
+    {
+      "trigger": [
+        "onHPRatioUpdate"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "hpUpperBound": 0.3,
+        "quota": 1,
+        "buff_id": 73601
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "濒死免疫"
+}

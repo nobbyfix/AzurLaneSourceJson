@@ -1,0 +1,164 @@
+{
+  "fleet_prefab": [],
+  "map_id": 10001,
+  "bgm": "story-6",
+  "id": 312350,
+  "stages": [
+    {
+      "timeCount": 180,
+      "failCondition": 1,
+      "playerArea": [
+        -70,
+        20,
+        37,
+        68
+      ],
+      "stageIndex": 1,
+      "totalArea": [
+        -70,
+        20,
+        90,
+        70
+      ],
+      "backGroundStageID": 1,
+      "fleetCorrdinate": [
+        -80,
+        0,
+        75
+      ],
+      "enemyArea": [],
+      "passCondition": 1,
+      "waves": [
+        {
+          "preWaves": [],
+          "waveIndex": 100,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 0.5
+          }
+        },
+        {
+          "preWaves": [],
+          "waveIndex": 202,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 20
+          }
+        },
+        {
+          "preWaves": [],
+          "waveIndex": 203,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 40
+          }
+        },
+        {
+          "airFighter": [
+            {
+              "totalNumber": 15,
+              "templateID": 2200900,
+              "attr": {
+                "attackRating": 23,
+                "maxHP": 15,
+                "airPower": 40
+              },
+              "formation": 10008,
+              "interval": 20,
+              "onceNumber": 5,
+              "delay": 0,
+              "weaponID": []
+            }
+          ],
+          "preWaves": [
+            100
+          ],
+          "triggerType": 0,
+          "conditionType": 1,
+          "spawn": [
+            {
+              "affix": true,
+              "score": 0,
+              "moveCast": true,
+              "corrdinate": [
+                -10,
+                0,
+                55
+              ],
+              "phase": [
+                {
+                  "setAI": 10001,
+                  "switchTo": 1,
+                  "addWeapon": [
+                    2011440
+                  ],
+                  "switchParam": 4,
+                  "switchType": 1,
+                  "index": 0
+                },
+                {
+                  "switchTo": 2,
+                  "addWeapon": [
+                    2011340
+                  ],
+                  "removeWeapon": [
+                    2011990,
+                    2011820
+                  ],
+                  "switchParam": 6,
+                  "switchType": 1,
+                  "index": 1
+                },
+                {
+                  "switchTo": 3,
+                  "addWeapon": [
+                    2011500
+                  ],
+                  "removeWeapon": [
+                    2011340,
+                    2011400,
+                    2011990
+                  ],
+                  "switchParam": 22,
+                  "switchType": 1,
+                  "index": 2
+                },
+                {
+                  "switchTo": 1,
+                  "addWeapon": [
+                    2011820
+                  ],
+                  "removeWeapon": [
+                    2011340,
+                    2011400,
+                    2011990
+                  ],
+                  "switchParam": 13,
+                  "switchType": 1,
+                  "index": 3
+                }
+              ],
+              "monsterTemplateID": 296022,
+              "delay": 0,
+              "bossData": {
+                "icon": "zhumo",
+                "hpBarNum": 100
+              }
+            }
+          ],
+          "waveIndex": 101,
+          "key": true,
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            101
+          ],
+          "waveIndex": 900,
+          "triggerType": 8,
+          "triggerParams": []
+        }
+      ]
+    }
+  ]
+}
