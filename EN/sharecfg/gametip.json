@@ -124,7 +124,7 @@
     "tip": "This Simulation battle is complete."
   },
   "commander_is_in_guild": {
-    "tip": "The Meowfficer is currently in Guild Operation "
+    "tip": "There are Meowfficers currently assigned to a Guild Operation boss battle. Are you sure you want to continue?"
   },
   "word_default": {
     "tip": "Default"
@@ -819,7 +819,7 @@
     "tip": "1"
   },
   "buildship_new_tip": {
-    "tip": "Rate UP for Prinz Heinrich, Peter Strasser, and more! "
+    "tip": "Rate UP for Zara, Pola, and more! "
   },
   "result_firework_produce": {
     "tip": "Fireworks production has been completed. Your final rating: "
@@ -1223,19 +1223,16 @@
         "info": "About <color=#92fc63>Data Keys:</color>\nYou can use <color=#92fc63>Data Keys</color> to gain temporary access to the stages of certain past events from the <color=#92fc63>War Archives</color> screen.\nAny progress you may have made on an event stage prior to its implementation to the <color=#92fc63>War Archives</color> feature does not carry over."
       },
       {
-        "info": "\n 1. You can currently acquire 2 <color=#92fc63>Data Keys</color> a day through a daily mission."
+        "info": "1. You can acquire 4 Data Keys a day by tapping the \"Collect\" button in the War Archives interface."
       },
       {
-        "info": "2. You can store up to 30 <color=#92fc63>Data Keys</color> in total. Any <color=#92fc63>Data Keys</color> that you attempt to collect beyond that point will be automatically deleted."
+        "info": "2. You can store up to 60 Data Keys in total. Any Data Keys that you attempt to collect beyond that amount will be lost."
       },
       {
-        "info": "3. Using 1 <color=#92fc63>Data Key</color> allows you to play a past event for <color=#92fc63>15 minutes</color>."
+        "info": "3. A Data Key can be consumed to grant one attempt on a selected event stage."
       },
       {
-        "info": "4. All stages of the particular event will be available to you during this period, barring EX Stages, if applicable."
-      },
-      {
-        "info": "5. You can still finish a stage if your 15 minutes run out. However, you must still complete your run in the allotted 12 hours before you are automatically booted out of the stage."
+        "info": "4. Data Keys will not be refunded if you retreat from a stage."
       }
     ]
   },
@@ -1669,7 +1666,7 @@
     "tip": "Fleet 1"
   },
   "world_stamina_resetwarning": {
-    "tip": "Notice: Operation Siren is about to <color=#ff5c5c>reset</color>.\nYou will only carry over a maximum of <color=#ff5c5c>100 AP</color> after reset,\nso please plan your combat strategy accordingly! "
+    "tip": "Notice: Operation Siren is about to <color=#ff5c5c>reset</color>.\nYou will only carry over a maximum of <color=#ff5c5c>$1 AP</color> after reset,\nso please plan your combat strategy accordingly! "
   },
   "main_navalAcademyScene_quest_Classover_long": {
     "tip": "Class dismissed! <color=#92fc63>$1</color> studied hard. <color=#92fc63>$2 +$3</color>; <color=#92fc63>$4 +$5</color>!"
@@ -3917,6 +3914,9 @@
   "month_card_set_ratio_not_change": {
     "tip": "Already changed to this ratio."
   },
+  "guild_tip_quit_operation": {
+    "tip": "Leaving your current Guild will not restore the number of monthly Guild Operation participations you have. Are you sure you want to leave your Guild?"
+  },
   "word_status_train": {
     "tip": "<size=20>Training</size>"
   },
@@ -4067,6 +4067,9 @@
   "words_settings_unlock_ship": {
     "tip": "Unlocking ships"
   },
+  "area_putong": {
+    "tip": "Normal"
+  },
   "world_resource_tip_1": {
     "tip": "未配置tip"
   },
@@ -4109,8 +4112,17 @@
   "battle_resourceSiteMediator_noSite": {
     "tip": "Resource node does not exist."
   },
+  "world_reset_3": {
+    "tip": "Re-enter Operation Siren to reset "
+  },
   "word_gem": {
     "tip": "Gems"
+  },
+  "world_reset_2": {
+    "tip": "Operation SIren resets in <color=#92fc63>$1</color> tomorrow "
+  },
+  "world_reset_1": {
+    "tip": "Operation SIren resets in <color=#92fc63>$1</color> day(s) "
   },
   "backayrd_theme_delete_sucess": {
     "tip": "Theme deleted."
@@ -4121,8 +4133,20 @@
   "msgbox_text_inconsume": {
     "tip": "NO"
   },
+  "vote_final_title2": {
+    "tip": "Event Rewards"
+  },
+  "area_zhuxian": {
+    "tip": "Campaign"
+  },
   "friend_resume_manoeuvre_win_rate": {
     "tip": "EXER-WR:"
+  },
+  "equipment_upgrade_feedback_equipment_can_be_produced": {
+    "tip": "Insufficient gear. Please craft more in the Depot. "
+  },
+  "challenge_combat_score": {
+    "tip": "Stage Score: $1"
   },
   "vote_love_limit": {
     "tip": "Vote on this character first today before using a special vote."
@@ -4130,11 +4154,29 @@
   "main_mailMediator_notingToTake": {
     "tip": "No rewards available."
   },
+  "area_shenyuan": {
+    "tip": "Abyssal"
+  },
+  "area_yaosai_2": {
+    "tip": "Siren-Occupied Zone"
+  },
   "word_theme": {
     "tip": "Theme"
   },
+  "area_yaosai": {
+    "tip": "Stronghold"
+  },
   "venusvolleyball_suspend_tip": {
     "tip": "Resume the match? "
+  },
+  "area_anquan": {
+    "tip": "Safe"
+  },
+  "ship_dockyardScene_capacity": {
+    "tip": "Dock capacity:"
+  },
+  "word_equipment_all": {
+    "tip": "All"
   },
   "word_many": {
     "tip": "Many"
@@ -4145,14 +4187,23 @@
   "skinshop_live2d_fliter_failed": {
     "tip": "No outfits to display under current filter settings "
   },
+  "tec_tendency_2": {
+    "tip": "PR2 Focus"
+  },
   "common_limit_level": {
     "tip": "Unlocked at Commander <color=#92fc63>lv. $1</color>"
   },
   "mail_getMailList_error_noNewMail": {
     "tip": "No new mail."
   },
+  "world_setting_quickmode": {
+    "tip": "Reduce TB Guidance "
+  },
   "course_state_rest": {
     "tip": "Setting Up"
+  },
+  "world_setting_title": {
+    "tip": "Operation Siren Settings "
   },
   "ten_even_draw_confirm": {
     "tip": "$1回交換しますか？"
@@ -4163,65 +4214,23 @@
   "special_animal2": {
     "tip": "[Uranami's Collection of Cuties - #2] Paranoebill: this bird flies with telekinesis, rather than its wings. It is peaceful and a conscientious objector, but will use its power for self-defense if necessary."
   },
-  "word_wait": {
-    "tip": ""
-  },
-  "battle_resourceSiteLayer_startError_collecting": {
-    "tip": "Harvesting..."
-  },
-  "common_compare_smaller": {
-    "tip": "<"
-  },
-  "energy_desc_normal": {
-    "tip": "She's in normal spirits. She'll probably fight with normal power."
-  },
-  "commander_build_erro": {
-    "tip": "Failed to train Meowfficer(s): $1"
-  },
-  "remould_ship_ok": {
-    "tip": "Improved!"
-  },
-  "backyard_backyardShipInfoMediator_shipState_event": {
-    "tip": "She's currently running special ops!"
-  },
-  "ship_dockyardScene_capacity": {
-    "tip": "Dock capacity:"
-  },
-  "word_equipment_all": {
-    "tip": "All"
-  },
-  "challenge_share_progress": {
-    "tip": "Challenges Cleared:"
-  },
-  "tec_tendency_2": {
-    "tip": "PR2 Focus"
-  },
-  "world_setting_quickmode": {
-    "tip": "Reduce TB Guidance "
-  },
-  "world_setting_title": {
-    "tip": "Operation Siren Settings "
-  },
-  "channel_name_1": {
-    "tip": "All"
-  },
   "world_fleet_stop": {
     "tip": "Your fleet has stopped moving. "
   },
-  "word_heavyarmor": {
-    "tip": "Heavy"
+  "word_wait": {
+    "tip": ""
+  },
+  "archives_whether_to_retreat": {
+    "tip": "Are you sure you want to <color=#92fc63>retreat</color>? Your Data Key will not be refunded if you retreat."
   },
   "text_clear": {
     "tip": "Clear"
   },
-  "world_boss_not_reach_target": {
-    "tip": "Insufficient Ashes Coordinates. "
+  "battle_resourceSiteLayer_startError_collecting": {
+    "tip": "Harvesting..."
   },
   "commander_is_in_bigworld": {
     "tip": "This Meowfficer is participating in Operation Siren. "
-  },
-  "ship_remould_warning_310014": {
-    "tip": "Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed\n<color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>\n<color=#92fc63>your current Secondary Weapon </color> will be unequipped\n Would you like to continue?"
   },
   "world_collection_3": {
     "tip": "Progress:"
@@ -4232,14 +4241,14 @@
   "world_collection_1": {
     "tip": "Progress:"
   },
-  "longxiang_count": {
-    "tip": "J Talisman target: "
+  "common_compare_smaller": {
+    "tip": "<"
+  },
+  "energy_desc_normal": {
+    "tip": "She's in normal spirits. She'll probably fight with normal power."
   },
   "words_settings_unlock_commander": {
     "tip": "Unlocking Meowfficers"
-  },
-  "word_own1": {
-    "tip": "Owned:"
   },
   "world_word_world": {
     "tip": "Global"
@@ -4247,11 +4256,11 @@
   "ranking_word_9": {
     "tip": "Score"
   },
+  "commander_build_erro": {
+    "tip": "Failed to train Meowfficer(s): $1"
+  },
   "word_shipNation_meta": {
     "tip": "???"
-  },
-  "test_ship_intensify_tip": {
-    "tip": "Engineers can't be enhanced!"
   },
   "world_boss_challenge_cnt": {
     "tip": "Participants: "
@@ -4259,26 +4268,23 @@
   "word_take_effect": {
     "tip": "In Effect "
   },
+  "remould_ship_ok": {
+    "tip": "Improved!"
+  },
   "meta_boss_unlock": {
     "tip": "Clear the first chapter of <color=#92fc63>Operation Siren</color> to unlock Ashes Showdown for the ability to obtain META ships. "
+  },
+  "backyard_backyardShipInfoMediator_shipState_event": {
+    "tip": "She's currently running special ops!"
   },
   "meta_pt_notenough": {
     "tip": "Insufficient Sync Points. Participate in <color=#92fc63>Operation Siren</color> to earn more!"
   },
-  "new_airi_error_code_100210": {
-    "tip": "The third party account does not match with the one bound to this account"
-  },
-  "ambush_display_5": {
-    "tip": "High"
-  },
   "special_transform_limit_reach": {
     "tip": "Unable to obtain more copies of this retrofit item "
   },
-  "word_desc": {
-    "tip": "Descending"
-  },
-  "world_low_morale": {
-    "tip": "You are unable to start a boss battle because your fleet Resolve is low. \nYou can restore Resolve by issuing a Regroup and Rest command or by winning battles. "
+  "equip_ammo_type_3": {
+    "tip": "Cannon"
   },
   "meta_help": {
     "tip": [
@@ -4344,20 +4350,116 @@
   "common_daily_limit": {
     "tip": "未配置tip"
   },
+  "challenge_share_progress": {
+    "tip": "Challenges Cleared:"
+  },
   "equip_ammo_type_10": {
     "tip": "None "
-  },
-  "elite_disable_property_unsatisfied": {
-    "tip": "Attack requirements not met. Unable to proceed."
   },
   "stage_finishStage_error": {
     "tip": "Stage may not be completed: "
   },
+  "equip_ammo_type_7": {
+    "tip": "SAP"
+  },
+  "channel_name_1": {
+    "tip": "All"
+  },
+  "black_white_grid_switch_tip": {
+    "tip": "This Board is still in Progress"
+  },
+  "word_heavyarmor": {
+    "tip": "Heavy"
+  },
+  "equip_ammo_type_4": {
+    "tip": "Magnetic "
+  },
+  "world_boss_not_reach_target": {
+    "tip": "Insufficient Ashes Coordinates. "
+  },
+  "equip_ammo_type_2": {
+    "tip": "HE"
+  },
+  "ship_remould_warning_310014": {
+    "tip": "Upon the retrofit <color=#92fc63>$1</color> the hull type of this unit will be changed\n<color=#92fc63>Secondary Weapon </color>will become<color=#92fc63> Water Detection </color> slot <color=#92fc63><material=underline c=#A9F548 event=clickDetail> Info </material></color>\n<color=#92fc63>your current Secondary Weapon </color> will be unequipped\n Would you like to continue?"
+  },
+  "equip_ammo_type_1": {
+    "tip": "AP"
+  },
+  "world_boss_pt_recove_desc": {
+    "tip": "$1 Challenge Attempts will be restored each day at midnight. "
+  },
+  "world_boss_ad": {
+    "tip": "[$1] Lv. $2 "
+  },
+  "longxiang_count": {
+    "tip": "J Talisman target: "
+  },
+  "charge_title": {
+    "tip": "Spend $1 to buy $3 x$2"
+  },
+  "word_own1": {
+    "tip": "Owned:"
+  },
+  "meta_voice_name_feeling5": {
+    "tip": "Love"
+  },
+  "meta_voice_name_feeling4": {
+    "tip": "Synced"
+  },
+  "upgrade_complete_tip": {
+    "tip": "Rehearsal complete! "
+  },
+  "test_ship_intensify_tip": {
+    "tip": "Engineers can't be enhanced!"
+  },
+  "touch_body": {
+    "tip": "Touch"
+  },
+  "meta_voice_name_feeling1": {
+    "tip": "Let Down"
+  },
+  "meta_skillbtn_tactics": {
+    "tip": "Upgrade "
+  },
+  "meta_toast_tactics": {
+    "tip": "Research EXP "
+  },
+  "new_airi_error_code_100210": {
+    "tip": "The third party account does not match with the one bound to this account"
+  },
+  "ambush_display_5": {
+    "tip": "High"
+  },
+  "commander_capcity_is_max": {
+    "tip": "The Cattery is full, nya..."
+  },
+  "word_desc": {
+    "tip": "Descending"
+  },
+  "world_low_morale": {
+    "tip": "You are unable to start a boss battle because your fleet Resolve is low. \nYou can restore Resolve by issuing a Regroup and Rest command or by winning battles. "
+  },
+  "meta_switch_skill_box_title": {
+    "tip": "Would you like to start learning $1? "
+  },
+  "meta_unlock_skill_tip": {
+    "tip": "The following materials are required to learn <color=#92fc63>$2</color>: "
+  },
+  "guild_cancel_assult_ship_recommend_conflict": {
+    "tip": "The recommended status of this ship has already been cleared."
+  },
+  "elite_disable_property_unsatisfied": {
+    "tip": "Attack requirements not met. Unable to proceed."
+  },
+  "guild_donate_addition_techpoint_tip": {
+    "tip": "Guild Contribution Level increased by $1."
+  },
   "guild_tip_dissolve": {
     "tip": "Once a Guild is disbanded, the Guild status (including member activity, Guild funding, Guild tech level, etc) will be erased and cannot be restored. All uncollected supplies and Action Reports will be permanently lost. Are you sure you wish to disband the Guild? "
   },
-  "equip_ammo_type_7": {
-    "tip": "SAP"
+  "meta_energy_preview_title": {
+    "tip": "Final stats at Max Fortification: "
   },
   "battle_resourceSiteLayer_startError_limit": {
     "tip": "Requirements not met: <color=#92fc63>$1</color>"
@@ -4371,32 +4473,32 @@
   "ship_profile_words": {
     "tip": "Quotes"
   },
-  "black_white_grid_switch_tip": {
-    "tip": "This Board is still in Progress"
+  "meta_break": {
+    "tip": "*This ship will gain a ★ after Somatic Activation. "
   },
   "level_ammo_enough": {
     "tip": "Commander, your fleet ammo is full! There's no need to resupply."
   },
-  "equip_ammo_type_4": {
-    "tip": "Magnetic "
+  "meta_energy_active_box_tip": {
+    "tip": "Are you sure you want this ship to undergo Somatic Activation? (The ship will gain a ★ afterwards) "
   },
-  "equip_ammo_type_3": {
-    "tip": "Cannon"
+  "meta_energy_ship_repairrate_need": {
+    "tip": "Fortification Rate Req: $1/$2"
   },
-  "equip_ammo_type_2": {
-    "tip": "HE"
+  "blueprint_simulation_confirm_29903": {
+    "tip": "<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.\nEquipped gear:<color=#92fc63>\nPrototype Twin 234mm Main Gun (9.2\" MK XII)\nQuadruple 533mm Torpedo\nTwin 40mm Bofors STAAG</color></size>"
   },
-  "equip_ammo_type_1": {
-    "tip": "AP"
+  "tag_level_fighting": {
+    "tip": "In Progress"
   },
-  "world_boss_pt_recove_desc": {
-    "tip": "$1 Challenge Attempts will be restored each day at midnight. "
+  "secretary_unlock2": {
+    "tip": "Clear stage 3-4 \nto unlock "
   },
-  "world_boss_ad": {
-    "tip": "[$1] Lv. $2 "
+  "meta_award_get": {
+    "tip": "Collect"
   },
-  "charge_title": {
-    "tip": "Spend $1 to buy $3 x$2"
+  "firend_relieve_blacklist_ok": {
+    "tip": "Removed!"
   },
   "acquisitionmode_is_not_open": {
     "tip": "This method is not unlocked yet."
@@ -4404,35 +4506,35 @@
   "word_material": {
     "tip": "Items"
   },
-  "meta_voice_name_feeling5": {
-    "tip": "Love"
+  "meta_story_tip_2": {
+    "tip": "未配置tip"
   },
-  "meta_voice_name_feeling4": {
-    "tip": "Synced"
+  "meta_story_tip_1": {
+    "tip": "未配置tip"
   },
   "amercian_notice_1": {
     "tip": "Confirm using <color=#92fc63>$1</color> Battle Stars to redeem <color=#92fc63>$2</color>"
   },
-  "collect_idol_tip": {
-    "tip": "You may reset an item's position by dragging it back to the selection frame. "
+  "meta_syn_rate": {
+    "tip": "资讯同步率"
   },
-  "touch_body": {
-    "tip": "Touch"
+  "meta_pt_left": {
+    "tip": "$1 Days Left"
   },
   "achieve_propose_tip": {
     "tip": "Unlocked skins $1!"
   },
-  "meta_voice_name_feeling1": {
-    "tip": "Let Down"
+  "meta_story_lock": {
+    "tip": "未配置tip"
   },
   "destory_ship_before_tip": {
     "tip": "Are you sure you want to select this ship? "
   },
-  "meta_skillbtn_tactics": {
-    "tip": "Upgrade "
+  "meta_sys_lock_tip": {
+    "tip": "未配置tip"
   },
-  "meta_toast_tactics": {
-    "tip": "Research EXP "
+  "world_resource_fill": {
+    "tip": "Unable to hold any more Supply Shop Vouchers. "
   },
   "commander_material_is_in_fleet_tip": {
     "tip": "This Meowfficer is assigned to a fleet.\nWould you like to remove it?"
@@ -4459,17 +4561,17 @@
       }
     ]
   },
-  "commander_capcity_is_max": {
-    "tip": "The Cattery is full, nya..."
+  "world_map_version": {
+    "tip": "This zone will be reset because assets have been updated. "
   },
   "new_airi_error_code_100245": {
     "tip": "Apple authorization request failed for unknown reason"
   },
-  "meta_switch_skill_box_title": {
-    "tip": "Would you like to start learning $1? "
+  "word_shipState_guild_boss": {
+    "tip": "There are ships currently assigned to a Guild Operation boss battle. Are you sure you want to continue?"
   },
-  "meta_unlock_skill_tip": {
-    "tip": "The following materials are required to learn <color=#92fc63>$2</color>: "
+  "oil_buy_tip_2": {
+    "tip": "You need <size=28><color=#ff5c5c>$4</color></size> Oil. Would you like to spend <color=#92fc63>$1</color><icon name=diamond w=0.7 h=0.7/> to buy <size=28><color=#92fc63>$2</color></size> Oil?<size=28><color=#a2a2a2>\n\n(You have purchased Oil <size=28><color=#ff5c5c>$3</color></size> times today.)</color></size>"
   },
   "no_way_to_escape": {
     "tip": "Can't escape!"
@@ -4477,26 +4579,26 @@
   "buildship_heavy_tip": {
     "tip": "Mikasa and Hiei are added to standard build pool!"
   },
-  "guild_cancel_assult_ship_recommend_conflict": {
-    "tip": "The recommended status of this ship has already been cleared."
+  "world_max_challenge_cnt": {
+    "tip": "This battle is already full. Please try another target. "
   },
-  "guild_donate_addition_techpoint_tip": {
-    "tip": "Guild Contribution Level increased by $1."
+  "desc_defense_reward": {
+    "tip": "The rewards you receive are based on how effective your defense was."
   },
   "tip_pray_build_pool_success": {
     "tip": "Your wish has been granted."
   },
-  "guild_boss_formation_3": {
-    "tip": "You cannot select 2 of the same ship."
+  "world_boss_none": {
+    "tip": "Coordinates have expired. Please try another target. "
   },
   "guild_word_may_happen_event": {
     "tip": "Possible Events"
   },
-  "meta_break": {
-    "tip": "*This ship will gain a ★ after Somatic Activation. "
+  "world_joint_count_no_enough": {
+    "tip": "Insufficient challenge attempts remaining. "
   },
-  "meta_energy_active_box_tip": {
-    "tip": "Are you sure you want this ship to undergo Somatic Activation? (The ship will gain a ★ afterwards) "
+  "ship_exchange_medalCount_noEnough": {
+    "tip": "You don't have enough Medals."
   },
   "word_intimacy": {
     "tip": "Affinity"
@@ -4504,54 +4606,32 @@
   "backyard_backyardShipInfoMediator_error_mainFleetOnlyOneShip": {
     "tip": "At least 1 ship must be deployed to Main Fleet."
   },
-  "meta_energy_ship_repairrate_need": {
-    "tip": "Fortification Rate Req: $1/$2"
+  "world_joint_not_refresh_frequently": {
+    "tip": "Please try again later. "
   },
-  "help_act_event": {
-    "tip": {
-      "1": {
-        "icon": {
-          "atlas": "helpbg/event_doa",
-          "path": ""
-        }
-      },
-      "ImageMode": true,
-      "disableScroll": true,
-      "helpSize": {
-        "y": 1024,
-        "x": 1176
-      },
-      "defaultpage": 1,
-      "windowPos": {
-        "y": -70
-      },
-      "pageMode": true,
-      "windowSize": {
-        "y": 873,
-        "x": 1263
-      }
-    }
+  "world_joint_boss_award_expired": {
+    "tip": "未配置tip"
   },
   "secondarypassword_illegal_tip": {
     "tip": "Contains sensitive info, please re-enter "
   },
-  "tag_level_fighting": {
-    "tip": "In Progress"
+  "world_word_guild_player": {
+    "tip": "player"
   },
-  "secretary_unlock2": {
-    "tip": "Clear stage 3-4 \nto unlock "
+  "world_word_guild_member": {
+    "tip": "Guild member"
   },
-  "meta_award_get": {
-    "tip": "Collect"
-  },
-  "firend_relieve_blacklist_ok": {
-    "tip": "Removed!"
-  },
-  "meta_story_tip_2": {
+  "world_word_expired": {
     "tip": "未配置tip"
   },
-  "meta_story_tip_1": {
+  "world_joint_call_world_support_txt": {
     "tip": "未配置tip"
+  },
+  "world_joint_call_friend_support_txt": {
+    "tip": "未配置tip"
+  },
+  "world_joint_call_support_success": {
+    "tip": "Support request sent successfully."
   },
   "sham_can_not_change_ship": {
     "tip": "You may not change support ships during Simulation."
@@ -4559,8 +4639,8 @@
   "ship_shipModMediator_choiseMaterial": {
     "tip": "Please select materials to use during limit break."
   },
-  "meta_syn_rate": {
-    "tip": "资讯同步率"
+  "autofight_formation": {
+    "tip": "Formation"
   },
   "ship_preference_common": {
     "tip": "Set ship as Favorite."
@@ -4568,38 +4648,38 @@
   "guild_apply_full": {
     "tip": "Guild's list of applications is full."
   },
-  "meta_pt_left": {
-    "tip": "$1 Days Left"
+  "world_joint_boss_is_death": {
+    "tip": "Coordinates have expired. Please try another target. "
   },
-  "meta_story_lock": {
+  "meta_learn_skill": {
     "tip": "未配置tip"
   },
   "anniversary_task_title_13": {
     "tip": "I can already see your shadow ahead of me. With just a few more steps, I'll be able to reach you at last."
   },
-  "meta_sys_lock_tip": {
-    "tip": "未配置tip"
+  "index_without_limit": {
+    "tip": "No Limit"
   },
-  "world_resource_fill": {
-    "tip": "Unable to hold any more Supply Shop Vouchers. "
+  "event_type_unlimit": {
+    "tip": "Any type"
   },
   "elite_condition_dodge": {
     "tip": "Total EVA"
   },
-  "world_map_version": {
-    "tip": "This zone will be reset because assets have been updated. "
+  "autofight_selectprops_tip": {
+    "tip": "Add Item"
   },
   "word_equipment_warship_torpedo": {
     "tip": "Surface Torpedo"
   },
-  "oil_buy_tip_2": {
-    "tip": "You need <size=28><color=#ff5c5c>$4</color></size> Oil. Would you like to spend <color=#92fc63>$1</color><icon name=diamond w=0.7 h=0.7/> to buy <size=28><color=#92fc63>$2</color></size> Oil?<size=28><color=#a2a2a2>\n\n(You have purchased Oil <size=28><color=#ff5c5c>$3</color></size> times today.)</color></size>"
+  "autofight_change_tip": {
+    "tip": "The status of this fleet has automatically been set to <color=#92fc63>All Enemies</color>."
   },
   "backyard_buyExtendItem_question": {
     "tip": "This will cost <color=#92fc63>$1</color>. Are you sure you want to continue?"
   },
-  "world_max_challenge_cnt": {
-    "tip": "This battle is already full. Please try another target. "
+  "autofight_farm": {
+    "tip": "Clearing Mode"
   },
   "word_secondseach": {
     "tip": "/wave"
@@ -4610,8 +4690,8 @@
   "tack_tickets_max_warning": {
     "tip": "You already have the maximum amount of <color=#ffde38>Data Keys</color>. You will receive <color=#ff5c5c>$1</color> Data Key(s) if you proceed. Would you still like to collect these rewards? "
   },
-  "desc_defense_reward": {
-    "tip": "The rewards you receive are based on how effective your defense was."
+  "autofight_task": {
+    "tip": "Mission Completed: $1"
   },
   "help_chunjie_monopoly": {
     "tip": [
@@ -4685,8 +4765,8 @@
   "word_week": {
     "tip": "w"
   },
-  "world_boss_none": {
-    "tip": "Coordinates have expired. Please try another target. "
+  "autofight_entrust": {
+    "tip": "Urgent Commission Posted: $1"
   },
   "event_type_unreached": {
     "tip": "Fleet contains wrong type of ships."
@@ -4694,23 +4774,23 @@
   "level_chapter_state_risk": {
     "tip": "<color=#FFAF59>【Threat: Med】</color>"
   },
-  "world_joint_count_no_enough": {
-    "tip": "Insufficient challenge attempts remaining. "
+  "backyard_theme_apply_success": {
+    "tip": "Loadout Saved"
   },
-  "ship_exchange_medalCount_noEnough": {
-    "tip": "You don't have enough Medals."
+  "intimacy_desc_5_buff": {
+    "tip": "Current buff: All base stats (except speed and gear) +6%"
   },
   "practise_idol_tip": {
     "tip": "Would you like to begin rehearsing $1? "
   },
-  "world_joint_not_refresh_frequently": {
-    "tip": "Please try again later. "
+  "autofight_rewards_none": {
+    "tip": "No rewards earned."
   },
   "new_airi_error_code_100213": {
     "tip": "Unable to unbind the account"
   },
-  "world_joint_boss_award_expired": {
-    "tip": "未配置tip"
+  "autofight_rewards": {
+    "tip": "Total Rewards"
   },
   "words_rare_ship_vibrate": {
     "tip": "New Ship Buzz"
@@ -4721,17 +4801,17 @@
   "activity_pool_awards_empty": {
     "tip": "This phase has been completed"
   },
-  "world_word_guild_player": {
-    "tip": "player"
+  "autofight_function4": {
+    "tip": "Standby"
   },
-  "world_word_guild_member": {
-    "tip": "Guild member"
+  "autofight_function3": {
+    "tip": "All Enemies"
   },
-  "world_word_expired": {
-    "tip": "未配置tip"
+  "autofight_function2": {
+    "tip": "Flagships"
   },
-  "world_joint_call_world_support_txt": {
-    "tip": "未配置tip"
+  "autofight_function1": {
+    "tip": "Escorts"
   },
   "equipment_upgrade_feedback_lack_of_equipment": {
     "tip": "Insufficient gear. "
@@ -4755,11 +4835,11 @@
   "ship_formationUI_fleetName_easy_ss": {
     "tip": "Sub Fleet - Easy"
   },
-  "world_joint_call_friend_support_txt": {
-    "tip": "未配置tip"
+  "autofight_function": {
+    "tip": "Role"
   },
-  "world_joint_call_support_success": {
-    "tip": "Support request sent successfully."
+  "Word_Ship_Exp_Buff": {
+    "tip": "EXP Rate+ "
   },
   "world_joint_call_support_failed": {
     "tip": "Unable to send support request."
@@ -4770,20 +4850,42 @@
   "ship_profile_action_words": {
     "tip": "Action Quotes"
   },
-  "world_joint_boss_is_death": {
-    "tip": "Coordinates have expired. Please try another target. "
+  "guild_boss_formation_3": {
+    "tip": "You cannot select 2 of the same ship."
   },
   "ins_word_day": {
     "tip": "$1 days ago "
   },
-  "meta_learn_skill": {
-    "tip": "未配置tip"
+  "autofight_errors_tip": {
+    "tip": "No valid enemy found. Auto-Search Mode has been disabled."
   },
-  "index_without_limit": {
-    "tip": "No Limit"
+  "anniversary_task_title_2": {
+    "tip": "Though things were a bit rough at first, you strove, strategized, and sometimes even wished your way towards success."
   },
-  "event_type_unlimit": {
-    "tip": "Any type"
+  "help_act_event": {
+    "tip": {
+      "1": {
+        "icon": {
+          "atlas": "helpbg/event_doa",
+          "path": ""
+        }
+      },
+      "ImageMode": true,
+      "disableScroll": true,
+      "helpSize": {
+        "y": 1024,
+        "x": 1176
+      },
+      "defaultpage": 1,
+      "windowPos": {
+        "y": -70
+      },
+      "pageMode": true,
+      "windowSize": {
+        "y": 873,
+        "x": 1263
+      }
+    }
   },
   "meta_energy_ship_level_need": {
     "tip": "Level Requirement: $1/$2"
@@ -4791,13 +4893,17 @@
   "tips_dispense_completed": {
     "tip": "Filling complete"
   },
-  "blueprint_simulation_confirm_29903": {
-    "tip": "<size=28>Would you like to start a Battle Simulation? Note: the ship's stats and abilities may differ from its fully developed equivalent.\nEquipped gear:<color=#92fc63>\nPrototype Twin 234mm Main Gun (9.2\" MK XII)\nQuadruple 533mm Torpedo\nTwin 40mm Bofors STAAG</color></size>"
-  },
   "help_xinnian2021__meishiyemian": {
     "tip": [
       {
         "info": "Event Rules:\n1. During the event, you will gain <color=#92fc63>1</color> rewarded attempt every day\nup to a maximum of <color=#92fc63>7</color> attempts.\n2. Play the Food Festival minigame while having <color=#92fc63>rewarded attempts</color> to use an attempt\nand gain event rewards. Collect 7 event rewards\nto get the limited character, Z28.\n3. If you play the minigame while not having any rewarded attempts,\nyou will not receive any event items.\n4. Quitting the minigame or exiting for any other reason will\nnot consume the rewarded attempt, and you will\nnot receive any rewards."
+      }
+    ]
+  },
+  "help_xinnian2021__qiaozhong": {
+    "tip": [
+      {
+        "info": "<size=31><color=#92fc63>Game Tips:\nMaking an offering with no shrine visit attempts will consume Coins but not grant any buff effects.</color></size>\n1. During the event, each time you complete a <color=#92fc63>Manjuu Snowdown</color> match,\nyou will earn <color=#92fc63>2</color>shrine visit attempts, up to a maximum of <color=#ff5c5c>14</color>.\n2. While having shrine visit attempts, you can spend 5 Coins\nto make an offering for various buff effects.\nPossible wishes and their effects are as follows:\nAcademic Success: Slightly reduced learning time in the Tactical Class\nCareer Success: Your fleets deal slightly increased damage in Main Campaign, Hard Mode, and War Archives stages.\nMarital Bliss: Increases the rate your secretary ship gains Affection. \nAll these buffs last for one day.\n3. When obtaining the Academic Success buff, any classes\ncurrently in session will not have their time reduced, nor will\nthe learning time increase if the buff wears off while a class\nis in session.\n4. If you make an offering while already having a buff effect,\nthe newly obtained buff will overwrite your previous one,\nand the buff duration will be reset.\n5. Only one buff effect can be active at a time."
       }
     ]
   },
@@ -4807,30 +4913,30 @@
   "backyard_cant_put_tip": {
     "tip": "Unable to place."
   },
-  "help_xinnian2021__qiaozhong": {
-    "tip": [
-      {
-        "info": "<size=31><color=#92fc63>Game Tips:\nMaking an offering with no shrine visit attempts will consume Coins but not grant any buff effects.</color></size>\n1. During the event, each time you complete a <color=#92fc63>Manjuu Snowdown</color> match,\nyou will earn <color=#92fc63>2</color>shrine visit attempts, up to a maximum of <color=#ff5c5c>14</color>.\n2. While having shrine visit attempts, you can spend 5 Coins\nto make an offering for various buff effects.\nPossible wishes and their effects are as follows:\nAcademic Success: Slightly reduced learning time in the Tactical Class\nCareer Success: Your fleets deal slightly increased damage in Main Campaign, Hard Mode, and War Archives stages.\nMarital Bliss: Increases the rate your secretary ship gains Affection. \nAll these buffs last for one day.\n3. When obtaining the Academic Success buff, any classes\ncurrently in session will not have their time reduced, nor will\nthe learning time increase if the buff wears off while a class\nis in session.\n4. If you make an offering while already having a buff effect,\nthe newly obtained buff will overwrite your previous one,\nand the buff duration will be reset.\n5. Only one buff effect can be active at a time."
-      }
-    ]
+  "guild_create_sucess": {
+    "tip": "Guild created!"
   },
   "challenge_casual_click_switch": {
     "tip": "You are currently playing on Normal Mode.\nTotal score: $1.\nWould you like to change modes?"
   },
-  "guild_create_sucess": {
-    "tip": "Guild created!"
-  },
   "activity_level_easy_tip": {
     "tip": "Note: You need to <color=#a0ff40>clear stages on Normal</color> in order to unlock Hard mode."
-  },
-  "system_database_busy": {
-    "tip": "Database is busy. Please try again later."
   },
   "common_dont_remind_dur_login": {
     "tip": "Don't show again"
   },
+  "system_database_busy": {
+    "tip": "Database is busy. Please try again later."
+  },
   "guild_trainee_duty_change_tip": {
     "tip": "This action requires you to have 100 Guild Tokens."
+  },
+  "doa_pt_help": {
+    "tip": [
+      {
+        "info": "Event Rules:\n1. During the event, players may use <color=#92fc63>Venus Points</color> to\nupgrade their Permit Level on the event page.\nEach time the Permit Level is increased, players\nwill have the ability to upgrade one stat.\n2. There are four types of stats: POW, TEC, STM, and APL.\nEach stat may be upgraded twice and provides the following buffs:\n① POW: Deal additional DMG on Campaign, Event,\nHard Mode, and War Archives stages.\n② TEC: Training time in the Tactical Academy is shortened.\n③ STM: Gain more ship EXP from Campaign, Event,\nHard Mode, and War Archives stages.\n④ APL: Gain more ship EXP from the Dorms.\n3. Tap the Permit icon on the right-hand side of the event screen\nto see the bonuses provided by each stat level."
+      }
+    ]
   },
   "blueprint_mod_success": {
     "tip": "Successfully enhanced."
@@ -4844,15 +4950,11 @@
   "naval_academy_res_desc_class": {
     "tip": "Upgrading the Lecture Hall will increase <color=#92fc63>Proficiency Limit</color>, <color=#92fc63>Proficiency Gain</color>, and <color=#92fc63>Proficiency to EXP</color> "
   },
-  "doa_pt_help": {
-    "tip": [
-      {
-        "info": "Event Rules:\n1. During the event, players may use <color=#92fc63>Venus Points</color> to\nupgrade their Permit Level on the event page.\nEach time the Permit Level is increased, players\nwill have the ability to upgrade one stat.\n2. There are four types of stats: POW, TEC, STM, and APL.\nEach stat may be upgraded twice and provides the following buffs:\n① POW: Deal additional DMG on Campaign, Event,\nHard Mode, and War Archives stages.\n② TEC: Training time in the Tactical Academy is shortened.\n③ STM: Gain more ship EXP from Campaign, Event,\nHard Mode, and War Archives stages.\n④ APL: Gain more ship EXP from the Dorms.\n3. Tap the Permit icon on the right-hand side of the event screen\nto see the bonuses provided by each stat level."
-      }
-    ]
-  },
   "guild_assult_ship_recommend_conflict": {
     "tip": "This ship has already been set as recommended."
+  },
+  "venusvolleyball_return_tip": {
+    "tip": "Are you sure you want to quit? You will not be able to get match completion rewards. "
   },
   "buy_furniture_overtime": {
     "tip": "Unable to purchase this decoration at this time."
@@ -4860,14 +4962,8 @@
   "tactics_noskill_erro": {
     "tip": "Skill must exist."
   },
-  "venusvolleyball_return_tip": {
-    "tip": "Are you sure you want to quit? You will not be able to get match completion rewards. "
-  },
   "venusvolleyball_rule_tip": {
     "tip": "Earn $1 points first "
-  },
-  "word_activity": {
-    "tip": "活动"
   },
   "venusvolleyball_help": {
     "tip": [
@@ -4875,6 +4971,9 @@
         "info": "Event Rules:\n1. <color=#92fc63>A new match</color> will become available every day until\n<color=#92fc63>12/2</color> at midnight, up to a total of <color=#92fc63>7</color> matches. \nComplete all the matches to earn the limited gear, <color=#92fc63>\"Venus Awakening Gem,\"</color>as well as\nthe following item-<color=#92fc63>\"Favorite Food (Monica)\"</color>.\n2. Tap to start the game and choose two characters to enter the match.\nThe match will conclude when either side scores <color=#92fc63>5</color> points.\n3. A timing circle will appear when it's the player's turn to hit the ball.\nTap anywhere on the screen at the proper time to hit the ball.\n4. When the timing circle is between the outer and inner scoring circles,\na \"Good\" rating will be given. When the timing circle is tapped within the\ninner scoring circle, a \"Perfect\" rating will be given.\nIf the screen is not tapped, or tapped before the timing circle\nis allowed to retract, a \"Miss\" rating will be given.\nA \"Miss\" will result in the other side scoring.\nA Good or Perfect rating counts as a successful receive.\n5. If all matches have been unlocked, you may can repeat\nthe match on the same day. After completing all the matches,\nFree Play will be unlocked, allowing players to freely select\ntheir desired character to play with."
       }
     ]
+  },
+  "word_activity": {
+    "tip": "活动"
   },
   "help_candymagic": {
     "tip": [
@@ -4886,6 +4985,9 @@
   "backyard_sort_tag_default": {
     "tip": "ID"
   },
+  "collect_idol_tip": {
+    "tip": "You may reset an item's position by dragging it back to the selection frame. "
+  },
   "meta_voice_name_feeling3": {
     "tip": "Friend"
   },
@@ -4895,11 +4997,15 @@
   "school_title_zhihuimiao": {
     "tip": "Cattery "
   },
-  "upgrade_complete_tip": {
-    "tip": "Rehearsal complete! "
-  },
   "upgrade_idol_tip": {
     "tip": "Rehearsals will grant your fleets\nbuffs for the remainder of the event. "
+  },
+  "practise_idol_help": {
+    "tip": [
+      {
+        "info": "- Rehearsal Info:\nComplete event missions and clear event stages to earn <color=#92fc63>Universe Badges</color>, which can be used to initiate rehearsals.\nCheck back regularly to see if you've collected enough for another rehearsal.\n\nThere are 3 types of rehearsal, each granting a different bonus.\nAdditionally, your rehearsal level for a given category increases as you perform it again. Maxing out your rehearsal level will award you an additional bonus at the end.\n\nThe 3 rehearsal types are as follows:\n1. Vocal Appeal - Increases the DMG your ships deal in battle.\n2. Glamorous Steps - Decreases the DMG your ships take in battle.\n3. Memorable Performance - Increases the EXP your ships gain in battle.\n\nIf you're not sure what your current rehearsal level is, you can check it from the right-hand side of the event banner."
+      }
+    ]
   },
   "commander_main_pos": {
     "tip": "Command Cat"
@@ -4922,13 +5028,6 @@
   "login_newPlayerScene_word_biaoqiang": {
     "tip": "I'm Javelin! Commander, I've already told you my name... Now you have to tell me yours!"
   },
-  "practise_idol_help": {
-    "tip": [
-      {
-        "info": "- Rehearsal Info:\nComplete event missions and clear event stages to earn <color=#92fc63>Universe Badges</color>, which can be used to initiate rehearsals.\nCheck back regularly to see if you've collected enough for another rehearsal.\n\nThere are 3 types of rehearsal, each granting a different bonus.\nAdditionally, your rehearsal level for a given category increases as you perform it again. Maxing out your rehearsal level will award you an additional bonus at the end.\n\nThe 3 rehearsal types are as follows:\n1. Vocal Appeal - Increases the DMG your ships deal in battle.\n2. Glamorous Steps - Decreases the DMG your ships take in battle.\n3. Memorable Performance - Increases the EXP your ships gain in battle.\n\nIf you're not sure what your current rehearsal level is, you can check it from the right-hand side of the event banner."
-      }
-    ]
-  },
   "fleet_antisub_range_tip": {
     "tip": [
       {
@@ -4936,17 +5035,14 @@
       }
     ]
   },
+  "military_forbid_when_in_chapter": {
+    "tip": "Fleet is currently attacking at sea. Unable to being exercise."
+  },
   "backyard_backyardGranaryLayer_foodMaxIncreaseNotice": {
     "tip": "Expand Supply Capacity from  <color=#92fc63>$1</color> to <color=#92fc63>$2</color>."
   },
   "new_airi_error_code_100115": {
     "tip": "Device ID is banned during login creation"
-  },
-  "military_forbid_when_in_chapter": {
-    "tip": "Fleet is currently attacking at sea. Unable to being exercise."
-  },
-  "backyard_backyardShipInfoMediator_error_noFood": {
-    "tip": "You don't have enough snacks."
   },
   "ur_exchange_help_tip": {
     "tip": [
@@ -4954,6 +5050,9 @@
         "info": "- Bulin Support Plan Info\nThe Bulin Support Plan is a permanent minievent.\nComplete the tasks to earn Specialized Cores, which can then be exchanged for a Specialized Bulin Custom MKIII.\nThere is a cap to how many cores you can earn in one month. This cap resets at midnight of the first of every month.\n\n- How to Get Specialized Cores\n1. Through Weekly Missions. You can obtain a lot of cores by finishing the completing both 20 and 50 Daily Missions.\n2. Through clearing maps. Every time you defeat the boss fleet on main story maps (both Normal and Hard Mode), event maps, and War Archives maps, you earn a small amount of cores.\n3. Through Research. Whenever you finish doing Research in the Lab, there is a chance you'll receive a small amount of cores. \n4. Through retiring UR ships. Ultra Rare ships received from construction grant you cores when you retire them."
       }
     ]
+  },
+  "backyard_backyardShipInfoMediator_error_noFood": {
+    "tip": "You don't have enough snacks."
   },
   "trade_card_tips4": {
     "tip": "$1 / $2 / $3 "
@@ -4976,17 +5075,14 @@
   "jiujiu_expedition_reward_tip": {
     "tip": "Explore the minigame stages to receive rewards!"
   },
-  "sofmapsd_4": {
-    "tip": "We've hit our sales goal, nya! \nThanks a bunch, Commander!"
-  },
   "jiujiu_expedition_book_tip": {
     "tip": "Unlocks after you complete the previous collection."
   },
+  "sofmapsd_4": {
+    "tip": "We've hit our sales goal, nya! \nThanks a bunch, Commander!"
+  },
   "shop_label_unlimt_cnt": {
     "tip": "Infinite "
-  },
-  "fleet_repairShips_error_fullEnergy": {
-    "tip": "Your ships are already fully energized!"
   },
   "jiujiu_expedition_help": {
     "tip": [
@@ -4995,11 +5091,14 @@
       }
     ]
   },
-  "intimacy_desc_7_buff": {
-    "tip": "Current buff: All base stats (except speed and gear) +12%"
+  "fleet_repairShips_error_fullEnergy": {
+    "tip": "Your ships are already fully energized!"
   },
   "destroy_ur_rarity_tip": {
     "tip": "You have selected a ship of <color=#92fc63>UR</color> rarity. \nPlease enter the following into the box below: <color=#92fc63>$1</color> "
+  },
+  "intimacy_desc_7_buff": {
+    "tip": "Current buff: All base stats (except speed and gear) +12%"
   },
   "build_ship_accumulative": {
     "tip": "Total: "
@@ -5020,6 +5119,9 @@
         "info": "Minigame Instructions:\n1. After selecting a jewel, you have up to 7 seconds\nto move it. During the 7 seconds, you can drag it up,\ndown, left, or right an unlimited distance.\n2. While moving, the jewel will exchange positions with\nany jewels on its path. After 7 seconds or upon letting go\nof the jewel, the game will settle the results of that move.\n3. If 3 or more jewels of the same color are adjacent\neither horizontally or vertically, they will be cleared from\nthe play board. This will be called 1 “Clear.”\nDuring the event, you will receive 1 Reward Attempt per\nday, up to a maximum of 7.\n1. Playing the minigame with a Reward Attempt will\nconsume 1 attempt and grant rewards.\n2. You may check your Reward Attempts remaining on\nthe right-hand side of the Celebration Plaza screen.\n3. If you have no Reward Attempts, you will not receive\nrewards for playing the minigame.\n4. If you exit the minigame for any reason, a Reward\nattempt will not be consumed, but you will also not\nreceive any rewards."
       }
     ]
+  },
+  "guild_tip_grand_fleet_is_frozen": {
+    "tip": "This Guild has been frozen and cannot be joined."
   },
   "multiple_ship_energy_low_warn": {
     "tip": "Exhausted\nAffinity will be reduced if you attack"
@@ -5076,8 +5178,8 @@
   "anniversary_task_title_14": {
     "tip": "I can't wait until I can see you once more. When the birds resume their song once more..."
   },
-  "equipment_upgrade_feedback_equipment_can_be_produced": {
-    "tip": "Insufficient gear. Please craft more in the Depot. "
+  "area_renwu": {
+    "tip": "Mission"
   },
   "world_event_teleport_alter": {
     "tip": "If you move to another zone, fleets currently in battle will automatically retreat. "
@@ -5165,6 +5267,9 @@
       },
       {
         "info": "Be aware that these rewards will expire if not claimed within a certain period of time."
+      },
+      {
+        "info": "Guild Operations will automatically be closed if not completed after 60 days."
       }
     ]
   },
@@ -5385,11 +5490,11 @@
   "commission_normal": {
     "tip": "Commission: "
   },
-  "meta_energy_preview_title": {
-    "tip": "Final stats at Max Fortification: "
+  "autofight_special_operation_tip": {
+    "tip": "In Auto-Search Mode, your fleets will prioritize fighting the enemy <color=#92fc63>flagship fleet</color>. If you want to use High-Efficiency Combat Logistics Plans, <color=#92fc63>please assign them to be used again</color>."
   },
   "shop_street_activity_tip": {
-    "tip": "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>12.29-1.13</COLOR>)!"
+    "tip": "※<color=#A1E400FF>Gear Skins</color> are purchasable during(<color=#A1E400FF>1.21-2.3</COLOR>)!"
   },
   "word_museum_help": {
     "tip": [
@@ -5893,8 +5998,8 @@
   "tec_target_catchup_select_tip": {
     "tip": "Would you like to prioritize $1 Research?"
   },
-  "anniversary_task_title_2": {
-    "tip": "Though things were a bit rough at first, you strove, strategized, and sometimes even wished your way towards success."
+  "autofight": {
+    "tip": "Auto-Search"
   },
   "collection_award_ship": {
     "tip": "$1 research complete! Now in construction queue."
@@ -6377,8 +6482,8 @@
   "guild_donate_log": {
     "tip": "$1 $2 spent $4 $3 and completed a Contribution Mission. Guild Funds increased by $5."
   },
-  "backyard_theme_apply_success": {
-    "tip": "Loadout Saved"
+  "autofight_onceagain": {
+    "tip": "Continue"
   },
   "backyard_theme_word_apply": {
     "tip": "Apply"
@@ -7741,8 +7846,8 @@
   "login_loginMediator_vertifyFail": {
     "tip": "Data validation failed."
   },
-  "Word_Ship_Exp_Buff": {
-    "tip": "EXP Rate+ "
+  "autofight_cat": {
+    "tip": "Meowfficer"
   },
   "words_information": {
     "tip": "Info"
@@ -7939,8 +8044,8 @@
   "loading_tip_FontMgr": {
     "tip": "Creating fonts..."
   },
-  "challenge_combat_score": {
-    "tip": "Stage Score: $1"
+  "area_yinmi": {
+    "tip": "Hidden"
   },
   "challenge_season_update_infinite_switch": {
     "tip": "You are currently playing on Endless Mode.\nCurrent Stage: $1.\nSince the Challenge Stage lineup has changed, this won't affect your Stage Clear score.\nWould you like to change modes?"
@@ -8016,7 +8121,7 @@
     "tip": "Start "
   },
   "levelScene_activate_remaster": {
-    "tip": "Would you like to use a <color=#ffde38>Data Key</color> and gain access to this event for 15 minutes? Once your time is up, you will need to use another Data Key."
+    "tip": "Unlocking this stage requires <color=#ffde38>1 Data Key</color>.\nWould you like to unlock this stage?"
   },
   "index_shipType_weiXiu": {
     "tip": "Repair"
@@ -8458,7 +8563,7 @@
   "levelScene_loop_help_tip": {
     "tip": [
       {
-        "info": "Once you get a Stage's Threat Level down to <color=#92fc63>Safe</color> and clear \nit with <color=#92fc63>3 Stars</color>, you can choose to enable <color=#92fc63>Clearing Mode</color> from \nthe Stage's select screen.\n\nEnabling Clearing Mode affects a Stage in the following ways:\n1. On non-event Hard Mode Stages, <color=#92fc63>enemy mob fleets will \ndisappear, leaving only the Boss Fleet</color>.\n2. On event Stages, the positioning and pathfinding of enemy \nfleets will change.\n3. On event Stages, <color=#92fc63>the movement restriction placed on your \nfleets is removed</color>, allowing you to move freely around the \nmap.\n4. In normal stages, the chance for ambushes and\n map airstrikes to occur will be removed. \n5. Formation lock mode will be enabled."
+        "info": "Once you get a stage’s Threat Level down to <color=#92fc63>Safe</color> and clear it with <color=#92fc63>3 stars</color>, you will be able to use <color=#92fc63>Clearing Mode</color>.\n\nEnabling Clearing Mode affects a stage in the following ways:：\n\n1 On Normal and Hard Mode stages, enemy escort fleets <color=#92fc63>will not appear</color>.\n2 On Event stages, some changes will be made to the configuration of enemy fleets.\n3 活On event stages, <color=#92fc63>movement restrictions</color> will be lifted,\nallowing you to move freely.\n4 On normal stages, <color=#92fc63>ambushes and airstrikes will no longer occur</color>.\n5 <color=#92fc63>Fleet Formation Lock</color> will be enabled.\n6 <color=#92fc63>Auto-Search Mode</color> will be enabled.\n\n <color=#92fc63>Auto-Search Mode</color> Details:\n1.  <color=#92fc63>Auto-Search Mode</color> can only be enabled in Clearing Mode, and will be automatically activated the first time you enter a stage in Clearing Mode.\n2.When Auto-Search Mode is enabled, <color=#92fc63>Auto Combat</color> and <color=#92fc63>Fleet Lock</color> will automatically be enabled as well. Auto Submarine will not be automatically enabled and depends on your personal settings.\n3.After enabling Auto-Search, you may change 4 settings on the fleet selection interface. The settings are as follows:①<color=#92fc63>Escorts Only</color>: This fleet will only engage escort fleets. When set, the other fleet will automatically be set to engage the enemy boss fleet.\n②<color=#92fc63>Flagship Only</color>: When the enemy flagship fleet spawns, this fleet will automatically move to engage it. When set, the other fleet will automatically be set to engage enemy escort fleets.\n③<color=#92fc63>All Enemies</color>: This fleet will engage enemy escort fleets until the flagship fleet spawns, then engage the enemy flagship. When set, the other fleet will automatically be set to standby.\n④<color=#92fc63>Standby</color>: This fleet will not be used to engage enemies. When set, the other fleet will automatically be set to engage all enemies.\n4. When Auto-Search is enabled, if there is an <color=#92fc63>Elite Enemy</color> present on the battlefield, that fleet will be prioritized. If there is no Elite Enemy present, your fleets will attempt to engage the <color=#92fc63>closest available enemy</color>. When the enemy flagship fleet appears, your fleets will prioritize attacking the <color=#92fc63>enemy flagship</color>."
       }
     ]
   },
@@ -10057,8 +10162,8 @@
   "vote_vote_time": {
     "tip": "Voting window: $1 - $2"
   },
-  "vote_final_title2": {
-    "tip": "Event Rewards"
+  "charge_trade_no_error": {
+    "tip": "Incorrect Order ID. Please try again."
   },
   "word_pt": {
     "tip": "Points"
@@ -10761,8 +10866,8 @@
   "main_mailLayer_noAttach": {
     "tip": "No rewards"
   },
-  "intimacy_desc_5_buff": {
-    "tip": "Current buff: All base stats (except speed and gear) +6%"
+  "autofight_leave": {
+    "tip": "Exit"
   },
   "vote_primary_rule": {
     "tip": ""
