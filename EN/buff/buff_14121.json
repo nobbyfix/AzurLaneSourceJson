@@ -1,0 +1,34 @@
+{
+  "picture": "",
+  "id": 14121,
+  "desc": "减伤",
+  "last_effect": "",
+  "time": 5,
+  "icon": 14120,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -0.5,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 14122
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufablue",
+  "name": "Pepperpot"
+}
