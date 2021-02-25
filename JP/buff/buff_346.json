@@ -1,0 +1,60 @@
+{
+  "picture": "",
+  "id": 346,
+  "desc": "持续伤害+易伤效果",
+  "last_effect": "Darkness",
+  "time": 8,
+  "icon": 346,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "attr": "cannonPower",
+        "k": 0.6,
+        "cloakExpose": 36,
+        "exposeGroup": 1,
+        "number": 5,
+        "time": 2,
+        "dotType": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.15,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "quota": 1,
+        "skill_id": 60
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 61
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "基洛夫燃烧"
+}

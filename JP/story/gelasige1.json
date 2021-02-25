@@ -1,0 +1,483 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "それは恋を呼ぶ季節\n\n<size=45>一 それは恋を呼ぶ季節</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "blackBg": true,
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "まぶたの裏側にぼぉっと光が当たっている。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgmDelay": 2,
+      "bgm": "story-1"
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 202261,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "blackBg": true,
+      "say": "――きて。――きてって！"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "blackBg": true,
+      "say": "どこからか、少女の声が聞こえてくる。"
+    },
+    {
+      "actor": 202261,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "expression": 1,
+      "say": "――加減――起きてってば！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ]
+    },
+    {
+      "actor": 202261,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "say": "もう！いつまで寝てるの。いい加減起きないと遅刻ですよ。ち・こ・く！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "寝ぼけ眼をこすりながら大きくあくびをする。そばでしかめっ面しているのはメイドのグラスゴーだ。",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 202261,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "せっかくニューカッスル姉さんが作ってくれた朝ごはんも冷めてしまうじゃない……ほら起きて支度を！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "どうしてそんなに慌てているのだろう……そう思ってふと時計を見る。",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "……もしや、この時計は壊れているのだろうか？見たところ、今から支度しても間に合うかギリギリだ。",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "actor": 202261,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "壊れてなんかいないって！貴方様のせいで私まで遅刻してしまうでしょーっ！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "なんと！こうしちゃいられない！慌ててベッドから転げ落ちると、急いで学校へ行く支度を始めた。",
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 10,
+        "number": 2
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_task"
+    },
+    {
+      "say": "――学園・桜並木",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 0.5,
+        "black": true
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 0.5,
+        "dur": 0.5
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "say": "ほら貴方様、急いで！もうすぐで始業のベルが鳴っちゃうって！",
+      "actor": 202261,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "息も切れ切れになりながら、どうにか学園の校門をくぐり抜ける。教室まではあと少し……っ！",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "say": "いっつもこうやってギリギリなんだから！私だけだったら絶対に遅刻なんてしないのに……はぁ。",
+      "actor": 202261,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 202261,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "こ、こら！ちゃんと外では同級生として接するって前も言ったでしょ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 202261,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "私は貴方様の家のハウスメイドだけど、学園ではお互い同級生の関係なんだから！わかったら頷く！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "頷く――が、グラスゴーはそのままツンとそっぽを向いて頬を膨らませており、こちらを見ていない。",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "相変わらずだなと、今ではすっかり当たり前になってしまったこの二人の関係にふと思いをはせる。",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "でも、こうしていつまでもこのままの仲でいることに……そのことに、お互い満足しているのだろうか？",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "actor": 202261,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "ほら到着！……まったく、明日はちゃんと一人で起きるのよ。ちゃんと確認しにいくからね！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "――春。それは恋を呼ぶ季節。",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "時に、とある者に仕えるハウスメイド。時に、同じ学園に通う同級生の女の子。",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "star_level_bg_103"
+    },
+    {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "これは、そんなちょっぴり素直になれない少女・グラスゴーのドキドキな恋の物語である――",
+      "blackBg": true,
+      "bgName": "star_level_bg_103"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "GELASIGE1",
+  "once": true
+}
