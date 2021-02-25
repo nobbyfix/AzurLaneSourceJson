@@ -49,26 +49,19 @@
       }
     ]
   },
-  "90029": {
-    "id": 90029,
+  "70139": {
+    "id": 70139,
     "default": 1,
-    "name": "回中后停留_偏右",
+    "name": "2021毛系活动D3代行者水平追踪移动",
     "list": [
       {
         "to": 1,
-        "type": 1,
+        "type": 8,
         "index": 1,
         "param": {
-          "z": 55,
-          "x": -5
-        }
-      },
-      {
-        "to": 1,
-        "type": 0,
-        "index": 2,
-        "param": {
-          "duration": -1
+          "duration": 300,
+          "offsetZ": 2,
+          "X": -5
         }
       }
     ]
@@ -386,23 +379,49 @@
       }
     ]
   },
-  "90030": {
-    "id": 90030,
+  "70140": {
+    "id": 70140,
     "default": 1,
-    "name": "随机移动_偏左",
+    "name": "2021毛系活动道中代行者浮游炮移动1",
     "list": [
       {
-        "to": 1,
-        "type": 3,
+        "to": 2,
+        "type": 2,
         "index": 1,
         "param": {
-          "moveCount": 240,
-          "duration": -1,
-          "X1": 10,
-          "X2": -10,
-          "Z1": 30,
-          "Z2": 80,
-          "stopCount": 90
+          "duration": 5,
+          "x": -30,
+          "z": 0
+        }
+      },
+      {
+        "to": 3,
+        "type": 2,
+        "index": 2,
+        "param": {
+          "duration": 3,
+          "x": -5,
+          "z": -15
+        }
+      },
+      {
+        "to": 4,
+        "type": 2,
+        "index": 3,
+        "param": {
+          "duration": 3,
+          "x": 0,
+          "z": 30
+        }
+      },
+      {
+        "to": 2,
+        "type": 2,
+        "index": 4,
+        "param": {
+          "duration": 5,
+          "x": 5,
+          "z": -15
         }
       }
     ]
@@ -849,23 +868,39 @@
       }
     ]
   },
-  "90031": {
-    "id": 90031,
+  "70141": {
+    "id": 70141,
     "default": 1,
-    "name": "随机移动_弹幕",
+    "name": "2021毛系活动道中代行者浮游炮移动2",
     "list": [
       {
-        "to": 1,
-        "type": 3,
+        "to": 2,
+        "type": 2,
         "index": 1,
         "param": {
-          "moveCount": 240,
-          "duration": -1,
-          "X1": 0,
-          "X2": 5,
-          "Z1": 35,
-          "Z2": 80,
-          "stopCount": 90
+          "duration": 6,
+          "x": -30,
+          "z": 0
+        }
+      },
+      {
+        "to": 3,
+        "type": 2,
+        "index": 2,
+        "param": {
+          "duration": 9,
+          "x": 0,
+          "z": -50
+        }
+      },
+      {
+        "to": 2,
+        "type": 2,
+        "index": 3,
+        "param": {
+          "duration": 9,
+          "x": 0,
+          "z": 50
         }
       }
     ]
@@ -891,6 +926,27 @@
         "param": {
           "z": 55,
           "x": 10
+        }
+      }
+    ]
+  },
+  "100121": {
+    "id": 10001,
+    "default": 1,
+    "name": "防卫者后半场移动",
+    "list": [
+      {
+        "to": 1,
+        "type": 3,
+        "index": 1,
+        "param": {
+          "moveCount": 240,
+          "duration": -1,
+          "X1": -10,
+          "X2": 5,
+          "Z1": 35,
+          "Z2": 75,
+          "stopCount": 90
         }
       }
     ]
@@ -1166,23 +1222,39 @@
       }
     ]
   },
-  "90032": {
-    "id": 90032,
+  "70142": {
+    "id": 70142,
     "default": 1,
-    "name": "随机移动_偏很右",
+    "name": "2021毛系活动道中代行者浮游炮移动3",
     "list": [
       {
-        "to": 1,
-        "type": 3,
+        "to": 2,
+        "type": 2,
         "index": 1,
         "param": {
-          "moveCount": 240,
-          "duration": -1,
-          "X1": -5,
-          "X2": 5,
-          "Z1": 35,
-          "Z2": 75,
-          "stopCount": 90
+          "duration": 6,
+          "x": -30,
+          "z": 0
+        }
+      },
+      {
+        "to": 3,
+        "type": 2,
+        "index": 2,
+        "param": {
+          "duration": 9,
+          "x": 0,
+          "z": 50
+        }
+      },
+      {
+        "to": 2,
+        "type": 2,
+        "index": 3,
+        "param": {
+          "duration": 9,
+          "x": 0,
+          "z": -50
         }
       }
     ]
@@ -1276,6 +1348,117 @@
         "param": {
           "z": -20,
           "x": 0
+        }
+      }
+    ]
+  },
+  "100120": {
+    "id": 100010,
+    "default": 1,
+    "name": "防卫者回到后方",
+    "list": [
+      {
+        "to": 1,
+        "type": 1,
+        "index": 1,
+        "param": {
+          "z": 57,
+          "x": 0
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
+        }
+      }
+    ]
+  },
+  "100110": {
+    "id": 100110,
+    "default": 1,
+    "name": "破坏者靠下方移动",
+    "list": [
+      {
+        "to": 1,
+        "type": 3,
+        "index": 1,
+        "param": {
+          "moveCount": 240,
+          "duration": -1,
+          "X1": -15,
+          "X2": 5,
+          "Z1": 25,
+          "Z2": 45,
+          "stopCount": 90
+        }
+      }
+    ]
+  },
+  "100101": {
+    "id": 100100,
+    "default": 1,
+    "name": "游弋者中场移动",
+    "list": [
+      {
+        "to": 1,
+        "type": 3,
+        "index": 1,
+        "param": {
+          "moveCount": 240,
+          "duration": -1,
+          "X1": -35,
+          "X2": -10,
+          "Z1": 35,
+          "Z2": 75,
+          "stopCount": 90
+        }
+      }
+    ]
+  },
+  "100100": {
+    "id": 10001,
+    "default": 1,
+    "name": "游弋者后半场移动",
+    "list": [
+      {
+        "to": 1,
+        "type": 3,
+        "index": 1,
+        "param": {
+          "moveCount": 240,
+          "duration": -1,
+          "X1": -10,
+          "X2": 5,
+          "Z1": 35,
+          "Z2": 75,
+          "stopCount": 90
+        }
+      }
+    ]
+  },
+  "70061": {
+    "id": 70061,
+    "default": 1,
+    "name": "红染加贺到中间",
+    "list": [
+      {
+        "to": 2,
+        "type": 1,
+        "index": 1,
+        "param": {
+          "z": 55,
+          "x": 0
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
         }
       }
     ]
@@ -1622,6 +1805,53 @@
       }
     ]
   },
+  "70143": {
+    "id": 70143,
+    "default": 1,
+    "name": "2021毛系活动道中代行者浮游炮移动4",
+    "list": [
+      {
+        "to": 2,
+        "type": 2,
+        "index": 1,
+        "param": {
+          "duration": 5,
+          "x": -30,
+          "z": 0
+        }
+      },
+      {
+        "to": 3,
+        "type": 2,
+        "index": 2,
+        "param": {
+          "duration": 3,
+          "x": -5,
+          "z": 15
+        }
+      },
+      {
+        "to": 4,
+        "type": 2,
+        "index": 3,
+        "param": {
+          "duration": 3,
+          "x": 0,
+          "z": -30
+        }
+      },
+      {
+        "to": 2,
+        "type": 2,
+        "index": 4,
+        "param": {
+          "duration": 5,
+          "x": 5,
+          "z": 15
+        }
+      }
+    ]
+  },
   "75004": {
     "id": 75004,
     "default": 1,
@@ -1689,39 +1919,18 @@
       }
     ]
   },
-  "100121": {
-    "id": 10001,
+  "90029": {
+    "id": 90029,
     "default": 1,
-    "name": "防卫者后半场移动",
-    "list": [
-      {
-        "to": 1,
-        "type": 3,
-        "index": 1,
-        "param": {
-          "moveCount": 240,
-          "duration": -1,
-          "X1": -10,
-          "X2": 5,
-          "Z1": 35,
-          "Z2": 75,
-          "stopCount": 90
-        }
-      }
-    ]
-  },
-  "100120": {
-    "id": 100010,
-    "default": 1,
-    "name": "防卫者回到后方",
+    "name": "回中后停留_偏右",
     "list": [
       {
         "to": 1,
         "type": 1,
         "index": 1,
         "param": {
-          "z": 57,
-          "x": 0
+          "z": 55,
+          "x": -5
         }
       },
       {
@@ -1734,10 +1943,10 @@
       }
     ]
   },
-  "100110": {
-    "id": 100110,
+  "100011": {
+    "id": 100011,
     "default": 1,
-    "name": "破坏者靠下方移动",
+    "name": "仲裁者天帕岚斯_大水母随机移动",
     "list": [
       {
         "to": 1,
@@ -1746,11 +1955,97 @@
         "param": {
           "moveCount": 240,
           "duration": -1,
-          "X1": -15,
-          "X2": 5,
-          "Z1": 25,
-          "Z2": 45,
+          "X1": -32,
+          "X2": -15,
+          "Z1": 40,
+          "Z2": 70,
           "stopCount": 90
+        }
+      }
+    ]
+  },
+  "80008": {
+    "id": 80008,
+    "default": 1,
+    "name": "序章俾斯麦必杀前走位",
+    "list": [
+      {
+        "to": 2,
+        "type": 1,
+        "index": 1,
+        "param": {
+          "z": 65,
+          "x": -5
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
+        }
+      }
+    ]
+  },
+  "90017": {
+    "id": 90017,
+    "default": 1,
+    "name": "上下移动",
+    "list": [
+      {
+        "to": 2,
+        "type": 1,
+        "index": 1,
+        "param": {
+          "z": 75,
+          "x": -30
+        }
+      },
+      {
+        "to": 3,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": 1
+        }
+      },
+      {
+        "to": 4,
+        "type": 1,
+        "index": 3,
+        "param": {
+          "z": 30,
+          "x": -30
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 4,
+        "param": {
+          "duration": 1
+        }
+      }
+    ]
+  },
+  "99997": {
+    "id": 99997,
+    "default": 1,
+    "name": "测试随机移动上",
+    "list": [
+      {
+        "to": 1,
+        "type": 3,
+        "index": 1,
+        "param": {
+          "moveCount": 240,
+          "duration": -1,
+          "X1": -30,
+          "X2": 0,
+          "Z1": 55,
+          "Z2": 85,
+          "stopCount": 80
         }
       }
     ]
@@ -2069,23 +2364,31 @@
       }
     ]
   },
-  "100101": {
-    "id": 100100,
+  "70144": {
+    "id": 70144,
     "default": 1,
-    "name": "游弋者中场移动",
+    "name": "2020毛系活动EX代行者浮游炮1",
     "list": [
       {
-        "to": 1,
+        "to": 2,
         "type": 3,
         "index": 1,
         "param": {
-          "moveCount": 240,
-          "duration": -1,
-          "X1": -35,
-          "X2": -10,
-          "Z1": 35,
-          "Z2": 75,
-          "stopCount": 90
+          "moveCount": 5000,
+          "duration": 1,
+          "X1": -40,
+          "X2": -15,
+          "Z1": 20,
+          "Z2": 55,
+          "stopCount": 0
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": 3
         }
       }
     ]
@@ -2165,39 +2468,18 @@
       }
     ]
   },
-  "100100": {
-    "id": 10001,
+  "99991": {
+    "id": 99991,
     "default": 1,
-    "name": "游弋者后半场移动",
-    "list": [
-      {
-        "to": 1,
-        "type": 3,
-        "index": 1,
-        "param": {
-          "moveCount": 240,
-          "duration": -1,
-          "X1": -10,
-          "X2": 5,
-          "Z1": 35,
-          "Z2": 75,
-          "stopCount": 90
-        }
-      }
-    ]
-  },
-  "70061": {
-    "id": 70061,
-    "default": 1,
-    "name": "红染加贺到中间",
+    "name": "13章防空船往左移动30",
     "list": [
       {
         "to": 2,
-        "type": 1,
+        "type": 2,
         "index": 1,
         "param": {
-          "z": 55,
-          "x": 0
+          "z": 0,
+          "x": -30
         }
       },
       {
@@ -2210,29 +2492,10 @@
       }
     ]
   },
-  "90019": {
-    "id": 90019,
+  "90032": {
+    "id": 90032,
     "default": 1,
-    "name": "转圈小范围 顺时针_上",
-    "list": [
-      {
-        "to": 1,
-        "type": 4,
-        "index": 1,
-        "param": {
-          "radius": 15,
-          "z": 70,
-          "antiClockWise": true,
-          "x": -20,
-          "duration": -1
-        }
-      }
-    ]
-  },
-  "100011": {
-    "id": 100011,
-    "default": 1,
-    "name": "仲裁者天帕岚斯_大水母随机移动",
+    "name": "随机移动_偏很右",
     "list": [
       {
         "to": 1,
@@ -2241,10 +2504,52 @@
         "param": {
           "moveCount": 240,
           "duration": -1,
-          "X1": -32,
-          "X2": -15,
-          "Z1": 40,
-          "Z2": 70,
+          "X1": -5,
+          "X2": 5,
+          "Z1": 35,
+          "Z2": 75,
+          "stopCount": 90
+        }
+      }
+    ]
+  },
+  "90031": {
+    "id": 90031,
+    "default": 1,
+    "name": "随机移动_弹幕",
+    "list": [
+      {
+        "to": 1,
+        "type": 3,
+        "index": 1,
+        "param": {
+          "moveCount": 240,
+          "duration": -1,
+          "X1": 0,
+          "X2": 5,
+          "Z1": 35,
+          "Z2": 80,
+          "stopCount": 90
+        }
+      }
+    ]
+  },
+  "90030": {
+    "id": 90030,
+    "default": 1,
+    "name": "随机移动_偏左",
+    "list": [
+      {
+        "to": 1,
+        "type": 3,
+        "index": 1,
+        "param": {
+          "moveCount": 240,
+          "duration": -1,
+          "X1": 10,
+          "X2": -10,
+          "Z1": 30,
+          "Z2": 80,
           "stopCount": 90
         }
       }
@@ -2577,18 +2882,31 @@
       }
     ]
   },
-  "90001": {
-    "id": 90001,
+  "70145": {
+    "id": 70145,
     "default": 1,
-    "name": "前进",
+    "name": "2020毛系活动EX代行者浮游炮2",
     "list": [
       {
-        "to": 1,
-        "type": 2,
+        "to": 2,
+        "type": 3,
         "index": 1,
         "param": {
-          "z": 0,
-          "x": 500
+          "moveCount": 5000,
+          "duration": 1,
+          "X1": -40,
+          "X2": -15,
+          "Z1": 55,
+          "Z2": 90,
+          "stopCount": 0
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": 3
         }
       }
     ]
@@ -2647,10 +2965,34 @@
       }
     ]
   },
-  "99997": {
-    "id": 99997,
+  "90028": {
+    "id": 90028,
     "default": 1,
-    "name": "测试随机移动上",
+    "name": "回中后停留_中心",
+    "list": [
+      {
+        "to": 1,
+        "type": 1,
+        "index": 1,
+        "param": {
+          "z": 55,
+          "x": -15
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
+        }
+      }
+    ]
+  },
+  "90027": {
+    "id": 90027,
+    "default": 1,
+    "name": "随机移动_偏右",
     "list": [
       {
         "to": 1,
@@ -2659,117 +3001,111 @@
         "param": {
           "moveCount": 240,
           "duration": -1,
-          "X1": -30,
-          "X2": 0,
-          "Z1": 55,
-          "Z2": 85,
-          "stopCount": 80
+          "X1": -10,
+          "X2": -10,
+          "Z1": 30,
+          "Z2": 80,
+          "stopCount": 90
         }
       }
     ]
   },
-  "99991": {
-    "id": 99991,
+  "90026": {
+    "id": 90026,
     "default": 1,
-    "name": "13章防空船往左移动30",
+    "name": "上下移动-下部",
     "list": [
       {
         "to": 2,
         "type": 2,
         "index": 1,
         "param": {
-          "z": 0,
-          "x": -30
-        }
-      },
-      {
-        "to": 1,
-        "type": 0,
-        "index": 2,
-        "param": {
-          "duration": -1
-        }
-      }
-    ]
-  },
-  "70056": {
-    "id": 70056,
-    "default": 1,
-    "name": "国庆BOSS 日向 AI",
-    "list": [
-      {
-        "to": 2,
-        "type": 1,
-        "index": 1,
-        "param": {
-          "z": 55,
+          "z": -20,
           "x": 0
         }
       },
       {
         "to": 3,
-        "type": 4,
+        "type": 0,
         "index": 2,
         "param": {
-          "radius": 20,
-          "z": 35,
-          "antiClockWise": true,
-          "x": 0,
-          "duration": 6
+          "duration": 2
         }
       },
       {
         "to": 4,
-        "type": 1,
+        "type": 2,
         "index": 3,
         "param": {
-          "z": 55,
+          "z": 20,
           "x": 0
         }
       },
       {
         "to": 5,
-        "type": 4,
+        "type": 0,
         "index": 4,
         "param": {
-          "radius": 20,
-          "z": 75,
-          "antiClockWise": false,
-          "x": 0,
-          "duration": 6
+          "duration": 2
         }
       },
       {
         "to": 2,
-        "type": 1,
+        "type": 2,
         "index": 5,
         "param": {
-          "z": 55,
+          "z": -20,
           "x": 0
         }
       }
     ]
   },
-  "70077": {
-    "id": 70077,
+  "90025": {
+    "id": 90025,
     "default": 1,
-    "name": "世界BOSS黛朵回中间",
+    "name": "上下移动-上部",
     "list": [
       {
         "to": 2,
-        "type": 1,
+        "type": 2,
         "index": 1,
         "param": {
-          "z": 60,
-          "x": -10
+          "z": 20,
+          "x": 0
         }
       },
       {
-        "to": 1,
+        "to": 3,
         "type": 0,
         "index": 2,
         "param": {
-          "duration": -1
+          "duration": 2
+        }
+      },
+      {
+        "to": 4,
+        "type": 2,
+        "index": 3,
+        "param": {
+          "z": -20,
+          "x": 0
+        }
+      },
+      {
+        "to": 5,
+        "type": 0,
+        "index": 4,
+        "param": {
+          "duration": 2
+        }
+      },
+      {
+        "to": 2,
+        "type": 2,
+        "index": 5,
+        "param": {
+          "z": 20,
+          "x": 0
         }
       }
     ]
@@ -3177,52 +3513,23 @@
       }
     ]
   },
-  "90026": {
-    "id": 90026,
+  "90024": {
+    "id": 90024,
     "default": 1,
-    "name": "上下移动-下部",
+    "name": "随机移动_偏左",
     "list": [
       {
-        "to": 2,
-        "type": 2,
+        "to": 1,
+        "type": 3,
         "index": 1,
         "param": {
-          "z": -20,
-          "x": 0
-        }
-      },
-      {
-        "to": 3,
-        "type": 0,
-        "index": 2,
-        "param": {
-          "duration": 2
-        }
-      },
-      {
-        "to": 4,
-        "type": 2,
-        "index": 3,
-        "param": {
-          "z": 20,
-          "x": 0
-        }
-      },
-      {
-        "to": 5,
-        "type": 0,
-        "index": 4,
-        "param": {
-          "duration": 2
-        }
-      },
-      {
-        "to": 2,
-        "type": 2,
-        "index": 5,
-        "param": {
-          "z": -20,
-          "x": 0
+          "moveCount": 240,
+          "duration": -1,
+          "X1": -30,
+          "X2": -10,
+          "Z1": 30,
+          "Z2": 80,
+          "stopCount": 90
         }
       }
     ]
@@ -3247,77 +3554,6 @@
         "index": 2,
         "param": {
           "duration": -1
-        }
-      }
-    ]
-  },
-  "90025": {
-    "id": 90025,
-    "default": 1,
-    "name": "上下移动-上部",
-    "list": [
-      {
-        "to": 2,
-        "type": 2,
-        "index": 1,
-        "param": {
-          "z": 20,
-          "x": 0
-        }
-      },
-      {
-        "to": 3,
-        "type": 0,
-        "index": 2,
-        "param": {
-          "duration": 2
-        }
-      },
-      {
-        "to": 4,
-        "type": 2,
-        "index": 3,
-        "param": {
-          "z": -20,
-          "x": 0
-        }
-      },
-      {
-        "to": 5,
-        "type": 0,
-        "index": 4,
-        "param": {
-          "duration": 2
-        }
-      },
-      {
-        "to": 2,
-        "type": 2,
-        "index": 5,
-        "param": {
-          "z": 20,
-          "x": 0
-        }
-      }
-    ]
-  },
-  "90024": {
-    "id": 90024,
-    "default": 1,
-    "name": "随机移动_偏左",
-    "list": [
-      {
-        "to": 1,
-        "type": 3,
-        "index": 1,
-        "param": {
-          "moveCount": 240,
-          "duration": -1,
-          "X1": -30,
-          "X2": -10,
-          "Z1": 30,
-          "Z2": 80,
-          "stopCount": 90
         }
       }
     ]
@@ -3373,6 +3609,44 @@
           "radius": 15,
           "z": 40,
           "antiClockWise": false,
+          "x": -20,
+          "duration": -1
+        }
+      }
+    ]
+  },
+  "90020": {
+    "id": 90020,
+    "default": 1,
+    "name": "转圈小范围 逆时针",
+    "list": [
+      {
+        "to": 1,
+        "type": 4,
+        "index": 1,
+        "param": {
+          "radius": 15,
+          "z": 55,
+          "antiClockWise": false,
+          "x": -20,
+          "duration": -1
+        }
+      }
+    ]
+  },
+  "90019": {
+    "id": 90019,
+    "default": 1,
+    "name": "转圈小范围 顺时针_上",
+    "list": [
+      {
+        "to": 1,
+        "type": 4,
+        "index": 1,
+        "param": {
+          "radius": 15,
+          "z": 70,
+          "antiClockWise": true,
           "x": -20,
           "duration": -1
         }
@@ -3769,10 +4043,10 @@
       }
     ]
   },
-  "90020": {
-    "id": 90020,
+  "90018": {
+    "id": 90018,
     "default": 1,
-    "name": "转圈小范围 逆时针",
+    "name": "转圈小范围 顺时针",
     "list": [
       {
         "to": 1,
@@ -3781,7 +4055,7 @@
         "param": {
           "radius": 15,
           "z": 55,
-          "antiClockWise": false,
+          "antiClockWise": true,
           "x": -20,
           "duration": -1
         }
@@ -3805,66 +4079,6 @@
           "Z1": 25,
           "Z2": 55,
           "stopCount": 100
-        }
-      }
-    ]
-  },
-  "90018": {
-    "id": 90018,
-    "default": 1,
-    "name": "转圈小范围 顺时针",
-    "list": [
-      {
-        "to": 1,
-        "type": 4,
-        "index": 1,
-        "param": {
-          "radius": 15,
-          "z": 55,
-          "antiClockWise": true,
-          "x": -20,
-          "duration": -1
-        }
-      }
-    ]
-  },
-  "90017": {
-    "id": 90017,
-    "default": 1,
-    "name": "上下移动",
-    "list": [
-      {
-        "to": 2,
-        "type": 1,
-        "index": 1,
-        "param": {
-          "z": 75,
-          "x": -30
-        }
-      },
-      {
-        "to": 3,
-        "type": 0,
-        "index": 2,
-        "param": {
-          "duration": 1
-        }
-      },
-      {
-        "to": 4,
-        "type": 1,
-        "index": 3,
-        "param": {
-          "z": 30,
-          "x": -30
-        }
-      },
-      {
-        "to": 1,
-        "type": 0,
-        "index": 4,
-        "param": {
-          "duration": 1
         }
       }
     ]
@@ -3929,6 +4143,54 @@
         "param": {
           "z": 75,
           "x": -30
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
+        }
+      }
+    ]
+  },
+  "90013": {
+    "id": 90013,
+    "default": 1,
+    "name": "往上移动20",
+    "list": [
+      {
+        "to": 2,
+        "type": 2,
+        "index": 1,
+        "param": {
+          "z": 20,
+          "x": 0
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
+        }
+      }
+    ]
+  },
+  "90012": {
+    "id": 90012,
+    "default": 1,
+    "name": "往右移动20",
+    "list": [
+      {
+        "to": 2,
+        "type": 2,
+        "index": 1,
+        "param": {
+          "z": 0,
+          "x": 20
         }
       },
       {
@@ -4274,18 +4536,18 @@
       }
     ]
   },
-  "90013": {
-    "id": 90013,
+  "90011": {
+    "id": 90011,
     "default": 1,
-    "name": "往上移动20",
+    "name": "往左移动20",
     "list": [
       {
         "to": 2,
         "type": 2,
         "index": 1,
         "param": {
-          "z": 20,
-          "x": 0
+          "z": 0,
+          "x": -100
         }
       },
       {
@@ -4344,54 +4606,6 @@
         "param": {
           "z": 50,
           "x": 0
-        }
-      }
-    ]
-  },
-  "90012": {
-    "id": 90012,
-    "default": 1,
-    "name": "往右移动20",
-    "list": [
-      {
-        "to": 2,
-        "type": 2,
-        "index": 1,
-        "param": {
-          "z": 0,
-          "x": 20
-        }
-      },
-      {
-        "to": 1,
-        "type": 0,
-        "index": 2,
-        "param": {
-          "duration": -1
-        }
-      }
-    ]
-  },
-  "90011": {
-    "id": 90011,
-    "default": 1,
-    "name": "往左移动20",
-    "list": [
-      {
-        "to": 2,
-        "type": 2,
-        "index": 1,
-        "param": {
-          "z": 0,
-          "x": -100
-        }
-      },
-      {
-        "to": 1,
-        "type": 0,
-        "index": 2,
-        "param": {
-          "duration": -1
         }
       }
     ]
@@ -4464,6 +4678,38 @@
         "index": 2,
         "param": {
           "duration": -1
+        }
+      }
+    ]
+  },
+  "90002": {
+    "id": 90002,
+    "default": 1,
+    "name": "后退",
+    "list": [
+      {
+        "to": 1,
+        "type": 2,
+        "index": 1,
+        "param": {
+          "z": 0,
+          "x": -500
+        }
+      }
+    ]
+  },
+  "90001": {
+    "id": 90001,
+    "default": 1,
+    "name": "前进",
+    "list": [
+      {
+        "to": 1,
+        "type": 2,
+        "index": 1,
+        "param": {
+          "z": 0,
+          "x": 500
         }
       }
     ]
@@ -4812,46 +5058,6 @@
       }
     ]
   },
-  "90002": {
-    "id": 90002,
-    "default": 1,
-    "name": "后退",
-    "list": [
-      {
-        "to": 1,
-        "type": 2,
-        "index": 1,
-        "param": {
-          "z": 0,
-          "x": -500
-        }
-      }
-    ]
-  },
-  "100000": {
-    "id": 100000,
-    "default": 1,
-    "name": "大世界通用_回到中点",
-    "list": [
-      {
-        "to": 1,
-        "type": 1,
-        "index": 1,
-        "param": {
-          "z": 55,
-          "x": -10
-        }
-      },
-      {
-        "to": 1,
-        "type": 0,
-        "index": 2,
-        "param": {
-          "duration": -1
-        }
-      }
-    ]
-  },
   "90000": {
     "id": 90000,
     "default": 1,
@@ -4871,18 +5077,18 @@
       }
     ]
   },
-  "80008": {
-    "id": 80008,
+  "100000": {
+    "id": 100000,
     "default": 1,
-    "name": "序章俾斯麦必杀前走位",
+    "name": "大世界通用_回到中点",
     "list": [
       {
-        "to": 2,
+        "to": 1,
         "type": 1,
         "index": 1,
         "param": {
-          "z": 65,
-          "x": -5
+          "z": 55,
+          "x": -10
         }
       },
       {
@@ -4955,6 +5161,80 @@
         "index": 2,
         "param": {
           "duration": -1
+        }
+      }
+    ]
+  },
+  "80000": {
+    "id": 80000,
+    "default": 1,
+    "name": "自爆船AI",
+    "list": [
+      {
+        "to": 1,
+        "type": 2,
+        "index": 1,
+        "param": {
+          "z": 0,
+          "x": -500
+        }
+      }
+    ]
+  },
+  "70056": {
+    "id": 70056,
+    "default": 1,
+    "name": "国庆BOSS 日向 AI",
+    "list": [
+      {
+        "to": 2,
+        "type": 1,
+        "index": 1,
+        "param": {
+          "z": 55,
+          "x": 0
+        }
+      },
+      {
+        "to": 3,
+        "type": 4,
+        "index": 2,
+        "param": {
+          "radius": 20,
+          "z": 35,
+          "antiClockWise": true,
+          "x": 0,
+          "duration": 6
+        }
+      },
+      {
+        "to": 4,
+        "type": 1,
+        "index": 3,
+        "param": {
+          "z": 55,
+          "x": 0
+        }
+      },
+      {
+        "to": 5,
+        "type": 4,
+        "index": 4,
+        "param": {
+          "radius": 20,
+          "z": 75,
+          "antiClockWise": false,
+          "x": 0,
+          "duration": 6
+        }
+      },
+      {
+        "to": 2,
+        "type": 1,
+        "index": 5,
+        "param": {
+          "z": 55,
+          "x": 0
         }
       }
     ]
@@ -5282,18 +5562,26 @@
       }
     ]
   },
-  "80000": {
-    "id": 80000,
+  "70077": {
+    "id": 70077,
     "default": 1,
-    "name": "自爆船AI",
+    "name": "世界BOSS黛朵回中间",
     "list": [
       {
-        "to": 1,
-        "type": 2,
+        "to": 2,
+        "type": 1,
         "index": 1,
         "param": {
-          "z": 0,
-          "x": -500
+          "z": 60,
+          "x": -10
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
         }
       }
     ]
@@ -7052,23 +7340,26 @@
       }
     ]
   },
-  "90027": {
-    "id": 90027,
+  "70137": {
+    "id": 70137,
     "default": 1,
-    "name": "随机移动_偏右",
+    "name": "2020毛系活动D3代行者第一波浮游炮1",
     "list": [
       {
-        "to": 1,
-        "type": 3,
+        "to": 2,
+        "type": 2,
         "index": 1,
         "param": {
-          "moveCount": 240,
-          "duration": -1,
-          "X1": -10,
-          "X2": -10,
-          "Z1": 30,
-          "Z2": 80,
-          "stopCount": 90
+          "z": 25,
+          "x": -5
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 2,
+        "param": {
+          "duration": -1
         }
       }
     ]
@@ -7653,18 +7944,18 @@
       }
     ]
   },
-  "90028": {
-    "id": 90028,
+  "70138": {
+    "id": 70138,
     "default": 1,
-    "name": "回中后停留_中心",
+    "name": "2020毛系活动D3代行者第一波浮游炮2",
     "list": [
       {
-        "to": 1,
-        "type": 1,
+        "to": 2,
+        "type": 2,
         "index": 1,
         "param": {
-          "z": 55,
-          "x": -15
+          "z": -25,
+          "x": -5
         }
       },
       {

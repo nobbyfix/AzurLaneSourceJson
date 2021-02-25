@@ -1,0 +1,32 @@
+{
+  "picture": "",
+  "id": 14252,
+  "desc": "",
+  "last_effect": "",
+  "time": 5,
+  "icon": 14250,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffHP",
+      "arg_list": {
+        "maxHPRatio": -0.05
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 14253
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": ""
+}
