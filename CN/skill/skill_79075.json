@@ -1,0 +1,39 @@
+{
+  "picture": "0",
+  "aniEffect": "",
+  "desc": "瞬移",
+  "uiEffect": "",
+  "id": 79075,
+  "effect_list": [
+    {
+      "type": "BattleSkillTeleport",
+      "arg_list": {
+        "delay": 1.6,
+        "targetRelativeRandom": {
+          "upper": 4,
+          "lower": 0,
+          "front": 8,
+          "rear": 16
+        }
+      },
+      "target_choise": [
+        "TargetHarmNearest"
+      ]
+    },
+    {
+      "type": "BattleSkillPlayFX",
+      "arg_list": {
+        "casterRelativeCorrdinate": {
+          "vrt": 0,
+          "hrz": 0
+        },
+        "delay": 1.5,
+        "effect": "shanshuo"
+      },
+      "target_choise": []
+    }
+  ],
+  "cd": 5,
+  "painting": 0,
+  "name": "受伤瞬移"
+}

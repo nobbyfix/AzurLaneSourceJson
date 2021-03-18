@@ -1,0 +1,54 @@
+{
+  "picture": "",
+  "id": 79070,
+  "desc": "减速，降低命中，造成dot伤害",
+  "color": "yellow",
+  "last_effect": "poison_buff",
+  "time": 0,
+  "icon": 4971,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "group": {
+          "id": 300,
+          "level": 10
+        },
+        "mul": -4500,
+        "add": 0
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": -200,
+        "attr": "attackRating"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "attr": "cannonPower",
+        "time": 2,
+        "number": 20,
+        "currentHPRatio": 0.01,
+        "k": 0.3,
+        "dotType": 1
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "追击者烟幕lv1"
+}
