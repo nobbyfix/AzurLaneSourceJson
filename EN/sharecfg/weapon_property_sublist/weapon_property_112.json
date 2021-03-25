@@ -91,11 +91,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "61014": {
-    "id": 61014,
-    "name": "皇家方舟技能鱼雷机使用武器LV2",
-    "base": 61013
-  },
   "60512": {
     "id": 60512,
     "barrage_ID": [
@@ -548,6 +543,11 @@
     "effect_move": 0,
     "axis_angle": 0
   },
+  "61012": {
+    "id": 61012,
+    "name": "皇家方舟技能LV3",
+    "base": 61010
+  },
   "60552": {
     "id": 60552,
     "barrage_ID": [
@@ -612,48 +612,52 @@
     "name": "航空攻击展示-卡萨布兰卡III",
     "base": 60491
   },
-  "61013": {
-    "search_type": 2,
-    "attack_attribute": 4,
+  "60621": {
+    "search_type": 1,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 35,
-    "reload_max": 11954,
+    "angle": 360,
+    "reload_max": 400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "皇家方舟技能鱼雷机使用武器LV1",
-    "fire_fx": "zhupao",
+    "name": "艾伦·萨姆纳弹幕展示I",
+    "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 40,
-    "recover_time": 0,
+    "suppress": 0,
+    "range": 50,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
-    "attack_attribute_ratio": 120,
-    "damage": 70,
-    "action_index": "",
-    "type": 3,
+    "attack_attribute_ratio": 100,
+    "damage": 1,
+    "action_index": "attack",
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 61013,
-    "spawn_bound": "torpedo",
+    "id": 60621,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      12001
+      79691,
+      79692,
+      79695
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      19927
+      79691,
+      79691,
+      79693
     ],
-    "min_range": 22,
+    "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "61001": {
@@ -897,10 +901,53 @@
     "name": "航空攻击展示-大神澪II",
     "base": 60451
   },
-  "61012": {
-    "id": 61012,
-    "name": "皇家方舟技能LV3",
-    "base": 61010
+  "61010": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 4250,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "皇家方舟技能LV1",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 110,
+    "recover_time": 5,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "fx": "jineng",
+      "time": 0.8,
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 70,
+    "action_index": "",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 61010,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      12010
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30014
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
+    "axis_angle": 0
   },
   "60582": {
     "name": "恶毒弹幕展示II",
@@ -968,54 +1015,6 @@
     "name": "航空攻击展示-英仙座III",
     "base": 60521
   },
-  "61010": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 4250,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "皇家方舟技能LV1",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 110,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "fx": "jineng",
-      "time": 0.8,
-      "isBound": true
-    },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 70,
-    "action_index": "",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 61010,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12010
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30014
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
   "61006": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -1056,6 +1055,50 @@
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "61005": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 2400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "印第安纳波利斯技能专用武器-原子弹发射器",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 6,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 30,
+    "action_index": "",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 61005,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      10001
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      60004
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
@@ -1133,25 +1176,25 @@
     "name": "航空攻击展示-龙凤II",
     "base": 60471
   },
-  "61005": {
+  "61004": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 360,
+    "angle": 180,
     "reload_max": 2400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "印第安纳波利斯技能专用武器-原子弹发射器",
+    "name": "航母专用空中支援技能-轰炸",
     "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 6,
+    "suppress": 1,
+    "range": 500,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 30,
+    "damage": 90,
     "action_index": "",
     "type": 2,
     "search_condition": [
@@ -1160,19 +1203,19 @@
     "oxy_type": [
       1
     ],
-    "id": 61005,
-    "spawn_bound": "cannon",
+    "id": 61004,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      10001
+      60001
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      60004
+      60002
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
@@ -1258,25 +1301,25 @@
     "base": 60481,
     "damage": 25
   },
-  "61004": {
+  "61003": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 180,
+    "angle": 360,
     "reload_max": 2400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "航母专用空中支援技能-轰炸",
+    "name": "印第安纳波利斯技能专用武器-原子弹发射器",
     "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
+    "suppress": 0,
     "range": 500,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 90,
+    "damage": 200,
     "action_index": "",
     "type": 2,
     "search_condition": [
@@ -1285,19 +1328,19 @@
     "oxy_type": [
       1
     ],
-    "id": 61004,
-    "spawn_bound": "plane",
+    "id": 61003,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      60001
+      10001
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      60002
+      60004
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
@@ -1388,25 +1431,25 @@
     "name": "航空攻击展示-卡萨布兰卡II",
     "base": 60491
   },
-  "61003": {
+  "61002": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 360,
+    "angle": 180,
     "reload_max": 2400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "印第安纳波利斯技能专用武器-原子弹发射器",
+    "name": "大黄蜂技能专用武器-固定位置",
     "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 0,
+    "suppress": 1,
     "range": 500,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 200,
+    "damage": 75,
     "action_index": "",
     "type": 2,
     "search_condition": [
@@ -1415,66 +1458,38 @@
     "oxy_type": [
       1
     ],
-    "id": 61003,
-    "spawn_bound": "cannon",
+    "id": 61002,
+    "spawn_bound": "plane",
     "barrage_ID": [
       10001
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      60004
+      60003
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "61000": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2650,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "召唤地狱火专用武器",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 100,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 1,
-    "action_index": "",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 61000,
-    "spawn_bound": "cannon",
+  "60622": {
+    "name": "艾伦·萨姆纳弹幕展示II",
     "barrage_ID": [
-      10001
+      79693,
+      79694,
+      79695
     ],
-    "corrected": 100,
-    "auto_aftercast": 0,
+    "id": 60622,
     "bullet_ID": [
-      60005
+      79692,
+      79692,
+      79693
     ],
-    "min_range": 35,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
+    "base": 60621,
+    "damage": 1
   },
   "60561": {
     "search_type": 1,
@@ -1524,25 +1539,25 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "61002": {
+  "61000": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 2400,
+    "angle": 60,
+    "reload_max": 2650,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "大黄蜂技能专用武器-固定位置",
+    "name": "召唤地狱火专用武器",
     "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 500,
+    "suppress": 0,
+    "range": 100,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 75,
+    "damage": 1,
     "action_index": "",
     "type": 2,
     "search_condition": [
@@ -1551,19 +1566,19 @@
     "oxy_type": [
       1
     ],
-    "id": 61002,
-    "spawn_bound": "plane",
+    "id": 61000,
+    "spawn_bound": "cannon",
     "barrage_ID": [
       10001
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      60003
+      60005
     ],
-    "min_range": 0,
+    "min_range": 35,
     "initial_over_heat": 0,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0

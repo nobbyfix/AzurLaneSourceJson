@@ -1,0 +1,42 @@
+{
+  "1": {
+    "desc": "主炮每进行10次攻击，触发专属弹幕-艾伦·萨姆纳II"
+  },
+  "picture": "",
+  "id": 29692,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 10,
+        "countType": 29690,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29690,
+        "skill_id": 29692
+      }
+    }
+  ],
+  "desc": "主炮每进行10次攻击，触发专属弹幕-艾伦·萨姆纳II",
+  "icon": 29690,
+  "last_effect": "",
+  "name": "专属弹幕-艾伦·萨姆纳II",
+  "color": "red",
+  "desc_get": "主炮每进行10次攻击，触发专属弹幕-艾伦·萨姆纳II",
+  "stack": 1,
+  "init_effect": "",
+  "time": 0
+}
