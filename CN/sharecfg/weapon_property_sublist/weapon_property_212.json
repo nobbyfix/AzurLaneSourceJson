@@ -1,23 +1,23 @@
 {
-  "311062": {
+  "310007": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1250,
+    "reload_max": 5000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "大黄蜂专用武器",
-    "fire_fx": "CLFire",
+    "name": "序章俾斯麦2",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 100,
+    "suppress": 1,
+    "range": 80,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 3,
+    "damage": 22,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -26,66 +26,20 @@
     "oxy_type": [
       1
     ],
-    "id": 311062,
+    "id": 310007,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      200063,
-      200064
+      990103
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      20004,
-      20004
+      990103
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311015": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "莫里-鱼雷",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 50,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 20,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311015,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      1402
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      10007
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
     "aim_type": 1,
-    "fire_sfx": "",
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -133,138 +87,53 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "311047": {
+  "310008": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1250,
+    "angle": 80,
+    "reload_max": 1500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "飞龙专用武器",
-    "fire_fx": "CLFire",
+    "name": "序章俾斯麦-平射",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 100,
-    "recover_time": 0,
+    "suppress": 1,
+    "range": 70,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 1,
+      "fx": "jinengenemy",
+      "time": 0.5,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 4,
+    "damage": 50,
     "action_index": "attack",
-    "type": 1,
+    "type": 19,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 311047,
+    "id": 310008,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      200063,
-      200064
+      10017
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      20005,
-      20005
+      30063
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311063": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 2000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "大黄蜂-战斗机",
-    "fire_fx": "zhupao",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 9,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311063,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12013
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30013
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311016": {
-    "search_type": 1,
-    "attack_attribute": 3,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 900,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "不知火-防空炮",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 25,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 20,
-    "action_index": "attack",
-    "type": 4,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311016,
-    "spawn_bound": "antiaircraft",
-    "barrage_ID": [
-      14001
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30055
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-air",
-    "effect_move": 1,
+    "effect_move": 0,
     "axis_angle": 0
   },
   "311032": {
@@ -311,113 +180,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "311048": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 3250,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "飞龙-鱼雷机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 110,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 28,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311048,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30014
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311064": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 4000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "大黄蜂-鱼雷机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 110,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 24,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311064,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30014
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311017": {
+  "311001": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 600,
+    "angle": 180,
+    "reload_max": 1750,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "不知火专用武器",
+    "name": "马汉级量产型-两发-非锁定",
     "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 90,
+    "suppress": 0,
+    "range": 85,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 6,
+    "damage": 3,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -426,10 +207,54 @@
     "oxy_type": [
       1
     ],
-    "id": 311017,
+    "id": 311001,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      200040
+      10002
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30027
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "310009": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1250,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "序章俾斯麦快速武器",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 15,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 310009,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      200042
     ],
     "corrected": 100,
     "auto_aftercast": 0,
@@ -487,103 +312,15 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "311049": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 4500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "飞龙-轰炸机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 100,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 36,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311049,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30019
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311065": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 5000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "大黄蜂-轰炸机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 100,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 36,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311065,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30019
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311018": {
+  "311027": {
     "search_type": 1,
     "attack_attribute": 2,
     "shakescreen": 0,
     "angle": 60,
-    "reload_max": 2700,
+    "reload_max": 2500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "不知火-鱼雷",
+    "name": "罗利-鱼雷",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
@@ -602,10 +339,10 @@
     "oxy_type": [
       1
     ],
-    "id": 311018,
+    "id": 311027,
     "spawn_bound": "torpedo",
     "barrage_ID": [
-      1402
+      1403
     ],
     "corrected": 100,
     "auto_aftercast": 0,
@@ -616,6 +353,94 @@
     "initial_over_heat": 1,
     "aim_type": 1,
     "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "311002": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1200,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "马汉级量产型-单发-锁定",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 80,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 3,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 311002,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      10001
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      20004
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "310010": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 2100,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "序章Z驱量产型旋转子弹3发武器",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 80,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 30,
+    "damage": 5,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 310010,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      10003
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      41003
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -663,19 +488,63 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "311050": {
+  "300502": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 1500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【战术研修】Q版散型3发快速鱼雷",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 72,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 30,
+    "action_index": "",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 300502,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      300506
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      300506
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "311003": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1250,
+    "angle": 180,
+    "reload_max": 1750,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "苍龙专用武器",
+    "name": "阳炎级量产型-两发-非锁定",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 0,
-    "range": 100,
+    "range": 85,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
@@ -690,90 +559,42 @@
     "oxy_type": [
       1
     ],
-    "id": 311050,
+    "id": 311003,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      200063,
-      200064
+      10002
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      20005,
-      20005
+      30027
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
+    "effect_move": 0,
     "axis_angle": 0
   },
-  "311066": {
+  "310011": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1250,
+    "reload_max": 1800,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "第一章第一关大黄蜂boss专用武器",
-    "fire_fx": "CLFire",
+    "name": "序章欧根亲王",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 100,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 60,
-    "damage": 3,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311066,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      200063,
-      200064
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      20004,
-      20004
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311019": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "格里德利专用武器",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 0,
+    "suppress": 1,
     "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 5,
+    "damage": 15,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -782,19 +603,21 @@
     "oxy_type": [
       1
     ],
-    "id": 311019,
+    "id": 310011,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      200030
+      200134,
+      200135
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      20004
+      20003,
+      20003
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
@@ -843,69 +666,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "311051": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1800,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "苍龙-战斗机",
-    "fire_fx": "zhupao",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311051,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12013
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30013
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311067": {
+  "311008": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 2500,
+    "reload_max": 1500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "第一章第一关大黄蜂boss武器",
-    "fire_fx": "CAFire",
+    "name": "吹雪级量产型-锁定攻击",
+    "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 100,
+    "suppress": 1,
+    "range": 80,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
-    "attack_attribute_ratio": 60,
-    "damage": 5,
+    "attack_attribute_ratio": 100,
+    "damage": 4,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -914,45 +693,43 @@
     "oxy_type": [
       1
     ],
-    "id": 311067,
+    "id": 311008,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      10101,
-      10102
+      10002
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10101,
-      10101
+      20005
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "311020": {
+  "311004": {
     "search_type": 1,
     "attack_attribute": 2,
     "shakescreen": 0,
     "angle": 60,
-    "reload_max": 2500,
+    "reload_max": 2650,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "格里德利-鱼雷",
+    "name": "阳炎级量产型-鱼雷",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 50,
+    "range": 72,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 20,
-    "action_index": "attack",
+    "damage": 28,
+    "action_index": "",
     "type": 3,
     "search_condition": [
       1
@@ -960,20 +737,66 @@
     "oxy_type": [
       1
     ],
-    "id": 311020,
+    "id": 311004,
     "spawn_bound": "torpedo",
     "barrage_ID": [
-      1402
+      12001
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10007
+      30057
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
+    "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "310012": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 2450,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "序章欧根亲王",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 80,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 10,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 310012,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      10067,
+      10068
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      41006,
+      41006
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1021,68 +844,24 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "311052": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 3250,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "苍龙-鱼雷机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 110,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 28,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311052,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30014
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311068": {
+  "311012": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 4500,
+    "reload_max": 1000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "第一章第一关大黄蜂boss武器",
-    "fire_fx": "CAFire",
+    "name": "克雷文专用武器",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 0,
-    "range": 100,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
-    "attack_attribute_ratio": 60,
+    "attack_attribute_ratio": 100,
     "damage": 5,
     "action_index": "attack",
     "type": 1,
@@ -1092,19 +871,63 @@
     "oxy_type": [
       1
     ],
-    "id": 311068,
+    "id": 311012,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      10103
+      200030
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10102
+      20004
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
+    "initial_over_heat": 0,
     "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "311005": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "阳炎级量产型-锁定攻击",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 80,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 4,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 311005,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      10002
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      20005
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
@@ -1202,200 +1025,65 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "311053": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 4500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "苍龙-轰炸机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 100,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 36,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311053,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30019
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311069": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 2000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "第一章第一关大黄蜂boss专用战斗机T1",
-    "fire_fx": "zhupao",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 60,
-    "damage": 5,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311069,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12013
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30013
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311022": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "麦考尔-鱼雷",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 50,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 20,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311022,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      1402
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      10007
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "311038": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 80,
-    "reload_max": 1250,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "战舰比叡平射主炮",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 70,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 1,
-      "fx": "jinengenemy",
-      "time": 0.5,
-      "isBound": true
-    },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 16,
-    "action_index": "attack",
-    "type": 19,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311038,
-    "spawn_bound": "cannon1",
-    "barrage_ID": [
-      10015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30063
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "311054": {
+  "311026": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1250,
+    "reload_max": 1750,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "翔鹤专用武器",
+    "name": "罗利-穿透弹5发",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 0,
-    "range": 100,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 7,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 311026,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      25009,
+      25010
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      20004,
+      20004
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "311006": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 1750,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "吹雪级量产型-两发-非锁定",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 85,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
@@ -1410,428 +1098,66 @@
     "oxy_type": [
       1
     ],
-    "id": 311054,
+    "id": 311006,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      200063,
-      200064
+      10002
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      20005,
-      20005
+      30027
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
+    "effect_move": 0,
     "axis_angle": 0
   },
-  "311070": {
+  "300501": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 4250,
+    "angle": 180,
+    "reload_max": 1800,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "第一章第一关大黄蜂boss专用鱼雷机T1",
+    "name": "【战术研修】Q版延迟散型4连鱼雷",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 110,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 60,
-    "damage": 14,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311070,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12017
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30014
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311023": {
-    "search_type": 1,
-    "attack_attribute": 3,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 900,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "长良级量产型-防空炮",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 25,
+    "range": 72,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 20,
-    "action_index": "attack",
-    "type": 4,
+    "damage": 35,
+    "action_index": "",
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 311023,
-    "spawn_bound": "antiaircraft",
+    "id": 300501,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      14001
+      300504,
+      300505
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30055
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-air",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311039": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 80,
-    "reload_max": 1250,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "比叡-平射",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 70,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 1,
-      "fx": "jinengenemy",
-      "time": 0.5,
-      "isBound": true
-    },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 18,
-    "action_index": "attack",
-    "type": 19,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311039,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      10015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30063
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "311055": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 3400,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "翔鹤-轰炸机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 100,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 36,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311055,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30019
+      300504,
+      300505
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311071": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 5000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "第一章第一关大黄蜂boss专用轰炸机T1",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 100,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 60,
-    "damage": 24,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311071,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12017
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30019
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311024": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 900,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "长良级量产型-锁定攻击",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 2,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311024,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      10005
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      10018
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "311040": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 80,
-    "reload_max": 1250,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "雾岛-平射",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 70,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 1,
-      "fx": "jinengenemy",
-      "time": 0.5,
-      "isBound": true
-    },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 18,
-    "action_index": "attack",
-    "type": 19,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311040,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      10015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30063
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "311056": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 4000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "翔鹤-鱼雷机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 110,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 28,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311056,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30014
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311072": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "第一章第二关boss利根专用武器",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 60,
-    "damage": 16,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311072,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      200140
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      20003
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1879,25 +1205,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "311041": {
+  "311024": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 2100,
+    "angle": 360,
+    "reload_max": 900,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "空母·赤城--锁定攻击",
+    "name": "长良级量产型-锁定攻击",
     "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 0,
+    "suppress": 1,
     "range": 80,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 4,
+    "damage": 2,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -1906,208 +1232,156 @@
     "oxy_type": [
       1
     ],
-    "id": 311041,
+    "id": 311024,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      10037,
-      10038,
-      10042
+      10005
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      20005,
-      20005,
-      20005
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "311057": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1800,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "翔鹤-战斗机",
-    "fire_fx": "zhupao",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311057,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12013
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30013
+      10018
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311026": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1750,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "罗利-穿透弹5发",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 7,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311026,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      25009,
-      25010
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      20004,
-      20004
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "311042": {
+  "311007": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 3250,
+    "angle": 60,
+    "reload_max": 2650,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "空母·赤城-鱼雷机",
+    "name": "吹雪级量产型-鱼雷",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 110,
-    "recover_time": 5,
+    "range": 72,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
     "damage": 28,
-    "action_index": "attack",
-    "type": 11,
+    "action_index": "",
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 311042,
-    "spawn_bound": "plane",
+    "id": 311007,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      12015
+      12001
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30014
+      30057
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "",
-    "effect_move": 1,
+    "effect_move": 0,
     "axis_angle": 0
   },
-  "311058": {
+  "300187": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1250,
+    "reload_max": 850,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "瑞鹤专用武器",
+    "name": "【潜艇关5】探索者II双联装炮-轮射",
     "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 100,
+    "suppress": 1,
+    "range": 60,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 4,
+    "damage": 20,
     "action_index": "attack",
-    "type": 1,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 311058,
+    "id": 300187,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      200063,
-      200064
+      6009
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      20005,
-      20005
+      80011
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "311023": {
+    "search_type": 1,
+    "attack_attribute": 3,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 900,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "长良级量产型-防空炮",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 25,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 20,
+    "action_index": "attack",
+    "type": 4,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 311023,
+    "spawn_bound": "antiaircraft",
+    "barrage_ID": [
+      14001
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30055
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-air",
     "effect_move": 1,
     "axis_angle": 0
   },
-  "311027": {
+  "311022": {
     "search_type": 1,
     "attack_attribute": 2,
     "shakescreen": 0,
@@ -2115,7 +1389,7 @@
     "reload_max": 2500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "罗利-鱼雷",
+    "name": "麦考尔-鱼雷",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
@@ -2134,10 +1408,10 @@
     "oxy_type": [
       1
     ],
-    "id": 311027,
+    "id": 311022,
     "spawn_bound": "torpedo",
     "barrage_ID": [
-      1403
+      1402
     ],
     "corrected": 100,
     "auto_aftercast": 0,
@@ -2151,92 +1425,796 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "311043": {
+  "310000": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 4500,
+    "angle": 180,
+    "reload_max": 1750,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "空母·赤城-轰炸机",
-    "fire_fx": "",
+    "name": "序章Z驱量产型",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 100,
-    "recover_time": 5,
+    "suppress": 0,
+    "range": 85,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 36,
+    "damage": 5,
     "action_index": "attack",
-    "type": 11,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 311043,
-    "spawn_bound": "plane",
+    "id": 310000,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      12015
+      10002
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30019
+      30027
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
     "axis_angle": 0
   },
-  "311059": {
+  "300188": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 1800,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【潜艇关5】探索者II特殊鱼雷弹幕",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 72,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 80,
+    "action_index": "",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 300188,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      6012
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      80010
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "311020": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 2500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "格里德利-鱼雷",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 50,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 20,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 311020,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      1402
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      10007
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "311019": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "格里德利专用武器",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 5,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 311019,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      200030
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      20004
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "310001": {
+    "search_type": 1,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
     "reload_max": 2500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "瑞鹤-轰炸机",
-    "fire_fx": "",
+    "name": "序章Z驱量产型",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 100,
-    "recover_time": 5,
+    "range": 80,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 36,
+    "damage": 5,
     "action_index": "attack",
-    "type": 11,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 311059,
-    "spawn_bound": "plane",
+    "id": 310001,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      12015
+      10001
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30019
+      20004
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "300189": {
+    "search_type": 1,
+    "attack_attribute": 5,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 600,
+    "torpedo_ammo": 0,
+    "queue": 11,
+    "name": "【潜艇关5】探索者II特殊深水炸弹",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 32,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 300,
+    "action_index": "attack",
+    "type": 25,
+    "search_condition": [
+      2
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 300189,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      6013
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0.5,
+    "bullet_ID": [
+      80013
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
     "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "311018": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 2700,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "不知火-鱼雷",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 50,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 20,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 311018,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      1402
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      10007
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "311017": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 600,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "不知火专用武器",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 6,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 311017,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      200040
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      20005
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "310002": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1750,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "序章欧根亲王",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "fx": "jinengenemy",
+      "time": 0.8,
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 10,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 310002,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      21062,
+      21063,
+      21064,
+      21065
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30003,
+      30033,
+      30003,
+      30033
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "300190": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1350,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【潜艇关5】探索者II特殊弹幕",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 60,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 25,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 300190,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      6014,
+      6015,
+      6016,
+      6017,
+      6018,
+      6019
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      80014,
+      80014,
+      80014,
+      80014,
+      80014,
+      80014
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "311016": {
+    "search_type": 1,
+    "attack_attribute": 3,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 900,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "不知火-防空炮",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 25,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 20,
+    "action_index": "attack",
+    "type": 4,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 311016,
+    "spawn_bound": "antiaircraft",
+    "barrage_ID": [
+      14001
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30055
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-air",
     "effect_move": 1,
+    "axis_angle": 0
+  },
+  "311015": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 2500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "莫里-鱼雷",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 50,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 20,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 311015,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      1402
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      10007
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "310003": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 2250,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "序章欧根亲王",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "fx": "jinengenemy",
+      "time": 0.8,
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 10,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 310003,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      21014,
+      21015
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30062,
+      30062
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "300191": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 2000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【潜艇关5】探索者II自卫火炮",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 25,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 150,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 300191,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      6020
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      80015
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "311014": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "莫里专用武器",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 5,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 311014,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      200030
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      20004
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "311013": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 2500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "克雷文-鱼雷",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 50,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 20,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 311013,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      1402
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      10007
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "310004": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1750,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "序章欧根亲王",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "fx": "jinengenemy",
+      "time": 0.8,
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 10,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 310004,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      21016,
+      21017,
+      21018,
+      21019,
+      20007,
+      20008,
+      20009,
+      20010
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30060,
+      30060,
+      30060,
+      30060,
+      30051,
+      30051,
+      30051,
+      30051
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "311028": {
@@ -2283,107 +2261,15 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "311044": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 2100,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "空母·加贺-锁定攻击",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 80,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 4,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311044,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      10037,
-      10038,
-      10042
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      20005,
-      20005,
-      20005
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "311060": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 3500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "瑞鹤-鱼雷机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 110,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 28,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311060,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30014
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311013": {
+  "311011": {
     "search_type": 1,
     "attack_attribute": 2,
     "shakescreen": 0,
     "angle": 60,
-    "reload_max": 2500,
+    "reload_max": 3000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "克雷文-鱼雷",
+    "name": "阳炎鱼雷",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
@@ -2402,7 +2288,7 @@
     "oxy_type": [
       1
     ],
-    "id": 311013,
+    "id": 311011,
     "spawn_bound": "torpedo",
     "barrage_ID": [
       1402
@@ -2416,6 +2302,101 @@
     "initial_over_heat": 1,
     "aim_type": 1,
     "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "311010": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "阳炎专用武器",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 4,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 311010,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      200040
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      20005
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "310005": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 3000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "序章俾斯麦万剑归宗",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 80,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "alertTime": 1,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 22,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 310005,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      990101,
+      990102
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      990101,
+      990102
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -2463,113 +2444,69 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "311045": {
+  "311009": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 3,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 2500,
+    "reload_max": 900,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "空母·加贺-轰炸机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 100,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 36,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311045,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30019
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311061": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1800,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "瑞鹤-战斗机",
-    "fire_fx": "zhupao",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 311061,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12013
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30013
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "311014": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "莫里专用武器",
+    "name": "阳炎-防空炮",
     "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 90,
+    "suppress": 1,
+    "range": 25,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 5,
+    "damage": 20,
+    "action_index": "attack",
+    "type": 4,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 311009,
+    "spawn_bound": "antiaircraft",
+    "barrage_ID": [
+      14001
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30055
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-air",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "300503": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 1200,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【战术研修】Q版分裂散弹",
+    "fire_fx": "zhupao",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 80,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 10,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -2578,19 +2515,68 @@
     "oxy_type": [
       1
     ],
-    "id": 311014,
+    "id": 300503,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      200030
+      300601
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      20004
+      300601
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "310006": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 2500,
+    "torpedo_ammo": 0,
+    "queue": 0,
+    "name": "序章俾斯麦秒杀武器",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 150,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "alertTime": 1,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 5000,
+    "action_index": "attack",
+    "type": 19,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 310006,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      20000
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1900
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
@@ -2639,48 +2625,97 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "311046": {
+  "300504": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 4000,
+    "angle": 40,
+    "reload_max": 2400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "空母·加贺-鱼雷机",
-    "fire_fx": "",
+    "name": "【战术研修】【BOSS】沙恩霍斯特-战列跨射攻击后排武器3x2轮-简单",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 110,
-    "recover_time": 5,
+    "range": 150,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 28,
+    "damage": 40,
     "action_index": "attack",
-    "type": 11,
+    "type": 19,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 311046,
-    "spawn_bound": "plane",
+    "id": 300504,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      12015
+      20018
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30014
+      30063
+    ],
+    "min_range": 75,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "300505": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 2000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【战术研修】舰船重炮平射2次——重巡",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 42,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 300505,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      350104
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      350104
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
     "axis_angle": 0
   }
 }
