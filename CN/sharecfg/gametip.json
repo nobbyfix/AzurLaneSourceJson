@@ -18,7 +18,7 @@
     "tip": "<color=#92fc63FF>获得方式\n普通难度2-3</color>"
   },
   "world_movelimit_event_text": {
-    "tip": "当前海域存在尚未完成的任务，目前无法离开"
+    "tip": "当前海域存在尚未完成的事件，目前无法离开。\n是否继续？"
   },
   "world_map_locked_border": {
     "tip": "周边海域未压制"
@@ -1570,6 +1570,9 @@
   "acl_oil_total_count": {
     "tip": "累计使用石油："
   },
+  "world_sametask_tip": {
+    "tip": "领取任务失败，相同的任务最多只能领取一个"
+  },
   "jiujiu_expedition_game_stg_desc": {
     "tip": "第$1关探索度"
   },
@@ -1738,7 +1741,7 @@
   "world_instruction_help_1": {
     "tip": [
       {
-        "info": "  <color=#92fc63>舰队部署</color>\n   在己方港口海域，可以从港区船坞中重新部署参与大型作战的舰队，并为所有舰船恢复耐久与士气。 \n\n  <color=#92fc63>舰队维护</color>\n  为所有舰队恢复士气与耐久，并消除战损状态。\n\n  <color=#92fc63>空域侦查</color>\n  消耗行动力侦查当前海域的全部区域。\n\n  <color=#92fc63>潜艇支援</color>\n  可以部署与呼叫潜艇编队支援，潜艇部队需要在港口海域进行部署。\n "
+        "info": "  <color=#92fc63>舰队部署</color>\n   在己方港口海域，可以从港区船坞中重新部署参与大型作战的舰队，并为所有舰船恢复耐久与士气。 \n\n  <color=#92fc63>舰队维护</color>\n  为所有舰队恢复士气与耐久，并消除战损状态。\n\n  <color=#92fc63>空域侦察</color>\n  消耗行动力侦察当前海域的全部区域。\n\n  <color=#92fc63>潜艇支援</color>\n  可以部署与呼叫潜艇编队支援，潜艇部队需要在港口海域进行部署。\n "
       }
     ]
   },
@@ -1889,6 +1892,9 @@
   },
   "dock_yard_left_tips": {
     "tip": "请选择用于<color=#92fc63>$1</color>的角色："
+  },
+  "world_setting_submititemtip": {
+    "tip": "功能开启后，自律时自动完成需要提交道具的事件"
   },
   "exchange_item_success": {
     "tip": "兑换成功"
@@ -2626,6 +2632,9 @@
   },
   "intimacy_desc_propose": {
     "tip": "爱为引路之灯，情乃系心之线\n期盼对方之笑容，祈愿对方之期盼\n相互尊重、相互信任、相互守望，直至永远\n至此，命运结而为一，誓约成立\n                                         誓约日 $1"
+  },
+  "world_shop_init_notice": {
+    "tip": "大型作战已经重置，是否打开特别兑换商店？"
   },
   "resourceSite_beginScanMap_ok": {
     "tip": "扫描成功"
@@ -4302,32 +4311,32 @@
   "challenge_share_progress": {
     "tip": "本次限界挑战进度："
   },
+  "ship_formationMediator_changeNameError_sameShip": {
+    "tip": "舰队中不能存在相同的舰船"
+  },
+  "story_autoplay_setting_1": {
+    "tip": "关闭"
+  },
   "channel_name_1": {
     "tip": "全部"
+  },
+  "ship_shipModMediator_noticeSameButLargerStar": {
+    "tip": "相同但星级较高"
   },
   "word_heavyarmor": {
     "tip": "重型装甲"
   },
-  "world_boss_not_reach_target": {
-    "tip": "未达到指定数据量"
-  },
-  "ship_remould_warning_310014": {
-    "tip": "此次改造操作将导致<color=#92fc63>$1</color>舰艇类型变化\n<color=#92fc63>【副武器】</color>变更为<color=#92fc63>【水侦】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>\n<color=#92fc63>【副武器】</color>栏的装备将被卸下\n是否确认继续操作？"
-  },
-  "longxiang_count": {
-    "tip": "目标式符-J："
-  },
-  "word_own1": {
-    "tip": "拥有："
-  },
   "setting_story_speed_4": {
     "tip": "特快"
   },
-  "test_ship_intensify_tip": {
-    "tip": "布里无法进行强化"
+  "world_boss_not_reach_target": {
+    "tip": "未达到指定数据量"
   },
   "setting_story_speed_2": {
     "tip": "正常"
+  },
+  "ship_remould_warning_310014": {
+    "tip": "此次改造操作将导致<color=#92fc63>$1</color>舰艇类型变化\n<color=#92fc63>【副武器】</color>变更为<color=#92fc63>【水侦】</color>栏位<color=#92fc63><material=underline c=#92fc63 event=clickDetail>查看详情</material></color>\n<color=#92fc63>【副武器】</color>栏的装备将被卸下\n是否确认继续操作？"
   },
   "world_stamina_exchange": {
     "tip": "行动力不足，是否花费<icon name=oil w=0.7 h=0.7/>$1兑换行动力*$2？"
@@ -4338,11 +4347,8 @@
   "intimacy_desc_6": {
     "tip": "$1觉得可以把一切都托付给你"
   },
-  "Supplement_pay1": {
-    "tip": "检测到账号中存在异常退款记录，需要完成全部\n异常退款交易处理后才能继续进行游戏"
-  },
-  "ambush_display_5": {
-    "tip": "较高"
+  "longxiang_count": {
+    "tip": "目标式符-J："
   },
   "world_help_tip": {
     "tip": [
@@ -4351,11 +4357,8 @@
       }
     ]
   },
-  "word_desc": {
-    "tip": "降序"
-  },
-  "world_low_morale": {
-    "tip": "当前舰队士气过低，无法与强敌战斗！\n提示：取得任意战斗胜利均可恢复舰队的士气。"
+  "word_own1": {
+    "tip": "拥有："
   },
   "area_unkown": {
     "tip": "未知海域"
@@ -4366,41 +4369,35 @@
   "backyard_food_count": {
     "tip": "当前存粮上限: $1"
   },
-  "elite_disable_property_unsatisfied": {
-    "tip": "未满足出击限制，无法出击"
-  },
-  "levelScene_select_noitem": {
-    "tip": "暂无可使用的道具"
-  },
-  "guild_tip_dissolve": {
-    "tip": "大舰队一旦解散，现有的舰队状态(包括成员活跃度、大舰队资金与科技研发等级)将会清空并无法恢复，所有未领取的补给与作战报告将会全部损失，是否确认解散大舰队？"
-  },
-  "desc_base_hp": {
-    "tip": "港区耐久：$1/$2"
-  },
-  "battle_resourceSiteLayer_startError_limit": {
-    "tip": "未满足采集要求: <color=#92fc63>$1</color>"
-  },
-  "sort_intimacy": {
-    "tip": "好感"
-  },
-  "mail_confirm_set_important_flag": {
-    "tip": "是否设定为重要邮件？"
-  },
-  "ship_profile_words": {
-    "tip": "台词鉴赏"
-  },
-  "charge_error_count_limit": {
-    "tip": "已达今日购买次数上限，请尝试其他充值档位"
-  },
-  "level_ammo_enough": {
-    "tip": "舰队弹药充足，无需补给"
+  "test_ship_intensify_tip": {
+    "tip": "布里无法进行强化"
   },
   "exercise_rule_tip": {
     "tip": "   1、每<color=#92fc63>14</color>天为一个赛季，赛季中达到指定军衔，即可获得军衔对应奖励\n   2、战斗胜利可以按军衔等级获得功勋，即使失败也可获得<color=#92fc63>一半</color>的功勋\n   3、战斗胜利可以获得积分，战斗失败<color=#92fc63>不会扣除积分</color>\n   4、受到其他人的挑战而失败不会扣除积分\n   5、积分达到一定值，就可以提升军衔，<color=#92fc63>将阶以上</color>军衔需要达到一定名次\n   6、军衔只要达到过1次，就会立刻获得军衔奖励\n   7、获得的功勋可以在功勋商店兑换科技箱、角色等奖励\n   8、演习对手可以免费手动更换，每天只能更换<color=#92fc63>5</color>次\n   9、挑战后，无论成败，都会自动更换一组对手\n   10、演习次数每天00:00、12:00、18:00刷新，刷新时增加<color=#92fc63>5</color>次演习次数，演习次数上限为<color=#92fc63>10</color>次\n   11、赛季结束后，所有玩家军衔和积分重置"
   },
-  "world_boss_challenge_cnt": {
-    "tip": "挑战人数"
+  "levelScene_select_noitem": {
+    "tip": "暂无可使用的道具"
+  },
+  "desc_base_hp": {
+    "tip": "港区耐久：$1/$2"
+  },
+  "charge_error_count_limit": {
+    "tip": "已达今日购买次数上限，请尝试其他充值档位"
+  },
+  "Supplement_pay1": {
+    "tip": "检测到账号中存在异常退款记录，需要完成全部\n异常退款交易处理后才能继续进行游戏"
+  },
+  "ambush_display_5": {
+    "tip": "较高"
+  },
+  "formation_forbid_when_in_chapter": {
+    "tip": "舰队出击中，当前无法修改编队"
+  },
+  "word_desc": {
+    "tip": "降序"
+  },
+  "world_low_morale": {
+    "tip": "当前舰队士气过低，无法与强敌战斗！\n提示：取得任意战斗胜利均可恢复舰队的士气。"
   },
   "help_battle_ac": {
     "tip": [
@@ -4415,11 +4412,56 @@
   "world_reset_3": {
     "tip": "再次进入大型作战后重置生效"
   },
+  "elite_disable_property_unsatisfied": {
+    "tip": "未满足出击限制，无法出击"
+  },
   "world_reset_2": {
     "tip": "大型作战将于明日<color=#92fc63>$1</color>点重置"
   },
+  "guild_tip_dissolve": {
+    "tip": "大舰队一旦解散，现有的舰队状态(包括成员活跃度、大舰队资金与科技研发等级)将会清空并无法恢复，所有未领取的补给与作战报告将会全部损失，是否确认解散大舰队？"
+  },
   "world_reset_1": {
     "tip": "距离大型作战重置<color=#92fc63>$1</color>天"
+  },
+  "battle_resourceSiteLayer_startError_limit": {
+    "tip": "未满足采集要求: <color=#92fc63>$1</color>"
+  },
+  "sort_intimacy": {
+    "tip": "好感"
+  },
+  "mail_confirm_set_important_flag": {
+    "tip": "是否设定为重要邮件？"
+  },
+  "ship_profile_words": {
+    "tip": "台词鉴赏"
+  },
+  "event_flush_not_enough": {
+    "tip": "剩余刷新次数不足"
+  },
+  "level_ammo_enough": {
+    "tip": "舰队弹药充足，无需补给"
+  },
+  "area_zhuxian": {
+    "tip": "主线海域"
+  },
+  "autofight_selectprops_tip": {
+    "tip": "点击选择\n作战道具"
+  },
+  "ship_formationUI_fleetName_hard_ss": {
+    "tip": "困难潜艇编队"
+  },
+  "area_shenyuan": {
+    "tip": "深渊海域"
+  },
+  "area_yaosai_2": {
+    "tip": "当前海域已被塞壬入侵"
+  },
+  "area_anquan": {
+    "tip": "安全海域"
+  },
+  "levelScene_map_lock": {
+    "tip": "该<color=#92fc63>章节未完成</color>无法前往下一章"
   },
   "acquisitionmode_is_not_open": {
     "tip": "对应获得方式尚未开启"
@@ -4427,35 +4469,39 @@
   "word_material": {
     "tip": "材料"
   },
-  "event_flush_not_enough": {
-    "tip": "剩余刷新次数不足"
+  "common_no_item_1": {
+    "tip": "道具不足"
   },
-  "area_zhuxian": {
-    "tip": "主线海域"
+  "world_setting_submititem": {
+    "tip": "自律时自动提交道具"
   },
   "amercian_notice_1": {
     "tip": "确定消耗<color=#92fc63>$1</color>个战斗之星\n用于抽取<color=#92fc63>$2</color>次补给？"
   },
-  "resource_max_tip_battle": {
-    "tip": "出击将无法正常获得物资，是否继续出击？"
+  "wwf_bamboo_help": {
+    "tip": [
+      {
+        "info": "活动时间：<color=#92fc63>2021.3.12-2021.3.25</color>\n活动简介：\n1.活动分为<color=#92fc63>大宝的伙伴（宁海篇）</color>和<color=#92fc63>二宝的伙伴（平海篇）</color>两个部分，点击页面右下方按钮可以进行切换\n2.活动期间完成任务可以获取<color=#92fc63>美味竹子</color>，消耗美味竹子照顾大熊猫达到指定亲密度可以领取奖励\n3.指挥官点击页面左下方美味竹子图标可以查看任务列表，任务分为三类：\n①活动任务：活动期间只可完成一次\n②每日任务：活动期间每天零点刷新\n③每周任务：活动期间每周一零点刷新"
+      }
+    ]
   },
-  "ship_formationUI_fleetName_hard_ss": {
-    "tip": "困难潜艇编队"
+  "world_setting_quickmode": {
+    "tip": "减少TB引导"
   },
   "achieve_propose_tip": {
     "tip": "「$1」换装解锁！"
   },
-  "area_shenyuan": {
-    "tip": "深渊海域"
+  "world_setting_title": {
+    "tip": "大型作战设置"
   },
   "destory_ship_before_tip": {
     "tip": "是否确认"
   },
-  "area_yaosai_2": {
-    "tip": "当前海域已被塞壬入侵"
+  "world_fleet_stop": {
+    "tip": "舰队移动正在停止"
   },
-  "area_anquan": {
-    "tip": "安全海域"
+  "archives_whether_to_retreat": {
+    "tip": "真的要<color=#92fc63>撤退</color>吗?\n（撤退不返还档案密钥）"
   },
   "commander_material_is_in_fleet_tip": {
     "tip": "正在编队中，是否让指挥喵休息？"
@@ -4482,8 +4528,8 @@
       }
     ]
   },
-  "levelScene_map_lock": {
-    "tip": "该<color=#92fc63>章节未完成</color>无法前往下一章"
+  "world_collection_back": {
+    "tip": "点击空白处返回"
   },
   "hide_chat_warning": {
     "tip": "屏蔽聊天后将不会显示任何收到的聊天信息，是否确定？"
@@ -4491,8 +4537,8 @@
   "word_shipState_guild_boss": {
     "tip": "该角色为大舰队作战首领战编队成员，是否确认将该角色移出编队？"
   },
-  "common_no_item_1": {
-    "tip": "道具不足"
+  "commander_is_in_bigworld": {
+    "tip": "该指挥喵在大型作战中"
   },
   "no_way_to_escape": {
     "tip": "无路可逃"
@@ -4500,26 +4546,26 @@
   "buildship_heavy_tip": {
     "tip": "{namecode:161}、{namecode:81}、{namecode:92} 等角色建造追加！"
   },
-  "world_joint_boss_is_death": {
-    "tip": "所选信标已消失，请尝试其他信标！"
+  "world_collection_3": {
+    "tip": "收集率"
   },
-  "world_setting_quickmode": {
-    "tip": "减少TB引导"
+  "world_collection_2": {
+    "tip": "进度"
   },
   "tip_pray_build_pool_success": {
     "tip": "构建成功"
   },
-  "world_setting_title": {
-    "tip": "大型作战设置"
+  "world_collection_1": {
+    "tip": "收集进度"
   },
   "guild_word_may_happen_event": {
     "tip": "可能发生事件"
   },
-  "world_fleet_stop": {
-    "tip": "舰队移动正在停止"
+  "autofight_tip_bigworld_suspend": {
+    "tip": "当前所选舰队视野内无可自律事件，无法继续自律寻敌"
   },
-  "archives_whether_to_retreat": {
-    "tip": "真的要<color=#92fc63>撤退</color>吗?\n（撤退不返还档案密钥）"
+  "world_word_world": {
+    "tip": "世界"
   },
   "word_intimacy": {
     "tip": "亲密度"
@@ -4527,69 +4573,26 @@
   "backyard_backyardShipInfoMediator_error_mainFleetOnlyOneShip": {
     "tip": "主力编队必须存在一艘船"
   },
-  "world_collection_back": {
-    "tip": "点击空白处返回"
-  },
-  "commander_is_in_bigworld": {
-    "tip": "该指挥喵在大型作战中"
-  },
-  "secondarypassword_illegal_tip": {
-    "tip": "包含敏感信息，请重新输入"
-  },
-  "world_collection_3": {
-    "tip": "收集率"
-  },
-  "world_collection_2": {
-    "tip": "进度"
-  },
-  "world_collection_1": {
-    "tip": "收集进度"
-  },
-  "word_comingSoon": {
-    "tip": "敬请期待"
-  },
-  "world_word_world": {
-    "tip": "世界"
-  },
   "level_scene_title_word_5": {
     "tip": "推荐:"
-  },
-  "sham_can_not_change_ship": {
-    "tip": "「模拟战」中不能更换支援角色"
-  },
-  "ship_shipModMediator_choiseMaterial": {
-    "tip": "请先选择用于突破的素材"
   },
   "word_shipNation_meta": {
     "tip": "???"
   },
-  "ship_preference_common": {
-    "tip": "已将<color=#92fc63>$1</color>设定为常用"
+  "secondarypassword_illegal_tip": {
+    "tip": "包含敏感信息，请重新输入"
   },
-  "guild_apply_full": {
-    "tip": "目标大舰队申请人数已满"
-  },
-  "world_reset_tip": {
-    "tip": [
-      {
-        "info": "大型作战重置说明\n\n·<color=#92fc63>重置条件与时间</color>\n①大型作战将于2021年2月1日0:00点重置，之后固定于\n<color=#92fc63>每月1日的0:00</color>点进行重置\n②0点时，如果已经完成大型作战前四章主线剧情关卡，\n大型作战进行重置；\n  如果未完成主线剧情关卡，大型作战将不会进行重置\n③0点后，重新进入大型作战将使重置生效，指挥官需要重新部署舰队至大型作战\n\n·<color=#92fc63>重置后大型作战的变化</color>\n①重置后大型作战各海域将恢复至未压制状态，所有港口都默认开放，进入海域后指挥官舰队位于利维浦港口。\n未完成的塞壬要塞海域、深渊海域、隐秘海域、安全海域将会消失\n②重置后各个港口的日常任务将会重置，指挥官已经接取的日常任务将会消失\n③重置后大型作战港口将恢复至初始状态。在一个大型\n作战周期内，每个港口「补给」随机刷新的商品总体相同，仅在出现顺序上有所差异；若已于当前周期兑换完所有的商品，需等到大型作战<color=#92fc63>下一次重置</color>后进行刷新\n④重置不会影响海域探索(收集星星)的任务完成进度\n⑤重置后，「适应性调整-攻击」、「适应性调整-耐久」、「适应性调整-恢复」的相关数值将恢复至初始状态\n⑥重置后，行动力将恢复至<color=#92fc63>初始状态（200点）</color>\n\n·<color=#92fc63>储物舱与特别兑换商店</color>\n①重置后「储物舱」将恢复至初始状态。「储物舱」内未使用道具将会转化为相应数量的「战备物资兑换券」指挥官可以点击<color=#92fc63>道具-查看详情</color>查询具体道具的兑换比例\n②重置后特别兑换商店中的商品的可兑换次数恢复至初始状态，指挥官可以使用「战备物资兑换券」进行兑换\n③其中，「特别兑换商店」可兑换道具<color=#92fc63>「战役信息记录仪」</color>。「战役信息记录仪」需在「储物舱」使用，可用于解除所有海域间的移动限制，跳过重复调查过程，获得所有海域的<color=#92fc63>调查奖励</color>(不包含压制奖励)\n调查奖励包含以下内容：\n「适应性调整-攻击」×90、「适应性调整-耐久」×90、「适应性调整-恢复」×90、「能源补给箱」×45、「应急维修箱」×45、「作战补给凭证」×84000"
-      }
-    ]
+  "world_boss_challenge_cnt": {
+    "tip": "挑战人数"
   },
   "meta_boss_unlock": {
     "tip": "通过<color=#92fc63>大型作战</color>第一章，解锁信标·烬功能后开启角色获取！"
-  },
-  "anniversary_task_title_13": {
-    "tip": "你的背影，就在前方，只要再走一小步，我就能搭上你的肩膀"
   },
   "meta_pt_notenough": {
     "tip": "当前同步值不足，请前往<color=#92fc63>大型作战</color>中的信标·烬作战获取"
   },
   "special_transform_limit_reach": {
     "tip": "已经拥有该改造道具或对应的改造后舰船，无法兑换"
-  },
-  "elite_condition_dodge": {
-    "tip": "机动总值"
   },
   "meta_help": {
     "tip": [
@@ -4610,17 +4613,60 @@
       }
     ]
   },
+  "common_daily_limit": {
+    "tip": "每日上限(未使用)"
+  },
+  "sham_can_not_change_ship": {
+    "tip": "「模拟战」中不能更换支援角色"
+  },
+  "ship_shipModMediator_choiseMaterial": {
+    "tip": "请先选择用于突破的素材"
+  },
+  "equip_ammo_type_10": {
+    "tip": "无"
+  },
+  "ship_preference_common": {
+    "tip": "已将<color=#92fc63>$1</color>设定为常用"
+  },
+  "guild_apply_full": {
+    "tip": "目标大舰队申请人数已满"
+  },
+  "world_reset_tip": {
+    "tip": [
+      {
+        "info": "大型作战重置说明\n\n·<color=#92fc63>重置条件与时间</color>\n①大型作战将于2021年2月1日0:00点重置，之后固定于\n<color=#92fc63>每月1日的0:00</color>点进行重置\n②0点时，如果已经完成大型作战前四章主线剧情关卡，\n大型作战进行重置；\n  如果未完成主线剧情关卡，大型作战将不会进行重置\n③0点后，重新进入大型作战将使重置生效，指挥官需要重新部署舰队至大型作战\n\n·<color=#92fc63>重置后大型作战的变化</color>\n①重置后大型作战各海域将恢复至未压制状态，所有港口都默认开放，进入海域后指挥官舰队位于利维浦港口。\n未完成的塞壬要塞海域、深渊海域、隐秘海域、安全海域将会消失\n②重置后各个港口的日常任务将会重置，指挥官已经接取的日常任务将会消失\n③重置后大型作战港口将恢复至初始状态。在一个大型\n作战周期内，每个港口「补给」随机刷新的商品总体相同，仅在出现顺序上有所差异；若已于当前周期兑换完所有的商品，需等到大型作战<color=#92fc63>下一次重置</color>后进行刷新\n④重置不会影响海域探索(收集星星)的任务完成进度\n⑤重置后，「适应性调整-攻击」、「适应性调整-耐久」、「适应性调整-恢复」的相关数值将恢复至初始状态\n⑥重置后，行动力将恢复至<color=#92fc63>初始状态（200点）</color>\n\n·<color=#92fc63>储物舱与特别兑换商店</color>\n①重置后「储物舱」将恢复至初始状态。「储物舱」内未使用道具将会转化为相应数量的「战备物资兑换券」指挥官可以点击<color=#92fc63>道具-查看详情</color>查询具体道具的兑换比例\n②重置后特别兑换商店中的商品的可兑换次数恢复至初始状态，指挥官可以使用「战备物资兑换券」进行兑换\n③其中，「特别兑换商店」可兑换道具<color=#92fc63>「战役信息记录仪」</color>。「战役信息记录仪」需在「储物舱」使用，可用于解除所有海域间的移动限制，跳过重复调查过程，获得所有海域的<color=#92fc63>调查奖励</color>(不包含压制奖励)\n调查奖励包含以下内容：\n「适应性调整-攻击」×90、「适应性调整-耐久」×90、「适应性调整-恢复」×90、「能源补给箱」×45、「应急维修箱」×45、「作战补给凭证」×84000"
+      }
+    ]
+  },
+  "equip_ammo_type_7": {
+    "tip": "半穿甲弹"
+  },
+  "anniversary_task_title_13": {
+    "tip": "你的背影，就在前方，只要再走一小步，我就能搭上你的肩膀"
+  },
+  "batch_destroy": {
+    "tip": "批量分解"
+  },
+  "equip_ammo_type_3": {
+    "tip": "通常弹"
+  },
+  "elite_condition_dodge": {
+    "tip": "机动总值"
+  },
+  "equip_ammo_type_2": {
+    "tip": "高爆弹"
+  },
   "word_equipment_warship_torpedo": {
     "tip": "水面鱼雷"
   },
-  "common_daily_limit": {
-    "tip": "每日上限(未使用)"
+  "equip_ammo_type_1": {
+    "tip": "穿甲弹"
   },
   "backyard_buyExtendItem_question": {
     "tip": "将花费<color=#92fc63>$1</color>,是否继续？"
   },
-  "equip_ammo_type_10": {
-    "tip": "无"
+  "world_boss_pt_recove_desc": {
+    "tip": "每天0点回复$1点挑战次数"
   },
   "word_secondseach": {
     "tip": "/轮"
@@ -4631,8 +4677,8 @@
   "tack_tickets_max_warning": {
     "tip": "所持<color=#ffde38>档案密钥</color>数量达到上限，完成任务后只能获得<color=#ff5c5c>$1</color>份<color=#ffde38>档案密钥</color>，是否确认领取？"
   },
-  "formation_forbid_when_in_chapter": {
-    "tip": "舰队出击中，当前无法修改编队"
+  "world_boss_ad": {
+    "tip": "[$1]TIER.$2"
   },
   "help_chunjie_monopoly": {
     "tip": [
@@ -4703,8 +4749,8 @@
   "word_week": {
     "tip": "周"
   },
-  "equip_ammo_type_7": {
-    "tip": "半穿甲弹"
+  "jiujiu_expedition_reward_tip": {
+    "tip": "完成手册收集后可领取奖励"
   },
   "event_type_unreached": {
     "tip": "舰队中角色的类型不满足"
@@ -4712,23 +4758,27 @@
   "level_chapter_state_risk": {
     "tip": "<color=#ffde38>【危险海域】</color>"
   },
-  "batch_destroy": {
-    "tip": "批量分解"
+  "meta_voice_name_feeling5": {
+    "tip": "共鸣"
   },
-  "equip_ammo_type_3": {
-    "tip": "通常弹"
+  "meta_voice_name_feeling4": {
+    "tip": "同步"
   },
   "practise_idol_tip": {
     "tip": "是否对$1进行练习？"
   },
-  "equip_ammo_type_2": {
-    "tip": "高爆弹"
+  "world_resource_fill": {
+    "tip": "战备物资兑换券已达到收集上限。"
   },
   "levelScene_chapter_not_open": {
     "tip": "未开放"
   },
-  "equip_ammo_type_1": {
-    "tip": "穿甲弹"
+  "levelScene_loop_help_tip": {
+    "tip": [
+      {
+        "info": "海域达成<color=#92fc63>三星条件</color>并达成<color=#92fc63>安全海域</color>后可开启<color=#92fc63>周回模式</color>\n\n启用周回模式后，海域将有以下变化：\n\n1 通常海域困难模式中<color=#92fc63>不会出现</color>敌人护卫舰队\n2 活动关卡的敌人设置将会出现一部分变化\n3 活动关卡中我方的移动格数<color=#92fc63>不会受到移动力限制</color>，可自由移动\n4 通常海域关卡中<color=#92fc63>取消伏击与空袭</color>\n5 关卡内会开启<color=#92fc63>阵容锁定</color>模式\n6 关卡内会开启<color=#92fc63>自律寻敌</color>模式\n\n <color=#92fc63>自律寻敌</color>模式介绍：\n1.<color=#92fc63>自律寻敌</color>只会在周回模式下开启，当关卡首次进入周回模式时，自律寻敌会自动开启\n2.自律寻敌开启的同时，会自动开启<color=#92fc63>自律战斗</color><color=#92fc63>和阵容锁定</color>功能。自动呼叫潜艇功能会根据指挥官的设置，不会自动开启\n3.开启自律寻敌后，指挥官可以在舰队选择界面设置舰队职能，舰队职能一共分为四种：\n①<color=#92fc63>道中战斗</color>：该舰队只会进行道中战斗（<color=#92fc63>指与非敌方旗舰进行战斗</color>），选择该队为道中战斗后，另一队默认为旗舰战斗\n②<color=#92fc63>旗舰战斗</color>：敌方旗舰出现后会切换到该舰队与敌方旗舰进行战斗，选择该队为旗舰战斗后，另一队默认为道中战斗\n③<color=#92fc63>全部战斗</color>：该舰队会与道中敌人和敌方旗舰进行战斗，选择该队为全部战斗后，另一队默认为待机\n④<color=#92fc63>待机</color>：该舰队不参与战斗，原地待机，选择该队为待机后，另一队默认为全部战斗\n4.自律寻敌模式中，场上有精英舰队时，优先攻击<color=#92fc63>精英舰队</color>，场上没有精英舰队时，就近攻击离我方<color=#92fc63>最近的敌人</color>，当场上出现敌方旗舰时，最优先攻击<color=#92fc63>敌方旗舰</color>"
+      }
+    ]
   },
   "words_rare_ship_vibrate": {
     "tip": "获得角色震动"
@@ -4739,14 +4789,14 @@
   "activity_pool_awards_empty": {
     "tip": "本阶段已经全部完成"
   },
-  "world_boss_pt_recove_desc": {
-    "tip": "每天0点回复$1点挑战次数"
+  "meta_voice_name_feeling1": {
+    "tip": "未知"
   },
-  "world_boss_ad": {
-    "tip": "[$1]TIER.$2"
+  "meta_skillbtn_tactics": {
+    "tip": "研 修"
   },
-  "jiujiu_expedition_reward_tip": {
-    "tip": "完成手册收集后可领取奖励"
+  "meta_toast_tactics": {
+    "tip": "研修EXP"
   },
   "valentinesday__txt5_tip": {
     "tip": "指挥官，我们要收集更多的原料才能继续加工巧克力哦。"
@@ -4772,49 +4822,6 @@
   },
   "ship_formationUI_fleetName_easy_ss": {
     "tip": "简单潜艇编队"
-  },
-  "meta_voice_name_feeling5": {
-    "tip": "共鸣"
-  },
-  "meta_voice_name_feeling4": {
-    "tip": "同步"
-  },
-  "world_joint_call_support_failed": {
-    "tip": "请求支援失败！"
-  },
-  "ship_destroy_uncommon_tip": {
-    "tip": "退役角色中有<color=#92fc63>精锐</color>以上的角色，是否确认？"
-  },
-  "ship_profile_action_words": {
-    "tip": "动作台词鉴赏"
-  },
-  "meta_story_tip_2": {
-    "tip": "后开放(未使用)"
-  },
-  "ins_word_day": {
-    "tip": "$1天前"
-  },
-  "levelScene_loop_help_tip": {
-    "tip": [
-      {
-        "info": "海域达成<color=#92fc63>三星条件</color>并达成<color=#92fc63>安全海域</color>后可开启<color=#92fc63>周回模式</color>\n\n启用周回模式后，海域将有以下变化：\n\n1 通常海域困难模式中<color=#92fc63>不会出现</color>敌人护卫舰队\n2 活动关卡的敌人设置将会出现一部分变化\n3 活动关卡中我方的移动格数<color=#92fc63>不会受到移动力限制</color>，可自由移动\n4 通常海域关卡中<color=#92fc63>取消伏击与空袭</color>\n5 关卡内会开启<color=#92fc63>阵容锁定</color>模式\n6 关卡内会开启<color=#92fc63>自律寻敌</color>模式\n\n <color=#92fc63>自律寻敌</color>模式介绍：\n1.<color=#92fc63>自律寻敌</color>只会在周回模式下开启，当关卡首次进入周回模式时，自律寻敌会自动开启\n2.自律寻敌开启的同时，会自动开启<color=#92fc63>自律战斗</color><color=#92fc63>和阵容锁定</color>功能。自动呼叫潜艇功能会根据指挥官的设置，不会自动开启\n3.开启自律寻敌后，指挥官可以在舰队选择界面设置舰队职能，舰队职能一共分为四种：\n①<color=#92fc63>道中战斗</color>：该舰队只会进行道中战斗（<color=#92fc63>指与非敌方旗舰进行战斗</color>），选择该队为道中战斗后，另一队默认为旗舰战斗\n②<color=#92fc63>旗舰战斗</color>：敌方旗舰出现后会切换到该舰队与敌方旗舰进行战斗，选择该队为旗舰战斗后，另一队默认为道中战斗\n③<color=#92fc63>全部战斗</color>：该舰队会与道中敌人和敌方旗舰进行战斗，选择该队为全部战斗后，另一队默认为待机\n④<color=#92fc63>待机</color>：该舰队不参与战斗，原地待机，选择该队为待机后，另一队默认为全部战斗\n4.自律寻敌模式中，场上有精英舰队时，优先攻击<color=#92fc63>精英舰队</color>，场上没有精英舰队时，就近攻击离我方<color=#92fc63>最近的敌人</color>，当场上出现敌方旗舰时，最优先攻击<color=#92fc63>敌方旗舰</color>"
-      }
-    ]
-  },
-  "meta_voice_name_feeling1": {
-    "tip": "未知"
-  },
-  "meta_skillbtn_tactics": {
-    "tip": "研 修"
-  },
-  "meta_energy_ship_level_need": {
-    "tip": "舰船等级需求: $1/$2"
-  },
-  "tips_dispense_completed": {
-    "tip": "装药完毕"
-  },
-  "meta_toast_tactics": {
-    "tip": "研修EXP"
   },
   "help_monopoly": {
     "tip": [
@@ -4891,36 +4898,71 @@
       }
     ]
   },
-  "word_equipskin_type": {
-    "tip": "类型"
-  },
-  "backyard_cant_put_tip": {
-    "tip": "已达到该级别最大家具数量，无法放置"
-  },
   "meta_switch_skill_box_title": {
     "tip": "是否开始技能$1的研修？\n"
   },
-  "challenge_casual_click_switch": {
-    "tip": "当前模式:普通模式\n累积得分:$1\n是否切换模式?"
+  "world_joint_call_support_failed": {
+    "tip": "请求支援失败！"
+  },
+  "ship_destroy_uncommon_tip": {
+    "tip": "退役角色中有<color=#92fc63>精锐</color>以上的角色，是否确认？"
+  },
+  "ship_profile_action_words": {
+    "tip": "动作台词鉴赏"
   },
   "meta_unlock_skill_tip": {
     "tip": "习得$1的技能<color=#92fc63>$2</color>需要消耗以下技能书"
   },
-  "wwf_bamboo_help": {
-    "tip": [
-      {
-        "info": "活动时间：<color=#92fc63>2021.3.12-2021.3.25</color>\n活动简介：\n1.活动分为<color=#92fc63>大宝的伙伴（宁海篇）</color>和<color=#92fc63>二宝的伙伴（平海篇）</color>两个部分，点击页面右下方按钮可以进行切换\n2.活动期间完成任务可以获取<color=#92fc63>美味竹子</color>，消耗美味竹子照顾大熊猫达到指定亲密度可以领取奖励\n3.指挥官点击页面左下方美味竹子图标可以查看任务列表，任务分为三类：\n①活动任务：活动期间只可完成一次\n②每日任务：活动期间每天零点刷新\n③每周任务：活动期间每周一零点刷新"
-      }
-    ]
+  "ins_word_day": {
+    "tip": "$1天前"
   },
-  "system_database_busy": {
-    "tip": "数据库繁忙，请稍后再试"
+  "resource_max_tip_battle": {
+    "tip": "出击将无法正常获得物资，是否继续出击？"
   },
   "word_shipState_guild_event": {
     "tip": "角色正在参与大舰队作战，无法退役"
   },
   "meta_energy_preview_title": {
     "tip": "最终默认本体属性如下"
+  },
+  "meta_energy_ship_level_need": {
+    "tip": "舰船等级需求: $1/$2"
+  },
+  "tips_dispense_completed": {
+    "tip": "装药完毕"
+  },
+  "meta_break": {
+    "tip": "*激活之后将提升角色星级"
+  },
+  "meta_energy_active_box_tip": {
+    "tip": "是否对角色进行能量激活？(能量激活将会提升角色星级)"
+  },
+  "word_equipskin_type": {
+    "tip": "类型"
+  },
+  "backyard_cant_put_tip": {
+    "tip": "已达到该级别最大家具数量，无法放置"
+  },
+  "meta_energy_ship_repairrate_need": {
+    "tip": "舰船强化率需求: $1/$2"
+  },
+  "challenge_casual_click_switch": {
+    "tip": "当前模式:普通模式\n累积得分:$1\n是否切换模式?"
+  },
+  "level_diffcult_chapter_state_safety": {
+    "tip": "<size=36>地图达成<color=#92fc63>3星收集</color>并成为<color=#92fc63>安全海域</color>后\n出击舰队可直接攻击<color=#92fc63>敌方旗舰</color></size>"
+  },
+  "indexsort_type": {
+    "tip": "类型"
+  },
+  "system_database_busy": {
+    "tip": "数据库繁忙，请稍后再试"
+  },
+  "meta_award_get": {
+    "tip": "可领取"
+  },
+  "commander_replace_talent_not_exist": {
+    "tip": "替换的天赋存在"
   },
   "blueprint_mod_success": {
     "tip": "开发成功"
@@ -4934,11 +4976,11 @@
   "naval_academy_res_desc_class": {
     "tip": "学院的大讲堂，升级设施可以提高<color=#92fc63>熟练度上限、熟练度消耗速度</color>和<color=#92fc63>熟练度获取比例</color>"
   },
-  "meta_break": {
-    "tip": "*激活之后将提升角色星级"
+  "meta_story_tip_2": {
+    "tip": "后开放(未使用)"
   },
-  "meta_energy_active_box_tip": {
-    "tip": "是否对角色进行能量激活？(能量激活将会提升角色星级)"
+  "meta_story_tip_1": {
+    "tip": "解锁剧情(未使用)"
   },
   "buy_furniture_overtime": {
     "tip": "当前时间不能购买该家具"
@@ -4946,23 +4988,23 @@
   "tactics_noskill_erro": {
     "tip": "必须存在技能"
   },
-  "meta_energy_ship_repairrate_need": {
-    "tip": "舰船强化率需求: $1/$2"
+  "meta_syn_rate": {
+    "tip": "资讯同步率"
   },
-  "level_diffcult_chapter_state_safety": {
-    "tip": "<size=36>地图达成<color=#92fc63>3星收集</color>并成为<color=#92fc63>安全海域</color>后\n出击舰队可直接攻击<color=#92fc63>敌方旗舰</color></size>"
+  "meta_pt_left": {
+    "tip": "剩余$1天"
   },
   "word_activity": {
     "tip": "活动"
   },
-  "indexsort_type": {
-    "tip": "类型"
+  "meta_story_lock": {
+    "tip": "需要完成前置剧情才能进行资讯同步(未使用)"
   },
-  "meta_award_get": {
-    "tip": "可领取"
+  "meta_sys_lock_tip": {
+    "tip": "META研究室将在开放大型作战的信标·烬功能后开启(未使用)"
   },
-  "commander_replace_talent_not_exist": {
-    "tip": "替换的天赋存在"
+  "autofight_file": {
+    "tip": "本次作战解锁档案——$1"
   },
   "meta_voice_name_feeling3": {
     "tip": "理解"
@@ -4973,11 +5015,11 @@
   "school_title_zhihuimiao": {
     "tip": "指挥喵"
   },
-  "meta_story_tip_1": {
-    "tip": "解锁剧情(未使用)"
+  "world_map_version": {
+    "tip": "当前海域由于版本更新被重置"
   },
-  "meta_syn_rate": {
-    "tip": "资讯同步率"
+  "equip_info_extralevel_2": {
+    "tip": "等级2"
   },
   "commander_main_pos": {
     "tip": "司令位"
@@ -5000,11 +5042,11 @@
   "login_newPlayerScene_word_biaoqiang": {
     "tip": "指挥官，标枪已经告诉你名字了，你不告诉我你的名字可不公平哦~"
   },
-  "meta_pt_left": {
-    "tip": "剩余$1天"
+  "world_max_challenge_cnt": {
+    "tip": "所选信标挑战人数已满，请尝试其他信标！"
   },
-  "meta_story_lock": {
-    "tip": "需要完成前置剧情才能进行资讯同步(未使用)"
+  "friend_send_msg_erro_tip": {
+    "tip": "好友不在线，无法发送消息"
   },
   "backyard_backyardGranaryLayer_foodMaxIncreaseNotice": {
     "tip": "存粮上限：<color=#92fc63>$1</color>提升到<color=#92fc63>$2</color>"
@@ -5012,29 +5054,14 @@
   "special_animal6": {
     "tip": "[朴的可爱<怪奇>生物图鉴No.6]\n肌肉啾：热衷于健身的肌肉啾，似乎有点练过头了"
   },
-  "meta_sys_lock_tip": {
-    "tip": "META研究室将在开放大型作战的信标·烬功能后开启(未使用)"
+  "world_boss_none": {
+    "tip": "所选信标已变为不可挑战状态，请尝试其他信标！"
   },
   "backyard_backyardShipInfoMediator_error_noFood": {
     "tip": "没有足够的食物"
   },
-  "world_resource_fill": {
-    "tip": "战备物资兑换券已达到收集上限。"
-  },
-  "world_map_version": {
-    "tip": "当前海域由于版本更新被重置"
-  },
-  "equip_info_extralevel_2": {
-    "tip": "等级2"
-  },
-  "world_max_challenge_cnt": {
-    "tip": "所选信标挑战人数已满，请尝试其他信标！"
-  },
-  "friend_send_msg_erro_tip": {
-    "tip": "好友不在线，无法发送消息"
-  },
-  "world_boss_none": {
-    "tip": "所选信标已变为不可挑战状态，请尝试其他信标！"
+  "autofight_effect": {
+    "tip": "适应性调整：攻击 +$1,耐久 +$2,恢复 +$3"
   },
   "world_joint_count_no_enough": {
     "tip": "当前挑战次数不足"
@@ -5042,23 +5069,14 @@
   "ship_destroy_advanced_tip": {
     "tip": "退役角色中有等级不为1的角色，是否确认？"
   },
-  "sofmapsd_4": {
-    "tip": "营业额目标达成喵！\n感谢指挥官喵！"
-  },
   "world_joint_exit_battle_tip": {
     "tip": "是否中断当前战斗，前往余烬信标？"
   },
   "world_joint_not_refresh_frequently": {
     "tip": "请勿频繁刷新"
   },
-  "fleet_repairShips_error_fullEnergy": {
-    "tip": "所有舰船处于满体力状态, 不需要恢复啦"
-  },
   "world_joint_boss_award_expired": {
     "tip": "奖励领取失败"
-  },
-  "intimacy_desc_7_buff": {
-    "tip": "当前补正：全基础属性（除航速，装备不计）提高12%"
   },
   "world_word_guild_player": {
     "tip": "玩家(未使用)"
@@ -5066,23 +5084,29 @@
   "world_word_guild_member": {
     "tip": "大舰队成员(未使用)"
   },
+  "sofmapsd_4": {
+    "tip": "营业额目标达成喵！\n感谢指挥官喵！"
+  },
   "world_word_expired": {
     "tip": "信标已过期"
   },
   "world_joint_call_world_support_txt": {
     "tip": "指挥官$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
   },
+  "fleet_repairShips_error_fullEnergy": {
+    "tip": "所有舰船处于满体力状态, 不需要恢复啦"
+  },
   "world_joint_call_friend_support_txt": {
     "tip": "战友$1正在挑战 $2 TIER.$3，请求紧急支援(未使用)"
+  },
+  "intimacy_desc_7_buff": {
+    "tip": "当前补正：全基础属性（除航速，装备不计）提高12%"
   },
   "world_joint_call_support_success": {
     "tip": "请求支援成功！"
   },
-  "read_the_user_agreement": {
-    "tip": "请先阅读完用户协议"
-  },
-  "world_setting_quickmodetip": {
-    "tip": "功能开启后，不再播放重复的TB引导说明"
+  "world_joint_boss_is_death": {
+    "tip": "所选信标已消失，请尝试其他信标！"
   },
   "meta_learn_skill": {
     "tip": "习得技能：$1(未使用)"
@@ -5090,11 +5114,29 @@
   "index_without_limit": {
     "tip": "无限制"
   },
+  "guild_sort_time": {
+    "tip": "时间"
+  },
+  "amercian_notice_3": {
+    "tip": "奖励获取时间：2019.1.24~2.20"
+  },
+  "read_the_user_agreement": {
+    "tip": "请先阅读完用户协议"
+  },
+  "world_setting_quickmodetip": {
+    "tip": "功能开启后，不再播放重复的TB引导说明"
+  },
+  "equip_skin_detail_tip": {
+    "tip": "可能获得以下外观装备"
+  },
+  "tactics_end_to_learn": {
+    "tip": "<color=#92fc63>「$1」</color>学习完成，<color=#92fc63>「$2」</color>技能获得<color=#92fc63>$3</color>点经验"
+  },
   "event_giveup_fail": {
     "tip": "放弃委托失败"
   },
-  "guild_sort_time": {
-    "tip": "时间"
+  "wwf_bamboo_tip1": {
+    "tip": "大宝的伙伴（宁海篇）"
   },
   "guild_member_max_count": {
     "tip": "已达到大舰队最大人数限制"
@@ -5102,14 +5144,14 @@
   "sos_lock": {
     "tip": "救援关卡尚未开放"
   },
-  "amercian_notice_3": {
-    "tip": "奖励获取时间：2019.1.24~2.20"
+  "valentinesday__shop_tip": {
+    "tip": "是否前往换装商店界面？"
   },
   "meta_exp_per_day": {
     "tip": "每日经验"
   },
-  "equip_skin_detail_tip": {
-    "tip": "可能获得以下外观装备"
+  "tips_shrine_buff": {
+    "tip": "消耗5物资 获得加成效果"
   },
   "doa_main": {
     "tip": [
@@ -5118,17 +5160,17 @@
       }
     ]
   },
-  "tactics_end_to_learn": {
-    "tip": "<color=#92fc63>「$1」</color>学习完成，<color=#92fc63>「$2」</color>技能获得<color=#92fc63>$3</color>点经验"
+  "valentinesday__txt2_tip": {
+    "tip": "巧克力已经做好了哦。怎么，还要我亲自喂你不成？"
   },
   "vote_vote_group": {
     "tip": "$1组"
   },
-  "wwf_bamboo_tip1": {
-    "tip": "大宝的伙伴（宁海篇）"
+  "valentinesday__txt1_tip": {
+    "tip": "想要吃到美味的巧克力，就快去多收集些原料来吧。"
   },
-  "valentinesday__shop_tip": {
-    "tip": "是否前往换装商店界面？"
+  "word_comingSoon": {
+    "tip": "敬请期待"
   },
   "area_renwu": {
     "tip": "任务海域"
@@ -5136,17 +5178,21 @@
   "world_event_teleport_alter": {
     "tip": "即将前往其他海域，当前交战中的舰队将会撤退"
   },
-  "tips_shrine_buff": {
-    "tip": "消耗5物资 获得加成效果"
+  "autofight_change_tip": {
+    "tip": "由于舰队发生变化，舰队职能变为<color=#92fc63>全部战斗</color>"
   },
   "backyard_not_found_theme_template": {
     "tip": "未搜索到对应主题"
   },
-  "valentinesday__txt2_tip": {
-    "tip": "巧克力已经做好了哦。怎么，还要我亲自喂你不成？"
+  "fushun_adventure_help": {
+    "tip": [
+      {
+        "info": "活动规则：\n1.<color=#92fc63>2月10日</color>为止每日0点开放<color=#92fc63>1</color>场新的关卡，总计<color=#92fc63>7</color>关，关卡可累计\n各关卡完成奖励明细如下：\n\t完成第1关获得 红包 x1；\n\t完成第2关获得 红包 x1；\n\t完成第3关获得 红包 x1；\n\t完成第4关获得 红包 x1；\n\t完成第5关获得 红包 x1；\n\t完成第6关获得 红包 x1；\n\t完成第7关获得 限定角色<color=#92fc63>「抚顺」</color>x1\n游戏规则：\n1.当年兽进入可攻击区域时，指挥官可以点击<color=#92fc63>A键</color>、<color=#92fc63>B键</color>进行攻击，当可攻击区域内没有年兽时点击A、B键，则会对自身造成硬直\n2.若指挥官没有及时击败年兽则会被年兽攻击，每被年兽攻击一次，扣除一颗生命值\n3.年兽根据血量分为三种难度，不同难度的年兽需要攻击的次数也不同，击败年兽会获得相应的分数\n得分规则：\n击败小型年兽： <color=#92fc63>加10分</color>\n击败中型年兽： <color=#92fc63>加20分</color>\n击败大型年兽： <color=#92fc63>加30分</color>\n4.连续击败年兽可以累计combo，combo达到20后击败年兽可以获得额外加分，被年兽攻击则会打断combo\n5.击败年兽时画面下方能量槽会上涨，当能量槽涨满时抚顺会进入<color=#92fc63>特殊模式</color>此时指挥官需要快速连续点击A、B键，点击次数越多得分越高。能量槽变空后特殊模式结束\n6.指挥官生命值耗尽结束游戏或是点击游戏内退出按钮退出游戏都视为完成游戏。因为其他原因中途退出游戏则算作未完成游戏"
+      }
+    ]
   },
-  "valentinesday__txt1_tip": {
-    "tip": "想要吃到美味的巧克力，就快去多收集些原料来吧。"
+  "autofight_farm": {
+    "tip": "周回模式"
   },
   "world_word_guild": {
     "tip": "大舰队"
@@ -5157,8 +5203,8 @@
   "ship_buildShip_not_position": {
     "tip": "建造队列已满，无法获得角色"
   },
-  "autofight_selectprops_tip": {
-    "tip": "点击选择\n作战道具"
+  "autofight_tip_bigworld_stop": {
+    "tip": "当前所选舰队自律寻敌停止"
   },
   "ship_dockyardScene_error_choiseRoleLess": {
     "tip": "最多选择 <color=#92fc63>$1</color> 个角色"
@@ -5166,8 +5212,8 @@
   "words_settings_create_inherit": {
     "tip": "生成继承码"
   },
-  "autofight_change_tip": {
-    "tip": "由于舰队发生变化，舰队职能变为<color=#92fc63>全部战斗</color>"
+  "resource_verify_fail": {
+    "tip": "本地有资源异常，请重新打开游戏并进行更新，点击确认关闭游戏。$1"
   },
   "backyard_backyardScene_quest_saveFurniture": {
     "tip": "是否<color=#92fc63>保存</color>当前设置"
@@ -5224,15 +5270,11 @@
   "dont_remind_today": {
     "tip": "今日不再提示"
   },
-  "fushun_adventure_help": {
-    "tip": [
-      {
-        "info": "活动规则：\n1.<color=#92fc63>2月10日</color>为止每日0点开放<color=#92fc63>1</color>场新的关卡，总计<color=#92fc63>7</color>关，关卡可累计\n各关卡完成奖励明细如下：\n\t完成第1关获得 红包 x1；\n\t完成第2关获得 红包 x1；\n\t完成第3关获得 红包 x1；\n\t完成第4关获得 红包 x1；\n\t完成第5关获得 红包 x1；\n\t完成第6关获得 红包 x1；\n\t完成第7关获得 限定角色<color=#92fc63>「抚顺」</color>x1\n游戏规则：\n1.当年兽进入可攻击区域时，指挥官可以点击<color=#92fc63>A键</color>、<color=#92fc63>B键</color>进行攻击，当可攻击区域内没有年兽时点击A、B键，则会对自身造成硬直\n2.若指挥官没有及时击败年兽则会被年兽攻击，每被年兽攻击一次，扣除一颗生命值\n3.年兽根据血量分为三种难度，不同难度的年兽需要攻击的次数也不同，击败年兽会获得相应的分数\n得分规则：\n击败小型年兽： <color=#92fc63>加10分</color>\n击败中型年兽： <color=#92fc63>加20分</color>\n击败大型年兽： <color=#92fc63>加30分</color>\n4.连续击败年兽可以累计combo，combo达到20后击败年兽可以获得额外加分，被年兽攻击则会打断combo\n5.击败年兽时画面下方能量槽会上涨，当能量槽涨满时抚顺会进入<color=#92fc63>特殊模式</color>此时指挥官需要快速连续点击A、B键，点击次数越多得分越高。能量槽变空后特殊模式结束\n6.指挥官生命值耗尽结束游戏或是点击游戏内退出按钮退出游戏都视为完成游戏。因为其他原因中途退出游戏则算作未完成游戏"
-      }
-    ]
+  "autofight_tip_bigworld_dead": {
+    "tip": "当前舰队已战败，无法继续自律寻敌"
   },
-  "autofight_farm": {
-    "tip": "周回模式"
+  "autofight_discovery": {
+    "tip": "本次作战完成海域探索目标：$1"
   },
   "autofight_task": {
     "tip": "本次作战完成任务：$1"
@@ -9402,8 +9444,8 @@
   "draw_big_luck_3": {
     "tip": "今天一定会遇到好事的喵！"
   },
-  "ship_shipModMediator_noticeSameButLargerStar": {
-    "tip": "相同但星级较高"
+  "story_autoplay_setting_label": {
+    "tip": "剧情自动播放"
   },
   "guild_word_consume": {
     "tip": "消耗"
@@ -9637,7 +9679,7 @@
     }
   },
   "world_task_maplock": {
-    "tip": "当前海域存在尚未完成的任务，目前无法离开，请在<color=#ff5c5c>情报</color>中进行确认。"
+    "tip": "当前海域存在尚未完成的任务，目前无法离开。\n请在<color=#ff5c5c>情报</color>中进行确认。\n是否继续？"
   },
   "resourceSite_finishResourceSite_error": {
     "tip": "完成采集失败:"
@@ -9876,8 +9918,8 @@
   "ship_upgradeStar_maxLevel": {
     "tip": "角色突破达到最高等级，无法突破"
   },
-  "resource_verify_fail": {
-    "tip": "本地有资源异常，请重新打开游戏并进行更新，点击确认关闭游戏。$1"
+  "autofight_tip_bigworld_begin": {
+    "tip": "当前所选舰队开始自律寻敌"
   },
   "levelScene_chapter_is_activation": {
     "tip": "关卡<color=#92fc63>$1</color>正在攻略中，\n请选择前往继续攻略或撤退"
@@ -11821,7 +11863,7 @@
     "tip": "烟花制作完成"
   },
   "world_transport_disable": {
-    "tip": "当前海域无法通过边界区域离开"
+    "tip": "当前海域无法通过边界区域离开。是否继续？"
   },
   "event_condition_ship_type": {
     "tip": "<color=#92fc63>$1</color>限定"
@@ -11916,8 +11958,8 @@
   "common_buy_success": {
     "tip": "购买成功！"
   },
-  "ship_formationMediator_changeNameError_sameShip": {
-    "tip": "舰队中不能存在相同的舰船"
+  "story_autoplay_setting_2": {
+    "tip": "开启"
   },
   "technology_stop_success": {
     "tip": "终止研发成功"

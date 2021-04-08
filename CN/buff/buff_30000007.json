@@ -9,14 +9,12 @@
   "effect_list": [
     {
       "trigger": [
-        "onHPRatioUpdate"
+        "onAttach"
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "hpLowerBound": 0.95,
-        "check_target": "TargetSelf",
         "minTargetNumber": 1,
-        "hpOutInterval": true,
+        "check_target": "TargetSelf",
         "target": "TargetSelf",
         "skill_id": 30000007
       }
