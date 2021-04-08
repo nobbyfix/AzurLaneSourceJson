@@ -8,16 +8,32 @@
     {
       "type": "BattleSkillTeleport",
       "arg_list": {
-        "delay": 0.4,
-        "absoulteCorrdinate": {
-          "z": 70,
-          "x": -40
+        "delay": 1.6,
+        "targetRelativeRandom": {
+          "upper": 4,
+          "lower": 0,
+          "front": 8,
+          "rear": 16
         }
+      },
+      "target_choise": [
+        "TargetHarmNearest"
+      ]
+    },
+    {
+      "type": "BattleSkillPlayFX",
+      "arg_list": {
+        "casterRelativeCorrdinate": {
+          "vrt": 0,
+          "hrz": 0
+        },
+        "delay": 1.5,
+        "effect": "shanshuo"
       },
       "target_choise": []
     }
   ],
-  "cd": 0,
+  "cd": 5,
   "painting": 0,
   "name": "受伤瞬移"
 }

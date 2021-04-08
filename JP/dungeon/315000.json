@@ -54,24 +54,6 @@
           }
         },
         {
-          "airFighter": [
-            {
-              "totalNumber": 60,
-              "templateID": 2030030,
-              "attr": {
-                "attackRating": 23,
-                "maxHP": 15,
-                "airPower": 40
-              },
-              "formation": 20001,
-              "interval": 12,
-              "onceNumber": 10,
-              "delay": 0,
-              "weaponID": [
-                1100759
-              ]
-            }
-          ],
           "preWaves": [
             100
           ],
@@ -79,56 +61,84 @@
           "conditionType": 1,
           "spawn": [
             {
+              "affix": true,
+              "score": 0,
+              "moveCast": true,
+              "corrdinate": [
+                -3,
+                0,
+                55
+              ],
               "phase": [
                 {
                   "setAI": 10001,
                   "switchTo": 1,
-                  "addWeapon": [
-                    2012300
-                  ],
-                  "switchParam": 5,
+                  "switchParam": 1,
                   "switchType": 1,
                   "index": 0
                 },
                 {
                   "switchTo": 2,
                   "addWeapon": [
-                    2012340,
-                    2012350
+                    2012400
                   ],
-                  "switchParam": 45,
+                  "switchParam": 15,
                   "switchType": 1,
                   "index": 1
                 },
                 {
+                  "setAI": 100012,
                   "switchTo": 3,
-                  "switchParam": 32,
-                  "index": 2,
-                  "switchType": 1
+                  "addWeapon": [
+                    2012450
+                  ],
+                  "removeWeapon": [
+                    2012400
+                  ],
+                  "switchParam": 15,
+                  "switchType": 1,
+                  "index": 2
                 },
                 {
-                  "setAI": 20006,
-                  "switchTo": 1,
-                  "switchParam": 40,
+                  "setAI": 100010,
+                  "switchTo": 4,
+                  "addBuff": [
+                    79001
+                  ],
+                  "switchParam": 6,
                   "switchType": 1,
                   "index": 3
+                },
+                {
+                  "addWeapon": [
+                    2004520
+                  ],
+                  "setAI": 100012,
+                  "index": 4,
+                  "removeWeapon": [
+                    2012450
+                  ],
+                  "addBuff": [
+                    79001
+                  ],
+                  "switchParam": 13,
+                  "switchType": 1,
+                  "switchTo": 5
+                },
+                {
+                  "switchTo": 4,
+                  "addWeapon": [
+                    2012550
+                  ],
+                  "switchParam": 13,
+                  "switchType": 1,
+                  "index": 5
                 }
-              ],
-              "moveCast": true,
-              "score": 0,
-              "corrdinate": [
-                0,
-                0,
-                55
-              ],
-              "buffList": [
-                8050,
-                8051
               ],
               "monsterTemplateID": 296002,
               "delay": 0,
               "bossData": {
-                "icon": "sairenboss9",
+                "icon": "zhumo",
                 "hpBarNum": 100
               }
             }
