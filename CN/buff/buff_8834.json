@@ -1,1 +1,29 @@
-true
+{
+  "picture": "",
+  "id": 8834,
+  "desc": "持续伤害",
+  "last_effect": "",
+  "time": 1.7,
+  "icon": 8834,
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "number": -8000,
+        "randExtraRange": 70,
+        "time": 0.16,
+        "WorldBossDotDamage": {
+          "useGlobalAttr": "WorldBossSupportDays",
+          "paramA": 293
+        },
+        "dotType": 10
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "metaboss保底伤害"
+}

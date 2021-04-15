@@ -2533,6 +2533,52 @@
     "effect_move": 1,
     "axis_angle": 0
   },
+  "30000005": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 9999,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【测试】时空旋涡-激光",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 150,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 18,
+    "action_index": "attack",
+    "type": 24,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 30000005,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      30000013,
+      30000014
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      7302,
+      7302
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
   "2964010": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -2665,51 +2711,29 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "30000005": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 9999,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【测试】时空旋涡-激光",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 150,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 18,
-    "action_index": "attack",
-    "type": 24,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 30000005,
-    "spawn_bound": "cannon",
+  "2965042": {
+    "fire_sfx": "",
+    "type": 3,
     "barrage_ID": [
-      30000013,
-      30000014
+      29643014,
+      29643014
     ],
-    "corrected": 100,
-    "auto_aftercast": 0,
     "bullet_ID": [
-      7302,
-      7302
+      29643008,
+      29643009
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
-    "axis_angle": 0
+    "id": 2965042,
+    "suppress": 1,
+    "range": 30,
+    "queue": 2,
+    "action_index": "",
+    "spawn_bound": "torpedo",
+    "name": "【大世界】黑方舟 第一波 飞机武器 鱼雷 LV3",
+    "reload_max": 900,
+    "aim_type": 1,
+    "fire_fx": "CAFire",
+    "base": 1001,
+    "damage": 36
   },
   "2200803": {
     "search_type": 1,
@@ -3585,30 +3609,6 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "2965043": {
-    "fire_sfx": "",
-    "type": 3,
-    "barrage_ID": [
-      29643014,
-      29643014
-    ],
-    "bullet_ID": [
-      29643008,
-      29643009
-    ],
-    "id": 2965043,
-    "suppress": 1,
-    "range": 30,
-    "queue": 2,
-    "action_index": "",
-    "spawn_bound": "torpedo",
-    "name": "【大世界】黑方舟 第一波 飞机武器 鱼雷 LV4",
-    "reload_max": 900,
-    "aim_type": 1,
-    "fire_fx": "CAFire",
-    "base": 1001,
-    "damage": 48
-  },
   "30000003": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -3656,6 +3656,56 @@
       30000003,
       30000003,
       30000003
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "30000002": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 999,
+    "angle": 120,
+    "reload_max": 1500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【测试】导弹",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 120,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "alertTime": 0.5,
+      "time": 0.5,
+      "isBound": true,
+      "armor": 10200,
+      "fx": "jinengenemy"
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 240,
+    "action_index": "attack",
+    "type": 29,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 30000002,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      30000002
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30000002
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -3976,57 +4026,7 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "30000002": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 999,
-    "angle": 120,
-    "reload_max": 1500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【测试】导弹",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 120,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 0.5,
-      "time": 0.5,
-      "isBound": true,
-      "armor": 10200,
-      "fx": "jinengenemy"
-    },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 240,
-    "action_index": "attack",
-    "type": 29,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 30000002,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      30000002
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30000002
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "2965073": {
+  "2965072": {
     "fire_sfx": "battle/cannon-main",
     "type": 1,
     "barrage_ID": [
@@ -4035,18 +4035,54 @@
     "bullet_ID": [
       29643011
     ],
-    "id": 2965073,
+    "id": 2965072,
     "suppress": 0,
     "range": 120,
     "queue": 1,
     "action_index": "stand",
     "spawn_bound": "cannon",
-    "name": "【大世界】黑方舟 第二波 横排步枪1 LV4",
+    "name": "【大世界】黑方舟 第二波 横排步枪1 LV3",
     "reload_max": 5000,
     "aim_type": 0,
     "fire_fx": "CAFire",
     "base": 1000,
-    "damage": 8
+    "damage": 6
+  },
+  "2965164": {
+    "fire_sfx": "battle/cannon-main",
+    "type": 1,
+    "barrage_ID": [
+      29643069,
+      29643070,
+      29643071,
+      29643072,
+      29643074,
+      29643075,
+      29643076,
+      29643077
+    ],
+    "bullet_ID": [
+      29643030,
+      29643030,
+      29643030,
+      29643030,
+      29643032,
+      29643032,
+      29643032,
+      29643032
+    ],
+    "id": 2965164,
+    "suppress": 0,
+    "range": 120,
+    "queue": 3,
+    "action_index": "stand",
+    "spawn_bound": "cannon",
+    "name": "【大世界】黑方舟 第五波 光翼终身弹幕 LV5",
+    "reload_max": 10,
+    "aim_type": 0,
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 10
   },
   "2965090": {
     "fire_sfx": "battle/cannon-main",
@@ -4114,42 +4150,6 @@
     "base": 1000,
     "damage": 10
   },
-  "2965164": {
-    "fire_sfx": "battle/cannon-main",
-    "type": 1,
-    "barrage_ID": [
-      29643069,
-      29643070,
-      29643071,
-      29643072,
-      29643074,
-      29643075,
-      29643076,
-      29643077
-    ],
-    "bullet_ID": [
-      29643030,
-      29643030,
-      29643030,
-      29643030,
-      29643032,
-      29643032,
-      29643032,
-      29643032
-    ],
-    "id": 2965164,
-    "suppress": 0,
-    "range": 120,
-    "queue": 3,
-    "action_index": "stand",
-    "spawn_bound": "cannon",
-    "name": "【大世界】黑方舟 第五波 光翼终身弹幕 LV5",
-    "reload_max": 10,
-    "aim_type": 0,
-    "fire_fx": "CAFire",
-    "base": 1000,
-    "damage": 10
-  },
   "2965163": {
     "fire_sfx": "battle/cannon-main",
     "type": 1,
@@ -4185,6 +4185,42 @@
     "fire_fx": "CAFire",
     "base": 1000,
     "damage": 8
+  },
+  "2965162": {
+    "fire_sfx": "battle/cannon-main",
+    "type": 1,
+    "barrage_ID": [
+      29643069,
+      29643070,
+      29643071,
+      29643072,
+      29643074,
+      29643075,
+      29643076,
+      29643077
+    ],
+    "bullet_ID": [
+      29643030,
+      29643030,
+      29643030,
+      29643030,
+      29643032,
+      29643032,
+      29643032,
+      29643032
+    ],
+    "id": 2965162,
+    "suppress": 0,
+    "range": 120,
+    "queue": 3,
+    "action_index": "stand",
+    "spawn_bound": "cannon",
+    "name": "【大世界】黑方舟 第五波 光翼终身弹幕 LV3",
+    "reload_max": 10,
+    "aim_type": 0,
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 6
   },
   "2960000": {
     "search_type": 1,
@@ -4370,42 +4406,6 @@
     "base": 1000,
     "damage": 10
   },
-  "2965162": {
-    "fire_sfx": "battle/cannon-main",
-    "type": 1,
-    "barrage_ID": [
-      29643069,
-      29643070,
-      29643071,
-      29643072,
-      29643074,
-      29643075,
-      29643076,
-      29643077
-    ],
-    "bullet_ID": [
-      29643030,
-      29643030,
-      29643030,
-      29643030,
-      29643032,
-      29643032,
-      29643032,
-      29643032
-    ],
-    "id": 2965162,
-    "suppress": 0,
-    "range": 120,
-    "queue": 3,
-    "action_index": "stand",
-    "spawn_bound": "cannon",
-    "name": "【大世界】黑方舟 第五波 光翼终身弹幕 LV3",
-    "reload_max": 10,
-    "aim_type": 0,
-    "fire_fx": "CAFire",
-    "base": 1000,
-    "damage": 6
-  },
   "2965161": {
     "fire_sfx": "battle/cannon-main",
     "type": 1,
@@ -4441,6 +4441,42 @@
     "fire_fx": "CAFire",
     "base": 1000,
     "damage": 4
+  },
+  "2965160": {
+    "fire_sfx": "battle/cannon-main",
+    "type": 1,
+    "barrage_ID": [
+      29643069,
+      29643070,
+      29643071,
+      29643072,
+      29643074,
+      29643075,
+      29643076,
+      29643077
+    ],
+    "bullet_ID": [
+      29643030,
+      29643030,
+      29643030,
+      29643030,
+      29643032,
+      29643032,
+      29643032,
+      29643032
+    ],
+    "id": 2965160,
+    "suppress": 0,
+    "range": 120,
+    "queue": 3,
+    "action_index": "stand",
+    "spawn_bound": "cannon",
+    "name": "【大世界】黑方舟 第五波 光翼终身弹幕 LV1",
+    "reload_max": 10,
+    "aim_type": 0,
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 2
   },
   "2960010": {
     "search_type": 1,
@@ -4536,43 +4572,7 @@
     "base": 1000,
     "damage": 10
   },
-  "2965160": {
-    "fire_sfx": "battle/cannon-main",
-    "type": 1,
-    "barrage_ID": [
-      29643069,
-      29643070,
-      29643071,
-      29643072,
-      29643074,
-      29643075,
-      29643076,
-      29643077
-    ],
-    "bullet_ID": [
-      29643030,
-      29643030,
-      29643030,
-      29643030,
-      29643032,
-      29643032,
-      29643032,
-      29643032
-    ],
-    "id": 2965160,
-    "suppress": 0,
-    "range": 120,
-    "queue": 3,
-    "action_index": "stand",
-    "spawn_bound": "cannon",
-    "name": "【大世界】黑方舟 第五波 光翼终身弹幕 LV1",
-    "reload_max": 10,
-    "aim_type": 0,
-    "fire_fx": "CAFire",
-    "base": 1000,
-    "damage": 2
-  },
-  "2965142": {
+  "2965141": {
     "fire_sfx": "battle/cannon-main",
     "type": 1,
     "barrage_ID": [
@@ -4591,18 +4591,62 @@
       29643028,
       29643028
     ],
-    "id": 2965142,
+    "id": 2965141,
     "suppress": 0,
     "range": 120,
     "queue": 1,
     "action_index": "attack",
     "spawn_bound": "cannon",
-    "name": "【大世界】黑方舟 第五波 光束弹幕 LV3",
+    "name": "【大世界】黑方舟 第五波 光束弹幕 LV2",
     "reload_max": 5000,
     "aim_type": 0,
     "fire_fx": "CAFire",
     "base": 1000,
-    "damage": 6
+    "damage": 4
+  },
+  "2200814": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1500,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【大世界】德系舰载战斗机V",
+    "fire_fx": "zhupao",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 80,
+    "recover_time": 5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 32,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 2200814,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      12015
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30013
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
+    "axis_angle": 0
   },
   "2960020": {
     "search_type": 1,
@@ -4792,15 +4836,15 @@
     "base": 1000,
     "damage": 160
   },
-  "2960030": {
+  "2961050": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 2000,
+    "reload_max": 1800,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【大世界】黑飞龙子弹1",
+    "name": "【大世界】黑飞龙p1_快速斩击lv1",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
@@ -4810,7 +4854,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 190,
+    "damage": 48,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -4819,19 +4863,25 @@
     "oxy_type": [
       1
     ],
-    "id": 2960030,
+    "id": 2961050,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      29600300
+      29610500,
+      29610501,
+      29610502,
+      29610502
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      29600300
+      29610500,
+      29610501,
+      29610500,
+      29610500
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
@@ -4936,51 +4986,7 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "2200813": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1500,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【大世界】德系舰载战斗机IV",
-    "fire_fx": "zhupao",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 25,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 2200813,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30013
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "2965143": {
+  "2965142": {
     "fire_sfx": "battle/cannon-main",
     "type": 1,
     "barrage_ID": [
@@ -4999,18 +5005,204 @@
       29643028,
       29643028
     ],
-    "id": 2965143,
+    "id": 2965142,
     "suppress": 0,
     "range": 120,
     "queue": 1,
     "action_index": "attack",
     "spawn_bound": "cannon",
-    "name": "【大世界】黑方舟 第五波 光束弹幕 LV4",
+    "name": "【大世界】黑方舟 第五波 光束弹幕 LV3",
     "reload_max": 5000,
     "aim_type": 0,
     "fire_fx": "CAFire",
     "base": 1000,
-    "damage": 8
+    "damage": 6
+  },
+  "2950240": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 2500,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【大世界】流沙陷阱_附属",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 100,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 64,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 2950240,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      29502400,
+      29502401,
+      29502402,
+      29502403,
+      29502404,
+      29502405,
+      29502406,
+      29502407,
+      29502408,
+      29502409,
+      29502410,
+      29502411,
+      29502412,
+      29502413,
+      29502414,
+      29502415,
+      29502416,
+      29502417,
+      29502418,
+      29502419,
+      29502420,
+      29502421,
+      29502422,
+      29502423,
+      29502424,
+      29502425,
+      29502426,
+      29502427,
+      29502428,
+      29502429,
+      29502430,
+      29502431,
+      29502432,
+      29502433,
+      29502434,
+      29502435,
+      29502436,
+      29502437,
+      29502438,
+      29502439,
+      29502440,
+      29502441,
+      29502442,
+      29502443,
+      29502444,
+      29502445,
+      29502446,
+      29502447,
+      29502448,
+      29502449,
+      29502450,
+      29502451,
+      29502452,
+      29502453,
+      29502454,
+      29502455,
+      29502456,
+      29502457,
+      29502458,
+      29502459,
+      29502460,
+      29502461,
+      29502462,
+      29502463,
+      29502464,
+      29502465,
+      29502466,
+      29502467,
+      29502468,
+      29502469,
+      29502470,
+      29502471
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400,
+      29502400
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "2963100": {
     "search_type": 1,
@@ -5144,51 +5336,37 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "2940210": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 120,
-    "torpedo_ammo": 0,
-    "queue": 6,
-    "name": "【大世界】净化者二段_全程定位武器",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 2940210,
-    "spawn_bound": "cannon",
+  "2965143": {
+    "fire_sfx": "battle/cannon-main",
+    "type": 1,
     "barrage_ID": [
-      29402100,
-      29402101
+      29643058,
+      29643059,
+      29643060,
+      29643061,
+      29643062,
+      29643063
     ],
-    "corrected": 125,
-    "auto_aftercast": 0,
     "bullet_ID": [
-      29402100,
-      29402100
+      29643028,
+      29643028,
+      29643028,
+      29643028,
+      29643028,
+      29643028
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
+    "id": 2965143,
+    "suppress": 0,
+    "range": 120,
+    "queue": 1,
+    "action_index": "attack",
+    "spawn_bound": "cannon",
+    "name": "【大世界】黑方舟 第五波 光束弹幕 LV4",
+    "reload_max": 5000,
+    "aim_type": 0,
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 8
   },
   "2965144": {
     "fire_sfx": "battle/cannon-main",
@@ -5312,38 +5490,6 @@
     "base": 1000,
     "damage": 10
   },
-  "2965141": {
-    "fire_sfx": "battle/cannon-main",
-    "type": 1,
-    "barrage_ID": [
-      29643058,
-      29643059,
-      29643060,
-      29643061,
-      29643062,
-      29643063
-    ],
-    "bullet_ID": [
-      29643028,
-      29643028,
-      29643028,
-      29643028,
-      29643028,
-      29643028
-    ],
-    "id": 2965141,
-    "suppress": 0,
-    "range": 120,
-    "queue": 1,
-    "action_index": "attack",
-    "spawn_bound": "cannon",
-    "name": "【大世界】黑方舟 第五波 光束弹幕 LV2",
-    "reload_max": 5000,
-    "aim_type": 0,
-    "fire_fx": "CAFire",
-    "base": 1000,
-    "damage": 4
-  },
   "2965140": {
     "fire_sfx": "battle/cannon-main",
     "type": 1,
@@ -5375,6 +5521,60 @@
     "fire_fx": "CAFire",
     "base": 1000,
     "damage": 2
+  },
+  "2965134": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1800,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【大世界】黑方舟 第四波 剑气4 LV5",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 120,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 120,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 2965134,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      29643052,
+      29643053,
+      29643054,
+      29643055,
+      29643056,
+      29643057
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      29643010,
+      29643010,
+      29643026,
+      29643027,
+      29643026,
+      29643027
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "2962100": {
     "search_type": 1,
@@ -6306,60 +6506,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "2965134": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1800,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【大世界】黑方舟 第四波 剑气4 LV5",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 120,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 120,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 2965134,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      29643052,
-      29643053,
-      29643054,
-      29643055,
-      29643056,
-      29643057
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      29643010,
-      29643010,
-      29643026,
-      29643027,
-      29643026,
-      29643027
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "2965133": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -6576,6 +6722,50 @@
     "effect_move": 0,
     "axis_angle": 0
   },
+  "2200823": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 2000,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【大世界】德系舰载轰炸机IV",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 100,
+    "recover_time": 5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 46,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 2200823,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      12015
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30019
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
   "2200821": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -6669,50 +6859,6 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "2200812": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1500,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【大世界】德系舰载战斗机III",
-    "fire_fx": "zhupao",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 20,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 2200812,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12014
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30013
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
   "2965124": {
     "fire_sfx": "battle/cannon-main",
     "type": 1,
@@ -6800,6 +6946,28 @@
     "fire_fx": "CAFire",
     "base": 1000,
     "damage": 20
+  },
+  "2965120": {
+    "fire_sfx": "battle/cannon-main",
+    "type": 1,
+    "barrage_ID": [
+      29643050
+    ],
+    "bullet_ID": [
+      29643023
+    ],
+    "id": 2965120,
+    "suppress": 0,
+    "range": 120,
+    "queue": 2,
+    "action_index": "stand",
+    "spawn_bound": "cannon",
+    "name": "【大世界】黑方舟 第四波 蛋船虚影突击2 LV1",
+    "reload_max": 5000,
+    "aim_type": 0,
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 10
   },
   "2940200": {
     "search_type": 1,
@@ -7156,27 +7324,49 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "2965120": {
-    "fire_sfx": "battle/cannon-main",
+  "2960030": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 2000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【大世界】黑飞龙子弹1",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 150,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 190,
+    "action_index": "attack",
     "type": 1,
-    "barrage_ID": [
-      29643050
+    "search_condition": [
+      1
     ],
-    "bullet_ID": [
-      29643023
+    "oxy_type": [
+      1
     ],
-    "id": 2965120,
-    "suppress": 0,
-    "range": 120,
-    "queue": 2,
-    "action_index": "stand",
+    "id": 2960030,
     "spawn_bound": "cannon",
-    "name": "【大世界】黑方舟 第四波 蛋船虚影突击2 LV1",
-    "reload_max": 5000,
+    "barrage_ID": [
+      29600300
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      29600300
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
     "aim_type": 0,
-    "fire_fx": "CAFire",
-    "base": 1000,
-    "damage": 10
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "2962000": {
     "search_type": 1,
@@ -7222,48 +7412,6 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "2965020": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 300,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【大世界】黑方舟 第一波 飞机 LV1",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 120,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 2965020,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      29643079
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
   "2965110": {
     "fire_sfx": "battle/cannon-main",
     "type": 1,
@@ -7288,7 +7436,7 @@
     "base": 1000,
     "damage": 2
   },
-  "2965024": {
+  "2965023": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
@@ -7296,7 +7444,7 @@
     "reload_max": 300,
     "torpedo_ammo": 0,
     "queue": 2,
-    "name": "【大世界】黑方舟 第一波 飞机 LV5",
+    "name": "【大世界】黑方舟 第一波 飞机 LV4",
     "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
@@ -7315,7 +7463,7 @@
     "oxy_type": [
       1
     ],
-    "id": 2965024,
+    "id": 2965023,
     "spawn_bound": "plane",
     "barrage_ID": [
       29643079
@@ -7466,6 +7614,50 @@
     "base": 1000,
     "damage": 2
   },
+  "2965032": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1650,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【大世界】黑方舟 第一波 飞机武器 机枪 LV3",
+    "fire_fx": "fangkongpaohuoshe2",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 85,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 6,
+    "action_index": "",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 2965032,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      29643013
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      29643007
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
   "2965033": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -7510,26 +7702,26 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "2965034": {
+  "2965084": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1650,
+    "reload_max": 1800,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【大世界】黑方舟 第一波 飞机武器 机枪 LV5",
-    "fire_fx": "fangkongpaohuoshe2",
+    "name": "【大世界】黑方舟 第二波 剑气3 LV5",
+    "fire_fx": "",
     "charge_param": "",
-    "suppress": 1,
-    "range": 85,
+    "suppress": 0,
+    "range": 120,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
-    "action_index": "",
+    "damage": 100,
+    "action_index": "attack",
     "type": 1,
     "search_condition": [
       1
@@ -7537,21 +7729,21 @@
     "oxy_type": [
       1
     ],
-    "id": 2965034,
+    "id": 2965084,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      29643013
+      29643019
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      29643007
+      29643010
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
+    "aim_type": 0,
+    "fire_sfx": "",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "2964200": {
@@ -8031,50 +8223,6 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "2965084": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1800,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【大世界】黑方舟 第二波 剑气3 LV5",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 120,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 100,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 2965084,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      29643019
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      29643010
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "2965083": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -8273,6 +8421,28 @@
     "base": 1000,
     "damage": 10
   },
+  "2965073": {
+    "fire_sfx": "battle/cannon-main",
+    "type": 1,
+    "barrage_ID": [
+      29643017
+    ],
+    "bullet_ID": [
+      29643011
+    ],
+    "id": 2965073,
+    "suppress": 0,
+    "range": 120,
+    "queue": 1,
+    "action_index": "stand",
+    "spawn_bound": "cannon",
+    "name": "【大世界】黑方舟 第二波 横排步枪1 LV4",
+    "reload_max": 5000,
+    "aim_type": 0,
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 8
+  },
   "30000001": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -8322,28 +8492,6 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "2965072": {
-    "fire_sfx": "battle/cannon-main",
-    "type": 1,
-    "barrage_ID": [
-      29643017
-    ],
-    "bullet_ID": [
-      29643011
-    ],
-    "id": 2965072,
-    "suppress": 0,
-    "range": 120,
-    "queue": 1,
-    "action_index": "stand",
-    "spawn_bound": "cannon",
-    "name": "【大世界】黑方舟 第二波 横排步枪1 LV3",
-    "reload_max": 5000,
-    "aim_type": 0,
-    "fire_fx": "CAFire",
-    "base": 1000,
-    "damage": 6
-  },
   "2965071": {
     "fire_sfx": "battle/cannon-main",
     "type": 1,
@@ -8387,6 +8535,50 @@
     "fire_fx": "CAFire",
     "base": 1000,
     "damage": 2
+  },
+  "2965064": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1800,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【大世界】黑方舟 第二波 剑气2 LV5",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 120,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 100,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 2965064,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      29643016
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      29643010
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "2950201": {
     "search_type": 1,
@@ -9006,50 +9198,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "2965064": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1800,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【大世界】黑方舟 第二波 剑气2 LV5",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 120,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 100,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 2965064,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      29643016
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      29643010
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "2965063": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -9166,6 +9314,50 @@
       1
     ],
     "id": 2965061,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      29643016
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      29643010
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "2965060": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1800,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【大世界】黑方舟 第二波 剑气2 LV1",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 120,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 40,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 2965060,
     "spawn_bound": "cannon",
     "barrage_ID": [
       29643016
@@ -9588,50 +9780,6 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "2965060": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1800,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【大世界】黑方舟 第二波 剑气2 LV1",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 120,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 40,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 2965060,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      29643016
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      29643010
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "2965054": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -9704,6 +9852,50 @@
       1
     ],
     "id": 2965053,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      29643015
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      29643010
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "2965052": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1800,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【大世界】黑方舟 第二波 剑气1 LV3",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 120,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 70,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 2965052,
     "spawn_bound": "cannon",
     "barrage_ID": [
       29643015
@@ -9852,7 +10044,7 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "2965052": {
+  "2965051": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
@@ -9860,7 +10052,7 @@
     "reload_max": 1800,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【大世界】黑方舟 第二波 剑气1 LV3",
+    "name": "【大世界】黑方舟 第二波 剑气1 LV2",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 0,
@@ -9870,7 +10062,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 70,
+    "damage": 55,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -9879,7 +10071,7 @@
     "oxy_type": [
       1
     ],
-    "id": 2965052,
+    "id": 2965051,
     "spawn_bound": "cannon",
     "barrage_ID": [
       29643015
@@ -10338,52 +10530,48 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "2950014": {
+  "2200824": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1000,
+    "reload_max": 2000,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【大世界】黑方舟_Z字斩",
-    "fire_fx": "CLFire",
+    "queue": 2,
+    "name": "【大世界】德系舰载轰炸机V",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
     "range": 100,
-    "recover_time": 0,
+    "recover_time": 5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 32,
+    "damage": 58,
     "action_index": "attack",
-    "type": 1,
+    "type": 11,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 2950014,
-    "spawn_bound": "cannon",
+    "id": 2200824,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      29500140,
-      29500141,
-      29500142
+      12015
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      29500103,
-      29500103,
-      29500103
+      30019
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
+    "fire_sfx": "",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "2962001": {
@@ -10589,7 +10777,7 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "2965051": {
+  "2965050": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
@@ -10597,7 +10785,7 @@
     "reload_max": 1800,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【大世界】黑方舟 第二波 剑气1 LV2",
+    "name": "【大世界】黑方舟 第二波 剑气1 LV1",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 0,
@@ -10607,7 +10795,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 55,
+    "damage": 40,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -10616,7 +10804,7 @@
     "oxy_type": [
       1
     ],
-    "id": 2965051,
+    "id": 2965050,
     "spawn_bound": "cannon",
     "barrage_ID": [
       29643015
@@ -10721,50 +10909,6 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "2965050": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1800,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【大世界】黑方舟 第二波 剑气1 LV1",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 120,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 40,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 2965050,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      29643015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      29643010
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "2965044": {
     "fire_sfx": "",
     "type": 3,
@@ -10788,6 +10932,30 @@
     "fire_fx": "CAFire",
     "base": 1001,
     "damage": 60
+  },
+  "2965043": {
+    "fire_sfx": "",
+    "type": 3,
+    "barrage_ID": [
+      29643014,
+      29643014
+    ],
+    "bullet_ID": [
+      29643008,
+      29643009
+    ],
+    "id": 2965043,
+    "suppress": 1,
+    "range": 30,
+    "queue": 2,
+    "action_index": "",
+    "spawn_bound": "torpedo",
+    "name": "【大世界】黑方舟 第一波 飞机武器 鱼雷 LV4",
+    "reload_max": 900,
+    "aim_type": 1,
+    "fire_fx": "CAFire",
+    "base": 1001,
+    "damage": 48
   },
   "30000004": {
     "search_type": 1,
@@ -11047,30 +11215,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "2965042": {
-    "fire_sfx": "",
-    "type": 3,
-    "barrage_ID": [
-      29643014,
-      29643014
-    ],
-    "bullet_ID": [
-      29643008,
-      29643009
-    ],
-    "id": 2965042,
-    "suppress": 1,
-    "range": 30,
-    "queue": 2,
-    "action_index": "",
-    "spawn_bound": "torpedo",
-    "name": "【大世界】黑方舟 第一波 飞机武器 鱼雷 LV3",
-    "reload_max": 900,
-    "aim_type": 1,
-    "fire_fx": "CAFire",
-    "base": 1001,
-    "damage": 36
-  },
   "2965041": {
     "fire_sfx": "",
     "type": 3,
@@ -11119,6 +11263,50 @@
     "base": 1001,
     "damage": 12
   },
+  "2965034": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1650,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【大世界】黑方舟 第一波 飞机武器 机枪 LV5",
+    "fire_fx": "fangkongpaohuoshe2",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 85,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 10,
+    "action_index": "",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 2965034,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      29643013
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      29643007
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
   "2965091": {
     "fire_sfx": "battle/cannon-main",
     "type": 1,
@@ -11162,50 +11350,6 @@
     "fire_fx": "CAFire",
     "base": 1000,
     "damage": 8
-  },
-  "2965032": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1650,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【大世界】黑方舟 第一波 飞机武器 机枪 LV3",
-    "fire_fx": "fangkongpaohuoshe2",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 85,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 6,
-    "action_index": "",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 2965032,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      29643013
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      29643007
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
   },
   "2965031": {
     "search_type": 1,
@@ -11288,6 +11432,48 @@
     "bullet_ID": [
       29643007
     ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "2965024": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 300,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【大世界】黑方舟 第一波 飞机 LV5",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 120,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 8,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 2965024,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      29643079
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
@@ -11413,48 +11599,6 @@
     "base": 1000,
     "damage": 8
   },
-  "2965023": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 300,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【大世界】黑方舟 第一波 飞机 LV4",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 120,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 2965023,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      29643079
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
   "2965022": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -11539,6 +11683,48 @@
     "effect_move": 1,
     "axis_angle": 0
   },
+  "2965020": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 300,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【大世界】黑方舟 第一波 飞机 LV1",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 120,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 8,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 2965020,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      29643079
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
   "2965111": {
     "fire_sfx": "battle/cannon-main",
     "type": 1,
@@ -11587,25 +11773,25 @@
     "base": 1000,
     "damage": 8
   },
-  "2950400": {
+  "2964100": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1200,
+    "reload_max": 4500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【大世界】两级反转弹幕",
+    "name": "【大世界】黑飞龙p4_王之财宝lv1",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 100,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 24,
+    "damage": 10,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -11614,105 +11800,23 @@
     "oxy_type": [
       1
     ],
-    "id": 2950400,
+    "id": 2964100,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      29504005,
-      29504006,
-      29504007,
-      29504008,
-      29504009,
-      29504010,
-      29504011,
-      29504012,
-      29504013,
-      29504014,
-      29504015,
-      29504016,
-      29504017,
-      29504018,
-      29504019,
-      29504020,
-      29504021,
-      29504022,
-      29504023,
-      29504024,
-      29504025
+      29641000,
+      29641001
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      29504005,
-      29504006,
-      29504007,
-      29504008,
-      29504009,
-      29504010,
-      29504011,
-      29504012,
-      29504013,
-      29504014,
-      29504015,
-      29504016,
-      29504017,
-      29504018,
-      29504019,
-      29504020,
-      29504021,
-      29504022,
-      29504023,
-      29504024,
-      29504025
+      29641000,
+      29641001
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
-    "axis_angle": 0
-  },
-  "2200811": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1500,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【大世界】德系舰载战斗机II",
-    "fire_fx": "zhupao",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 16,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 2200811,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12014
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30013
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
     "axis_angle": 0
   },
   "2200810": {
@@ -11743,6 +11847,50 @@
       1
     ],
     "id": 2200810,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      12014
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30013
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "2200812": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1500,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【大世界】德系舰载战斗机III",
+    "fire_fx": "zhupao",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 80,
+    "recover_time": 5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 20,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 2200812,
     "spawn_bound": "plane",
     "barrage_ID": [
       12014
@@ -12029,50 +12177,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "2200823": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 2000,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【大世界】德系舰载轰炸机IV",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 100,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 46,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 2200823,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30019
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
   "2960031": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -12117,15 +12221,15 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "2950016": {
+  "2950400": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1000,
+    "reload_max": 1200,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【大世界】黑方舟_张牙舞爪",
+    "queue": 1,
+    "name": "【大世界】两级反转弹幕",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
@@ -12135,7 +12239,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
+    "damage": 24,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -12144,34 +12248,104 @@
     "oxy_type": [
       1
     ],
-    "id": 2950016,
+    "id": 2950400,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      29500160,
-      29500161,
-      29500162,
-      29500163,
-      29500164,
-      29500165,
-      29500166,
-      29500167
+      29504005,
+      29504006,
+      29504007,
+      29504008,
+      29504009,
+      29504010,
+      29504011,
+      29504012,
+      29504013,
+      29504014,
+      29504015,
+      29504016,
+      29504017,
+      29504018,
+      29504019,
+      29504020,
+      29504021,
+      29504022,
+      29504023,
+      29504024,
+      29504025
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      29500160,
-      29500160,
-      29500161,
-      29500161,
-      29500162,
-      29500162,
-      29500163,
-      29500163
+      29504005,
+      29504006,
+      29504007,
+      29504008,
+      29504009,
+      29504010,
+      29504011,
+      29504012,
+      29504013,
+      29504014,
+      29504015,
+      29504016,
+      29504017,
+      29504018,
+      29504019,
+      29504020,
+      29504021,
+      29504022,
+      29504023,
+      29504024,
+      29504025
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "2940000": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 3000,
+    "torpedo_ammo": 0,
+    "queue": 100,
+    "name": "【大世界】保底伤害",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 360,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 0,
+    "damage": 0,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 2940000,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      29400000
+    ],
+    "corrected": 0,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      29400000
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -12395,69 +12569,19 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "2961050": {
+  "2950016": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1800,
+    "reload_max": 1000,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【大世界】黑飞龙p1_快速斩击lv1",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 150,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 48,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 2961050,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      29610500,
-      29610501,
-      29610502,
-      29610502
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      29610500,
-      29610501,
-      29610500,
-      29610500
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "2964100": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 4500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【大世界】黑飞龙p4_王之财宝lv1",
+    "queue": 3,
+    "name": "【大世界】黑方舟_张牙舞爪",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
+    "range": 100,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
@@ -12472,23 +12596,79 @@
     "oxy_type": [
       1
     ],
-    "id": 2964100,
+    "id": 2950016,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      29641000,
-      29641001
+      29500160,
+      29500161,
+      29500162,
+      29500163,
+      29500164,
+      29500165,
+      29500166,
+      29500167
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      29641000,
-      29641001
+      29500160,
+      29500160,
+      29500161,
+      29500161,
+      29500162,
+      29500162,
+      29500163,
+      29500163
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
+    "axis_angle": 0
+  },
+  "2200813": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1500,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【大世界】德系舰载战斗机IV",
+    "fire_fx": "zhupao",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 80,
+    "recover_time": 5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 25,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 2200813,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      12015
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30013
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "2965151": {
@@ -12551,48 +12731,50 @@
     "base": 1000,
     "damage": 8
   },
-  "2200815": {
+  "2940210": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1800,
+    "reload_max": 120,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【大世界】德系舰载鱼雷机I",
-    "fire_fx": "",
+    "queue": 6,
+    "name": "【大世界】净化者二段_全程定位武器",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 110,
-    "recover_time": 5,
+    "range": 80,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 18,
+    "damage": 12,
     "action_index": "attack",
-    "type": 11,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 2200815,
-    "spawn_bound": "plane",
+    "id": 2940210,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      12014
+      29402100,
+      29402101
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30014
+      29402100,
+      29402100
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "2200822": {
@@ -12639,7 +12821,7 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "2200814": {
+  "2200811": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
@@ -12647,7 +12829,7 @@
     "reload_max": 1500,
     "torpedo_ammo": 0,
     "queue": 2,
-    "name": "【大世界】德系舰载战斗机V",
+    "name": "【大世界】德系舰载战斗机II",
     "fire_fx": "zhupao",
     "charge_param": "",
     "suppress": 1,
@@ -12657,7 +12839,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 32,
+    "damage": 16,
     "action_index": "attack",
     "type": 11,
     "search_condition": [
@@ -12666,10 +12848,10 @@
     "oxy_type": [
       1
     ],
-    "id": 2200814,
+    "id": 2200811,
     "spawn_bound": "plane",
     "barrage_ID": [
-      12015
+      12014
     ],
     "corrected": 100,
     "auto_aftercast": 0,
@@ -13303,211 +13485,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "2950240": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 2500,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【大世界】流沙陷阱_附属",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 100,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 64,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 2950240,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      29502400,
-      29502401,
-      29502402,
-      29502403,
-      29502404,
-      29502405,
-      29502406,
-      29502407,
-      29502408,
-      29502409,
-      29502410,
-      29502411,
-      29502412,
-      29502413,
-      29502414,
-      29502415,
-      29502416,
-      29502417,
-      29502418,
-      29502419,
-      29502420,
-      29502421,
-      29502422,
-      29502423,
-      29502424,
-      29502425,
-      29502426,
-      29502427,
-      29502428,
-      29502429,
-      29502430,
-      29502431,
-      29502432,
-      29502433,
-      29502434,
-      29502435,
-      29502436,
-      29502437,
-      29502438,
-      29502439,
-      29502440,
-      29502441,
-      29502442,
-      29502443,
-      29502444,
-      29502445,
-      29502446,
-      29502447,
-      29502448,
-      29502449,
-      29502450,
-      29502451,
-      29502452,
-      29502453,
-      29502454,
-      29502455,
-      29502456,
-      29502457,
-      29502458,
-      29502459,
-      29502460,
-      29502461,
-      29502462,
-      29502463,
-      29502464,
-      29502465,
-      29502466,
-      29502467,
-      29502468,
-      29502469,
-      29502470,
-      29502471
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400,
-      29502400
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "2200824": {
+  "2200815": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 2000,
+    "reload_max": 1800,
     "torpedo_ammo": 0,
     "queue": 2,
-    "name": "【大世界】德系舰载轰炸机V",
+    "name": "【大世界】德系舰载鱼雷机I",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 100,
+    "range": 110,
     "recover_time": 5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 58,
+    "damage": 18,
     "action_index": "attack",
     "type": 11,
     "search_condition": [
@@ -13516,15 +13512,15 @@
     "oxy_type": [
       1
     ],
-    "id": 2200824,
+    "id": 2200815,
     "spawn_bound": "plane",
     "barrage_ID": [
-      12015
+      12014
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30019
+      30014
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -13575,6 +13571,54 @@
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "2950014": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【大世界】黑方舟_Z字斩",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 100,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 32,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 2950014,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      29500140,
+      29500141,
+      29500142
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      29500103,
+      29500103,
+      29500103
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
