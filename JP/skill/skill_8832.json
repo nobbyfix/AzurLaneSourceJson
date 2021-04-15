@@ -1,1 +1,49 @@
-true
+{
+  "castCV": "skill",
+  "picture": "0",
+  "id": 8832,
+  "desc": "保底伤害弹幕",
+  "uiEffect": "",
+  "aniEffect": {
+    "offset": [
+      0,
+      -2,
+      0
+    ],
+    "effect": "jineng"
+  },
+  "effect_list": [
+    {
+      "targetAniEffect": "",
+      "arg_list": {
+        "weapon_id": 2940000
+      },
+      "casterAniEffect": "",
+      "target_choise": "TargetHarmRandomByWeight",
+      "type": "BattleSkillFire"
+    },
+    {
+      "targetAniEffect": "",
+      "arg_list": {
+        "delay": 1.3,
+        "buff_id": 8834
+      },
+      "casterAniEffect": "",
+      "target_choise": "TargetAllHarm",
+      "type": "BattleSkillAddBuff"
+    },
+    {
+      "targetAniEffect": "",
+      "arg_list": {
+        "delay": 1.3,
+        "buff_id": 8835
+      },
+      "casterAniEffect": "",
+      "target_choise": "TargetAllHarm",
+      "type": "BattleSkillAddBuff"
+    }
+  ],
+  "cd": 0,
+  "painting": "huolizhiyuan",
+  "name": "保底伤害弹幕"
+}
