@@ -133,6 +133,41 @@
     "effect_move": 1,
     "axis_angle": 0
   },
+  "630036": {
+    "fire_sfx": "battle/cannon-main",
+    "id": 630036,
+    "suppress": 1,
+    "range": 120,
+    "queue": 3,
+    "barrage_ID": [
+      810009,
+      810010,
+      810011,
+      810012,
+      810013,
+      810014,
+      810015,
+      810016,
+      820112
+    ],
+    "bullet_ID": [
+      810138,
+      810139,
+      810138,
+      810139,
+      810138,
+      810139,
+      810138,
+      810139,
+      810137
+    ],
+    "name": "【愚人节活动2021】彩布里 主炮弹幕2",
+    "reload_max": 6000,
+    "aim_type": 1,
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 40
+  },
   "620330": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -609,25 +644,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "620303": {
+  "630005": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1200,
+    "reload_max": 1500,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【2020美系活动D1】塞壬破局者II型 主炮中心弹幕",
+    "queue": 1,
+    "name": "【愚人节活动】金布里特殊弹幕",
     "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
+    "suppress": 0,
     "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 32,
+    "damage": 28,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -636,19 +671,21 @@
     "oxy_type": [
       1
     ],
-    "id": 620303,
+    "id": 630005,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      690104
+      200142,
+      200143
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      690102
+      710004,
+      710004
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
@@ -703,199 +740,19 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "620304": {
+  "630006": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1500,
+    "angle": 120,
+    "reload_max": 400,
     "torpedo_ammo": 0,
     "queue": 3,
-    "name": "【2020美系活动D1】塞壬破局者II型 主炮竖排弹幕",
+    "name": "【愚人节活动】金布里特殊钻头",
     "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 0,
     "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 32,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 620304,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      690105,
-      690106
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      816,
-      816
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "630005": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【愚人节活动】金布里特殊弹幕",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 28,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 630005,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      200142,
-      200143
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      710004,
-      710004
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "620305": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 800,
-    "torpedo_ammo": 0,
-    "queue": 4,
-    "name": "【2020美系活动D1】塞壬破局者II型 双联装炮连射",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 70,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 28,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 620305,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      690014
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      811
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "620513": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 9999,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【2020美系活动EX】塞壬构建者 第四波浮游炮武器 散弹",
-    "fire_fx": "fangkongpaohuoshe2",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 999,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 400,
-    "action_index": "",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 620513,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      700648
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      700636
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "620306": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 2000,
-    "torpedo_ammo": 0,
-    "queue": 4,
-    "name": "【2020美系活动D1】塞壬破局者II型 副炮4way射击",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 70,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
@@ -903,6 +760,151 @@
     "attack_attribute_ratio": 100,
     "damage": 20,
     "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 630006,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      660001,
+      660002,
+      660003,
+      660004,
+      660005,
+      660006
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      710005,
+      710005,
+      710005,
+      710005,
+      710005,
+      710005
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "630035": {
+    "charge_param": "",
+    "suppress": 1,
+    "range": 150,
+    "base": 1000,
+    "reload_max": 2000,
+    "action_index": "attack",
+    "type": 19,
+    "id": 630035,
+    "spawn_bound": "cannon3",
+    "barrage_ID": [
+      20017
+    ],
+    "queue": 1,
+    "precast_param": {
+      "alertTime": 2,
+      "time": 1,
+      "fx": "jinengenemy"
+    },
+    "bullet_ID": [
+      710032
+    ],
+    "name": "【愚人节活动2021】彩布里 后排跨射",
+    "fire_sfx": "battle/cannon-main",
+    "aim_type": 1,
+    "fire_fx": "CAFire",
+    "damage": 40,
+    "min_range": 85
+  },
+  "630034": {
+    "charge_param": "",
+    "suppress": 1,
+    "range": 75,
+    "base": 1000,
+    "reload_max": 1500,
+    "action_index": "attack",
+    "type": 19,
+    "id": 630034,
+    "spawn_bound": "cannon2",
+    "barrage_ID": [
+      399912
+    ],
+    "queue": 1,
+    "precast_param": {
+      "alertTime": 2,
+      "time": 1,
+      "fx": "jinengenemy"
+    },
+    "name": "【愚人节活动2021】彩布里 前排跨射",
+    "bullet_ID": [
+      710031
+    ],
+    "aim_type": 1,
+    "fire_fx": "CAFire",
+    "fire_sfx": "battle/cannon-main",
+    "damage": 40
+  },
+  "630033": {
+    "fire_sfx": "battle/cannon-main",
+    "id": 630033,
+    "barrage_ID": [
+      690134,
+      690135,
+      690136,
+      690137,
+      690138,
+      690134,
+      690135,
+      690136,
+      690137,
+      690138
+    ],
+    "queue": 1,
+    "name": "【愚人节活动2021】彩布里放烟花弹幕",
+    "bullet_ID": [
+      710035,
+      710035,
+      710035,
+      710035,
+      710035,
+      710036,
+      710036,
+      710036,
+      710036,
+      710036
+    ],
+    "reload_max": 6000,
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 40
+  },
+  "630032": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 50,
+    "torpedo_ammo": 0,
+    "queue": 6,
+    "name": "【愚人节活动2021】彩布里自卫火炮",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 30,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 40,
+    "action_index": "attack",
     "type": 2,
     "search_condition": [
       1
@@ -910,21 +912,19 @@
     "oxy_type": [
       1
     ],
-    "id": 620306,
+    "id": 630032,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      690107,
-      690108
+      690524
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      811,
       811
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
@@ -978,45 +978,70 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "620307": {
+  "630031": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1600,
+    "reload_max": 2000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【2020美系活动D2】塞壬执棋者II型 轰炸机",
-    "fire_fx": "",
+    "name": "【愚人节活动2021】彩布里激光",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 100,
-    "recover_time": 5,
+    "range": 999,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 45,
+    "damage": 12,
     "action_index": "attack",
-    "type": 11,
+    "type": 24,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 620307,
-    "spawn_bound": "plane",
+    "id": 630031,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      12017
+      710001,
+      710002,
+      710003,
+      710004,
+      710005,
+      710006,
+      710007,
+      710008,
+      710009,
+      710010
     ],
-    "corrected": 100,
+    "corrected": 105,
     "auto_aftercast": 0,
-    "bullet_ID": [],
+    "bullet_ID": [
+      710033,
+      710033,
+      710033,
+      710033,
+      710033,
+      710033,
+      710033,
+      710033,
+      710033,
+      710033
+    ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -1087,46 +1112,58 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "620308": {
+  "630024": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1500,
+    "angle": 120,
+    "reload_max": 400,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【2020美系活动D2】塞壬执棋者II型 鱼雷机",
-    "fire_fx": "",
+    "queue": 3,
+    "name": "【愚人节活动2021】金布里特殊钻头",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 110,
-    "recover_time": 5,
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 38,
+    "damage": 80,
     "action_index": "attack",
-    "type": 11,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 620308,
-    "spawn_bound": "plane",
+    "id": 630024,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      12017
+      660001,
+      660002,
+      660003,
+      660004,
+      660005,
+      660006
     ],
     "corrected": 100,
     "auto_aftercast": 0,
-    "bullet_ID": [],
+    "bullet_ID": [
+      710005,
+      710005,
+      710005,
+      710005,
+      710005,
+      710005
+    ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "620403": {
@@ -1186,46 +1223,54 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "620309": {
+  "630011": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1200,
+    "reload_max": 1000,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【2020美系活动D2】塞壬执棋者II型 浮游炮1",
-    "fire_fx": "",
+    "queue": 4,
+    "name": "【愚人节活动】紫布里武器1",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 110,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 3,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 20,
+    "damage": 160,
     "action_index": "attack",
-    "type": 11,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 620309,
-    "spawn_bound": "plane",
+    "id": 630011,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      690109
+      670043,
+      670044,
+      670045,
+      670046
     ],
-    "corrected": 100,
+    "corrected": 105,
     "auto_aftercast": 0,
-    "bullet_ID": [],
+    "bullet_ID": [
+      710021,
+      710022,
+      710023,
+      710024
+    ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "620404": {
@@ -1282,46 +1327,50 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "620310": {
+  "630012": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1200,
+    "reload_max": 800,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【2020美系活动D2】塞壬执棋者II型 浮游炮2",
-    "fire_fx": "",
+    "queue": 1,
+    "name": "【愚人节活动】紫布里武器2",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 110,
-    "recover_time": 5,
+    "range": 90,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 20,
+    "damage": 150,
     "action_index": "attack",
-    "type": 11,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 620310,
-    "spawn_bound": "plane",
+    "id": 630012,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      690110
+      200112,
+      200113
     ],
     "corrected": 100,
     "auto_aftercast": 0,
-    "bullet_ID": [],
+    "bullet_ID": [
+      710025,
+      710025
+    ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "620405": {
@@ -1396,48 +1445,50 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "620311": {
+  "630023": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 400,
+    "angle": 360,
+    "reload_max": 1500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【2020美系活动D2】塞壬执棋者II型 轰炸机武器",
-    "fire_fx": "",
+    "name": "【愚人节活动2021】金布里特殊弹幕",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 0,
-    "range": 10,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 45,
-    "action_index": "",
-    "type": 2,
+    "damage": 80,
+    "action_index": "attack",
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 620311,
+    "id": 630023,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      10001
+      200142,
+      200143
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10012
+      710039,
+      710039
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "620406": {
@@ -1512,43 +1563,41 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "620312": {
+  "620501": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 90,
-    "reload_max": 11954,
+    "angle": 360,
+    "reload_max": 100,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【2020美系活动D2】塞壬执棋者II型 鱼雷机武器",
+    "queue": 2,
+    "name": "【2020美系活动EX】塞壬构建者 第一波环绕浮游炮",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 80,
-    "recover_time": 0,
+    "range": 999,
+    "recover_time": 3,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 38,
-    "action_index": "",
-    "type": 3,
+    "damage": 12,
+    "action_index": "attack",
+    "type": 11,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 620312,
-    "spawn_bound": "torpedo",
+    "id": 620501,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      12001
+      700144
     ],
     "corrected": 100,
     "auto_aftercast": 0,
-    "bullet_ID": [
-      30067
-    ],
+    "bullet_ID": [],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
@@ -1600,49 +1649,45 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "620313": {
+  "620502": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1500,
+    "reload_max": 100,
     "torpedo_ammo": 0,
     "queue": 3,
-    "name": "【2020美系活动D2】塞壬执棋者II型 浮游炮武器1",
-    "fire_fx": "fangkongpaohuoshe2",
+    "name": "【2020美系活动EX】塞壬构建者 第一波环绕浮游炮",
+    "fire_fx": "",
     "charge_param": "",
-    "suppress": 0,
-    "range": 70,
-    "recover_time": 0,
+    "suppress": 1,
+    "range": 999,
+    "recover_time": 3,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 20,
-    "action_index": "",
-    "type": 2,
+    "damage": 12,
+    "action_index": "attack",
+    "type": 11,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 620313,
-    "spawn_bound": "cannon",
+    "id": 620502,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      690111,
-      690112
+      700144
     ],
     "corrected": 100,
     "auto_aftercast": 0,
-    "bullet_ID": [
-      700101,
-      700102
-    ],
+    "bullet_ID": [],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/air-atk",
+    "aim_type": 1,
+    "fire_sfx": "",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -1692,25 +1737,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "620314": {
+  "620503": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 500,
+    "reload_max": 9999,
     "torpedo_ammo": 0,
-    "queue": 4,
-    "name": "【2020美系活动D2】塞壬执棋者II型 浮游炮武器2",
+    "queue": 1,
+    "name": "【2020美系活动EX】塞壬构建者 第一波环绕浮游炮武器 自机狙",
     "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
-    "suppress": 0,
-    "range": 70,
+    "suppress": 1,
+    "range": 999,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 20,
+    "damage": 300,
     "action_index": "",
     "type": 2,
     "search_condition": [
@@ -1719,21 +1764,55 @@
     "oxy_type": [
       1
     ],
-    "id": 620314,
+    "id": 620503,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      690113,
-      690114
+      700601,
+      700602,
+      700603,
+      700604,
+      700605,
+      700606,
+      700607,
+      700608,
+      700609,
+      700610,
+      700611,
+      700612,
+      700613,
+      700614,
+      700615,
+      700616,
+      700617,
+      700618,
+      700619
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      690105,
-      690106
+      700601,
+      700602,
+      700603,
+      700604,
+      700605,
+      700606,
+      700607,
+      700608,
+      700609,
+      700610,
+      700611,
+      700612,
+      700613,
+      700614,
+      700615,
+      700616,
+      700617,
+      700618,
+      700619
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/air-atk",
     "effect_move": 1,
     "axis_angle": 0
@@ -1830,48 +1909,54 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "620512": {
+  "630022": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 9999,
+    "reload_max": 1300,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【2020美系活动EX】塞壬构建者 第四波浮游炮武器 自机狙",
-    "fire_fx": "fangkongpaohuoshe2",
+    "name": "【愚人节活动2021】金布里特殊弹幕",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 999,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 300,
-    "action_index": "",
-    "type": 2,
+    "damage": 80,
+    "action_index": "attack",
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 620512,
+    "id": 630022,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      700647
+      610001,
+      610002
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      700609
+      710037,
+      710038
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "620316": {
@@ -1920,46 +2005,48 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "620511": {
+  "630021": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 100,
+    "reload_max": 50,
     "torpedo_ammo": 0,
-    "queue": 5,
-    "name": "【2020美系活动EX】塞壬构建者 第四波电饭锅终身浮游炮",
-    "fire_fx": "",
+    "queue": 6,
+    "name": "【愚人节活动2021】金布里自卫火炮",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 999,
-    "recover_time": 3,
+    "range": 30,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
+    "damage": 80,
     "action_index": "attack",
-    "type": 11,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 620511,
-    "spawn_bound": "plane",
+    "id": 630021,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      700646
+      690524
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
-    "bullet_ID": [],
+    "bullet_ID": [
+      811
+    ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "620317": {
@@ -2014,6 +2101,262 @@
     "effect_move": 0,
     "axis_angle": 0
   },
+  "620513": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 9999,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【2020美系活动EX】塞壬构建者 第四波浮游炮武器 散弹",
+    "fire_fx": "fangkongpaohuoshe2",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 999,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 400,
+    "action_index": "",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 620513,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      700648
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      700636
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "620318": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 100,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【2020美系活动D3】塞壬构建者 第一波浮游炮",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 999,
+    "recover_time": 3,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 45,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 620318,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      700143
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "620512": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 9999,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【2020美系活动EX】塞壬构建者 第四波浮游炮武器 自机狙",
+    "fire_fx": "fangkongpaohuoshe2",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 999,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 300,
+    "action_index": "",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 620512,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      700647
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      700609
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "620319": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 100,
+    "torpedo_ammo": 0,
+    "queue": 3,
+    "name": "【2020美系活动D3】塞壬构建者 第一波浮游炮",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 999,
+    "recover_time": 3,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 45,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 620319,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      700143
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "620511": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 100,
+    "torpedo_ammo": 0,
+    "queue": 5,
+    "name": "【2020美系活动EX】塞壬构建者 第四波电饭锅终身浮游炮",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 999,
+    "recover_time": 3,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 12,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 620511,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      700646
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "620320": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 100,
+    "torpedo_ammo": 0,
+    "queue": 4,
+    "name": "【2020美系活动D3】塞壬构建者 第一波浮游炮",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 999,
+    "recover_time": 3,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 45,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 620320,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      700143
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
   "620510": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -2056,14 +2399,14 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "620318": {
+  "620321": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 360,
     "reload_max": 100,
     "torpedo_ammo": 0,
-    "queue": 2,
+    "queue": 5,
     "name": "【2020美系活动D3】塞壬构建者 第一波浮游炮",
     "fire_fx": "",
     "charge_param": "",
@@ -2083,7 +2426,7 @@
     "oxy_type": [
       1
     ],
-    "id": 620318,
+    "id": 620321,
     "spawn_bound": "plane",
     "barrage_ID": [
       700143
@@ -2142,45 +2485,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "620319": {
+  "620322": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 100,
+    "reload_max": 9999,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【2020美系活动D3】塞壬构建者 第一波浮游炮",
-    "fire_fx": "",
+    "queue": 1,
+    "name": "【2020美系活动D3】塞壬构建者 第一波浮游炮武器 自机狙",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
     "range": 999,
-    "recover_time": 3,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
     "damage": 45,
-    "action_index": "attack",
-    "type": 11,
+    "action_index": "",
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 620319,
-    "spawn_bound": "plane",
+    "id": 620322,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      700143
+      700101
     ],
     "corrected": 100,
     "auto_aftercast": 0,
-    "bullet_ID": [],
+    "bullet_ID": [
+      700103
+    ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
+    "fire_sfx": "battle/air-atk",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -2246,45 +2591,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "620320": {
+  "620323": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 100,
+    "reload_max": 9999,
     "torpedo_ammo": 0,
-    "queue": 4,
-    "name": "【2020美系活动D3】塞壬构建者 第一波浮游炮",
-    "fire_fx": "",
+    "queue": 2,
+    "name": "【2020美系活动D3】塞壬构建者 第一波浮游炮武器 扩散弹",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
-    "suppress": 1,
+    "suppress": 0,
     "range": 999,
-    "recover_time": 3,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
     "damage": 45,
-    "action_index": "attack",
-    "type": 11,
+    "action_index": "",
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 620320,
-    "spawn_bound": "plane",
+    "id": 620323,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      700143
+      700102
     ],
     "corrected": 100,
     "auto_aftercast": 0,
-    "bullet_ID": [],
+    "bullet_ID": [
+      700104
+    ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
+    "aim_type": 0,
+    "fire_sfx": "battle/air-atk",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -2332,46 +2679,62 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "620321": {
+  "620324": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 100,
+    "reload_max": 9999,
     "torpedo_ammo": 0,
-    "queue": 5,
-    "name": "【2020美系活动D3】塞壬构建者 第一波浮游炮",
-    "fire_fx": "",
+    "queue": 1,
+    "name": "【2020美系活动D3】塞壬构建者 第一波本体3way自机狙",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
     "range": 999,
-    "recover_time": 3,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 45,
+    "damage": 32,
     "action_index": "attack",
-    "type": 11,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 620321,
-    "spawn_bound": "plane",
+    "id": 620324,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      700143
+      700103,
+      700104,
+      700105,
+      700106,
+      700107,
+      700108,
+      700109,
+      700110
     ],
     "corrected": 100,
     "auto_aftercast": 0,
-    "bullet_ID": [],
+    "bullet_ID": [
+      700105,
+      700106,
+      700107,
+      700108,
+      700109,
+      700110,
+      700111,
+      700112
+    ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "620506": {
@@ -2418,47 +2781,45 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "620322": {
+  "620325": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 9999,
+    "reload_max": 100,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【2020美系活动D3】塞壬构建者 第一波浮游炮武器 自机狙",
-    "fire_fx": "fangkongpaohuoshe2",
+    "queue": 2,
+    "name": "【2020美系活动D3】塞壬构建者 第二波浮游炮",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
     "range": 999,
-    "recover_time": 0,
+    "recover_time": 3,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
     "damage": 45,
-    "action_index": "",
-    "type": 2,
+    "action_index": "attack",
+    "type": 11,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 620322,
-    "spawn_bound": "cannon",
+    "id": 620325,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      700101
+      700143
     ],
     "corrected": 100,
     "auto_aftercast": 0,
-    "bullet_ID": [
-      700103
-    ],
+    "bullet_ID": [],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
+    "fire_sfx": "",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -2528,47 +2889,45 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "620323": {
+  "620326": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 9999,
+    "reload_max": 100,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【2020美系活动D3】塞壬构建者 第一波浮游炮武器 扩散弹",
-    "fire_fx": "fangkongpaohuoshe2",
+    "queue": 3,
+    "name": "【2020美系活动D3】塞壬构建者 第二波浮游炮",
+    "fire_fx": "",
     "charge_param": "",
-    "suppress": 0,
+    "suppress": 1,
     "range": 999,
-    "recover_time": 0,
+    "recover_time": 3,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
     "damage": 45,
-    "action_index": "",
-    "type": 2,
+    "action_index": "attack",
+    "type": 11,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 620323,
-    "spawn_bound": "cannon",
+    "id": 620326,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      700102
+      700143
     ],
     "corrected": 100,
     "auto_aftercast": 0,
-    "bullet_ID": [
-      700104
-    ],
+    "bullet_ID": [],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/air-atk",
+    "aim_type": 1,
+    "fire_sfx": "",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -2626,312 +2985,6 @@
     "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
-    "axis_angle": 0
-  },
-  "620324": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 9999,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【2020美系活动D3】塞壬构建者 第一波本体3way自机狙",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 999,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 32,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 620324,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      700103,
-      700104,
-      700105,
-      700106,
-      700107,
-      700108,
-      700109,
-      700110
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      700105,
-      700106,
-      700107,
-      700108,
-      700109,
-      700110,
-      700111,
-      700112
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "620503": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 9999,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【2020美系活动EX】塞壬构建者 第一波环绕浮游炮武器 自机狙",
-    "fire_fx": "fangkongpaohuoshe2",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 999,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 300,
-    "action_index": "",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 620503,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      700601,
-      700602,
-      700603,
-      700604,
-      700605,
-      700606,
-      700607,
-      700608,
-      700609,
-      700610,
-      700611,
-      700612,
-      700613,
-      700614,
-      700615,
-      700616,
-      700617,
-      700618,
-      700619
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      700601,
-      700602,
-      700603,
-      700604,
-      700605,
-      700606,
-      700607,
-      700608,
-      700609,
-      700610,
-      700611,
-      700612,
-      700613,
-      700614,
-      700615,
-      700616,
-      700617,
-      700618,
-      700619
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "620325": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 100,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【2020美系活动D3】塞壬构建者 第二波浮游炮",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 999,
-    "recover_time": 3,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 45,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 620325,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      700143
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "620502": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 100,
-    "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【2020美系活动EX】塞壬构建者 第一波环绕浮游炮",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 999,
-    "recover_time": 3,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 620502,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      700144
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "620326": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 100,
-    "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【2020美系活动D3】塞壬构建者 第二波浮游炮",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 999,
-    "recover_time": 3,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 45,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 620326,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      700143
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "620501": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 100,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【2020美系活动EX】塞壬构建者 第一波环绕浮游炮",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 999,
-    "recover_time": 3,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 620501,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      700144
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
     "axis_angle": 0
   }
 }

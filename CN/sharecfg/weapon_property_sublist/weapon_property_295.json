@@ -133,49 +133,56 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "609020": {
+  "608012": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 5000,
+    "angle": 180,
+    "reload_max": 1000,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【绊爱联动SP2】上下波纹弹幕",
-    "fire_fx": "CLFire",
+    "queue": 1,
+    "name": "【纳尔维克SP1】Z21-武器2（三线追踪）",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 70,
-    "recover_time": 0.5,
+    "range": 90,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 0.5,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
+    "damage": 18,
     "action_index": "attack",
-    "type": 2,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 609020,
+    "id": 608012,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      590202,
-      590203
+      300115,
+      300116,
+      300117
     ],
-    "corrected": 125,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      600930,
-      600930
+      300115,
+      300116,
+      300117
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -223,48 +230,48 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "609021": {
+  "608013": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 360,
+    "angle": 60,
     "reload_max": 1000,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【绊爱联动SP2】战斗机",
+    "queue": 2,
+    "name": "【纳尔维克SP1】Z21-四联鱼雷",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 120,
-    "recover_time": 0,
+    "range": 50,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 18,
-    "action_index": "",
-    "type": 11,
+    "damage": 35,
+    "action_index": "attack",
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 609021,
-    "spawn_bound": "plane",
+    "id": 608013,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      600951
+      1403
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      609021
+      10007
     ],
     "min_range": 0,
     "initial_over_heat": 1,
-    "aim_type": 0,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "609053": {
@@ -311,48 +318,52 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "609022": {
+  "608014": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
+    "angle": 180,
     "reload_max": 1500,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【绊爱联动SP2】轰炸机",
-    "fire_fx": "",
+    "queue": 1,
+    "name": "【纳尔维克SP1】Z21-武器3",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 100,
+    "suppress": 0,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 72,
-    "action_index": "",
-    "type": 11,
+    "damage": 16,
+    "action_index": "attack",
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 609022,
-    "spawn_bound": "plane",
+    "id": 608014,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      600950
+      399970,
+      399969,
+      399968
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      609022
+      399970,
+      399969,
+      399968
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "609054": {
@@ -619,50 +630,6 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "609057": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 120,
-    "reload_max": 1400,
-    "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【绊爱联动SP5】Q版轻巡联装炮x6散射II型弹幕2",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 65,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 22,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 609057,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      1102
-    ],
-    "corrected": 105,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1201
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "609026": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -699,56 +666,6 @@
     "auto_aftercast": 0,
     "bullet_ID": [
       999
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "609058": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 600,
-    "torpedo_ammo": 0,
-    "queue": 5,
-    "name": "【绊爱联动SP5】交叉射线",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 3,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 30,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 609058,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      600940,
-      600941,
-      600942,
-      600943
-    ],
-    "corrected": 105,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      600909,
-      600910,
-      600909,
-      600910
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -801,59 +718,61 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "609122": {
+  "609046": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1800,
+    "reload_max": 1500,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【绊爱联动EX】子母弹上",
-    "fire_fx": "CAFire",
+    "queue": 8,
+    "name": "【绊爱联动SP4】绊爱激光",
+    "fire_fx": "",
     "charge_param": "",
-    "suppress": 0,
-    "range": 100,
-    "recover_time": 0,
+    "suppress": 1,
+    "range": 150,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 50,
+    "damage": 92,
     "action_index": "attack",
-    "type": 1,
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 609122,
+    "id": 609046,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      600906
+      600991,
+      600990
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      600902
+      600991,
+      600990
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
+    "fire_sfx": "battle/raser",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "609123": {
+  "609045": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1750,
+    "reload_max": 450,
     "torpedo_ammo": 0,
     "queue": 2,
-    "name": "【绊爱联动EX】嗨多磨1排 上中下三路慢速弹幕 开场",
+    "name": "【绊爱联动SP4】弧形扫射",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
@@ -863,7 +782,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 130,
+    "damage": 15,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -872,23 +791,67 @@
     "oxy_type": [
       1
     ],
-    "id": 609123,
+    "id": 609045,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      600910,
-      600911,
-      600912
+      940043,
+      940044
     ],
     "corrected": 105,
     "auto_aftercast": 0,
     "bullet_ID": [
-      600904,
-      600904,
-      600904
+      600940,
+      600940
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "609044": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 450,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【绊爱联动SP4】弧形扫射",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 3,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 15,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 609044,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      940041,
+      940042
+    ],
+    "corrected": 105,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      600940,
+      600940
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
@@ -939,25 +902,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "609124": {
+  "609043": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1750,
+    "reload_max": 1500,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【绊爱联动EX】嗨多磨2排上下二路慢速弹幕 开场",
-    "fire_fx": "CAFire",
+    "queue": 1,
+    "name": "【绊爱联动SP4】旋转子弹散射8连",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
+    "range": 80,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 130,
+    "damage": 14,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -966,22 +929,20 @@
     "oxy_type": [
       1
     ],
-    "id": 609124,
+    "id": 609043,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      600920,
-      600921
+      300201
     ],
-    "corrected": 105,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      600904,
-      600904
+      300201
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1038,25 +999,30 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "609125": {
+  "609042": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 600,
+    "angle": 180,
+    "reload_max": 1500,
     "torpedo_ammo": 0,
-    "queue": 4,
-    "name": "【绊爱联动EX】可爱两边封路",
-    "fire_fx": "CLFire",
+    "queue": 1,
+    "name": "【绊爱联动SP4】穿透弹三横追踪弹",
+    "fire_fx": "",
     "charge_param": "",
-    "suppress": 0,
+    "suppress": 1,
     "range": 90,
     "recover_time": 0,
-    "fire_fx_loop_type": 3,
-    "precast_param": [],
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 0.5,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 50,
+    "damage": 20,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -1065,22 +1031,24 @@
     "oxy_type": [
       1
     ],
-    "id": 609125,
+    "id": 609042,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      600930,
-      600931
+      300115,
+      300116,
+      300117
     ],
-    "corrected": 105,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      600906,
-      600907
+      300115,
+      300116,
+      300117
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1123,6 +1091,52 @@
     ],
     "min_range": 0,
     "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "609041": {
+    "search_type": 2,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 2400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【绊爱联动SP4】鱼雷弹幕",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 60,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 76,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 609041,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      600970,
+      600971
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      600914,
+      600915
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "",
     "effect_move": 0,
@@ -1586,6 +1600,50 @@
     "effect_move": 1,
     "axis_angle": 0
   },
+  "609040": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【绊爱联动SP4】Q版近程自卫火炮III",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 38,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 12,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 609040,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      13
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      999
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
   "609006": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -1636,25 +1694,25 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "609121": {
+  "609032": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1200,
+    "reload_max": 2400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【绊爱联动EX】爱心小玉",
-    "fire_fx": "CLFire",
+    "name": "【绊爱联动SP3】跨射4连",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 90,
+    "suppress": 0,
+    "range": 150,
     "recover_time": 0,
-    "fire_fx_loop_type": 3,
+    "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 35,
+    "damage": 46,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -1663,30 +1721,20 @@
     "oxy_type": [
       1
     ],
-    "id": 609121,
+    "id": 609032,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      600900,
-      600901,
-      600902,
-      600903,
-      600904,
-      600905
+      600960
     ],
-    "corrected": 105,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      600900,
-      600900,
-      600900,
-      600901,
-      600901,
-      600901
+      600921
     ],
-    "min_range": 0,
+    "min_range": 85,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1789,49 +1837,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "609041": {
-    "search_type": 2,
+  "609031": {
+    "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 2400,
+    "reload_max": 500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【绊爱联动SP4】鱼雷弹幕",
-    "fire_fx": "",
+    "name": "【绊爱联动SP3】Q版近程自卫火炮III",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 60,
+    "range": 38,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 76,
+    "damage": 11,
     "action_index": "attack",
-    "type": 3,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 609041,
-    "spawn_bound": "torpedo",
+    "id": 609031,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      600970,
-      600971
+      13
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      600914,
-      600915
+      999
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1887,53 +1933,49 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "609042": {
+  "608001": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1500,
+    "angle": 40,
+    "reload_max": 1750,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【绊爱联动SP4】穿透弹三横追踪弹",
-    "fire_fx": "",
+    "name": "【纳尔维克序章】岸防舰 跨射攻击后排单发",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
+    "range": 150,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": {
       "alertTime": 2,
       "fx": "jinengenemy",
-      "time": 0.5,
+      "time": 1,
       "isBound": true
     },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 20,
+    "damage": 35,
     "action_index": "attack",
-    "type": 1,
+    "type": 19,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 609042,
+    "id": 608001,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      300115,
-      300116,
-      300117
+      600823
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      300115,
-      300116,
-      300117
+      30063
     ],
-    "min_range": 0,
+    "min_range": 75,
     "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
@@ -1984,98 +2026,97 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "609010": {
+  "608002": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 600,
+    "reload_max": 100,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【绊爱联动SP1】交叉射线（弱化版）",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 3,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 609010,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      600940,
-      600941
-    ],
-    "corrected": 105,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      600909,
-      600910
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "608034": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【纳尔维克SP3】Z2-专用武器3",
+    "name": "【纳尔维克序章】岸防舰 3颗炮弹2轮攻击前排",
     "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 90,
+    "suppress": 1,
+    "range": 60,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 25,
+    "damage": 10,
     "action_index": "attack",
-    "type": 1,
+    "type": 19,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 608034,
+    "id": 608002,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      399970,
-      399969,
-      399968
+      600824
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      399970,
-      399969,
-      399968
+      399988
+    ],
+    "min_range": 20,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "607089": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 3500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "世界BOSS一阶段  轰炸机T1一阶段",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 100,
+    "recover_time": 5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 60,
+    "damage": 24,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 607089,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      600815
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30019
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "609011": {
@@ -2122,26 +2163,26 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "609043": {
+  "607090": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1500,
+    "angle": 180,
+    "reload_max": 1650,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【绊爱联动SP4】旋转子弹散射8连",
-    "fire_fx": "CLFire",
+    "name": "世界BOSS一阶段  战斗机T1弹幕",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 80,
+    "range": 85,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 14,
-    "action_index": "attack",
+    "damage": 3,
+    "action_index": "",
     "type": 1,
     "search_condition": [
       1
@@ -2149,21 +2190,27 @@
     "oxy_type": [
       1
     ],
-    "id": 609043,
+    "id": 607090,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      300201
+      101,
+      102,
+      103,
+      104
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      300201
+      20001,
+      20001,
+      20001,
+      20001
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "609012": {
@@ -2212,50 +2259,48 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "609044": {
+  "607091": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 450,
+    "angle": 180,
+    "reload_max": 48,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【绊爱联动SP4】弧形扫射",
-    "fire_fx": "CLFire",
+    "name": "世界BOSS一阶段  战斗机T1空中",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
+    "range": 200,
     "recover_time": 0,
-    "fire_fx_loop_type": 3,
+    "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 15,
-    "action_index": "attack",
-    "type": 1,
+    "damage": 9,
+    "action_index": "",
+    "type": 4,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 609044,
-    "spawn_bound": "cannon",
+    "id": 607091,
+    "spawn_bound": "antiaircraft",
     "barrage_ID": [
-      940041,
-      940042
+      5
     ],
-    "corrected": 105,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      600940,
-      600940
+      10004
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "609013": {
@@ -2304,50 +2349,48 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "609045": {
+  "607092": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 450,
+    "angle": 35,
+    "reload_max": 2900,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【绊爱联动SP4】弧形扫射",
-    "fire_fx": "CLFire",
+    "queue": 1,
+    "name": "世界BOSS一阶段  鱼雷机T1",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
+    "range": 40,
     "recover_time": 0,
-    "fire_fx_loop_type": 3,
+    "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 15,
-    "action_index": "attack",
-    "type": 1,
+    "damage": 24,
+    "action_index": "",
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 609045,
-    "spawn_bound": "cannon",
+    "id": 607092,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      940043,
-      940044
+      12001
     ],
-    "corrected": 105,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      600940,
-      600940
+      10031
     ],
-    "min_range": 0,
+    "min_range": 22,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "609014": {
@@ -2394,160 +2437,26 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "609046": {
+  "607093": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1500,
+    "angle": 180,
+    "reload_max": 3500,
     "torpedo_ammo": 0,
-    "queue": 8,
-    "name": "【绊爱联动SP4】绊爱激光",
+    "queue": 1,
+    "name": "世界BOSS一阶段  轰炸机T1",
     "fire_fx": "",
     "charge_param": "",
-    "suppress": 1,
-    "range": 150,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 92,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 609046,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      600991,
-      600990
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      600991,
-      600990
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/raser",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "609040": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【绊爱联动SP4】Q版近程自卫火炮III",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 609040,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      13
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      999
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "609032": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 2400,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【绊爱联动SP3】跨射4连",
-    "fire_fx": "CAFire",
-    "charge_param": "",
     "suppress": 0,
-    "range": 150,
+    "range": 10,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 46,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 609032,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      600960
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      600921
-    ],
-    "min_range": 85,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "609031": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【绊爱联动SP3】Q版近程自卫火炮III",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 11,
-    "action_index": "attack",
+    "damage": 36,
+    "action_index": "",
     "type": 2,
     "search_condition": [
       1
@@ -2555,21 +2464,21 @@
     "oxy_type": [
       1
     ],
-    "id": 609031,
+    "id": 607093,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      13
+      10001
     ],
-    "corrected": 125,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      999
+      10012
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "609030": {
@@ -2616,30 +2525,159 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "608012": {
+  "609022": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 180,
+    "angle": 360,
+    "reload_max": 1500,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【绊爱联动SP2】轰炸机",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 100,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 72,
+    "action_index": "",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 609022,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      600950
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      609022
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "609021": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
     "reload_max": 1000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【纳尔维克SP1】Z21-武器2（三线追踪）",
+    "name": "【绊爱联动SP2】战斗机",
     "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 120,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 18,
+    "action_index": "",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 609021,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      600951
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      609021
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 0,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "609020": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 5000,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【绊爱联动SP2】上下波纹弹幕",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 70,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 12,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 609020,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      590202,
+      590203
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      600930,
+      600930
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "609010": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 600,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【绊爱联动SP1】交叉射线（弱化版）",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
     "range": 90,
     "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 2,
-      "fx": "jinengenemy",
-      "time": 0.5,
-      "isBound": true
-    },
+    "fire_fx_loop_type": 3,
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 18,
+    "damage": 12,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -2648,72 +2686,70 @@
     "oxy_type": [
       1
     ],
-    "id": 608012,
+    "id": 609010,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      300115,
-      300116,
-      300117
+      600940,
+      600941
     ],
-    "corrected": 100,
+    "corrected": 105,
     "auto_aftercast": 0,
     "bullet_ID": [
-      300115,
-      300116,
-      300117
+      600909,
+      600910
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "608013": {
+  "607088": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 1000,
+    "angle": 360,
+    "reload_max": 2900,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【纳尔维克SP1】Z21-四联鱼雷",
+    "queue": 1,
+    "name": "世界BOSS一阶段  鱼雷机T1一阶段",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 50,
-    "recover_time": 0.5,
+    "range": 110,
+    "recover_time": 5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 35,
+    "attack_attribute_ratio": 60,
+    "damage": 24,
     "action_index": "attack",
-    "type": 3,
+    "type": 11,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 608013,
-    "spawn_bound": "torpedo",
+    "id": 607088,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      1403
+      600815
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10007
+      30014
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
+    "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "",
-    "effect_move": 0,
+    "effect_move": 1,
     "axis_angle": 0
   },
-  "608014": {
+  "608034": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
@@ -2721,7 +2757,7 @@
     "reload_max": 1500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【纳尔维克SP1】Z21-武器3",
+    "name": "【纳尔维克SP3】Z2-专用武器3",
     "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 0,
@@ -2731,7 +2767,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 16,
+    "damage": 25,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -2740,7 +2776,7 @@
     "oxy_type": [
       1
     ],
-    "id": 608014,
+    "id": 608034,
     "spawn_bound": "cannon",
     "barrage_ID": [
       399970,

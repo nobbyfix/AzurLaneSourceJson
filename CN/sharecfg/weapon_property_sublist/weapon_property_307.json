@@ -99,47 +99,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "616044": {
+  "616107": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2000,
+    "angle": 360,
+    "reload_max": 500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【hololive联动T2】BOSS-追迹者 三联装鱼雷 ",
-    "fire_fx": "",
+    "name": "【hololive联动TS4】BOSS-时乃空 近程自卫火炮",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 80,
+    "range": 38,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 32,
+    "damage": 12,
     "action_index": "attack",
-    "type": 3,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 616044,
-    "spawn_bound": "torpedo",
+    "id": 616107,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      1402
+      13
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30067
+      999
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
+    "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -914,6 +914,73 @@
     "effect_move": 1,
     "axis_angle": 0
   },
+  "616154": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 120,
+    "reload_max": 2500,
+    "torpedo_ammo": 0,
+    "queue": 3,
+    "name": "【hololive联动T6】BOSS-白上吹雪_蓄力激光武器",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 80,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "armor": 4500,
+      "fx": "jinengenemy",
+      "time": 8,
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 8,
+    "action_index": "attack",
+    "type": 24,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 616154,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      7304,
+      7305,
+      7306,
+      7307,
+      7308,
+      7309,
+      7310,
+      7311,
+      7312,
+      7313
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      660002,
+      660002,
+      660002,
+      660002,
+      660002,
+      660002,
+      660002,
+      660002,
+      660002,
+      660002
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
   "616086": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -952,6 +1019,235 @@
       30067
     ],
     "min_range": 22,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "616142": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【hololive联动TS5】BOSS-白上吹雪_上下波纹",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 80,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 0.5,
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 18,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 616142,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      650001,
+      650002
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      660005,
+      660006
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "616087": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 24,
+    "reload_max": 5000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【hololive联动T3】BOSS-大神澪 舰载机鱼雷",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 32,
+    "action_index": "",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 616087,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      80486,
+      80487
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      2112,
+      2112
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "616147": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 200,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【hololive联动TS5】BOSS-白上吹雪 空袭轰炸机弹幕武器",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 10,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 38,
+    "action_index": "",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 616147,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      130992
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      660016
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "616151": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 700,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【hololive联动T6】BOSS-白上吹雪_Q版近程自卫火炮",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 38,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 12,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 616151,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      11
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      999
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "616146": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1500,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【hololive联动TS5】BOSS-白上吹雪 空袭轰炸机",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 100,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 42,
+    "action_index": "",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 616146,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      630021
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      616146
+    ],
+    "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "",
@@ -1012,52 +1308,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "616087": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 24,
-    "reload_max": 5000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【hololive联动T3】BOSS-大神澪 舰载机鱼雷",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 32,
-    "action_index": "",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 616087,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      80486,
-      80487
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      2112,
-      2112
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "616143": {
     "search_type": 1,
     "attack_attribute": 2,
@@ -1102,54 +1352,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "616142": {
+  "616153": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1000,
+    "reload_max": 1400,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【hololive联动TS5】BOSS-白上吹雪_上下波纹",
-    "fire_fx": "CLFire",
+    "queue": 3,
+    "name": "【hololive联动T6】BOSS-白上吹雪_鱼雷5发2轮",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 80,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 2,
-      "fx": "jinengenemy",
-      "time": 0.5,
-      "isBound": true
-    },
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 18,
+    "damage": 62,
     "action_index": "attack",
-    "type": 1,
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 616142,
-    "spawn_bound": "cannon",
+    "id": 616153,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      650001,
-      650002
+      660020
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      660005,
-      660006
+      660009
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1195,186 +1438,6 @@
     "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 1,
-    "axis_angle": 0
-  },
-  "616131": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 48,
-    "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【hololive联动T5】BOSS-紫咲诗音 战斗机对空武器",
-    "fire_fx": "fangkongpaohuoshe2",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 200,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 40,
-    "action_index": "",
-    "type": 4,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 616131,
-    "spawn_bound": "antiaircraft",
-    "barrage_ID": [
-      5
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      10004
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "616109": {
-    "search_type": 1,
-    "attack_attribute": 0,
-    "shakescreen": 0,
-    "angle": 90,
-    "reload_max": 2000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【hololive联动TS4】BOSS-时乃空 地毯轰炸飞机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 42,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 616109,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12008
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      616121
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "616124": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 900,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【hololive联动T5】BOSS-紫咲诗音 特殊弹幕",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 26,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 616124,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      7104,
-      7105,
-      7106
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      660092,
-      660093,
-      660094
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "616126": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 900,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【hololive联动T5】BOSS-紫咲诗音 重巡单发主炮x4-瞄准",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 28,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 616126,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      660080
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1403
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
     "axis_angle": 0
   },
   "616091": {
@@ -1936,48 +1999,48 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "616125": {
+  "616131": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 500,
+    "angle": 180,
+    "reload_max": 48,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【hololive联动T5】BOSS-紫咲诗音 近程自卫火炮",
-    "fire_fx": "CLFire",
+    "queue": 3,
+    "name": "【hololive联动T5】BOSS-紫咲诗音 战斗机对空武器",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
+    "range": 200,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 2,
+    "damage": 40,
+    "action_index": "",
+    "type": 4,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 616125,
-    "spawn_bound": "cannon",
+    "id": 616131,
+    "spawn_bound": "antiaircraft",
     "barrage_ID": [
-      13
+      5
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      999
+      10004
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "616129": {
@@ -2024,57 +2087,47 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "616110": {
-    "search_type": 2,
-    "attack_attribute": 4,
+  "616126": {
+    "search_type": 1,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 25,
-    "reload_max": 9500,
+    "angle": 360,
+    "reload_max": 900,
     "torpedo_ammo": 0,
-    "queue": 4,
-    "name": "【hololive联动TS4】BOSS-时乃空 轰炸武器",
-    "fire_fx": "",
+    "queue": 1,
+    "name": "【hololive联动T5】BOSS-紫咲诗音 重巡单发主炮x4-瞄准",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 1,
+    "suppress": 1,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 42,
-    "action_index": "",
-    "type": 2,
+    "damage": 28,
+    "action_index": "attack",
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 616110,
+    "id": 616126,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      130991,
-      130991,
-      130991,
-      130991,
-      130991,
-      130991
+      660080
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      130302,
-      130303,
-      130304,
-      130305,
-      130306,
-      130307
+      1403
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -2122,25 +2175,25 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "616036": {
+  "616125": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 2000,
+    "reload_max": 500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【hololive联动TS2】BOSS –领洋者 特殊武器旋转子弹 ",
+    "name": "【hololive联动T5】BOSS-紫咲诗音 近程自卫火炮",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 80,
+    "range": 38,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 18,
+    "damage": 12,
     "action_index": "attack",
     "type": 2,
     "search_condition": [
@@ -2149,29 +2202,15 @@
     "oxy_type": [
       1
     ],
-    "id": 616036,
+    "id": 616125,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      21006,
-      21007,
-      21008,
-      21009,
-      21010,
-      21011,
-      21012,
-      21013
+      13
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      801,
-      801,
-      803,
-      803,
-      803,
-      803,
-      803,
-      803
+      999
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -2226,15 +2265,15 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "616108": {
+  "616124": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1400,
+    "reload_max": 900,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【hololive联动TS4】BOSS-时乃空联装主炮x4-散射型弹幕2",
+    "queue": 2,
+    "name": "【hololive联动T5】BOSS-紫咲诗音 特殊弹幕",
     "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 0,
@@ -2244,7 +2283,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 20,
+    "damage": 26,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -2253,19 +2292,23 @@
     "oxy_type": [
       1
     ],
-    "id": 616108,
+    "id": 616124,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      200101
+      7104,
+      7105,
+      7106
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      660105
+      660092,
+      660093,
+      660094
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
@@ -2358,26 +2401,26 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "616107": {
-    "search_type": 1,
-    "attack_attribute": 1,
+  "616110": {
+    "search_type": 2,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 500,
+    "angle": 25,
+    "reload_max": 9500,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【hololive联动TS4】BOSS-时乃空 近程自卫火炮",
-    "fire_fx": "CLFire",
+    "queue": 4,
+    "name": "【hololive联动TS4】BOSS-时乃空 轰炸武器",
+    "fire_fx": "",
     "charge_param": "",
-    "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
+    "suppress": 0,
+    "range": 1,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
+    "damage": 42,
+    "action_index": "",
     "type": 2,
     "search_condition": [
       1
@@ -2385,20 +2428,30 @@
     "oxy_type": [
       1
     ],
-    "id": 616107,
+    "id": 616110,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      13
+      130991,
+      130991,
+      130991,
+      130991,
+      130991,
+      130991
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      999
+      130302,
+      130303,
+      130304,
+      130305,
+      130306,
+      130307
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 0,
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -2578,48 +2631,92 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "616041": {
+  "616104": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 120,
-    "reload_max": 750,
+    "angle": 180,
+    "reload_max": 100,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【hololive联动T2】BOSS-追迹者 轻巡联装炮x6散射 ",
-    "fire_fx": "CLFire",
+    "queue": 3,
+    "name": "【hololive联动TS4】BOSS-时乃空 战斗机弹幕武器",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 80,
-    "recover_time": 0.5,
+    "range": 85,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
-    "action_index": "attack",
-    "type": 2,
+    "damage": 12,
+    "action_index": "",
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 616041,
+    "id": 616104,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1102
+      120303
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      801
+      130314
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "616109": {
+    "search_type": 1,
+    "attack_attribute": 0,
+    "shakescreen": 0,
+    "angle": 90,
+    "reload_max": 2000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【hololive联动TS4】BOSS-时乃空 地毯轰炸飞机",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 42,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 616109,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      12008
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      616121
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "616105": {
@@ -2666,25 +2763,25 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "616042": {
+  "616108": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 2000,
+    "angle": 360,
+    "reload_max": 1400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【hololive联动T2】BOSS-追迹者 大范围缓速子弹 ",
-    "fire_fx": "CLFire",
+    "name": "【hololive联动TS4】BOSS-时乃空联装主炮x4-散射型弹幕2",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 80,
+    "suppress": 0,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
+    "damage": 20,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -2693,77 +2790,21 @@
     "oxy_type": [
       1
     ],
-    "id": 616042,
+    "id": 616108,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      21093,
-      21094,
-      21095,
-      21096,
-      21097,
-      21098,
-      21099
+      200101
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      8072,
-      8072,
-      8072,
-      8072,
-      8072,
-      8072,
-      8072
+      660105
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
-    "axis_angle": 0
-  },
-  "616104": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 100,
-    "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【hololive联动TS4】BOSS-时乃空 战斗机弹幕武器",
-    "fire_fx": "fangkongpaohuoshe2",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 85,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 616104,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      120303
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      130314
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
     "axis_angle": 0
   }
 }

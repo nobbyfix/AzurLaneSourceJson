@@ -732,50 +732,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "616146": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1500,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【hololive联动TS5】BOSS-白上吹雪 空袭轰炸机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 100,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 42,
-    "action_index": "",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 616146,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      630021
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      616146
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
   "616178": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -820,48 +776,57 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "616147": {
+  "617043": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 200,
+    "reload_max": 800,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【hololive联动TS5】BOSS-白上吹雪 空袭轰炸机弹幕武器",
-    "fire_fx": "CAFire",
+    "queue": 1,
+    "name": "【年底日系活动B1】BOSS-鬼怒 透弹交叉三横射",
+    "fire_fx": "",
     "charge_param": "",
-    "suppress": 0,
-    "range": 10,
+    "suppress": 1,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 0.5,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 38,
-    "action_index": "",
-    "type": 2,
+    "damage": 12,
+    "action_index": "attack",
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 616147,
+    "id": 617043,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      130992
+      300112,
+      300113,
+      300114
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      660016
+      300112,
+      300113,
+      300114
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
+    "effect_move": 0,
     "axis_angle": 0
   },
   "616179": {
@@ -902,6 +867,94 @@
     "bullet_ID": [
       660031,
       660031
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "617022": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 500,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【年底日系活动A2】BOSS-骏河 近程自卫火炮III",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 38,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 9,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 617022,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      13
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      999
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "617041": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【年底日系活动B1】BOSS-鬼怒 近程自卫火炮III",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 38,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 6,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 617041,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      13
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      999
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -1092,47 +1145,49 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "616151": {
+  "616088": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 700,
+    "angle": 180,
+    "reload_max": 480,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【hololive联动T6】BOSS-白上吹雪_Q版近程自卫火炮",
-    "fire_fx": "CLFire",
+    "name": "【hololive联动SP】量产型潜艇单发鱼雷II",
+    "fire_fx": "",
     "charge_param": "",
-    "suppress": 1,
-    "range": 38,
+    "suppress": 0,
+    "range": 72,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
+    "damage": 46,
     "action_index": "attack",
-    "type": 2,
+    "type": 3,
     "search_condition": [
-      1
+      1,
+      2
     ],
     "oxy_type": [
-      1
+      1,
+      2
     ],
-    "id": 616151,
-    "spawn_bound": "cannon",
+    "id": 616088,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      11
+      1400
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      999
+      1821
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
+    "initial_over_heat": 1,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1273,25 +1328,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "616153": {
+  "617035": {
     "search_type": 1,
     "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1400,
+    "angle": 60,
+    "reload_max": 2400,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【hololive联动T6】BOSS-白上吹雪_鱼雷5发2轮",
+    "queue": 1,
+    "name": "【年底日系活动A3】BOSS-能代 鱼雷4*2",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
-    "recover_time": 0,
+    "range": 60,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 62,
+    "damage": 52,
     "action_index": "attack",
     "type": 3,
     "search_condition": [
@@ -1300,19 +1355,19 @@
     "oxy_type": [
       1
     ],
-    "id": 616153,
+    "id": 617035,
     "spawn_bound": "torpedo",
     "barrage_ID": [
-      660020
+      670023
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      660009
+      1801
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
     "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
@@ -1361,71 +1416,50 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "616154": {
+  "617034": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 120,
+    "angle": 360,
     "reload_max": 2500,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【hololive联动T6】BOSS-白上吹雪_蓄力激光武器",
-    "fire_fx": "CLFire",
+    "queue": 1,
+    "name": "【年底日系活动A3】BOSS-能代 特殊弹幕",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 0.5,
+    "suppress": 0,
+    "range": 100,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": {
-      "armor": 4500,
-      "fx": "jinengenemy",
-      "time": 8,
-      "isBound": true
-    },
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 8,
+    "damage": 18,
     "action_index": "attack",
-    "type": 24,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 616154,
+    "id": 617034,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      7304,
-      7305,
-      7306,
-      7307,
-      7308,
-      7309,
-      7310,
-      7311,
-      7312,
-      7313
+      670021,
+      670022
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      660002,
-      660002,
-      660002,
-      660002,
-      660002,
-      660002,
-      660002,
-      660002,
-      660002,
-      660002
+      60202,
+      60203
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "617005": {
@@ -1797,46 +1831,60 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "617022": {
+  "617033": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 500,
+    "reload_max": 1500,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【年底日系活动A2】BOSS-骏河 近程自卫火炮III",
+    "queue": 1,
+    "name": "【年底日系活动A3】BOSS-能代 扩散弹幕",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 3,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 9,
+    "damage": 10,
     "action_index": "attack",
-    "type": 2,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 617022,
+    "id": 617033,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      13
+      568421,
+      568422,
+      568423,
+      568424,
+      568425,
+      568426,
+      568427,
+      568428
     ],
-    "corrected": 125,
+    "corrected": 105,
     "auto_aftercast": 0,
     "bullet_ID": [
-      999
+      568421,
+      568421,
+      568421,
+      568421,
+      568421,
+      568421,
+      568421,
+      568421
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
@@ -1934,15 +1982,15 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "617021": {
+  "617042": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1000,
+    "angle": 360,
+    "reload_max": 1500,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【年底日系活动A2】BOSS-骏河 樱花子弹",
+    "queue": 2,
+    "name": "【年底日系活动B1】BOSS-鬼怒 旋转子弹散射8连",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
@@ -1952,7 +2000,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 9,
+    "damage": 8,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -1961,22 +2009,20 @@
     "oxy_type": [
       1
     ],
-    "id": 617021,
+    "id": 617042,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      630003,
-      630004
+      300201
     ],
-    "corrected": 110,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      630001,
-      630002
+      300201
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -2429,46 +2475,48 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "617002": {
+  "617021": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 500,
+    "angle": 180,
+    "reload_max": 1000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【年底日系活动A1】BOSS-龙凤 近程自卫火炮III",
+    "name": "【年底日系活动A2】BOSS-骏河 樱花子弹",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
+    "range": 80,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 6,
+    "damage": 9,
     "action_index": "attack",
-    "type": 2,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 617002,
+    "id": 617021,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      13
+      630003,
+      630004
     ],
-    "corrected": 125,
+    "corrected": 110,
     "auto_aftercast": 0,
     "bullet_ID": [
-      999
+      630001,
+      630002
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
@@ -2519,57 +2567,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "617001": {
+  "617002": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1800,
+    "angle": 360,
+    "reload_max": 500,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【年底日系活动A1】BOSS-龙凤 特殊弹幕1",
-    "fire_fx": "CAFire",
+    "queue": 1,
+    "name": "【年底日系活动A1】BOSS-龙凤 近程自卫火炮III",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 72,
-    "recover_time": 0,
+    "range": 38,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
-    "precast_param": {
-      "fx": "jinengenemy",
-      "time": 1,
-      "isBound": true
-    },
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 16,
+    "damage": 6,
     "action_index": "attack",
-    "type": 1,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 617001,
+    "id": 617002,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      670001,
-      670002,
-      670003,
-      670004
+      13
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      670002,
-      670003,
-      670004,
-      670005
+      999
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -2769,49 +2807,57 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "616088": {
+  "617001": {
     "search_type": 1,
     "attack_attribute": 2,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 480,
+    "reload_max": 1800,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【hololive联动SP】量产型潜艇单发鱼雷II",
-    "fire_fx": "",
+    "queue": 2,
+    "name": "【年底日系活动A1】BOSS-龙凤 特殊弹幕1",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 0,
+    "suppress": 1,
     "range": 72,
-    "recover_time": 0.5,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 46,
+    "damage": 16,
     "action_index": "attack",
-    "type": 3,
+    "type": 1,
     "search_condition": [
-      1,
-      2
+      1
     ],
     "oxy_type": [
-      1,
-      2
+      1
     ],
-    "id": 616088,
-    "spawn_bound": "torpedo",
+    "id": 617001,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      1400
+      670001,
+      670002,
+      670003,
+      670004
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1821
+      670002,
+      670003,
+      670004,
+      670005
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   }

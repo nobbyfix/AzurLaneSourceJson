@@ -1,0 +1,50 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "picture": "",
+  "id": 14351,
+  "desc": "",
+  "icon": 14350,
+  "last_effect": "",
+  "name": "",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddReloadRequirement",
+      "arg_list": {
+        "number": -0.5,
+        "type": 16
+      }
+    },
+    {
+      "trigger": [
+        "onManualTorpedoReady"
+      ],
+      "type": "BattleBuffCancelBuff",
+      "arg_list": {
+        "count": 1
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufared",
+  "time": 0
+}
