@@ -1,352 +1,586 @@
 {
-  "68064": {
-    "id": 68064,
-    "base": 68061,
-    "damage": 26
+  "68190": {
+    "id": 68190,
+    "base": 68181,
+    "damage": 72
   },
-  "68009": {
-    "name": "邦克山技能鱼雷机Lv9",
-    "id": 68009,
-    "bullet_ID": [
-      68009
-    ],
-    "base": 68001,
-    "damage": 220
-  },
-  "68013": {
-    "id": 68013,
-    "base": 68011,
-    "damage": 106
-  },
-  "68017": {
-    "id": 68017,
-    "base": 68011,
-    "damage": 182
-  },
-  "68021": {
+  "68131": {
     "search_type": 1,
-    "attack_attribute": 0,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 90,
-    "reload_max": 2490,
+    "angle": 120,
+    "reload_max": 3000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "邦克山技能战斗机Lv1",
-    "fire_fx": "",
+    "name": "佐治亚技能·小子弹-PVP-LV1",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 55,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 13,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 68131,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      80559,
+      80560
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      19998,
+      19998
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "68135": {
+    "id": 68135,
+    "base": 68131,
+    "name": "佐治亚技能·小子弹-PVP-LV5",
+    "damage": 18
+  },
+  "68139": {
+    "id": 68139,
+    "base": 68131,
+    "name": "佐治亚技能·小子弹-PVP-LV9",
+    "damage": 30
+  },
+  "68143": {
+    "id": 68143,
+    "base": 68141,
+    "name": "佐治亚技能·小子弹-PVE-LV3",
+    "damage": 15
+  },
+  "68147": {
+    "id": 68147,
+    "base": 68141,
+    "name": "佐治亚技能·小子弹-PVE-LV7",
+    "damage": 23
+  },
+  "68151": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 50,
+    "reload_max": 3000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "加斯科涅技能·箭型国旗LV1红",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 95,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 19,
+    "action_index": "attack",
+    "type": 19,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 68151,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      80561,
+      80562
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      19847,
+      19847
+    ],
+    "min_range": 35,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "68155": {
+    "name": "加斯科涅技能·箭型国旗LV5红",
+    "id": 68155,
+    "barrage_ID": [
+      80563,
+      80564
+    ],
+    "base": 68151,
+    "damage": 31
+  },
+  "68159": {
+    "name": "加斯科涅技能·箭型国旗LV9红",
+    "id": 68159,
+    "barrage_ID": [
+      80565,
+      80566
+    ],
+    "base": 68151,
+    "damage": 49
+  },
+  "68163": {
+    "id": 68163,
+    "base": 68161,
+    "name": "加斯科涅技能·箭型国旗LV3白",
+    "damage": 25
+  },
+  "68167": {
+    "name": "加斯科涅技能·箭型国旗LV7白",
+    "id": 68167,
+    "barrage_ID": [
+      80565,
+      80566
+    ],
+    "base": 68161,
+    "damage": 39
+  },
+  "68171": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 50,
+    "reload_max": 3000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "加斯科涅技能·箭型国旗LV1蓝",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 85,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 19,
+    "action_index": "attack",
+    "type": 19,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 68171,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      80561,
+      80562
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      19849,
+      19849
+    ],
+    "min_range": 35,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "68175": {
+    "name": "加斯科涅技能·箭型国旗LV5蓝",
+    "id": 68175,
+    "barrage_ID": [
+      80563,
+      80564
+    ],
+    "base": 68171,
+    "damage": 31
+  },
+  "68179": {
+    "name": "加斯科涅技能·箭型国旗LV9蓝",
+    "id": 68179,
+    "barrage_ID": [
+      80565,
+      80566
+    ],
+    "base": 68171,
+    "damage": 49
+  },
+  "68183": {
+    "id": 68183,
+    "base": 68181,
+    "damage": 40
+  },
+  "68187": {
+    "id": 68187,
+    "base": 68181,
+    "damage": 58
+  },
+  "68191": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 302,
+    "angle": 120,
+    "reload_max": 1300,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "腓特烈弹幕技能LV1",
+    "fire_fx": "zhupao",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 95,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 100,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 68191,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      80593
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      19860
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-356mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "68132": {
+    "id": 68132,
+    "base": 68131,
+    "name": "佐治亚技能·小子弹-PVP-LV2",
+    "damage": 14
+  },
+  "68136": {
+    "id": 68136,
+    "base": 68131,
+    "name": "佐治亚技能·小子弹-PVP-LV6",
+    "damage": 20
+  },
+  "68140": {
+    "id": 68140,
+    "base": 68131,
+    "name": "佐治亚技能·小子弹-PVP-LV10",
+    "damage": 35
+  },
+  "68144": {
+    "id": 68144,
+    "base": 68141,
+    "name": "佐治亚技能·小子弹-PVE-LV4",
+    "damage": 16
+  },
+  "68148": {
+    "id": 68148,
+    "base": 68141,
+    "name": "佐治亚技能·小子弹-PVE-LV8",
+    "damage": 26
+  },
+  "68152": {
+    "id": 68152,
+    "base": 68151,
+    "name": "加斯科涅技能·箭型国旗LV2红",
+    "damage": 22
+  },
+  "68156": {
+    "name": "加斯科涅技能·箭型国旗LV6红",
+    "id": 68156,
+    "barrage_ID": [
+      80563,
+      80564
+    ],
+    "base": 68151,
+    "damage": 34
+  },
+  "68160": {
+    "name": "加斯科涅技能·箭型国旗LV10红",
+    "id": 68160,
+    "barrage_ID": [
+      80565,
+      80566
+    ],
+    "base": 68151,
+    "damage": 54
+  },
+  "68164": {
+    "name": "加斯科涅技能·箭型国旗LV4白",
+    "id": 68164,
+    "barrage_ID": [
+      80563,
+      80564
+    ],
+    "base": 68161,
+    "damage": 28
+  },
+  "68168": {
+    "name": "加斯科涅技能·箭型国旗LV8白",
+    "id": 68168,
+    "barrage_ID": [
+      80565,
+      80566
+    ],
+    "base": 68161,
+    "damage": 44
+  },
+  "68172": {
+    "id": 68172,
+    "base": 68171,
+    "name": "加斯科涅技能·箭型国旗LV2蓝",
+    "damage": 22
+  },
+  "68176": {
+    "name": "加斯科涅技能·箭型国旗LV6蓝",
+    "id": 68176,
+    "barrage_ID": [
+      80563,
+      80564
+    ],
+    "base": 68171,
+    "damage": 34
+  },
+  "68180": {
+    "name": "加斯科涅技能·箭型国旗LV10蓝",
+    "id": 68180,
+    "barrage_ID": [
+      80565,
+      80566
+    ],
+    "base": 68171,
+    "damage": 54
+  },
+  "68184": {
+    "id": 68184,
+    "base": 68181,
+    "damage": 45
+  },
+  "68188": {
+    "id": 68188,
+    "base": 68181,
+    "damage": 63
+  },
+  "68192": {
+    "id": 68192,
+    "base": 68191,
+    "name": "腓特烈弹幕技能LV2",
+    "damage": 105
+  },
+  "68133": {
+    "id": 68133,
+    "base": 68131,
+    "name": "佐治亚技能·小子弹-PVP-LV3",
+    "damage": 15
+  },
+  "68137": {
+    "id": 68137,
+    "base": 68131,
+    "name": "佐治亚技能·小子弹-PVP-LV7",
+    "damage": 23
+  },
+  "68141": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 120,
+    "reload_max": 3000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "佐治亚技能·小子弹-PVE-LV1",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 95,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 13,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 68141,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      80559,
+      80560
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      19998,
+      19998
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "68145": {
+    "id": 68145,
+    "base": 68141,
+    "name": "佐治亚技能·小子弹-PVE-LV5",
+    "damage": 18
+  },
+  "68149": {
+    "id": 68149,
+    "base": 68141,
+    "name": "佐治亚技能·小子弹-PVE-LV9",
+    "damage": 30
+  },
+  "68153": {
+    "id": 68153,
+    "base": 68151,
+    "name": "加斯科涅技能·箭型国旗LV3红",
+    "damage": 25
+  },
+  "68157": {
+    "name": "加斯科涅技能·箭型国旗LV7红",
+    "id": 68157,
+    "barrage_ID": [
+      80565,
+      80566
+    ],
+    "base": 68151,
+    "damage": 39
+  },
+  "68161": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 50,
+    "reload_max": 3000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "加斯科涅技能·箭型国旗LV1白",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
     "range": 90,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
-    "expose": 5,
+    "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 39,
+    "damage": 19,
     "action_index": "attack",
-    "type": 10,
+    "type": 19,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 68021,
-    "spawn_bound": "plane",
+    "id": 68161,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      12009
+      80561,
+      80562
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      68021
+      19848,
+      19848
     ],
-    "min_range": 0,
+    "min_range": 35,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
     "axis_angle": 0
   },
-  "68025": {
-    "name": "邦克山技能战斗机Lv5",
-    "id": 68025,
-    "bullet_ID": [
-      68025
+  "68165": {
+    "name": "加斯科涅技能·箭型国旗LV5白",
+    "id": 68165,
+    "barrage_ID": [
+      80563,
+      80564
     ],
-    "base": 68021,
-    "damage": 60
+    "base": 68161,
+    "damage": 31
   },
-  "68029": {
-    "name": "邦克山技能战斗机Lv9",
-    "id": 68029,
-    "bullet_ID": [
-      68029
+  "68169": {
+    "name": "加斯科涅技能·箭型国旗LV9白",
+    "id": 68169,
+    "barrage_ID": [
+      80565,
+      80566
     ],
-    "base": 68021,
-    "damage": 81
+    "base": 68161,
+    "damage": 49
   },
-  "68033": {
-    "name": "邦克山技能轰炸机Lv3",
-    "id": 68033,
-    "bullet_ID": [
-      68033
+  "68173": {
+    "id": 68173,
+    "base": 68171,
+    "name": "加斯科涅技能·箭型国旗LV3蓝",
+    "damage": 25
+  },
+  "68177": {
+    "name": "加斯科涅技能·箭型国旗LV7蓝",
+    "id": 68177,
+    "barrage_ID": [
+      80565,
+      80566
     ],
-    "base": 68031,
-    "damage": 91
+    "base": 68171,
+    "damage": 39
   },
-  "68037": {
-    "name": "邦克山技能轰炸机Lv7",
-    "id": 68037,
-    "bullet_ID": [
-      68037
-    ],
-    "base": 68031,
-    "damage": 141
-  },
-  "68041": {
-    "search_type": 2,
-    "attack_attribute": 4,
+  "68181": {
+    "search_type": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 25,
+    "angle": 60,
     "reload_max": 3000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "1 x 2000lb Bomb",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 500,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 120,
-    "damage": 209,
-    "action_index": "",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 68041,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      2120
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      19992
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 25
-  },
-  "68045": {
-    "id": 68045,
-    "base": 68041,
-    "damage": 317
-  },
-  "68049": {
-    "id": 68049,
-    "base": 68041,
-    "damage": 428
-  },
-  "68053": {
-    "id": 68053,
-    "base": 68051,
-    "damage": 64
-  },
-  "68057": {
-    "id": 68057,
-    "base": 68051,
-    "damage": 96
-  },
-  "68061": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 302,
-    "angle": 60,
-    "reload_max": 1700,
-    "torpedo_ammo": 0,
-    "queue": 4,
-    "name": "试作型主炮Type0",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 75,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 14,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 68061,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      1207
-    ],
-    "corrected": 120,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      19844
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-356mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "68065": {
-    "id": 68065,
-    "base": 68061,
-    "damage": 30
-  },
-  "68006": {
-    "name": "邦克山技能鱼雷机Lv6",
-    "id": 68006,
-    "bullet_ID": [
-      68006
-    ],
-    "base": 68001,
-    "damage": 164
-  },
-  "68010": {
-    "name": "邦克山技能鱼雷机Lv10",
-    "id": 68010,
-    "bullet_ID": [
-      68010
-    ],
-    "base": 68001,
-    "damage": 240
-  },
-  "68014": {
-    "id": 68014,
-    "base": 68011,
-    "damage": 124
-  },
-  "68018": {
-    "id": 68018,
-    "base": 68011,
-    "damage": 202
-  },
-  "68022": {
-    "name": "邦克山技能战斗机Lv2",
-    "id": 68022,
-    "bullet_ID": [
-      68022
-    ],
-    "base": 68021,
-    "damage": 45
-  },
-  "68026": {
-    "name": "邦克山技能战斗机Lv6",
-    "id": 68026,
-    "bullet_ID": [
-      68026
-    ],
-    "base": 68021,
-    "damage": 64
-  },
-  "68030": {
-    "name": "邦克山技能战斗机Lv10",
-    "id": 68030,
-    "bullet_ID": [
-      68030
-    ],
-    "base": 68021,
-    "damage": 86
-  },
-  "68034": {
-    "name": "邦克山技能轰炸机Lv4",
-    "id": 68034,
-    "bullet_ID": [
-      68034
-    ],
-    "base": 68031,
-    "damage": 103
-  },
-  "68038": {
-    "name": "邦克山技能轰炸机Lv8",
-    "id": 68038,
-    "bullet_ID": [
-      68038
-    ],
-    "base": 68031,
-    "damage": 154
-  },
-  "68042": {
-    "id": 68042,
-    "base": 68041,
-    "damage": 236
-  },
-  "68046": {
-    "id": 68046,
-    "base": 68041,
-    "damage": 344
-  },
-  "68050": {
-    "id": 68050,
-    "base": 68041,
-    "damage": 456
-  },
-  "68054": {
-    "id": 68054,
-    "base": 68051,
-    "damage": 72
-  },
-  "68058": {
-    "id": 68058,
-    "base": 68051,
-    "damage": 104
-  },
-  "68062": {
-    "id": 68062,
-    "base": 68061,
-    "damage": 18
-  },
-  "68007": {
-    "name": "邦克山技能鱼雷机Lv7",
-    "id": 68007,
-    "bullet_ID": [
-      68007
-    ],
-    "base": 68001,
-    "damage": 182
-  },
-  "68011": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 24,
-    "reload_max": 9500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "3 x 机载鱼雷-邦克山",
+    "name": "北风技能额外六联装鱼雷",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 0,
-    "range": 75,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 68,
+    "damage": 31,
     "action_index": "",
     "type": 3,
     "search_condition": [
@@ -355,15 +589,17 @@
     "oxy_type": [
       1
     ],
-    "id": 68011,
+    "id": 68181,
     "spawn_bound": "torpedo",
     "barrage_ID": [
-      2112
+      80596,
+      80597
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      19991
+      1801,
+      1801
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -372,257 +608,120 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "68015": {
-    "id": 68015,
-    "base": 68011,
-    "damage": 144
-  },
-  "68019": {
-    "id": 68019,
-    "base": 68011,
-    "damage": 220
-  },
-  "68023": {
-    "name": "邦克山技能战斗机Lv3",
-    "id": 68023,
-    "bullet_ID": [
-      68023
-    ],
-    "base": 68021,
+  "68185": {
+    "id": 68185,
+    "base": 68181,
     "damage": 49
   },
-  "68027": {
-    "name": "邦克山技能战斗机Lv7",
-    "id": 68027,
-    "bullet_ID": [
-      68027
-    ],
-    "base": 68021,
-    "damage": 71
+  "68189": {
+    "id": 68189,
+    "base": 68181,
+    "damage": 67
   },
-  "68031": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 90,
-    "reload_max": 3000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "邦克山技能轰炸机Lv1",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 1,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 5,
-    "attack_attribute_ratio": 100,
-    "damage": 66,
-    "action_index": "",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 68031,
-    "spawn_bound": "plane",
+  "68134": {
+    "id": 68134,
+    "base": 68131,
+    "name": "佐治亚技能·小子弹-PVP-LV4",
+    "damage": 16
+  },
+  "68138": {
+    "id": 68138,
+    "base": 68131,
+    "name": "佐治亚技能·小子弹-PVP-LV8",
+    "damage": 26
+  },
+  "68142": {
+    "id": 68142,
+    "base": 68141,
+    "name": "佐治亚技能·小子弹-PVE-LV2",
+    "damage": 14
+  },
+  "68146": {
+    "id": 68146,
+    "base": 68141,
+    "name": "佐治亚技能·小子弹-PVE-LV6",
+    "damage": 20
+  },
+  "68150": {
+    "id": 68150,
+    "base": 68141,
+    "name": "佐治亚技能·小子弹-PVE-LV10",
+    "damage": 35
+  },
+  "68154": {
+    "name": "加斯科涅技能·箭型国旗LV4红",
+    "id": 68154,
     "barrage_ID": [
-      12009
+      80563,
+      80564
     ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      68031
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
+    "base": 68151,
+    "damage": 28
   },
-  "68035": {
-    "name": "邦克山技能轰炸机Lv5",
-    "id": 68035,
-    "bullet_ID": [
-      68035
-    ],
-    "base": 68031,
-    "damage": 116
-  },
-  "68039": {
-    "name": "邦克山技能轰炸机Lv9",
-    "id": 68039,
-    "bullet_ID": [
-      68039
-    ],
-    "base": 68031,
-    "damage": 167
-  },
-  "68043": {
-    "id": 68043,
-    "base": 68041,
-    "damage": 263
-  },
-  "68047": {
-    "id": 68047,
-    "base": 68041,
-    "damage": 371
-  },
-  "68051": {
-    "search_type": 2,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 25,
-    "reload_max": 3000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "2 x 100lb Bomb",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 500,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 120,
-    "damage": 48,
-    "action_index": "",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 68051,
-    "spawn_bound": "cannon",
+  "68158": {
+    "name": "加斯科涅技能·箭型国旗LV8红",
+    "id": 68158,
     "barrage_ID": [
-      2121
+      80565,
+      80566
     ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      19993
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 25
+    "base": 68151,
+    "damage": 44
   },
-  "68055": {
-    "id": 68055,
-    "base": 68051,
-    "damage": 80
-  },
-  "68059": {
-    "id": 68059,
-    "base": 68051,
-    "damage": 112
-  },
-  "68063": {
-    "id": 68063,
-    "base": 68061,
+  "68162": {
+    "id": 68162,
+    "base": 68161,
+    "name": "加斯科涅技能·箭型国旗LV2白",
     "damage": 22
   },
-  "68008": {
-    "name": "邦克山技能鱼雷机Lv8",
-    "id": 68008,
-    "bullet_ID": [
-      68008
+  "68166": {
+    "name": "加斯科涅技能·箭型国旗LV6白",
+    "id": 68166,
+    "barrage_ID": [
+      80563,
+      80564
     ],
-    "base": 68001,
-    "damage": 202
+    "base": 68161,
+    "damage": 34
   },
-  "68012": {
-    "id": 68012,
-    "base": 68011,
-    "damage": 86
-  },
-  "68016": {
-    "id": 68016,
-    "base": 68011,
-    "damage": 164
-  },
-  "68020": {
-    "id": 68020,
-    "base": 68011,
-    "damage": 240
-  },
-  "68024": {
-    "name": "邦克山技能战斗机Lv4",
-    "id": 68024,
-    "bullet_ID": [
-      68024
+  "68170": {
+    "name": "加斯科涅技能·箭型国旗LV10白",
+    "id": 68170,
+    "barrage_ID": [
+      80565,
+      80566
     ],
-    "base": 68021,
-    "damage": 56
+    "base": 68161,
+    "damage": 54
   },
-  "68028": {
-    "name": "邦克山技能战斗机Lv8",
-    "id": 68028,
-    "bullet_ID": [
-      68028
+  "68174": {
+    "name": "加斯科涅技能·箭型国旗LV4蓝",
+    "id": 68174,
+    "barrage_ID": [
+      80563,
+      80564
     ],
-    "base": 68021,
-    "damage": 75
+    "base": 68171,
+    "damage": 28
   },
-  "68032": {
-    "name": "邦克山技能轰炸机Lv2",
-    "id": 68032,
-    "bullet_ID": [
-      68032
+  "68178": {
+    "name": "加斯科涅技能·箭型国旗LV8蓝",
+    "id": 68178,
+    "barrage_ID": [
+      80565,
+      80566
     ],
-    "base": 68031,
-    "damage": 78
+    "base": 68171,
+    "damage": 44
   },
-  "68036": {
-    "name": "邦克山技能轰炸机Lv6",
-    "id": 68036,
-    "bullet_ID": [
-      68036
-    ],
-    "base": 68031,
-    "damage": 129
+  "68182": {
+    "id": 68182,
+    "base": 68181,
+    "damage": 36
   },
-  "68040": {
-    "name": "邦克山技能轰炸机Lv10",
-    "id": 68040,
-    "bullet_ID": [
-      68040
-    ],
-    "base": 68031,
-    "damage": 179
-  },
-  "68044": {
-    "id": 68044,
-    "base": 68041,
-    "damage": 290
-  },
-  "68048": {
-    "id": 68048,
-    "base": 68041,
-    "damage": 399
-  },
-  "68052": {
-    "id": 68052,
-    "base": 68051,
-    "damage": 56
-  },
-  "68056": {
-    "id": 68056,
-    "base": 68051,
-    "damage": 88
-  },
-  "68060": {
-    "id": 68060,
-    "base": 68051,
-    "damage": 121
+  "68186": {
+    "id": 68186,
+    "base": 68181,
+    "damage": 54
   }
 }

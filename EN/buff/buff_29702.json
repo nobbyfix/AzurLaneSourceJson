@@ -1,0 +1,39 @@
+{
+  "1": [],
+  "picture": "",
+  "id": 29702,
+  "desc": "主炮每进行8次攻击，触发专属弹幕-阿布鲁齐公爵II",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 29700,
+  "effect_list": [
+    {
+      "trigger": [
+        "onFire"
+      ],
+      "type": "BattleBuffCount",
+      "arg_list": {
+        "countTarget": 8,
+        "countType": 29700,
+        "index": [
+          1
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onBattleBuffCount"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "countType": 29700,
+        "skill_id": 29702
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "专属弹幕"
+}
