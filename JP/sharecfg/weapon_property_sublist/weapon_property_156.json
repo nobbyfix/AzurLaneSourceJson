@@ -1,129 +1,65 @@
 {
-  "68505": {
-    "name": "俾斯麦弹幕PVE-Lv5",
-    "id": 68505,
+  "68694": {
+    "id": 68694,
+    "base": 68691,
+    "name": "利托里奥技能小子弹-LV4",
+    "damage": 14
+  },
+  "68698": {
+    "id": 68698,
+    "base": 68691,
+    "name": "利托里奥技能小子弹-LV8",
+    "damage": 18
+  },
+  "68702": {
+    "id": 68702,
+    "base": 68701,
+    "name": "凯撒技能LV2",
+    "damage": 60
+  },
+  "68706": {
+    "name": "凯撒技能LV6",
+    "id": 68706,
     "barrage_ID": [
-      5
+      80788,
+      80787
     ],
-    "base": 68501,
-    "damage": 42
+    "base": 68701,
+    "damage": 100
   },
-  "68509": {
-    "name": "俾斯麦弹幕PVE-Lv9",
-    "id": 68509,
+  "68647": {
+    "name": "棘鳍技能鱼雷LV7",
+    "id": 68647,
     "barrage_ID": [
-      6
+      80574
     ],
-    "base": 68501,
-    "damage": 58
+    "base": 68641,
+    "damage": 27
   },
-  "68513": {
-    "id": 68513,
-    "base": 68511,
-    "name": "俾斯麦弹幕PVP-Lv3",
-    "damage": 24
-  },
-  "68517": {
-    "name": "俾斯麦弹幕PVP-Lv7",
-    "id": 68517,
-    "barrage_ID": [
-      80722,
-      80726,
-      80729
-    ],
-    "base": 68511,
-    "damage": 30
-  },
-  "68521": {
+  "68651": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 120,
+    "angle": 90,
     "reload_max": 3000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "俾斯麦·小子弹LV1",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 75,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 30,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 68521,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      80731,
-      80732
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      78111,
-      78111
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "68525": {
-    "id": 68525,
-    "base": 68521,
-    "name": "俾斯麦·小子弹LV5",
-    "damage": 42
-  },
-  "68529": {
-    "id": 68529,
-    "base": 68521,
-    "name": "俾斯麦·小子弹LV9",
-    "damage": 58
-  },
-  "68533": {
-    "id": 68533,
-    "base": 68531,
-    "name": "埃米尔·贝尔汀改技能鱼雷LV3",
-    "damage": 42
-  },
-  "68537": {
-    "id": 68537,
-    "base": 68531,
-    "name": "埃米尔·贝尔汀改技能鱼雷LV7",
-    "damage": 58
-  },
-  "68541": {
-    "search_type": 1,
-    "attack_attribute": 0,
-    "shakescreen": 0,
-    "angle": 90,
-    "reload_max": 1890,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "伊25技能零侦LV1",
+    "name": "可畏技能鱼雷机Lv1",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
     "range": 90,
-    "recover_time": 0.5,
+    "recover_time": 1,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
+    "precast_param": {
+      "fx": "jineng",
+      "time": 0.8,
+      "isBound": true
+    },
+    "expose": 10,
     "attack_attribute_ratio": 100,
-    "damage": 70,
-    "action_index": "attack",
+    "damage": 68,
+    "action_index": "",
     "type": 11,
     "search_condition": [
       1
@@ -131,7 +67,7 @@
     "oxy_type": [
       1
     ],
-    "id": 68541,
+    "id": 68651,
     "spawn_bound": "plane",
     "barrage_ID": [
       12008
@@ -139,159 +75,125 @@
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      68541
+      68651
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
+    "fire_sfx": "battle/air-atk",
     "effect_move": 1,
     "axis_angle": 0
   },
-  "68545": {
-    "id": 68545,
-    "base": 68541,
-    "name": "伊25技能零侦LV5",
-    "damage": 100
-  },
-  "68549": {
-    "id": 68549,
-    "base": 68541,
-    "name": "伊25技能零侦LV9",
-    "damage": 130
-  },
-  "68553": {
-    "id": 68553,
-    "base": 68551,
-    "damage": 90
-  },
-  "68498": {
-    "id": 68498,
-    "base": 68491,
-    "name": "俾斯麦·小子弹LV8",
-    "damage": 18
-  },
-  "68502": {
-    "id": 68502,
-    "base": 68501,
-    "name": "俾斯麦弹幕PVE-Lv2",
-    "damage": 33
-  },
-  "68506": {
-    "name": "俾斯麦弹幕PVE-Lv6",
-    "id": 68506,
-    "barrage_ID": [
-      5
+  "68655": {
+    "name": "可畏技能鱼雷机Lv5",
+    "id": 68655,
+    "bullet_ID": [
+      68655
     ],
-    "base": 68501,
-    "damage": 46
+    "base": 68651,
+    "damage": 144
   },
-  "68510": {
-    "name": "俾斯麦弹幕PVE-Lv10",
-    "id": 68510,
+  "68659": {
+    "name": "可畏技能鱼雷机Lv9",
     "barrage_ID": [
-      6
+      12009
     ],
-    "base": 68501,
-    "damage": 62
+    "id": 68659,
+    "bullet_ID": [
+      68659
+    ],
+    "base": 68651,
+    "damage": 220
   },
-  "68514": {
-    "name": "俾斯麦弹幕PVP-Lv4",
-    "id": 68514,
+  "68663": {
+    "id": 68663,
+    "base": 68661,
+    "damage": 106
+  },
+  "68667": {
+    "id": 68667,
     "barrage_ID": [
-      80722,
-      80725,
-      80728
+      80782
     ],
-    "base": 68511,
-    "damage": 28
+    "base": 68661,
+    "damage": 182
   },
-  "68518": {
-    "name": "俾斯麦弹幕PVP-Lv8",
-    "id": 68518,
+  "68671": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 3000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "利托里奥弹幕强化PVE-Lv1",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 95,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "alertTime": 1,
+      "fx": "jineng",
+      "time": 0.5,
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 62,
+    "action_index": "attack",
+    "type": 19,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 68671,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      80723,
-      80726,
-      80729
+      80783,
+      80784
     ],
-    "base": 68511,
-    "damage": 32
-  },
-  "68522": {
-    "id": 68522,
-    "base": 68521,
-    "name": "俾斯麦·小子弹LV2",
-    "damage": 33
-  },
-  "68526": {
-    "id": 68526,
-    "base": 68521,
-    "name": "俾斯麦·小子弹LV6",
-    "damage": 46
-  },
-  "68530": {
-    "id": 68530,
-    "base": 68521,
-    "name": "俾斯麦·小子弹LV10",
-    "damage": 62
-  },
-  "68534": {
-    "id": 68534,
-    "base": 68531,
-    "name": "埃米尔·贝尔汀改技能鱼雷LV4",
-    "damage": 50
-  },
-  "68538": {
-    "id": 68538,
-    "base": 68531,
-    "name": "埃米尔·贝尔汀改技能鱼雷LV8",
-    "damage": 62
-  },
-  "68542": {
-    "id": 68542,
-    "base": 68541,
-    "name": "伊25技能零侦LV2",
-    "damage": 78
-  },
-  "68546": {
-    "id": 68546,
-    "base": 68541,
-    "name": "伊25技能零侦LV6",
-    "damage": 108
-  },
-  "68550": {
-    "id": 68550,
-    "base": 68541,
-    "name": "伊25技能零侦LV10",
-    "damage": 138
-  },
-  "68554": {
-    "id": 68554,
-    "base": 68551,
-    "damage": 99
-  },
-  "68499": {
-    "id": 68499,
-    "base": 68491,
-    "name": "俾斯麦·小子弹LV9",
-    "damage": 19
-  },
-  "68503": {
-    "id": 68503,
-    "base": 68501,
-    "name": "俾斯麦弹幕PVE-Lv3",
-    "damage": 36
-  },
-  "68507": {
-    "name": "俾斯麦弹幕PVE-Lv7",
-    "id": 68507,
-    "barrage_ID": [
-      5
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      19022,
+      19023
     ],
-    "base": 68501,
-    "damage": 50
+    "min_range": 25,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
   },
-  "68511": {
+  "68675": {
+    "id": 68675,
+    "base": 68671,
+    "name": "利托里奥弹幕强化PVE-Lv5",
+    "damage": 110
+  },
+  "68679": {
+    "id": 68679,
+    "base": 68671,
+    "name": "利托里奥弹幕强化PVE-Lv9",
+    "damage": 158
+  },
+  "68683": {
+    "id": 68683,
+    "base": 68681,
+    "name": "利托里奥弹幕强化PVP-Lv3",
+    "damage": 86
+  },
+  "68687": {
+    "id": 68687,
+    "base": 68681,
+    "name": "利托里奥弹幕强化PVP-Lv7",
+    "damage": 134
+  },
+  "68691": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
@@ -299,7 +201,7 @@
     "reload_max": 3000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "俾斯麦弹幕PVP-Lv1",
+    "name": "利托里奥技能小子弹-LV1",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
@@ -309,7 +211,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 20,
+    "damage": 11,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -318,19 +220,15 @@
     "oxy_type": [
       1
     ],
-    "id": 68511,
+    "id": 68691,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      80721,
-      80725,
-      80728
+      80785
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      19888,
-      19888,
-      19888
+      19024
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -339,59 +237,196 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "68515": {
-    "name": "俾斯麦弹幕PVP-Lv5",
-    "id": 68515,
+  "68695": {
+    "id": 68695,
+    "base": 68691,
+    "name": "利托里奥技能小子弹-LV5",
+    "damage": 15
+  },
+  "68699": {
+    "id": 68699,
+    "base": 68691,
+    "name": "利托里奥技能小子弹-LV9",
+    "damage": 19
+  },
+  "68703": {
+    "id": 68703,
+    "base": 68701,
+    "name": "凯撒技能LV3",
+    "damage": 70
+  },
+  "68707": {
+    "name": "凯撒技能LV7",
+    "id": 68707,
     "barrage_ID": [
-      80722,
-      80725,
-      80728
+      80788,
+      80789
     ],
-    "base": 68511,
-    "damage": 26
+    "base": 68701,
+    "damage": 110
   },
-  "68519": {
-    "name": "俾斯麦弹幕PVP-Lv9",
-    "id": 68519,
+  "68648": {
+    "name": "棘鳍技能鱼雷LV8",
+    "id": 68648,
     "barrage_ID": [
-      80723,
-      80726,
-      80729
+      80574
     ],
-    "base": 68511,
-    "damage": 34
+    "base": 68641,
+    "damage": 30
   },
-  "68523": {
-    "id": 68523,
-    "base": 68521,
-    "name": "俾斯麦·小子弹LV3",
-    "damage": 36
+  "68652": {
+    "name": "可畏技能鱼雷机Lv2",
+    "id": 68652,
+    "bullet_ID": [
+      68652
+    ],
+    "base": 68651,
+    "damage": 86
   },
-  "68527": {
-    "id": 68527,
-    "base": 68521,
-    "name": "俾斯麦·小子弹LV7",
-    "damage": 50
+  "68656": {
+    "name": "可畏技能鱼雷机Lv6",
+    "id": 68656,
+    "bullet_ID": [
+      68656
+    ],
+    "base": 68651,
+    "damage": 164
   },
-  "68531": {
+  "68660": {
+    "name": "可畏技能鱼雷机Lv10",
+    "barrage_ID": [
+      12009
+    ],
+    "id": 68660,
+    "bullet_ID": [
+      68660
+    ],
+    "base": 68651,
+    "damage": 240
+  },
+  "68664": {
+    "id": 68664,
+    "barrage_ID": [
+      80781
+    ],
+    "base": 68661,
+    "damage": 124
+  },
+  "68668": {
+    "id": 68668,
+    "barrage_ID": [
+      80782
+    ],
+    "base": 68661,
+    "damage": 202
+  },
+  "68672": {
+    "id": 68672,
+    "base": 68671,
+    "name": "利托里奥弹幕强化PVE-Lv2",
+    "damage": 74
+  },
+  "68676": {
+    "id": 68676,
+    "base": 68671,
+    "name": "利托里奥弹幕强化PVE-Lv6",
+    "damage": 122
+  },
+  "68680": {
+    "id": 68680,
+    "base": 68671,
+    "name": "利托里奥弹幕强化PVE-Lv10",
+    "damage": 174
+  },
+  "68684": {
+    "id": 68684,
+    "base": 68681,
+    "name": "利托里奥弹幕强化PVP-Lv4",
+    "damage": 98
+  },
+  "68688": {
+    "id": 68688,
+    "base": 68681,
+    "name": "利托里奥弹幕强化PVP-Lv8",
+    "damage": 146
+  },
+  "68692": {
+    "id": 68692,
+    "base": 68691,
+    "name": "利托里奥技能小子弹-LV2",
+    "damage": 12
+  },
+  "68696": {
+    "id": 68696,
+    "base": 68691,
+    "name": "利托里奥技能小子弹-LV6",
+    "damage": 16
+  },
+  "68700": {
+    "id": 68700,
+    "base": 68691,
+    "name": "利托里奥技能小子弹-LV10",
+    "damage": 20
+  },
+  "68704": {
+    "name": "凯撒技能LV4",
+    "id": 68704,
+    "barrage_ID": [
+      80788,
+      80787
+    ],
+    "base": 68701,
+    "damage": 80
+  },
+  "68649": {
+    "name": "棘鳍技能鱼雷LV9",
+    "id": 68649,
+    "barrage_ID": [
+      80575
+    ],
+    "base": 68641,
+    "damage": 33
+  },
+  "68653": {
+    "name": "可畏技能鱼雷机Lv3",
+    "id": 68653,
+    "bullet_ID": [
+      68653
+    ],
+    "base": 68651,
+    "damage": 106
+  },
+  "68657": {
+    "name": "可畏技能鱼雷机Lv7",
+    "barrage_ID": [
+      12009
+    ],
+    "id": 68657,
+    "bullet_ID": [
+      68657
+    ],
+    "base": 68651,
+    "damage": 182
+  },
+  "68661": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 3000,
+    "angle": 24,
+    "reload_max": 9500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "埃米尔·贝尔汀改技能鱼雷LV1",
+    "name": "概率减速进水鱼雷",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 0,
-    "range": 90,
+    "range": 80,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 120,
-    "damage": 35,
+    "damage": 68,
     "action_index": "",
     "type": 3,
     "search_condition": [
@@ -400,17 +435,15 @@
     "oxy_type": [
       1
     ],
-    "id": 68531,
+    "id": 68661,
     "spawn_bound": "torpedo",
     "barrage_ID": [
-      80733,
-      80734
+      80780
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      19889,
-      19889
+      19021
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -419,230 +452,244 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "68535": {
-    "id": 68535,
-    "base": 68531,
-    "name": "埃米尔·贝尔汀改技能鱼雷LV5",
-    "damage": 52
+  "68665": {
+    "id": 68665,
+    "barrage_ID": [
+      80781
+    ],
+    "base": 68661,
+    "damage": 144
   },
-  "68539": {
-    "id": 68539,
-    "base": 68531,
-    "name": "埃米尔·贝尔汀改技能鱼雷LV9",
-    "damage": 67
+  "68669": {
+    "id": 68669,
+    "barrage_ID": [
+      80782
+    ],
+    "base": 68661,
+    "damage": 220
   },
-  "68543": {
-    "id": 68543,
-    "base": 68541,
-    "name": "伊25技能零侦LV3",
-    "damage": 85
+  "68673": {
+    "id": 68673,
+    "base": 68671,
+    "name": "利托里奥弹幕强化PVE-Lv3",
+    "damage": 86
   },
-  "68547": {
-    "id": 68547,
-    "base": 68541,
-    "name": "伊25技能零侦LV7",
-    "damage": 115
+  "68677": {
+    "id": 68677,
+    "base": 68671,
+    "name": "利托里奥弹幕强化PVE-Lv7",
+    "damage": 134
   },
-  "68551": {
-    "search_type": 2,
-    "attack_attribute": 2,
+  "68681": {
+    "search_type": 1,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 25,
-    "reload_max": 9500,
+    "angle": 60,
+    "reload_max": 3000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "2 x 150lb 爆弾",
-    "fire_fx": "",
+    "name": "利托里奥弹幕强化PVP-Lv1",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 500,
+    "range": 120,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 1,
+      "fx": "jineng",
+      "time": 0.5,
+      "isBound": true
+    },
     "expose": 0,
-    "attack_attribute_ratio": 75,
-    "damage": 72,
-    "action_index": "",
-    "type": 2,
+    "attack_attribute_ratio": 100,
+    "damage": 62,
+    "action_index": "attack",
+    "type": 19,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 68551,
+    "id": 68681,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      2121
+      80783,
+      80784
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      19999
+      19022,
+      19023
     ],
-    "min_range": 0,
+    "min_range": 35,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
-    "axis_angle": 25
+    "axis_angle": 0
   },
-  "68496": {
-    "id": 68496,
-    "base": 68491,
-    "name": "俾斯麦·小子弹LV6",
-    "damage": 16
+  "68685": {
+    "id": 68685,
+    "base": 68681,
+    "name": "利托里奥弹幕强化PVP-Lv5",
+    "damage": 110
   },
-  "68500": {
-    "id": 68500,
-    "base": 68491,
-    "name": "俾斯麦·小子弹LV10",
-    "damage": 20
+  "68689": {
+    "id": 68689,
+    "base": 68681,
+    "name": "利托里奥弹幕强化PVP-Lv9",
+    "damage": 158
   },
-  "68504": {
-    "name": "俾斯麦弹幕PVE-Lv4",
-    "id": 68504,
-    "barrage_ID": [
-      5
-    ],
-    "base": 68501,
-    "damage": 39
+  "68693": {
+    "id": 68693,
+    "base": 68691,
+    "name": "利托里奥技能小子弹-LV3",
+    "damage": 13
   },
-  "68508": {
-    "name": "俾斯麦弹幕PVE-Lv8",
-    "id": 68508,
-    "barrage_ID": [
-      6
-    ],
-    "base": 68501,
-    "damage": 54
-  },
-  "68512": {
-    "id": 68512,
-    "base": 68511,
-    "name": "俾斯麦弹幕PVP-Lv2",
-    "damage": 22
-  },
-  "68516": {
-    "name": "俾斯麦弹幕PVP-Lv6",
-    "id": 68516,
-    "barrage_ID": [
-      80722,
-      80725,
-      80728
-    ],
-    "base": 68511,
-    "damage": 28
-  },
-  "68520": {
-    "name": "俾斯麦弹幕PVP-Lv10",
-    "id": 68520,
-    "barrage_ID": [
-      80723,
-      80727,
-      80730
-    ],
-    "base": 68511,
-    "damage": 36
-  },
-  "68524": {
-    "id": 68524,
-    "base": 68521,
-    "name": "俾斯麦·小子弹LV4",
-    "damage": 39
-  },
-  "68528": {
-    "id": 68528,
-    "base": 68521,
-    "name": "俾斯麦·小子弹LV8",
-    "damage": 54
-  },
-  "68532": {
-    "id": 68532,
-    "base": 68531,
-    "name": "埃米尔·贝尔汀改技能鱼雷LV2",
-    "damage": 36
-  },
-  "68536": {
-    "id": 68536,
-    "base": 68531,
-    "name": "埃米尔·贝尔汀改技能鱼雷LV6",
-    "damage": 55
-  },
-  "68540": {
-    "id": 68540,
-    "base": 68531,
-    "name": "埃米尔·贝尔汀改技能鱼雷LV10",
-    "damage": 72
-  },
-  "68544": {
-    "id": 68544,
-    "base": 68541,
-    "name": "伊25技能零侦LV4",
-    "damage": 93
-  },
-  "68548": {
-    "id": 68548,
-    "base": 68541,
-    "name": "伊25技能零侦LV8",
-    "damage": 123
-  },
-  "68552": {
-    "id": 68552,
-    "base": 68551,
-    "damage": 81
-  },
-  "68497": {
-    "id": 68497,
-    "base": 68491,
-    "name": "俾斯麦·小子弹LV7",
+  "68697": {
+    "id": 68697,
+    "base": 68691,
+    "name": "利托里奥技能小子弹-LV7",
     "damage": 17
   },
-  "68501": {
+  "68701": {
     "search_type": 1,
-    "attack_attribute": 5,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 3000,
+    "angle": 120,
+    "reload_max": 500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "俾斯麦弹幕PVE-Lv1",
+    "name": "凯撒技能LV1",
     "fire_fx": "zhupao",
-    "charge_param": {
-      "lockTime": 0.3,
-      "maxLock": 2
-    },
+    "charge_param": "",
     "suppress": 1,
-    "range": 75,
+    "range": 90,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 30,
+    "damage": 50,
     "action_index": "attack",
-    "type": 23,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 68501,
+    "id": 68701,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1
+      80786,
+      80787
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      19887
+      19025,
+      19025
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
+    "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "battle/cannon-356mm",
     "effect_move": 0,
     "axis_angle": 0
+  },
+  "68705": {
+    "name": "凯撒技能LV5",
+    "id": 68705,
+    "barrage_ID": [
+      80788,
+      80787
+    ],
+    "base": 68701,
+    "damage": 90
+  },
+  "68650": {
+    "name": "棘鳍技能鱼雷LV10",
+    "id": 68650,
+    "barrage_ID": [
+      80575
+    ],
+    "base": 68641,
+    "damage": 36
+  },
+  "68654": {
+    "name": "可畏技能鱼雷机Lv4",
+    "id": 68654,
+    "bullet_ID": [
+      68654
+    ],
+    "base": 68651,
+    "damage": 124
+  },
+  "68658": {
+    "name": "可畏技能鱼雷机Lv8",
+    "barrage_ID": [
+      12009
+    ],
+    "id": 68658,
+    "bullet_ID": [
+      68658
+    ],
+    "base": 68651,
+    "damage": 202
+  },
+  "68662": {
+    "id": 68662,
+    "base": 68661,
+    "damage": 86
+  },
+  "68666": {
+    "id": 68666,
+    "barrage_ID": [
+      80781
+    ],
+    "base": 68661,
+    "damage": 164
+  },
+  "68670": {
+    "id": 68670,
+    "barrage_ID": [
+      80782
+    ],
+    "base": 68661,
+    "damage": 240
+  },
+  "68674": {
+    "id": 68674,
+    "base": 68671,
+    "name": "利托里奥弹幕强化PVE-Lv4",
+    "damage": 98
+  },
+  "68678": {
+    "id": 68678,
+    "base": 68671,
+    "name": "利托里奥弹幕强化PVE-Lv8",
+    "damage": 146
+  },
+  "68682": {
+    "id": 68682,
+    "base": 68681,
+    "name": "利托里奥弹幕强化PVP-Lv2",
+    "damage": 74
+  },
+  "68686": {
+    "id": 68686,
+    "base": 68681,
+    "name": "利托里奥弹幕强化PVP-Lv6",
+    "damage": 122
+  },
+  "68690": {
+    "id": 68690,
+    "base": 68681,
+    "name": "利托里奥弹幕强化PVP-Lv10",
+    "damage": 174
   }
 }

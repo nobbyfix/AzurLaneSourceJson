@@ -19,6 +19,50 @@
     "base": 351,
     "reload_max": 220
   },
+  "211": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 180,
+    "torpedo_ammo": 0,
+    "queue": 0,
+    "name": "皇家雷击轻巡副炮T1",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 52,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 4,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 211,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      1007
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0.4,
+    "bullet_ID": [
+      1100
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
   "212": {
     "name": "皇家雷击轻巡副炮T2",
     "id": 212,
@@ -480,12 +524,15 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "313": {
-    "name": "皇家雷击重巡副炮T3",
-    "id": 313,
-    "damage": 8,
-    "base": 311,
-    "reload_max": 220
+  "253": {
+    "name": "撒丁雷击轻巡副炮T3",
+    "bullet_ID": [
+      2306
+    ],
+    "id": 253,
+    "damage": 7,
+    "base": 251,
+    "reload_max": 170
   },
   "222": {
     "name": "重桜雷击轻巡副炮T2",
@@ -513,16 +560,6 @@
     "damage": 6,
     "base": 221,
     "reload_max": 180
-  },
-  "224": {
-    "name": "重桜雷击轻巡副炮T4",
-    "bullet_ID": [
-      1206
-    ],
-    "id": 224,
-    "damage": 8,
-    "base": 221,
-    "reload_max": 170
   },
   "911": {
     "search_type": 1,
@@ -560,6 +597,60 @@
     "auto_aftercast": 0,
     "bullet_ID": [
       911
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "224": {
+    "name": "重桜雷击轻巡副炮T4",
+    "bullet_ID": [
+      1206
+    ],
+    "id": 224,
+    "damage": 8,
+    "base": 221,
+    "reload_max": 170
+  },
+  "436": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 412,
+    "torpedo_ammo": 0,
+    "queue": 0,
+    "name": "P1自带双联装150mm主炮",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 21,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 436,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      1001
+    ],
+    "corrected": 115,
+    "auto_aftercast": 0.3,
+    "bullet_ID": [
+      19247
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -832,25 +923,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "436": {
+  "435": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 412,
+    "reload_max": 150,
     "torpedo_ammo": 0,
     "queue": 0,
-    "name": "P1自带双联装150mm主炮",
+    "name": "皇家雷击轻巡副炮T4（德雷克模拟关卡用）",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
+    "range": 52,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 21,
+    "damage": 10,
     "action_index": "attack",
     "type": 2,
     "search_condition": [
@@ -859,15 +950,15 @@
     "oxy_type": [
       1
     ],
-    "id": 436,
+    "id": 435,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1001
+      1007
     ],
-    "corrected": 115,
-    "auto_aftercast": 0.3,
+    "corrected": 125,
+    "auto_aftercast": 0.4,
     "bullet_ID": [
-      19247
+      19172
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -1049,50 +1140,6 @@
     "base": 231,
     "reload_max": 160
   },
-  "435": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 150,
-    "torpedo_ammo": 0,
-    "queue": 0,
-    "name": "皇家雷击轻巡副炮T4（德雷克模拟关卡用）",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 52,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 10,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 435,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      1007
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0.4,
-    "bullet_ID": [
-      19172
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "434": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -1144,6 +1191,16 @@
     "base": 371,
     "reload_max": 210
   },
+  "204": {
+    "name": "白鹰雷击轻巡副炮T4",
+    "bullet_ID": [
+      1006
+    ],
+    "id": 204,
+    "damage": 9,
+    "base": 201,
+    "reload_max": 160
+  },
   "372": {
     "name": "鸢尾雷击重巡副炮T2",
     "id": 372,
@@ -1151,12 +1208,12 @@
     "base": 371,
     "reload_max": 230
   },
-  "233": {
-    "name": "铁血雷击轻巡副炮T3",
-    "id": 233,
-    "damage": 7,
-    "base": 231,
-    "reload_max": 170
+  "252": {
+    "name": "撒丁雷击轻巡副炮T2",
+    "id": 252,
+    "damage": 5,
+    "base": 251,
+    "reload_max": 180
   },
   "312": {
     "name": "皇家雷击重巡副炮T2",
@@ -1189,13 +1246,6 @@
     "base": 321,
     "reload_max": 230
   },
-  "232": {
-    "name": "铁血雷击轻巡副炮T2",
-    "id": 232,
-    "damage": 5,
-    "base": 231,
-    "reload_max": 180
-  },
   "314": {
     "name": "皇家雷击重巡副炮T4",
     "id": 314,
@@ -1203,11 +1253,18 @@
     "base": 311,
     "reload_max": 210
   },
-  "252": {
-    "name": "撒丁雷击轻巡副炮T2",
-    "id": 252,
+  "313": {
+    "name": "皇家雷击重巡副炮T3",
+    "id": 313,
+    "damage": 8,
+    "base": 311,
+    "reload_max": 220
+  },
+  "232": {
+    "name": "铁血雷击轻巡副炮T2",
+    "id": 232,
     "damage": 5,
-    "base": 251,
+    "base": 231,
     "reload_max": 180
   },
   "351": {
@@ -1261,14 +1318,11 @@
     "base": 351,
     "reload_max": 240
   },
-  "253": {
-    "name": "撒丁雷击轻巡副炮T3",
-    "bullet_ID": [
-      2306
-    ],
-    "id": 253,
+  "233": {
+    "name": "铁血雷击轻巡副炮T3",
+    "id": 233,
     "damage": 7,
-    "base": 251,
+    "base": 231,
     "reload_max": 170
   }
 }

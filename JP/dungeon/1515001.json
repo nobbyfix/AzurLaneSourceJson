@@ -1,0 +1,235 @@
+{
+  "id": 1515001,
+  "fleet_prefab": [],
+  "map_id": 10001,
+  "stages": [
+    {
+      "timeCount": 300,
+      "failCondition": 1,
+      "playerArea": [
+        -80,
+        20,
+        45,
+        68
+      ],
+      "stageIndex": 1,
+      "totalArea": [
+        -80,
+        20,
+        90,
+        70
+      ],
+      "backGroundStageID": 1,
+      "fleetCorrdinate": [
+        -80,
+        0,
+        75
+      ],
+      "enemyArea": [],
+      "passCondition": 1,
+      "waves": [
+        {
+          "preWaves": [],
+          "waveIndex": 100,
+          "triggerType": 1,
+          "triggerParams": {
+            "timeout": 0.5
+          }
+        },
+        {
+          "preWaves": [
+            100
+          ],
+          "waveIndex": 400,
+          "triggerType": 5,
+          "triggerParams": {
+            "bgm": "battle-boss-4"
+          }
+        },
+        {
+          "preWaves": [
+            100
+          ],
+          "triggerType": 0,
+          "conditionType": 1,
+          "spawn": [
+            {
+              "phase": [
+                {
+                  "setAI": 20006,
+                  "switchTo": 1,
+                  "switchParam": 1.5,
+                  "switchType": 1,
+                  "index": 0
+                },
+                {
+                  "switchTo": 2,
+                  "removeWeapon": [],
+                  "addWeapon": [
+                    785001,
+                    785002
+                  ],
+                  "switchParam": 11,
+                  "switchType": 1,
+                  "index": 1
+                },
+                {
+                  "setAI": 10001,
+                  "switchTo": 3,
+                  "removeWeapon": [
+                    785001,
+                    785002
+                  ],
+                  "addWeapon": [
+                    785003
+                  ],
+                  "switchParam": 4,
+                  "switchType": 1,
+                  "index": 2
+                },
+                {
+                  "setAI": 70093,
+                  "switchTo": 4,
+                  "removeWeapon": [],
+                  "addWeapon": [
+                    785004
+                  ],
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 3
+                },
+                {
+                  "setAI": 10001,
+                  "switchTo": 5,
+                  "removeWeapon": [
+                    785003,
+                    785004
+                  ],
+                  "addWeapon": [
+                    785005
+                  ],
+                  "switchParam": 2.5,
+                  "switchType": 1,
+                  "index": 4
+                },
+                {
+                  "switchTo": 6,
+                  "removeWeapon": [],
+                  "addWeapon": [
+                    785006
+                  ],
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 5
+                },
+                {
+                  "setAI": 70093,
+                  "switchTo": 7,
+                  "removeWeapon": [
+                    785005,
+                    785006
+                  ],
+                  "addWeapon": [],
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 6
+                },
+                {
+                  "setAI": 70139,
+                  "switchTo": 8,
+                  "removeWeapon": [],
+                  "addWeapon": [
+                    785007
+                  ],
+                  "switchParam": 1.5,
+                  "switchType": 1,
+                  "index": 7
+                },
+                {
+                  "switchTo": 9,
+                  "removeWeapon": [],
+                  "addWeapon": [
+                    785008
+                  ],
+                  "switchParam": 7,
+                  "switchType": 1,
+                  "index": 8
+                },
+                {
+                  "setAI": 70093,
+                  "switchTo": 10,
+                  "removeWeapon": [],
+                  "addWeapon": [],
+                  "switchParam": 3,
+                  "switchType": 1,
+                  "index": 9
+                },
+                {
+                  "switchTo": 11,
+                  "removeWeapon": [
+                    785007,
+                    785008
+                  ],
+                  "addWeapon": [
+                    785009
+                  ],
+                  "switchParam": 1,
+                  "switchType": 1,
+                  "index": 10
+                },
+                {
+                  "switchTo": 12,
+                  "removeWeapon": [],
+                  "addWeapon": [
+                    785010
+                  ],
+                  "switchParam": 1.3,
+                  "switchType": 1,
+                  "index": 11
+                },
+                {
+                  "switchTo": 1,
+                  "removeWeapon": [
+                    785009,
+                    785010
+                  ],
+                  "addWeapon": [],
+                  "switchParam": 0.2,
+                  "switchType": 1,
+                  "index": 12
+                }
+              ],
+              "moveCast": true,
+              "score": 0,
+              "corrdinate": [
+                -5,
+                0,
+                55
+              ],
+              "buffList": [
+                8748
+              ],
+              "monsterTemplateID": 14705001,
+              "delay": 0,
+              "bossData": {
+                "icon": "ceshizhe",
+                "hpBarNum": 100
+              }
+            }
+          ],
+          "waveIndex": 101,
+          "key": true,
+          "triggerParam": []
+        },
+        {
+          "preWaves": [
+            101
+          ],
+          "waveIndex": 900,
+          "triggerType": 8,
+          "triggerParams": []
+        }
+      ]
+    }
+  ]
+}
