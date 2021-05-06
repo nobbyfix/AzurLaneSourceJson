@@ -1,23 +1,38 @@
 {
-  "65351": {
+  "65225": {
+    "id": 65225,
+    "base": 65221,
+    "damage": 100
+  },
+  "65227": {
+    "id": 65227,
+    "base": 65221,
+    "damage": 115
+  },
+  "65229": {
+    "id": 65229,
+    "base": 65221,
+    "damage": 130
+  },
+  "65231": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 120,
-    "reload_max": 500,
+    "angle": 180,
+    "reload_max": 1800,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "凪咲弹幕技能小子弹LV1",
-    "fire_fx": "CLFire",
+    "queue": 2,
+    "name": "大凤μ-吸血弹幕Lv1",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
-    "recover_time": 0.5,
+    "range": 72,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 10,
+    "expose": 10,
+    "attack_attribute_ratio": 80,
+    "damage": 35,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -26,58 +41,294 @@
     "oxy_type": [
       1
     ],
-    "id": 65351,
+    "id": 65231,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      80974,
-      80975
+      80958,
+      80959,
+      80960,
+      80961
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      19231,
-      19231
+      19217,
+      19218,
+      19219,
+      19220
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "65233": {
+    "id": 65233,
+    "base": 65231,
+    "name": "大凤μ-吸血弹幕Lv3",
+    "damage": 39
+  },
+  "65235": {
+    "id": 65235,
+    "base": 65231,
+    "name": "大凤μ-吸血弹幕Lv5",
+    "damage": 43
+  },
+  "65237": {
+    "id": 65237,
+    "base": 65231,
+    "name": "大凤μ-吸血弹幕Lv7",
+    "damage": 47
+  },
+  "65239": {
+    "id": 65239,
+    "base": 65231,
+    "name": "大凤μ-吸血弹幕Lv9",
+    "damage": 51
+  },
+  "65241": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 120,
+    "reload_max": 400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "罗恩μ追击鱼雷Lv1",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 30,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 65241,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      80962
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      19221
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "65353": {
-    "id": 65353,
-    "base": 65351,
-    "name": "凪咲弹幕技能小子弹LV3",
-    "damage": 12
+  "65243": {
+    "id": 65243,
+    "base": 65241,
+    "name": "罗恩μ追击鱼雷Lv3",
+    "damage": 34
   },
-  "65355": {
-    "id": 65355,
-    "base": 65351,
-    "name": "凪咲弹幕技能小子弹LV5",
-    "damage": 14
+  "65245": {
+    "id": 65245,
+    "base": 65241,
+    "name": "罗恩μ追击鱼雷Lv5",
+    "damage": 38
   },
-  "65357": {
-    "id": 65357,
-    "base": 65351,
-    "name": "凪咲弹幕技能小子弹LV7",
-    "damage": 16
+  "65247": {
+    "name": "罗恩μ追击鱼雷Lv7",
+    "barrage_ID": [
+      80962,
+      80963
+    ],
+    "id": 65247,
+    "bullet_ID": [
+      19221,
+      19221
+    ],
+    "base": 65241,
+    "damage": 42
   },
-  "65359": {
-    "id": 65359,
-    "base": 65351,
-    "name": "凪咲弹幕技能小子弹LV9",
-    "damage": 18
+  "65249": {
+    "name": "罗恩μ追击鱼雷Lv9",
+    "barrage_ID": [
+      80962,
+      80963
+    ],
+    "id": 65249,
+    "bullet_ID": [
+      19221,
+      19221
+    ],
+    "base": 65241,
+    "damage": 46
   },
-  "65361": {
+  "65251": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 0,
+    "shakescreen": 0,
+    "angle": 90,
+    "reload_max": 2070,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "光辉μ坠星Lv1",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 10,
+    "attack_attribute_ratio": 100,
+    "damage": 52,
+    "action_index": "attack",
+    "type": 10,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 65251,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      1500
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      65251
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "65253": {
+    "name": "光辉μ坠星Lv3",
+    "bullet_ID": [
+      65253
+    ],
+    "id": 65253,
+    "damage": 92,
+    "base": 65251,
+    "reload_max": 2000
+  },
+  "65255": {
+    "name": "光辉μ坠星Lv5",
+    "bullet_ID": [
+      65255
+    ],
+    "id": 65255,
+    "damage": 134,
+    "base": 65251,
+    "reload_max": 1930
+  },
+  "65257": {
+    "name": "光辉μ坠星Lv7",
+    "bullet_ID": [
+      65257
+    ],
+    "id": 65257,
+    "damage": 176,
+    "base": 65251,
+    "reload_max": 1860
+  },
+  "65259": {
+    "name": "光辉μ坠星Lv9",
+    "bullet_ID": [
+      65259
+    ],
+    "id": 65259,
+    "damage": 218,
+    "base": 65251,
+    "reload_max": 1790
+  },
+  "65261": {
+    "search_type": 2,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 45,
+    "reload_max": 9500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "前射式星x6",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 80,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 55,
+    "action_index": "",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 65261,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      80964
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      19222
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": -10
+  },
+  "65263": {
+    "id": 65263,
+    "base": 65261,
+    "damage": 75
+  },
+  "65265": {
+    "id": 65265,
+    "base": 65261,
+    "damage": 95
+  },
+  "65267": {
+    "id": 65267,
+    "base": 65261,
+    "damage": 115
+  },
+  "65269": {
+    "id": 65269,
+    "base": 65261,
+    "damage": 135
+  },
+  "65271": {
+    "search_type": 1,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
     "reload_max": 280,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "莫妮卡扑克牌Lv1",
+    "name": "玛莉萝丝反击弹幕技能Lv1",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
@@ -96,15 +347,15 @@
     "oxy_type": [
       1
     ],
-    "id": 65361,
+    "id": 65271,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      80976
+      80965
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      19232
+      19223
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -113,196 +364,245 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "65363": {
-    "id": 65363,
-    "base": 65361,
-    "name": "莫妮卡扑克牌Lv3",
+  "65273": {
+    "id": 65273,
+    "base": 65271,
+    "name": "玛莉萝丝反击弹幕技能Lv3",
     "damage": 10
   },
-  "65365": {
-    "id": 65365,
-    "base": 65361,
-    "name": "莫妮卡扑克牌Lv5",
+  "65275": {
+    "id": 65275,
+    "base": 65271,
+    "name": "玛莉萝丝反击弹幕技能Lv5",
     "damage": 14
   },
-  "65367": {
-    "id": 65367,
-    "base": 65361,
-    "name": "莫妮卡扑克牌Lv7",
-    "damage": 18
+  "65216": {
+    "id": 65216,
+    "base": 65211,
+    "damage": 245
   },
-  "65369": {
-    "id": 65369,
-    "base": 65361,
-    "name": "莫妮卡扑克牌Lv9",
-    "damage": 22
+  "65218": {
+    "id": 65218,
+    "base": 65211,
+    "damage": 283
   },
-  "65371": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 280,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "莫妮卡特殊弹Lv1",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 100,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 10,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 65371,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      80976
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      19233
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
+  "65220": {
+    "id": 65220,
+    "base": 65211,
+    "damage": 322
   },
-  "65373": {
-    "id": 65373,
-    "base": 65371,
-    "name": "莫妮卡特殊弹Lv3",
-    "damage": 14
+  "65222": {
+    "id": 65222,
+    "base": 65221,
+    "damage": 78
   },
-  "65375": {
-    "id": 65375,
-    "base": 65371,
-    "name": "莫妮卡特殊弹Lv5",
-    "damage": 18
+  "65224": {
+    "id": 65224,
+    "base": 65221,
+    "damage": 93
   },
-  "65377": {
-    "id": 65377,
-    "base": 65371,
-    "name": "莫妮卡特殊弹Lv7",
-    "damage": 22
-  },
-  "65379": {
-    "id": 65379,
-    "base": 65371,
-    "name": "莫妮卡特殊弹Lv9",
-    "damage": 26
-  },
-  "65381": {
-    "search_type": 1,
-    "attack_attribute": 0,
-    "shakescreen": 0,
-    "angle": 90,
-    "reload_max": 1890,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "女天狗沙排啾轰炸机Lv1",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 10,
-    "attack_attribute_ratio": 100,
-    "damage": 66,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 65381,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12008
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      65381
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "65383": {
-    "name": "女天狗沙排啾轰炸机Lv3",
-    "id": 65383,
-    "bullet_ID": [
-      65383
-    ],
-    "base": 65381,
+  "65226": {
+    "id": 65226,
+    "base": 65221,
     "damage": 108
   },
-  "65385": {
-    "name": "女天狗沙排啾轰炸机Lv5",
-    "barrage_ID": [
-      12009
-    ],
-    "id": 65385,
-    "bullet_ID": [
-      65385
-    ],
-    "base": 65381,
-    "damage": 152
+  "65228": {
+    "id": 65228,
+    "base": 65221,
+    "damage": 123
   },
-  "65387": {
-    "name": "女天狗沙排啾轰炸机Lv7",
-    "barrage_ID": [
-      12010
-    ],
-    "id": 65387,
-    "bullet_ID": [
-      65387
-    ],
-    "base": 65381,
-    "damage": 196
+  "65230": {
+    "id": 65230,
+    "base": 65221,
+    "damage": 138
   },
-  "65389": {
-    "name": "女天狗沙排啾轰炸机Lv9",
-    "barrage_ID": [
-      12010
-    ],
-    "id": 65389,
-    "bullet_ID": [
-      65389
-    ],
-    "base": 65381,
-    "damage": 238
+  "65232": {
+    "id": 65232,
+    "base": 65231,
+    "name": "大凤μ-吸血弹幕Lv2",
+    "damage": 37
   },
-  "65391": {
+  "65234": {
+    "id": 65234,
+    "base": 65231,
+    "name": "大凤μ-吸血弹幕Lv4",
+    "damage": 41
+  },
+  "65236": {
+    "id": 65236,
+    "base": 65231,
+    "name": "大凤μ-吸血弹幕Lv6",
+    "damage": 45
+  },
+  "65238": {
+    "id": 65238,
+    "base": 65231,
+    "name": "大凤μ-吸血弹幕Lv8",
+    "damage": 49
+  },
+  "65240": {
+    "id": 65240,
+    "base": 65231,
+    "name": "大凤μ-吸血弹幕Lv10",
+    "damage": 53
+  },
+  "65242": {
+    "id": 65242,
+    "base": 65241,
+    "name": "罗恩μ追击鱼雷Lv2",
+    "damage": 32
+  },
+  "65244": {
+    "id": 65244,
+    "base": 65241,
+    "name": "罗恩μ追击鱼雷Lv4",
+    "damage": 36
+  },
+  "65246": {
+    "id": 65246,
+    "base": 65241,
+    "name": "罗恩μ追击鱼雷Lv6",
+    "damage": 40
+  },
+  "65248": {
+    "name": "罗恩μ追击鱼雷Lv8",
+    "barrage_ID": [
+      80962,
+      80963
+    ],
+    "id": 65248,
+    "bullet_ID": [
+      19221,
+      19221
+    ],
+    "base": 65241,
+    "damage": 44
+  },
+  "65250": {
+    "name": "罗恩μ追击鱼雷Lv10",
+    "barrage_ID": [
+      80962,
+      80963
+    ],
+    "id": 65250,
+    "bullet_ID": [
+      19221,
+      19221
+    ],
+    "base": 65241,
+    "damage": 50
+  },
+  "65252": {
+    "name": "光辉μ坠星Lv2",
+    "bullet_ID": [
+      65252
+    ],
+    "id": 65252,
+    "damage": 72,
+    "base": 65251,
+    "reload_max": 2035
+  },
+  "65254": {
+    "name": "光辉μ坠星Lv4",
+    "bullet_ID": [
+      65254
+    ],
+    "id": 65254,
+    "damage": 113,
+    "base": 65251,
+    "reload_max": 1965
+  },
+  "65256": {
+    "name": "光辉μ坠星Lv6",
+    "bullet_ID": [
+      65256
+    ],
+    "id": 65256,
+    "damage": 155,
+    "base": 65251,
+    "reload_max": 1895
+  },
+  "65258": {
+    "name": "光辉μ坠星Lv8",
+    "bullet_ID": [
+      65258
+    ],
+    "id": 65258,
+    "damage": 197,
+    "base": 65251,
+    "reload_max": 1825
+  },
+  "65260": {
+    "name": "光辉μ坠星Lv10",
+    "bullet_ID": [
+      65260
+    ],
+    "id": 65260,
+    "damage": 239,
+    "base": 65251,
+    "reload_max": 1755
+  },
+  "65262": {
+    "id": 65262,
+    "base": 65261,
+    "damage": 65
+  },
+  "65264": {
+    "id": 65264,
+    "base": 65261,
+    "damage": 85
+  },
+  "65266": {
+    "id": 65266,
+    "base": 65261,
+    "damage": 105
+  },
+  "65268": {
+    "id": 65268,
+    "base": 65261,
+    "damage": 125
+  },
+  "65270": {
+    "id": 65270,
+    "base": 65261,
+    "damage": 145
+  },
+  "65272": {
+    "id": 65272,
+    "base": 65271,
+    "name": "玛莉萝丝反击弹幕技能Lv2",
+    "damage": 8
+  },
+  "65274": {
+    "id": 65274,
+    "base": 65271,
+    "name": "玛莉萝丝反击弹幕技能Lv4",
+    "damage": 12
+  },
+  "65215": {
+    "id": 65215,
+    "base": 65211,
+    "damage": 226
+  },
+  "65217": {
+    "id": 65217,
+    "base": 65211,
+    "damage": 264
+  },
+  "65219": {
+    "id": 65219,
+    "base": 65211,
+    "damage": 302
+  },
+  "65221": {
     "search_type": 2,
     "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 19,
+    "angle": 25,
     "reload_max": 9500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "1 x 1000lb Bomb",
+    "name": "2 x 100lb Bomb",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
@@ -312,7 +612,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 80,
-    "damage": 150,
+    "damage": 70,
     "action_index": "",
     "type": 2,
     "search_condition": [
@@ -321,376 +621,26 @@
     "oxy_type": [
       1
     ],
-    "id": 65391,
+    "id": 65221,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      2120
+      2121
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      19234
+      19216
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "",
     "effect_move": 0,
-    "axis_angle": 19
+    "axis_angle": 25
   },
-  "65330": {
-    "id": 65330,
-    "base": 65321,
-    "name": "穗香弹幕LV10-类佐治亚超重弹2枚-PVP",
-    "damage": 170
-  },
-  "65332": {
-    "id": 65332,
-    "base": 65331,
-    "name": "海咲强化石弹幕Lv2",
-    "damage": 11
-  },
-  "65334": {
-    "id": 65334,
-    "base": 65331,
-    "name": "海咲强化石弹幕Lv4",
-    "damage": 13
-  },
-  "65336": {
-    "id": 65336,
-    "base": 65331,
-    "name": "海咲强化石弹幕Lv6",
-    "damage": 15
-  },
-  "65338": {
-    "id": 65338,
-    "base": 65331,
-    "name": "海咲强化石弹幕Lv8",
-    "damage": 17
-  },
-  "65340": {
-    "id": 65340,
-    "base": 65331,
-    "name": "海咲强化石弹幕Lv10",
-    "damage": 20
-  },
-  "65342": {
-    "id": 65342,
-    "base": 65341,
-    "name": "凪咲弹幕技能LV2",
-    "damage": 52
-  },
-  "65344": {
-    "id": 65344,
-    "base": 65341,
-    "name": "凪咲弹幕技能LV4",
-    "damage": 66
-  },
-  "65346": {
-    "id": 65346,
-    "base": 65341,
-    "name": "凪咲弹幕技能LV6",
-    "damage": 80
-  },
-  "65348": {
-    "id": 65348,
-    "base": 65341,
-    "name": "凪咲弹幕技能LV8",
-    "damage": 94
-  },
-  "65350": {
-    "id": 65350,
-    "base": 65341,
-    "name": "凪咲弹幕技能LV10",
-    "damage": 108
-  },
-  "65352": {
-    "id": 65352,
-    "base": 65351,
-    "name": "凪咲弹幕技能小子弹LV2",
-    "damage": 11
-  },
-  "65354": {
-    "id": 65354,
-    "base": 65351,
-    "name": "凪咲弹幕技能小子弹LV4",
-    "damage": 13
-  },
-  "65356": {
-    "id": 65356,
-    "base": 65351,
-    "name": "凪咲弹幕技能小子弹LV6",
-    "damage": 15
-  },
-  "65358": {
-    "id": 65358,
-    "base": 65351,
-    "name": "凪咲弹幕技能小子弹LV8",
-    "damage": 17
-  },
-  "65360": {
-    "id": 65360,
-    "base": 65351,
-    "name": "凪咲弹幕技能小子弹LV10",
-    "damage": 20
-  },
-  "65362": {
-    "id": 65362,
-    "base": 65361,
-    "name": "莫妮卡扑克牌Lv2",
-    "damage": 8
-  },
-  "65364": {
-    "id": 65364,
-    "base": 65361,
-    "name": "莫妮卡扑克牌Lv4",
-    "damage": 12
-  },
-  "65366": {
-    "id": 65366,
-    "base": 65361,
-    "name": "莫妮卡扑克牌Lv6",
-    "damage": 16
-  },
-  "65368": {
-    "id": 65368,
-    "base": 65361,
-    "name": "莫妮卡扑克牌Lv8",
-    "damage": 20
-  },
-  "65370": {
-    "id": 65370,
-    "base": 65361,
-    "name": "莫妮卡扑克牌Lv10",
-    "damage": 25
-  },
-  "65372": {
-    "id": 65372,
-    "base": 65371,
-    "name": "莫妮卡特殊弹Lv2",
-    "damage": 12
-  },
-  "65374": {
-    "id": 65374,
-    "base": 65371,
-    "name": "莫妮卡特殊弹Lv4",
-    "damage": 16
-  },
-  "65376": {
-    "id": 65376,
-    "base": 65371,
-    "name": "莫妮卡特殊弹Lv6",
-    "damage": 20
-  },
-  "65378": {
-    "id": 65378,
-    "base": 65371,
-    "name": "莫妮卡特殊弹Lv8",
-    "damage": 24
-  },
-  "65380": {
-    "id": 65380,
-    "base": 65371,
-    "name": "莫妮卡特殊弹Lv10",
-    "damage": 30
-  },
-  "65382": {
-    "name": "女天狗沙排啾轰炸机Lv2",
-    "id": 65382,
-    "bullet_ID": [
-      65382
-    ],
-    "base": 65381,
-    "damage": 88
-  },
-  "65384": {
-    "name": "女天狗沙排啾轰炸机Lv4",
-    "barrage_ID": [
-      12009
-    ],
-    "id": 65384,
-    "bullet_ID": [
-      65384
-    ],
-    "base": 65381,
-    "damage": 130
-  },
-  "65386": {
-    "name": "女天狗沙排啾轰炸机Lv6",
-    "barrage_ID": [
-      12009
-    ],
-    "id": 65386,
-    "bullet_ID": [
-      65386
-    ],
-    "base": 65381,
-    "damage": 174
-  },
-  "65388": {
-    "name": "女天狗沙排啾轰炸机Lv8",
-    "barrage_ID": [
-      12010
-    ],
-    "id": 65388,
-    "bullet_ID": [
-      65388
-    ],
-    "base": 65381,
-    "damage": 216
-  },
-  "65390": {
-    "name": "女天狗沙排啾轰炸机Lv10",
-    "barrage_ID": [
-      12010
-    ],
-    "id": 65390,
-    "bullet_ID": [
-      65390
-    ],
-    "base": 65381,
-    "damage": 260
-  },
-  "65331": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 120,
-    "reload_max": 3000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "海咲强化石弹幕Lv1",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 50,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 10,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 65331,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      80555,
-      80556,
-      80557
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      19229,
-      19229,
-      19229
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "65333": {
-    "id": 65333,
-    "base": 65331,
-    "name": "海咲强化石弹幕Lv3",
-    "damage": 12
-  },
-  "65335": {
-    "id": 65335,
-    "base": 65331,
-    "name": "海咲强化石弹幕Lv5",
-    "damage": 14
-  },
-  "65337": {
-    "id": 65337,
-    "base": 65331,
-    "name": "海咲强化石弹幕Lv7",
-    "damage": 16
-  },
-  "65339": {
-    "id": 65339,
-    "base": 65331,
-    "name": "海咲强化石弹幕Lv9",
-    "damage": 18
-  },
-  "65341": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 120,
-    "reload_max": 500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "凪咲弹幕技能LV1",
-    "fire_fx": "zhupao",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 46,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 65341,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      80972,
-      80973
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      19230,
-      19230
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-356mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "65343": {
-    "id": 65343,
-    "base": 65341,
-    "name": "凪咲弹幕技能LV3",
-    "damage": 59
-  },
-  "65345": {
-    "id": 65345,
-    "base": 65341,
-    "name": "凪咲弹幕技能LV5",
-    "damage": 73
-  },
-  "65347": {
-    "id": 65347,
-    "base": 65341,
-    "name": "凪咲弹幕技能LV7",
-    "damage": 87
-  },
-  "65349": {
-    "id": 65349,
-    "base": 65341,
-    "name": "凪咲弹幕技能LV9",
-    "damage": 101
+  "65223": {
+    "id": 65223,
+    "base": 65221,
+    "damage": 85
   }
 }
