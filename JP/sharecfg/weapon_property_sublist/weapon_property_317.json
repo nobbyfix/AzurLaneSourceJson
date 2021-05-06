@@ -137,49 +137,49 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680109": {
+  "680111": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 999,
-    "reload_max": 1500,
+    "angle": 360,
+    "reload_max": 600,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【2020英系活动B1】精英人形U522 快速自机狙鱼雷",
-    "fire_fx": "",
+    "queue": 6,
+    "name": "【2020英系活动B1】精英人形U522 变向弹幕",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 120,
-    "recover_time": 0.5,
+    "range": 90,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 22,
+    "damage": 14,
     "action_index": "attack",
-    "type": 3,
+    "type": 1,
     "search_condition": [
-      1,
-      2
+      1
     ],
     "oxy_type": [
-      1,
-      2
+      1
     ],
-    "id": 680109,
-    "spawn_bound": "torpedo",
+    "id": 680111,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      700020
+      990241,
+      990242
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      750007
+      750010,
+      750011
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
+    "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -227,25 +227,30 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680041": {
+  "680112": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 300,
+    "angle": 180,
+    "reload_max": 800,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【2020英系活动A2】BOSS 希佩尔 第一波 开幕主炮射击",
-    "fire_fx": "CAFire",
+    "name": "【2020英系活动B2】道中人形Z1 3way自机狙穿透弹",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 120,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 0.5,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 18,
+    "damage": 14,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -254,15 +259,19 @@
     "oxy_type": [
       1
     ],
-    "id": 680041,
+    "id": 680112,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      740027
+      300115,
+      300116,
+      300117
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      750133
+      300115,
+      300116,
+      300117
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -317,25 +326,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680110": {
+  "680113": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 600,
+    "reload_max": 800,
     "torpedo_ammo": 0,
-    "queue": 5,
-    "name": "【2020英系活动B1】精英人形U522 变向弹幕",
+    "queue": 1,
+    "name": "【2020英系活动B2】道中人形Z2 广域射击",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
-    "recover_time": 0,
+    "range": 60,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 14,
+    "damage": 10,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -344,17 +353,29 @@
     "oxy_type": [
       1
     ],
-    "id": 680110,
+    "id": 680113,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      990001,
-      990002
+      740039,
+      740040,
+      740041,
+      740042,
+      740043,
+      740044,
+      740045,
+      740046
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      750008,
-      750009
+      1206,
+      1206,
+      1206,
+      1206,
+      1206,
+      1206,
+      1206,
+      1206
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -413,84 +434,48 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680040": {
+  "680114": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 9999,
+    "angle": 120,
+    "reload_max": 800,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【2020英系活动A2】BOSS 希佩尔 第三波 十字旋转弹幕",
-    "fire_fx": "CAFire",
+    "queue": 1,
+    "name": "【2020英系活动B2】道中人形Z36 魔力猛击",
+    "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 120,
-    "recover_time": 0,
+    "suppress": 1,
+    "range": 60,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 16,
-    "action_index": "",
-    "type": 2,
+    "damage": 12,
+    "action_index": "attack",
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 680040,
+    "id": 680114,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      760050,
-      760051,
-      760052,
-      760053,
-      760054,
-      760055,
-      760056,
-      760057,
-      760058,
-      760059,
-      760060,
-      760061,
-      760062,
-      760063,
-      760064,
-      760065,
-      760066,
-      760067,
-      760068,
-      760069
+      760026,
+      760027
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      750028,
-      750028,
-      750028,
-      750028,
-      750028,
-      750029,
-      750029,
-      750029,
-      750029,
-      750029,
-      750028,
-      750028,
-      750028,
-      750028,
-      750028,
-      750029,
-      750029,
-      750029,
-      750029,
-      750029
+      750012,
+      750012
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
@@ -539,49 +524,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680111": {
+  "680115": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 600,
+    "angle": 180,
+    "reload_max": 1600,
     "torpedo_ammo": 0,
-    "queue": 6,
-    "name": "【2020英系活动B1】精英人形U522 变向弹幕",
-    "fire_fx": "CLFire",
+    "queue": 2,
+    "name": "【2020英系活动B2】道中人形欧根亲王/希佩尔 四联装磁性鱼雷",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
+    "range": 72,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 14,
-    "action_index": "attack",
-    "type": 1,
+    "damage": 40,
+    "action_index": "",
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 680111,
-    "spawn_bound": "cannon",
+    "id": 680115,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      990241,
-      990242
+      1403
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      750010,
-      750011
+      1803
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
+    "initial_over_heat": 1,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -629,49 +612,49 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680039": {
+  "680116": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 9999,
+    "reload_max": 1000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【2020英系活动A2】BOSS 希佩尔 第三波 圆形扩散子母弹",
-    "fire_fx": "CLFire",
+    "name": "【2020英系活动B2】道中人形欧根亲王 主炮射击1",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 120,
+    "suppress": 0,
+    "range": 90,
     "recover_time": 0,
-    "fire_fx_loop_type": 3,
+    "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
+    "damage": 18,
     "action_index": "attack",
-    "type": 2,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 680039,
+    "id": 680116,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      760047,
-      760048
+      200140,
+      200141
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      750025,
-      750026
+      20003,
+      20003
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -719,55 +702,52 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680112": {
+  "680028": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 800,
+    "reload_max": 1000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【2020英系活动B2】道中人形Z1 3way自机狙穿透弹",
+    "name": "【2020英系活动A2】精英人形希佩尔海军上将 大范围鱼雷",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
     "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 2,
-      "fx": "jinengenemy",
-      "time": 0.5,
-      "isBound": true
-    },
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 14,
-    "action_index": "attack",
-    "type": 1,
+    "damage": 32,
+    "action_index": "",
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 680112,
-    "spawn_bound": "cannon",
+    "id": 680028,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      300115,
-      300116,
-      300117
+      140005,
+      140006,
+      140007,
+      140008
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      300115,
-      300116,
-      300117
+      140005,
+      140006,
+      140007,
+      140008
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
@@ -816,47 +796,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680038": {
+  "680029": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 3,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 600,
+    "reload_max": 500,
     "torpedo_ammo": 0,
-    "queue": 5,
-    "name": "【2020英系活动A2】BOSS 希佩尔 常驻 近程自卫火炮",
-    "fire_fx": "CLFire",
+    "queue": 1,
+    "name": "【2020英系活动A2】道中人形希佩尔海军上将 主炮射击3",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
+    "range": 80,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 8,
+    "damage": 15,
     "action_index": "attack",
-    "type": 2,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 680038,
+    "id": 680029,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      11
+      200120
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      999
+      140003
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -925,61 +905,57 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680113": {
+  "680030": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 800,
+    "angle": 180,
+    "reload_max": 9999,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【2020英系活动B2】道中人形Z2 广域射击",
-    "fire_fx": "CLFire",
+    "name": "【2020英系活动A1】BOSS U73 开幕鱼雷1",
+    "fire_fx": "",
     "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
+    "suppress": 0,
+    "range": 120,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
+    "damage": 30,
     "action_index": "attack",
-    "type": 1,
+    "type": 3,
     "search_condition": [
-      1
+      1,
+      2
     ],
     "oxy_type": [
-      1
+      1,
+      2
     ],
-    "id": 680113,
-    "spawn_bound": "cannon",
+    "id": 680030,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      740039,
-      740040,
-      740041,
-      740042,
-      740043,
-      740044,
-      740045,
-      740046
+      760001,
+      760002,
+      760004,
+      760005,
+      760037
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1206,
-      1206,
-      1206,
-      1206,
-      1206,
-      1206,
-      1206,
-      1206
+      750003,
+      750002,
+      750002,
+      750003,
+      750005
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 0,
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1035,49 +1011,51 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680114": {
+  "680031": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 120,
-    "reload_max": 800,
+    "angle": 180,
+    "reload_max": 9999,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【2020英系活动B2】道中人形Z36 魔力猛击",
-    "fire_fx": "CLFire",
+    "name": "【2020英系活动A1】BOSS U73 开幕鱼雷2",
+    "fire_fx": "",
     "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
+    "suppress": 0,
+    "range": 120,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
+    "damage": 30,
     "action_index": "attack",
-    "type": 1,
+    "type": 3,
     "search_condition": [
-      1
+      1,
+      2
     ],
     "oxy_type": [
-      1
+      1,
+      2
     ],
-    "id": 680114,
-    "spawn_bound": "cannon",
+    "id": 680031,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      760026,
-      760027
+      760038,
+      760039
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      750012,
-      750012
+      750007,
+      750007
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1133,46 +1111,54 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680115": {
+  "680032": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1600,
+    "angle": 360,
+    "reload_max": 9999,
     "torpedo_ammo": 0,
     "queue": 2,
-    "name": "【2020英系活动B2】道中人形欧根亲王/希佩尔 四联装磁性鱼雷",
+    "name": "【2020英系活动A1】BOSS U73 第一波 十字弹幕子母弹",
     "fire_fx": "",
     "charge_param": "",
-    "suppress": 1,
-    "range": 72,
+    "suppress": 0,
+    "range": 120,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 40,
+    "damage": 12,
     "action_index": "",
-    "type": 3,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 680115,
-    "spawn_bound": "torpedo",
+    "id": 680032,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      1403
+      760032,
+      760033,
+      760034,
+      760035,
+      760036
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1803
+      750018,
+      750019,
+      750020,
+      750021,
+      750022
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
+    "initial_over_heat": 0,
+    "aim_type": 0,
     "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
@@ -1229,49 +1215,51 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680116": {
+  "680033": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1000,
+    "reload_max": 500,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【2020英系活动B2】道中人形欧根亲王 主炮射击1",
-    "fire_fx": "CAFire",
+    "queue": 5,
+    "name": "【2020英系活动A1】BOSS U73 常驻 3way驱逐炮",
+    "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 90,
+    "suppress": 1,
+    "range": 60,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 18,
+    "damage": 7,
     "action_index": "attack",
-    "type": 1,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 680116,
+    "id": 680033,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      200140,
-      200141
+      1417,
+      1001,
+      1418
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      20003,
-      20003
+      1203,
+      1203,
+      1203
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1997,73 +1985,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680104": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 2400,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【2020英系活动B1】潜艇精英人形通用 6+5双排鱼雷",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 120,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 22,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1,
-      2
-    ],
-    "oxy_type": [
-      1,
-      2
-    ],
-    "id": 680104,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      760014,
-      760015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      750007,
-      1821
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "680136": {
+  "680041": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 100,
+    "reload_max": 300,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【2020英系活动B1】BOSS U81 第二波  扇形弹幕",
+    "queue": 1,
+    "name": "【2020英系活动A2】BOSS 希佩尔 第一波 开幕主炮射击",
     "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 0,
+    "suppress": 1,
     "range": 120,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 6,
+    "damage": 18,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -2072,192 +2012,36 @@
     "oxy_type": [
       1
     ],
-    "id": 680136,
+    "id": 680041,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      760093,
-      760094,
-      760095,
-      760096
+      740027
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      750042,
-      750042,
-      750042,
-      750042
+      750133
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680105": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 999,
-    "reload_max": 1500,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【2020英系活动B1】精英人形U73 快速自机狙鱼雷",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 120,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 22,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1,
-      2
-    ],
-    "oxy_type": [
-      1,
-      2
-    ],
-    "id": 680105,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      700020
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      750007
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "680137": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 9999,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【2020英系活动B1】BOSS U81 第三波 双排鱼雷",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 120,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 22,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1,
-      2
-    ],
-    "oxy_type": [
-      1,
-      2
-    ],
-    "id": 680137,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      760115,
-      760116
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      750007,
-      1821
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "680106": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 999,
-    "reload_max": 1800,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【2020英系活动B1】精英人形U73 3way自机狙鱼雷",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 120,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 22,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1,
-      2
-    ],
-    "oxy_type": [
-      1,
-      2
-    ],
-    "id": 680106,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      760008,
-      760009,
-      760010,
-      760011,
-      760012,
-      760013
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1821,
-      1821,
-      1821,
-      1821,
-      1821,
-      1821
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "680138": {
+  "680110": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 9999,
+    "reload_max": 600,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【2020英系活动B1】BOSS U81 第三波 变向弹幕",
+    "queue": 5,
+    "name": "【2020英系活动B1】精英人形U522 变向弹幕",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 120,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
@@ -2272,7 +2056,7 @@
     "oxy_type": [
       1
     ],
-    "id": 680138,
+    "id": 680110,
     "spawn_bound": "cannon",
     "barrage_ID": [
       990001,
@@ -2287,342 +2071,6 @@
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "680044": {
-    "search_type": 1,
-    "attack_attribute": 3,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 300,
-    "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【2020英系活动A2】BOSS 希佩尔 第三波 主炮自机狙",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 15,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 680044,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      760233
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      20003
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "680139": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 9999,
-    "torpedo_ammo": 0,
-    "queue": 4,
-    "name": "【2020英系活动B1】BOSS U81 第三波 变向弹幕",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 120,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 14,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 680139,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      990241,
-      990242
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      750010,
-      750011
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "680045": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 200,
-    "torpedo_ammo": 0,
-    "queue": 5,
-    "name": "【2020英系活动A3】BOSS 侵扰者III型 电击疗法",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 28,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 7,
-    "action_index": "",
-    "type": 17,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 680045,
-    "spawn_bound": "lighting",
-    "barrage_ID": [
-      690081
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      750034
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "680140": {
-    "search_type": 2,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 2000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【2020英系活动B2】BOSS 领洋者III型 三重鱼雷 ",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 120,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 24,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 680140,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      690048,
-      690049,
-      690050
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      690008,
-      690008,
-      690008
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "680046": {
-    "search_type": 2,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 9999,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【2020英系活动A3】BOSS 侵扰者III型 第三波 四重鱼雷 ",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 120,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 20,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 680046,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      690060,
-      690061,
-      690062,
-      690063
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      690020,
-      690020,
-      690020,
-      690020
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "680141": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 900,
-    "torpedo_ammo": 0,
-    "queue": 4,
-    "name": "【2020英系活动B2】BOSS 领洋者III型 主炮扫射",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 15,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 680141,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      690041,
-      690042,
-      690043,
-      690044,
-      690045
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      815,
-      815,
-      815,
-      815,
-      815
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "680047": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 9999,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【2020英系活动A3】BOSS 侵扰者III型 第三波 副炮封锁线",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 120,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 680047,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      760110,
-      760111,
-      760112,
-      760113,
-      760114
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      750057,
-      750057,
-      750057,
-      750057,
-      750057
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
     "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
@@ -2673,54 +2121,102 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680048": {
+  "680109": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 9999,
+    "angle": 999,
+    "reload_max": 1500,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【2020英系活动A3】BOSS 侵扰者III型 第三波 锥形轨道弹幕",
-    "fire_fx": "CLFire",
+    "queue": 2,
+    "name": "【2020英系活动B1】精英人形U522 快速自机狙鱼雷",
+    "fire_fx": "",
     "charge_param": "",
-    "suppress": 0,
+    "suppress": 1,
     "range": 120,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
+    "damage": 22,
     "action_index": "attack",
-    "type": 2,
+    "type": 3,
+    "search_condition": [
+      1,
+      2
+    ],
+    "oxy_type": [
+      1,
+      2
+    ],
+    "id": 680109,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      700020
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      750007
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "680043": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 9999,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【2020英系活动A2】BOSS 希佩尔 第二波 主炮射击",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 120,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 15,
+    "action_index": "attack",
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 680048,
+    "id": 680043,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      690069,
-      690070,
-      690071,
-      690072,
-      690073
+      760234,
+      760235,
+      760236,
+      760237,
+      760238,
+      760239
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      690015,
-      690016,
-      690017,
-      690018,
-      690019
+      750033,
+      750033,
+      750033,
+      750033,
+      750033,
+      750033
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
@@ -2789,6 +2285,486 @@
     "effect_move": 0,
     "axis_angle": 0
   },
+  "680044": {
+    "search_type": 1,
+    "attack_attribute": 3,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 300,
+    "torpedo_ammo": 0,
+    "queue": 3,
+    "name": "【2020英系活动A2】BOSS 希佩尔 第三波 主炮自机狙",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 80,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 15,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 680044,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      760233
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      20003
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "680107": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 999,
+    "reload_max": 1500,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【2020英系活动B1】精英人形U101 快速自机狙鱼雷",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 120,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 22,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1,
+      2
+    ],
+    "oxy_type": [
+      1,
+      2
+    ],
+    "id": 680107,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      700020
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      750007
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "680045": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 200,
+    "torpedo_ammo": 0,
+    "queue": 5,
+    "name": "【2020英系活动A3】BOSS 侵扰者III型 电击疗法",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 28,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 7,
+    "action_index": "",
+    "type": 17,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 680045,
+    "spawn_bound": "lighting",
+    "barrage_ID": [
+      690081
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      750034
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "680038": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 600,
+    "torpedo_ammo": 0,
+    "queue": 5,
+    "name": "【2020英系活动A2】BOSS 希佩尔 常驻 近程自卫火炮",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 38,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 8,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 680038,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      11
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      999
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "680046": {
+    "search_type": 2,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 9999,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【2020英系活动A3】BOSS 侵扰者III型 第三波 四重鱼雷 ",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 120,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 20,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 680046,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      690060,
+      690061,
+      690062,
+      690063
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      690020,
+      690020,
+      690020,
+      690020
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "680106": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 999,
+    "reload_max": 1800,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【2020英系活动B1】精英人形U73 3way自机狙鱼雷",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 120,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 22,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1,
+      2
+    ],
+    "oxy_type": [
+      1,
+      2
+    ],
+    "id": 680106,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      760008,
+      760009,
+      760010,
+      760011,
+      760012,
+      760013
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1821,
+      1821,
+      1821,
+      1821,
+      1821,
+      1821
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "680047": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 9999,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【2020英系活动A3】BOSS 侵扰者III型 第三波 副炮封锁线",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 120,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 8,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 680047,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      760110,
+      760111,
+      760112,
+      760113,
+      760114
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      750057,
+      750057,
+      750057,
+      750057,
+      750057
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "680039": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 9999,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【2020英系活动A2】BOSS 希佩尔 第三波 圆形扩散子母弹",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 120,
+    "recover_time": 0,
+    "fire_fx_loop_type": 3,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 12,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 680039,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      760047,
+      760048
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      750025,
+      750026
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "680048": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 9999,
+    "torpedo_ammo": 0,
+    "queue": 3,
+    "name": "【2020英系活动A3】BOSS 侵扰者III型 第三波 锥形轨道弹幕",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 120,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 10,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 680048,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      690069,
+      690070,
+      690071,
+      690072,
+      690073
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      690015,
+      690016,
+      690017,
+      690018,
+      690019
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "680105": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 999,
+    "reload_max": 1500,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【2020英系活动B1】精英人形U73 快速自机狙鱼雷",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 120,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 22,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1,
+      2
+    ],
+    "oxy_type": [
+      1,
+      2
+    ],
+    "id": 680105,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      700020
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      750007
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
   "680049": {
     "search_type": 2,
     "attack_attribute": 2,
@@ -2833,7 +2809,7 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680043": {
+  "680040": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
@@ -2841,48 +2817,76 @@
     "reload_max": 9999,
     "torpedo_ammo": 0,
     "queue": 2,
-    "name": "【2020英系活动A2】BOSS 希佩尔 第二波 主炮射击",
-    "fire_fx": "CLFire",
+    "name": "【2020英系活动A2】BOSS 希佩尔 第三波 十字旋转弹幕",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
+    "suppress": 0,
     "range": 120,
-    "recover_time": 0.5,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 15,
-    "action_index": "attack",
-    "type": 1,
+    "damage": 16,
+    "action_index": "",
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 680043,
+    "id": 680040,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      760234,
-      760235,
-      760236,
-      760237,
-      760238,
-      760239
+      760050,
+      760051,
+      760052,
+      760053,
+      760054,
+      760055,
+      760056,
+      760057,
+      760058,
+      760059,
+      760060,
+      760061,
+      760062,
+      760063,
+      760064,
+      760065,
+      760066,
+      760067,
+      760068,
+      760069
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      750033,
-      750033,
-      750033,
-      750033,
-      750033,
-      750033
+      750028,
+      750028,
+      750028,
+      750028,
+      750028,
+      750029,
+      750029,
+      750029,
+      750029,
+      750029,
+      750028,
+      750028,
+      750028,
+      750028,
+      750028,
+      750029,
+      750029,
+      750029,
+      750029,
+      750029
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
@@ -2938,18 +2942,18 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680107": {
+  "680104": {
     "search_type": 1,
     "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 999,
-    "reload_max": 1500,
+    "angle": 180,
+    "reload_max": 2400,
     "torpedo_ammo": 0,
     "queue": 2,
-    "name": "【2020英系活动B1】精英人形U101 快速自机狙鱼雷",
+    "name": "【2020英系活动B1】潜艇精英人形通用 6+5双排鱼雷",
     "fire_fx": "",
     "charge_param": "",
-    "suppress": 1,
+    "suppress": 0,
     "range": 120,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
@@ -2967,19 +2971,21 @@
       1,
       2
     ],
-    "id": 680107,
+    "id": 680104,
     "spawn_bound": "torpedo",
     "barrage_ID": [
-      700020
+      760014,
+      760015
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      750007
+      750007,
+      1821
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
+    "initial_over_heat": 0,
+    "aim_type": 0,
     "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
