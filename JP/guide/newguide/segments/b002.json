@@ -1,0 +1,56 @@
+{
+  "id": "B002",
+  "events": [
+    {
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "主力艦隊の<color=#ff7d36>航空攻撃</color>は準備OKよ！",
+        "posX": 0,
+        "mode": 2
+      },
+      "hideui": [
+        {
+          "ishide": false,
+          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3"
+        }
+      ],
+      "alpha": 0.34,
+      "code": [
+        "ShowSkill3"
+      ]
+    },
+    {
+      "ui": {
+        "triggerType": [
+          3
+        ],
+        "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3/ActCtl"
+      },
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "敵を一掃するわ！<color=#ff7d36>航空攻撃</color>ボタンをタップしてみて！",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.34,
+      "code": [
+        "ShowSkill3"
+      ]
+    },
+    {
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "航空攻撃のちからを見たか！緊急時に使用すると、<color=#ff7d36>敵の弾幕</color>を消す効果もあるわ！",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.34,
+      "code": [
+        "ReleaseAfter"
+      ]
+    }
+  ]
+}

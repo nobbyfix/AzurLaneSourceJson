@@ -1,0 +1,125 @@
+{
+  "id": "WorldG016_2",
+  "events": [
+    {
+      "stories": [
+        "WNG08"
+      ],
+      "alpha": 0,
+      "code": [
+        "playStory"
+      ]
+    },
+    {
+      "notifies": [
+        {
+          "body": {
+            "row": 7,
+            "column": 3
+          },
+          "notify": "world get slg tile pos"
+        }
+      ],
+      "delay": 0.2,
+      "alpha": 0.3,
+      "code": [
+        "getSlgTilePos"
+      ]
+    },
+    {
+      "style": {
+        "posY": -320,
+        "dir": -1,
+        "text": "长按对象可以切换分析模式",
+        "posX": 9.1,
+        "mode": 2
+      },
+      "showSign": {
+        "clickArea": [
+          160,
+          140
+        ],
+        "longPress": 1,
+        "signList": [
+          {
+            "signType": 4,
+            "pos": "useCachePos"
+          }
+        ],
+        "type": 2
+      },
+      "alpha": 0.3,
+      "code": [
+        "ShowClickArea"
+      ]
+    },
+    {
+      "notifies": [
+        {
+          "body": {
+            "column": 3,
+            "row": 7,
+            "open": 1
+          },
+          "notify": "world scanner display"
+        }
+      ],
+      "alpha": 0,
+      "code": [
+        "openDetail"
+      ]
+    },
+    {
+      "notifies": [
+        {
+          "notify": "world get scanner pos"
+        }
+      ],
+      "delay": 0.4,
+      "alpha": 0.3,
+      "code": [
+        "getCompassDangerousPos"
+      ]
+    },
+    {
+      "style": {
+        "posY": -200,
+        "dir": 1,
+        "text": "玩家可以在分析仪模式下查看战斗对象的情报或者调查点的信息.",
+        "posX": 357,
+        "mode": 2
+      },
+      "showSign": {
+        "clickArea": [
+          548,
+          561
+        ],
+        "type": 3,
+        "signList": [
+          {
+            "signType": 5,
+            "pos": "useCachePos"
+          }
+        ]
+      },
+      "alpha": 0.3,
+      "code": [
+        "explainDetail"
+      ]
+    },
+    {
+      "notifies": [
+        {
+          "body": {
+            "open": 0
+          },
+          "notify": "world scanner display"
+        }
+      ],
+      "alpha": 0,
+      "code": [
+        "closeDetail"
+      ]
+    }
+  ]
+}

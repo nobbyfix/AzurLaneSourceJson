@@ -1,0 +1,86 @@
+{
+  "id": "WorldG181",
+  "events": [
+    {
+      "ui": {
+        "fingerPos": {
+          "rotateX": 0,
+          "posY": -43.2,
+          "posX": 77.2,
+          "rotateY": 0,
+          "rotateZ": 0
+        },
+        "path": "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/btn_list/dock/inventory_button",
+        "triggerType": [
+          1
+        ]
+      },
+      "style": {
+        "char": "1",
+        "posY": -229.8,
+        "dir": 1,
+        "text": "First off: head to the Depot!",
+        "posX": 491.03,
+        "mode": 2
+      },
+      "alpha": 0.3,
+      "code": [
+        "clickBtn"
+      ]
+    },
+    {
+      "style": {
+        "char": "1",
+        "posY": -229.8,
+        "dir": 1,
+        "text": "Now tap the Operation Siren Data Logger!",
+        "posX": 491.03,
+        "mode": 2
+      },
+      "code": [
+        "openBox"
+      ],
+      "ui": {
+        "fingerPos": {
+          "rotateX": 0,
+          "posY": 0,
+          "posX": 0,
+          "rotateY": 0,
+          "rotateZ": 0
+        },
+        "path": "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_scrollview/Viewport/item_grid",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ],
+        "conditionData": [
+          "102"
+        ]
+      },
+      "alpha": 0.3,
+      "waitScene": "WorldInventoryLayer"
+    },
+    {
+      "showSign": {
+        "type": 2,
+        "signList": [
+          {
+            "signType": 4
+          }
+        ],
+        "clickUI": {
+          "path": "OverlayCamera/Overlay/UIMain/item_usage_panel/window/panel/actions/use_one_button"
+        }
+      },
+      "alpha": 0.3,
+      "style": {
+        "char": "1",
+        "posY": -229.8,
+        "dir": 1,
+        "text": "Tap here to unlock the zone!",
+        "posX": -375.3,
+        "mode": 2
+      }
+    }
+  ]
+}

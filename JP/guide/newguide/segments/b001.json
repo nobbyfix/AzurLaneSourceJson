@@ -1,0 +1,145 @@
+{
+  "id": "B001",
+  "events": [
+    {
+      "hideui": [
+        {
+          "ishide": true,
+          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1"
+        },
+        {
+          "ishide": true,
+          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2"
+        },
+        {
+          "ishide": true,
+          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3"
+        }
+      ],
+      "alpha": 0.34,
+      "code": [
+        "HideSkillUI"
+      ]
+    },
+    {
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "新兵、今からこのアマゾンが艦隊運動を教えてやるわ！",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.34,
+      "code": [
+        "ShowStick"
+      ]
+    },
+    {
+      "ui": {
+        "triggerType": [
+          4
+        ],
+        "path": "/UICamera/Canvas/UIMain/CombatUI(Clone)/Stick/Area"
+      },
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "まずは<color=#ff7d36>スティックを引っ張って</color>艦を動かしなさい！",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.34,
+      "code": [
+        "ShowStick"
+      ]
+    },
+    {
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "前列の<color=#ff7d36>前衛艦隊</color>は艦砲を使って<color=#ff7d36>自動で攻撃</color>してくれるわ！",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.34,
+      "code": [
+        "ShowSkill_2"
+      ]
+    },
+    {
+      "hideui": [
+        {
+          "ishide": false,
+          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2"
+        }
+      ],
+      "alpha": 0.34,
+      "code": [
+        "ShowSkill_2"
+      ]
+    },
+    {
+      "ui": {
+        "triggerType": [
+          3
+        ],
+        "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_2/ActCtl"
+      },
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "次はボタンをタップして<color=#ff7d36>魚雷発射</color>よ！",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.34,
+      "code": [
+        "ShowSkill_2"
+      ]
+    },
+    {
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "硬い敵相手には後列の主力艦隊の<color=#ff7d36>主砲砲撃</color>が有効よ！",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.34,
+      "code": [
+        "ShowSkill_1"
+      ]
+    },
+    {
+      "hideui": [
+        {
+          "ishide": false,
+          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1"
+        }
+      ],
+      "alpha": 0.34,
+      "code": [
+        "ShowSkill_1"
+      ]
+    },
+    {
+      "ui": {
+        "triggerType": [
+          3
+        ],
+        "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_1/ActCtl"
+      },
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "ボタンをタップすると主砲発射よ！<color=#ff7d36>ボタンを押し続ける</color>と手動照準もできるわ！",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.34,
+      "code": [
+        "ShowSkill_1"
+      ]
+    }
+  ]
+}

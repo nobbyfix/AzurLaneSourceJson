@@ -1,0 +1,150 @@
+{
+  "id": "S004",
+  "events": [
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -34.7,
+          "posX": 68.5
+        },
+        "path": "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/formationButton",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.328,
+      "style": {
+        "posY": -275,
+        "dir": -1,
+        "text": "前往<color=#ff7d36>编队</color>，将角色编入队伍",
+        "posX": 348,
+        "mode": 2
+      }
+    },
+    {
+      "style": {
+        "posY": -100,
+        "dir": 1,
+        "text": "但需要注意，<color=#ffde38>驱逐、轻巡、重巡</color>只能编队到先锋编队中",
+        "posX": 300,
+        "mode": 1
+      },
+      "alpha": 0.574,
+      "waitScene": "FormationUI"
+    },
+    {
+      "alpha": 0.321,
+      "style": {
+        "posY": 200,
+        "dir": -1,
+        "text": "<color=#ffde38>航母、战列舰</color>只能编队到主力编队中",
+        "posX": 0,
+        "mode": 1
+      }
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -34.7,
+          "posX": 68.5
+        },
+        "path": "/UICamera/Canvas/UIMain/FormationUI(Clone)/GridFrame/vanguard_2/tip",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.371,
+      "style": {
+        "posY": 122.82,
+        "dir": -1,
+        "text": "点击<color=#ff7d36>添加</color>来编入新角色",
+        "posX": 243.5,
+        "mode": 2
+      }
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -107.3,
+          "posX": 67.77
+        },
+        "path": "UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
+        "pathIndex": 1,
+        "triggerType": [
+          1
+        ],
+        "image": {
+          "target": "content/ship_icon",
+          "isRelative": true,
+          "source": "content/ship_icon",
+          "isChild": true
+        }
+      },
+      "style": {
+        "posY": 0,
+        "dir": -1,
+        "text": "选择需要上场的角色",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.482,
+      "waitScene": "DockyardScene"
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -24.4,
+          "posX": 65.8
+        },
+        "path": "OverlayCamera/Overlay/UIMain/blur_panel/select_panel/confirm_button",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.363,
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "点击<color=#ff7d36>确定</color>按钮",
+        "posX": 0,
+        "mode": 2
+      }
+    },
+    {
+      "style": {
+        "posY": 0,
+        "dir": -1,
+        "text": "看！新角色成功入队！舰队实力大幅度提升！",
+        "posX": 0,
+        "mode": 1
+      },
+      "waitScene": "FormationUI",
+      "alpha": 0.196,
+      "code": -1
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -40,
+          "posX": 20
+        },
+        "path": "/UICamera/Canvas/UIMain/FormationUI(Clone)/blur_panel/top/back_btn",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.45,
+      "style": {
+        "posY": 215.7,
+        "dir": -1,
+        "text": "让我们返回到主界面吧！",
+        "posX": -95.62,
+        "mode": 2
+      }
+    }
+  ]
+}

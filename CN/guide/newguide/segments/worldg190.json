@@ -1,0 +1,92 @@
+{
+  "id": "WorldG190",
+  "events": [
+    {
+      "alpha": 0.4,
+      "style": {
+        "char": "1",
+        "posY": -74.7,
+        "dir": 1,
+        "text": "大型作战中有可能收集到余烬信标数据，这些数据会被记录在余烬信标记录仪中。",
+        "posX": -471.5,
+        "mode": 2
+      }
+    },
+    {
+      "alpha": 0.4,
+      "style": {
+        "char": "1",
+        "posY": 335.5,
+        "dir": 1,
+        "ui": {
+          "path": "OverlayCamera/Overlay/UIMain/top/adapt/top_stage/resources/WorldResPanel(Clone)/res/boss_progress",
+          "lineMode": true
+        },
+        "text": "收集到的信标数据可以点击此处查看。",
+        "posX": 0,
+        "mode": 2
+      }
+    },
+    {
+      "notifies": [
+        {
+          "body": {
+            "line": {
+              "row": 5,
+              "column": 0
+            },
+            "stayTime": 0.1
+          },
+          "notify": "world focus edge"
+        }
+      ],
+      "alpha": 0,
+      "code": [
+        "FocusOnFleet"
+      ]
+    },
+    {
+      "style": {
+        "char": "1",
+        "posY": -160,
+        "dir": -1,
+        "text": "刚刚解锁了新的功能，返回主界面查看一下吧",
+        "posX": -460,
+        "mode": 2
+      },
+      "code": [
+        "ShowClickArea"
+      ],
+      "showSign": {
+        "clickArea": [
+          300,
+          200
+        ],
+        "type": 2,
+        "signList": [
+          {
+            "signType": 4,
+            "pos": [
+              -550,
+              150,
+              0
+            ]
+          }
+        ]
+      },
+      "delay": 0.5,
+      "alpha": 0.3
+    },
+    {
+      "notifies": [
+        {
+          "notify": "world open transport pos"
+        }
+      ],
+      "alpha": 0,
+      "code": [
+        "openOverview"
+      ]
+    }
+  ]
+}

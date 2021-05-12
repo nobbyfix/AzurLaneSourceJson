@@ -1,0 +1,150 @@
+{
+  "id": "S004",
+  "events": [
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -34.7,
+          "posX": 68.5
+        },
+        "path": "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/formationButton",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.328,
+      "style": {
+        "posY": -275,
+        "dir": -1,
+        "text": "<color=#ff7d36>編成</color>をタップして、艦隊を編成するわ",
+        "posX": 348,
+        "mode": 2
+      }
+    },
+    {
+      "style": {
+        "posY": -100,
+        "dir": 1,
+        "text": "<color=#ff7d36>駆逐艦、軽巡洋艦、重巡洋艦</color>は前衛艦隊にしか編成できないの",
+        "posX": 300,
+        "mode": 1
+      },
+      "alpha": 0.574,
+      "waitScene": "FormationUI"
+    },
+    {
+      "alpha": 0.321,
+      "style": {
+        "posY": 200,
+        "dir": -1,
+        "text": "<color=#ffde38>空母、戦艦</color>は主力艦隊にしか編成できないわ",
+        "posX": 0,
+        "mode": 1
+      }
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -34.7,
+          "posX": 68.5
+        },
+        "path": "/UICamera/Canvas/UIMain/FormationUI(Clone)/GridFrame/vanguard_2/tip",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.371,
+      "style": {
+        "posY": 122.82,
+        "dir": -1,
+        "text": "<color=#ff7d36>追加</color>で別の艦を追加しよう",
+        "posX": 243.5,
+        "mode": 2
+      }
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -107.3,
+          "posX": 67.77
+        },
+        "path": "UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
+        "pathIndex": 1,
+        "triggerType": [
+          1
+        ],
+        "image": {
+          "target": "content/ship_icon",
+          "isRelative": true,
+          "source": "content/ship_icon",
+          "isChild": true
+        }
+      },
+      "style": {
+        "posY": 0,
+        "dir": -1,
+        "text": "まずは艦隊に編入する艦を選んで",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.482,
+      "waitScene": "DockyardScene"
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -24.4,
+          "posX": 65.8
+        },
+        "path": "OverlayCamera/Overlay/UIMain/blur_panel/select_panel/confirm_button",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.363,
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "次は<color=#ff7d36>確定</color>ボタンをタップしてね",
+        "posX": 0,
+        "mode": 2
+      }
+    },
+    {
+      "style": {
+        "posY": 0,
+        "dir": -1,
+        "text": "艦隊に新しいメンバーが編成されたわ！これで戦力増強よ！",
+        "posX": 0,
+        "mode": 1
+      },
+      "waitScene": "FormationUI",
+      "alpha": 0.196,
+      "code": -1
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -40,
+          "posX": 20
+        },
+        "path": "/UICamera/Canvas/UIMain/FormationUI(Clone)/blur_panel/top/back_btn",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.45,
+      "style": {
+        "posY": 215.7,
+        "dir": -1,
+        "text": "メイン画面に一回戻ってね",
+        "posX": -95.62,
+        "mode": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "WorldG010",
+  "events": [
+    {
+      "notifies": [
+        {
+          "body": {
+            "type": 2
+          },
+          "notify": "world hide ui"
+        }
+      ],
+      "alpha": 0,
+      "code": [
+        "hideMemo"
+      ]
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -49.64,
+          "posX": 36.5
+        },
+        "path": "OverlayCamera/Overlay/UIMain/top/right_stage/memo/icon",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "style": {
+        "posY": 115.27,
+        "dir": 1,
+        "text": "You can check the battle log here.~",
+        "posX": 642.56,
+        "mode": 2
+      },
+      "alpha": 0.3,
+      "code": [
+        "clickMemo"
+      ]
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -65.82,
+          "posX": 98.04
+        },
+        "path": "OverlayCamera/Overlay/UIMain/top/right_stage/memo/panel/guide_btn",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0,
+      "delay": 0.2,
+      "code": [
+        "clickLog"
+      ]
+    },
+    {
+      "notifies": [
+        {
+          "body": {
+            "mapIds": [
+              13
+            ]
+          },
+          "notify": "WorldMediator.OnOpenMarkMap"
+        }
+      ],
+      "alpha": 0,
+      "code": [
+        "openOverview"
+      ]
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": 397.8,
+          "posX": 272.85
+        },
+        "path": "OverlayCamera/Overlay/UIMain/overall/close_btn",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "style": {
+        "posY": 191.87,
+        "dir": -1,
+        "text": "Tap the blurred area to exit.",
+        "posX": 9.1,
+        "mode": 2
+      },
+      "delay": 2,
+      "alpha": 0
+    }
+  ]
+}

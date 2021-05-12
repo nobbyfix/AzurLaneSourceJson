@@ -1,0 +1,56 @@
+{
+  "id": "B002",
+  "events": [
+    {
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "我方旗舰的<color=#ff7d36>航空支援</color>已准备完毕 ",
+        "posX": 0,
+        "mode": 2
+      },
+      "hideui": [
+        {
+          "ishide": false,
+          "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3"
+        }
+      ],
+      "alpha": 0.34,
+      "code": [
+        "ShowSkill3"
+      ]
+    },
+    {
+      "ui": {
+        "triggerType": [
+          3
+        ],
+        "path": "UICamera/Canvas/UIMain/CombatUI(Clone)/Skill_3/ActCtl"
+      },
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "清除战场准备！点击<color=#ff7d36>航空支援</color>按钮试试吧！",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.34,
+      "code": [
+        "ShowSkill3"
+      ]
+    },
+    {
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "看到空中支援的威力了吧！ 紧急情况下释放，还能<color=#ff7d36>消除敌方弹幕</color>呢！",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.34,
+      "code": [
+        "ReleaseAfter"
+      ]
+    }
+  ]
+}

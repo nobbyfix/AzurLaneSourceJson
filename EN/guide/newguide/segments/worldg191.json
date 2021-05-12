@@ -1,0 +1,89 @@
+{
+  "id": "WorldG191",
+  "events": [
+    {
+      "ui": {
+        "fingerPos": {
+          "rotateX": 0,
+          "posY": -42,
+          "posX": 128.2,
+          "rotateY": 0,
+          "rotateZ": 0
+        },
+        "path": "OverlayCamera/Overlay/UIMain/top/adapt/bottom_chapter/button/btn_boss",
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.4,
+      "style": {
+        "char": "1",
+        "posY": -279.2,
+        "dir": 1,
+        "text": "You can now play Ashes Showdown, a mode where you fight Ashes ships together with other commanders!",
+        "posX": 498.7,
+        "mode": 2
+      }
+    },
+    {
+      "stories": [
+        "GWORLD109A"
+      ],
+      "delay": 1,
+      "code": [
+        "playStory"
+      ]
+    },
+    {
+      "style": {
+        "char": "1",
+        "posY": 294,
+        "dir": 1,
+        "ui": {
+          "path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/time/Text"
+        },
+        "text": "Ashes Showdown is not always open! This run of it will be available for a limited time, shown here!",
+        "posX": -448.3,
+        "mode": 2
+      },
+      "alpha": 0.4,
+      "waitScene": "WorldBossScene"
+    },
+    {
+      "style": {
+        "char": "1",
+        "posY": 1.5,
+        "dir": 1,
+        "ui": {
+          "path": "UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/time/Text"
+        },
+        "text": "Be aware that once this run of Ashes Showdown ends, any Ashes Coordinates you used will not be refunded, and you won’t be able to gain new Coordinates in Operation Siren either.",
+        "posX": -402.4,
+        "mode": 2
+      }
+    },
+    {
+      "style": {
+        "char": "1",
+        "posY": -284,
+        "dir": 1,
+        "text": "That aside, let’s get to it! Tap the button to locate the Ashes ship!",
+        "posX": -495,
+        "mode": 2
+      },
+      "ui": {
+        "fingerPos": {
+          "rotateX": 0,
+          "posY": 0,
+          "posX": 0,
+          "rotateY": 0,
+          "rotateZ": 0
+        },
+        "path": "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/WorldBossEmptyUI(Clone)/useItem/list/tpl",
+        "triggerType": [
+          1
+        ]
+      }
+    }
+  ]
+}

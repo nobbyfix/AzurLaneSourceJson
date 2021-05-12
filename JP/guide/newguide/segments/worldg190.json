@@ -1,0 +1,92 @@
+{
+  "id": "WorldG190",
+  "events": [
+    {
+      "alpha": 0.4,
+      "style": {
+        "char": "1",
+        "posY": -74.7,
+        "dir": 1,
+        "text": "余燼座標を一定の数集めると、余燼戦が開放されます。",
+        "posX": -471.5,
+        "mode": 2
+      }
+    },
+    {
+      "alpha": 0.4,
+      "style": {
+        "char": "1",
+        "posY": 335.5,
+        "dir": 1,
+        "ui": {
+          "path": "OverlayCamera/Overlay/UIMain/top/adapt/top_stage/resources/WorldResPanel(Clone)/res/boss_progress",
+          "lineMode": true
+        },
+        "text": "セイレーン作戦で手に入れた「余燼座標」の数量はここに表示されます。",
+        "posX": 0,
+        "mode": 2
+      }
+    },
+    {
+      "notifies": [
+        {
+          "body": {
+            "line": {
+              "row": 5,
+              "column": 0
+            },
+            "stayTime": 0.1
+          },
+          "notify": "world focus edge"
+        }
+      ],
+      "alpha": 0,
+      "code": [
+        "FocusOnFleet"
+      ]
+    },
+    {
+      "style": {
+        "char": "1",
+        "posY": -160,
+        "dir": -1,
+        "text": "新しいコンテンツを確認します。メイン画面にもどりましょう。",
+        "posX": -460,
+        "mode": 2
+      },
+      "code": [
+        "ShowClickArea"
+      ],
+      "showSign": {
+        "clickArea": [
+          300,
+          200
+        ],
+        "type": 2,
+        "signList": [
+          {
+            "signType": 4,
+            "pos": [
+              -550,
+              150,
+              0
+            ]
+          }
+        ]
+      },
+      "delay": 0.5,
+      "alpha": 0.3
+    },
+    {
+      "notifies": [
+        {
+          "notify": "world open transport pos"
+        }
+      ],
+      "alpha": 0,
+      "code": [
+        "openOverview"
+      ]
+    }
+  ]
+}

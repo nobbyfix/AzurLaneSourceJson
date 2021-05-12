@@ -1,0 +1,108 @@
+{
+  "id": "S002",
+  "events": [
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -16.5,
+          "posX": 33.83
+        },
+        "path": "OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/buildButton",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "style": {
+        "posY": -132.4,
+        "dir": 1,
+        "text": "<color=#ffde38>建造</color>で詳細を確認するわ！",
+        "posX": 423.25,
+        "mode": 1
+      },
+      "alpha": 0.422,
+      "code": 2
+    },
+    {
+      "style": {
+        "posY": 0,
+        "dir": -1,
+        "text": "<color=#ffde38>建造中</color>をタップして建造状況を確認するのよ！",
+        "posX": 0,
+        "mode": 1
+      },
+      "code": 2,
+      "ui": {
+        "fingerPos": {
+          "posY": -26.75,
+          "posX": 58.13
+        },
+        "path": "/OverlayCamera/Overlay/UIMain/blur_panel/adapt/left_length/frame/tagRoot/queue_btn",
+        "pathIndex": -1,
+        "triggerType": [
+          2
+        ]
+      },
+      "alpha": 0.316,
+      "waitScene": "BuildShipScene"
+    },
+    {
+      "style": {
+        "posY": 160,
+        "dir": -1,
+        "text": "艦の建造には時間がかかるけど…",
+        "posX": 450,
+        "mode": 1
+      },
+      "alpha": 0.322,
+      "waitScene": "BuildShipDetailLayer"
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": 0,
+          "posX": 0
+        },
+        "path": "/UICamera/Canvas/UIMain/BuildShipDetailUI1(Clone)/list_single_line/content/project_1/frame/buiding/quick_btn",
+        "pathIndex": -1,
+        "scale": 1.3,
+        "triggerType": [
+          1
+        ],
+        "pos": {
+          "y": -143,
+          "x": 290
+        }
+      },
+      "alpha": 0.359,
+      "style": {
+        "posY": 160,
+        "dir": -1,
+        "text": "もう待ちきれないわ！<color=#ffde38>高速建造</color>をタップして早く完成させよう！",
+        "posX": 450,
+        "mode": 1
+      }
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": 0,
+          "posX": 0
+        },
+        "path": "OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.341,
+      "style": {
+        "posY": 250,
+        "dir": -1,
+        "text": "確定をタップして<color=#ffde38>高速建造材</color>を使おう！",
+        "posX": 450,
+        "mode": 1
+      }
+    }
+  ]
+}

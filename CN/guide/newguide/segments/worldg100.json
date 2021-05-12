@@ -1,0 +1,116 @@
+{
+  "id": "WorldG100",
+  "events": [
+    {
+      "notifies": [
+        {
+          "body": {
+            "line": {
+              "row": 5,
+              "column": 0
+            },
+            "stayTime": 0.1
+          },
+          "notify": "world focus edge"
+        }
+      ],
+      "alpha": 0,
+      "code": [
+        "FocusOnFleet"
+      ]
+    },
+    {
+      "style": {
+        "char": "1",
+        "posY": -160,
+        "dir": -1,
+        "text": "在当前海域压制完成后，可以点击海域地图外区域进入作战总览界面。",
+        "posX": -460,
+        "mode": 2
+      },
+      "code": [
+        "ShowClickArea"
+      ],
+      "showSign": {
+        "clickArea": [
+          300,
+          200
+        ],
+        "type": 2,
+        "signList": [
+          {
+            "signType": 4,
+            "pos": [
+              -550,
+              150,
+              0
+            ]
+          }
+        ]
+      },
+      "delay": 0.5,
+      "alpha": 0.3
+    },
+    {
+      "notifies": [
+        {
+          "notify": "world open transport pos"
+        }
+      ],
+      "alpha": 0,
+      "code": [
+        "openOverview"
+      ]
+    },
+    {
+      "style": {
+        "char": "1",
+        "posY": -150,
+        "dir": -1,
+        "text": "每成功压制一片海域，周边可探索海域就会增加。现在已经可以前往带有主线任务标识的海域了！",
+        "posX": 100,
+        "mode": 2
+      },
+      "alpha": 0,
+      "delay": 2,
+      "code": [
+        "Tips"
+      ]
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "rotateX": 0,
+          "posY": 0,
+          "posX": -76.32,
+          "rotateY": 0,
+          "rotateZ": 238.9
+        },
+        "path": "OverlayCamera/Overlay/UIMain/top/adapt/top_chapter/back_button",
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.4,
+      "style": {
+        "char": "1",
+        "posY": 245.23,
+        "dir": -1,
+        "text": "请点击此处返回作战海域中。",
+        "posX": -552.4,
+        "mode": 2
+      }
+    },
+    {
+      "alpha": 0,
+      "notifies": [
+        {
+          "body": {
+            "storyId": "WorldG100"
+          },
+          "notify": "story update"
+        }
+      ]
+    }
+  ]
+}

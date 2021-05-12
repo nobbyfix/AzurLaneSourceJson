@@ -1,0 +1,198 @@
+{
+  "id": "WorldG141",
+  "events": [
+    {
+      "ui": {
+        "fingerPos": {
+          "rotateX": 0,
+          "posY": -50,
+          "posX": -50,
+          "rotateY": 180,
+          "rotateZ": 0
+        },
+        "path": "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/compass_panel/btn_scan",
+        "triggerType": [
+          1
+        ]
+      },
+      "style": {
+        "char": "1",
+        "posY": -126,
+        "dir": 1,
+        "text": "点击G.M系统右下角的按钮可以进入分析模式。",
+        "posX": 540,
+        "mode": 2
+      },
+      "alpha": 0.3,
+      "code": [
+        "ClickOrder"
+      ]
+    },
+    {
+      "stories": [
+        "GWORLD103F"
+      ],
+      "delay": 1.5,
+      "code": [
+        "playStory"
+      ]
+    },
+    {
+      "notifies": [
+        {
+          "body": {
+            "eventId": 20250,
+            "stayTime": 0.1
+          },
+          "notify": "world focus event"
+        }
+      ],
+      "delay": 0.5,
+      "code": [
+        "FocusOnEvent"
+      ]
+    },
+    {
+      "delay": 1,
+      "showSign": {
+        "clickArea": [
+          250,
+          200
+        ],
+        "type": 2,
+        "signList": [
+          {
+            "signType": 4,
+            "pos": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "notifies": [
+        {
+          "body": {
+            "eventId": 20250
+          },
+          "notify": "world scanner event"
+        }
+      ],
+      "code": [
+        "OpenScannerWindow"
+      ]
+    },
+    {
+      "notifies": [
+        {
+          "body": {
+            "eventId": 20250
+          },
+          "notify": "world scanner event"
+        }
+      ],
+      "delay": 2.5,
+      "code": [
+        "OpenScannerWindow"
+      ]
+    },
+    {
+      "notifies": [
+        {
+          "body": {
+            "eventId": 20251,
+            "stayTime": 0.1
+          },
+          "notify": "world focus event"
+        }
+      ],
+      "code": [
+        "FocusOnEvent"
+      ]
+    },
+    {
+      "delay": 1,
+      "showSign": {
+        "clickArea": [
+          250,
+          200
+        ],
+        "type": 2,
+        "signList": [
+          {
+            "signType": 4,
+            "pos": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "notifies": [
+        {
+          "body": {
+            "eventId": 20251
+          },
+          "notify": "world scanner event"
+        }
+      ],
+      "code": [
+        "OpenScannerWindow"
+      ]
+    },
+    {
+      "notifies": [
+        {
+          "body": {
+            "eventId": 20251
+          },
+          "notify": "world scanner event"
+        }
+      ],
+      "delay": 2,
+      "code": [
+        "OpenScannerWindow"
+      ]
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "rotateX": 0,
+          "posY": -72.98,
+          "posX": 155.02,
+          "rotateY": 0,
+          "rotateZ": 0
+        },
+        "path": "OverlayCamera/Overlay/UIMain/SVScannerPanel(Clone)/adapt/exit",
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.3,
+      "style": {
+        "char": "1",
+        "posY": 223.43,
+        "dir": -1,
+        "text": "点击左上角按钮可以退出分析模式。",
+        "posX": -628.88,
+        "mode": 2
+      }
+    },
+    {
+      "notifies": [
+        {
+          "body": {
+            "storyId": "WorldG141"
+          },
+          "notify": "story update"
+        }
+      ]
+    }
+  ]
+}

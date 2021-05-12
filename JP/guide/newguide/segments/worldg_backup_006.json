@@ -1,0 +1,67 @@
+{
+  "id": "WorldG006",
+  "events": [
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -29.38,
+          "posX": 83.93
+        },
+        "path": "OverlayCamera/Overlay/UIMain/top/right_stage/dock/inventory_button",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "style": {
+        "posY": -229.8,
+        "dir": 1,
+        "text": "点击打开仓库",
+        "posX": 491.03,
+        "mode": 2
+      },
+      "alpha": 0.3,
+      "code": [
+        "clickBtn"
+      ]
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -31.2,
+          "posX": 68.4
+        },
+        "path": "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_scrollview/item_grid",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ],
+        "conditionData": [
+          "14"
+        ]
+      },
+      "code": [
+        "openBox"
+      ],
+      "alpha": 0.3,
+      "waitScene": "WorldInventoryLayer"
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -40.3,
+          "posX": 112.5
+        },
+        "path": "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_usage_panel/window/panel/actions/use_button",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0,
+      "code": [
+        "useBox"
+      ]
+    }
+  ]
+}

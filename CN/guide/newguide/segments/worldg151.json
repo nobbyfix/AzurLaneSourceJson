@@ -1,0 +1,188 @@
+{
+  "id": "WorldG151",
+  "events": [
+    {
+      "ui": {
+        "fingerPos": {
+          "rotateX": 0,
+          "posY": -34.8,
+          "posX": 68.8,
+          "rotateY": 0,
+          "rotateZ": 0
+        },
+        "path": "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/btn_list/dock/inventory_button",
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.3,
+      "style": {
+        "char": "1",
+        "posY": -249.82,
+        "dir": 1,
+        "text": "点击进入储物仓。",
+        "posX": 273.42,
+        "mode": 2
+      }
+    },
+    {
+      "stories": [
+        "GWORLD104D"
+      ],
+      "delay": 1,
+      "code": [
+        "playStory"
+      ]
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "rotateX": 0,
+          "posY": -45.83,
+          "posX": 77.5,
+          "rotateY": 0,
+          "rotateZ": 0
+        },
+        "path": "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/topItems/bottom_back/types/material",
+        "triggerType": [
+          2
+        ]
+      },
+      "alpha": 0.3,
+      "style": {
+        "char": "1",
+        "posY": -230.76,
+        "dir": 1,
+        "text": "点击材料分页，查看在大型作战中获得的装备研发材料。",
+        "posX": 243.3,
+        "mode": 2
+      }
+    },
+    {
+      "stories": [
+        "GWORLD104E"
+      ],
+      "delay": 1,
+      "code": [
+        "playStory"
+      ]
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "rotateX": 0,
+          "posY": -32.73,
+          "posX": 49.82,
+          "rotateY": 0,
+          "rotateZ": 0
+        },
+        "path": "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/topItems/bottom_back/types/siren_weapon",
+        "triggerType": [
+          2
+        ]
+      },
+      "alpha": 0.3,
+      "style": {
+        "char": "1",
+        "posY": -283.25,
+        "dir": 1,
+        "text": "点击装备分页，查看仓库中的装备。",
+        "posX": 554.45,
+        "mode": 2
+      }
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "rotateX": 0,
+          "posY": -72.88,
+          "posX": 0,
+          "rotateY": 0,
+          "rotateZ": 0
+        },
+        "path": "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/blur_panel/adapt/top/buttons/index_button",
+        "triggerType": [
+          1
+        ]
+      },
+      "style": {
+        "char": "1",
+        "posY": 302.77,
+        "dir": 1,
+        "text": "点击进行筛选。",
+        "posX": 327.4,
+        "mode": 2
+      },
+      "alpha": 0.3,
+      "delay": 1
+    },
+    {
+      "alpha": 0.3,
+      "ui": {
+        "fingerPos": {
+          "rotateX": 0,
+          "posY": -39.49,
+          "posX": 78.72,
+          "rotateY": 0,
+          "rotateZ": 0
+        },
+        "path": "OverlayCamera/Overlay/UIMain/IndexUI(Clone)/index_panel/layout/indexsort_extraindex/bg/panel/3",
+        "triggerType": [
+          1
+        ]
+      }
+    },
+    {
+      "alpha": 0.3,
+      "ui": {
+        "fingerPos": {
+          "rotateX": 0,
+          "posY": -30.15,
+          "posX": 64.95,
+          "rotateY": 0,
+          "rotateZ": 0
+        },
+        "path": "OverlayCamera/Overlay/UIMain/IndexUI(Clone)/index_panel/layout/btns/ok",
+        "triggerType": [
+          1
+        ]
+      }
+    },
+    {
+      "stories": [
+        "GWORLD104F"
+      ],
+      "delay": 1.5,
+      "code": [
+        "playStory"
+      ]
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "rotateX": 0,
+          "posY": -72.88,
+          "posX": 65,
+          "rotateY": 0,
+          "rotateZ": 0
+        },
+        "path": "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/blur_panel/adapt/top/back_btn",
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.3,
+      "delay": 0.5
+    },
+    {
+      "notifies": [
+        {
+          "body": {
+            "storyId": "WorldG141"
+          },
+          "notify": "story update"
+        }
+      ]
+    }
+  ]
+}

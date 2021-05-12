@@ -1,0 +1,50 @@
+{
+  "id": "WorldG121",
+  "events": [
+    {
+      "ui": {
+        "fingerPos": {
+          "rotateX": 0,
+          "posY": -44.8,
+          "posX": 64.54,
+          "rotateY": 0,
+          "rotateZ": 0
+        },
+        "path": "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/compass_panel/btn_order",
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.3,
+      "code": [
+        "ClickOrder"
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "ui": {
+        "fingerPos": {
+          "rotateX": 0,
+          "posY": 0,
+          "posX": 0,
+          "rotateY": 0,
+          "rotateZ": 0
+        },
+        "path": "OverlayCamera/Overlay/UIMain/SVOrderPanel(Clone)/adapt/order_list/expansion/type_enable",
+        "triggerType": [
+          1
+        ]
+      }
+    },
+    {
+      "notifies": [
+        {
+          "body": {
+            "storyId": "WorldG121"
+          },
+          "notify": "story update"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "WorldG020",
+  "events": [
+    {
+      "stories": [
+        "WNG19"
+      ],
+      "alpha": 0,
+      "code": [
+        "playStory2"
+      ]
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -29.38,
+          "posX": 83.93
+        },
+        "path": "OverlayCamera/Overlay/UIMain/top/right_stage/dock/inventory_button",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "style": {
+        "posY": -229.8,
+        "dir": 1,
+        "text": "Tap to open the Depot.",
+        "posX": 491.03,
+        "mode": 2
+      },
+      "alpha": 0.3,
+      "code": [
+        "clickBtn"
+      ]
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -31.2,
+          "posX": 68.4
+        },
+        "path": "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_scrollview/item_grid",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ],
+        "conditionData": [
+          "251",
+          "252",
+          "253"
+        ]
+      },
+      "code": [
+        "openBox"
+      ],
+      "alpha": 0.3,
+      "waitScene": "WorldInventoryLayer"
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -48.24,
+          "posX": 134.4
+        },
+        "path": "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_usage_panel/window/panel/actions/use_button",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "delay": 0.2,
+      "alpha": 0.3
+    },
+    {
+      "stories": [
+        "WNG19"
+      ],
+      "alpha": 0,
+      "code": [
+        "playStory2"
+      ]
+    }
+  ]
+}

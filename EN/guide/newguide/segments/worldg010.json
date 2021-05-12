@@ -1,0 +1,114 @@
+{
+  "id": "WorldG010",
+  "events": [
+    {
+      "style": {
+        "posY": 0,
+        "dir": -1,
+        "text": "Tap on an outside area to view the World Map. ",
+        "posX": 100,
+        "mode": 2
+      },
+      "showSign": {
+        "clickArea": [
+          200,
+          100
+        ],
+        "type": 2,
+        "signList": [
+          {
+            "signType": 4,
+            "pos": [
+              0,
+              300,
+              0
+            ]
+          }
+        ]
+      },
+      "alpha": 0.3,
+      "code": [
+        "ShowClickArea"
+      ]
+    },
+    {
+      "notifies": [
+        {
+          "body": {
+            "mapIds": [
+              13
+            ]
+          },
+          "notify": "world open map overview"
+        }
+      ],
+      "alpha": 0,
+      "code": [
+        "openOverview"
+      ]
+    },
+    {
+      "stories": [
+        "WNG05G"
+      ],
+      "alpha": 0,
+      "code": [
+        "playStory"
+      ]
+    },
+    {
+      "style": {
+        "posY": 0,
+        "dir": -1,
+        "text": "Tap on any place other than the map to close the World Map.",
+        "posX": 100,
+        "mode": 2
+      },
+      "code": [
+        "ShowClickArea"
+      ],
+      "showSign": {
+        "clickArea": [
+          600,
+          200
+        ],
+        "type": 2,
+        "signList": [
+          {
+            "signType": 4,
+            "pos": [
+              200,
+              400,
+              0
+            ]
+          }
+        ]
+      },
+      "delay": 2,
+      "alpha": 0.3
+    },
+    {
+      "notifies": [
+        {
+          "body": {
+            "type": 4
+          },
+          "notify": "world hide ui"
+        }
+      ],
+      "alpha": 0,
+      "code": [
+        "closeOverview"
+      ]
+    },
+    {
+      "stories": [
+        "WNG05F"
+      ],
+      "alpha": 0,
+      "code": [
+        "playStory"
+      ]
+    }
+  ]
+}

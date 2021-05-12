@@ -1,0 +1,138 @@
+{
+  "id": "S021",
+  "events": [
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -23.47,
+          "posX": 86.45
+        },
+        "path": "OverlayCamera/Overlay/UIMain/toTop/frame/rightPanel/eventPanel/formationButton",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.19,
+      "style": {
+        "posY": 104.87,
+        "dir": 1,
+        "text": "Let's add your new ship to your <color=#ff7d36>formation</color>.",
+        "posX": 4.77,
+        "mode": 2
+      }
+    },
+    {
+      "style": {
+        "posY": 0,
+        "dir": -1,
+        "text": "Commander, do you remember what to do?",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.414,
+      "waitScene": "FormationUI"
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": 1.09,
+          "posX": 39.88
+        },
+        "path": "/UICamera/Canvas/UIMain/FormationUI(Clone)/GridFrame/vanguard_3/tip",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.385,
+      "style": {
+        "posY": 240,
+        "dir": 1,
+        "text": "Tap the empty slot in your team to <color=#ff7d36>add</color> another ship.",
+        "posX": -88.52,
+        "mode": 2
+      }
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -78.23,
+          "posX": 63.68
+        },
+        "path": "UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
+        "pathIndex": "#",
+        "triggerType": [
+          1
+        ],
+        "image": {
+          "target": "content/ship_icon",
+          "isRelative": true,
+          "source": "content/ship_icon",
+          "isChild": true
+        }
+      },
+      "alpha": 0.279,
+      "style": {
+        "posY": 0,
+        "dir": -1,
+        "text": "Select a ship to deploy.",
+        "posX": 0,
+        "mode": 2
+      }
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -22.37,
+          "posX": 40.09
+        },
+        "path": "OverlayCamera/Overlay/UIMain/blur_panel/select_panel/confirm_button",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.293,
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "Next, tap <color=#ff7d36>confirm</color>.",
+        "posX": 239.42,
+        "mode": 2
+      }
+    },
+    {
+      "style": {
+        "posY": 0,
+        "dir": -1,
+        "text": "The vanguard is full! Our power shouldn't be underestimated!",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.441,
+      "waitScene": "FormationUI"
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -40,
+          "posX": 20
+        },
+        "path": "UICamera/Canvas/UIMain/FormationUI(Clone)/blur_panel/top/back_btn",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.462,
+      "style": {
+        "posY": 226.21,
+        "dir": -1,
+        "text": "Let's head back to the main screen!",
+        "posX": -130.49,
+        "mode": 2
+      }
+    }
+  ]
+}

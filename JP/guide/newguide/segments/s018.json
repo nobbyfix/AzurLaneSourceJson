@@ -1,0 +1,159 @@
+{
+  "id": "S018",
+  "events": [
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -19.37,
+          "posX": 35.15
+        },
+        "path": "OverlayCamera/Overlay/UIMain/toTop/frame/bottomPanel/btm/buttons_container/dockBtn",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "style": {
+        "posY": 0,
+        "dir": -1,
+        "text": "<color=#ff7d36>ドック</color>をタップしてちょうだい",
+        "posX": 0,
+        "mode": 2
+      },
+      "alpha": 0.274,
+      "code": [
+        2
+      ]
+    },
+    {
+      "style": {
+        "posY": 0,
+        "dir": -1,
+        "text": "艦をタップして、詳細を確認してちょうだい",
+        "posX": -5.18,
+        "mode": 2
+      },
+      "code": [
+        2
+      ],
+      "ui": {
+        "fingerPos": {
+          "posY": -74.58,
+          "posX": 48.4
+        },
+        "path": "UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships/",
+        "pathIndex": 0,
+        "triggerType": [
+          1
+        ],
+        "image": {
+          "target": "content/ship_icon",
+          "isRelative": true,
+          "source": "content/ship_icon",
+          "isChild": true
+        }
+      },
+      "alpha": 0.306,
+      "waitScene": "DockyardScene"
+    },
+    {
+      "style": {
+        "posY": 0,
+        "dir": -1,
+        "text": "<color=#ff7d36>装備</color>ボタンをタップして、今装備中の兵装を確認するのよ",
+        "posX": 0,
+        "mode": 2
+      },
+      "code": [
+        2
+      ],
+      "ui": {
+        "fingerPos": {
+          "posY": -24.93,
+          "posX": 39.67
+        },
+        "path": "/OverlayCamera/Overlay/UIMain/blur_panel/adapt/left_length/frame/root/equpiment_toggle",
+        "pathIndex": -1,
+        "triggerType": [
+          2
+        ]
+      },
+      "alpha": 0.294,
+      "waitScene": "ShipMainScene"
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": 0,
+          "posX": 7.8
+        },
+        "path": "OverlayCamera/Overlay/UIMain/equipment_r_container(Adapt)/equipment_r_container/equipment_r/equipment/equipment_r2",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.364,
+      "style": {
+        "posY": -140,
+        "dir": 1,
+        "text": "<color=#ff7d36>装備強化</color>もやってみよう！",
+        "posX": 6,
+        "mode": 2
+      }
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -29.38,
+          "posX": 44.9
+        },
+        "path": "OverlayCamera/Overlay/UIMain/EquipmentInfoUI(Clone)/default/actions/action_button_2",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "style": {
+        "posY": 0,
+        "dir": -1,
+        "text": "確定で強化を行うのよ",
+        "posX": 265.7,
+        "mode": 2
+      },
+      "alpha": 0.152,
+      "waitScene": "EquipmentInfoLayer"
+    },
+    {
+      "alpha": 0.405,
+      "style": {
+        "posY": 226,
+        "dir": -1,
+        "text": "ここには<color=#ff7d36>強化後の能力</color>が表示されるわ！",
+        "posX": 479,
+        "mode": 2
+      }
+    },
+    {
+      "ui": {
+        "fingerPos": {
+          "posY": -19.78,
+          "posX": 30.24
+        },
+        "path": "OverlayCamera/Overlay/UIMain/EquipUpgradeUI(Clone)/main/panel/material_panel/start_btn",
+        "pathIndex": -1,
+        "triggerType": [
+          1
+        ]
+      },
+      "alpha": 0.366,
+      "style": {
+        "posY": 0,
+        "dir": 1,
+        "text": "<color=#ff7d36>強化</color>をタップしてやってみて！",
+        "posX": 0,
+        "mode": 2
+      }
+    }
+  ]
+}

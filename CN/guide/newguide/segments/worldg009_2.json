@@ -1,0 +1,78 @@
+{
+  "id": "WorldG009_2",
+  "events": [
+    {
+      "notifies": [
+        {
+          "body": {
+            "column": 1,
+            "row": 7,
+            "cachedIndex": 1
+          },
+          "notify": "world get compass pos"
+        },
+        {
+          "body": {
+            "column": 4,
+            "row": 5,
+            "cachedIndex": 2
+          },
+          "notify": "world get compass pos"
+        },
+        {
+          "body": {
+            "column": 6,
+            "row": 6,
+            "cachedIndex": 3
+          },
+          "notify": "world get compass pos"
+        }
+      ],
+      "alpha": 0.3,
+      "code": [
+        "getCompassPos"
+      ]
+    },
+    {
+      "showSign": {
+        "simultaneously": true,
+        "type": 1,
+        "signList": [
+          {
+            "cachedIndex": 1,
+            "atlasName": "ui/worldui_atlas",
+            "signType": 6,
+            "fileName": "guidepost",
+            "pos": "useCachePos"
+          },
+          {
+            "cachedIndex": 2,
+            "atlasName": "ui/worldui_atlas",
+            "signType": 6,
+            "fileName": "exp",
+            "pos": "useCachePos"
+          },
+          {
+            "cachedIndex": 3,
+            "atlasName": "ui/worldui_atlas",
+            "signType": 6,
+            "fileName": "battle",
+            "pos": "useCachePos"
+          }
+        ]
+      },
+      "alpha": 0.2,
+      "code": [
+        "showWorldTask"
+      ]
+    },
+    {
+      "doNothing": true,
+      "delay": 3,
+      "alpha": 0,
+      "code": [
+        "empty"
+      ]
+    }
+  ]
+}
