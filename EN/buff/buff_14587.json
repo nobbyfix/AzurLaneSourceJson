@@ -1,0 +1,31 @@
+{
+  "picture": "",
+  "id": 14587,
+  "desc": "属性提升",
+  "icon": 14580,
+  "last_effect": "",
+  "name": "属性变更",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.05,
+        "attr": "damageRatioBullet"
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufared",
+  "time": 50
+}

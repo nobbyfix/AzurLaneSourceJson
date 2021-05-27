@@ -14,32 +14,38 @@
   "effect_list": [
     {
       "trigger": [
-        "onAllInStrikeSteady"
+        "onStartGame"
       ],
-      "type": "BattleBuffCastSkill",
+      "type": "BattleBuffAddBuff",
       "arg_list": {
-        "check_target": "TargetShipTag",
-        "minTargetNumber": 1,
-        "ship_tag_list": [
-          "Cleveland-Class"
-        ],
+        "maxTargetNumber": 0,
+        "buff_id": 11923,
         "target": "TargetSelf",
-        "skill_id": 11920
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
+        ],
+        "ship_tag_list": [
+          "KnightPowerUp"
+        ]
       }
     },
     {
       "trigger": [
-        "onAllInStrikeSteady"
+        "onStartGame"
       ],
-      "type": "BattleBuffCastSkill",
+      "type": "BattleBuffAddBuff",
       "arg_list": {
-        "maxTargetNumber": 0,
-        "check_target": "TargetShipTag",
+        "buff_id": 11924,
+        "minTargetNumber": 1,
         "target": "TargetSelf",
-        "ship_tag_list": [
-          "Cleveland-Class"
+        "check_target": [
+          "TargetSelf",
+          "TargetShipTag"
         ],
-        "skill_id": 11921
+        "ship_tag_list": [
+          "KnightPowerUp"
+        ]
       }
     },
     {
@@ -58,12 +64,12 @@
       }
     }
   ],
-  "desc": "空袭时额外机队攻击，队伍中存在克利夫兰级的角色时，机队变化",
+  "desc": "检查TAG",
   "icon": 11920,
   "last_effect": "",
-  "name": "天之骑士",
-  "color": "yellow",
-  "desc_get": "队伍中存在克利夫兰级的角色时，机队变化",
+  "name": "天之骑士·检测PUTAG",
+  "color": "red",
+  "desc_get": "",
   "stack": 1,
   "init_effect": "",
   "time": 0
