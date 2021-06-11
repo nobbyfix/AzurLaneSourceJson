@@ -35,22 +35,24 @@
     "base": 1000,
     "damage": 20
   },
-  "745003": {
-    "fire_sfx": "battle/air-atk",
-    "type": 11,
-    "id": 745003,
-    "spawn_bound": "plane",
+  "744004": {
+    "fire_sfx": "battle/cannon-main",
+    "id": 744004,
+    "range": 120,
+    "queue": 1,
     "barrage_ID": [
-      700143
+      950195,
+      950196
     ],
-    "queue": 3,
-    "bullet_ID": [],
-    "name": "【DOA联动EX】BOSS 女天狗 第二波 飞机",
-    "attack_attribute": 4,
-    "suppress": 1,
-    "fire_fx": "zhupao",
-    "base": 1001,
-    "reload_max": 600
+    "name": "【DOA联动VSP】精英人形凪咲 主炮弹幕",
+    "bullet_ID": [
+      20003,
+      20003
+    ],
+    "reload_max": 1200,
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 34
   },
   "742108": {
     "fire_sfx": "battle/cannon-main",
@@ -84,103 +86,17 @@
     "base": 1000,
     "damage": 6
   },
-  "745002": {
-    "action_index": "",
-    "type": 2,
-    "id": 745002,
-    "suppress": 1,
-    "range": 120,
-    "queue": 2,
-    "barrage_ID": [
-      810122,
-      810122,
-      810123,
-      810123
-    ],
-    "name": "【DOA联动EX】BOSS 女天狗 第一波 扇形自机狙",
-    "bullet_ID": [
-      800073,
-      800074,
-      800073,
-      800074
-    ],
-    "aim_type": 1,
-    "reload_max": 300,
-    "base": 1000,
-    "damage": 25
-  },
-  "742109": {
-    "fire_sfx": "",
-    "id": 742109,
-    "suppress": 1,
-    "range": 120,
-    "queue": 2,
-    "barrage_ID": [
-      810078,
-      810079
-    ],
-    "name": "【DOA联动SP3】BOSS 玛莉萝丝 fever 3way螺旋穿透弹",
-    "bullet_ID": [
-      720001,
-      720002
-    ],
-    "aim_type": 1,
-    "reload_max": 6000,
-    "base": 1000,
-    "damage": 6
-  },
-  "745001": {
-    "action_index": "",
-    "type": 2,
-    "id": 745001,
-    "suppress": 1,
-    "range": 120,
-    "queue": 1,
-    "barrage_ID": [
-      810112,
-      810113,
-      810114,
-      810115,
-      810116,
-      810117,
-      810118,
-      810119,
-      810120,
-      810121,
-      810124,
-      810125
-    ],
-    "name": "【DOA联动EX】BOSS 女天狗 第一波 横向自机狙",
-    "bullet_ID": [
-      800072,
-      800072,
-      800072,
-      800072,
-      800072,
-      800072,
-      800072,
-      800072,
-      800072,
-      800072,
-      800072,
-      800072
-    ],
-    "aim_type": 1,
-    "reload_max": 6000,
-    "base": 1000,
-    "damage": 25
-  },
-  "742110": {
+  "744003": {
+    "initial_over_heat": 1,
     "suppress": 1,
     "range": 75,
-    "recover_time": 4,
     "base": 1000,
-    "reload_max": 6000,
+    "reload_max": 1800,
     "action_index": "",
     "type": 19,
-    "id": 742110,
+    "id": 744003,
     "barrage_ID": [
-      810082
+      399912
     ],
     "queue": 1,
     "precast_param": {
@@ -188,14 +104,69 @@
       "time": 1,
       "fx": "jinengenemy"
     },
-    "name": "【DOA联动SP3】BOSS 穗香 fever 前排跨射",
+    "name": "【DOA联动VSP】精英人形凪咲 前排跨射",
     "bullet_ID": [
-      800033
+      800005
     ],
     "aim_type": 1,
     "fire_fx": "CAFire",
     "fire_sfx": "battle/cannon-main",
-    "damage": 24
+    "damage": 30
+  },
+  "741101": {
+    "type": 2,
+    "id": 741101,
+    "suppress": 1,
+    "range": 38,
+    "queue": 5,
+    "barrage_ID": [
+      13
+    ],
+    "name": "【DOA联动SP2】BOSS 通用近程自卫火炮",
+    "bullet_ID": [
+      999
+    ],
+    "aim_type": 1,
+    "reload_max": 500,
+    "base": 1000,
+    "damage": 7
+  },
+  "744002": {
+    "initial_over_heat": 1,
+    "id": 744002,
+    "barrage_ID": [
+      810004,
+      810005,
+      810006
+    ],
+    "queue": 1,
+    "name": "【DOA联动VSP】精英人形霞 鱼雷弹幕",
+    "bullet_ID": [
+      1801,
+      1801,
+      1801
+    ],
+    "aim_type": 0,
+    "reload_max": 1200,
+    "base": 1001,
+    "damage": 26
+  },
+  "741102": {
+    "action_index": "",
+    "id": 741102,
+    "suppress": 1,
+    "barrage_ID": [
+      810066,
+      810067
+    ],
+    "bullet_ID": [
+      110605,
+      110606
+    ],
+    "name": "【DOA联动SP2】BOSS 海咲 大范围鱼雷",
+    "reload_max": 2800,
+    "base": 1001,
+    "damage": 32
   },
   "744001": {
     "fire_sfx": "battle/cannon-main",
@@ -224,162 +195,194 @@
     "base": 1000,
     "damage": 24
   },
-  "742111": {
-    "suppress": 1,
-    "range": 150,
-    "recover_time": 4,
-    "angle": 40,
-    "base": 1000,
-    "reload_max": 300,
+  "741103": {
     "action_index": "",
-    "type": 19,
-    "id": 742111,
-    "precast_param": {
-      "alertTime": 2,
-      "fx": "jinengenemy",
-      "time": 1,
-      "isBound": true
-    },
-    "barrage_ID": [
-      20018
-    ],
-    "queue": 2,
-    "bullet_ID": [
-      800006
-    ],
-    "fire_sfx": "battle/cannon-main",
-    "name": "【DOA联动SP3】BOSS 穗香 fever 后排跨射1",
-    "damage": 32,
-    "aim_type": 1,
-    "fire_fx": "CAFire",
-    "min_range": 75,
-    "axis_angle": 30
-  },
-  "744002": {
     "initial_over_heat": 1,
-    "id": 744002,
-    "barrage_ID": [
-      810004,
-      810005,
-      810006
-    ],
-    "queue": 1,
-    "name": "【DOA联动VSP】精英人形霞 鱼雷弹幕",
-    "bullet_ID": [
-      1801,
-      1801,
-      1801
-    ],
-    "aim_type": 0,
-    "reload_max": 1200,
-    "base": 1001,
-    "damage": 26
-  },
-  "742112": {
+    "id": 741103,
     "suppress": 1,
-    "range": 150,
-    "recover_time": 4,
-    "angle": 40,
-    "base": 1000,
-    "reload_max": 300,
-    "action_index": "",
-    "type": 19,
-    "id": 742112,
-    "barrage_ID": [
-      20018
-    ],
+    "range": 120,
     "queue": 3,
-    "precast_param": {
-      "alertTime": 2,
-      "fx": "jinengenemy",
-      "time": 1,
-      "isBound": true
-    },
-    "bullet_ID": [
-      800006
-    ],
-    "min_range": 75,
-    "fire_sfx": "battle/cannon-main",
-    "aim_type": 1,
-    "fire_fx": "CAFire",
-    "damage": 32,
-    "name": "【DOA联动SP3】BOSS 穗香 fever 后排跨射2"
-  },
-  "744003": {
-    "initial_over_heat": 1,
-    "suppress": 1,
-    "range": 75,
-    "base": 1000,
-    "reload_max": 1800,
-    "action_index": "",
-    "type": 19,
-    "id": 744003,
     "barrage_ID": [
-      399912
+      810003
     ],
-    "queue": 1,
+    "name": "【DOA联动SP2】BOSS 海咲 大范围旋转弹幕",
+    "bullet_ID": [
+      740016
+    ],
+    "aim_type": 1,
+    "reload_max": 1200,
+    "base": 1000,
+    "damage": 12
+  },
+  "743117": {
+    "search_type": 2,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 25,
+    "reload_max": 9500,
+    "torpedo_ammo": 0,
+    "queue": 4,
+    "name": "【DOA联动SP4】BOSS 女天狗 fever 轰炸机武器",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 1,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 68,
+    "action_index": "",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 743117,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      130991,
+      130991,
+      130991,
+      130991,
+      130991,
+      130991
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      800050,
+      800051,
+      800052,
+      800053,
+      800054,
+      800055
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "741104": {
+    "fire_sfx": "battle/cannon-main",
+    "type": 19,
     "precast_param": {
       "alertTime": 2,
       "time": 1,
       "fx": "jinengenemy"
     },
-    "name": "【DOA联动VSP】精英人形凪咲 前排跨射",
-    "bullet_ID": [
-      800005
+    "barrage_ID": [
+      399912
     ],
+    "id": 741104,
+    "suppress": 1,
+    "range": 75,
+    "queue": 1,
+    "bullet_ID": [
+      800007
+    ],
+    "action_index": "",
+    "name": "【DOA联动SP2】BOSS 凪咲 前排跨射",
+    "reload_max": 1500,
     "aim_type": 1,
     "fire_fx": "CAFire",
-    "fire_sfx": "battle/cannon-main",
-    "damage": 30
+    "base": 1000,
+    "damage": 20
   },
-  "742113": {
+  "743116": {
+    "search_type": 1,
+    "attack_attribute": 0,
+    "shakescreen": 0,
+    "angle": 90,
+    "reload_max": 400,
+    "torpedo_ammo": 0,
+    "queue": 3,
+    "name": "【DOA联动SP4】BOSS 女天狗 fever 轰炸机",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 68,
+    "action_index": "",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 743116,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      12008
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      340141
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "741105": {
     "suppress": 1,
     "range": 150,
-    "recover_time": 4,
     "angle": 40,
     "base": 1000,
-    "reload_max": 300,
+    "reload_max": 2400,
     "action_index": "",
     "type": 19,
-    "id": 742113,
+    "id": 741105,
     "barrage_ID": [
       20018
     ],
-    "bullet_ID": [
-      800006
-    ],
+    "queue": 1,
     "precast_param": {
       "alertTime": 2,
       "fx": "jinengenemy",
       "time": 1,
       "isBound": true
     },
+    "bullet_ID": [
+      800006
+    ],
+    "min_range": 75,
     "fire_sfx": "battle/cannon-main",
-    "name": "【DOA联动SP3】BOSS 穗香 fever 后排跨射3",
-    "damage": 32,
     "aim_type": 1,
     "fire_fx": "CAFire",
-    "min_range": 75,
-    "axis_angle": -30
+    "damage": 28,
+    "name": "【DOA联动SP2】BOSS 凪咲 后排跨射"
   },
-  "744004": {
-    "fire_sfx": "battle/cannon-main",
-    "id": 744004,
+  "743115": {
+    "id": 743115,
     "range": 120,
-    "queue": 1,
+    "queue": 2,
+    "name": "【DOA联动SP4】BOSS 女天狗 fever 变形红色自机狙",
     "barrage_ID": [
-      950195,
-      950196
+      810099,
+      810100
     ],
-    "name": "【DOA联动VSP】精英人形凪咲 主炮弹幕",
     "bullet_ID": [
-      20003,
-      20003
+      780074,
+      780075
     ],
-    "reload_max": 1200,
-    "fire_fx": "CAFire",
+    "reload_max": 6000,
     "base": 1000,
-    "damage": 34
+    "damage": 18
   },
   "741106": {
     "fire_sfx": "battle/cannon-main",
@@ -400,25 +403,24 @@
     "base": 1000,
     "damage": 28
   },
-  "744005": {
-    "fire_sfx": "",
-    "id": 744005,
+  "743114": {
+    "type": 2,
+    "initial_over_heat": 1,
+    "id": 743114,
     "suppress": 1,
     "range": 120,
     "queue": 2,
     "barrage_ID": [
-      990241,
-      990242
+      810098
     ],
-    "name": "【DOA联动VSP】精英人形女天狗 变向弹幕",
+    "name": "【DOA联动SP4】BOSS 女天狗 fever 缓慢紫色子弹",
     "bullet_ID": [
-      770022,
-      770023
+      800049
     ],
     "aim_type": 1,
-    "reload_max": 1200,
+    "reload_max": 600,
     "base": 1000,
-    "damage": 21
+    "damage": 22
   },
   "741107": {
     "action_index": "",
@@ -509,25 +511,36 @@
     "base": 1000,
     "damage": 8
   },
-  "744006": {
+  "743113": {
     "fire_sfx": "",
-    "id": 744006,
-    "suppress": 1,
+    "type": 2,
+    "id": 743113,
     "range": 120,
-    "queue": 3,
+    "queue": 1,
+    "name": "【DOA联动SP4】BOSS 女天狗 fever 黑色羽毛反弹封锁弹",
     "barrage_ID": [
-      990001,
-      990002
+      810088,
+      810089,
+      810090,
+      810091,
+      810094,
+      810095,
+      810096,
+      810097
     ],
-    "name": "【DOA联动VSP】精英人形女天狗 变向弹幕",
     "bullet_ID": [
-      770020,
-      770021
+      800042,
+      800043,
+      800042,
+      800043,
+      800045,
+      800046,
+      800045,
+      800046
     ],
-    "aim_type": 1,
     "reload_max": 1200,
     "base": 1000,
-    "damage": 21
+    "damage": 18
   },
   "741108": {
     "action_index": "",
@@ -547,23 +560,49 @@
     "base": 1000,
     "reload_max": 450
   },
-  "744101": {
+  "743110": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【DOA联动SP4】BOSS 女天狗 舰载轰炸机武器",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 10,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 58,
     "action_index": "",
     "type": 2,
-    "id": 744101,
-    "suppress": 1,
-    "range": 38,
-    "queue": 5,
-    "name": "【DOA联动VSP】BOSS 莫妮卡 近程自卫火炮",
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 743110,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      13
+      130992
     ],
-    "aim_type": 1,
+    "corrected": 100,
+    "auto_aftercast": 0,
     "bullet_ID": [
-      999
+      130301
     ],
-    "base": 1000,
-    "reload_max": 500
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "741109": {
     "action_index": "",
@@ -582,21 +621,49 @@
     "base": 1000,
     "reload_max": 6000
   },
-  "744102": {
-    "type": 2,
-    "id": 744102,
-    "range": 120,
+  "743109": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 35,
+    "reload_max": 8000,
+    "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【DOA联动VSP】BOSS 莫妮卡 fever 四方向子母弹 第二波",
+    "name": "【DOA联动SP4】BOSS 女天狗 舰载鱼雷机武器",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 60,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 46,
+    "action_index": "",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 743109,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      810106
+      12001
     ],
+    "corrected": 100,
+    "auto_aftercast": 0,
     "bullet_ID": [
-      800060
+      10031
     ],
-    "reload_max": 6000,
-    "base": 1000,
-    "damage": 12
+    "min_range": 15,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 1,
+    "axis_angle": 0
   },
   "741110": {
     "action_index": "",
@@ -615,21 +682,36 @@
     "base": 1000,
     "reload_max": 6000
   },
-  "744103": {
-    "type": 2,
-    "id": 744103,
-    "range": 120,
-    "queue": 2,
-    "name": "【DOA联动VSP】BOSS 莫妮卡 fever 旋转发射弹幕 第二波",
-    "barrage_ID": [
-      810106
-    ],
-    "bullet_ID": [
-      800061
-    ],
-    "reload_max": 6000,
+  "742111": {
+    "suppress": 1,
+    "range": 150,
+    "recover_time": 4,
+    "angle": 40,
     "base": 1000,
-    "damage": 12
+    "reload_max": 300,
+    "action_index": "",
+    "type": 19,
+    "id": 742111,
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
+    "barrage_ID": [
+      20018
+    ],
+    "queue": 2,
+    "bullet_ID": [
+      800006
+    ],
+    "fire_sfx": "battle/cannon-main",
+    "name": "【DOA联动SP3】BOSS 穗香 fever 后排跨射1",
+    "damage": 32,
+    "aim_type": 1,
+    "fire_fx": "CAFire",
+    "min_range": 75,
+    "axis_angle": 30
   },
   "741111": {
     "action_index": "",
@@ -648,35 +730,35 @@
     "base": 1000,
     "reload_max": 6000
   },
-  "744104": {
-    "type": 2,
-    "id": 744104,
+  "742113": {
     "suppress": 1,
-    "range": 120,
-    "queue": 3,
-    "barrage_ID": [
-      810111,
-      810111,
-      810111,
-      810111,
-      810111,
-      810111,
-      810111
-    ],
-    "name": "【DOA联动VSP】BOSS 莫妮卡 fever 红色自机狙 第二波",
-    "bullet_ID": [
-      800063,
-      800064,
-      800065,
-      800066,
-      800067,
-      800068,
-      800069
-    ],
-    "aim_type": 1,
-    "reload_max": 6000,
+    "range": 150,
+    "recover_time": 4,
+    "angle": 40,
     "base": 1000,
-    "damage": 12
+    "reload_max": 300,
+    "action_index": "",
+    "type": 19,
+    "id": 742113,
+    "barrage_ID": [
+      20018
+    ],
+    "bullet_ID": [
+      800006
+    ],
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
+    "fire_sfx": "battle/cannon-main",
+    "name": "【DOA联动SP3】BOSS 穗香 fever 后排跨射3",
+    "damage": 32,
+    "aim_type": 1,
+    "fire_fx": "CAFire",
+    "min_range": 75,
+    "axis_angle": -30
   },
   "741112": {
     "action_index": "",
@@ -695,39 +777,96 @@
     "base": 1000,
     "reload_max": 6000
   },
-  "744105": {
-    "fire_sfx": "battle/cannon-main",
-    "id": 744105,
+  "743001": {
+    "action_index": "",
+    "id": 743001,
+    "suppress": 1,
     "barrage_ID": [
-      690134,
-      690135,
-      690136,
-      690137,
-      690138,
-      690134,
-      690135,
-      690136,
-      690137,
-      690138
+      110608,
+      110609
     ],
-    "queue": 1,
-    "name": "【DOA联动VSP】BOSS 莫妮卡 fever 扫射纸牌弹幕 第一波",
     "bullet_ID": [
-      800070,
-      800070,
-      800070,
-      800070,
-      800070,
-      800071,
-      800071,
-      800071,
-      800071,
-      800071
+      110605,
+      110606
     ],
+    "name": "【DOA联动SP4】精英人形海咲 大范围鱼雷",
+    "reload_max": 2800,
+    "base": 1001,
+    "damage": 40
+  },
+  "740105": {
+    "fire_sfx": "battle/cannon-main",
+    "type": 2,
+    "id": 740105,
+    "suppress": 1,
+    "range": 120,
+    "queue": 1,
+    "barrage_ID": [
+      810007,
+      810008
+    ],
+    "bullet_ID": [
+      800008,
+      800008
+    ],
+    "name": "【DOA联动SP1】BOSS 莫妮卡 fever 旋转发射副炮弹幕",
     "reload_max": 6000,
+    "aim_type": 1,
     "fire_fx": "CAFire",
     "base": 1000,
-    "damage": 20
+    "damage": 8
+  },
+  "743002": {
+    "action_index": "",
+    "initial_over_heat": 1,
+    "id": 743002,
+    "suppress": 1,
+    "range": 120,
+    "queue": 3,
+    "barrage_ID": [
+      810003
+    ],
+    "name": "【DOA联动SP4】精英人形海咲 大范围旋转弹幕",
+    "bullet_ID": [
+      740016
+    ],
+    "aim_type": 1,
+    "reload_max": 1200,
+    "base": 1000,
+    "damage": 15
+  },
+  "740106": {
+    "fire_sfx": "battle/cannon-main",
+    "id": 740106,
+    "suppress": 1,
+    "range": 120,
+    "queue": 2,
+    "barrage_ID": [
+      810009,
+      810010,
+      810011,
+      810012,
+      810013,
+      810014,
+      810015,
+      810016
+    ],
+    "bullet_ID": [
+      800009,
+      800010,
+      800009,
+      800010,
+      800009,
+      800010,
+      800009,
+      800010
+    ],
+    "name": "【DOA联动SP1】BOSS 霞 fever 旋转发射主炮弹幕",
+    "reload_max": 6000,
+    "aim_type": 1,
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 12
   },
   "743003": {
     "fire_sfx": "battle/cannon-main",
@@ -756,23 +895,49 @@
     "base": 1000,
     "damage": 24
   },
-  "744106": {
-    "initial_over_heat": 1,
-    "id": 744106,
-    "suppress": 1,
-    "range": 120,
+  "740107": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 6000,
+    "torpedo_ammo": 0,
     "queue": 1,
+    "name": "【DOA联动SP1】BOSS 莫妮卡 副炮弹幕",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 3,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 8,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 740107,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      810085
+      730009
     ],
-    "name": "【DOA联动VSP】BOSS 莫妮卡 纸牌弹幕",
+    "corrected": 100,
+    "auto_aftercast": 0,
     "bullet_ID": [
-      800041
+      730022
     ],
+    "min_range": 0,
+    "initial_over_heat": 0,
     "aim_type": 1,
-    "reload_max": 600,
-    "base": 1000,
-    "damage": 20
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "743004": {
     "initial_over_heat": 1,
@@ -794,9 +959,9 @@
     "base": 1001,
     "damage": 40
   },
-  "744107": {
+  "740108": {
     "action_index": "",
-    "id": 744107,
+    "id": 740108,
     "suppress": 1,
     "barrage_ID": [
       140005,
@@ -811,12 +976,70 @@
       140007,
       140008
     ],
-    "name": "【DOA联动VSP】BOSS 莫妮卡 鱼雷弹幕",
+    "name": "【DOA联动SP1】BOSS 莫妮卡 鱼雷弹幕",
     "fire_sfx": "battle/cannon-main",
     "aim_type": 0,
-    "reload_max": 600,
+    "reload_max": 6000,
     "base": 1001,
-    "damage": 58
+    "damage": 26
+  },
+  "743101": {
+    "action_index": "",
+    "type": 2,
+    "id": 743101,
+    "suppress": 1,
+    "range": 38,
+    "queue": 5,
+    "barrage_ID": [
+      13
+    ],
+    "name": "【DOA联动SP4】BOSS 通用近程自卫火炮",
+    "bullet_ID": [
+      999
+    ],
+    "aim_type": 1,
+    "reload_max": 500,
+    "base": 1000,
+    "damage": 8
+  },
+  "743006": {
+    "fire_sfx": "battle/cannon-main",
+    "id": 743006,
+    "range": 120,
+    "queue": 1,
+    "barrage_ID": [
+      950195,
+      950196
+    ],
+    "name": "【DOA联动SP4】精英人形凪咲 主炮弹幕",
+    "bullet_ID": [
+      20003,
+      20003
+    ],
+    "reload_max": 1500,
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 32
+  },
+  "743102": {
+    "fire_sfx": "",
+    "id": 743102,
+    "suppress": 1,
+    "range": 120,
+    "queue": 2,
+    "barrage_ID": [
+      990241,
+      990242
+    ],
+    "name": "【DOA联动SP4】BOSS 女天狗 变向弹幕",
+    "bullet_ID": [
+      770022,
+      770023
+    ],
+    "aim_type": 1,
+    "reload_max": 800,
+    "base": 1000,
+    "damage": 18
   },
   "743005": {
     "initial_over_heat": 1,
@@ -844,194 +1067,6 @@
     "fire_fx": "CAFire",
     "fire_sfx": "battle/cannon-main",
     "damage": 28
-  },
-  "744108": {
-    "type": 2,
-    "id": 744108,
-    "suppress": 1,
-    "range": 120,
-    "queue": 1,
-    "barrage_ID": [
-      740039,
-      740040,
-      740041,
-      740042,
-      740043,
-      740044,
-      740045,
-      740046
-    ],
-    "name": "【DOA联动VSP】BOSS 莫妮卡 广域射击",
-    "bullet_ID": [
-      1206,
-      1206,
-      1206,
-      1206,
-      1206,
-      1206,
-      1206,
-      1206
-    ],
-    "aim_type": 1,
-    "reload_max": 600,
-    "base": 1000,
-    "damage": 16
-  },
-  "743006": {
-    "fire_sfx": "battle/cannon-main",
-    "id": 743006,
-    "range": 120,
-    "queue": 1,
-    "barrage_ID": [
-      950195,
-      950196
-    ],
-    "name": "【DOA联动SP4】精英人形凪咲 主炮弹幕",
-    "bullet_ID": [
-      20003,
-      20003
-    ],
-    "reload_max": 1500,
-    "fire_fx": "CAFire",
-    "base": 1000,
-    "damage": 32
-  },
-  "743101": {
-    "action_index": "",
-    "type": 2,
-    "id": 743101,
-    "suppress": 1,
-    "range": 38,
-    "queue": 5,
-    "barrage_ID": [
-      13
-    ],
-    "name": "【DOA联动SP4】BOSS 通用近程自卫火炮",
-    "bullet_ID": [
-      999
-    ],
-    "aim_type": 1,
-    "reload_max": 500,
-    "base": 1000,
-    "damage": 8
-  },
-  "743117": {
-    "search_type": 2,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 25,
-    "reload_max": 9500,
-    "torpedo_ammo": 0,
-    "queue": 4,
-    "name": "【DOA联动SP4】BOSS 女天狗 fever 轰炸机武器",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 1,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 68,
-    "action_index": "",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 743117,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      130991,
-      130991,
-      130991,
-      130991,
-      130991,
-      130991
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      800050,
-      800051,
-      800052,
-      800053,
-      800054,
-      800055
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "743102": {
-    "fire_sfx": "",
-    "id": 743102,
-    "suppress": 1,
-    "range": 120,
-    "queue": 2,
-    "barrage_ID": [
-      990241,
-      990242
-    ],
-    "name": "【DOA联动SP4】BOSS 女天狗 变向弹幕",
-    "bullet_ID": [
-      770022,
-      770023
-    ],
-    "aim_type": 1,
-    "reload_max": 800,
-    "base": 1000,
-    "damage": 18
-  },
-  "743116": {
-    "search_type": 1,
-    "attack_attribute": 0,
-    "shakescreen": 0,
-    "angle": 90,
-    "reload_max": 400,
-    "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【DOA联动SP4】BOSS 女天狗 fever 轰炸机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 68,
-    "action_index": "",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 743116,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12008
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      340141
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
-    "axis_angle": 0
   },
   "743103": {
     "fire_sfx": "",
@@ -1247,22 +1282,35 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "743115": {
-    "id": 743115,
-    "range": 120,
-    "queue": 2,
-    "name": "【DOA联动SP4】BOSS 女天狗 fever 变形红色自机狙",
-    "barrage_ID": [
-      810099,
-      810100
-    ],
-    "bullet_ID": [
-      780074,
-      780075
-    ],
-    "reload_max": 6000,
+  "742112": {
+    "suppress": 1,
+    "range": 150,
+    "recover_time": 4,
+    "angle": 40,
     "base": 1000,
-    "damage": 18
+    "reload_max": 300,
+    "action_index": "",
+    "type": 19,
+    "id": 742112,
+    "barrage_ID": [
+      20018
+    ],
+    "queue": 3,
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
+    "bullet_ID": [
+      800006
+    ],
+    "min_range": 75,
+    "fire_sfx": "battle/cannon-main",
+    "aim_type": 1,
+    "fire_fx": "CAFire",
+    "damage": 32,
+    "name": "【DOA联动SP3】BOSS 穗香 fever 后排跨射2"
   },
   "743108": {
     "search_type": 1,
@@ -1308,24 +1356,32 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "743114": {
-    "type": 2,
-    "initial_over_heat": 1,
-    "id": 743114,
+  "742110": {
     "suppress": 1,
-    "range": 120,
-    "queue": 2,
+    "range": 75,
+    "recover_time": 4,
+    "base": 1000,
+    "reload_max": 6000,
+    "action_index": "",
+    "type": 19,
+    "id": 742110,
     "barrage_ID": [
-      810098
+      810082
     ],
-    "name": "【DOA联动SP4】BOSS 女天狗 fever 缓慢紫色子弹",
+    "queue": 1,
+    "precast_param": {
+      "alertTime": 2,
+      "time": 1,
+      "fx": "jinengenemy"
+    },
+    "name": "【DOA联动SP3】BOSS 穗香 fever 前排跨射",
     "bullet_ID": [
-      800049
+      800033
     ],
     "aim_type": 1,
-    "reload_max": 600,
-    "base": 1000,
-    "damage": 22
+    "fire_fx": "CAFire",
+    "fire_sfx": "battle/cannon-main",
+    "damage": 24
   },
   "742101": {
     "type": 2,
@@ -1345,36 +1401,25 @@
     "base": 1000,
     "damage": 7
   },
-  "743113": {
+  "742109": {
     "fire_sfx": "",
-    "type": 2,
-    "id": 743113,
+    "id": 742109,
+    "suppress": 1,
     "range": 120,
-    "queue": 1,
-    "name": "【DOA联动SP4】BOSS 女天狗 fever 黑色羽毛反弹封锁弹",
+    "queue": 2,
     "barrage_ID": [
-      810088,
-      810089,
-      810090,
-      810091,
-      810094,
-      810095,
-      810096,
-      810097
+      810078,
+      810079
     ],
+    "name": "【DOA联动SP3】BOSS 玛莉萝丝 fever 3way螺旋穿透弹",
     "bullet_ID": [
-      800042,
-      800043,
-      800042,
-      800043,
-      800045,
-      800046,
-      800045,
-      800046
+      720001,
+      720002
     ],
-    "reload_max": 1200,
+    "aim_type": 1,
+    "reload_max": 6000,
     "base": 1000,
-    "damage": 18
+    "damage": 6
   },
   "742102": {
     "type": 2,
@@ -1409,49 +1454,32 @@
     "base": 1000,
     "damage": 5
   },
-  "743110": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 400,
-    "torpedo_ammo": 0,
+  "740102": {
+    "fire_sfx": "battle/cannon-main",
+    "id": 740102,
+    "suppress": 1,
+    "range": 120,
     "queue": 1,
-    "name": "【DOA联动SP4】BOSS 女天狗 舰载轰炸机武器",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 10,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 58,
-    "action_index": "",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 743110,
-    "spawn_bound": "cannon",
     "barrage_ID": [
-      130992
+      730088,
+      730089,
+      730090,
+      730091,
+      730092
     ],
-    "corrected": 100,
-    "auto_aftercast": 0,
     "bullet_ID": [
-      130301
+      800003,
+      800003,
+      800002,
+      800002,
+      800002
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
+    "name": "【DOA联动SP1】BOSS 霞 主炮弹幕1",
+    "reload_max": 6000,
+    "aim_type": 1,
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 14
   },
   "742103": {
     "fire_sfx": "",
@@ -1473,49 +1501,36 @@
     "base": 1000,
     "damage": 7
   },
-  "743109": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 35,
-    "reload_max": 8000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【DOA联动SP4】BOSS 女天狗 舰载鱼雷机武器",
-    "fire_fx": "",
-    "charge_param": "",
+  "741001": {
+    "id": 741001,
     "suppress": 1,
-    "range": 60,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 46,
-    "action_index": "",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 743109,
-    "spawn_bound": "torpedo",
+    "range": 120,
+    "queue": 2,
     "barrage_ID": [
-      12001
+      720001,
+      720002,
+      720003,
+      720004,
+      720005,
+      720006,
+      720007,
+      720008
     ],
-    "corrected": 100,
-    "auto_aftercast": 0,
+    "name": "【DOA联动SP2】精英人形玛莉萝丝 前方扫射弹幕",
     "bullet_ID": [
-      10031
+      800001,
+      800001,
+      800001,
+      800001,
+      800001,
+      800001,
+      800001,
+      800001
     ],
-    "min_range": 15,
-    "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
+    "reload_max": 1850,
+    "base": 1000,
+    "damage": 6
   },
   "742104": {
     "suppress": 1,
@@ -1544,24 +1559,25 @@
     "fire_sfx": "battle/cannon-main",
     "damage": 20
   },
-  "743002": {
-    "action_index": "",
-    "initial_over_heat": 1,
-    "id": 743002,
+  "741002": {
+    "fire_sfx": "",
+    "id": 741002,
     "suppress": 1,
     "range": 120,
     "queue": 3,
     "barrage_ID": [
-      810003
+      810001,
+      810002
     ],
-    "name": "【DOA联动SP4】精英人形海咲 大范围旋转弹幕",
+    "name": "【DOA联动SP2】精英人形玛莉萝丝 螺旋穿透弹",
     "bullet_ID": [
-      740016
+      720001,
+      720002
     ],
     "aim_type": 1,
-    "reload_max": 1200,
+    "reload_max": 950,
     "base": 1000,
-    "damage": 15
+    "damage": 8
   },
   "742105": {
     "suppress": 1,
@@ -1593,21 +1609,25 @@
     "damage": 30,
     "name": "【DOA联动SP3】BOSS 穗香 后排跨射"
   },
-  "743001": {
+  "740104": {
     "action_index": "",
-    "id": 743001,
-    "suppress": 1,
+    "initial_over_heat": 1,
+    "id": 740104,
     "barrage_ID": [
-      110608,
-      110609
+      810004,
+      810005,
+      810006
     ],
+    "queue": 1,
+    "name": "【DOA联动SP1】BOSS 霞 鱼雷弹幕",
     "bullet_ID": [
-      110605,
-      110606
+      1801,
+      1801,
+      1801
     ],
-    "name": "【DOA联动SP4】精英人形海咲 大范围鱼雷",
-    "reload_max": 2800,
+    "aim_type": 0,
+    "reload_max": 6000,
     "base": 1001,
-    "damage": 40
+    "damage": 26
   }
 }

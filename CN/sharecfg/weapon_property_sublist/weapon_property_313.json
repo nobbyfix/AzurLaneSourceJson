@@ -1,54 +1,98 @@
 {
-  "650126": {
+  "640203": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 9999,
+    "reload_max": 1100,
     "torpedo_ammo": 0,
     "queue": 3,
-    "name": "【2020法系活动B2】拉加利索尼耶 火柱落底触发子弹 扩散弹",
+    "name": "【2020法系SP3】纳尔逊 前排跨射3x2轮",
     "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 999,
+    "suppress": 1,
+    "range": 60,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
+    "damage": 56,
     "action_index": "attack",
-    "type": 1,
+    "type": 19,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 650126,
+    "id": 640203,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      730053,
-      730055,
-      730057,
-      730059,
-      730061,
-      730063
+      630005
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      730033,
-      730033,
-      730033,
-      730033,
-      730033,
-      730033
+      399988
     ],
-    "min_range": 0,
+    "min_range": 20,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "640204": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 40,
+    "reload_max": 1050,
+    "torpedo_ammo": 0,
+    "queue": 3,
+    "name": "【2020法系SP3】纳尔逊 后排跨射3x2轮",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 150,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 56,
+    "action_index": "attack",
+    "type": 19,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 640204,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      20018
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30063
+    ],
+    "min_range": 75,
+    "initial_over_heat": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
@@ -97,26 +141,26 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "650137": {
+  "640205": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 9999,
+    "reload_max": 500,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【2020法系活动B3】阿尔及利亚 第二波 两翼封锁子母弹",
-    "fire_fx": "",
+    "queue": 4,
+    "name": "【2020法系SP3】纳尔逊 红子弹+米粒半圆散射",
+    "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 999,
+    "suppress": 1,
+    "range": 90,
     "recover_time": 0,
-    "fire_fx_loop_type": 0,
+    "fire_fx_loop_type": 3,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 7,
-    "action_index": "",
+    "damage": 20,
+    "action_index": "attack",
     "type": 1,
     "search_condition": [
       1
@@ -124,20 +168,22 @@
     "oxy_type": [
       1
     ],
-    "id": 650137,
+    "id": 640205,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      730177
+      990341,
+      990342
     ],
-    "corrected": 100,
+    "corrected": 105,
     "auto_aftercast": 0,
     "bullet_ID": [
-      730090
+      990341,
+      990342
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -185,209 +231,64 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "650136": {
+  "640301": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 750,
+    "angle": 40,
+    "reload_max": 2400,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【2020法系活动B3】阿尔及利亚 第四波 羽翼形态自机狙",
+    "queue": 1,
+    "name": "【2020法系SP】后排跨射（点燃概率降低）I",
     "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 999,
+    "range": 150,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 15,
-    "action_index": "",
-    "type": 2,
+    "damage": 35,
+    "action_index": "attack",
+    "type": 19,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 650136,
+    "id": 640301,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      730153,
-      730154,
-      730155,
-      730156,
-      730157,
-      730158,
-      730159,
-      730160,
-      730161,
-      730162
+      20012
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      730080,
-      730081,
-      730082,
-      730083,
-      730084,
-      730085,
-      730086,
-      730087,
-      730088,
-      730089
+      720007
     ],
-    "min_range": 0,
+    "min_range": 75,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "650003": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 2200,
-    "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【2020法系活动A1】塞壬探索者I型 扫射弹幕",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 70,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 650003,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      21047,
-      21048,
-      21049,
-      21050
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      811,
-      811,
-      811,
-      811
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "650135": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 9999,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【2020法系活动B3】阿尔及利亚 第四波 羽翼展开",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 999,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 650135,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      730129,
-      730130,
-      730131,
-      730132,
-      730133,
-      730134,
-      730135,
-      730136,
-      730137,
-      730138,
-      730139,
-      730140,
-      730141,
-      730142,
-      730143,
-      730144,
-      730145,
-      730146,
-      730147,
-      730148
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      730077,
-      730059,
-      730077,
-      730059,
-      730077,
-      730077,
-      730059,
-      730077,
-      730059,
-      730077,
-      730077,
-      730059,
-      730077,
-      730059,
-      730077,
-      730077,
-      730059,
-      730077,
-      730059,
-      730077
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "650004": {
+  "650006": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1200,
+    "reload_max": 1250,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【2020法系活动A1】塞壬探索者I型 双联装炮瞄准 ",
+    "queue": 2,
+    "name": "【2020法系活动A1】塞壬探索者I型 旋转穿透弹",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
@@ -397,7 +298,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 9,
+    "damage": 6,
     "action_index": "attack",
     "type": 2,
     "search_condition": [
@@ -406,70 +307,71 @@
     "oxy_type": [
       1
     ],
-    "id": 650004,
+    "id": 650006,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1001
+      21056,
+      21057
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      811
+      8070,
+      8071
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "650134": {
+  "640302": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 9999,
+    "angle": 40,
+    "reload_max": 2400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【2020法系活动B3】阿尔及利亚 第四波 羽翼子母弹",
-    "fire_fx": "",
+    "name": "【2020法系SP】后排跨射（点燃概率降低）II",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 999,
+    "suppress": 1,
+    "range": 150,
     "recover_time": 0,
-    "fire_fx_loop_type": 0,
-    "precast_param": [],
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 7,
-    "action_index": "",
-    "type": 1,
+    "damage": 42,
+    "action_index": "attack",
+    "type": 19,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 650134,
+    "id": 640302,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      730149,
-      730150,
-      730151,
-      730152
+      20012
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      730078,
-      730078,
-      730078,
-      730078
+      720007
     ],
-    "min_range": 0,
+    "min_range": 75,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -535,7 +437,56 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "650133": {
+  "640303": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 40,
+    "reload_max": 2400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【2020法系SP】后排跨射（点燃概率降低）III",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 150,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 50,
+    "action_index": "attack",
+    "type": 19,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 640303,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      20012
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      720007
+    ],
+    "min_range": 75,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "650122": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
@@ -543,91 +494,88 @@
     "reload_max": 9999,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【2020法系活动B3】阿尔及利亚 第一/三波 强化三方向包围弹幕 副炮",
-    "fire_fx": "CLFire",
+    "name": "【2020法系活动B1】沃克兰 第三波 缓慢滞留弹",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 0,
     "range": 999,
     "recover_time": 0,
-    "fire_fx_loop_type": 3,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 15,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 650133,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      730170,
-      730171,
-      730173,
-      730174
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      730051,
-      730052,
-      730075,
-      730076
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "650006": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1250,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【2020法系活动A1】塞壬探索者I型 旋转穿透弹",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 70,
-    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 6,
+    "damage": 12,
     "action_index": "attack",
-    "type": 2,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 650006,
+    "id": 650122,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      21056,
-      21057
+      730033
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      8070,
-      8071
+      730028
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "640304": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 40,
+    "reload_max": 2400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【2020法系SP】后排跨射x2（点燃概率降低）I",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 150,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 25,
+    "action_index": "attack",
+    "type": 19,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 640304,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      20021
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      720007
+    ],
+    "min_range": 75,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -2440,49 +2388,93 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "650132": {
-    "search_type": 1,
+  "650121": {
+    "search_type": 2,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 700,
+    "reload_max": 9999,
     "torpedo_ammo": 0,
-    "queue": 5,
-    "name": "【2020法系活动B3】阿尔及利亚 通常火炮攻击(暴走)",
-    "fire_fx": "CLFire",
+    "queue": 3,
+    "name": "【2020法系活动B1】沃克兰 第三波 范围鱼雷",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 70,
+    "range": 999,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 6,
+    "damage": 40,
     "action_index": "attack",
-    "type": 2,
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 650132,
-    "spawn_bound": "cannon",
+    "id": 650121,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      730167,
-      730168
+      110608,
+      110609
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      730072,
-      730073
+      110605,
+      110606
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "640103": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 2200,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【2020法系SP2】阿瑞托莎 分裂水之子弹（子母弹）",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 999,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 14,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 640103,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      720010
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      720004
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -2536,15 +2528,61 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "650131": {
+  "640104": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 900,
+    "reload_max": 1600,
     "torpedo_ammo": 0,
-    "queue": 5,
-    "name": "【2020法系活动B2】拉加利索尼耶 通常火炮攻击",
+    "queue": 2,
+    "name": "【2020法系SP2】阿瑞托莎 DNA螺旋穿透弹",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 3,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 8,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 640104,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      990241,
+      990242
+    ],
+    "corrected": 105,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      720001,
+      720002
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "650003": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 2200,
+    "torpedo_ammo": 0,
+    "queue": 3,
+    "name": "【2020法系活动A1】塞壬探索者I型 扫射弹幕",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
@@ -2554,7 +2592,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 6,
+    "damage": 8,
     "action_index": "attack",
     "type": 2,
     "search_condition": [
@@ -2563,43 +2601,49 @@
     "oxy_type": [
       1
     ],
-    "id": 650131,
+    "id": 650003,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1023
+      21047,
+      21048,
+      21049,
+      21050
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1305
+      811,
+      811,
+      811,
+      811
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "650121": {
-    "search_type": 2,
-    "attack_attribute": 1,
+  "640105": {
+    "search_type": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 9999,
+    "angle": 180,
+    "reload_max": 1800,
     "torpedo_ammo": 0,
     "queue": 3,
-    "name": "【2020法系活动B1】沃克兰 第三波 范围鱼雷",
+    "name": "【2020法系SP2】阿瑞托莎 四联装鱼雷",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 999,
-    "recover_time": 0.5,
+    "range": 72,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 40,
-    "action_index": "attack",
+    "damage": 32,
+    "action_index": "",
     "type": 3,
     "search_condition": [
       1
@@ -2607,17 +2651,17 @@
     "oxy_type": [
       1
     ],
-    "id": 650121,
+    "id": 640105,
     "spawn_bound": "torpedo",
     "barrage_ID": [
-      110608,
-      110609
+      300504,
+      300505
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      110605,
-      110606
+      300504,
+      300505
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -2626,26 +2670,26 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "650130": {
+  "650004": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 9999,
+    "reload_max": 1200,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【2020法系活动B2】拉加利索尼耶 交叉弹幕",
-    "fire_fx": "fangkongpaohuoshe2",
+    "name": "【2020法系活动A1】塞壬探索者I型 双联装炮瞄准 ",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 999,
-    "recover_time": 0,
+    "range": 70,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 15,
-    "action_index": "",
+    "damage": 9,
+    "action_index": "attack",
     "type": 2,
     "search_condition": [
       1
@@ -2653,112 +2697,20 @@
     "oxy_type": [
       1
     ],
-    "id": 650130,
+    "id": 650004,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      730082,
-      730083
+      1001
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      730042,
-      730043
+      811
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "650122": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 9999,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【2020法系活动B1】沃克兰 第三波 缓慢滞留弹",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 999,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 650122,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      730033
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      730028
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "650129": {
-    "search_type": 2,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 9999,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【2020法系活动B2】拉加利索尼耶 鱼雷+三角弹幕 鱼雷",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 999,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 40,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 650129,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      730081,
-      730081
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      730040,
-      730041
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -2816,26 +2768,26 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "650128": {
+  "640201": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 9999,
+    "reload_max": 500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【2020法系活动B2】拉加利索尼耶 鱼雷+三角弹幕 三角弹幕",
-    "fire_fx": "fangkongpaohuoshe2",
+    "name": "【2020法系SP3】纳尔逊 近程自卫火炮",
+    "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 999,
-    "recover_time": 0,
+    "suppress": 1,
+    "range": 38,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
     "damage": 15,
-    "action_index": "",
+    "action_index": "attack",
     "type": 2,
     "search_condition": [
       1
@@ -2843,29 +2795,21 @@
     "oxy_type": [
       1
     ],
-    "id": 650128,
+    "id": 640201,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      730076,
-      730077,
-      730078,
-      730079,
-      730080
+      13
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      730035,
-      730036,
-      730037,
-      730038,
-      730039
+      999
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 1,
+    "effect_move": 0,
     "axis_angle": 0
   },
   "650124": {
@@ -2946,91 +2890,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "650127": {
+  "640202": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 9999,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【2020法系活动B2】拉加利索尼耶 妙脆角自机狙",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 999,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 15,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 650127,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      730064,
-      730065,
-      730066,
-      730067,
-      730068,
-      730069,
-      730070,
-      730071,
-      730072,
-      730073,
-      730074,
-      730075
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      730034,
-      730034,
-      730034,
-      730034,
-      730034,
-      730034,
-      730034,
-      730034,
-      730034,
-      730034,
-      730034,
-      730034
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "650125": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 9999,
+    "reload_max": 400,
     "torpedo_ammo": 0,
     "queue": 2,
-    "name": "【2020法系活动B2】拉加利索尼耶 火柱落底触发子弹 自机狙",
+    "name": "【2020法系SP3】纳尔逊 联装主炮x4",
     "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 999,
+    "suppress": 0,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
+    "damage": 42,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -3039,29 +2917,19 @@
     "oxy_type": [
       1
     ],
-    "id": 650125,
+    "id": 640202,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      730052,
-      730054,
-      730056,
-      730058,
-      730060,
-      730062
+      200101
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      730032,
-      730032,
-      730032,
-      730032,
-      730032,
-      730032
+      1403
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
+    "initial_over_heat": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
@@ -3106,6 +2974,55 @@
       730049
     ],
     "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "640305": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 40,
+    "reload_max": 2400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【2020法系SP】后排跨射x2（点燃概率降低）II",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 150,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 30,
+    "action_index": "attack",
+    "type": 19,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 640305,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      20021
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      720007
+    ],
+    "min_range": 75,
     "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "battle/cannon-main",

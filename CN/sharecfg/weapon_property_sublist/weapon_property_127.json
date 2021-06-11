@@ -36,25 +36,20 @@
     "base": 66000,
     "reload_max": 1062
   },
-  "66046": {
-    "name": "胡德技能LV6-PVP",
-    "id": 66046,
-    "barrage_ID": [
-      199439,
-      199440
-    ],
-    "base": 66040,
-    "damage": 122
+  "65950": {
+    "id": 65950,
+    "base": 65941,
+    "damage": 240
   },
-  "66045": {
-    "name": "胡德技能LV5-PVP",
-    "id": 66045,
-    "barrage_ID": [
-      199439,
-      199440
+  "65954": {
+    "name": "射水鱼技能鱼雷LV4",
+    "id": 65954,
+    "bullet_ID": [
+      19289,
+      19289
     ],
-    "base": 66040,
-    "damage": 110
+    "base": 65951,
+    "damage": 21
   },
   "65958": {
     "name": "射水鱼技能鱼雷LV8",
@@ -124,21 +119,22 @@
     "base": 65981,
     "damage": 20
   },
-  "66044": {
-    "name": "胡德技能LV4-PVP",
-    "id": 66044,
-    "barrage_ID": [
-      199439,
-      199440
+  "66026": {
+    "name": "厌战技能LV6",
+    "bullet_ID": [
+      19982
     ],
-    "base": 66040,
-    "damage": 98
+    "id": 66026,
+    "damage": 100,
+    "base": 66020,
+    "reload_max": 2962
   },
-  "66043": {
-    "id": 66043,
-    "base": 66040,
-    "name": "胡德技能LV3-PVP",
-    "damage": 86
+  "66025": {
+    "name": "厌战技能LV5",
+    "id": 66025,
+    "damage": 92,
+    "base": 66020,
+    "reload_max": 3029
   },
   "66002": {
     "name": "萨拉托加技能LV2",
@@ -161,17 +157,67 @@
     "base": 66000,
     "reload_max": 1036
   },
-  "66042": {
-    "id": 66042,
-    "base": 66040,
-    "name": "胡德技能LV2-PVP",
-    "damage": 74
+  "65951": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 3000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "射水鱼技能鱼雷LV1",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 12,
+    "action_index": "",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 65951,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      81091,
+      81092
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      19289,
+      19289
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
   },
-  "66041": {
-    "id": 66041,
-    "base": 66040,
-    "name": "胡德技能LV1-PVP",
-    "damage": 62
+  "65955": {
+    "name": "射水鱼技能鱼雷LV5",
+    "barrage_ID": [
+      81091,
+      81092,
+      81093
+    ],
+    "id": 65955,
+    "bullet_ID": [
+      19289,
+      19289,
+      19289
+    ],
+    "base": 65951,
+    "damage": 24
   },
   "65959": {
     "name": "射水鱼技能鱼雷LV9",
@@ -277,76 +323,63 @@
     "base": 65981,
     "damage": 16
   },
-  "66040": {
+  "65991": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2100,
+    "angle": 360,
+    "reload_max": 5000,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "胡德技能LV0-PVP",
+    "queue": 4,
+    "name": "黑海伦娜-区域雷达扫描",
     "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 115,
+    "suppress": 0,
+    "range": 120,
     "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 1,
-      "fx": "jineng",
-      "time": 0.5,
-      "isBound": true
-    },
+    "fire_fx_loop_type": 3,
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 50,
+    "damage": 1,
     "action_index": "attack",
-    "type": 19,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 66040,
+    "id": 65991,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      199437,
-      199438
+      81107
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10014,
-      10014
+      19305
     ],
-    "min_range": 35,
+    "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "66030": {
-    "name": "厌战技能LV10",
-    "bullet_ID": [
-      19982
-    ],
-    "id": 66030,
-    "damage": 154,
+  "66024": {
+    "name": "厌战技能LV4",
+    "id": 66024,
+    "damage": 84,
     "base": 66020,
-    "reload_max": 2692
+    "reload_max": 3096
   },
-  "66029": {
-    "name": "厌战技能LV9",
-    "bullet_ID": [
-      19982
-    ],
-    "id": 66029,
-    "damage": 138,
+  "66023": {
+    "name": "厌战技能LV3",
+    "id": 66023,
+    "damage": 76,
     "base": 66020,
-    "reload_max": 2760
+    "reload_max": 3164
   },
   "66003": {
     "name": "萨拉托加技能LV3",
@@ -362,35 +395,36 @@
     "base": 66000,
     "reload_max": 1114
   },
-  "66028": {
-    "name": "厌战技能LV8",
-    "bullet_ID": [
-      19982
-    ],
-    "id": 66028,
-    "damage": 124,
-    "base": 66020,
-    "reload_max": 2827
+  "65948": {
+    "id": 65948,
+    "base": 65941,
+    "damage": 208
   },
-  "66027": {
-    "name": "厌战技能LV7",
+  "65952": {
+    "name": "射水鱼技能鱼雷LV2",
+    "id": 65952,
     "bullet_ID": [
-      19982
+      19289,
+      19289
     ],
-    "id": 66027,
-    "damage": 112,
-    "base": 66020,
-    "reload_max": 2894
+    "base": 65951,
+    "damage": 15
   },
-  "66026": {
-    "name": "厌战技能LV6",
-    "bullet_ID": [
-      19982
+  "65956": {
+    "name": "射水鱼技能鱼雷LV6",
+    "barrage_ID": [
+      81091,
+      81092,
+      81093
     ],
-    "id": 66026,
-    "damage": 100,
-    "base": 66020,
-    "reload_max": 2962
+    "id": 65956,
+    "bullet_ID": [
+      19289,
+      19289,
+      19289
+    ],
+    "base": 65951,
+    "damage": 27
   },
   "65960": {
     "name": "射水鱼技能鱼雷LV10",
@@ -454,19 +488,19 @@
     "base": 65981,
     "damage": 17
   },
-  "66025": {
-    "name": "厌战技能LV5",
-    "id": 66025,
-    "damage": 92,
+  "66022": {
+    "name": "厌战技能LV2",
+    "id": 66022,
+    "damage": 68,
     "base": 66020,
-    "reload_max": 3029
+    "reload_max": 3231
   },
-  "66024": {
-    "name": "厌战技能LV4",
-    "id": 66024,
-    "damage": 84,
+  "66021": {
+    "name": "厌战技能LV1",
+    "id": 66021,
+    "damage": 60,
     "base": 66020,
-    "reload_max": 3096
+    "reload_max": 3298
   },
   "66000": {
     "search_type": 1,
@@ -526,66 +560,36 @@
     "base": 66000,
     "reload_max": 1088
   },
-  "66023": {
-    "name": "厌战技能LV3",
-    "id": 66023,
-    "damage": 76,
-    "base": 66020,
-    "reload_max": 3164
+  "65949": {
+    "id": 65949,
+    "base": 65941,
+    "damage": 224
   },
-  "66022": {
-    "name": "厌战技能LV2",
-    "id": 66022,
-    "damage": 68,
-    "base": 66020,
-    "reload_max": 3231
-  },
-  "66020": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 302,
-    "angle": 50,
-    "reload_max": 3366,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "厌战技能LV0",
-    "fire_fx": "zhupao",
-    "charge_param": {
-      "lockTime": 0.3,
-      "maxLock": 2
-    },
-    "suppress": 1,
-    "range": 200,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 80,
-    "damage": 52,
-    "action_index": "attack_main",
-    "type": 23,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 66020,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      1300
-    ],
-    "corrected": 110,
-    "auto_aftercast": 0,
+  "65953": {
+    "name": "射水鱼技能鱼雷LV3",
+    "id": 65953,
     "bullet_ID": [
-      19981
+      19289,
+      19289
     ],
-    "min_range": 35,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-356mm",
-    "effect_move": 0,
-    "axis_angle": 0
+    "base": 65951,
+    "damage": 18
+  },
+  "65957": {
+    "name": "射水鱼技能鱼雷LV7",
+    "barrage_ID": [
+      81091,
+      81092,
+      81093
+    ],
+    "id": 65957,
+    "bullet_ID": [
+      19289,
+      19289,
+      19289
+    ],
+    "base": 65951,
+    "damage": 30
   },
   "65961": {
     "search_type": 1,
@@ -703,11 +707,51 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "66021": {
-    "name": "厌战技能LV1",
-    "id": 66021,
-    "damage": 60,
-    "base": 66020,
-    "reload_max": 3298
+  "66020": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 302,
+    "angle": 50,
+    "reload_max": 3366,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "厌战技能LV0",
+    "fire_fx": "zhupao",
+    "charge_param": {
+      "lockTime": 0.3,
+      "maxLock": 2
+    },
+    "suppress": 1,
+    "range": 200,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 80,
+    "damage": 52,
+    "action_index": "attack_main",
+    "type": 23,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 66020,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      1300
+    ],
+    "corrected": 110,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      19981
+    ],
+    "min_range": 35,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-356mm",
+    "effect_move": 0,
+    "axis_angle": 0
   }
 }

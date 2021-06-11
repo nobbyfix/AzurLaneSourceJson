@@ -489,54 +489,47 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "551536": {
+  "551032": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 3200,
+    "angle": 60,
+    "reload_max": 1250,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【海王星联动】【EXTRA】圣黑之心-蓄力弹幕",
-    "fire_fx": "CAFire",
+    "queue": 1,
+    "name": "【海王星联动】【EXTRA】诺瓦露鱼雷武器",
+    "fire_fx": "",
     "charge_param": "",
-    "suppress": 0,
-    "range": 90,
-    "recover_time": 0,
+    "suppress": 1,
+    "range": 60,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
-    "precast_param": {
-      "armor": 8400,
-      "fx": "jinengenemy",
-      "time": 8,
-      "isBound": true
-    },
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 20,
+    "damage": 72,
     "action_index": "attack",
-    "type": 1,
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 551536,
-    "spawn_bound": "cannon",
+    "id": 551032,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      7111,
-      7112
+      1401
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      7102,
-      7102
+      1801
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
+    "initial_over_heat": 1,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -582,6 +575,50 @@
     "aim_type": 1,
     "fire_sfx": "",
     "effect_move": 1,
+    "axis_angle": 0
+  },
+  "551033": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【海王星联动】【EXTRA】诺瓦露联装主炮x4-散射",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 21,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 551033,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      200101
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1403
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "560011": {
@@ -634,6 +671,50 @@
     "effect_move": 1,
     "axis_angle": 0
   },
+  "551034": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【海王星联动】【EXTRA】诺瓦露近程自卫火炮",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 60,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 11,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 551034,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      13
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      7106
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
   "560012": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -670,56 +751,6 @@
     "auto_aftercast": 0,
     "bullet_ID": [
       10004
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "560007": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1650,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【英系副本】B空袭战斗机弹幕武器",
-    "fire_fx": "fangkongpaohuoshe2",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 85,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 560007,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      101,
-      102,
-      103,
-      104
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      20001,
-      20001,
-      20001,
-      20001
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -772,50 +803,6 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "560016": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 48,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【英系副本】d空袭战斗机空中武器",
-    "fire_fx": "fangkongpaohuoshe2",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 200,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 10,
-    "action_index": "",
-    "type": 4,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 560016,
-    "spawn_bound": "antiaircraft",
-    "barrage_ID": [
-      5
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      10004
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
   "560014": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -860,51 +847,51 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "551541": {
+  "551100": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1100,
+    "angle": 180,
+    "reload_max": 2900,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【海王星联动】【EXTRA】翡绿之心",
-    "fire_fx": "CLFire",
+    "name": "【海王星联动】【EXTRA】鱼雷艇鱼雷3连",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
+    "range": 90,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 2,
+    "damage": 42,
+    "action_index": "",
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 551541,
-    "spawn_bound": "cannon",
+    "id": 551100,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      11
+      350102
     ],
-    "corrected": 125,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      7106
+      350105
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "560015": {
+  "560007": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
@@ -912,7 +899,7 @@
     "reload_max": 1650,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【英系副本】d空袭战斗机弹幕武器",
+    "name": "【英系副本】B空袭战斗机弹幕武器",
     "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
@@ -922,7 +909,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 16,
+    "damage": 12,
     "action_index": "",
     "type": 1,
     "search_condition": [
@@ -931,7 +918,7 @@
     "oxy_type": [
       1
     ],
-    "id": 560015,
+    "id": 560007,
     "spawn_bound": "cannon",
     "barrage_ID": [
       101,
@@ -1226,48 +1213,48 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "551545": {
+  "551041": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 2600,
+    "reload_max": 600,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【海王星联动】【EXTRA】翡绿之心轰炸机",
-    "fire_fx": "",
+    "queue": 1,
+    "name": "【海王星联动】【EXTRA】贝露",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 100,
-    "recover_time": 5,
+    "range": 60,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 160,
+    "damage": 10,
     "action_index": "attack",
-    "type": 11,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 551545,
-    "spawn_bound": "plane",
+    "id": 551041,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      12017
+      11
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30019
+      7106
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "551514": {
@@ -1318,48 +1305,48 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "551546": {
+  "551042": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 2050,
+    "reload_max": 1800,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【海王星联动】【EXTRA】翡绿之心鱼雷机",
-    "fire_fx": "",
+    "queue": 1,
+    "name": "【海王星联动】【EXTRA】贝露",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 110,
-    "recover_time": 5,
+    "range": 60,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 140,
+    "damage": 18,
     "action_index": "attack",
-    "type": 11,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 551546,
-    "spawn_bound": "plane",
+    "id": 551042,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      12017
+      1106
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30014
+      802
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "551515": {
@@ -1406,15 +1393,279 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "551547": {
+  "551043": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 800,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【海王星联动】【EXTRA】贝露",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 60,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 10,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 551043,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      1106
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      7106
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "560006": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 35,
+    "reload_max": 11954,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【英系副本】B空袭鱼雷机武器",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 40,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 64,
+    "action_index": "",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 560006,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      12001
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30067
+    ],
+    "min_range": 22,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "551044": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1400,
+    "reload_max": 2750,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【海王星联动】【EXTRA】贝露轰炸机",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 100,
+    "recover_time": 5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 136,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 551044,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      12016
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30019
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "560005": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【海王星联动】【EXTRA】翡绿之心战斗机",
+    "name": "【英系副本】B空袭轰炸机武器",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 10,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 78,
+    "action_index": "",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 560005,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      10001
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      10012
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "551045": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 2500,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【海王星联动】【EXTRA】贝露鱼雷机",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 110,
+    "recover_time": 5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 117,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 551045,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      12016
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30014
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "560004": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 48,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【英系副本】A空袭战斗机空中武器",
+    "fire_fx": "fangkongpaohuoshe2",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 200,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 6,
+    "action_index": "",
+    "type": 4,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 560004,
+    "spawn_bound": "antiaircraft",
+    "barrage_ID": [
+      5
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      10004
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "551046": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 2250,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【海王星联动】【EXTRA】贝露战斗机",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
@@ -1424,7 +1675,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 42,
+    "damage": 35,
     "action_index": "attack",
     "type": 11,
     "search_condition": [
@@ -1433,10 +1684,10 @@
     "oxy_type": [
       1
     ],
-    "id": 551547,
+    "id": 551046,
     "spawn_bound": "plane",
     "barrage_ID": [
-      12017
+      12015
     ],
     "corrected": 100,
     "auto_aftercast": 0,
@@ -1450,423 +1701,15 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "560017": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 400,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【英系副本】EX空袭轰炸机武器",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 10,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 132,
-    "action_index": "",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 560017,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      10001
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      10012
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "551548": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 400,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【海王星联动】【EXTRA】翡绿之心轰炸机武器",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 10,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 160,
-    "action_index": "",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 551548,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      10001
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      10012
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "560018": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 35,
-    "reload_max": 11954,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【英系副本】EX空袭鱼雷机武器",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 40,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 118,
-    "action_index": "",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 560018,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      12001
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30067
-    ],
-    "min_range": 22,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "551549": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 35,
-    "reload_max": 11954,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【海王星联动】【EXTRA】翡绿之心鱼雷机武器",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 40,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 140,
-    "action_index": "",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 551549,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      12001
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30067
-    ],
-    "min_range": 22,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "560019": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1650,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【英系副本】EX空袭战斗机弹幕武器",
-    "fire_fx": "fangkongpaohuoshe2",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 85,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 18,
-    "action_index": "",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 560019,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      101,
-      102,
-      103,
-      104
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      20001,
-      20001,
-      20001,
-      20001
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "551550": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1650,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【海王星联动】【EXTRA】翡绿之心战斗机弹幕武器",
-    "fire_fx": "fangkongpaohuoshe2",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 85,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 24,
-    "action_index": "",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 551550,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      101,
-      102,
-      103,
-      104
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      20001,
-      20001,
-      20001,
-      20001
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "560020": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 48,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【英系副本】EX空袭战斗机空中武器",
-    "fire_fx": "fangkongpaohuoshe2",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 200,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "",
-    "type": 4,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 560020,
-    "spawn_bound": "antiaircraft",
-    "barrage_ID": [
-      5
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      10004
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "551551": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 48,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【海王星联动】【EXTRA】翡绿之心战斗机空中武器",
-    "fire_fx": "fangkongpaohuoshe2",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 200,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 18,
-    "action_index": "",
-    "type": 4,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 551551,
-    "spawn_bound": "antiaircraft",
-    "barrage_ID": [
-      5
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      10004
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "561001": {
+  "551542": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 600,
+    "reload_max": 1600,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【英系副本】塞壬航母蛋船近程自卫火炮II",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 9,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 561001,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      12
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      999
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "561002": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1100,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【英系副本】塞壬航母蛋船单发x6随机II",
+    "name": "【海王星联动】【EXTRA】翡绿之心",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
@@ -1876,7 +1719,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 20,
+    "damage": 22,
     "action_index": "attack",
     "type": 2,
     "search_condition": [
@@ -1885,7 +1728,7 @@
     "oxy_type": [
       1
     ],
-    "id": 561002,
+    "id": 551542,
     "spawn_bound": "cannon",
     "barrage_ID": [
       1106
@@ -1900,6 +1743,138 @@
     "aim_type": 0,
     "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
+    "axis_angle": 0
+  },
+  "551047": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【海王星联动】【EXTRA】贝露轰炸机武器",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 10,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 136,
+    "action_index": "",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 551047,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      10001
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      10012
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "551546": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 2050,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【海王星联动】【EXTRA】翡绿之心鱼雷机",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 110,
+    "recover_time": 5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 140,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 551546,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      12017
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30014
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "551048": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 35,
+    "reload_max": 11954,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【海王星联动】【EXTRA】贝露鱼雷机武器",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 40,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 117,
+    "action_index": "",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 551048,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      12001
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30067
+    ],
+    "min_range": 22,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "551521": {
@@ -1948,47 +1923,53 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "561003": {
+  "551049": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 2600,
+    "angle": 180,
+    "reload_max": 1650,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【英系副本】塞壬航母蛋船轰炸机T1 (飞机",
-    "fire_fx": "",
+    "name": "【海王星联动】【EXTRA】贝露战斗机弹幕武器",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 100,
-    "recover_time": 5,
+    "range": 85,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 60,
-    "action_index": "attack",
-    "type": 11,
+    "damage": 20,
+    "action_index": "",
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 561003,
-    "spawn_bound": "plane",
+    "id": 551049,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      12015
+      101,
+      102,
+      103,
+      104
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30019
+      20001,
+      20001,
+      20001,
+      20001
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
+    "fire_sfx": "battle/air-atk",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -2036,42 +2017,42 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "561004": {
+  "551050": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 3000,
+    "angle": 180,
+    "reload_max": 48,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【英系副本】塞壬航母蛋船战斗机T1 (飞机",
-    "fire_fx": "zhupao",
+    "name": "【海王星联动】【EXTRA】贝露战斗机空中武器",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 120,
-    "recover_time": 5,
+    "range": 200,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 20,
-    "action_index": "attack",
-    "type": 11,
+    "damage": 15,
+    "action_index": "",
+    "type": 4,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 561004,
-    "spawn_bound": "plane",
+    "id": 551050,
+    "spawn_bound": "antiaircraft",
     "barrage_ID": [
-      12015
+      5
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30013
+      10004
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -2124,50 +2105,48 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "561005": {
+  "551548": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1000,
+    "angle": 180,
+    "reload_max": 400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【英系副本】Z1-专用武器",
-    "fire_fx": "CAFire",
+    "name": "【海王星联动】【EXTRA】翡绿之心轰炸机武器",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 0,
-    "range": 90,
+    "range": 10,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
-    "action_index": "attack",
-    "type": 1,
+    "damage": 160,
+    "action_index": "",
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 561005,
+    "id": 551548,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      200034,
-      200035
+      10001
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      20005,
-      20005
+      10012
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
+    "fire_sfx": "",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "551524": {
@@ -2225,48 +2204,48 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "561006": {
+  "551551": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2500,
+    "angle": 180,
+    "reload_max": 48,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【英系副本】Z1-鱼雷",
-    "fire_fx": "",
+    "name": "【海王星联动】【EXTRA】翡绿之心战斗机空中武器",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 50,
-    "recover_time": 0.5,
+    "range": 200,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 48,
-    "action_index": "attack",
-    "type": 3,
+    "damage": 18,
+    "action_index": "",
+    "type": 4,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 561006,
-    "spawn_bound": "torpedo",
+    "id": 551551,
+    "spawn_bound": "antiaircraft",
     "barrage_ID": [
-      1403
+      5
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10007
+      10004
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
+    "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "551525": {
@@ -2313,47 +2292,53 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "561007": {
+  "551550": {
     "search_type": 1,
-    "attack_attribute": 3,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 900,
+    "angle": 180,
+    "reload_max": 1650,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【英系副本】Z1-防空炮",
-    "fire_fx": "CLFire",
+    "name": "【海王星联动】【EXTRA】翡绿之心战斗机弹幕武器",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 25,
+    "range": 85,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 25,
-    "action_index": "attack",
-    "type": 4,
+    "damage": 24,
+    "action_index": "",
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 561007,
-    "spawn_bound": "antiaircraft",
+    "id": 551550,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      14001
+      101,
+      102,
+      103,
+      104
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30055
+      20001,
+      20001,
+      20001,
+      20001
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-air",
+    "fire_sfx": "battle/air-atk",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -2401,7 +2386,7 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "560006": {
+  "551549": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
@@ -2409,7 +2394,7 @@
     "reload_max": 11954,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【英系副本】B空袭鱼雷机武器",
+    "name": "【海王星联动】【EXTRA】翡绿之心鱼雷机武器",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
@@ -2419,7 +2404,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 64,
+    "damage": 140,
     "action_index": "",
     "type": 3,
     "search_condition": [
@@ -2428,7 +2413,7 @@
     "oxy_type": [
       1
     ],
-    "id": 560006,
+    "id": 551549,
     "spawn_bound": "torpedo",
     "barrage_ID": [
       12001
@@ -2542,47 +2527,47 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "560005": {
+  "551547": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 400,
+    "angle": 360,
+    "reload_max": 1400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【英系副本】B空袭轰炸机武器",
-    "fire_fx": "",
+    "name": "【海王星联动】【EXTRA】翡绿之心战斗机",
+    "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 10,
-    "recover_time": 0,
+    "suppress": 1,
+    "range": 120,
+    "recover_time": 5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 78,
-    "action_index": "",
-    "type": 2,
+    "damage": 42,
+    "action_index": "attack",
+    "type": 11,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 560005,
-    "spawn_bound": "cannon",
+    "id": 551547,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      10001
+      12017
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10012
+      30013
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -2630,47 +2615,47 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "560004": {
+  "551545": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 48,
+    "angle": 360,
+    "reload_max": 2600,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【英系副本】A空袭战斗机空中武器",
-    "fire_fx": "fangkongpaohuoshe2",
+    "queue": 2,
+    "name": "【海王星联动】【EXTRA】翡绿之心轰炸机",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 200,
-    "recover_time": 0,
+    "range": 100,
+    "recover_time": 5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 6,
-    "action_index": "",
-    "type": 4,
+    "damage": 160,
+    "action_index": "attack",
+    "type": 11,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 560004,
-    "spawn_bound": "antiaircraft",
+    "id": 551545,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      5
+      12017
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10004
+      30019
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
+    "fire_sfx": "",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -2724,56 +2709,12 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "551100": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 2900,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【海王星联动】【EXTRA】鱼雷艇鱼雷3连",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 42,
-    "action_index": "",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 551100,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      350102
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      350105
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "551542": {
+  "551541": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1600,
+    "reload_max": 1100,
     "torpedo_ammo": 0,
     "queue": 1,
     "name": "【海王星联动】【EXTRA】翡绿之心",
@@ -2786,7 +2727,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 22,
+    "damage": 12,
     "action_index": "attack",
     "type": 2,
     "search_condition": [
@@ -2795,20 +2736,71 @@
     "oxy_type": [
       1
     ],
-    "id": 551542,
+    "id": 551541,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1106
+      11
     ],
     "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      802
+      7106
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "551536": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 3200,
+    "torpedo_ammo": 0,
+    "queue": 3,
+    "name": "【海王星联动】【EXTRA】圣黑之心-蓄力弹幕",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "armor": 8400,
+      "fx": "jinengenemy",
+      "time": 8,
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 20,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 551536,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      7111,
+      7112
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      7102,
+      7102
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   }
