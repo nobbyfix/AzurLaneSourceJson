@@ -1,23 +1,17 @@
 {
-  "90429": {
-    "id": 90429,
-    "damage": 103,
-    "base": 90420,
-    "reload_max": 4141
-  },
-  "90500": {
+  "90240": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 234,
+    "angle": 120,
+    "reload_max": 578,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "双联装130mm主炮Mle1935",
+    "name": "三联装152mm主炮Mle1930",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 55,
+    "range": 65,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
@@ -32,15 +26,15 @@
     "oxy_type": [
       1
     ],
-    "id": 90500,
+    "id": 90240,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1011
+      1102
     ],
-    "corrected": 125,
-    "auto_aftercast": 0.3,
+    "corrected": 105,
+    "auto_aftercast": 0.4,
     "bullet_ID": [
-      2200
+      2204
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -48,6 +42,12 @@
     "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
+  },
+  "90244": {
+    "id": 90244,
+    "damage": 13,
+    "base": 90240,
+    "reload_max": 552
   },
   "90441": {
     "id": 90441,
@@ -67,18 +67,18 @@
     "base": 90320,
     "reload_max": 4841
   },
-  "90453": {
-    "corrected": 118,
-    "id": 90453,
+  "90451": {
+    "corrected": 104,
+    "id": 90451,
     "damage": 120,
     "base": 90440,
     "reload_max": 3880
   },
-  "90343": {
-    "id": 90343,
-    "damage": 59,
-    "base": 90340,
-    "reload_max": 4653
+  "90450": {
+    "id": 90450,
+    "damage": 120,
+    "base": 90440,
+    "reload_max": 3880
   },
   "90402": {
     "id": 90402,
@@ -86,11 +86,11 @@
     "base": 90400,
     "reload_max": 5040
   },
-  "90406": {
-    "id": 90406,
-    "damage": 76,
-    "base": 90400,
-    "reload_max": 4620
+  "90343": {
+    "id": 90343,
+    "damage": 59,
+    "base": 90340,
+    "reload_max": 4653
   },
   "90347": {
     "id": 90347,
@@ -105,11 +105,11 @@
     "base": 90340,
     "reload_max": 3960
   },
-  "90448": {
-    "id": 90448,
-    "damage": 104,
+  "90449": {
+    "id": 90449,
+    "damage": 112,
     "base": 90440,
-    "reload_max": 4074
+    "reload_max": 3977
   },
   "90422": {
     "id": 90422,
@@ -117,66 +117,70 @@
     "base": 90420,
     "reload_max": 4848
   },
-  "90426": {
-    "id": 90426,
-    "damage": 82,
-    "base": 90420,
-    "reload_max": 4444
-  },
-  "90430": {
-    "id": 90430,
-    "damage": 110,
-    "base": 90420,
-    "reload_max": 4040
-  },
-  "90600": {
+  "90300": {
     "search_type": 1,
-    "attack_attribute": 3,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 141,
+    "attack_attribute": 1,
+    "shakescreen": 302,
+    "angle": 50,
+    "reload_max": 5350,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "双联37mm高射炮Mle1936",
-    "fire_fx": "fangkongpaohuoshe",
-    "charge_param": "",
+    "name": "四联装330mm主炮Mle1931",
+    "fire_fx": "zhupao",
+    "charge_param": {
+      "lockTime": 0.3,
+      "maxLock": 4
+    },
     "suppress": 1,
-    "range": 28,
+    "range": 200,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 38,
-    "action_index": "attack",
-    "type": 22,
+    "damage": 34,
+    "action_index": "attack_main",
+    "type": 23,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 90600,
-    "spawn_bound": "antiaircraft",
+    "id": 90300,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      2000
+      1303
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      2000
+      1550
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
+    "min_range": 50,
+    "initial_over_heat": 1,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-air",
-    "effect_move": 1,
+    "fire_sfx": "battle/cannon-356mm",
+    "effect_move": 0,
     "axis_angle": 0
   },
-  "90501": {
-    "id": 90501,
-    "base": 90500,
-    "reload_max": 230
+  "90241": {
+    "id": 90241,
+    "damage": 10,
+    "base": 90240,
+    "reload_max": 570
+  },
+  "90245": {
+    "id": 90245,
+    "damage": 14,
+    "base": 90240,
+    "reload_max": 547
+  },
+  "90448": {
+    "id": 90448,
+    "damage": 104,
+    "base": 90440,
+    "reload_max": 4074
   },
   "90442": {
     "id": 90442,
@@ -237,23 +241,23 @@
     "base": 90320,
     "reload_max": 4738
   },
-  "90603": {
-    "id": 90603,
-    "damage": 50,
-    "base": 90600,
-    "reload_max": 131
+  "90447": {
+    "id": 90447,
+    "damage": 97,
+    "base": 90440,
+    "reload_max": 4171
   },
-  "90602": {
-    "id": 90602,
-    "damage": 46,
-    "base": 90600,
-    "reload_max": 136
+  "90446": {
+    "id": 90446,
+    "damage": 90,
+    "base": 90440,
+    "reload_max": 4268
   },
-  "90601": {
-    "id": 90601,
-    "damage": 42,
-    "base": 90600,
-    "reload_max": 138
+  "90403": {
+    "id": 90403,
+    "damage": 58,
+    "base": 90400,
+    "reload_max": 4935
   },
   "90340": {
     "search_type": 1,
@@ -314,17 +318,17 @@
     "base": 90340,
     "reload_max": 4158
   },
-  "90604": {
-    "id": 90604,
-    "damage": 54,
-    "base": 90600,
-    "reload_max": 129
+  "90429": {
+    "id": 90429,
+    "damage": 103,
+    "base": 90420,
+    "reload_max": 4141
   },
-  "90503": {
-    "id": 90503,
-    "damage": 10,
-    "base": 90500,
-    "reload_max": 220
+  "90223": {
+    "id": 90223,
+    "damage": 11,
+    "base": 90220,
+    "reload_max": 589
   },
   "90423": {
     "id": 90423,
@@ -332,31 +336,29 @@
     "base": 90420,
     "reload_max": 4747
   },
-  "90427": {
-    "id": 90427,
-    "damage": 89,
+  "90301": {
+    "id": 90301,
+    "damage": 39,
+    "base": 90300,
+    "reload_max": 5243
+  },
+  "90242": {
+    "id": 90242,
+    "damage": 11,
+    "base": 90240,
+    "reload_max": 565
+  },
+  "90246": {
+    "id": 90246,
+    "damage": 15,
+    "base": 90240,
+    "reload_max": 542
+  },
+  "90430": {
+    "id": 90430,
+    "damage": 110,
     "base": 90420,
-    "reload_max": 4343
-  },
-  "90451": {
-    "corrected": 104,
-    "id": 90451,
-    "damage": 120,
-    "base": 90440,
-    "reload_max": 3880
-  },
-  "90452": {
-    "corrected": 110,
-    "id": 90452,
-    "damage": 120,
-    "base": 90440,
-    "reload_max": 3880
-  },
-  "90502": {
-    "id": 90502,
-    "damage": 10,
-    "base": 90500,
-    "reload_max": 225
+    "reload_max": 4040
   },
   "90443": {
     "id": 90443,
@@ -376,17 +378,17 @@
     "base": 90320,
     "reload_max": 4635
   },
-  "90450": {
-    "id": 90450,
-    "damage": 120,
-    "base": 90440,
-    "reload_max": 3880
+  "90428": {
+    "id": 90428,
+    "damage": 96,
+    "base": 90420,
+    "reload_max": 4242
   },
-  "90449": {
-    "id": 90449,
-    "damage": 112,
-    "base": 90440,
-    "reload_max": 3977
+  "90427": {
+    "id": 90427,
+    "damage": 89,
+    "base": 90420,
+    "reload_max": 4343
   },
   "90400": {
     "search_type": 1,
@@ -453,11 +455,11 @@
     "base": 90340,
     "reload_max": 4059
   },
-  "90605": {
-    "id": 90605,
-    "damage": 58,
-    "base": 90600,
-    "reload_max": 125
+  "90426": {
+    "id": 90426,
+    "damage": 82,
+    "base": 90420,
+    "reload_max": 4444
   },
   "90420": {
     "search_type": 1,
@@ -512,23 +514,24 @@
     "base": 90420,
     "reload_max": 4646
   },
-  "90428": {
-    "id": 90428,
-    "damage": 96,
-    "base": 90420,
-    "reload_max": 4242
+  "90302": {
+    "id": 90302,
+    "damage": 44,
+    "base": 90300,
+    "reload_max": 5136
   },
-  "90447": {
-    "id": 90447,
-    "damage": 97,
-    "base": 90440,
-    "reload_max": 4171
+  "90243": {
+    "id": 90243,
+    "damage": 12,
+    "base": 90240,
+    "reload_max": 560
   },
-  "90446": {
-    "id": 90446,
-    "damage": 90,
-    "base": 90440,
-    "reload_max": 4268
+  "90247": {
+    "corrected": 109,
+    "id": 90247,
+    "damage": 15,
+    "base": 90240,
+    "reload_max": 542
   },
   "90440": {
     "search_type": 1,
@@ -595,17 +598,17 @@
     "base": 90320,
     "reload_max": 4532
   },
-  "90404": {
-    "id": 90404,
-    "damage": 64,
+  "90406": {
+    "id": 90406,
+    "damage": 76,
     "base": 90400,
-    "reload_max": 4830
+    "reload_max": 4620
   },
-  "90403": {
-    "id": 90403,
-    "damage": 58,
+  "90405": {
+    "id": 90405,
+    "damage": 70,
     "base": 90400,
-    "reload_max": 4935
+    "reload_max": 4725
   },
   "90401": {
     "id": 90401,
@@ -631,11 +634,11 @@
     "base": 90340,
     "reload_max": 3960
   },
-  "90606": {
-    "id": 90606,
-    "damage": 62,
-    "base": 90600,
-    "reload_max": 123
+  "90404": {
+    "id": 90404,
+    "damage": 64,
+    "base": 90400,
+    "reload_max": 4830
   },
   "90421": {
     "id": 90421,
@@ -649,10 +652,10 @@
     "base": 90420,
     "reload_max": 4545
   },
-  "90405": {
-    "id": 90405,
-    "damage": 70,
-    "base": 90400,
-    "reload_max": 4725
+  "90303": {
+    "id": 90303,
+    "damage": 49,
+    "base": 90300,
+    "reload_max": 5029
   }
 }
