@@ -5370,6 +5370,26 @@
       }
     ]
   },
+  "70151": {
+    "id": 70151,
+    "default": 1,
+    "name": "高速转圈顺时针",
+    "list": [
+      {
+        "to": 1,
+        "type": 4,
+        "index": 1,
+        "param": {
+          "radius": 13,
+          "z": 55,
+          "x": -15,
+          "antiClockWise": false,
+          "duration": -1,
+          "valve": 1
+        }
+      }
+    ]
+  },
   "60003": {
     "id": 60003,
     "default": 1,
@@ -5662,6 +5682,26 @@
       }
     ]
   },
+  "70152": {
+    "id": 70152,
+    "default": 1,
+    "name": "高速转圈逆时针",
+    "list": [
+      {
+        "to": 1,
+        "type": 4,
+        "index": 1,
+        "param": {
+          "radius": 13,
+          "z": 55,
+          "x": -15,
+          "antiClockWise": true,
+          "duration": -1,
+          "valve": 1
+        }
+      }
+    ]
+  },
   "75007": {
     "id": 75007,
     "default": 1,
@@ -5933,6 +5973,40 @@
       }
     ]
   },
+  "70153": {
+    "id": 70153,
+    "default": 1,
+    "name": "黑海伦娜 十字锁定激光",
+    "list": [
+      {
+        "to": 2,
+        "type": 0,
+        "index": 1,
+        "param": {
+          "duration": 1
+        }
+      },
+      {
+        "to": 3,
+        "type": 8,
+        "index": 2,
+        "param": {
+          "valve": 2,
+          "duration": 1.5,
+          "offsetZ": 4,
+          "X": -82
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 3,
+        "param": {
+          "duration": 300
+        }
+      }
+    ]
+  },
   "30002": {
     "id": 30002,
     "default": 1,
@@ -6168,6 +6242,40 @@
         "index": 2,
         "param": {
           "duration": -1
+        }
+      }
+    ]
+  },
+  "70154": {
+    "id": 70154,
+    "default": 1,
+    "name": "黑海伦娜 十字锁定激光",
+    "list": [
+      {
+        "to": 2,
+        "type": 0,
+        "index": 1,
+        "param": {
+          "duration": 1
+        }
+      },
+      {
+        "to": 3,
+        "type": 8,
+        "index": 2,
+        "param": {
+          "valve": 2,
+          "duration": 1.5,
+          "offsetX": 1,
+          "Z": 25
+        }
+      },
+      {
+        "to": 1,
+        "type": 0,
+        "index": 3,
+        "param": {
+          "duration": 300
         }
       }
     ]

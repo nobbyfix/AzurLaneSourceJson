@@ -3,36 +3,29 @@
   "id": 8002,
   "desc": "自爆船冲撞自杀buff",
   "last_effect": "",
-  "time": 0,
+  "time": 1,
   "icon": 8002,
   "effect_list": [
     {
       "trigger": [
-        "onUpdate"
+        "onAttach"
       ],
-      "type": "BattleBuffAddBuff",
+      "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 8006
+        "minTargetNumber": 1,
+        "skill_id": 8002,
+        "range": 100,
+        "check_target": "TargetHarmNearest"
       }
     },
     {
       "trigger": [
-        "onUpdate"
+        "onAttach"
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
         "target": "TargetSelf",
         "buff_id": 8003
-      }
-    },
-    {
-      "trigger": [
-        "onUpdate"
-      ],
-      "type": "BattleBuffCancelBuff",
-      "arg_list": {
-        "count": 1
       }
     }
   ],
