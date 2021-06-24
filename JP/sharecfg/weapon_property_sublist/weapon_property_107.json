@@ -384,6 +384,22 @@
     "effect_move": 1,
     "axis_angle": 0
   },
+  "60652": {
+    "name": "风云弹幕展示II",
+    "barrage_ID": [
+      79741,
+      79742,
+      79743
+    ],
+    "id": 60652,
+    "bullet_ID": [
+      79741,
+      79742,
+      79742
+    ],
+    "base": 60651,
+    "damage": 1
+  },
   "60591": {
     "search_type": 1,
     "attack_attribute": 0,
@@ -438,52 +454,6 @@
     ],
     "name": "航空攻击展示-威悉III",
     "base": 60591
-  },
-  "61052": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 3000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "百合根2段展示",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 100,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 61052,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      80522,
-      80523
-    ],
-    "corrected": 145,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      19962,
-      19962
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
   },
   "61053": {
     "search_type": 1,
@@ -637,17 +607,6 @@
     "name": "航空攻击展示-彼得史特拉塞III",
     "base": 60601
   },
-  "64007": {
-    "name": "U-37技能鱼雷弹幕LV7",
-    "id": 64007,
-    "barrage_ID": [
-      80991,
-      80992,
-      80993
-    ],
-    "base": 64001,
-    "damage": 31
-  },
   "64005": {
     "name": "U-37技能鱼雷弹幕LV5",
     "id": 64005,
@@ -669,6 +628,12 @@
     ],
     "base": 64001,
     "damage": 25
+  },
+  "64003": {
+    "id": 64003,
+    "base": 64001,
+    "name": "U-37技能鱼雷弹幕LV3",
+    "damage": 23
   },
   "60611": {
     "search_type": 1,
@@ -766,17 +731,57 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "64003": {
-    "id": 64003,
-    "base": 64001,
-    "name": "U-37技能鱼雷弹幕LV3",
-    "damage": 23
-  },
   "64002": {
     "id": 64002,
     "base": 64001,
     "name": "U-37技能鱼雷弹幕LV2",
     "damage": 21
+  },
+  "61505": {
+    "search_type": 1,
+    "attack_attribute": 0,
+    "shakescreen": 0,
+    "angle": 30,
+    "reload_max": 1750,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "战斗机外观预览飞机",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 18,
+    "action_index": "attack",
+    "type": 99,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 61505,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      1511,
+      1511
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      17000,
+      17000
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
+    "axis_angle": 0
   },
   "61501": {
     "search_type": 1,
@@ -1347,50 +1352,50 @@
     "effect_move": 0,
     "axis_angle": -10
   },
-  "61505": {
+  "60651": {
     "search_type": 1,
-    "attack_attribute": 0,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 30,
-    "reload_max": 1750,
+    "angle": 360,
+    "reload_max": 400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "战斗机外观预览飞机",
-    "fire_fx": "",
+    "name": "风云弹幕展示I",
+    "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0,
+    "suppress": 0,
+    "range": 50,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 18,
+    "damage": 1,
     "action_index": "attack",
-    "type": 99,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 61505,
-    "spawn_bound": "plane",
+    "id": 60651,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      1511,
-      1511
+      79741,
+      79742
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      17000,
-      17000
+      79741,
+      79742
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "61031": {
@@ -1645,16 +1650,51 @@
     "base": 64001,
     "damage": 29
   },
-  "64008": {
-    "name": "U-37技能鱼雷弹幕LV8",
-    "id": 64008,
-    "barrage_ID": [
-      80991,
-      80992,
-      80993
+  "61052": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 3000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "百合根2段展示",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 100,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 12,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
     ],
-    "base": 64001,
-    "damage": 33
+    "oxy_type": [
+      1
+    ],
+    "id": 61052,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      80522,
+      80523
+    ],
+    "corrected": 145,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      19962,
+      19962
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "61021": {
     "search_type": 2,
