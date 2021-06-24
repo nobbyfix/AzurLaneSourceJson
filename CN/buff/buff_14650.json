@@ -12,11 +12,45 @@
   "picture": "",
   "id": 14650,
   "desc": "",
-  "color": "red",
+  "color": "yellow",
   "last_effect": "",
   "time": 0,
   "icon": 14650,
-  "effect_list": [],
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "minTargetNumber": 2,
+        "check_target": [
+          "TargetAllHelp",
+          "TargetPlayerVanguardFleet"
+        ],
+        "skill_id": 14650
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 14651
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 14651
+      }
+    }
+  ],
   "stack": 1,
   "init_effect": "",
   "name": ""

@@ -330,6 +330,22 @@
     "name": "航空攻击展示-英仙座II",
     "base": 60521
   },
+  "60652": {
+    "name": "风云弹幕展示II",
+    "barrage_ID": [
+      79741,
+      79742,
+      79743
+    ],
+    "id": 60652,
+    "bullet_ID": [
+      79741,
+      79742,
+      79742
+    ],
+    "base": 60651,
+    "damage": 1
+  },
   "60591": {
     "search_type": 1,
     "attack_attribute": 0,
@@ -394,92 +410,50 @@
     "name": "航空攻击展示-鹰II",
     "base": 60531
   },
-  "61027": {
-    "search_type": 2,
-    "attack_attribute": 4,
+  "61025": {
+    "search_type": 1,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 25,
-    "reload_max": 9500,
+    "angle": 360,
+    "reload_max": 1300,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "2 x 机载鱼雷-重樱",
-    "fire_fx": "",
+    "name": "罗恩μ音符交错-音符本体",
+    "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 80,
+    "suppress": 0,
+    "range": 35,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 240,
-    "action_index": "",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 61027,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      2141
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      2112
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": -10
-  },
-  "61026": {
-    "search_type": 1,
-    "attack_attribute": 0,
-    "shakescreen": 0,
-    "angle": 90,
-    "reload_max": 1890,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "次郎丸-大世界替换用战斗内空袭",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 240,
+    "damage": 30,
     "action_index": "attack",
-    "type": 10,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 61026,
-    "spawn_bound": "plane",
+    "id": 61025,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      12010
+      80954,
+      80955
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      61026
+      19193,
+      19194
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
+    "effect_move": 0,
     "axis_angle": 0
   },
   "60601": {
@@ -549,52 +523,6 @@
     "name": "航空攻击展示-千岁II",
     "base": 60541
   },
-  "61025": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1300,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "罗恩μ音符交错-音符本体",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 35,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 30,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 61025,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      80954,
-      80955
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      19193,
-      19194
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "61023": {
     "search_type": 1,
     "attack_attribute": 0,
@@ -636,6 +564,50 @@
     "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "61022": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 90,
+    "reload_max": 3000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "香格里拉技能飞机-PVE-Lv1",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 1,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 0,
+    "action_index": "",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 61022,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      1500
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      67981
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -691,59 +663,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "61022": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 90,
-    "reload_max": 3000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "香格里拉技能飞机-PVE-Lv1",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 1,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 0,
-    "action_index": "",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 61022,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      1500
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      67981
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "60552": {
-    "id": 60552,
-    "barrage_ID": [
-      1511,
-      1511
-    ],
-    "name": "航空攻击展示-千代田II",
-    "base": 60551
-  },
   "61021": {
     "search_type": 2,
     "attack_attribute": 4,
@@ -798,6 +717,15 @@
     "effect_move": 0,
     "axis_angle": 0
   },
+  "60552": {
+    "id": 60552,
+    "barrage_ID": [
+      1511,
+      1511
+    ],
+    "name": "航空攻击展示-千代田II",
+    "base": 60551
+  },
   "61020": {
     "search_type": 1,
     "attack_attribute": 0,
@@ -834,6 +762,50 @@
     "auto_aftercast": 0,
     "bullet_ID": [
       61020
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "61019": {
+    "search_type": 1,
+    "attack_attribute": 0,
+    "shakescreen": 0,
+    "angle": 90,
+    "reload_max": 1890,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "黑企业剧情轰炸机",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 44,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 61019,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      12008
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      61019
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -1274,48 +1246,50 @@
     "name": "航空攻击展示-英仙座III",
     "base": 60521
   },
-  "61019": {
+  "60651": {
     "search_type": 1,
-    "attack_attribute": 0,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 90,
-    "reload_max": 1890,
+    "angle": 360,
+    "reload_max": 400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "黑企业剧情轰炸机",
-    "fire_fx": "",
+    "name": "风云弹幕展示I",
+    "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 90,
+    "suppress": 0,
+    "range": 50,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 44,
+    "damage": 1,
     "action_index": "attack",
-    "type": 11,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 61019,
-    "spawn_bound": "plane",
+    "id": 60651,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      12008
+      79741,
+      79742
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      61019
+      79741,
+      79742
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "61013": {
