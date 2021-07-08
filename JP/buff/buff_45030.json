@@ -8,30 +8,12 @@
   "effect_list": [
     {
       "trigger": [
-        "onFlagShip",
+        "onAttach",
         "onStack"
       ],
       "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetAllHelp",
-        "buff_id": 45031
-      }
-    },
-    {
-      "trigger": [
-        "onSubLeader ",
-        "onStack"
-      ],
-      "type": "BattleBuffAddBuff",
-      "arg_list": {
-        "target": [
-          "TargetAllHelp",
-          "TargetShipType"
-        ],
-        "ship_type_list": [
-          8,
-          17
-        ],
+        "CMDBuff_id": 45030,
         "buff_id": 45031
       }
     }

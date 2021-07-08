@@ -2,10 +2,35 @@
   "picture": "",
   "id": 407,
   "desc": "",
-  "last_effect": "Pojia01",
-  "time": 6,
+  "last_effect": "Darkness",
+  "time": 7,
   "icon": 400,
-  "effect_list": [],
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.08,
+        "attr": "injureRatio"
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "attr": "cannonPower",
+        "k": 0,
+        "number": 255,
+        "time": 3,
+        "dotType": 1
+      }
+    }
+  ],
   "stack": 1,
   "init_effect": "",
   "name": ""
