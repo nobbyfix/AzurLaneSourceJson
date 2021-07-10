@@ -1,0 +1,56 @@
+{
+  "picture": "",
+  "id": 19462,
+  "desc": "减速回复",
+  "last_effect": "",
+  "time": 2.5,
+  "icon": 19460,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": -2000,
+        "add": 0
+      }
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "time": 0.5,
+        "quota": 4,
+        "skill_id": 19461
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCleanse",
+      "arg_list": {
+        "buff_id_list": [
+          19463
+        ]
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 19464
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": "减速"
+}
