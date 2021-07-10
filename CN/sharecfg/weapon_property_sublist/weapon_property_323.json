@@ -106,23 +106,31 @@
     "base": 1000,
     "damage": 32
   },
-  "690803": {
+  "690802": {
     "fire_sfx": "battle/cannon-main",
-    "id": 690803,
-    "suppress": 1,
+    "type": 19,
+    "precast_param": {
+      "alertTime": 2,
+      "time": 1,
+      "fx": "jinengenemy"
+    },
     "barrage_ID": [
-      690104
+      20017
     ],
-    "queue": 3,
+    "id": 690802,
+    "suppress": 1,
+    "range": 150,
+    "queue": 1,
     "bullet_ID": [
-      760059
+      834
     ],
-    "name": "【2020信浓活动普通T3】BOSS 梦境塞壬破局者 主炮中心弹幕",
-    "reload_max": 1000,
+    "spawn_bound": "cannon3",
+    "min_range": 85,
+    "name": "【2020信浓活动普通T3】BOSS 梦境塞壬破局者 后排跨射",
     "aim_type": 1,
     "fire_fx": "CAFire",
     "base": 1000,
-    "damage": 20
+    "damage": 28
   },
   "690606": {
     "action_index": "",
@@ -1719,7 +1727,7 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "690802": {
+  "690801": {
     "fire_sfx": "battle/cannon-main",
     "type": 19,
     "precast_param": {
@@ -1728,22 +1736,22 @@
       "fx": "jinengenemy"
     },
     "barrage_ID": [
-      20017
+      399912
     ],
-    "id": 690802,
+    "id": 690801,
     "suppress": 1,
-    "range": 150,
+    "range": 75,
     "queue": 1,
     "bullet_ID": [
-      834
+      400000
     ],
-    "spawn_bound": "cannon3",
-    "min_range": 85,
-    "name": "【2020信浓活动普通T3】BOSS 梦境塞壬破局者 后排跨射",
+    "spawn_bound": "cannon2",
+    "name": "【2020信浓活动普通T3】BOSS 梦境塞壬破局者 前排跨射",
+    "reload_max": 1500,
     "aim_type": 1,
     "fire_fx": "CAFire",
     "base": 1000,
-    "damage": 28
+    "damage": 24
   },
   "680419": {
     "search_type": 1,
@@ -1789,31 +1797,32 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "690801": {
+  "690707": {
     "fire_sfx": "battle/cannon-main",
     "type": 19,
     "precast_param": {
       "alertTime": 2,
+      "fx": "jinengenemy",
       "time": 1,
-      "fx": "jinengenemy"
+      "isBound": true
     },
     "barrage_ID": [
-      399912
+      20015
     ],
-    "id": 690801,
+    "id": 690707,
     "suppress": 1,
-    "range": 75,
-    "queue": 1,
+    "range": 150,
+    "queue": 3,
     "bullet_ID": [
-      400000
+      1531
     ],
-    "spawn_bound": "cannon2",
-    "name": "【2020信浓活动普通T3】BOSS 梦境塞壬破局者 前排跨射",
-    "reload_max": 1500,
+    "reload_max": 2500,
+    "min_range": 85,
+    "name": "【2020信浓活动普通T2】BOSS 跨射攻击后排武器2x2轮",
     "aim_type": 1,
     "fire_fx": "CAFire",
     "base": 1000,
-    "damage": 24
+    "damage": 20
   },
   "680420": {
     "search_type": 1,
@@ -1859,32 +1868,23 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "690707": {
-    "fire_sfx": "battle/cannon-main",
-    "type": 19,
-    "precast_param": {
-      "alertTime": 2,
-      "fx": "jinengenemy",
-      "time": 1,
-      "isBound": true
-    },
+  "690612": {
+    "action_index": "",
+    "type": 2,
+    "id": 690612,
+    "range": 999,
+    "queue": 2,
     "barrage_ID": [
-      20015
+      770024
     ],
-    "id": 690707,
-    "suppress": 1,
-    "range": 150,
-    "queue": 3,
+    "name": "【2020信浓活动普通T1】BOSS 测试者 第三波 浮游炮橙色扩散",
     "bullet_ID": [
-      1531
+      760013
     ],
-    "reload_max": 2500,
-    "min_range": 85,
-    "name": "【2020信浓活动普通T2】BOSS 跨射攻击后排武器2x2轮",
-    "aim_type": 1,
-    "fire_fx": "CAFire",
+    "fire_sfx": "battle/air-atk",
+    "fire_fx": "fangkongpaohuoshe2",
     "base": 1000,
-    "damage": 20
+    "reload_max": 9999
   },
   "680421": {
     "search_type": 1,
@@ -1974,23 +1974,22 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "690612": {
+  "690611": {
     "action_index": "",
     "type": 2,
-    "id": 690612,
-    "range": 999,
-    "queue": 2,
+    "id": 690611,
+    "range": 120,
+    "queue": 1,
+    "name": "【2020信浓活动普通T1】BOSS 测试者 第三波 浮游炮蓝色子弹",
     "barrage_ID": [
-      770024
+      770022
     ],
-    "name": "【2020信浓活动普通T1】BOSS 测试者 第三波 浮游炮橙色扩散",
     "bullet_ID": [
-      760013
+      760011
     ],
-    "fire_sfx": "battle/air-atk",
-    "fire_fx": "fangkongpaohuoshe2",
+    "reload_max": 9999,
     "base": 1000,
-    "reload_max": 9999
+    "damage": 12
   },
   "680422": {
     "search_type": 1,
@@ -2036,22 +2035,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "690611": {
-    "action_index": "",
-    "type": 2,
-    "id": 690611,
+  "690610": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 100,
+    "torpedo_ammo": 0,
+    "queue": 5,
+    "name": "【2020信浓活动普通T1】BOSS 测试者 第三波 浮游炮",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
     "range": 120,
-    "queue": 1,
-    "name": "【2020信浓活动普通T1】BOSS 测试者 第三波 浮游炮蓝色子弹",
+    "recover_time": 3,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 14,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 690610,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      770022
+      760170
     ],
-    "bullet_ID": [
-      760011
-    ],
-    "reload_max": 9999,
-    "base": 1000,
-    "damage": 12
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "",
+    "effect_move": 1,
+    "axis_angle": 0
   },
   "680423": {
     "search_type": 1,
@@ -2105,14 +2129,14 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "690610": {
+  "690609": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 360,
     "reload_max": 100,
     "torpedo_ammo": 0,
-    "queue": 5,
+    "queue": 4,
     "name": "【2020信浓活动普通T1】BOSS 测试者 第三波 浮游炮",
     "fire_fx": "",
     "charge_param": "",
@@ -2132,10 +2156,10 @@
     "oxy_type": [
       1
     ],
-    "id": 690610,
+    "id": 690609,
     "spawn_bound": "plane",
     "barrage_ID": [
-      760170
+      760169
     ],
     "corrected": 100,
     "auto_aftercast": 0,
@@ -2199,47 +2223,22 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "690609": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 100,
-    "torpedo_ammo": 0,
-    "queue": 4,
-    "name": "【2020信浓活动普通T1】BOSS 测试者 第三波 浮游炮",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
+  "690608": {
+    "type": 2,
+    "id": 690608,
+    "suppress": 1,
     "range": 120,
-    "recover_time": 3,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 14,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 690609,
-    "spawn_bound": "plane",
+    "queue": 3,
+    "name": "【2020信浓活动普通T1】BOSS 测试者 第二波 红色扩散弹幕",
     "barrage_ID": [
-      760169
+      770021
     ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
+    "aim_type": 1,
+    "bullet_ID": [
+      594006
+    ],
+    "base": 1000,
+    "reload_max": 9999
   },
   "680425": {
     "search_type": 1,
@@ -2293,22 +2292,26 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "690608": {
+  "690607": {
+    "action_index": "",
     "type": 2,
-    "id": 690608,
+    "id": 690607,
     "suppress": 1,
     "range": 120,
-    "queue": 3,
-    "name": "【2020信浓活动普通T1】BOSS 测试者 第二波 红色扩散弹幕",
+    "queue": 2,
     "barrage_ID": [
-      770021
+      595041,
+      595042
     ],
-    "aim_type": 1,
+    "name": "【2020信浓活动普通T1】BOSS 测试者 第二波 横向成排子弹",
     "bullet_ID": [
-      594006
+      760010,
+      760010
     ],
+    "reload_max": 9999,
+    "fire_fx": "CAFire",
     "base": 1000,
-    "reload_max": 9999
+    "damage": 12
   },
   "680426": {
     "search_type": 1,
@@ -2491,25 +2494,58 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "690607": {
-    "action_index": "",
-    "type": 2,
-    "id": 690607,
-    "suppress": 1,
-    "range": 120,
-    "queue": 2,
-    "barrage_ID": [
-      595041,
-      595042
-    ],
-    "name": "【2020信浓活动普通T1】BOSS 测试者 第二波 横向成排子弹",
-    "bullet_ID": [
-      760010,
-      760010
-    ],
+  "680361": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 180,
     "reload_max": 9999,
-    "fire_fx": "CAFire",
-    "base": 1000,
-    "damage": 12
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【2020英系活动D3】BOSS 清除者 第五波 锥形5way鱼雷",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 120,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 48,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1,
+      2
+    ],
+    "oxy_type": [
+      1,
+      2
+    ],
+    "id": 680361,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      760001,
+      760002,
+      760003,
+      760004,
+      760005
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      750140,
+      750141,
+      750142,
+      750141,
+      750140
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
   }
 }

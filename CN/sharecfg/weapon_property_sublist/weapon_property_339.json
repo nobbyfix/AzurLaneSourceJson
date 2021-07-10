@@ -136,6 +136,27 @@
     "base": 1001,
     "damage": 30
   },
+  "780003": {
+    "fire_sfx": "",
+    "type": 2,
+    "id": 780003,
+    "range": 200,
+    "queue": 7,
+    "name": "【2021意大利活动】机制 海妖之歌 SP",
+    "barrage_ID": [
+      840135,
+      840136,
+      840137
+    ],
+    "bullet_ID": [
+      830073,
+      830074,
+      830075
+    ],
+    "reload_max": 4550,
+    "base": 1000,
+    "damage": 3
+  },
   "781106": {
     "action_index": "",
     "type": 2,
@@ -596,55 +617,27 @@
     "fire_sfx": "battle/cannon-155mm",
     "damage": 10
   },
-  "780012": {
+  "780201": {
     "initial_over_heat": 0,
-    "suppress": 0,
-    "range": 90,
-    "base": 1000,
-    "reload_max": 1600,
+    "suppress": 1,
+    "range": 100,
+    "attack_attribute": 4,
+    "base": 1002,
+    "reload_max": 1200,
     "action_index": "attack",
-    "type": 1,
-    "id": 780012,
-    "spawn_bound": "cannon",
+    "type": 11,
+    "id": 780201,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      200140,
-      200141
+      12015
     ],
     "queue": 1,
-    "name": "【2021意大利活动A1】塞壬领洋者I型 主炮1",
-    "bullet_ID": [
-      20003,
-      20003
-    ],
-    "aim_type": 0,
-    "fire_fx": "CAFire",
-    "fire_sfx": "battle/cannon-main",
-    "damage": 10
-  },
-  "781209": {
-    "fire_sfx": "battle/cannon-main",
-    "id": 781209,
-    "suppress": 1,
-    "range": 120,
-    "queue": 2,
-    "barrage_ID": [
-      600805,
-      600806,
-      600807,
-      600808
-    ],
-    "bullet_ID": [
-      830039,
-      830040,
-      830039,
-      830040
-    ],
-    "name": "【2021意大利活动B3】测试者·水 螺旋自机狙",
-    "reload_max": 900,
+    "name": "【2021意大利活动A3】塞壬执棋者II型 轰炸机",
+    "bullet_ID": [],
     "aim_type": 1,
     "fire_fx": "",
-    "base": 1000,
-    "damage": 4
+    "fire_sfx": "",
+    "damage": 24
   },
   "780202": {
     "initial_over_heat": 0,
@@ -1122,80 +1115,30 @@
     "base": 1000,
     "damage": 4
   },
-  "781220": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 6000,
-    "torpedo_ammo": 0,
-    "queue": 4,
-    "name": "【2021意大利活动B3】BOSS 测试者 雷电扫射 逆时针",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
+  "781209": {
+    "fire_sfx": "battle/cannon-main",
+    "id": 781209,
+    "suppress": 1,
     "range": 120,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 0.1,
-      "fx": "jinengenemy",
-      "time": 0.1,
-      "isBound": true
-    },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 10,
-    "action_index": "attack",
-    "type": 24,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 781220,
-    "spawn_bound": "cannon",
+    "queue": 2,
     "barrage_ID": [
-      840107,
-      840108,
-      840109,
-      840110,
-      840111,
-      840112,
-      840113,
-      840114,
-      840115,
-      840116,
-      840117,
-      840118,
-      840119,
-      840120
+      600805,
+      600806,
+      600807,
+      600808
     ],
-    "corrected": 100,
-    "auto_aftercast": 0,
     "bullet_ID": [
-      830037,
-      830038,
-      830037,
-      830038,
-      830037,
-      830038,
-      830037,
-      830038,
-      830037,
-      830038,
-      830037,
-      830038,
-      830037,
-      830038
+      830039,
+      830040,
+      830039,
+      830040
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 1,
-    "axis_angle": 0
+    "name": "【2021意大利活动B3】测试者·水 螺旋自机狙",
+    "reload_max": 900,
+    "aim_type": 1,
+    "fire_fx": "",
+    "base": 1000,
+    "damage": 4
   },
   "781208": {
     "fire_sfx": "battle/cannon-main",
@@ -1570,26 +1513,29 @@
     "base": 1002,
     "reload_max": 150
   },
-  "780201": {
+  "780012": {
     "initial_over_heat": 0,
-    "suppress": 1,
-    "range": 100,
-    "attack_attribute": 4,
-    "base": 1002,
-    "reload_max": 1200,
+    "suppress": 0,
+    "range": 90,
+    "base": 1000,
+    "reload_max": 1600,
     "action_index": "attack",
-    "type": 11,
-    "id": 780201,
-    "spawn_bound": "plane",
+    "type": 1,
+    "id": 780012,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      12015
+      200140,
+      200141
     ],
     "queue": 1,
-    "name": "【2021意大利活动A3】塞壬执棋者II型 轰炸机",
-    "bullet_ID": [],
-    "aim_type": 1,
-    "fire_fx": "",
-    "fire_sfx": "",
-    "damage": 24
+    "name": "【2021意大利活动A1】塞壬领洋者I型 主炮1",
+    "bullet_ID": [
+      20003,
+      20003
+    ],
+    "aim_type": 0,
+    "fire_fx": "CAFire",
+    "fire_sfx": "battle/cannon-main",
+    "damage": 10
   }
 }

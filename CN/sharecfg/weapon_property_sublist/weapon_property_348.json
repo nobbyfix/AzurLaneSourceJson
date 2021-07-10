@@ -93,50 +93,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "960009": {
-    "search_type": 1,
-    "attack_attribute": 0,
-    "shakescreen": 0,
-    "angle": 30,
-    "reload_max": 2000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【翻格子活动】铁血战斗机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 100,
-    "action_index": "attack",
-    "type": 10,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 960009,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      1500
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      121
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
   "960008": {
     "name": "【翻格子活动】战列四联主炮（英）",
     "id": 960008,
@@ -157,6 +113,13 @@
     "damage": 156,
     "base": 14340,
     "reload_max": 2500
+  },
+  "960003": {
+    "name": "【翻格子活动】驱逐四联磁雷",
+    "id": 960003,
+    "damage": 55,
+    "base": 45140,
+    "reload_max": 2000
   },
   "950261": {
     "search_type": 1,
@@ -1210,26 +1173,26 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "950273": {
+  "950210": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 160,
+    "angle": 360,
+    "reload_max": 500,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【挑战关卡16】轰炸机炸弹",
-    "fire_fx": "",
+    "queue": 1,
+    "name": "【挑战关卡12】赤城_近程自卫火炮III",
+    "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 50,
-    "recover_time": 0,
+    "suppress": 1,
+    "range": 38,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 38,
-    "action_index": "",
+    "damage": 11,
+    "action_index": "attack",
     "type": 2,
     "search_condition": [
       1
@@ -1237,21 +1200,21 @@
     "oxy_type": [
       1
     ],
-    "id": 950273,
+    "id": 950210,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      9074
+      13
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      9073
+      999
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 1,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "950242": {
@@ -1670,11 +1633,11 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "960003": {
-    "name": "【翻格子活动】驱逐四联磁雷",
-    "id": 960003,
+  "960002": {
+    "name": "【翻格子活动】驱逐三联鱼雷",
+    "id": 960002,
     "damage": 55,
-    "base": 45140,
+    "base": 35140,
     "reload_max": 2000
   },
   "950247": {
@@ -1731,12 +1694,12 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "960002": {
-    "name": "【翻格子活动】驱逐三联鱼雷",
-    "id": 960002,
+  "960001": {
+    "name": "【翻格子活动】驱逐主炮",
+    "id": 960001,
     "damage": 55,
-    "base": 35140,
-    "reload_max": 2000
+    "base": 90140,
+    "reload_max": 240
   },
   "950248": {
     "search_type": 1,
@@ -1782,12 +1745,54 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "960001": {
-    "name": "【翻格子活动】驱逐主炮",
-    "id": 960001,
-    "damage": 55,
-    "base": 90140,
-    "reload_max": 240
+  "950289": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 40,
+    "reload_max": 1000,
+    "torpedo_ammo": 0,
+    "queue": 3,
+    "name": "【挑战关卡17】让巴尔 蓄力武器 疯狂跨射 阶段4",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 150,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "armor": 7000,
+      "fx": "jinengenemy",
+      "time": 8,
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 30,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 950289,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      590216
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1522
+    ],
+    "min_range": 75,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
+    "axis_angle": 0
   },
   "950249": {
     "search_type": 1,
@@ -1971,99 +1976,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "950289": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 40,
-    "reload_max": 1000,
-    "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【挑战关卡17】让巴尔 蓄力武器 疯狂跨射 阶段4",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 150,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "armor": 7000,
-      "fx": "jinengenemy",
-      "time": 8,
-      "isBound": true
-    },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 30,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 950289,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      590216
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1522
-    ],
-    "min_range": 75,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "950220": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【挑战关卡13】胡德_近程自卫火炮III",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 20,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 950220,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      13
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      999
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "950288": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -2146,6 +2058,98 @@
     "effect_move": 0,
     "axis_angle": 0
   },
+  "950220": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【挑战关卡13】胡德_近程自卫火炮III",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 38,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 20,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 950220,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      13
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      999
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "950287": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【挑战关卡17】让巴尔 鹤翼直行  阶段2",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 3,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 25,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 950287,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      594004,
+      594005,
+      594006
+    ],
+    "corrected": 105,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      990021,
+      990022,
+      990023
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
   "950221": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -2190,15 +2194,15 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "950287": {
+  "950286": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 400,
+    "reload_max": 1200,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【挑战关卡17】让巴尔 鹤翼直行  阶段2",
+    "name": "【挑战关卡17】让巴尔 三路封路弹幕 阶段1",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
@@ -2208,7 +2212,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 25,
+    "damage": 20,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -2217,19 +2221,15 @@
     "oxy_type": [
       1
     ],
-    "id": 950287,
+    "id": 950286,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      594004,
-      594005,
-      594006
+      594001
     ],
     "corrected": 105,
     "auto_aftercast": 0,
     "bullet_ID": [
-      990021,
-      990022,
-      990023
+      1001
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -2287,25 +2287,30 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "950286": {
+  "950285": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1200,
+    "angle": 40,
+    "reload_max": 2000,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【挑战关卡17】让巴尔 三路封路弹幕 阶段1",
-    "fire_fx": "CLFire",
+    "queue": 3,
+    "name": "【挑战关卡17】敦刻尔克 蓄力武器 疯狂跨射 阶段3",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
+    "range": 150,
     "recover_time": 0,
-    "fire_fx_loop_type": 3,
-    "precast_param": [],
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "armor": 7000,
+      "fx": "jinengenemy",
+      "time": 8,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 20,
+    "damage": 18,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -2314,21 +2319,21 @@
     "oxy_type": [
       1
     ],
-    "id": 950286,
+    "id": 950285,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      594001
+      590216
     ],
-    "corrected": 105,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1001
+      1522
     ],
-    "min_range": 0,
+    "min_range": 75,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "950223": {
@@ -2379,30 +2384,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "950285": {
+  "950284": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 40,
-    "reload_max": 2000,
+    "angle": 360,
+    "reload_max": 500,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【挑战关卡17】敦刻尔克 蓄力武器 疯狂跨射 阶段3",
-    "fire_fx": "CAFire",
+    "queue": 1,
+    "name": "【挑战关卡17】敦刻尔克 来回弹幕 阶段3",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 150,
+    "range": 90,
     "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "armor": 7000,
-      "fx": "jinengenemy",
-      "time": 8,
-      "isBound": true
-    },
+    "fire_fx_loop_type": 3,
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 18,
+    "damage": 25,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -2411,21 +2411,27 @@
     "oxy_type": [
       1
     ],
-    "id": 950285,
+    "id": 950284,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      590216
+      594009,
+      594010,
+      594011,
+      594012
     ],
-    "corrected": 100,
+    "corrected": 105,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1522
+      590206,
+      590207,
+      590206,
+      590207
     ],
-    "min_range": 75,
+    "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "950224": {
@@ -2481,15 +2487,15 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "950284": {
+  "950283": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 500,
+    "reload_max": 1750,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【挑战关卡17】敦刻尔克 来回弹幕 阶段3",
+    "name": "【挑战关卡17】敦刻尔克 上下两路慢速弹幕 阶段2",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
@@ -2499,7 +2505,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 25,
+    "damage": 19,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -2508,21 +2514,17 @@
     "oxy_type": [
       1
     ],
-    "id": 950284,
+    "id": 950283,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      594009,
-      594010,
-      594011,
-      594012
+      594007,
+      594008
     ],
     "corrected": 105,
     "auto_aftercast": 0,
     "bullet_ID": [
-      590206,
-      590207,
-      590206,
-      590207
+      590205,
+      590205
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -2577,52 +2579,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "950283": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1750,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【挑战关卡17】敦刻尔克 上下两路慢速弹幕 阶段2",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 3,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 19,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 950283,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      594007,
-      594008
-    ],
-    "corrected": 105,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      590205,
-      590205
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "950274": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -2670,6 +2626,50 @@
     "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "950273": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 160,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【挑战关卡16】轰炸机炸弹",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 50,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 38,
+    "action_index": "",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 950273,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      9074
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      9073
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "",
     "effect_move": 1,
     "axis_angle": 0
   }

@@ -1,95 +1,90 @@
 {
-  "602201": {
+  "602011": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1600,
+    "reload_max": 600,
     "torpedo_ammo": 0,
-    "queue": 4,
-    "name": "【皇家女仆】纽卡斯尔三联鱼雷（伤害高）",
-    "fire_fx": "",
+    "queue": 2,
+    "name": "【皇家女仆】谢菲尔德副炮（伤害低）",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
+    "range": 60,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 42,
+    "damage": 8,
     "action_index": "attack",
-    "type": 3,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 602201,
-    "spawn_bound": "torpedo",
+    "id": 602011,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      600201,
-      600202
+      600011
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      600011
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "604003": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 800,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【传颂联动SP1BOSS】芙米露露轰炸机",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 10,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 34,
+    "action_index": "",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 604003,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      12012
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      600201,
-      600201
+      10012
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
+    "initial_over_heat": 0,
+    "aim_type": 0,
     "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "594019": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 302,
-    "angle": 50,
-    "reload_max": 4514,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "美系剧情关华盛顿主炮",
-    "fire_fx": "zhupao",
-    "charge_param": {
-      "lockTime": 0.3,
-      "maxLock": 3
-    },
-    "suppress": 1,
-    "range": 200,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 200,
-    "action_index": "attack_main",
-    "type": 23,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 594019,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      1301
-    ],
-    "corrected": 105,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1512
-    ],
-    "min_range": 50,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-356mm",
-    "effect_move": 0,
+    "effect_move": 1,
     "axis_angle": 0
   },
   "602121": {
@@ -190,50 +185,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "604003": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 800,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【传颂联动SP1BOSS】芙米露露轰炸机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 10,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 34,
-    "action_index": "",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 604003,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      12012
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      10012
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
   "602901": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -275,6 +226,50 @@
     "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "604001": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1100,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【传颂联动SP1BOSS】芙米露露-Q版轻巡单发x6随机II",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 60,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 10,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 604001,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      1106
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1201
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -366,25 +361,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "604001": {
+  "604000": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1100,
+    "reload_max": 600,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【传颂联动SP1BOSS】芙米露露-Q版轻巡单发x6随机II",
+    "name": "【传颂联动SP1BOSS】芙米露露-Q版近程自卫火炮II",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 60,
+    "range": 38,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
+    "damage": 7,
     "action_index": "attack",
     "type": 2,
     "search_condition": [
@@ -393,19 +388,19 @@
     "oxy_type": [
       1
     ],
-    "id": 604001,
+    "id": 604000,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1106
+      12
     ],
     "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1201
+      999
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
@@ -454,47 +449,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "604000": {
+  "603921": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 600,
+    "angle": 180,
+    "reload_max": 2100,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【传颂联动SP1BOSS】芙米露露-Q版近程自卫火炮II",
+    "name": "【皇家女仆】利安得级量产型-驱逐旋转子弹3发武器（伤害低）",
     "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
+    "suppress": 0,
+    "range": 80,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 7,
+    "attack_attribute_ratio": 30,
+    "damage": 8,
     "action_index": "attack",
-    "type": 2,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 604000,
+    "id": 603921,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      12
+      609001
     ],
-    "corrected": 125,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      999
+      41003
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -552,47 +547,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "603921": {
+  "603911": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 2100,
+    "angle": 60,
+    "reload_max": 2650,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【皇家女仆】利安得级量产型-驱逐旋转子弹3发武器（伤害低）",
-    "fire_fx": "CLFire",
+    "name": "【皇家女仆】利安得级量产型-四联装鱼雷（伤害低）",
+    "fire_fx": "",
     "charge_param": "",
-    "suppress": 0,
-    "range": 80,
-    "recover_time": 0,
+    "suppress": 1,
+    "range": 72,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
-    "attack_attribute_ratio": 30,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 1,
+    "attack_attribute_ratio": 100,
+    "damage": 40,
+    "action_index": "",
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 603921,
-    "spawn_bound": "cannon",
+    "id": 603911,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      609001
+      609002
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      41003
+      30057
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
+    "aim_type": 1,
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -688,50 +683,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "603911": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2650,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【皇家女仆】利安得级量产型-四联装鱼雷（伤害低）",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 72,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 40,
-    "action_index": "",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 603911,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      609002
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30057
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "603901": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -773,6 +724,50 @@
     "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "601911": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 2650,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【皇家女仆】利安得级量产型-四联装鱼雷（伤害低）",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 72,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 25,
+    "action_index": "",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 601911,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      609002
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30057
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -868,47 +863,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "601911": {
+  "603211": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2650,
+    "angle": 360,
+    "reload_max": 600,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【皇家女仆】利安得级量产型-四联装鱼雷（伤害低）",
-    "fire_fx": "",
+    "queue": 2,
+    "name": "【皇家女仆】纽卡斯尔副炮（伤害低）",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 72,
+    "range": 60,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 25,
-    "action_index": "",
-    "type": 3,
+    "damage": 12,
+    "action_index": "attack",
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 601911,
-    "spawn_bound": "torpedo",
+    "id": 603211,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      609002
+      600011
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30057
+      600011
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -958,42 +953,52 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "603211": {
+  "603121": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 600,
+    "reload_max": 1200,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【皇家女仆】纽卡斯尔副炮（伤害低）",
+    "queue": 1,
+    "name": "【皇家女仆】贝法主炮高爆弹幕（伤害中）",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
+    "range": 100,
+    "recover_time": 0,
+    "fire_fx_loop_type": 3,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
+    "damage": 24,
     "action_index": "attack",
-    "type": 2,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 603211,
+    "id": 603121,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      600011
+      600121,
+      600122,
+      600123,
+      600124,
+      600125,
+      600126
     ],
-    "corrected": 125,
+    "corrected": 105,
     "auto_aftercast": 0,
     "bullet_ID": [
-      600011
+      600121,
+      600121,
+      600121,
+      600121,
+      600121,
+      600121
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -1092,52 +1097,42 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "603121": {
+  "603111": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1200,
+    "reload_max": 600,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【皇家女仆】贝法主炮高爆弹幕（伤害中）",
+    "queue": 2,
+    "name": "【皇家女仆】贝法副炮（伤害低）",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 100,
-    "recover_time": 0,
-    "fire_fx_loop_type": 3,
+    "range": 60,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 24,
+    "damage": 10,
     "action_index": "attack",
-    "type": 1,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 603121,
+    "id": 603111,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      600121,
-      600122,
-      600123,
-      600124,
-      600125,
-      600126
+      600011
     ],
-    "corrected": 105,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      600121,
-      600121,
-      600121,
-      600121,
-      600121,
-      600121
+      600011
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -1190,47 +1185,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "603111": {
+  "603101": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 600,
+    "reload_max": 1400,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【皇家女仆】贝法副炮（伤害低）",
-    "fire_fx": "CLFire",
+    "queue": 4,
+    "name": "【皇家女仆】贝法三联鱼雷（伤害高）",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 60,
+    "range": 90,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
+    "damage": 48,
     "action_index": "attack",
-    "type": 2,
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 603111,
-    "spawn_bound": "cannon",
+    "id": 603101,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      600011
+      600101
     ],
-    "corrected": 125,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      600011
+      600101
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
+    "initial_over_heat": 1,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1278,47 +1273,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "603101": {
+  "601921": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1400,
+    "angle": 180,
+    "reload_max": 2100,
     "torpedo_ammo": 0,
-    "queue": 4,
-    "name": "【皇家女仆】贝法三联鱼雷（伤害高）",
-    "fire_fx": "",
+    "queue": 1,
+    "name": "【皇家女仆】利安得级量产型-驱逐旋转子弹3发武器（伤害低）",
+    "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0.5,
+    "suppress": 0,
+    "range": 80,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 48,
+    "attack_attribute_ratio": 30,
+    "damage": 5,
     "action_index": "attack",
-    "type": 3,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 603101,
-    "spawn_bound": "torpedo",
+    "id": 601921,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      600101
+      609001
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      600101
+      41003
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1412,50 +1407,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "601921": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 2100,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【皇家女仆】利安得级量产型-驱逐旋转子弹3发武器（伤害低）",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 80,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 30,
-    "damage": 5,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 601921,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      609001
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      41003
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "603021": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -1499,6 +1450,52 @@
     "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "594009": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 600,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【美系复刻EX】ExBoss_爆炸圈旋转",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 12,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 594009,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      595071,
+      595072
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      594071,
+      594072
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -2405,48 +2402,50 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "604005": {
+  "602201": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 800,
+    "angle": 360,
+    "reload_max": 1600,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【传颂联动SP1BOSS】芙米露露 轰炸机武器",
+    "queue": 4,
+    "name": "【皇家女仆】纽卡斯尔三联鱼雷（伤害高）",
     "fire_fx": "",
     "charge_param": "",
-    "suppress": 0,
-    "range": 10,
-    "recover_time": 0,
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 34,
-    "action_index": "",
-    "type": 2,
+    "damage": 42,
+    "action_index": "attack",
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 604005,
-    "spawn_bound": "cannon",
+    "id": 602201,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      10001
+      600201,
+      600202
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10012
+      600201,
+      600201
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
     "fire_sfx": "",
-    "effect_move": 1,
+    "effect_move": 0,
     "axis_angle": 0
   },
   "602021": {
@@ -2583,47 +2582,50 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "602011": {
+  "594019": {
     "search_type": 1,
     "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 600,
+    "shakescreen": 302,
+    "angle": 50,
+    "reload_max": 4514,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【皇家女仆】谢菲尔德副炮（伤害低）",
-    "fire_fx": "CLFire",
-    "charge_param": "",
+    "queue": 1,
+    "name": "美系剧情关华盛顿主炮",
+    "fire_fx": "zhupao",
+    "charge_param": {
+      "lockTime": 0.3,
+      "maxLock": 3
+    },
     "suppress": 1,
-    "range": 60,
+    "range": 200,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 2,
+    "damage": 200,
+    "action_index": "attack_main",
+    "type": 23,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 602011,
+    "id": 594019,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      600011
+      1301
     ],
-    "corrected": 125,
+    "corrected": 105,
     "auto_aftercast": 0,
     "bullet_ID": [
-      600011
+      1512
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
+    "min_range": 50,
+    "initial_over_heat": 1,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "battle/cannon-356mm",
     "effect_move": 0,
     "axis_angle": 0
   },

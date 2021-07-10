@@ -47,48 +47,52 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "540011": {
+  "540014": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 400,
+    "reload_max": 1000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【围剿斯佩伯爵】塞壬航母蛋船轰炸机武器T1",
-    "fire_fx": "",
+    "name": "【围剿斯佩伯爵】舰船旋转子弹延迟3连弹——轻巡",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 10,
+    "suppress": 1,
+    "range": 100,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 60,
-    "action_index": "",
-    "type": 2,
+    "damage": 12,
+    "action_index": "attack",
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 540011,
+    "id": 540014,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      10001
+      300109,
+      300110,
+      300111
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10012
+      300109,
+      300110,
+      300111
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 1,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "534522": {
@@ -139,25 +143,30 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "534525": {
+  "534526": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 100,
+    "reload_max": 5250,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "破局者BOSS 特殊武器2",
-    "fire_fx": "",
+    "queue": 3,
+    "name": "破局者BOSS 蓄力武器",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
     "range": 150,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "armor": 10200,
+      "fx": "jinengenemy",
+      "time": 10,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 45,
+    "damage": 28,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -166,20 +175,32 @@
     "oxy_type": [
       1
     ],
-    "id": 534525,
+    "id": 534526,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      8041,
-      8042
+      8102,
+      8103,
+      8104,
+      8105,
+      8106,
+      8107,
+      8108,
+      8109
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      8041,
-      8042
+      8102,
+      8103,
+      8104,
+      8105,
+      8106,
+      8107,
+      8108,
+      8109
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
+    "initial_over_heat": 1,
     "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
@@ -229,51 +250,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "540014": {
+  "540002": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1000,
+    "angle": 60,
+    "reload_max": 2600,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【围剿斯佩伯爵】舰船旋转子弹延迟3连弹——轻巡",
-    "fire_fx": "CAFire",
+    "name": "【围剿斯佩伯爵】Z19四联装鱼雷II",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 100,
-    "recover_time": 0,
+    "range": 60,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
+    "damage": 35,
     "action_index": "attack",
-    "type": 1,
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 540014,
-    "spawn_bound": "cannon",
+    "id": 540002,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      300109,
-      300110,
-      300111
+      1403
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      300109,
-      300110,
-      300111
+      1801
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
+    "initial_over_heat": 1,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -495,12 +512,12 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "540511": {
+  "540512": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 250,
+    "reload_max": 500,
     "torpedo_ammo": 0,
     "queue": 1,
     "name": "【围剿斯佩伯爵】斯佩伯爵 ",
@@ -513,7 +530,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 8,
+    "damage": 12,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -522,19 +539,21 @@
     "oxy_type": [
       1
     ],
-    "id": 540511,
+    "id": 540512,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      7001
+      7002,
+      7003
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      7001
+      7002,
+      7003
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
@@ -583,25 +602,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "540513": {
+  "550034": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1100,
+    "reload_max": 500,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【围剿斯佩伯爵】斯佩伯爵 近程自卫火炮II",
+    "queue": 1,
+    "name": "【海王星联动】诺瓦露近程自卫火炮",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 38,
+    "range": 60,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
+    "damage": 9,
     "action_index": "attack",
     "type": 2,
     "search_condition": [
@@ -610,15 +629,15 @@
     "oxy_type": [
       1
     ],
-    "id": 540513,
+    "id": 550034,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      12
+      13
     ],
     "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      999
+      7106
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -847,47 +866,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "550034": {
+  "550033": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 500,
+    "reload_max": 1400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【海王星联动】诺瓦露近程自卫火炮",
-    "fire_fx": "CLFire",
+    "name": "【海王星联动】诺瓦露联装主炮x4-散射",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 9,
+    "damage": 18,
     "action_index": "attack",
-    "type": 2,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 550034,
+    "id": 550033,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      13
+      200101
     ],
-    "corrected": 125,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      7106
+      1403
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -937,94 +956,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "550033": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1400,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【海王星联动】诺瓦露联装主炮x4-散射",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 18,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 550033,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      200101
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1403
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "534532": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 2800,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "执棋者BOSS 浮游炮机体",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 120,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 25,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 534532,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12019
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30013
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
   "550032": {
     "search_type": 1,
     "attack_attribute": 2,
@@ -1069,25 +1000,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "534533": {
+  "534532": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 2000,
+    "reload_max": 2800,
     "torpedo_ammo": 0,
     "queue": 2,
-    "name": "执棋者BOSS 轰炸机T3",
-    "fire_fx": "",
+    "name": "执棋者BOSS 浮游炮机体",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 100,
+    "range": 120,
     "recover_time": 5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 168,
+    "damage": 25,
     "action_index": "attack",
     "type": 11,
     "search_condition": [
@@ -1096,20 +1027,20 @@
     "oxy_type": [
       1
     ],
-    "id": 534533,
+    "id": 534532,
     "spawn_bound": "plane",
     "barrage_ID": [
-      12016
+      12019
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30019
+      30013
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
+    "fire_sfx": "battle/air-atk",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -1159,25 +1090,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "534534": {
+  "534533": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 2350,
+    "reload_max": 2000,
     "torpedo_ammo": 0,
     "queue": 2,
-    "name": "执棋者BOSS 鱼雷机T3",
+    "name": "执棋者BOSS 轰炸机T3",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 110,
+    "range": 100,
     "recover_time": 5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 134,
+    "damage": 168,
     "action_index": "attack",
     "type": 11,
     "search_condition": [
@@ -1186,7 +1117,7 @@
     "oxy_type": [
       1
     ],
-    "id": 534534,
+    "id": 534533,
     "spawn_bound": "plane",
     "barrage_ID": [
       12016
@@ -1194,7 +1125,7 @@
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30014
+      30019
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -1247,47 +1178,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "534535": {
+  "534534": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1050,
+    "reload_max": 2350,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "执棋者BOSS 浮游炮武器1",
-    "fire_fx": "fangkongpaohuoshe2",
+    "queue": 2,
+    "name": "执棋者BOSS 鱼雷机T3",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 85,
-    "recover_time": 0,
+    "range": 110,
+    "recover_time": 5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 18,
-    "action_index": "",
-    "type": 1,
+    "damage": 134,
+    "action_index": "attack",
+    "type": 11,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 534535,
-    "spawn_bound": "cannon",
+    "id": 534534,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      9062
+      12016
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      801
+      30014
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
+    "fire_sfx": "",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -1335,47 +1266,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "534536": {
+  "534535": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 400,
+    "angle": 360,
+    "reload_max": 1050,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "执棋者BOSS 轰炸机武器T1",
-    "fire_fx": "",
+    "name": "执棋者BOSS 浮游炮武器1",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
-    "suppress": 0,
-    "range": 10,
+    "suppress": 1,
+    "range": 85,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 168,
+    "damage": 18,
     "action_index": "",
-    "type": 2,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 534536,
+    "id": 534535,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      10001
+      9062
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10012
+      801
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -1423,6 +1354,96 @@
     "effect_move": 0,
     "axis_angle": 0
   },
+  "534536": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "执棋者BOSS 轰炸机武器T1",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 10,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 168,
+    "action_index": "",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 534536,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      10001
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      10012
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "550021": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1250,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【海王星联动】涅普顿专属武器",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 15,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 550021,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      7100,
+      7101
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      7100,
+      7101
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
   "534537": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -1467,25 +1488,25 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "550021": {
+  "534524": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1250,
+    "angle": 180,
+    "reload_max": 750,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【海王星联动】涅普顿专属武器",
-    "fire_fx": "CAFire",
+    "queue": 2,
+    "name": "破局者BOSS 特殊武器1",
+    "fire_fx": "",
     "charge_param": "",
-    "suppress": 0,
-    "range": 90,
+    "suppress": 1,
+    "range": 150,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 15,
+    "damage": 38,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -1494,17 +1515,15 @@
     "oxy_type": [
       1
     ],
-    "id": 550021,
+    "id": 534524,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      7100,
-      7101
+      8040
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      7100,
-      7101
+      8040
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -1562,15 +1581,15 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "534524": {
+  "534525": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 750,
+    "reload_max": 100,
     "torpedo_ammo": 0,
     "queue": 2,
-    "name": "破局者BOSS 特殊武器1",
+    "name": "破局者BOSS 特殊武器2",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
@@ -1580,7 +1599,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 38,
+    "damage": 45,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -1589,15 +1608,17 @@
     "oxy_type": [
       1
     ],
-    "id": 534524,
+    "id": 534525,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      8040
+      8041,
+      8042
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      8040
+      8041,
+      8042
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -1654,66 +1675,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "534526": {
+  "540503": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 5250,
+    "angle": 60,
+    "reload_max": 1000,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "破局者BOSS 蓄力武器",
-    "fire_fx": "CAFire",
+    "queue": 2,
+    "name": "【围剿斯佩伯爵】Z1-鱼雷",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 150,
-    "recover_time": 0,
+    "range": 50,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
-    "precast_param": {
-      "armor": 10200,
-      "fx": "jinengenemy",
-      "time": 10,
-      "isBound": true
-    },
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 28,
+    "damage": 54,
     "action_index": "attack",
-    "type": 1,
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 534526,
-    "spawn_bound": "cannon",
+    "id": 540503,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      8102,
-      8103,
-      8104,
-      8105,
-      8106,
-      8107,
-      8108,
-      8109
+      1403
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      8102,
-      8103,
-      8104,
-      8105,
-      8106,
-      8107,
-      8108,
-      8109
+      10007
     ],
     "min_range": 0,
     "initial_over_heat": 1,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
+    "aim_type": 1,
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1763,50 +1765,6 @@
     "initial_over_heat": 0,
     "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "540002": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2600,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【围剿斯佩伯爵】Z19四联装鱼雷II",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 35,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 540002,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      1403
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1801
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1992,6 +1950,50 @@
     "effect_move": 0,
     "axis_angle": 0
   },
+  "540513": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1100,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【围剿斯佩伯爵】斯佩伯爵 近程自卫火炮II",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 38,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 10,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 540513,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      12
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      999
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
   "550041": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -2036,12 +2038,12 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "540512": {
+  "540511": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 500,
+    "reload_max": 250,
     "torpedo_ammo": 0,
     "queue": 1,
     "name": "【围剿斯佩伯爵】斯佩伯爵 ",
@@ -2054,7 +2056,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
+    "damage": 8,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -2063,21 +2065,19 @@
     "oxy_type": [
       1
     ],
-    "id": 540512,
+    "id": 540511,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      7002,
-      7003
+      7001
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      7002,
-      7003
+      7001
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
@@ -2352,47 +2352,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "550045": {
+  "540013": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 2500,
+    "angle": 180,
+    "reload_max": 48,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【海王星联动】贝露鱼雷机",
-    "fire_fx": "",
+    "queue": 1,
+    "name": "【围剿斯佩伯爵】塞壬航母蛋船战斗机空中",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 110,
-    "recover_time": 5,
+    "range": 200,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 84,
-    "action_index": "attack",
-    "type": 11,
+    "damage": 9,
+    "action_index": "",
+    "type": 4,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 550045,
-    "spawn_bound": "plane",
+    "id": 540013,
+    "spawn_bound": "antiaircraft",
     "barrage_ID": [
-      12016
+      5
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30014
+      10004
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
+    "fire_sfx": "battle/air-atk",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -2442,42 +2442,48 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "540013": {
+  "540012": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 48,
+    "reload_max": 1650,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【围剿斯佩伯爵】塞壬航母蛋船战斗机空中",
+    "name": "【围剿斯佩伯爵】塞壬航母蛋船战斗机弹幕",
     "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 200,
+    "range": 85,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 9,
+    "damage": 12,
     "action_index": "",
-    "type": 4,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 540013,
-    "spawn_bound": "antiaircraft",
+    "id": 540012,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      5
+      101,
+      102,
+      103,
+      104
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10004
+      20001,
+      20001,
+      20001,
+      20001
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -2539,98 +2545,99 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "540012": {
+  "540011": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 1650,
+    "reload_max": 400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【围剿斯佩伯爵】塞壬航母蛋船战斗机弹幕",
-    "fire_fx": "fangkongpaohuoshe2",
+    "name": "【围剿斯佩伯爵】塞壬航母蛋船轰炸机武器T1",
+    "fire_fx": "",
     "charge_param": "",
-    "suppress": 1,
-    "range": 85,
+    "suppress": 0,
+    "range": 10,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
+    "damage": 60,
     "action_index": "",
-    "type": 1,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 540012,
+    "id": 540011,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      101,
-      102,
-      103,
-      104
+      10001
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      20001,
-      20001,
-      20001,
-      20001
+      10012
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
+    "aim_type": 0,
+    "fire_sfx": "",
     "effect_move": 1,
     "axis_angle": 0
   },
-  "540503": {
+  "534518": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 1000,
+    "angle": 360,
+    "reload_max": 3400,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【围剿斯佩伯爵】Z1-鱼雷",
+    "queue": 3,
+    "name": "执棋者BOSS 蓄力武器",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 50,
-    "recover_time": 0.5,
+    "range": 110,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "armor": 5200,
+      "fx": "jinengenemy",
+      "time": 6,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 54,
+    "damage": 0,
     "action_index": "attack",
-    "type": 3,
+    "type": 11,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 540503,
-    "spawn_bound": "torpedo",
+    "id": 534518,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      1403
+      12020,
+      12021,
+      12022
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10007
+      30014
     ],
     "min_range": 0,
     "initial_over_heat": 1,
     "aim_type": 1,
     "fire_sfx": "",
-    "effect_move": 0,
+    "effect_move": 1,
     "axis_angle": 0
   },
   "540001": {

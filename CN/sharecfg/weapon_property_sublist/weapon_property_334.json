@@ -191,31 +191,47 @@
     "base": 1000,
     "damage": 15
   },
-  "761010": {
-    "fire_sfx": "battle/cannon-main",
-    "type": 2,
-    "id": 761010,
+  "760002": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 2000,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【2020德系活动A1】BOSS 塞壬执棋者I型 浮游炮",
+    "fire_fx": "",
+    "charge_param": "",
     "suppress": 1,
-    "range": 120,
-    "queue": 1,
+    "range": 110,
+    "recover_time": 5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 10,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 760002,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      820020,
-      820021,
-      820020,
-      820021
+      690109
     ],
-    "bullet_ID": [
-      810025,
-      810025,
-      810026,
-      810026
-    ],
-    "name": "【2020德系活动B1】BOSS 莱比锡 最后一波 全屏交叉弹幕2",
-    "reload_max": 5000,
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [],
+    "min_range": 0,
+    "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_fx": "CAFire",
-    "base": 1000,
-    "damage": 12
+    "fire_sfx": "",
+    "effect_move": 1,
+    "axis_angle": 0
   },
   "761105": {
     "id": 761105,
@@ -968,14 +984,14 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "761213": {
+  "761212": {
     "barrage_ID": [
       700143
     ],
-    "queue": 3,
+    "queue": 2,
     "name": "【2020德系活动B3】塞壬构建者 第四波 浮游炮",
     "range": 120,
-    "id": 761213,
+    "id": 761212,
     "damage": 12,
     "base": 1002,
     "reload_max": 100
@@ -1024,37 +1040,6 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "761212": {
-    "barrage_ID": [
-      700143
-    ],
-    "queue": 2,
-    "name": "【2020德系活动B3】塞壬构建者 第四波 浮游炮",
-    "range": 120,
-    "id": 761212,
-    "damage": 12,
-    "base": 1002,
-    "reload_max": 100
-  },
-  "760206": {
-    "id": 760206,
-    "suppress": 1,
-    "range": 120,
-    "queue": 1,
-    "barrage_ID": [
-      990241,
-      990242
-    ],
-    "name": "【2020德系活动A3】BOSS 翔鹤第一波弹幕",
-    "bullet_ID": [
-      770022,
-      770023
-    ],
-    "aim_type": 1,
-    "reload_max": 5000,
-    "base": 1000,
-    "damage": 16
-  },
   "761211": {
     "fire_sfx": "battle/cannon-main",
     "precast_param": {
@@ -1086,19 +1071,19 @@
     "base": 1000,
     "damage": 12
   },
-  "760207": {
-    "id": 760207,
+  "760206": {
+    "id": 760206,
     "suppress": 1,
     "range": 120,
     "queue": 1,
     "barrage_ID": [
-      990001,
-      990002
+      990241,
+      990242
     ],
-    "name": "【2020德系活动A3】BOSS 瑞鹤第一波弹幕",
+    "name": "【2020德系活动A3】BOSS 翔鹤第一波弹幕",
     "bullet_ID": [
-      770020,
-      770021
+      770022,
+      770023
     ],
     "aim_type": 1,
     "reload_max": 5000,
@@ -1142,20 +1127,22 @@
     "base": 1000,
     "damage": 12
   },
-  "760208": {
-    "id": 760208,
+  "760207": {
+    "id": 760207,
     "suppress": 1,
     "range": 120,
     "queue": 1,
     "barrage_ID": [
-      780017
+      990001,
+      990002
     ],
-    "name": "【2020德系活动A3】BOSS 翔鹤第二波弹幕",
+    "name": "【2020德系活动A3】BOSS 瑞鹤第一波弹幕",
     "bullet_ID": [
-      770026
+      770020,
+      770021
     ],
     "aim_type": 1,
-    "reload_max": 9999,
+    "reload_max": 5000,
     "base": 1000,
     "damage": 16
   },
@@ -1214,24 +1201,20 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "760209": {
-    "type": 2,
-    "id": 760209,
+  "760208": {
+    "id": 760208,
     "suppress": 1,
     "range": 120,
     "queue": 1,
     "barrage_ID": [
-      780015,
-      780016
+      780017
     ],
+    "name": "【2020德系活动A3】BOSS 翔鹤第二波弹幕",
     "bullet_ID": [
-      770024,
-      770025
+      770026
     ],
-    "name": "【2020德系活动A3】BOSS 瑞鹤第二波弹幕",
-    "reload_max": 5000,
     "aim_type": 1,
-    "fire_fx": "fangkongpaohuoshe2",
+    "reload_max": 9999,
     "base": 1000,
     "damage": 16
   },
@@ -1273,21 +1256,24 @@
     "base": 1000,
     "damage": 18
   },
-  "760210": {
+  "760209": {
     "type": 2,
-    "id": 760210,
+    "id": 760209,
     "suppress": 1,
     "range": 120,
-    "queue": 3,
+    "queue": 1,
     "barrage_ID": [
-      730226
+      780015,
+      780016
     ],
-    "name": "【2020德系活动A3】BOSS 翔鹤第三波弹幕",
     "bullet_ID": [
-      770033
+      770024,
+      770025
     ],
-    "aim_type": 1,
+    "name": "【2020德系活动A3】BOSS 瑞鹤第二波弹幕",
     "reload_max": 5000,
+    "aim_type": 1,
+    "fire_fx": "fangkongpaohuoshe2",
     "base": 1000,
     "damage": 16
   },
@@ -1309,24 +1295,21 @@
     "base": 1000,
     "damage": 6
   },
-  "760211": {
+  "760210": {
     "type": 2,
-    "id": 760211,
+    "id": 760210,
     "suppress": 1,
     "range": 120,
-    "queue": 1,
+    "queue": 3,
     "barrage_ID": [
-      780015,
-      780016
+      730226
     ],
+    "name": "【2020德系活动A3】BOSS 翔鹤第三波弹幕",
     "bullet_ID": [
-      770034,
-      770035
+      770033
     ],
-    "name": "【2020德系活动A3】BOSS 瑞鹤第三波弹幕",
-    "reload_max": 5000,
     "aim_type": 1,
-    "fire_fx": "fangkongpaohuoshe2",
+    "reload_max": 5000,
     "base": 1000,
     "damage": 16
   },
@@ -1348,6 +1331,27 @@
     "reload_max": 1000,
     "base": 1001,
     "damage": 36
+  },
+  "760211": {
+    "type": 2,
+    "id": 760211,
+    "suppress": 1,
+    "range": 120,
+    "queue": 1,
+    "barrage_ID": [
+      780015,
+      780016
+    ],
+    "bullet_ID": [
+      770034,
+      770035
+    ],
+    "name": "【2020德系活动A3】BOSS 瑞鹤第三波弹幕",
+    "reload_max": 5000,
+    "aim_type": 1,
+    "fire_fx": "fangkongpaohuoshe2",
+    "base": 1000,
+    "damage": 16
   },
   "761201": {
     "id": 761201,
@@ -1450,25 +1454,6 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "761001": {
-    "type": 2,
-    "initial_over_heat": 1,
-    "id": 761001,
-    "suppress": 1,
-    "range": 38,
-    "queue": 5,
-    "barrage_ID": [
-      12
-    ],
-    "name": "【2020德系活动B1】BOSS 通用近程自卫火炮",
-    "bullet_ID": [
-      999
-    ],
-    "aim_type": 1,
-    "reload_max": 500,
-    "base": 1000,
-    "damage": 5
-  },
   "761112": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -1511,21 +1496,24 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "761002": {
-    "id": 761002,
+  "761001": {
+    "type": 2,
+    "initial_over_heat": 1,
+    "id": 761001,
     "suppress": 1,
-    "range": 40,
-    "queue": 1,
-    "name": "【2020德系活动B1】BOSS Z24 半途自瞄鱼雷",
+    "range": 38,
+    "queue": 5,
     "barrage_ID": [
-      820008
+      12
     ],
+    "name": "【2020德系活动B1】BOSS 通用近程自卫火炮",
     "bullet_ID": [
-      810007
+      999
     ],
-    "reload_max": 5000,
-    "base": 1001,
-    "damage": 20
+    "aim_type": 1,
+    "reload_max": 500,
+    "base": 1000,
+    "damage": 5
   },
   "761111": {
     "type": 2,
@@ -1546,26 +1534,21 @@
     "base": 1000,
     "damage": 15
   },
-  "761003": {
-    "fire_sfx": "battle/cannon-main",
-    "type": 2,
-    "id": 761003,
+  "761002": {
+    "id": 761002,
     "suppress": 1,
-    "range": 100,
-    "queue": 2,
+    "range": 40,
+    "queue": 1,
+    "name": "【2020德系活动B1】BOSS Z24 半途自瞄鱼雷",
     "barrage_ID": [
-      820010,
-      820013
+      820008
     ],
-    "name": "【2020德系活动B1】BOSS 通用旋转子弹弹幕",
     "bullet_ID": [
-      810010,
-      810013
+      810007
     ],
-    "aim_type": 1,
     "reload_max": 5000,
-    "base": 1000,
-    "damage": 8
+    "base": 1001,
+    "damage": 20
   },
   "761110": {
     "action_index": "",
@@ -1585,16 +1568,16 @@
     "base": 1001,
     "damage": 24
   },
-  "761004": {
+  "761003": {
     "fire_sfx": "battle/cannon-main",
     "type": 2,
-    "id": 761004,
+    "id": 761003,
     "suppress": 1,
     "range": 100,
     "queue": 2,
     "barrage_ID": [
-      820022,
-      820023
+      820010,
+      820013
     ],
     "name": "【2020德系活动B1】BOSS 通用旋转子弹弹幕",
     "bullet_ID": [
@@ -1621,21 +1604,26 @@
     "base": 1000,
     "damage": 20
   },
-  "761005": {
+  "761004": {
+    "fire_sfx": "battle/cannon-main",
     "type": 2,
-    "id": 761005,
+    "id": 761004,
+    "suppress": 1,
     "range": 100,
-    "queue": 5,
-    "name": "【2020德系活动B1】BOSS Z24 杂乱发射弹幕",
+    "queue": 2,
     "barrage_ID": [
-      820016
+      820022,
+      820023
     ],
+    "name": "【2020德系活动B1】BOSS 通用旋转子弹弹幕",
     "bullet_ID": [
-      810016
+      810010,
+      810013
     ],
+    "aim_type": 1,
     "reload_max": 5000,
     "base": 1000,
-    "damage": 5
+    "damage": 8
   },
   "761011": {
     "fire_sfx": "battle/cannon-main",
@@ -1654,5 +1642,47 @@
     "reload_max": 5000,
     "base": 1000,
     "damage": 6
+  },
+  "761005": {
+    "type": 2,
+    "id": 761005,
+    "range": 100,
+    "queue": 5,
+    "name": "【2020德系活动B1】BOSS Z24 杂乱发射弹幕",
+    "barrage_ID": [
+      820016
+    ],
+    "bullet_ID": [
+      810016
+    ],
+    "reload_max": 5000,
+    "base": 1000,
+    "damage": 5
+  },
+  "761010": {
+    "fire_sfx": "battle/cannon-main",
+    "type": 2,
+    "id": 761010,
+    "suppress": 1,
+    "range": 120,
+    "queue": 1,
+    "barrage_ID": [
+      820020,
+      820021,
+      820020,
+      820021
+    ],
+    "bullet_ID": [
+      810025,
+      810025,
+      810026,
+      810026
+    ],
+    "name": "【2020德系活动B1】BOSS 莱比锡 最后一波 全屏交叉弹幕2",
+    "reload_max": 5000,
+    "aim_type": 1,
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 12
   }
 }

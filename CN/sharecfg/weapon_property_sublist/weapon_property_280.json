@@ -87,25 +87,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "570042": {
+  "570041": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1100,
+    "reload_max": 600,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【长门陆奥活动D】【杂兵】塞壬航母蛋船单发x6随机II",
+    "name": "【长门陆奥活动D】【杂兵】塞壬航母蛋船近程自卫火炮II",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 60,
+    "range": 38,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
+    "damage": 10,
     "action_index": "attack",
     "type": 2,
     "search_condition": [
@@ -114,19 +114,19 @@
     "oxy_type": [
       1
     ],
-    "id": 570042,
+    "id": 570041,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1106
+      12
     ],
     "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      802
+      999
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
     "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
@@ -177,47 +177,52 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "570041": {
+  "570033": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 600,
+    "angle": 40,
+    "reload_max": 2400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【长门陆奥活动D】【杂兵】塞壬航母蛋船近程自卫火炮II",
-    "fire_fx": "CLFire",
+    "name": "【长门陆奥活动D】【杂兵】塞壬战列跨射攻击后排武器3x2轮-简单",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
+    "range": 150,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
+    "damage": 65,
     "action_index": "attack",
-    "type": 2,
+    "type": 19,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 570041,
+    "id": 570033,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      12
+      20018
     ],
-    "corrected": 125,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      999
+      1530
     ],
-    "min_range": 0,
+    "min_range": 75,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -269,15 +274,15 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "570033": {
+  "569143": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 40,
-    "reload_max": 2400,
+    "reload_max": 3600,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【长门陆奥活动D】【杂兵】塞壬战列跨射攻击后排武器3x2轮-简单",
+    "name": "【长门陆奥活动C】【精英】破局者I型精英 2颗炮弹一轮攻击后排",
     "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
@@ -286,13 +291,12 @@
     "fire_fx_loop_type": 1,
     "precast_param": {
       "alertTime": 2,
-      "fx": "jinengenemy",
       "time": 1,
-      "isBound": true
+      "fx": "jinengenemy"
     },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 65,
+    "damage": 45,
     "action_index": "attack",
     "type": 19,
     "search_condition": [
@@ -301,10 +305,10 @@
     "oxy_type": [
       1
     ],
-    "id": 570033,
-    "spawn_bound": "cannon",
+    "id": 569143,
+    "spawn_bound": "cannon3",
     "barrage_ID": [
-      20018
+      20016
     ],
     "corrected": 100,
     "auto_aftercast": 0,
@@ -633,26 +637,26 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "569901": {
+  "570031": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 400,
+    "angle": 360,
+    "reload_max": 600,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【长门陆奥活动C】【飞机】空袭轰炸机武器",
-    "fire_fx": "",
+    "name": "【长门陆奥活动D】【杂兵】塞壬战列舰蛋船副炮",
+    "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 10,
-    "recover_time": 0,
+    "suppress": 1,
+    "range": 38,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 45,
-    "action_index": "",
+    "damage": 10,
+    "action_index": "attack",
     "type": 2,
     "search_condition": [
       1
@@ -660,21 +664,21 @@
     "oxy_type": [
       1
     ],
-    "id": 569901,
-    "spawn_bound": "cannon",
+    "id": 570031,
+    "spawn_bound": "cannon1",
     "barrage_ID": [
-      10001
+      11
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10012
+      802
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 1,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "569903": {
@@ -727,47 +731,47 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "570031": {
+  "570023": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 600,
+    "angle": 60,
+    "reload_max": 2800,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【长门陆奥活动D】【杂兵】塞壬战列舰蛋船副炮",
-    "fire_fx": "CLFire",
+    "name": "【长门陆奥活动D】【杂兵】塞壬双联装鱼雷II",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 38,
+    "range": 60,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
+    "damage": 48,
     "action_index": "attack",
-    "type": 2,
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 570031,
-    "spawn_bound": "cannon1",
+    "id": 570023,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      11
+      1401
     ],
-    "corrected": 125,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      802
+      30067
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
+    "initial_over_heat": 1,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -912,48 +916,48 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "570023": {
+  "569901": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2800,
+    "angle": 180,
+    "reload_max": 400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【长门陆奥活动D】【杂兵】塞壬双联装鱼雷II",
+    "name": "【长门陆奥活动C】【飞机】空袭轰炸机武器",
     "fire_fx": "",
     "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
+    "suppress": 0,
+    "range": 10,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 48,
-    "action_index": "attack",
-    "type": 3,
+    "damage": 45,
+    "action_index": "",
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 570023,
-    "spawn_bound": "torpedo",
+    "id": 569901,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      1401
+      10001
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30067
+      10012
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
+    "initial_over_heat": 0,
+    "aim_type": 0,
     "fire_sfx": "",
-    "effect_move": 0,
+    "effect_move": 1,
     "axis_angle": 0
   },
   "570032": {
@@ -1451,52 +1455,48 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "569143": {
+  "569931": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 40,
-    "reload_max": 3600,
+    "angle": 360,
+    "reload_max": 1050,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【长门陆奥活动C】【精英】破局者I型精英 2颗炮弹一轮攻击后排",
-    "fire_fx": "CAFire",
+    "name": "【长门陆奥活动C】【飞机】执棋者I型精英 浮游炮武器1",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 150,
+    "range": 85,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 2,
-      "time": 1,
-      "fx": "jinengenemy"
-    },
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 45,
-    "action_index": "attack",
-    "type": 19,
+    "damage": 18,
+    "action_index": "",
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 569143,
-    "spawn_bound": "cannon3",
+    "id": 569931,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      20016
+      9062
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1530
+      801
     ],
-    "min_range": 75,
+    "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "569912": {
@@ -1549,26 +1549,26 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "569931": {
+  "569125": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1050,
+    "angle": 180,
+    "reload_max": 1250,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【长门陆奥活动C】【飞机】执棋者I型精英 浮游炮武器1",
-    "fire_fx": "fangkongpaohuoshe2",
+    "name": "【长门陆奥活动C】【精英】追迹者I型精英 特殊武器交叉弹幕",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 85,
+    "range": 80,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 18,
-    "action_index": "",
+    "damage": 15,
+    "action_index": "attack",
     "type": 1,
     "search_condition": [
       1
@@ -1576,21 +1576,23 @@
     "oxy_type": [
       1
     ],
-    "id": 569931,
+    "id": 569125,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      9062
+      21068,
+      21069
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
+      801,
       801
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "569913": {

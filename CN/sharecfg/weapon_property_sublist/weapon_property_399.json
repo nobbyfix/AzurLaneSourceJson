@@ -91,66 +91,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "2044174": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 2500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【大世界】深渊BOSS航母_p2_特殊弹幕lv5",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 120,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 24,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 2044174,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      20441700,
-      20441701,
-      20441702,
-      20441703,
-      20441704,
-      20441705,
-      20441706,
-      20441707,
-      20441708
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      20441700,
-      20441701,
-      20441702,
-      20441703,
-      20441704,
-      20441705,
-      20441706,
-      20441707,
-      20441708
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "2044210": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -377,6 +317,50 @@
     "effect_move": 1,
     "axis_angle": 0
   },
+  "2044350": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1400,
+    "torpedo_ammo": 0,
+    "queue": 30,
+    "name": "【大世界】深渊BOSS航母_p3_高速鱼雷机连发",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 120,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 9,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 2044350,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      20442000
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30013
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
   "2044315": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -425,48 +409,55 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "2044350": {
+  "2043531": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1400,
+    "reload_max": 3600,
     "torpedo_ammo": 0,
-    "queue": 30,
-    "name": "【大世界】深渊BOSS航母_p3_高速鱼雷机连发",
+    "queue": 12,
+    "name": "【大世界】深渊BOSS战列_p4_点射后排lv2",
     "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 120,
+    "range": 150,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 1.5,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 9,
+    "damage": 60,
     "action_index": "attack",
-    "type": 11,
+    "type": 19,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 2044350,
-    "spawn_bound": "plane",
+    "id": 2043531,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      20442000
+      20435300,
+      20435301
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30013
+      20431600,
+      20431601
     ],
-    "min_range": 0,
+    "min_range": 80,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "2043532": {
@@ -2598,7 +2589,7 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "2044451": {
+  "2044174": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
@@ -2606,7 +2597,7 @@
     "reload_max": 2500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【大世界】深渊BOSS航母_p4_莲花阵lv2",
+    "name": "【大世界】深渊BOSS航母_p2_特殊弹幕lv5",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
@@ -2616,7 +2607,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
+    "damage": 24,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -2625,21 +2616,31 @@
     "oxy_type": [
       1
     ],
-    "id": 2044451,
+    "id": 2044174,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      20124300,
-      20124301,
-      20444500,
-      20444501
+      20441700,
+      20441701,
+      20441702,
+      20441703,
+      20441704,
+      20441705,
+      20441706,
+      20441707,
+      20441708
     ],
     "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      20124020,
-      20124021,
-      20444500,
-      20444501
+      20441700,
+      20441701,
+      20441702,
+      20441703,
+      20441704,
+      20441705,
+      20441706,
+      20441707,
+      20441708
     ],
     "min_range": 0,
     "initial_over_heat": 0,

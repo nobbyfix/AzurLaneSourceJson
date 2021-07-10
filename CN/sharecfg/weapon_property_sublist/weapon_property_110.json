@@ -277,60 +277,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "61021": {
-    "search_type": 2,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 25,
-    "reload_max": 9500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "黑企业剧情轰炸",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 1,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 350,
-    "action_index": "",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 61021,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      9000,
-      9000,
-      9000,
-      9000,
-      9000,
-      9000
-    ],
-    "corrected": 1000,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      9000,
-      9001,
-      9002,
-      9003,
-      9004,
-      9005
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "61020": {
     "search_type": 1,
     "attack_attribute": 0,
@@ -367,6 +313,50 @@
     "auto_aftercast": 0,
     "bullet_ID": [
       61020
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "61019": {
+    "search_type": 1,
+    "attack_attribute": 0,
+    "shakescreen": 0,
+    "angle": 90,
+    "reload_max": 1890,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "黑企业剧情轰炸机",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 44,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 61019,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      12008
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      61019
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -455,49 +445,14 @@
     "name": "航空攻击展示-鹰II",
     "base": 60531
   },
-  "61019": {
-    "search_type": 1,
-    "attack_attribute": 0,
-    "shakescreen": 0,
-    "angle": 90,
-    "reload_max": 1890,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "黑企业剧情轰炸机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 44,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 61019,
-    "spawn_bound": "plane",
+  "61009": {
+    "fire_fx_loop_type": 4,
+    "name": "约克城技能随机扫射海面LV3",
+    "id": 61009,
+    "base": 61007,
     "barrage_ID": [
-      12008
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      61019
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
-    "axis_angle": 0
+      199413
+    ]
   },
   "60662": {
     "name": "安克雷奇弹幕展示II",
@@ -692,20 +647,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "61012": {
-    "id": 61012,
-    "name": "皇家方舟技能LV3",
-    "base": 61010
-  },
-  "60552": {
-    "id": 60552,
-    "barrage_ID": [
-      1511,
-      1511
-    ],
-    "name": "航空攻击展示-千代田II",
-    "base": 60551
-  },
   "61013": {
     "search_type": 2,
     "attack_attribute": 4,
@@ -749,6 +690,20 @@
     "fire_sfx": "",
     "effect_move": 1,
     "axis_angle": 0
+  },
+  "60552": {
+    "id": 60552,
+    "barrage_ID": [
+      1511,
+      1511
+    ],
+    "name": "航空攻击展示-千代田II",
+    "base": 60551
+  },
+  "61012": {
+    "id": 61012,
+    "name": "皇家方舟技能LV3",
+    "base": 61010
   },
   "60682": {
     "id": 60682,
@@ -1137,15 +1092,6 @@
     "base": 60581,
     "damage": 20
   },
-  "61009": {
-    "fire_fx_loop_type": 4,
-    "name": "约克城技能随机扫射海面LV3",
-    "id": 61009,
-    "base": 61007,
-    "barrage_ID": [
-      199413
-    ]
-  },
   "61004": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -1189,6 +1135,15 @@
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
+  },
+  "60523": {
+    "id": 60523,
+    "barrage_ID": [
+      1512,
+      1512
+    ],
+    "name": "航空攻击展示-英仙座III",
+    "base": 60521
   },
   "60651": {
     "search_type": 1,

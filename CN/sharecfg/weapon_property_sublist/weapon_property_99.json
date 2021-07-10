@@ -82,15 +82,15 @@
     "base": 53320,
     "damage": 475
   },
-  "54023": {
-    "id": 54023,
-    "base": 54020,
-    "reload_max": 39
-  },
   "54022": {
     "id": 54022,
     "base": 54020,
     "reload_max": 41
+  },
+  "54021": {
+    "id": 54021,
+    "base": 54020,
+    "reload_max": 43
   },
   "53340": {
     "search_type": 2,
@@ -176,11 +176,6 @@
     "base": 53280,
     "damage": 506
   },
-  "54021": {
-    "id": 54021,
-    "base": 54020,
-    "reload_max": 43
-  },
   "54020": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -234,6 +229,15 @@
     "base": 54013,
     "damage": 108
   },
+  "54014": {
+    "name": "正航空中支援展示Lv2",
+    "id": 54014,
+    "barrage_ID": [
+      2214
+    ],
+    "base": 54013,
+    "damage": 81
+  },
   "53301": {
     "id": 53301,
     "base": 53300,
@@ -269,14 +273,49 @@
     "base": 53300,
     "damage": 506
   },
-  "54014": {
-    "name": "正航空中支援展示Lv2",
-    "id": 54014,
-    "barrage_ID": [
-      2214
+  "54013": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 2400,
+    "torpedo_ammo": 0,
+    "queue": 54000,
+    "name": "正航空中支援展示Lv1",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 500,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 80,
+    "damage": 54,
+    "action_index": "",
+    "type": 2,
+    "search_condition": [
+      1
     ],
-    "base": 54013,
-    "damage": 81
+    "oxy_type": [
+      1
+    ],
+    "id": 54013,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      2212
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      2121
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "54010": {
     "search_type": 1,
@@ -366,59 +405,15 @@
     "base": 53320,
     "damage": 510
   },
-  "54013": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 2400,
-    "torpedo_ammo": 0,
-    "queue": 54000,
-    "name": "正航空中支援展示Lv1",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 500,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 80,
-    "damage": 54,
-    "action_index": "",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 54013,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      2212
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      2121
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "54002": {
-    "name": "轻航空中支援Lv3",
-    "id": 54002,
+  "54001": {
+    "name": "轻航空中支援Lv2",
+    "id": 54001,
     "barrage_ID": [
       2200,
-      2204
+      2203
     ],
     "base": 54000,
-    "damage": 164
+    "damage": 109
   },
   "54006": {
     "search_type": 1,
@@ -466,6 +461,16 @@
     "effect_move": 0,
     "axis_angle": 0
   },
+  "54005": {
+    "name": "正航空中支援Lv3",
+    "id": 54005,
+    "barrage_ID": [
+      2200,
+      2205
+    ],
+    "base": 54003,
+    "damage": 108
+  },
   "53341": {
     "id": 53341,
     "base": 53340,
@@ -496,25 +501,15 @@
     "base": 53340,
     "damage": 450
   },
-  "53353": {
-    "id": 53353,
-    "base": 53340,
-    "damage": 510
+  "53290": {
+    "id": 53290,
+    "base": 53280,
+    "damage": 429
   },
   "53292": {
     "id": 53292,
     "base": 53280,
     "damage": 472
-  },
-  "54005": {
-    "name": "正航空中支援Lv3",
-    "id": 54005,
-    "barrage_ID": [
-      2200,
-      2205
-    ],
-    "base": 54003,
-    "damage": 108
   },
   "54004": {
     "name": "正航空中支援Lv2",
@@ -571,6 +566,16 @@
     "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
+  },
+  "54002": {
+    "name": "轻航空中支援Lv3",
+    "id": 54002,
+    "barrage_ID": [
+      2200,
+      2204
+    ],
+    "base": 54000,
+    "damage": 164
   },
   "53300": {
     "search_type": 2,
@@ -690,16 +695,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "54001": {
-    "name": "轻航空中支援Lv2",
-    "id": 54001,
-    "barrage_ID": [
-      2200,
-      2203
-    ],
-    "base": 54000,
-    "damage": 109
-  },
   "54000": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -745,5 +740,10 @@
     "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
+  },
+  "53353": {
+    "id": 53353,
+    "base": 53340,
+    "damage": 510
   }
 }

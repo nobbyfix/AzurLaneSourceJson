@@ -1,9 +1,47 @@
 {
-  "65602": {
-    "id": 65602,
-    "base": 65601,
-    "name": "文琴佐鱼雷 LV2",
-    "damage": 44
+  "65601": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 3000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "文琴佐鱼雷 LV1",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 38,
+    "action_index": "",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 65601,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      81007
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      19256
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "65552": {
     "id": 65552,
@@ -93,50 +131,6 @@
     "name": "z24技能弹幕LV7",
     "damage": 17
   },
-  "65601": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 3000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "文琴佐鱼雷 LV1",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 38,
-    "action_index": "",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 65601,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      81007
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      19256
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "65600": {
     "id": 65600,
     "base": 65591,
@@ -148,6 +142,54 @@
     "base": 65591,
     "name": "文琴佐弹幕LV9",
     "damage": 16
+  },
+  "65591": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 800,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "文琴佐弹幕LV1",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 120,
+    "recover_time": 0,
+    "fire_fx_loop_type": 3,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 8,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 65591,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      81004,
+      81005,
+      81006
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      19255,
+      19255,
+      19255
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "65553": {
     "id": 65553,
@@ -283,10 +325,11 @@
     "effect_move": 0,
     "axis_angle": 22
   },
-  "65585": {
-    "id": 65585,
-    "base": 68631,
-    "damage": 123
+  "65529": {
+    "id": 65529,
+    "base": 65521,
+    "name": "纽伦堡 训练有素LV9",
+    "damage": 14
   },
   "65531": {
     "search_type": 1,
@@ -354,12 +397,6 @@
     "name": "z24技能弹幕LV8",
     "damage": 18
   },
-  "65593": {
-    "id": 65593,
-    "base": 65591,
-    "name": "文琴佐弹幕LV3",
-    "damage": 10
-  },
   "65597": {
     "id": 65597,
     "base": 65591,
@@ -371,6 +408,12 @@
     "base": 65591,
     "name": "文琴佐弹幕LV5",
     "damage": 12
+  },
+  "65593": {
+    "id": 65593,
+    "base": 65591,
+    "name": "文琴佐弹幕LV3",
+    "damage": 10
   },
   "65554": {
     "id": 65554,
@@ -460,58 +503,15 @@
     "name": "z24技能弹幕LV9",
     "damage": 19
   },
-  "65591": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 800,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "文琴佐弹幕LV1",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 120,
-    "recover_time": 0,
-    "fire_fx_loop_type": 3,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 65591,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      81004,
-      81005,
-      81006
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      19255,
-      19255,
-      19255
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "65589": {
     "id": 65589,
     "base": 68631,
     "damage": 191
+  },
+  "65587": {
+    "id": 65587,
+    "base": 68631,
+    "damage": 157
   },
   "65551": {
     "search_type": 1,
@@ -686,9 +686,9 @@
     "name": "z24技能弹幕LV10",
     "damage": 20
   },
-  "65587": {
-    "id": 65587,
+  "65585": {
+    "id": 65585,
     "base": 68631,
-    "damage": 157
+    "damage": 123
   }
 }

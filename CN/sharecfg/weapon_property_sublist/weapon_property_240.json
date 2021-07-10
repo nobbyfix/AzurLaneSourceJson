@@ -494,97 +494,96 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "472912": {
+  "472408": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1650,
+    "angle": 40,
+    "reload_max": 1900,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【异色格C】【飞机】塞壬航母蛋船战斗机弹幕",
-    "fire_fx": "fangkongpaohuoshe2",
+    "name": "【异色格C】【BOSS】格奈森瑙-战列跨射攻击后排武器3x3轮-困难",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 85,
+    "range": 150,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 7,
-    "action_index": "",
-    "type": 1,
+    "damage": 54,
+    "action_index": "attack",
+    "type": 19,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 472912,
+    "id": 472408,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      101,
-      102,
-      103,
-      104
+      20019
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      20001,
-      20001,
-      20001,
-      20001
+      30063
     ],
-    "min_range": 0,
+    "min_range": 75,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
     "axis_angle": 0
   },
-  "473106": {
+  "473105": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2600,
+    "angle": 360,
+    "reload_max": 350,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【异色格D】【人型】Z19-Q版四联装鱼雷II",
-    "fire_fx": "",
+    "name": "【异色格D】【人型】Z19-Q版驱逐双联装炮瞄准II",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 60,
+    "range": 50,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 54,
+    "damage": 12,
     "action_index": "attack",
-    "type": 3,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 473106,
-    "spawn_bound": "torpedo",
+    "id": 473105,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      1403
+      1001
     ],
-    "corrected": 100,
+    "corrected": 110,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1801
+      1200
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
+    "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -724,48 +723,48 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "473105": {
+  "473104": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 3,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 350,
+    "reload_max": 900,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【异色格D】【人型】Z19-Q版驱逐双联装炮瞄准II",
+    "name": "【异色格D】【人型】Z1-防空炮",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 50,
-    "recover_time": 0.5,
+    "range": 25,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
+    "damage": 45,
     "action_index": "attack",
-    "type": 2,
+    "type": 4,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 473105,
-    "spawn_bound": "cannon",
+    "id": 473104,
+    "spawn_bound": "antiaircraft",
     "barrage_ID": [
-      1001
+      14001
     ],
-    "corrected": 110,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1200
+      30055
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
+    "fire_sfx": "battle/cannon-air",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "472504": {
@@ -817,48 +816,50 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "473104": {
+  "473102": {
     "search_type": 1,
-    "attack_attribute": 3,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 900,
+    "reload_max": 1000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【异色格D】【人型】Z1-防空炮",
-    "fire_fx": "CLFire",
+    "name": "【异色格D】【人型】Z1-专用武器",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 25,
+    "suppress": 0,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 45,
+    "damage": 12,
     "action_index": "attack",
-    "type": 4,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 473104,
-    "spawn_bound": "antiaircraft",
+    "id": 473102,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      14001
+      200034,
+      200035
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30055
+      20005,
+      20005
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-air",
-    "effect_move": 1,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "473103": {
@@ -905,7 +906,7 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "473102": {
+  "473101": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
@@ -932,7 +933,7 @@
     "oxy_type": [
       1
     ],
-    "id": 473102,
+    "id": 473101,
     "spawn_bound": "cannon",
     "barrage_ID": [
       200034,
@@ -997,15 +998,15 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "473101": {
+  "472206": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1000,
+    "angle": 180,
+    "reload_max": 1250,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【异色格D】【人型】Z1-专用武器",
+    "name": "【异色格C】【BOSS】德意志-炮击一型",
     "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 0,
@@ -1014,8 +1015,8 @@
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
+    "attack_attribute_ratio": 90,
+    "damage": 18,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -1024,17 +1025,15 @@
     "oxy_type": [
       1
     ],
-    "id": 473101,
+    "id": 472206,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      200034,
-      200035
+      399970
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      20005,
-      20005
+      399970
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -2170,48 +2169,54 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "472407": {
+  "472912": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 120,
-    "reload_max": 1300,
+    "angle": 180,
+    "reload_max": 1650,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【异色格C】【BOSS】格奈森瑙-Q版轻巡联装炮x6散射III",
-    "fire_fx": "CLFire",
+    "name": "【异色格C】【飞机】塞壬航母蛋船战斗机弹幕",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 65,
-    "recover_time": 0.5,
+    "range": 85,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 18,
-    "action_index": "attack",
-    "type": 2,
+    "damage": 7,
+    "action_index": "",
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 472407,
+    "id": 472912,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1102
+      101,
+      102,
+      103,
+      104
     ],
-    "corrected": 105,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1201
+      20001,
+      20001,
+      20001,
+      20001
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "472512": {
@@ -2806,52 +2811,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "472408": {
+  "472407": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 40,
-    "reload_max": 1900,
+    "angle": 120,
+    "reload_max": 1300,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【异色格C】【BOSS】格奈森瑙-战列跨射攻击后排武器3x3轮-困难",
-    "fire_fx": "CAFire",
+    "name": "【异色格C】【BOSS】格奈森瑙-Q版轻巡联装炮x6散射III",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 150,
-    "recover_time": 0,
+    "range": 65,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 2,
-      "fx": "jinengenemy",
-      "time": 1,
-      "isBound": true
-    },
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 54,
+    "damage": 18,
     "action_index": "attack",
-    "type": 19,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 472408,
+    "id": 472407,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      20019
+      1102
     ],
-    "corrected": 100,
+    "corrected": 105,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30063
+      1201
     ],
-    "min_range": 75,
+    "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   }

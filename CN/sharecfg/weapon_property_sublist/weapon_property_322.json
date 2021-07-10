@@ -2600,52 +2600,42 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680361": {
+  "680251": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 180,
+    "angle": 360,
     "reload_max": 9999,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【2020英系活动D3】BOSS 清除者 第五波 锥形5way鱼雷",
+    "queue": 1,
+    "name": "【2020英系活动C3】BOSS 侵扰者III型 第二波 十字子母弹",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 0,
     "range": 120,
-    "recover_time": 0.5,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 48,
-    "action_index": "attack",
-    "type": 3,
+    "damage": 1,
+    "action_index": "",
+    "type": 1,
     "search_condition": [
-      1,
-      2
+      1
     ],
     "oxy_type": [
-      1,
-      2
+      1
     ],
-    "id": 680361,
-    "spawn_bound": "torpedo",
+    "id": 680251,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      760001,
-      760002,
-      760003,
-      760004,
-      760005
+      690079
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      750140,
-      750141,
-      750142,
-      750141,
-      750140
+      750055
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -2702,26 +2692,31 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "680251": {
+  "680250": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
     "reload_max": 9999,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【2020英系活动C3】BOSS 侵扰者III型 第二波 十字子母弹",
-    "fire_fx": "",
+    "queue": 3,
+    "name": "【2020英系活动C3】BOSS 侵扰者III型 第一波 侧翼旋转弹幕",
+    "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 0,
+    "suppress": 1,
     "range": 120,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 0.5,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 1,
-    "action_index": "",
+    "damage": 16,
+    "action_index": "attack",
     "type": 1,
     "search_condition": [
       1
@@ -2729,20 +2724,22 @@
     "oxy_type": [
       1
     ],
-    "id": 680251,
+    "id": 680250,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      690079
+      690075,
+      690076
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      750055
+      690010,
+      690010
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },

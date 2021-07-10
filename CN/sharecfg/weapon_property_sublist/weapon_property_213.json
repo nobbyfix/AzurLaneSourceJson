@@ -133,48 +133,52 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "100815": {
+  "200403": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 48,
+    "angle": 360,
+    "reload_max": 1200,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "日系空袭战斗机空中I",
-    "fire_fx": "fangkongpaohuoshe2",
+    "queue": 3,
+    "name": "【大舰队北方商路BOSS】破局者 主炮中心弹幕",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 200,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 15,
-    "action_index": "",
-    "type": 4,
+    "damage": 32,
+    "action_index": "attack",
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 100815,
-    "spawn_bound": "antiaircraft",
+    "id": 200403,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      5
+      500403,
+      500404,
+      500405
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10004
+      500403,
+      500403,
+      500404
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "190001": {
@@ -405,49 +409,49 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "200404": {
+  "200406": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1500,
+    "reload_max": 2000,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【大舰队北方商路BOSS】破局者 主炮竖排弹幕",
-    "fire_fx": "CAFire",
+    "queue": 4,
+    "name": "【大舰队北方商路BOSS】破局者 副炮4way射击",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 0,
-    "range": 90,
-    "recover_time": 0,
+    "range": 70,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 32,
+    "damage": 20,
     "action_index": "attack",
-    "type": 1,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 200404,
+    "id": 200406,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      500406,
-      500407
+      500409,
+      500410
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      500405,
-      500405
+      500406,
+      500406
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -493,47 +497,51 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "200405": {
+  "200401": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 800,
+    "angle": 40,
+    "reload_max": 1500,
     "torpedo_ammo": 0,
-    "queue": 4,
-    "name": "【大舰队北方商路BOSS】破局者 双联装炮连射",
-    "fire_fx": "CLFire",
+    "queue": 1,
+    "name": "【大舰队北方商路BOSS】破局者 前排跨射",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 70,
-    "recover_time": 0.5,
+    "suppress": 1,
+    "range": 50,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 2,
+      "time": 1,
+      "fx": "jinengenemy"
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 28,
+    "damage": 48,
     "action_index": "attack",
-    "type": 2,
+    "type": 19,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 200405,
-    "spawn_bound": "cannon",
+    "id": 200401,
+    "spawn_bound": "cannon2",
     "barrage_ID": [
-      500408
+      500401
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      500406
+      500401
     ],
-    "min_range": 0,
+    "min_range": 20,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -621,48 +629,54 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "200602": {
+  "100814": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 500,
+    "angle": 180,
+    "reload_max": 1650,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【大舰队半岛攻略BOSS】探索者 单发瞄准x4随机II",
-    "fire_fx": "CLFire",
+    "name": "日系空袭战斗机V",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 70,
-    "recover_time": 0.5,
+    "range": 85,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
-    "action_index": "attack",
-    "type": 2,
+    "damage": 5,
+    "action_index": "",
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 200602,
+    "id": 100814,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      500602
+      101,
+      102,
+      103,
+      104
     ],
-    "corrected": 125,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      500602
+      20001,
+      20001,
+      20001,
+      20001
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "200106": {
@@ -753,48 +767,42 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "100814": {
+  "100819": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 1650,
+    "reload_max": 48,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "日系空袭战斗机V",
+    "name": "日系空袭战斗机空中V",
     "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 85,
+    "range": 200,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 5,
+    "damage": 15,
     "action_index": "",
-    "type": 1,
+    "type": 4,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 100814,
-    "spawn_bound": "cannon",
+    "id": 100819,
+    "spawn_bound": "antiaircraft",
     "barrage_ID": [
-      101,
-      102,
-      103,
-      104
+      5
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      20001,
-      20001,
-      20001,
-      20001
+      10004
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -979,50 +987,48 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "200402": {
+  "200404": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 40,
-    "reload_max": 2000,
+    "angle": 360,
+    "reload_max": 1500,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【大舰队北方商路BOSS】破局者 后排跨射",
+    "queue": 3,
+    "name": "【大舰队北方商路BOSS】破局者 主炮竖排弹幕",
     "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 150,
+    "suppress": 0,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 2,
-      "time": 1,
-      "fx": "jinengenemy"
-    },
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 58,
+    "damage": 32,
     "action_index": "attack",
-    "type": 19,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 200402,
-    "spawn_bound": "cannon3",
+    "id": 200404,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      500402
+      500406,
+      500407
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      500402
+      500405,
+      500405
     ],
-    "min_range": 75,
+    "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
@@ -1344,15 +1350,15 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "200406": {
+  "200405": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 2000,
+    "reload_max": 800,
     "torpedo_ammo": 0,
     "queue": 4,
-    "name": "【大舰队北方商路BOSS】破局者 副炮4way射击",
+    "name": "【大舰队北方商路BOSS】破局者 双联装炮连射",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 0,
@@ -1362,7 +1368,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 20,
+    "damage": 28,
     "action_index": "attack",
     "type": 2,
     "search_condition": [
@@ -1371,16 +1377,14 @@
     "oxy_type": [
       1
     ],
-    "id": 200406,
+    "id": 200405,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      500409,
-      500410
+      500408
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      500406,
       500406
     ],
     "min_range": 0,
@@ -1807,48 +1811,48 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "200403": {
+  "200402": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1200,
+    "angle": 40,
+    "reload_max": 2000,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【大舰队北方商路BOSS】破局者 主炮中心弹幕",
+    "queue": 1,
+    "name": "【大舰队北方商路BOSS】破局者 后排跨射",
     "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
+    "range": 150,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 2,
+      "time": 1,
+      "fx": "jinengenemy"
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 32,
+    "damage": 58,
     "action_index": "attack",
-    "type": 1,
+    "type": 19,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 200403,
-    "spawn_bound": "cannon",
+    "id": 200402,
+    "spawn_bound": "cannon3",
     "barrage_ID": [
-      500403,
-      500404,
-      500405
+      500402
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      500403,
-      500403,
-      500404
+      500402
     ],
-    "min_range": 0,
+    "min_range": 75,
     "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
@@ -1899,51 +1903,49 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "200401": {
+  "200206": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 40,
-    "reload_max": 1500,
+    "angle": 360,
+    "reload_max": 5000,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【大舰队北方商路BOSS】破局者 前排跨射",
-    "fire_fx": "CAFire",
+    "queue": 2,
+    "name": "【大舰队米德维BOSS】探索者 特殊弹幕2",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 50,
-    "recover_time": 0,
+    "range": 70,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 2,
-      "time": 1,
-      "fx": "jinengenemy"
-    },
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 48,
+    "damage": 10,
     "action_index": "attack",
-    "type": 19,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 200401,
-    "spawn_bound": "cannon2",
+    "id": 200206,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      500401
+      500210,
+      500211
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      500401
+      500207,
+      500208
     ],
-    "min_range": 20,
+    "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1997,42 +1999,42 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "190006": {
+  "100815": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 1650,
+    "reload_max": 48,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "机载三联装",
+    "name": "日系空袭战斗机空中I",
     "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 85,
+    "range": 200,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 1,
+    "damage": 15,
     "action_index": "",
-    "type": 1,
+    "type": 4,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 190006,
-    "spawn_bound": "cannon",
+    "id": 100815,
+    "spawn_bound": "antiaircraft",
     "barrage_ID": [
-      10014
+      5
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10013
+      10004
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -2173,50 +2175,48 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "200206": {
+  "100817": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 5000,
+    "angle": 180,
+    "reload_max": 48,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【大舰队米德维BOSS】探索者 特殊弹幕2",
-    "fire_fx": "CLFire",
+    "queue": 1,
+    "name": "日系空袭战斗机空中III",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 70,
-    "recover_time": 0.5,
+    "range": 200,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
-    "action_index": "attack",
-    "type": 2,
+    "damage": 15,
+    "action_index": "",
+    "type": 4,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 200206,
-    "spawn_bound": "cannon",
+    "id": 100817,
+    "spawn_bound": "antiaircraft",
     "barrage_ID": [
-      500210,
-      500211
+      5
     ],
-    "corrected": 125,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      500207,
-      500208
+      10004
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "200504": {
@@ -2273,42 +2273,48 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "100817": {
+  "100813": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 48,
+    "reload_max": 1650,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "日系空袭战斗机空中III",
+    "name": "日系空袭战斗机IV",
     "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 200,
+    "range": 85,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 15,
+    "damage": 5,
     "action_index": "",
-    "type": 4,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 100817,
-    "spawn_bound": "antiaircraft",
+    "id": 100813,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      5
+      101,
+      102,
+      103,
+      104
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10004
+      20001,
+      20001,
+      20001,
+      20001
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -2545,42 +2551,42 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "100819": {
+  "190006": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 48,
+    "reload_max": 1650,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "日系空袭战斗机空中V",
+    "name": "机载三联装",
     "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 200,
+    "range": 85,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 15,
+    "damage": 1,
     "action_index": "",
-    "type": 4,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 100819,
-    "spawn_bound": "antiaircraft",
+    "id": 190006,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      5
+      10014
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      10004
+      10013
     ],
     "min_range": 0,
     "initial_over_heat": 0,
