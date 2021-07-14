@@ -19,47 +19,51 @@
     "base": 79281,
     "damage": 12
   },
-  "79311": {
+  "79391": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 120,
-    "reload_max": 400,
+    "reload_max": 3000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "专属弹幕-U47I",
-    "fire_fx": "",
+    "name": "专属弹幕-西雅图I",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 0,
-    "range": 80,
+    "range": 50,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 40,
+    "damage": 12,
     "action_index": "attack",
-    "type": 3,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 79311,
-    "spawn_bound": "torpedo",
+    "id": 79391,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      79311
+      79391,
+      79392,
+      79393
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      79311
+      79391,
+      79391,
+      79391
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 0,
-    "fire_sfx": "",
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -119,59 +123,55 @@
     "base": 79171,
     "damage": 12
   },
-  "79391": {
+  "79384": {
+    "id": 79384,
+    "base": 79383,
+    "name": "专属弹幕-吾妻小子弹II",
+    "damage": 78
+  },
+  "79383": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 120,
+    "angle": 60,
     "reload_max": 3000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "专属弹幕-西雅图I",
-    "fire_fx": "CLFire",
+    "name": "专属弹幕-吾妻小子弹I",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 0,
-    "range": 50,
-    "recover_time": 0.5,
+    "range": 90,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 1,
+    "damage": 58,
+    "action_index": "",
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 79391,
-    "spawn_bound": "cannon",
+    "id": 79383,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      79391,
-      79392,
-      79393
+      79386
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      79391,
-      79391,
-      79391
+      79382
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
-  },
-  "79384": {
-    "id": 79384,
-    "base": 79383,
-    "name": "专属弹幕-吾妻小子弹II",
-    "damage": 78
   },
   "79121": {
     "search_type": 1,
@@ -316,26 +316,26 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "79383": {
+  "79371": {
     "search_type": 1,
     "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 3000,
+    "angle": 120,
+    "reload_max": 400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "专属弹幕-吾妻小子弹I",
+    "name": "专属弹幕-I13I",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 0,
-    "range": 90,
-    "recover_time": 0,
+    "range": 80,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 58,
-    "action_index": "",
+    "damage": 35,
+    "action_index": "attack",
     "type": 3,
     "search_condition": [
       1
@@ -343,15 +343,17 @@
     "oxy_type": [
       1
     ],
-    "id": 79383,
+    "id": 79371,
     "spawn_bound": "torpedo",
     "barrage_ID": [
-      79386
+      79371,
+      79372
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      79382
+      79371,
+      79371
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -562,56 +564,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "79312": {
-    "name": "专属弹幕-U47II",
-    "barrage_ID": [
-      79311,
-      79312
-    ],
-    "id": 79312,
-    "bullet_ID": [
-      79311,
-      79311
-    ],
-    "base": 79311,
-    "damage": 60
-  },
-  "79232": {
-    "name": "专属弹幕-海王星II",
-    "barrage_ID": [
-      79233,
-      79234,
-      79235,
-      79236
-    ],
-    "id": 79232,
-    "bullet_ID": [
-      79233,
-      79234,
-      79235,
-      79236
-    ],
-    "base": 79231,
-    "damage": 20
-  },
-  "79362": {
-    "name": "专属弹幕-天狼星II",
-    "barrage_ID": [
-      79361,
-      79362,
-      79363,
-      79364
-    ],
-    "id": 79362,
-    "bullet_ID": [
-      79361,
-      79361,
-      79361,
-      79361
-    ],
-    "base": 79361,
-    "damage": 34
-  },
   "79381": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -659,6 +611,56 @@
     "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
+  },
+  "79232": {
+    "name": "专属弹幕-海王星II",
+    "barrage_ID": [
+      79233,
+      79234,
+      79235,
+      79236
+    ],
+    "id": 79232,
+    "bullet_ID": [
+      79233,
+      79234,
+      79235,
+      79236
+    ],
+    "base": 79231,
+    "damage": 20
+  },
+  "79362": {
+    "name": "专属弹幕-天狼星II",
+    "barrage_ID": [
+      79361,
+      79362,
+      79363,
+      79364
+    ],
+    "id": 79362,
+    "bullet_ID": [
+      79361,
+      79361,
+      79361,
+      79361
+    ],
+    "base": 79361,
+    "damage": 34
+  },
+  "79312": {
+    "name": "专属弹幕-U47II",
+    "barrage_ID": [
+      79311,
+      79312
+    ],
+    "id": 79312,
+    "bullet_ID": [
+      79311,
+      79311
+    ],
+    "base": 79311,
+    "damage": 60
   },
   "79181": {
     "search_type": 1,
@@ -863,49 +865,49 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "79371": {
+  "79361": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 120,
+    "angle": 360,
     "reload_max": 400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "专属弹幕-I13I",
-    "fire_fx": "",
+    "name": "专属弹幕-天狼星I",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 0,
-    "range": 80,
+    "range": 50,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 35,
+    "damage": 24,
     "action_index": "attack",
-    "type": 3,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 79371,
-    "spawn_bound": "torpedo",
+    "id": 79361,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      79371,
-      79372
+      79361,
+      79362
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      79371,
-      79371
+      79361,
+      79361
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 0,
-    "fire_sfx": "",
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -963,52 +965,6 @@
     ],
     "base": 79161,
     "damage": 28
-  },
-  "79361": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 400,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "专属弹幕-天狼星I",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 50,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 24,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 79361,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      79361,
-      79362
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      79361,
-      79361
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
   },
   "79351": {
     "search_type": 1,
@@ -1097,6 +1053,15 @@
     "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
+  },
+  "79334": {
+    "name": "专属弹幕-凯旋鱼雷II",
+    "id": 79334,
+    "barrage_ID": [
+      80474
+    ],
+    "base": 79333,
+    "damage": 45
   },
   "79241": {
     "search_type": 1,
@@ -1203,13 +1168,10 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "79334": {
-    "name": "专属弹幕-凯旋鱼雷II",
-    "id": 79334,
-    "barrage_ID": [
-      80474
-    ],
-    "base": 79333,
+  "79284": {
+    "id": 79284,
+    "base": 79283,
+    "name": "专属弹幕-江风II",
     "damage": 45
   },
   "79131": {
@@ -1325,11 +1287,59 @@
     "base": 79331,
     "damage": 12
   },
-  "79284": {
-    "id": 79284,
-    "base": 79283,
-    "name": "专属弹幕-江风II",
-    "damage": 45
+  "79331": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 120,
+    "reload_max": 400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "专属弹幕-凯旋I",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 8,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 79331,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      80461,
+      80462,
+      80463,
+      80464,
+      80465,
+      80466
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      79331,
+      79331,
+      79332,
+      79332,
+      79333,
+      79333
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "79151": {
     "search_type": 1,
@@ -1433,60 +1443,6 @@
     "base": 79221,
     "damage": 38
   },
-  "79331": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 120,
-    "reload_max": 400,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "专属弹幕-凯旋I",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 90,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 79331,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      80461,
-      80462,
-      80463,
-      80464,
-      80465,
-      80466
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      79331,
-      79331,
-      79332,
-      79332,
-      79333,
-      79333
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "79322": {
     "name": "专属弹幕-絮库夫II",
     "barrage_ID": [
@@ -1500,6 +1456,50 @@
     ],
     "base": 79321,
     "damage": 150
+  },
+  "79321": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 120,
+    "reload_max": 400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "专属弹幕-絮库夫I",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 120,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 79321,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      79321
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      79321
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "79171": {
     "search_type": 1,
@@ -1547,49 +1547,21 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "79321": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 120,
-    "reload_max": 400,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "专属弹幕-絮库夫I",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 90,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 120,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 79321,
-    "spawn_bound": "cannon",
+  "79112": {
+    "name": "专属弹幕-绫波II",
     "barrage_ID": [
-      79321
+      79112,
+      79113,
+      79114
     ],
-    "corrected": 100,
-    "auto_aftercast": 0,
+    "id": 79112,
     "bullet_ID": [
-      79321
+      79111,
+      79111,
+      79111
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
+    "base": 79111,
+    "damage": 12
   },
   "79242": {
     "name": "专属弹幕-罗恩II",
@@ -1688,16 +1660,49 @@
     "base": 79261,
     "damage": 60
   },
-  "79392": {
-    "name": "专属弹幕-西雅图II",
-    "id": 79392,
-    "barrage_ID": [
-      79394,
-      79395,
-      79396
+  "79311": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 120,
+    "reload_max": 400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "专属弹幕-U47I",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 80,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 40,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
     ],
-    "base": 79391,
-    "damage": 20
+    "oxy_type": [
+      1
+    ],
+    "id": 79311,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      79311
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      79311
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "79333": {
     "search_type": 1,

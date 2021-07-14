@@ -165,30 +165,28 @@
     "fire_sfx": "battle/cannon-155mm",
     "damage": 24
   },
-  "780012": {
+  "780011": {
     "initial_over_heat": 0,
-    "suppress": 0,
-    "range": 90,
+    "suppress": 1,
+    "range": 80,
     "base": 1000,
-    "reload_max": 1600,
+    "reload_max": 750,
     "action_index": "attack",
-    "type": 1,
-    "id": 780012,
+    "type": 2,
+    "id": 780011,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      200140,
-      200141
+      13
     ],
-    "queue": 1,
-    "name": "【2021意大利活动A1】塞壬领洋者I型 主炮1",
+    "queue": 5,
+    "name": "【2021意大利活动A1】塞壬领洋者I型 近程自卫火炮",
     "bullet_ID": [
-      20003,
-      20003
+      801
     ],
-    "aim_type": 0,
-    "fire_fx": "CAFire",
-    "fire_sfx": "battle/cannon-main",
-    "damage": 10
+    "aim_type": 1,
+    "fire_fx": "CLFire",
+    "fire_sfx": "battle/cannon-155mm",
+    "damage": 6
   },
   "773106": {
     "charge_param": "",
@@ -327,36 +325,30 @@
     "base": 1000,
     "damage": 15
   },
-  "780101": {
+  "780012": {
     "initial_over_heat": 0,
-    "suppress": 1,
-    "range": 50,
-    "angle": 40,
+    "suppress": 0,
+    "range": 90,
     "base": 1000,
-    "reload_max": 1500,
+    "reload_max": 1600,
     "action_index": "attack",
-    "type": 19,
-    "precast_param": {
-      "alertTime": 2,
-      "time": 1,
-      "fx": "jinengenemy"
-    },
-    "id": 780101,
-    "spawn_bound": "cannon2",
+    "type": 1,
+    "id": 780012,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      399912
+      200140,
+      200141
     ],
     "queue": 1,
+    "name": "【2021意大利活动A1】塞壬领洋者I型 主炮1",
     "bullet_ID": [
-      399988
+      20003,
+      20003
     ],
-    "fire_sfx": "battle/cannon-main",
-    "name": "【2021意大利活动A2】塞壬破局者I型 前排跨射",
-    "damage": 18,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_fx": "CAFire",
-    "min_range": 20,
-    "axis_angle": 0
+    "fire_sfx": "battle/cannon-main",
+    "damage": 10
   },
   "773203": {
     "fire_sfx": "battle/cannon-main",
@@ -382,28 +374,28 @@
     "base": 1000,
     "damage": 15
   },
-  "780013": {
-    "initial_over_heat": 0,
-    "suppress": 0,
-    "range": 90,
-    "base": 1000,
-    "reload_max": 1000,
+  "780014": {
+    "initial_over_heat": 1,
+    "suppress": 1,
+    "range": 80,
+    "base": 1001,
+    "reload_max": 1650,
     "action_index": "attack",
-    "type": 1,
-    "id": 780013,
-    "spawn_bound": "cannon",
+    "type": 3,
+    "id": 780014,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      200101
+      1402
     ],
-    "queue": 1,
-    "name": "【2021意大利活动A1】塞壬领洋者I型 主炮2",
+    "queue": 4,
+    "name": "【2021意大利活动A1】塞壬领洋者I型 三联装鱼雷",
     "bullet_ID": [
-      1403
+      30067
     ],
     "aim_type": 1,
-    "fire_fx": "CAFire",
-    "fire_sfx": "battle/cannon-main",
-    "damage": 10
+    "fire_fx": "",
+    "fire_sfx": "",
+    "damage": 16
   },
   "773204": {
     "fire_sfx": "battle/cannon-main",
@@ -433,28 +425,28 @@
     "base": 1000,
     "damage": 10
   },
-  "780014": {
-    "initial_over_heat": 1,
-    "suppress": 1,
-    "range": 80,
-    "base": 1001,
-    "reload_max": 1650,
+  "780013": {
+    "initial_over_heat": 0,
+    "suppress": 0,
+    "range": 90,
+    "base": 1000,
+    "reload_max": 1000,
     "action_index": "attack",
-    "type": 3,
-    "id": 780014,
-    "spawn_bound": "torpedo",
+    "type": 1,
+    "id": 780013,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      1402
+      200101
     ],
-    "queue": 4,
-    "name": "【2021意大利活动A1】塞壬领洋者I型 三联装鱼雷",
+    "queue": 1,
+    "name": "【2021意大利活动A1】塞壬领洋者I型 主炮2",
     "bullet_ID": [
-      30067
+      1403
     ],
     "aim_type": 1,
-    "fire_fx": "",
-    "fire_sfx": "",
-    "damage": 16
+    "fire_fx": "CAFire",
+    "fire_sfx": "battle/cannon-main",
+    "damage": 10
   },
   "773205": {
     "search_type": 1,
@@ -1051,28 +1043,43 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "780011": {
-    "initial_over_heat": 0,
-    "suppress": 1,
-    "range": 80,
-    "base": 1000,
-    "reload_max": 750,
-    "action_index": "attack",
-    "type": 2,
-    "id": 780011,
-    "spawn_bound": "cannon",
+  "775009": {
+    "fire_sfx": "battle/cannon-main",
+    "type": 1,
     "barrage_ID": [
-      13
+      830001,
+      830002,
+      830003,
+      830004,
+      830005,
+      830006,
+      830007,
+      830008,
+      830009
     ],
-    "queue": 5,
-    "name": "【2021意大利活动A1】塞壬领洋者I型 近程自卫火炮",
     "bullet_ID": [
-      801
+      820095,
+      820094,
+      820093,
+      820092,
+      820092,
+      820092,
+      820092,
+      820092,
+      820092
     ],
+    "id": 775009,
+    "suppress": 1,
+    "range": 120,
+    "queue": 1,
+    "action_index": "attack",
+    "spawn_bound": "cannon",
+    "name": "【2021毛系活动EX】BOSS 代行者 绿色开幕弹",
+    "reload_max": 5000,
     "aim_type": 1,
-    "fire_fx": "CLFire",
-    "fire_sfx": "battle/cannon-155mm",
-    "damage": 6
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 20
   },
   "774001": {
     "fire_sfx": "battle/cannon-main",
@@ -1138,66 +1145,6 @@
     "base": 1000,
     "damage": 14
   },
-  "775009": {
-    "fire_sfx": "battle/cannon-main",
-    "type": 1,
-    "barrage_ID": [
-      830001,
-      830002,
-      830003,
-      830004,
-      830005,
-      830006,
-      830007,
-      830008,
-      830009
-    ],
-    "bullet_ID": [
-      820095,
-      820094,
-      820093,
-      820092,
-      820092,
-      820092,
-      820092,
-      820092,
-      820092
-    ],
-    "id": 775009,
-    "suppress": 1,
-    "range": 120,
-    "queue": 1,
-    "action_index": "attack",
-    "spawn_bound": "cannon",
-    "name": "【2021毛系活动EX】BOSS 代行者 绿色开幕弹",
-    "reload_max": 5000,
-    "aim_type": 1,
-    "fire_fx": "CAFire",
-    "base": 1000,
-    "damage": 20
-  },
-  "774002": {
-    "fire_sfx": "battle/cannon-main",
-    "type": 1,
-    "barrage_ID": [
-      830087
-    ],
-    "bullet_ID": [
-      820052
-    ],
-    "id": 774002,
-    "suppress": 1,
-    "range": 120,
-    "queue": 2,
-    "action_index": "attack",
-    "spawn_bound": "cannon",
-    "name": "【2021毛系活动SP】BOSS 代行者 第一波 紫色条状变向弹幕",
-    "reload_max": 5000,
-    "aim_type": 1,
-    "fire_fx": "CAFire",
-    "base": 1000,
-    "damage": 14
-  },
   "775005": {
     "fire_sfx": "",
     "type": 3,
@@ -1222,26 +1169,24 @@
     "base": 1001,
     "damage": 300
   },
-  "774003": {
+  "774002": {
     "fire_sfx": "battle/cannon-main",
     "type": 1,
     "barrage_ID": [
-      830088,
-      830089
+      830087
     ],
     "bullet_ID": [
-      820008,
-      820053
+      820052
     ],
-    "id": 774003,
-    "suppress": 0,
+    "id": 774002,
+    "suppress": 1,
     "range": 120,
-    "queue": 3,
+    "queue": 2,
     "action_index": "attack",
-    "spawn_bound": "torpedo",
-    "name": "【2021毛系活动SP】BOSS 代行者 第二波 红紫色扫射弹幕",
+    "spawn_bound": "cannon",
+    "name": "【2021毛系活动SP】BOSS 代行者 第一波 紫色条状变向弹幕",
     "reload_max": 5000,
-    "aim_type": 0,
+    "aim_type": 1,
     "fire_fx": "CAFire",
     "base": 1000,
     "damage": 14
@@ -1267,6 +1212,52 @@
     "fire_fx": "CAFire",
     "base": 1000,
     "damage": 10
+  },
+  "774003": {
+    "fire_sfx": "battle/cannon-main",
+    "type": 1,
+    "barrage_ID": [
+      830088,
+      830089
+    ],
+    "bullet_ID": [
+      820008,
+      820053
+    ],
+    "id": 774003,
+    "suppress": 0,
+    "range": 120,
+    "queue": 3,
+    "action_index": "attack",
+    "spawn_bound": "torpedo",
+    "name": "【2021毛系活动SP】BOSS 代行者 第二波 红紫色扫射弹幕",
+    "reload_max": 5000,
+    "aim_type": 0,
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 14
+  },
+  "775003": {
+    "fire_sfx": "",
+    "type": 3,
+    "barrage_ID": [
+      830131
+    ],
+    "bullet_ID": [
+      820082
+    ],
+    "id": 775003,
+    "suppress": 1,
+    "range": 120,
+    "queue": 2,
+    "action_index": "attack",
+    "spawn_bound": "torpedo",
+    "name": "【2021毛系活动EX】BOSS 代行者 鱼雷自机狙",
+    "reload_max": 900,
+    "aim_type": 1,
+    "fire_fx": "CAFire",
+    "base": 1001,
+    "damage": 80
   },
   "774004": {
     "fire_sfx": "battle/cannon-main",
@@ -1296,16 +1287,16 @@
     "base": 1000,
     "damage": 10
   },
-  "775003": {
+  "775002": {
     "fire_sfx": "",
     "type": 3,
     "barrage_ID": [
       830131
     ],
     "bullet_ID": [
-      820082
+      820081
     ],
-    "id": 775003,
+    "id": 775002,
     "suppress": 1,
     "range": 120,
     "queue": 2,
@@ -1369,27 +1360,55 @@
     "effect_move": 1,
     "axis_angle": 1
   },
-  "775002": {
-    "fire_sfx": "",
-    "type": 3,
-    "barrage_ID": [
-      830131
-    ],
-    "bullet_ID": [
-      820081
-    ],
-    "id": 775002,
+  "779005": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 120,
+    "reload_max": 3000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【2021毛系活动】璀璨支援武器LV5",
+    "fire_fx": "CLFire",
+    "charge_param": "",
     "suppress": 1,
-    "range": 120,
-    "queue": 2,
+    "range": 95,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 13,
     "action_index": "attack",
-    "spawn_bound": "torpedo",
-    "name": "【2021毛系活动EX】BOSS 代行者 鱼雷自机狙",
-    "reload_max": 900,
-    "aim_type": 1,
-    "fire_fx": "CAFire",
-    "base": 1001,
-    "damage": 80
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 779005,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      830108,
+      830109,
+      830110,
+      830111
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      820072,
+      820072,
+      820073,
+      820073
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "774006": {
     "search_type": 1,
@@ -1442,7 +1461,7 @@
     "effect_move": 1,
     "axis_angle": 1
   },
-  "779005": {
+  "779004": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
@@ -1450,7 +1469,7 @@
     "reload_max": 3000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【2021毛系活动】璀璨支援武器LV5",
+    "name": "【2021毛系活动】璀璨支援武器LV4",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
@@ -1469,7 +1488,7 @@
     "oxy_type": [
       1
     ],
-    "id": 779005,
+    "id": 779004,
     "spawn_bound": "cannon",
     "barrage_ID": [
       830108,
@@ -1568,7 +1587,7 @@
     "base": 1000,
     "damage": 16
   },
-  "779004": {
+  "779003": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
@@ -1576,7 +1595,7 @@
     "reload_max": 3000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【2021毛系活动】璀璨支援武器LV4",
+    "name": "【2021毛系活动】璀璨支援武器LV3",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
@@ -1595,7 +1614,7 @@
     "oxy_type": [
       1
     ],
-    "id": 779004,
+    "id": 779003,
     "spawn_bound": "cannon",
     "barrage_ID": [
       830108,
@@ -1663,80 +1682,6 @@
     "fire_sfx": "",
     "damage": 38
   },
-  "779003": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 120,
-    "reload_max": 3000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【2021毛系活动】璀璨支援武器LV3",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 95,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 13,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 779003,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      830108,
-      830109,
-      830110,
-      830111
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      820072,
-      820072,
-      820073,
-      820073
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "774009": {
-    "fire_sfx": "battle/cannon-main",
-    "type": 1,
-    "barrage_ID": [
-      830106,
-      830107
-    ],
-    "bullet_ID": [
-      820064,
-      820064
-    ],
-    "id": 774009,
-    "suppress": 1,
-    "range": 120,
-    "queue": 1,
-    "action_index": "attack",
-    "spawn_bound": "torpedo",
-    "name": "【2021毛系活动SP】BOSS 代行者 第四波 三角弹幕",
-    "reload_max": 5000,
-    "aim_type": 1,
-    "fire_fx": "CAFire",
-    "base": 1000,
-    "damage": 20
-  },
   "779002": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -1765,6 +1710,105 @@
       1
     ],
     "id": 779002,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      830108,
+      830109,
+      830110,
+      830111
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      820072,
+      820072,
+      820073,
+      820073
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "773001": {
+    "search_type": 2,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 360,
+    "base": 1001,
+    "reload_max": 2000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【2021毛系活动D1】BOSS 梦境塞壬领洋者 三重鱼雷 ",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 120,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 32,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 773001,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      690048,
+      690049,
+      690050
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      690008,
+      690008,
+      690008
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "779001": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 120,
+    "reload_max": 3000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【2021毛系活动】璀璨支援武器LV1",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 95,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 13,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 779001,
     "spawn_bound": "cannon",
     "barrage_ID": [
       830108,
@@ -1840,55 +1884,27 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "779001": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 120,
-    "reload_max": 3000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【2021毛系活动】璀璨支援武器LV1",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 95,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 13,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 779001,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      830108,
-      830109,
-      830110,
-      830111
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      820072,
-      820072,
-      820073,
-      820073
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
+  "774303": {
     "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
+    "type": 1,
+    "barrage_ID": [
+      830066
+    ],
+    "bullet_ID": [
+      820037
+    ],
+    "id": 774303,
+    "suppress": 1,
+    "range": 200,
+    "queue": 1,
+    "action_index": "attack",
+    "spawn_bound": "cannon",
+    "name": "【2021毛系活动SP】道中代行者浮游炮小怪2 普通自机狙",
+    "reload_max": 300,
+    "aim_type": 1,
+    "fire_fx": "CLFire",
+    "base": 1000,
+    "damage": 10
   },
   "773003": {
     "search_type": 1,
@@ -1935,23 +1951,23 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "774303": {
+  "774302": {
     "fire_sfx": "battle/cannon-155mm",
     "type": 1,
     "barrage_ID": [
-      830066
+      830063
     ],
     "bullet_ID": [
       820037
     ],
-    "id": 774303,
+    "id": 774302,
     "suppress": 1,
     "range": 200,
     "queue": 1,
     "action_index": "attack",
     "spawn_bound": "cannon",
-    "name": "【2021毛系活动SP】道中代行者浮游炮小怪2 普通自机狙",
-    "reload_max": 300,
+    "name": "【2021毛系活动SP】道中代行者浮游炮小怪1 普通自机狙",
+    "reload_max": 650,
     "aim_type": 1,
     "fire_fx": "CLFire",
     "base": 1000,
@@ -2002,23 +2018,23 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "774302": {
+  "774301": {
     "fire_sfx": "battle/cannon-155mm",
     "type": 1,
     "barrage_ID": [
-      830063
+      830062
     ],
     "bullet_ID": [
-      820037
+      820036
     ],
-    "id": 774302,
+    "id": 774301,
     "suppress": 1,
     "range": 200,
     "queue": 1,
     "action_index": "attack",
     "spawn_bound": "cannon",
-    "name": "【2021毛系活动SP】道中代行者浮游炮小怪1 普通自机狙",
-    "reload_max": 650,
+    "name": "【2021毛系活动SP】道中代行者浮游炮小怪1 连续自机狙",
+    "reload_max": 1500,
     "aim_type": 1,
     "fire_fx": "CLFire",
     "base": 1000,
@@ -2083,28 +2099,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "774301": {
-    "fire_sfx": "battle/cannon-155mm",
-    "type": 1,
-    "barrage_ID": [
-      830062
-    ],
-    "bullet_ID": [
-      820036
-    ],
-    "id": 774301,
-    "suppress": 1,
-    "range": 200,
-    "queue": 1,
-    "action_index": "attack",
-    "spawn_bound": "cannon",
-    "name": "【2021毛系活动SP】道中代行者浮游炮小怪1 连续自机狙",
-    "reload_max": 1500,
-    "aim_type": 1,
-    "fire_fx": "CLFire",
-    "base": 1000,
-    "damage": 10
-  },
   "774011": {
     "initial_over_heat": 1,
     "suppress": 1,
@@ -2127,34 +2121,6 @@
     "fire_fx": "CLFire",
     "fire_sfx": "battle/cannon-155mm",
     "damage": 10
-  },
-  "773101": {
-    "charge_param": "",
-    "suppress": 1,
-    "range": 75,
-    "base": 1000,
-    "reload_max": 1500,
-    "action_index": "attack",
-    "type": 19,
-    "id": 773101,
-    "spawn_bound": "cannon2",
-    "barrage_ID": [
-      399912
-    ],
-    "queue": 1,
-    "precast_param": {
-      "alertTime": 2,
-      "time": 1,
-      "fx": "jinengenemy"
-    },
-    "name": "【2021毛系活动D2】BOSS 梦境塞壬破局者 前排跨射",
-    "bullet_ID": [
-      400000
-    ],
-    "aim_type": 1,
-    "fire_fx": "CAFire",
-    "fire_sfx": "battle/cannon-main",
-    "damage": 34
   },
   "774010": {
     "search_type": 1,
@@ -2208,5 +2174,57 @@
     "fire_sfx": "battle/cannon-155mm",
     "effect_move": 1,
     "axis_angle": 1
+  },
+  "773101": {
+    "charge_param": "",
+    "suppress": 1,
+    "range": 75,
+    "base": 1000,
+    "reload_max": 1500,
+    "action_index": "attack",
+    "type": 19,
+    "id": 773101,
+    "spawn_bound": "cannon2",
+    "barrage_ID": [
+      399912
+    ],
+    "queue": 1,
+    "precast_param": {
+      "alertTime": 2,
+      "time": 1,
+      "fx": "jinengenemy"
+    },
+    "name": "【2021毛系活动D2】BOSS 梦境塞壬破局者 前排跨射",
+    "bullet_ID": [
+      400000
+    ],
+    "aim_type": 1,
+    "fire_fx": "CAFire",
+    "fire_sfx": "battle/cannon-main",
+    "damage": 34
+  },
+  "774009": {
+    "fire_sfx": "battle/cannon-main",
+    "type": 1,
+    "barrage_ID": [
+      830106,
+      830107
+    ],
+    "bullet_ID": [
+      820064,
+      820064
+    ],
+    "id": 774009,
+    "suppress": 1,
+    "range": 120,
+    "queue": 1,
+    "action_index": "attack",
+    "spawn_bound": "torpedo",
+    "name": "【2021毛系活动SP】BOSS 代行者 第四波 三角弹幕",
+    "reload_max": 5000,
+    "aim_type": 1,
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 20
   }
 }

@@ -41,32 +41,38 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "630034": {
-    "charge_param": "",
-    "suppress": 1,
-    "range": 75,
-    "base": 1000,
-    "reload_max": 1500,
-    "action_index": "attack",
-    "type": 19,
-    "id": 630034,
-    "spawn_bound": "cannon2",
+  "630033": {
+    "fire_sfx": "battle/cannon-main",
+    "id": 630033,
     "barrage_ID": [
-      399912
+      690134,
+      690135,
+      690136,
+      690137,
+      690138,
+      690134,
+      690135,
+      690136,
+      690137,
+      690138
     ],
     "queue": 1,
-    "precast_param": {
-      "alertTime": 2,
-      "time": 1,
-      "fx": "jinengenemy"
-    },
-    "name": "【愚人节活动2021】彩布里 前排跨射",
+    "name": "【愚人节活动2021】彩布里放烟花弹幕",
     "bullet_ID": [
-      710031
+      710035,
+      710035,
+      710035,
+      710035,
+      710035,
+      710036,
+      710036,
+      710036,
+      710036,
+      710036
     ],
-    "aim_type": 1,
+    "reload_max": 6000,
     "fire_fx": "CAFire",
-    "fire_sfx": "battle/cannon-main",
+    "base": 1000,
     "damage": 40
   },
   "620328": {
@@ -111,39 +117,49 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "630033": {
-    "fire_sfx": "battle/cannon-main",
-    "id": 630033,
+  "630032": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 50,
+    "torpedo_ammo": 0,
+    "queue": 6,
+    "name": "【愚人节活动2021】彩布里自卫火炮",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 30,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 40,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 630032,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      690134,
-      690135,
-      690136,
-      690137,
-      690138,
-      690134,
-      690135,
-      690136,
-      690137,
-      690138
+      690524
     ],
-    "queue": 1,
-    "name": "【愚人节活动2021】彩布里放烟花弹幕",
+    "corrected": 125,
+    "auto_aftercast": 0,
     "bullet_ID": [
-      710035,
-      710035,
-      710035,
-      710035,
-      710035,
-      710036,
-      710036,
-      710036,
-      710036,
-      710036
+      811
     ],
-    "reload_max": 6000,
-    "fire_fx": "CAFire",
-    "base": 1000,
-    "damage": 40
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "620329": {
     "search_type": 1,
@@ -195,48 +211,71 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "630032": {
+  "630031": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 50,
+    "reload_max": 2000,
     "torpedo_ammo": 0,
-    "queue": 6,
-    "name": "【愚人节活动2021】彩布里自卫火炮",
+    "queue": 1,
+    "name": "【愚人节活动2021】彩布里激光",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 30,
+    "range": 999,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 40,
+    "damage": 12,
     "action_index": "attack",
-    "type": 2,
+    "type": 24,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 630032,
+    "id": 630031,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      690524
+      710001,
+      710002,
+      710003,
+      710004,
+      710005,
+      710006,
+      710007,
+      710008,
+      710009,
+      710010
     ],
-    "corrected": 125,
+    "corrected": 105,
     "auto_aftercast": 0,
     "bullet_ID": [
-      811
+      710033,
+      710033,
+      710033,
+      710033,
+      710033,
+      710033,
+      710033,
+      710033,
+      710033,
+      710033
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
+    "effect_move": 1,
     "axis_angle": 0
   },
   "620330": {
@@ -865,73 +904,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "630031": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 2000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【愚人节活动2021】彩布里激光",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 999,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 2,
-      "fx": "jinengenemy",
-      "time": 1,
-      "isBound": true
-    },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 24,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 630031,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      710001,
-      710002,
-      710003,
-      710004,
-      710005,
-      710006,
-      710007,
-      710008,
-      710009,
-      710010
-    ],
-    "corrected": 105,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      710033,
-      710033,
-      710033,
-      710033,
-      710033,
-      710033,
-      710033,
-      710033,
-      710033,
-      710033
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
   "630024": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -1082,6 +1054,50 @@
     "effect_move": 0,
     "axis_angle": 0
   },
+  "630021": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 50,
+    "torpedo_ammo": 0,
+    "queue": 6,
+    "name": "【愚人节活动2021】金布里自卫火炮",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 30,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 80,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 630021,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      690524
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      811
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
   "620401": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -1131,47 +1147,49 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "630021": {
+  "630012": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 50,
+    "reload_max": 800,
     "torpedo_ammo": 0,
-    "queue": 6,
-    "name": "【愚人节活动2021】金布里自卫火炮",
-    "fire_fx": "CLFire",
+    "queue": 1,
+    "name": "【愚人节活动】紫布里武器2",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 30,
-    "recover_time": 0.5,
+    "range": 90,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 80,
+    "damage": 150,
     "action_index": "attack",
-    "type": 2,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 630021,
+    "id": 630012,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      690524
+      200112,
+      200113
     ],
-    "corrected": 125,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      811
+      710025,
+      710025
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1447,50 +1465,46 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "630012": {
+  "620310": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 800,
+    "reload_max": 1200,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【愚人节活动】紫布里武器2",
-    "fire_fx": "CAFire",
+    "queue": 3,
+    "name": "【2020美系活动D2】塞壬执棋者II型 浮游炮2",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
-    "recover_time": 0,
+    "range": 110,
+    "recover_time": 5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 150,
+    "damage": 20,
     "action_index": "attack",
-    "type": 1,
+    "type": 11,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 630012,
-    "spawn_bound": "cannon",
+    "id": 620310,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      200112,
-      200113
+      690110
     ],
     "corrected": 100,
     "auto_aftercast": 0,
-    "bullet_ID": [
-      710025,
-      710025
-    ],
+    "bullet_ID": [],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "620405": {

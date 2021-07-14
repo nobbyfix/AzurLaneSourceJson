@@ -5,12 +5,6 @@
     "base": 16320,
     "reload_max": 139
   },
-  "16422": {
-    "id": 16422,
-    "damage": 55,
-    "base": 16420,
-    "reload_max": 196
-  },
   "17022": {
     "bullet_ID": [
       17002
@@ -69,6 +63,15 @@
     "fire_sfx": "battle/air-atk",
     "effect_move": 1,
     "axis_angle": 0
+  },
+  "17003": {
+    "bullet_ID": [
+      17003
+    ],
+    "id": 17003,
+    "damage": 24,
+    "base": 17000,
+    "reload_max": 1924
   },
   "16400": {
     "search_type": 1,
@@ -194,32 +197,17 @@
     "base": 16300,
     "reload_max": 161
   },
-  "17003": {
-    "bullet_ID": [
-      17003
-    ],
-    "id": 17003,
-    "damage": 24,
-    "base": 17000,
-    "reload_max": 1924
-  },
-  "16302": {
-    "id": 16302,
-    "damage": 25,
-    "base": 16300,
-    "reload_max": 159
-  },
   "16445": {
     "id": 16445,
     "damage": 83,
     "base": 16440,
     "reload_max": 175
   },
-  "16303": {
-    "id": 16303,
-    "damage": 29,
+  "16302": {
+    "id": 16302,
+    "damage": 25,
     "base": 16300,
-    "reload_max": 156
+    "reload_max": 159
   },
   "17001": {
     "bullet_ID": [
@@ -230,47 +218,53 @@
     "base": 17000,
     "reload_max": 1971
   },
-  "16440": {
+  "16303": {
+    "id": 16303,
+    "damage": 29,
+    "base": 16300,
+    "reload_max": 156
+  },
+  "17000": {
     "search_type": 1,
-    "attack_attribute": 3,
+    "attack_attribute": 0,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 194,
+    "angle": 30,
+    "reload_max": 1995,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "四联40mm博福斯对空機関砲T3",
-    "fire_fx": "fangkongpaohuoshe",
+    "name": "F2A水牛T1",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 28,
+    "range": 90,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 48,
+    "damage": 18,
     "action_index": "attack",
-    "type": 22,
+    "type": 10,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 16440,
-    "spawn_bound": "antiaircraft",
+    "id": 17000,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      2000
+      1500
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      2000
+      17000
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-air",
+    "fire_sfx": "battle/air-atk",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -311,6 +305,12 @@
     "damage": 108,
     "base": 16420,
     "reload_max": 164
+  },
+  "16447": {
+    "id": 16447,
+    "damage": 97,
+    "base": 16440,
+    "reload_max": 167
   },
   "16420": {
     "search_type": 1,
@@ -454,11 +454,49 @@
     "base": 16340,
     "reload_max": 138
   },
-  "16447": {
-    "id": 16447,
-    "damage": 97,
-    "base": 16440,
-    "reload_max": 167
+  "16440": {
+    "search_type": 1,
+    "attack_attribute": 3,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 194,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "四联40mm博福斯对空機関砲T3",
+    "fire_fx": "fangkongpaohuoshe",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 28,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 48,
+    "action_index": "attack",
+    "type": 22,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 16440,
+    "spawn_bound": "antiaircraft",
+    "barrage_ID": [
+      2000
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      2000
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-air",
+    "effect_move": 1,
+    "axis_angle": 0
   },
   "16345": {
     "id": 16345,
@@ -466,49 +504,12 @@
     "base": 16340,
     "reload_max": 134
   },
-  "17000": {
-    "search_type": 1,
-    "attack_attribute": 0,
-    "shakescreen": 0,
-    "angle": 30,
-    "reload_max": 1995,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "F2A水牛T1",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 18,
-    "action_index": "attack",
-    "type": 10,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 17000,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      1500
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      17000
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
+  "16251": {
+    "corrected": 104,
+    "id": 16251,
+    "damage": 72,
+    "base": 16240,
+    "reload_max": 131
   },
   "16346": {
     "id": 16346,
@@ -688,14 +689,11 @@
     "base": 16320,
     "reload_max": 141
   },
-  "17023": {
-    "bullet_ID": [
-      17003
-    ],
-    "id": 17023,
-    "damage": 26,
-    "base": 17020,
-    "reload_max": 1876
+  "16422": {
+    "id": 16422,
+    "damage": 55,
+    "base": 16420,
+    "reload_max": 196
   },
   "16405": {
     "id": 16405,

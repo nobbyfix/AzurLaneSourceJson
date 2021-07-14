@@ -272,35 +272,36 @@
     "base": 1001027,
     "damage": 6
   },
-  "781109": {
-    "initial_over_heat": 1,
-    "id": 781109,
+  "780101": {
+    "initial_over_heat": 0,
     "suppress": 1,
-    "barrage_ID": [
-      568421,
-      568422,
-      568423,
-      568424,
-      568425,
-      568426,
-      568427,
-      568428
-    ],
-    "queue": 3,
-    "name": "【2021意大利活动B2】BOSS 光辉 扩散弹幕",
-    "bullet_ID": [
-      830009,
-      830009,
-      830009,
-      830009,
-      830009,
-      830009,
-      830009,
-      830009
-    ],
-    "reload_max": 6000,
+    "range": 50,
+    "angle": 40,
     "base": 1000,
-    "damage": 15
+    "reload_max": 1500,
+    "action_index": "attack",
+    "type": 19,
+    "precast_param": {
+      "alertTime": 2,
+      "time": 1,
+      "fx": "jinengenemy"
+    },
+    "id": 780101,
+    "spawn_bound": "cannon2",
+    "barrage_ID": [
+      399912
+    ],
+    "queue": 1,
+    "bullet_ID": [
+      399988
+    ],
+    "fire_sfx": "battle/cannon-main",
+    "name": "【2021意大利活动A2】塞壬破局者I型 前排跨射",
+    "damage": 18,
+    "aim_type": 1,
+    "fire_fx": "CAFire",
+    "min_range": 20,
+    "axis_angle": 0
   },
   "781204": {
     "barrage_ID": [
@@ -721,19 +722,19 @@
     "fire_sfx": "",
     "damage": 9
   },
-  "781306": {
-    "name": "【2021意大利活动B】塞壬重巡R型大船通用副炮",
+  "781303": {
+    "name": "【2021意大利活动B】塞壬驱逐R型旋转子弹3+2发武器",
     "barrage_ID": [
-      840001,
-      840002
+      690001,
+      690002
     ],
-    "id": 781306,
+    "id": 781303,
     "bullet_ID": [
-      830001,
-      830005
+      41003,
+      830003
     ],
-    "base": 1001027,
-    "damage": 6
+    "base": 1001012,
+    "damage": 5
   },
   "780204": {
     "initial_over_heat": 0,
@@ -757,19 +758,17 @@
     "fire_sfx": "",
     "damage": 9
   },
-  "781303": {
-    "name": "【2021意大利活动B】塞壬驱逐R型旋转子弹3+2发武器",
+  "781302": {
+    "name": "【2021意大利活动B】塞壬驱逐R型单装鱼雷",
     "barrage_ID": [
-      690001,
-      690002
+      1400
     ],
-    "id": 781303,
+    "id": 781302,
     "bullet_ID": [
-      41003,
-      830003
+      30067
     ],
-    "base": 1001012,
-    "damage": 5
+    "base": 1001007,
+    "damage": 25
   },
   "780205": {
     "initial_over_heat": 0,
@@ -798,17 +797,19 @@
     "min_range": 0,
     "axis_angle": 0
   },
-  "781302": {
-    "name": "【2021意大利活动B】塞壬驱逐R型单装鱼雷",
+  "781301": {
+    "name": "【2021意大利活动B】塞壬驱逐R型单发瞄准x4随机",
     "barrage_ID": [
-      1400
+      840003,
+      840004
     ],
-    "id": 781302,
+    "id": 781301,
     "bullet_ID": [
-      30067
+      830005,
+      830001
     ],
-    "base": 1001007,
-    "damage": 25
+    "base": 1001002,
+    "damage": 5
   },
   "780206": {
     "initial_over_heat": 0,
@@ -837,19 +838,24 @@
     "min_range": 0,
     "axis_angle": 0
   },
-  "781301": {
-    "name": "【2021意大利活动B】塞壬驱逐R型单发瞄准x4随机",
+  "781213": {
+    "fire_sfx": "battle/cannon-main",
+    "id": 781213,
+    "suppress": 0,
+    "range": 120,
+    "queue": 2,
     "barrage_ID": [
-      840003,
-      840004
+      840081
     ],
-    "id": 781301,
     "bullet_ID": [
-      830005,
-      830001
+      830048
     ],
-    "base": 1001002,
-    "damage": 5
+    "name": "【2021意大利活动B3】BOSS 测试者 箭头弹幕 雷 逆时针",
+    "reload_max": 2000,
+    "aim_type": 0,
+    "fire_fx": "",
+    "base": 1000,
+    "damage": 4
   },
   "780207": {
     "initial_over_heat": 0,
@@ -877,19 +883,19 @@
     "fire_sfx": "battle/air-atk",
     "damage": 9
   },
-  "781214": {
+  "781215": {
     "fire_sfx": "battle/cannon-main",
-    "id": 781214,
+    "id": 781215,
     "suppress": 0,
     "range": 120,
     "queue": 2,
     "barrage_ID": [
-      840082
+      840084
     ],
     "bullet_ID": [
-      830048
+      830055
     ],
-    "name": "【2021意大利活动B3】BOSS 测试者 箭头弹幕 雷 顺时针",
+    "name": "【2021意大利活动B3】BOSS 测试者 箭头弹幕 水",
     "reload_max": 2000,
     "aim_type": 0,
     "fire_fx": "",
@@ -922,21 +928,21 @@
     "fire_sfx": "battle/air-atk",
     "damage": 9
   },
-  "781216": {
+  "781219": {
     "fire_sfx": "battle/cannon-main",
-    "id": 781216,
-    "suppress": 1,
+    "id": 781219,
+    "suppress": 0,
     "range": 120,
     "queue": 2,
     "barrage_ID": [
-      840086
+      840143
     ],
     "bullet_ID": [
-      830062
+      830072
     ],
-    "name": "【2021意大利活动B3】BOSS 测试者 箭头弹幕 风",
-    "reload_max": 2000,
-    "aim_type": 1,
+    "name": "【2021意大利活动B3】BOSS 测试者 3way风旋",
+    "reload_max": 6000,
+    "aim_type": 0,
     "fire_fx": "",
     "base": 1000,
     "damage": 4
@@ -966,24 +972,29 @@
     "fire_sfx": "battle/cannon-155mm",
     "damage": 16
   },
-  "781219": {
+  "781218": {
     "fire_sfx": "battle/cannon-main",
-    "id": 781219,
+    "type": 24,
+    "id": 781218,
     "suppress": 0,
     "range": 120,
-    "queue": 2,
+    "queue": 3,
     "barrage_ID": [
-      840143
+      840096,
+      840097,
+      840098
     ],
     "bullet_ID": [
-      830072
+      830070,
+      830070,
+      830070
     ],
-    "name": "【2021意大利活动B3】BOSS 测试者 3way风旋",
+    "name": "【2021意大利活动B3】BOSS 测试者 3way风旋 预警（无判定无伤害）",
     "reload_max": 6000,
     "aim_type": 0,
     "fire_fx": "",
     "base": 1000,
-    "damage": 4
+    "damage": 1
   },
   "780210": {
     "initial_over_heat": 1,
@@ -1010,29 +1021,26 @@
     "fire_sfx": "battle/cannon-155mm",
     "damage": 16
   },
-  "781218": {
+  "781217": {
     "fire_sfx": "battle/cannon-main",
-    "type": 24,
-    "id": 781218,
+    "id": 781217,
     "suppress": 0,
     "range": 120,
-    "queue": 3,
+    "queue": 2,
     "barrage_ID": [
-      840096,
-      840097,
-      840098
+      840091,
+      840092
     ],
     "bullet_ID": [
-      830070,
-      830070,
-      830070
+      830065,
+      830066
     ],
-    "name": "【2021意大利活动B3】BOSS 测试者 3way风旋 预警（无判定无伤害）",
+    "name": "【2021意大利活动B3】BOSS 测试者 两侧水波纹弹幕",
     "reload_max": 6000,
     "aim_type": 0,
     "fire_fx": "",
     "base": 1000,
-    "damage": 1
+    "damage": 4
   },
   "780211": {
     "initial_over_heat": 0,
@@ -1065,23 +1073,21 @@
     "fire_sfx": "battle/cannon-main",
     "damage": 12
   },
-  "781217": {
+  "781216": {
     "fire_sfx": "battle/cannon-main",
-    "id": 781217,
-    "suppress": 0,
+    "id": 781216,
+    "suppress": 1,
     "range": 120,
     "queue": 2,
     "barrage_ID": [
-      840091,
-      840092
+      840086
     ],
     "bullet_ID": [
-      830065,
-      830066
+      830062
     ],
-    "name": "【2021意大利活动B3】BOSS 测试者 两侧水波纹弹幕",
-    "reload_max": 6000,
-    "aim_type": 0,
+    "name": "【2021意大利活动B3】BOSS 测试者 箭头弹幕 风",
+    "reload_max": 2000,
+    "aim_type": 1,
     "fire_fx": "",
     "base": 1000,
     "damage": 4
@@ -1161,19 +1167,19 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "781215": {
+  "781214": {
     "fire_sfx": "battle/cannon-main",
-    "id": 781215,
+    "id": 781214,
     "suppress": 0,
     "range": 120,
     "queue": 2,
     "barrage_ID": [
-      840084
+      840082
     ],
     "bullet_ID": [
-      830055
+      830048
     ],
-    "name": "【2021意大利活动B3】BOSS 测试者 箭头弹幕 水",
+    "name": "【2021意大利活动B3】BOSS 测试者 箭头弹幕 雷 顺时针",
     "reload_max": 2000,
     "aim_type": 0,
     "fire_fx": "",
@@ -1273,37 +1279,6 @@
     "base": 1000,
     "damage": 10
   },
-  "781213": {
-    "fire_sfx": "battle/cannon-main",
-    "id": 781213,
-    "suppress": 0,
-    "range": 120,
-    "queue": 2,
-    "barrage_ID": [
-      840081
-    ],
-    "bullet_ID": [
-      830048
-    ],
-    "name": "【2021意大利活动B3】BOSS 测试者 箭头弹幕 雷 逆时针",
-    "reload_max": 2000,
-    "aim_type": 0,
-    "fire_fx": "",
-    "base": 1000,
-    "damage": 4
-  },
-  "781002": {
-    "barrage_ID": [
-      12017
-    ],
-    "queue": 2,
-    "name": "【2021意大利活动B1】BOSS 光辉 鱼雷机",
-    "range": 110,
-    "id": 781002,
-    "damage": 28,
-    "base": 1002,
-    "reload_max": 150
-  },
   "781212": {
     "initial_over_heat": 0,
     "suppress": 1,
@@ -1335,14 +1310,15 @@
     "min_range": 75,
     "axis_angle": 0
   },
-  "781003": {
+  "781002": {
     "barrage_ID": [
-      12012
+      12017
     ],
-    "name": "【2021意大利活动B1】BOSS 光辉 轰炸机",
-    "queue": 1,
-    "id": 781003,
-    "damage": 36,
+    "queue": 2,
+    "name": "【2021意大利活动B1】BOSS 光辉 鱼雷机",
+    "range": 110,
+    "id": 781002,
+    "damage": 28,
     "base": 1002,
     "reload_max": 150
   },
@@ -1377,14 +1353,14 @@
     "min_range": 0,
     "axis_angle": 0
   },
-  "781004": {
+  "781003": {
     "barrage_ID": [
       12012
     ],
-    "name": "【2021意大利活动B1】BOSS 光辉 战斗机",
+    "name": "【2021意大利活动B1】BOSS 光辉 轰炸机",
     "queue": 1,
-    "id": 781004,
-    "damage": 16,
+    "id": 781003,
+    "damage": 36,
     "base": 1002,
     "reload_max": 150
   },
@@ -1409,25 +1385,16 @@
     "base": 1000,
     "damage": 4
   },
-  "781005": {
-    "action_index": "",
+  "781004": {
     "barrage_ID": [
-      790025
+      12012
     ],
-    "id": 781005,
-    "suppress": 1,
-    "range": 60,
+    "name": "【2021意大利活动B1】BOSS 光辉 战斗机",
     "queue": 1,
-    "bullet_ID": [
-      830008
-    ],
-    "min_range": 20,
-    "name": "【2021意大利活动B1】BOSS 光辉 鱼雷机武器",
-    "attack_attribute": 4,
-    "reload_max": 6000,
-    "angle": 90,
-    "base": 1001,
-    "damage": 28
+    "id": 781004,
+    "damage": 16,
+    "base": 1002,
+    "reload_max": 150
   },
   "781209": {
     "fire_sfx": "battle/cannon-main",
@@ -1453,6 +1420,67 @@
     "fire_fx": "",
     "base": 1000,
     "damage": 4
+  },
+  "781005": {
+    "action_index": "",
+    "barrage_ID": [
+      790025
+    ],
+    "id": 781005,
+    "suppress": 1,
+    "range": 60,
+    "queue": 1,
+    "bullet_ID": [
+      830008
+    ],
+    "min_range": 20,
+    "name": "【2021意大利活动B1】BOSS 光辉 鱼雷机武器",
+    "attack_attribute": 4,
+    "reload_max": 6000,
+    "angle": 90,
+    "base": 1001,
+    "damage": 28
+  },
+  "781110": {
+    "initial_over_heat": 0,
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0,
+    "base": 1000,
+    "reload_max": 9999,
+    "fire_sfx": "battle/cannon-main",
+    "type": 1,
+    "id": 781110,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      740007,
+      740008,
+      740009,
+      740010,
+      740011,
+      740012,
+      740013,
+      740014,
+      740015
+    ],
+    "queue": 4,
+    "bullet_ID": [
+      300115,
+      300116,
+      300117,
+      300115,
+      300116,
+      300117,
+      300115,
+      300116,
+      300117
+    ],
+    "name": "【2021意大利活动B2】BOSS 光辉 穿透弹幕",
+    "corrected": 100,
+    "aim_type": 1,
+    "fire_fx": "",
+    "damage": 15,
+    "effect_move": 0
   },
   "781006": {
     "action_index": "",
@@ -1531,45 +1559,34 @@
     "base": 1002,
     "reload_max": 150
   },
-  "781110": {
-    "initial_over_heat": 0,
+  "781109": {
+    "initial_over_heat": 1,
+    "id": 781109,
     "suppress": 1,
-    "range": 90,
-    "recover_time": 0,
-    "base": 1000,
-    "reload_max": 9999,
-    "fire_sfx": "battle/cannon-main",
-    "type": 1,
-    "id": 781110,
-    "spawn_bound": "cannon",
     "barrage_ID": [
-      740007,
-      740008,
-      740009,
-      740010,
-      740011,
-      740012,
-      740013,
-      740014,
-      740015
+      568421,
+      568422,
+      568423,
+      568424,
+      568425,
+      568426,
+      568427,
+      568428
     ],
-    "queue": 4,
+    "queue": 3,
+    "name": "【2021意大利活动B2】BOSS 光辉 扩散弹幕",
     "bullet_ID": [
-      300115,
-      300116,
-      300117,
-      300115,
-      300116,
-      300117,
-      300115,
-      300116,
-      300117
+      830009,
+      830009,
+      830009,
+      830009,
+      830009,
+      830009,
+      830009,
+      830009
     ],
-    "name": "【2021意大利活动B2】BOSS 光辉 穿透弹幕",
-    "corrected": 100,
-    "aim_type": 1,
-    "fire_fx": "",
-    "damage": 15,
-    "effect_move": 0
+    "reload_max": 6000,
+    "base": 1000,
+    "damage": 15
   }
 }

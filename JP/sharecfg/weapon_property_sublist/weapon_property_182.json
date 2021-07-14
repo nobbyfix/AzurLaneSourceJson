@@ -18,16 +18,6 @@
     "base": 73111,
     "damage": 20
   },
-  "74041": {
-    "name": "全弹发射-白虎I",
-    "id": 74041,
-    "bullet_ID": [
-      74041,
-      74041
-    ],
-    "base": 74011,
-    "damage": 10
-  },
   "74032": {
     "name": "全弹发射-朱雀II",
     "barrage_ID": [
@@ -42,6 +32,16 @@
     "base": 74011,
     "damage": 18
   },
+  "74031": {
+    "name": "全弹发射-朱雀I",
+    "id": 74031,
+    "bullet_ID": [
+      74031,
+      74031
+    ],
+    "base": 74011,
+    "damage": 10
+  },
   "72242": {
     "name": "全弹发射-利根级II",
     "id": 72242,
@@ -52,15 +52,19 @@
     "base": 72241,
     "damage": 38
   },
-  "74031": {
-    "name": "全弹发射-朱雀I",
-    "id": 74031,
+  "74022": {
+    "name": "全弹发射-青龙II",
+    "barrage_ID": [
+      74013,
+      74014
+    ],
+    "id": 74022,
     "bullet_ID": [
-      74031,
-      74031
+      74021,
+      74021
     ],
     "base": 74011,
-    "damage": 10
+    "damage": 18
   },
   "73321": {
     "search_type": 1,
@@ -189,19 +193,15 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "74022": {
-    "name": "全弹发射-青龙II",
-    "barrage_ID": [
-      74013,
-      74014
-    ],
-    "id": 74022,
+  "74021": {
+    "name": "全弹发射-青龙I",
+    "id": 74021,
     "bullet_ID": [
       74021,
       74021
     ],
     "base": 74011,
-    "damage": 18
+    "damage": 10
   },
   "72211": {
     "search_type": 1,
@@ -260,15 +260,15 @@
     "base": 72151,
     "damage": 20
   },
-  "74021": {
-    "name": "全弹发射-青龙I",
-    "id": 74021,
-    "bullet_ID": [
-      74021,
-      74021
+  "74012": {
+    "name": "全弹发射-鞍山级II",
+    "id": 74012,
+    "barrage_ID": [
+      74013,
+      74014
     ],
     "base": 74011,
-    "damage": 10
+    "damage": 12
   },
   "72412": {
     "name": "全弹发射-樫野II",
@@ -279,15 +279,51 @@
     "base": 72411,
     "damage": 10
   },
-  "74012": {
-    "name": "全弹发射-鞍山级II",
-    "id": 74012,
-    "barrage_ID": [
-      74013,
-      74014
+  "74011": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "全弹发射-鞍山级I",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 50,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 7,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
     ],
-    "base": 74011,
-    "damage": 12
+    "oxy_type": [
+      1
+    ],
+    "id": 74011,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      74011,
+      74012
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      74011,
+      74011
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "72231": {
     "search_type": 1,
@@ -325,6 +361,59 @@
     "auto_aftercast": 0,
     "bullet_ID": [
       72231
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "73512": {
+    "name": "全弹发射-Type IXC型II",
+    "id": 73512,
+    "barrage_ID": [
+      73512
+    ],
+    "base": 73511,
+    "damage": 60
+  },
+  "73121": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "全弹发射-莱比锡级I",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 50,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 12,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 73121,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      19001
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      73121
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -377,7 +466,7 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "73121": {
+  "72121": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
@@ -385,7 +474,7 @@
     "reload_max": 400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "全弹发射-莱比锡级I",
+    "name": "全弹发射-球磨级I",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 0,
@@ -404,7 +493,7 @@
     "oxy_type": [
       1
     ],
-    "id": 73121,
+    "id": 72121,
     "spawn_bound": "cannon",
     "barrage_ID": [
       19001
@@ -412,62 +501,7 @@
     "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      73121
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "73512": {
-    "name": "全弹发射-Type IXC型II",
-    "id": 73512,
-    "barrage_ID": [
-      73512
-    ],
-    "base": 73511,
-    "damage": 60
-  },
-  "74011": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 400,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "全弹发射-鞍山级I",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 50,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 7,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 74011,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      74011,
-      74012
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      74011,
-      74011
+      72121
     ],
     "min_range": 0,
     "initial_over_heat": 0,

@@ -43,48 +43,51 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "800010": {
+  "800009": {
     "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1800,
+    "attack_attribute": 1,
+    "shakescreen": 302,
+    "angle": 50,
+    "reload_max": 1000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【三笠剧情】魔鬼鱼浮游炮 (飞机",
+    "name": "【三笠剧情】比叡主炮",
     "fire_fx": "zhupao",
-    "charge_param": "",
+    "charge_param": {
+      "lockTime": 0.3,
+      "maxLock": 4
+    },
     "suppress": 1,
-    "range": 120,
-    "recover_time": 5,
+    "range": 100,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 50,
+    "damage": 70,
     "action_index": "attack",
-    "type": 11,
+    "type": 23,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 800010,
-    "spawn_bound": "plane",
+    "id": 800009,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      12019
+      1302
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30013
+      1522
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
+    "initial_over_heat": 1,
     "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
+    "fire_sfx": "battle/cannon-356mm",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "800004": {
@@ -131,7 +134,7 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "800009": {
+  "800008": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 302,
@@ -139,11 +142,11 @@
     "reload_max": 1000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【三笠剧情】比叡主炮",
+    "name": "【三笠剧情】三笠主炮",
     "fire_fx": "zhupao",
     "charge_param": {
       "lockTime": 0.3,
-      "maxLock": 4
+      "maxLock": 2
     },
     "suppress": 1,
     "range": 100,
@@ -152,7 +155,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 70,
+    "damage": 110,
     "action_index": "attack",
     "type": 23,
     "search_condition": [
@@ -161,12 +164,12 @@
     "oxy_type": [
       1
     ],
-    "id": 800009,
+    "id": 800008,
     "spawn_bound": "cannon",
     "barrage_ID": [
       1302
     ],
-    "corrected": 100,
+    "corrected": 110,
     "auto_aftercast": 0,
     "bullet_ID": [
       1522
@@ -222,52 +225,68 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "800008": {
+  "800007": {
     "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 302,
-    "angle": 50,
-    "reload_max": 1000,
+    "attack_attribute": 0,
+    "shakescreen": 0,
+    "angle": 90,
+    "reload_max": 3600,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【三笠剧情】三笠主炮",
-    "fire_fx": "zhupao",
-    "charge_param": {
-      "lockTime": 0.3,
-      "maxLock": 2
-    },
+    "name": "【三笠剧情】重桜轰炸机",
+    "fire_fx": "",
+    "charge_param": "",
     "suppress": 1,
-    "range": 100,
+    "range": 90,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 110,
+    "damage": 60,
     "action_index": "attack",
-    "type": 23,
+    "type": 10,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 800008,
-    "spawn_bound": "cannon",
+    "id": 800007,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      1302
+      1500
     ],
-    "corrected": 110,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1522
+      119
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
+    "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-356mm",
-    "effect_move": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
     "axis_angle": 0
+  },
+  "793202": {
+    "fire_sfx": "battle/cannon-main",
+    "id": 793202,
+    "suppress": 1,
+    "range": 120,
+    "queue": 1,
+    "barrage_ID": [
+      850024
+    ],
+    "bullet_ID": [
+      840024
+    ],
+    "name": "【2021美系活动D3】BOSS 苍龙·META 一阶段 第二波 剑气",
+    "reload_max": 6000,
+    "aim_type": 1,
+    "fire_fx": "",
+    "base": 1000,
+    "damage": 16
   },
   "800006": {
     "search_type": 1,
@@ -310,50 +329,6 @@
     "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "800007": {
-    "search_type": 1,
-    "attack_attribute": 0,
-    "shakescreen": 0,
-    "angle": 90,
-    "reload_max": 3600,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【三笠剧情】重桜轰炸机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 60,
-    "action_index": "attack",
-    "type": 10,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 800007,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      1500
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      119
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
     "effect_move": 1,
     "axis_angle": 0
   },

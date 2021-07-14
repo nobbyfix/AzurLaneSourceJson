@@ -744,26 +744,26 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "611199": {
+  "611198": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1500,
+    "reload_max": 1000,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【新美系活动D2】BOSS –大黄蜂 鱼雷机",
+    "queue": 3,
+    "name": "【新美系活动D2】BOSS –大黄蜂 战斗机",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 110,
+    "range": 120,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 54,
-    "action_index": "attack",
+    "damage": 70,
+    "action_index": "",
     "type": 11,
     "search_condition": [
       1
@@ -771,20 +771,20 @@
     "oxy_type": [
       1
     ],
-    "id": 611199,
+    "id": 611198,
     "spawn_bound": "plane",
     "barrage_ID": [
-      610039
+      610040
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      610037
+      610036
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
+    "initial_over_heat": 1,
+    "aim_type": 0,
+    "fire_sfx": "battle/air-atk",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -832,50 +832,6 @@
     "aim_type": 1,
     "fire_sfx": "",
     "effect_move": 0,
-    "axis_angle": 0
-  },
-  "611198": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1000,
-    "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【新美系活动D2】BOSS –大黄蜂 战斗机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 120,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 70,
-    "action_index": "",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 611198,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      610040
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      610036
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 0,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
     "axis_angle": 0
   },
   "611197": {
@@ -966,50 +922,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "611171": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新美系活动D1】BOSS –巴尔的摩 Q版近程自卫火炮III",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 611171,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      13
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      999
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "611195": {
     "search_type": 1,
     "attack_attribute": 2,
@@ -1061,6 +973,100 @@
     "initial_over_heat": 0,
     "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "611171": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新美系活动D1】BOSS –巴尔的摩 Q版近程自卫火炮III",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 38,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 12,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 611171,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      13
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      999
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "611194": {
+    "search_type": 2,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 25,
+    "reload_max": 9500,
+    "torpedo_ammo": 0,
+    "queue": 4,
+    "name": "【新美系活动D2】BOSS –大黄蜂 轰炸武器",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 1,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 140,
+    "action_index": "",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 611194,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      610030,
+      610030,
+      610030,
+      610030
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      610031,
+      610032,
+      610033,
+      610034
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1698,51 +1704,45 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "611194": {
-    "search_type": 2,
-    "attack_attribute": 4,
+  "611165": {
+    "search_type": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 25,
-    "reload_max": 9500,
+    "angle": 60,
+    "reload_max": 2500,
     "torpedo_ammo": 0,
-    "queue": 4,
-    "name": "【新美系活动D2】BOSS –大黄蜂 轰炸武器",
+    "queue": 1,
+    "name": "【新美系活动C3】BOSS –测试者 5联装533mm磁性鱼雷",
     "fire_fx": "",
     "charge_param": "",
-    "suppress": 0,
-    "range": 1,
-    "recover_time": 0,
+    "suppress": 1,
+    "range": 52,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 140,
-    "action_index": "",
-    "type": 2,
+    "damage": 60,
+    "action_index": "attack",
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 611194,
-    "spawn_bound": "cannon",
+    "id": 611165,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      610030,
-      610030,
-      610030,
-      610030
+      620019
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      610031,
-      610032,
-      610033,
-      610034
+      1803
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
+    "initial_over_heat": 1,
     "aim_type": 0,
     "fire_sfx": "",
     "effect_move": 0,
@@ -1806,47 +1806,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "611165": {
+  "611185": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2500,
+    "angle": 360,
+    "reload_max": 300,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【新美系活动C3】BOSS –测试者 5联装533mm磁性鱼雷",
-    "fire_fx": "",
+    "name": "【新美系活动DS1】BOSS –弗莱彻Q版驱逐双联装炮瞄准III",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 52,
+    "range": 50,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 60,
+    "damage": 14,
     "action_index": "attack",
-    "type": 3,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 611165,
-    "spawn_bound": "torpedo",
+    "id": 611185,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      620019
+      1001
     ],
-    "corrected": 100,
+    "corrected": 110,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1803
+      1200
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 0,
-    "fire_sfx": "",
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1896,46 +1896,48 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "611185": {
+  "611184": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 300,
+    "reload_max": 800,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【新美系活动DS1】BOSS –弗莱彻Q版驱逐双联装炮瞄准III",
+    "name": "【新美系活动DS1】BOSS –弗莱彻_波浪连射",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 50,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
+    "range": 120,
+    "recover_time": 0,
+    "fire_fx_loop_type": 3,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
     "damage": 14,
     "action_index": "attack",
-    "type": 2,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 611185,
+    "id": 611184,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1001
+      567231,
+      567232
     ],
-    "corrected": 110,
+    "corrected": 105,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1200
+      567231,
+      567231
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
@@ -1984,25 +1986,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "611184": {
+  "611177": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 800,
+    "reload_max": 600,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【新美系活动DS1】BOSS –弗莱彻_波浪连射",
+    "name": "【新美系活动D1】BOSS –巴尔的摩 特殊弹幕",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 120,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 3,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 14,
+    "damage": 22,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -2011,17 +2013,21 @@
     "oxy_type": [
       1
     ],
-    "id": 611184,
+    "id": 611177,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      567231,
-      567232
+      620005,
+      620006,
+      620007,
+      620008
     ],
     "corrected": 105,
     "auto_aftercast": 0,
     "bullet_ID": [
-      567231,
-      567231
+      950050,
+      950050,
+      950050,
+      950050
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -2532,56 +2538,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "611177": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 600,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新美系活动D1】BOSS –巴尔的摩 特殊弹幕",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 3,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 22,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 611177,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      620005,
-      620006,
-      620007,
-      620008
-    ],
-    "corrected": 105,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      950050,
-      950050,
-      950050,
-      950050
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "611176": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -2770,6 +2726,50 @@
     "aim_type": 1,
     "fire_sfx": "battle/air-atk",
     "effect_move": 1,
+    "axis_angle": 0
+  },
+  "611095": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1800,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新美系活动BS2】BOSS –布鲁克林Q版轻巡单发x12随机I型弹幕2",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 60,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 8,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 611095,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      1107
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1201
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "611167": {

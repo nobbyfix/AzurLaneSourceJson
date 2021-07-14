@@ -183,44 +183,6 @@
     "fire_sfx": "battle/cannon-main",
     "damage": 18
   },
-  "791203": {
-    "fire_sfx": "battle/cannon-main",
-    "id": 791203,
-    "suppress": 0,
-    "range": 120,
-    "queue": 2,
-    "barrage_ID": [
-      850022
-    ],
-    "bullet_ID": [
-      840022
-    ],
-    "name": "【2021美系活动B3】BOSS 苍龙·META 一阶段 第二波 圆形扩散花牌",
-    "reload_max": 6000,
-    "aim_type": 0,
-    "fire_fx": "",
-    "base": 1000,
-    "damage": 10
-  },
-  "790210": {
-    "id": 790210,
-    "suppress": 1,
-    "range": 120,
-    "queue": 2,
-    "barrage_ID": [
-      850127,
-      850128
-    ],
-    "name": "【2021美系活动A3】BOSS 赤城 快速交叉弹",
-    "bullet_ID": [
-      840126,
-      840127
-    ],
-    "aim_type": 1,
-    "reload_max": 3000,
-    "base": 1000,
-    "damage": 14
-  },
   "791202": {
     "fire_sfx": "battle/cannon-main",
     "id": 791202,
@@ -240,22 +202,22 @@
     "base": 1000,
     "damage": 12
   },
-  "790211": {
-    "id": 790211,
+  "790210": {
+    "id": 790210,
     "suppress": 1,
     "range": 120,
     "queue": 2,
     "barrage_ID": [
-      850129,
-      850130
+      850127,
+      850128
     ],
-    "name": "【2021美系活动A3】BOSS 加贺 多重交叉弹",
+    "name": "【2021美系活动A3】BOSS 赤城 快速交叉弹",
     "bullet_ID": [
-      840128,
-      840129
+      840126,
+      840127
     ],
     "aim_type": 1,
-    "reload_max": 2400,
+    "reload_max": 3000,
     "base": 1000,
     "damage": 14
   },
@@ -277,6 +239,25 @@
     "fire_fx": "",
     "base": 1000,
     "damage": 10
+  },
+  "790211": {
+    "id": 790211,
+    "suppress": 1,
+    "range": 120,
+    "queue": 2,
+    "barrage_ID": [
+      850129,
+      850130
+    ],
+    "name": "【2021美系活动A3】BOSS 加贺 多重交叉弹",
+    "bullet_ID": [
+      840128,
+      840129
+    ],
+    "aim_type": 1,
+    "reload_max": 2400,
+    "base": 1000,
+    "damage": 14
   },
   "791111": {
     "initial_over_heat": 0,
@@ -359,6 +340,25 @@
     "fire_sfx": "battle/cannon-155mm",
     "damage": 18
   },
+  "790106": {
+    "id": 790106,
+    "suppress": 1,
+    "range": 120,
+    "queue": 2,
+    "barrage_ID": [
+      850103,
+      850104
+    ],
+    "name": "【2021美系活动A2】BOSS 苍龙 逆时针旋转弹幕",
+    "bullet_ID": [
+      840104,
+      840105
+    ],
+    "aim_type": 0,
+    "reload_max": 1200,
+    "base": 1000,
+    "damage": 16
+  },
   "791001": {
     "fire_sfx": "battle/cannon-155mm",
     "type": 1,
@@ -383,31 +383,49 @@
     "base": 1000,
     "damage": 18
   },
-  "785004": {
-    "id": 785004,
-    "suppress": 1,
-    "range": 120,
-    "queue": 2,
+  "790110": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 800,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【2021美系活动A2】BOSS 苍龙 主炮散射",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 16,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 790110,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      840178,
-      840179,
-      840180,
-      840181,
-      840182
+      850109
     ],
+    "corrected": 100,
+    "auto_aftercast": 0,
     "bullet_ID": [
-      830094,
-      830095,
-      830096,
-      830097,
-      830098
+      1403
     ],
-    "name": "【2021意大利活动EX】BOSS 测试者 第二波 古代罗马史 自机狙",
-    "reload_max": 6000,
+    "min_range": 0,
+    "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_fx": "",
-    "base": 1000,
-    "damage": 40
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "791002": {
     "fire_sfx": "battle/cannon-155mm",
@@ -614,47 +632,47 @@
     "base": 1002,
     "damage": 30
   },
-  "790204": {
+  "790205": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 100,
+    "reload_max": 200,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【2021美系活动A3】BOSS 赤城&加贺 轰炸机弹幕",
-    "fire_fx": "fangkongpaohuoshe2",
+    "queue": 2,
+    "name": "【2021美系活动A3】BOSS 赤城&加贺 鱼雷机弹幕",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 85,
+    "suppress": 0,
+    "range": 10,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 36,
+    "damage": 30,
     "action_index": "",
-    "type": 1,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 790204,
+    "id": 790205,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      850118
+      850119
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      840117
+      840118
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -727,47 +745,47 @@
     "fire_sfx": "",
     "damage": 25
   },
-  "790205": {
+  "790204": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 200,
+    "reload_max": 100,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【2021美系活动A3】BOSS 赤城&加贺 鱼雷机弹幕",
-    "fire_fx": "CAFire",
+    "queue": 3,
+    "name": "【2021美系活动A3】BOSS 赤城&加贺 轰炸机弹幕",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
-    "suppress": 0,
-    "range": 10,
+    "suppress": 1,
+    "range": 85,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 30,
+    "damage": 36,
     "action_index": "",
-    "type": 2,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 790205,
+    "id": 790204,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      850119
+      850118
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      840118
+      840117
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -1157,25 +1175,24 @@
     "base": 1002,
     "damage": 18
   },
-  "790108": {
-    "initial_over_heat": 0,
-    "id": 790108,
+  "790107": {
+    "id": 790107,
     "suppress": 1,
     "range": 120,
     "queue": 2,
     "barrage_ID": [
-      850111,
-      850112
+      850105,
+      850106
     ],
-    "name": "【2021美系活动A2】BOSS 苍龙 交错扩散弹",
+    "name": "【2021美系活动A2】BOSS 飞龙 顺时针旋转弹幕",
     "bullet_ID": [
-      840112,
-      840113
+      840106,
+      840107
     ],
-    "aim_type": 1,
-    "reload_max": 1600,
+    "aim_type": 0,
+    "reload_max": 1200,
     "base": 1000,
-    "damage": 12
+    "damage": 16
   },
   "790103": {
     "action_index": "",
@@ -1308,24 +1325,47 @@
     "base": 1000,
     "damage": 40
   },
-  "790106": {
-    "id": 790106,
-    "suppress": 1,
-    "range": 120,
-    "queue": 2,
+  "789003": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 90,
+    "reload_max": 6000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【2021意大利活动】我方支援飞机SP",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 66,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 789003,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      850103,
-      850104
+      12008
     ],
-    "name": "【2021美系活动A2】BOSS 苍龙 逆时针旋转弹幕",
-    "bullet_ID": [
-      840104,
-      840105
-    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [],
+    "min_range": 0,
+    "initial_over_heat": 0,
     "aim_type": 0,
-    "reload_max": 1200,
-    "base": 1000,
-    "damage": 16
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
+    "axis_angle": 0
   },
   "785003": {
     "id": 785003,
@@ -1401,24 +1441,31 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "790107": {
-    "id": 790107,
+  "785004": {
+    "id": 785004,
     "suppress": 1,
     "range": 120,
     "queue": 2,
     "barrage_ID": [
-      850105,
-      850106
+      840178,
+      840179,
+      840180,
+      840181,
+      840182
     ],
-    "name": "【2021美系活动A2】BOSS 飞龙 顺时针旋转弹幕",
     "bullet_ID": [
-      840106,
-      840107
+      830094,
+      830095,
+      830096,
+      830097,
+      830098
     ],
-    "aim_type": 0,
-    "reload_max": 1200,
+    "name": "【2021意大利活动EX】BOSS 测试者 第二波 古代罗马史 自机狙",
+    "reload_max": 6000,
+    "aim_type": 1,
+    "fire_fx": "",
     "base": 1000,
-    "damage": 16
+    "damage": 40
   },
   "789005": {
     "search_type": 2,
@@ -1710,48 +1757,24 @@
     "base": 1000,
     "damage": 20
   },
-  "790110": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 800,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【2021美系活动A2】BOSS 苍龙 主炮散射",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 16,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 790110,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      850109
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1403
-    ],
-    "min_range": 0,
+  "790108": {
     "initial_over_heat": 0,
+    "id": 790108,
+    "suppress": 1,
+    "range": 120,
+    "queue": 2,
+    "barrage_ID": [
+      850111,
+      850112
+    ],
+    "name": "【2021美系活动A2】BOSS 苍龙 交错扩散弹",
+    "bullet_ID": [
+      840112,
+      840113
+    ],
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
+    "reload_max": 1600,
+    "base": 1000,
+    "damage": 12
   }
 }

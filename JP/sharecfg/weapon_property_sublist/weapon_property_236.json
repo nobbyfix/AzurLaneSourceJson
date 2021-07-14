@@ -451,47 +451,47 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "472128": {
+  "472127": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1500,
+    "angle": 360,
+    "reload_max": 1000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【异色格C】【人型】科隆-Q版散型3发快速鱼雷",
-    "fire_fx": "",
+    "name": "【异色格C】【人型】科隆-Q版旋转子弹散射8连",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 72,
+    "range": 80,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 43,
-    "action_index": "",
-    "type": 3,
+    "damage": 10,
+    "action_index": "attack",
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 472128,
-    "spawn_bound": "torpedo",
+    "id": 472127,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      300506
+      300202
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      300506
+      300202
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -627,25 +627,30 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "472127": {
+  "472125": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1000,
+    "angle": 180,
+    "reload_max": 900,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【异色格C】【人型】科隆-Q版旋转子弹散射8连",
-    "fire_fx": "CLFire",
+    "name": "【异色格C】【人型】科隆-Q版穿透弹延迟散射4连",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 80,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 0.5,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
+    "damage": 14,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -654,15 +659,15 @@
     "oxy_type": [
       1
     ],
-    "id": 472127,
+    "id": 472125,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      300202
+      300101
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      300202
+      300101
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -808,52 +813,49 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "472125": {
+  "472124": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 900,
+    "reload_max": 1800,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【异色格C】【人型】科隆-Q版穿透弹延迟散射4连",
+    "name": "【异色格C】【人型】柯尼斯堡-Q版延迟散型4连鱼雷",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
+    "range": 72,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 2,
-      "fx": "jinengenemy",
-      "time": 0.5,
-      "isBound": true
-    },
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 14,
-    "action_index": "attack",
-    "type": 1,
+    "damage": 43,
+    "action_index": "",
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 472125,
-    "spawn_bound": "cannon",
+    "id": 472124,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      300101
+      300504,
+      300505
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      300101
+      300504,
+      300505
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1000,49 +1002,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "472124": {
+  "472123": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 1800,
+    "reload_max": 1200,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【异色格C】【人型】柯尼斯堡-Q版延迟散型4连鱼雷",
-    "fire_fx": "",
+    "name": "【异色格C】【人型】柯尼斯堡-Q版分裂散弹",
+    "fire_fx": "zhupao",
     "charge_param": "",
     "suppress": 1,
-    "range": 72,
+    "range": 80,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 43,
-    "action_index": "",
-    "type": 3,
+    "damage": 10,
+    "action_index": "attack",
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 472124,
-    "spawn_bound": "torpedo",
+    "id": 472123,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      300504,
-      300505
+      300601
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      300504,
-      300505
+      300601
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1183,50 +1183,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "472123": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1200,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【异色格C】【人型】柯尼斯堡-Q版分裂散弹",
-    "fire_fx": "zhupao",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 10,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 472123,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      300601
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      300601
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "472122": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -1273,6 +1229,50 @@
     "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "472121": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【异色格C】【人型】柯尼斯堡-驱逐弹幕",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 100,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 10,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 472121,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      400801
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      400801
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1364,50 +1364,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "472121": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【异色格C】【人型】柯尼斯堡-驱逐弹幕",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 100,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 10,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 472121,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      400801
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      400801
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "472114": {
     "search_type": 1,
     "attack_attribute": 3,
@@ -1450,6 +1406,50 @@
     "aim_type": 1,
     "fire_sfx": "battle/cannon-air",
     "effect_move": 1,
+    "axis_angle": 0
+  },
+  "472113": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 2500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【异色格C】【人型】Z46-鱼雷",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 50,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 43,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 472113,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      1403
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      10007
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
     "axis_angle": 0
   },
   "471925": {
@@ -1540,50 +1540,6 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "472113": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【异色格C】【人型】Z46-鱼雷",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 50,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 43,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 472113,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      1403
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      10007
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "472112": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -1612,6 +1568,52 @@
       1
     ],
     "id": 472112,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      200034,
+      200035
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      20005,
+      20005
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "472111": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【异色格C】【人型】Z46-专用武器",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 10,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 472111,
     "spawn_bound": "cannon",
     "barrage_ID": [
       200034,
@@ -1680,49 +1682,47 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "472111": {
+  "472110": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1000,
+    "angle": 60,
+    "reload_max": 2600,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【异色格C】【人型】Z46-专用武器",
-    "fire_fx": "CAFire",
+    "name": "【异色格C】【人型】Z21-Q版四联装鱼雷II",
+    "fire_fx": "",
     "charge_param": "",
-    "suppress": 0,
-    "range": 90,
-    "recover_time": 0,
+    "suppress": 1,
+    "range": 60,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
+    "damage": 43,
     "action_index": "attack",
-    "type": 1,
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 472111,
-    "spawn_bound": "cannon",
+    "id": 472110,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      200034,
-      200035
+      1403
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      20005,
-      20005
+      1801
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1858,16 +1858,16 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "472110": {
+  "472107": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2600,
+    "angle": 360,
+    "reload_max": 500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【异色格C】【人型】Z21-Q版四联装鱼雷II",
-    "fire_fx": "",
+    "name": "【异色格C】【人型】Z20-Q版驱逐单发瞄准x4随机II",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
     "range": 60,
@@ -1876,29 +1876,29 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 43,
+    "damage": 10,
     "action_index": "attack",
-    "type": 3,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 472110,
-    "spawn_bound": "torpedo",
+    "id": 472107,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      1403
+      1005
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1801
+      1200
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
+    "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1996,50 +1996,6 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "472107": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【异色格C】【人型】Z20-Q版驱逐单发瞄准x4随机II",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 10,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 472107,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      1005
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1200
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "472106": {
     "search_type": 1,
     "attack_attribute": 2,
@@ -2081,6 +2037,56 @@
     "initial_over_heat": 1,
     "aim_type": 1,
     "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "471503": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 2500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【异色格B】【BOSS】测试者β型-炮击一型",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 90,
+    "damage": 18,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 471503,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      399999,
+      399998,
+      399997,
+      399996
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      399999,
+      399998,
+      399997,
+      399996
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
