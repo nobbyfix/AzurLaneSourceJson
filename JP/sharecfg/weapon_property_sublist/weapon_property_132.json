@@ -1,96 +1,397 @@
 {
-  "66300": {
+  "65985": {
+    "id": 65985,
+    "base": 65981,
+    "name": "新泽西跨队支援弹幕-Lv5",
+    "damage": 14
+  },
+  "65989": {
+    "name": "新泽西跨队支援弹幕-Lv9",
+    "id": 65989,
+    "barrage_ID": [
+      81105,
+      81106
+    ],
+    "base": 65981,
+    "damage": 18
+  },
+  "66060": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 60,
-    "reload_max": 3000,
+    "reload_max": 2100,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "强袭模式·EX鱼雷LV0",
-    "fire_fx": "",
+    "name": "胡德技能LV0-PVE",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 90,
+    "suppress": 1,
+    "range": 95,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 1,
+      "fx": "jineng",
+      "time": 0.5,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 46,
-    "action_index": "",
-    "type": 3,
+    "damage": 50,
+    "action_index": "attack",
+    "type": 19,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 66300,
-    "spawn_bound": "torpedo",
+    "id": 66060,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      80013,
-      80014
+      199437,
+      199438
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      19901,
-      19901
+      10014,
+      10014
     ],
-    "min_range": 0,
+    "min_range": 25,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "66241": {
-    "name": "山城改技能Lv1",
-    "id": 66241,
-    "bullet_ID": [
-      66241
-    ],
-    "base": 66240,
-    "damage": 144
+  "66001": {
+    "name": "萨拉托加技能LV1",
+    "id": 66001,
+    "damage": 48,
+    "base": 66000,
+    "reload_max": 1270
   },
-  "66245": {
-    "name": "山城改技能Lv5",
-    "id": 66245,
-    "bullet_ID": [
-      66245
-    ],
-    "base": 66240,
-    "damage": 240
+  "66005": {
+    "name": "萨拉托加技能LV5",
+    "id": 66005,
+    "damage": 80,
+    "base": 66000,
+    "reload_max": 1166
   },
-  "66249": {
-    "name": "山城改技能Lv9",
-    "id": 66249,
-    "bullet_ID": [
-      66249
-    ],
-    "base": 66240,
-    "damage": 336
+  "66009": {
+    "name": "萨拉托加技能LV9",
+    "id": 66009,
+    "damage": 112,
+    "base": 66000,
+    "reload_max": 1062
   },
-  "66320": {
+  "66088": {
+    "name": "宾夕法尼亚技能LV8-PVP",
+    "barrage_ID": [
+      199400,
+      199401,
+      199402,
+      199403
+    ],
+    "id": 66088,
+    "bullet_ID": [
+      10014,
+      10014,
+      10014,
+      10014
+    ],
+    "base": 66080,
+    "damage": 104
+  },
+  "66080": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 120,
-    "reload_max": 3000,
+    "reload_max": 1250,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "鬼神演舞弹幕LV0",
+    "name": "宾夕法尼亚技能LV0-PVP",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 50,
+    "range": 115,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
+    "damage": 40,
+    "action_index": "attack",
+    "type": 19,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 66080,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      199400,
+      199401
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      10014,
+      10014
+    ],
+    "min_range": 35,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "66021": {
+    "name": "厌战技能LV1",
+    "id": 66021,
+    "damage": 60,
+    "base": 66020,
+    "reload_max": 3298
+  },
+  "66025": {
+    "name": "厌战技能LV5",
+    "id": 66025,
+    "damage": 92,
+    "base": 66020,
+    "reload_max": 3029
+  },
+  "66029": {
+    "name": "厌战技能LV9",
+    "bullet_ID": [
+      19982
+    ],
+    "id": 66029,
+    "damage": 138,
+    "base": 66020,
+    "reload_max": 2760
+  },
+  "66087": {
+    "name": "宾夕法尼亚技能LV7-PVP",
+    "barrage_ID": [
+      199400,
+      199401,
+      199402,
+      199403
+    ],
+    "id": 66087,
+    "bullet_ID": [
+      10014,
+      10014,
+      10014,
+      10014
+    ],
+    "base": 66080,
+    "damage": 96
+  },
+  "66086": {
+    "name": "宾夕法尼亚技能LV6-PVP",
+    "barrage_ID": [
+      199400,
+      199401,
+      199402
+    ],
+    "id": 66086,
+    "bullet_ID": [
+      10014,
+      10014,
+      10014
+    ],
+    "base": 66080,
+    "damage": 88
+  },
+  "66041": {
+    "id": 66041,
+    "base": 66040,
+    "name": "胡德技能LV1-PVP",
+    "damage": 62
+  },
+  "65982": {
+    "id": 65982,
+    "base": 65981,
+    "name": "新泽西跨队支援弹幕-Lv2",
+    "damage": 11
+  },
+  "65986": {
+    "id": 65986,
+    "base": 65981,
+    "name": "新泽西跨队支援弹幕-Lv6",
+    "damage": 15
+  },
+  "65990": {
+    "name": "新泽西跨队支援弹幕-Lv10",
+    "id": 65990,
+    "barrage_ID": [
+      81105,
+      81106
+    ],
+    "base": 65981,
+    "damage": 20
+  },
+  "66085": {
+    "name": "宾夕法尼亚技能LV5-PVP",
+    "barrage_ID": [
+      199400,
+      199401,
+      199402
+    ],
+    "id": 66085,
+    "bullet_ID": [
+      10014,
+      10014,
+      10014
+    ],
+    "base": 66080,
+    "damage": 80
+  },
+  "66061": {
+    "id": 66061,
+    "base": 66060,
+    "name": "胡德技能LV1-PVE",
+    "damage": 62
+  },
+  "66002": {
+    "name": "萨拉托加技能LV2",
+    "id": 66002,
+    "damage": 56,
+    "base": 66000,
+    "reload_max": 1244
+  },
+  "66006": {
+    "name": "萨拉托加技能LV6",
+    "id": 66006,
+    "damage": 88,
+    "base": 66000,
+    "reload_max": 1140
+  },
+  "66010": {
+    "name": "萨拉托加技能LV10",
+    "id": 66010,
+    "damage": 120,
+    "base": 66000,
+    "reload_max": 1036
+  },
+  "66084": {
+    "name": "宾夕法尼亚技能LV4-PVP",
+    "barrage_ID": [
+      199400,
+      199401,
+      199402
+    ],
+    "id": 66084,
+    "bullet_ID": [
+      10014,
+      10014,
+      10014
+    ],
+    "base": 66080,
+    "damage": 72
+  },
+  "66081": {
+    "id": 66081,
+    "base": 66080,
+    "name": "宾夕法尼亚技能LV1-PVP",
+    "damage": 48
+  },
+  "66022": {
+    "name": "厌战技能LV2",
+    "id": 66022,
+    "damage": 68,
+    "base": 66020,
+    "reload_max": 3231
+  },
+  "66026": {
+    "name": "厌战技能LV6",
+    "bullet_ID": [
+      19982
+    ],
+    "id": 66026,
+    "damage": 100,
+    "base": 66020,
+    "reload_max": 2962
+  },
+  "66030": {
+    "name": "厌战技能LV10",
+    "bullet_ID": [
+      19982
+    ],
+    "id": 66030,
+    "damage": 154,
+    "base": 66020,
+    "reload_max": 2692
+  },
+  "66083": {
+    "id": 66083,
+    "base": 66080,
+    "name": "宾夕法尼亚技能LV3-PVP",
+    "damage": 64
+  },
+  "66067": {
+    "name": "胡德技能LV7-PVE",
+    "barrage_ID": [
+      199441,
+      199442,
+      199443
+    ],
+    "id": 66067,
+    "bullet_ID": [
+      10014,
+      10014,
+      10014
+    ],
+    "base": 66060,
+    "damage": 134
+  },
+  "66042": {
+    "id": 66042,
+    "base": 66040,
+    "name": "胡德技能LV2-PVP",
+    "damage": 74
+  },
+  "65983": {
+    "id": 65983,
+    "base": 65981,
+    "name": "新泽西跨队支援弹幕-Lv3",
+    "damage": 12
+  },
+  "65987": {
+    "name": "新泽西跨队支援弹幕-Lv7",
+    "id": 65987,
+    "barrage_ID": [
+      81105,
+      81106
+    ],
+    "base": 65981,
+    "damage": 16
+  },
+  "65991": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 5000,
+    "torpedo_ammo": 0,
+    "queue": 4,
+    "name": "黑海伦娜-区域雷达扫描",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 120,
+    "recover_time": 0,
+    "fire_fx_loop_type": 3,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 1,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -99,593 +400,208 @@
     "oxy_type": [
       1
     ],
-    "id": 66320,
+    "id": 65991,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      80101
+      81107
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      19902
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "66261": {
-    "id": 66261,
-    "base": 66260,
-    "damage": 68
-  },
-  "66265": {
-    "id": 66265,
-    "base": 66260,
-    "damage": 113
-  },
-  "66269": {
-    "id": 66269,
-    "base": 66260,
-    "damage": 161
-  },
-  "66346": {
-    "id": 66346,
-    "base": 66340,
-    "name": "鬼神演舞鱼雷LV6",
-    "damage": 112
-  },
-  "66340": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 3000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "鬼神演舞鱼雷LV0",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 46,
-    "action_index": "",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 66340,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      80112,
-      80113
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      19903,
-      19903
+      19305
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 0,
-    "fire_sfx": "",
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "66281": {
-    "id": 66281,
-    "base": 66280,
-    "name": "强袭模式·EX弹幕LV1",
+  "66070": {
+    "name": "胡德技能LV10-PVE",
+    "barrage_ID": [
+      199441,
+      199442,
+      199443
+    ],
+    "id": 66070,
+    "bullet_ID": [
+      10014,
+      10014,
+      10014
+    ],
+    "base": 66060,
+    "damage": 174
+  },
+  "66062": {
+    "id": 66062,
+    "base": 66060,
+    "name": "胡德技能LV2-PVE",
+    "damage": 74
+  },
+  "66003": {
+    "name": "萨拉托加技能LV3",
+    "id": 66003,
+    "damage": 64,
+    "base": 66000,
+    "reload_max": 1218
+  },
+  "66007": {
+    "name": "萨拉托加技能LV7",
+    "id": 66007,
+    "damage": 96,
+    "base": 66000,
+    "reload_max": 1114
+  },
+  "66069": {
+    "name": "胡德技能LV9-PVE",
+    "barrage_ID": [
+      199441,
+      199442,
+      199443
+    ],
+    "id": 66069,
+    "bullet_ID": [
+      10014,
+      10014,
+      10014
+    ],
+    "base": 66060,
+    "damage": 158
+  },
+  "66068": {
+    "name": "胡德技能LV8-PVE",
+    "barrage_ID": [
+      199441,
+      199442,
+      199443
+    ],
+    "id": 66068,
+    "bullet_ID": [
+      10014,
+      10014,
+      10014
+    ],
+    "base": 66060,
+    "damage": 146
+  },
+  "66082": {
+    "id": 66082,
+    "base": 66080,
+    "name": "宾夕法尼亚技能LV2-PVP",
+    "damage": 56
+  },
+  "66023": {
+    "name": "厌战技能LV3",
+    "id": 66023,
+    "damage": 76,
+    "base": 66020,
+    "reload_max": 3164
+  },
+  "66027": {
+    "name": "厌战技能LV7",
+    "bullet_ID": [
+      19982
+    ],
+    "id": 66027,
+    "damage": 112,
+    "base": 66020,
+    "reload_max": 2894
+  },
+  "66066": {
+    "name": "胡德技能LV6-PVE",
+    "id": 66066,
+    "barrage_ID": [
+      199439,
+      199440
+    ],
+    "base": 66060,
+    "damage": 122
+  },
+  "66065": {
+    "name": "胡德技能LV5-PVE",
+    "id": 66065,
+    "barrage_ID": [
+      199439,
+      199440
+    ],
+    "base": 66060,
+    "damage": 110
+  },
+  "66064": {
+    "name": "胡德技能LV4-PVE",
+    "id": 66064,
+    "barrage_ID": [
+      199439,
+      199440
+    ],
+    "base": 66060,
+    "damage": 98
+  },
+  "66043": {
+    "id": 66043,
+    "base": 66040,
+    "name": "胡德技能LV3-PVP",
+    "damage": 86
+  },
+  "65984": {
+    "id": 65984,
+    "base": 65981,
+    "name": "新泽西跨队支援弹幕-Lv4",
     "damage": 13
   },
-  "66285": {
-    "name": "强袭模式·EX弹幕LV5",
-    "id": 66285,
+  "65988": {
+    "name": "新泽西跨队支援弹幕-Lv8",
+    "id": 65988,
     "barrage_ID": [
-      80002,
-      80004,
-      80006
+      81105,
+      81106
     ],
-    "base": 66280,
+    "base": 65981,
     "damage": 17
   },
-  "66289": {
-    "name": "强袭模式·EX弹幕LV9",
+  "66063": {
+    "id": 66063,
+    "base": 66060,
+    "name": "胡德技能LV3-PVE",
+    "damage": 86
+  },
+  "66050": {
+    "name": "胡德技能LV10-PVP",
     "barrage_ID": [
-      80002,
-      80004,
-      80006,
-      80008,
-      80011
+      199441,
+      199442,
+      199443
     ],
-    "id": 66289,
+    "id": 66050,
     "bullet_ID": [
-      19900,
-      19900,
-      19900,
-      19900,
-      19900
+      10014,
+      10014,
+      10014
     ],
-    "base": 66280,
-    "damage": 24
+    "base": 66040,
+    "damage": 174
   },
-  "66230": {
-    "id": 66230,
-    "base": 66220,
-    "name": "沙恩霍斯特级技能鱼雷Lv10",
-    "damage": 137
-  },
-  "66345": {
-    "id": 66345,
-    "base": 66340,
-    "name": "鬼神演舞鱼雷LV5",
-    "damage": 101
-  },
-  "66301": {
-    "id": 66301,
-    "base": 66300,
-    "name": "强袭模式·EX鱼雷LV1",
-    "damage": 57
-  },
-  "66242": {
-    "name": "山城改技能Lv2",
-    "id": 66242,
-    "bullet_ID": [
-      66242
-    ],
-    "base": 66240,
-    "damage": 168
-  },
-  "66246": {
-    "name": "山城改技能Lv6",
-    "id": 66246,
-    "bullet_ID": [
-      66246
-    ],
-    "base": 66240,
-    "damage": 264
-  },
-  "66250": {
-    "name": "山城改技能Lv10",
-    "id": 66250,
-    "bullet_ID": [
-      66250
-    ],
-    "base": 66240,
-    "damage": 360
-  },
-  "66344": {
-    "id": 66344,
-    "base": 66340,
-    "name": "鬼神演舞鱼雷LV4",
-    "damage": 90
-  },
-  "66321": {
-    "id": 66321,
-    "base": 66320,
-    "name": "鬼神演舞弹幕LV1",
-    "damage": 11
-  },
-  "66262": {
-    "id": 66262,
-    "base": 66260,
-    "damage": 79
-  },
-  "66266": {
-    "id": 66266,
-    "base": 66260,
-    "damage": 125
-  },
-  "66270": {
-    "id": 66270,
-    "base": 66260,
-    "damage": 173
-  },
-  "66343": {
-    "id": 66343,
-    "base": 66340,
-    "name": "鬼神演舞鱼雷LV3",
-    "damage": 79
-  },
-  "66341": {
-    "id": 66341,
-    "base": 66340,
-    "name": "鬼神演舞鱼雷LV1",
-    "damage": 57
-  },
-  "66282": {
-    "name": "强袭模式·EX弹幕LV2",
-    "id": 66282,
-    "barrage_ID": [
-      80002,
-      80003,
-      80005
-    ],
-    "base": 66280,
-    "damage": 14
-  },
-  "66286": {
-    "name": "强袭模式·EX弹幕LV6",
-    "barrage_ID": [
-      80002,
-      80004,
-      80006,
-      80007,
-      80010
-    ],
-    "id": 66286,
-    "bullet_ID": [
-      19900,
-      19900,
-      19900,
-      19900,
-      19900
-    ],
-    "base": 66280,
-    "damage": 18
-  },
-  "66290": {
-    "name": "强袭模式·EX弹幕LV10",
-    "barrage_ID": [
-      80002,
-      80004,
-      80006,
-      80009,
-      80012
-    ],
-    "id": 66290,
-    "bullet_ID": [
-      19900,
-      19900,
-      19900,
-      19900,
-      19900
-    ],
-    "base": 66280,
-    "damage": 26
-  },
-  "66325": {
-    "name": "鬼神演舞弹幕LV5",
-    "barrage_ID": [
-      80101,
-      80103,
-      80106
-    ],
-    "id": 66325,
-    "bullet_ID": [
-      19902,
-      19902,
-      19902
-    ],
-    "base": 66320,
-    "damage": 15
-  },
-  "66330": {
-    "name": "鬼神演舞弹幕LV10",
-    "barrage_ID": [
-      80101,
-      80104,
-      80107,
-      80109,
-      80111
-    ],
-    "id": 66330,
-    "bullet_ID": [
-      19902,
-      19902,
-      19902,
-      19902,
-      19902
-    ],
-    "base": 66320,
-    "damage": 20
-  },
-  "66302": {
-    "id": 66302,
-    "base": 66300,
-    "name": "强袭模式·EX鱼雷LV2",
-    "damage": 68
-  },
-  "66243": {
-    "name": "山城改技能Lv3",
-    "id": 66243,
-    "bullet_ID": [
-      66243
-    ],
-    "base": 66240,
-    "damage": 192
-  },
-  "66247": {
-    "name": "山城改技能Lv7",
-    "id": 66247,
-    "bullet_ID": [
-      66247
-    ],
-    "base": 66240,
-    "damage": 288
-  },
-  "66329": {
-    "name": "鬼神演舞弹幕LV9",
-    "barrage_ID": [
-      80101,
-      80104,
-      80107,
-      80108,
-      80110
-    ],
-    "id": 66329,
-    "bullet_ID": [
-      19902,
-      19902,
-      19902,
-      19902,
-      19902
-    ],
-    "base": 66320,
-    "damage": 19
-  },
-  "66328": {
-    "name": "鬼神演舞弹幕LV8",
-    "barrage_ID": [
-      80101,
-      80104,
-      80107,
-      80108,
-      80110
-    ],
-    "id": 66328,
-    "bullet_ID": [
-      19902,
-      19902,
-      19902,
-      19902,
-      19902
-    ],
-    "base": 66320,
-    "damage": 18
-  },
-  "66322": {
-    "name": "鬼神演舞弹幕LV2",
-    "barrage_ID": [
-      80101,
-      80102,
-      80105
-    ],
-    "id": 66322,
-    "bullet_ID": [
-      19902,
-      19902,
-      19902
-    ],
-    "base": 66320,
-    "damage": 12
-  },
-  "66263": {
-    "id": 66263,
-    "base": 66260,
-    "damage": 90
-  },
-  "66267": {
-    "id": 66267,
-    "base": 66260,
-    "damage": 137
-  },
-  "66327": {
-    "name": "鬼神演舞弹幕LV7",
-    "barrage_ID": [
-      80101,
-      80104,
-      80107
-    ],
-    "id": 66327,
-    "bullet_ID": [
-      19902,
-      19902,
-      19902
-    ],
-    "base": 66320,
-    "damage": 17
-  },
-  "66326": {
-    "name": "鬼神演舞弹幕LV6",
-    "barrage_ID": [
-      80101,
-      80104,
-      80107
-    ],
-    "id": 66326,
-    "bullet_ID": [
-      19902,
-      19902,
-      19902
-    ],
-    "base": 66320,
-    "damage": 16
-  },
-  "66342": {
-    "id": 66342,
-    "base": 66340,
-    "name": "鬼神演舞鱼雷LV2",
-    "damage": 68
-  },
-  "66283": {
-    "name": "强袭模式·EX弹幕LV3",
-    "id": 66283,
-    "barrage_ID": [
-      80002,
-      80003,
-      80005
-    ],
-    "base": 66280,
-    "damage": 15
-  },
-  "66287": {
-    "name": "强袭模式·EX弹幕LV7",
-    "barrage_ID": [
-      80002,
-      80004,
-      80006,
-      80007,
-      80010
-    ],
-    "id": 66287,
-    "bullet_ID": [
-      19900,
-      19900,
-      19900,
-      19900,
-      19900
-    ],
-    "base": 66280,
-    "damage": 20
-  },
-  "66324": {
-    "name": "鬼神演舞弹幕LV4",
-    "barrage_ID": [
-      80101,
-      80103,
-      80106
-    ],
-    "id": 66324,
-    "bullet_ID": [
-      19902,
-      19902,
-      19902
-    ],
-    "base": 66320,
-    "damage": 14
-  },
-  "66323": {
-    "name": "鬼神演舞弹幕LV3",
-    "barrage_ID": [
-      80101,
-      80102,
-      80105
-    ],
-    "id": 66323,
-    "bullet_ID": [
-      19902,
-      19902,
-      19902
-    ],
-    "base": 66320,
-    "damage": 13
-  },
-  "66310": {
-    "id": 66310,
-    "base": 66300,
-    "name": "强袭模式·EX鱼雷LV10",
-    "damage": 156
-  },
-  "66240": {
+  "66000": {
     "search_type": 1,
     "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 90,
-    "reload_max": 3000,
+    "shakescreen": 302,
+    "angle": 40,
+    "reload_max": 1300,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "山城改技能Lv0",
-    "fire_fx": "",
+    "name": "萨拉托加技能LV0",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
-    "recover_time": 1,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "fx": "jineng",
-      "time": 0.8,
-      "isBound": true
-    },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 120,
-    "action_index": "",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 66240,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12010
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      66240
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "66244": {
-    "name": "山城改技能Lv4",
-    "id": 66244,
-    "bullet_ID": [
-      66244
-    ],
-    "base": 66240,
-    "damage": 216
-  },
-  "66248": {
-    "name": "山城改技能Lv8",
-    "id": 66248,
-    "bullet_ID": [
-      66248
-    ],
-    "base": 66240,
-    "damage": 312
-  },
-  "66309": {
-    "id": 66309,
-    "base": 66300,
-    "name": "强袭模式·EX鱼雷LV9",
-    "damage": 145
-  },
-  "66308": {
-    "id": 66308,
-    "base": 66300,
-    "name": "强袭模式·EX鱼雷LV8",
-    "damage": 134
-  },
-  "66260": {
-    "search_type": 2,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 25,
-    "reload_max": 3000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "5 x 100lb 爆弾",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 500,
-    "recover_time": 0,
+    "range": 120,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 80,
-    "damage": 57,
-    "action_index": "",
+    "expose": 10,
+    "attack_attribute_ratio": 120,
+    "damage": 40,
+    "action_index": "attack",
     "type": 2,
     "search_condition": [
       1
@@ -693,140 +609,228 @@
     "oxy_type": [
       1
     ],
-    "id": 66260,
+    "id": 66000,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      2124
+      1206
     ],
-    "corrected": 100,
+    "corrected": 105,
     "auto_aftercast": 0,
     "bullet_ID": [
-      2121
+      1404
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "",
+    "fire_sfx": "battle/cannon-203mm",
     "effect_move": 0,
-    "axis_angle": 25
+    "axis_angle": 0
   },
-  "66264": {
-    "id": 66264,
-    "base": 66260,
-    "damage": 101
+  "66004": {
+    "name": "萨拉托加技能LV4",
+    "id": 66004,
+    "damage": 72,
+    "base": 66000,
+    "reload_max": 1192
   },
-  "66268": {
-    "id": 66268,
-    "base": 66260,
-    "damage": 149
+  "66008": {
+    "name": "萨拉托加技能LV8",
+    "id": 66008,
+    "damage": 104,
+    "base": 66000,
+    "reload_max": 1088
   },
-  "66307": {
-    "id": 66307,
-    "base": 66300,
-    "name": "强袭模式·EX鱼雷LV7",
-    "damage": 123
+  "66049": {
+    "name": "胡德技能LV9-PVP",
+    "barrage_ID": [
+      199441,
+      199442,
+      199443
+    ],
+    "id": 66049,
+    "bullet_ID": [
+      10014,
+      10014,
+      10014
+    ],
+    "base": 66040,
+    "damage": 158
   },
-  "66306": {
-    "id": 66306,
-    "base": 66300,
-    "name": "强袭模式·EX鱼雷LV6",
-    "damage": 112
+  "66048": {
+    "name": "胡德技能LV8-PVP",
+    "barrage_ID": [
+      199441,
+      199442,
+      199443
+    ],
+    "id": 66048,
+    "bullet_ID": [
+      10014,
+      10014,
+      10014
+    ],
+    "base": 66040,
+    "damage": 146
   },
-  "66280": {
+  "66020": {
     "search_type": 1,
     "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 120,
-    "reload_max": 3000,
+    "shakescreen": 302,
+    "angle": 50,
+    "reload_max": 3366,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "强袭模式·EX弹幕LV0",
-    "fire_fx": "CLFire",
-    "charge_param": "",
+    "name": "厌战技能LV0",
+    "fire_fx": "zhupao",
+    "charge_param": {
+      "lockTime": 0.3,
+      "maxLock": 2
+    },
     "suppress": 1,
-    "range": 50,
+    "range": 200,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 1,
+    "attack_attribute_ratio": 80,
+    "damage": 52,
+    "action_index": "attack_main",
+    "type": 23,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 66280,
+    "id": 66020,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      80001,
-      80003,
-      80005
+      1300
+    ],
+    "corrected": 110,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      19981
+    ],
+    "min_range": 35,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-356mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "66024": {
+    "name": "厌战技能LV4",
+    "id": 66024,
+    "damage": 84,
+    "base": 66020,
+    "reload_max": 3096
+  },
+  "66028": {
+    "name": "厌战技能LV8",
+    "bullet_ID": [
+      19982
+    ],
+    "id": 66028,
+    "damage": 124,
+    "base": 66020,
+    "reload_max": 2827
+  },
+  "66047": {
+    "name": "胡德技能LV7-PVP",
+    "barrage_ID": [
+      199441,
+      199442,
+      199443
+    ],
+    "id": 66047,
+    "bullet_ID": [
+      10014,
+      10014,
+      10014
+    ],
+    "base": 66040,
+    "damage": 134
+  },
+  "66046": {
+    "name": "胡德技能LV6-PVP",
+    "id": 66046,
+    "barrage_ID": [
+      199439,
+      199440
+    ],
+    "base": 66040,
+    "damage": 122
+  },
+  "66040": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 2100,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "胡德技能LV0-PVP",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 115,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "alertTime": 1,
+      "fx": "jineng",
+      "time": 0.5,
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 50,
+    "action_index": "attack",
+    "type": 19,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 66040,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      199437,
+      199438
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      19900,
-      19900,
-      19900
+      10014,
+      10014
     ],
-    "min_range": 0,
+    "min_range": 35,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "66284": {
-    "name": "强袭模式·EX弹幕LV4",
-    "id": 66284,
+  "66044": {
+    "name": "胡德技能LV4-PVP",
+    "id": 66044,
     "barrage_ID": [
-      80002,
-      80004,
-      80006
+      199439,
+      199440
     ],
-    "base": 66280,
-    "damage": 16
+    "base": 66040,
+    "damage": 98
   },
-  "66288": {
-    "name": "强袭模式·EX弹幕LV8",
+  "66045": {
+    "name": "胡德技能LV5-PVP",
+    "id": 66045,
     "barrage_ID": [
-      80002,
-      80004,
-      80006,
-      80008,
-      80011
+      199439,
+      199440
     ],
-    "id": 66288,
-    "bullet_ID": [
-      19900,
-      19900,
-      19900,
-      19900,
-      19900
-    ],
-    "base": 66280,
-    "damage": 22
-  },
-  "66305": {
-    "id": 66305,
-    "base": 66300,
-    "name": "强袭模式·EX鱼雷LV5",
-    "damage": 101
-  },
-  "66304": {
-    "id": 66304,
-    "base": 66300,
-    "name": "强袭模式·EX鱼雷LV4",
-    "damage": 90
-  },
-  "66303": {
-    "id": 66303,
-    "base": 66300,
-    "name": "强袭模式·EX鱼雷LV3",
-    "damage": 79
+    "base": 66040,
+    "damage": 110
   }
 }

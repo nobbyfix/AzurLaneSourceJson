@@ -1,0 +1,44 @@
+{
+  "picture": "",
+  "id": 107161,
+  "desc": "",
+  "color": "yellow",
+  "last_effect": "",
+  "time": 1,
+  "icon": 107160,
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffFixVelocity",
+      "arg_list": {
+        "mul": 0,
+        "add": -1
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 107162
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffHP",
+      "arg_list": {
+        "number": 100
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "jinengchufared",
+  "name": ""
+}

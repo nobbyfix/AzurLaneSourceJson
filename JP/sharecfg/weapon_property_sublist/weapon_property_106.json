@@ -377,63 +377,15 @@
     "name": "航空攻击展示-瑞鹤III",
     "base": 60211
   },
-  "60341": {
-    "search_type": 1,
-    "attack_attribute": 0,
-    "shakescreen": 0,
-    "angle": 30,
-    "reload_max": 1750,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "航空攻击展示-芙米露露I",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 18,
-    "action_index": "attack",
-    "type": 99,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 60341,
-    "spawn_bound": "plane",
+  "60152": {
+    "id": 60152,
     "barrage_ID": [
       1511,
-      1510,
+      1511,
       1510
     ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      17100,
-      19000,
-      19000
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "60343": {
-    "id": 60343,
-    "barrage_ID": [
-      1511,
-      1512,
-      1512
-    ],
-    "name": "航空攻击展示-芙米露露III",
-    "base": 60341
+    "name": "航空攻击展示-苍龙II",
+    "base": 60151
   },
   "60282": {
     "id": 60282,
@@ -503,60 +455,69 @@
     "name": "航空攻击展示-光荣III",
     "base": 60221
   },
-  "60351": {
+  "60162": {
+    "id": 60162,
+    "barrage_ID": [
+      1511,
+      1510,
+      1511
+    ],
+    "name": "航空攻击展示-飞龙II",
+    "base": 60161
+  },
+  "60301": {
     "search_type": 1,
-    "attack_attribute": 0,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 30,
-    "reload_max": 1750,
+    "angle": 360,
+    "reload_max": 400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "航空攻击展示-乌璐露I",
-    "fire_fx": "",
+    "name": "Z46弹幕展示I",
+    "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 90,
+    "suppress": 0,
+    "range": 50,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 18,
+    "damage": 8,
     "action_index": "attack",
-    "type": 99,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 60351,
-    "spawn_bound": "plane",
+    "id": 60301,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      1511,
-      1510
+      79211,
+      79212,
+      79213,
+      79214,
+      79219,
+      79220
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      37000,
-      39000
+      79211,
+      79211,
+      79211,
+      79211,
+      79212,
+      79212
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
     "axis_angle": 0
-  },
-  "60353": {
-    "id": 60353,
-    "barrage_ID": [
-      1512,
-      1512
-    ],
-    "name": "航空攻击展示-乌璐露III",
-    "base": 60351
   },
   "60292": {
     "id": 60292,
@@ -757,6 +718,17 @@
     "name": "航空攻击展示-凤翔II",
     "base": 60181
   },
+  "60235": {
+    "name": "雪风弹幕展示II",
+    "id": 60235,
+    "barrage_ID": [
+      79132,
+      79133,
+      79134
+    ],
+    "base": 60234,
+    "damage": 12
+  },
   "60312": {
     "id": 60312,
     "barrage_ID": [
@@ -835,59 +807,20 @@
     "name": "航空攻击展示-齐柏林伯爵II",
     "base": 60191
   },
-  "60301": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 400,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "Z46弹幕展示I",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 50,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 60301,
-    "spawn_bound": "cannon",
+  "60304": {
+    "name": "凯旋弹幕展示II",
+    "id": 60304,
     "barrage_ID": [
-      79211,
-      79212,
-      79213,
-      79214,
-      79219,
-      79220
+      80467,
+      80468,
+      80469,
+      80470,
+      80471,
+      80472,
+      80474
     ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      79211,
-      79211,
-      79211,
-      79211,
-      79212,
-      79212
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
+    "base": 60303,
+    "damage": 12
   },
   "60322": {
     "id": 60322,
@@ -967,15 +900,18 @@
     "name": "航空攻击展示-翔鹤II",
     "base": 60201
   },
-  "60235": {
-    "name": "雪风弹幕展示II",
-    "id": 60235,
+  "60302": {
+    "name": "Z46弹幕展示II",
+    "id": 60302,
     "barrage_ID": [
-      79132,
-      79133,
-      79134
+      79215,
+      79216,
+      79217,
+      79218,
+      79219,
+      79220
     ],
-    "base": 60234,
+    "base": 60301,
     "damage": 12
   },
   "60332": {
@@ -1056,30 +992,63 @@
     "name": "航空攻击展示-瑞鹤II",
     "base": 60211
   },
-  "60304": {
-    "name": "凯旋弹幕展示II",
-    "id": 60304,
-    "barrage_ID": [
-      80467,
-      80468,
-      80469,
-      80470,
-      80471,
-      80472,
-      80474
+  "60234": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "雪风弹幕展示I",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 50,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 8,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
     ],
-    "base": 60303,
-    "damage": 12
-  },
-  "60342": {
-    "id": 60342,
+    "oxy_type": [
+      1
+    ],
+    "id": 60234,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      1511,
-      1511,
+      79131,
+      79133,
+      79134
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      79131,
+      79132,
+      79132
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "60153": {
+    "id": 60153,
+    "barrage_ID": [
+      1512,
+      1512,
       1511
     ],
-    "name": "航空攻击展示-芙米露露II",
-    "base": 60341
+    "name": "航空攻击展示-苍龙III",
+    "base": 60151
   },
   "60281": {
     "search_type": 1,
@@ -1149,28 +1118,63 @@
     "name": "航空攻击展示-光荣II",
     "base": 60221
   },
-  "60302": {
-    "name": "Z46弹幕展示II",
-    "id": 60302,
-    "barrage_ID": [
-      79215,
-      79216,
-      79217,
-      79218,
-      79219,
-      79220
+  "60161": {
+    "search_type": 1,
+    "attack_attribute": 0,
+    "shakescreen": 0,
+    "angle": 30,
+    "reload_max": 1750,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "航空攻击展示-飞龙I",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 18,
+    "action_index": "attack",
+    "type": 99,
+    "search_condition": [
+      1
     ],
-    "base": 60301,
-    "damage": 12
-  },
-  "60352": {
-    "id": 60352,
+    "oxy_type": [
+      1
+    ],
+    "id": 60161,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      1511,
+      1510,
+      1510,
       1511
     ],
-    "name": "航空攻击展示-乌璐露II",
-    "base": 60351
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      37100,
+      39000,
+      38000
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "60163": {
+    "id": 60163,
+    "barrage_ID": [
+      1512,
+      1511,
+      1512
+    ],
+    "name": "航空攻击展示-飞龙III",
+    "base": 60161
   },
   "60291": {
     "search_type": 1,
@@ -1278,52 +1282,50 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "60234": {
+  "60171": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 0,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 400,
+    "angle": 30,
+    "reload_max": 1750,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "雪风弹幕展示I",
-    "fire_fx": "CLFire",
+    "name": "航空攻击展示-独角兽I",
+    "fire_fx": "",
     "charge_param": "",
-    "suppress": 0,
-    "range": 50,
+    "suppress": 1,
+    "range": 90,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 8,
+    "damage": 18,
     "action_index": "attack",
-    "type": 2,
+    "type": 99,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 60234,
-    "spawn_bound": "cannon",
+    "id": 60171,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      79131,
-      79133,
-      79134
+      1511,
+      1510
     ],
-    "corrected": 125,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      79131,
-      79132,
-      79132
+      27000,
+      28000
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
     "axis_angle": 0
   },
   "60236": {
