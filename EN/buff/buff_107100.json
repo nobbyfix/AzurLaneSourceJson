@@ -1,0 +1,65 @@
+{
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "picture": "",
+  "id": 107100,
+  "desc": "",
+  "color": "red",
+  "last_effect": "",
+  "time": 0,
+  "icon": 107100,
+  "effect_list": [
+    {
+      "trigger": [],
+      "type": "BattleBuffField",
+      "arg_list": {
+        "target": "TargetPlayerMainFleet",
+        "buff_id": 107105
+      }
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkillRandom",
+      "arg_list": {
+        "target": "TargetSelf",
+        "range": [
+          [
+            0,
+            0.25
+          ],
+          [
+            0.25,
+            0.5
+          ],
+          [
+            0.5,
+            0.75
+          ],
+          [
+            0.75,
+            1
+          ]
+        ],
+        "skill_id_list": [
+          107101,
+          107102,
+          107103,
+          107104
+        ]
+      }
+    }
+  ],
+  "stack": 1,
+  "init_effect": "",
+  "name": ""
+}

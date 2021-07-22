@@ -1,47 +1,52 @@
 {
-  "65601": {
+  "65571": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 0,
     "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 3000,
+    "angle": 90,
+    "reload_max": 2490,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "文琴佐鱼雷 LV1",
+    "name": "威悉技能轰炸机PlusLv1",
     "fire_fx": "",
     "charge_param": "",
-    "suppress": 0,
+    "suppress": 1,
     "range": 90,
-    "recover_time": 0,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 38,
-    "action_index": "",
-    "type": 3,
+    "damage": 39,
+    "action_index": "attack",
+    "type": 10,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 65601,
-    "spawn_bound": "torpedo",
+    "id": 65571,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      81007
+      12010
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      19256
+      65571
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
     "axis_angle": 0
+  },
+  "65589": {
+    "id": 65589,
+    "base": 68631,
+    "damage": 191
   },
   "65552": {
     "id": 65552,
@@ -116,17 +121,19 @@
     "base": 68631,
     "damage": 175
   },
-  "65592": {
-    "id": 65592,
-    "base": 65591,
-    "name": "文琴佐弹幕LV2",
-    "damage": 9
+  "65587": {
+    "id": 65587,
+    "base": 68631,
+    "damage": 157
   },
-  "65596": {
-    "id": 65596,
-    "base": 65591,
-    "name": "文琴佐弹幕LV6",
-    "damage": 13
+  "65573": {
+    "name": "威悉技能轰炸机PlusLv3",
+    "id": 65573,
+    "bullet_ID": [
+      65573
+    ],
+    "base": 65571,
+    "damage": 49
   },
   "65537": {
     "id": 65537,
@@ -134,65 +141,24 @@
     "name": "z24技能弹幕LV7",
     "damage": 17
   },
-  "65600": {
-    "id": 65600,
-    "base": 65591,
-    "name": "文琴佐弹幕LV10",
-    "damage": 17
+  "65585": {
+    "id": 65585,
+    "base": 68631,
+    "damage": 123
   },
-  "65599": {
-    "id": 65599,
-    "base": 65591,
-    "name": "文琴佐弹幕LV9",
-    "damage": 16
+  "65583": {
+    "id": 65583,
+    "base": 68631,
+    "damage": 92
   },
-  "65591": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 800,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "文琴佐弹幕LV1",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 120,
-    "recover_time": 0,
-    "fire_fx_loop_type": 3,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 65591,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      81004,
-      81005,
-      81006
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
+  "65575": {
+    "name": "威悉技能轰炸机PlusLv5",
+    "id": 65575,
     "bullet_ID": [
-      19255,
-      19255,
-      19255
+      65575
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
+    "base": 65571,
+    "damage": 60
   },
   "65553": {
     "id": 65553,
@@ -206,129 +172,85 @@
     "name": "Z28 护航精英弹幕",
     "damage": 17
   },
-  "65561": {
+  "65517": {
+    "id": 65517,
+    "base": 65511,
+    "name": "海因里希亲王 直感之拳LV7",
+    "damage": 16
+  },
+  "65519": {
+    "id": 65519,
+    "base": 65511,
+    "name": "海因里希亲王 直感之拳LV9",
+    "damage": 20
+  },
+  "65521": {
     "search_type": 1,
-    "attack_attribute": 0,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 90,
-    "reload_max": 2490,
+    "angle": 360,
+    "reload_max": 5000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "威悉技能轰炸机Lv1",
-    "fire_fx": "",
+    "name": "纽伦堡 训练有素LV1",
+    "fire_fx": "CLFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
+    "suppress": 0,
+    "range": 120,
+    "recover_time": 0,
+    "fire_fx_loop_type": 3,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 39,
+    "damage": 6,
     "action_index": "attack",
-    "type": 10,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 65561,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12009
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      65561
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "65565": {
-    "name": "威悉技能轰炸机Lv5",
-    "id": 65565,
-    "bullet_ID": [
-      65565
-    ],
-    "base": 65561,
-    "damage": 60
-  },
-  "65569": {
-    "name": "威悉技能轰炸机Lv9",
-    "id": 65569,
-    "bullet_ID": [
-      65569
-    ],
-    "base": 65561,
-    "damage": 81
-  },
-  "65573": {
-    "name": "威悉技能轰炸机PlusLv3",
-    "id": 65573,
-    "bullet_ID": [
-      65573
-    ],
-    "base": 65571,
-    "damage": 49
-  },
-  "65577": {
-    "name": "威悉技能轰炸机PlusLv7",
-    "id": 65577,
-    "bullet_ID": [
-      65577
-    ],
-    "base": 65571,
-    "damage": 71
-  },
-  "65581": {
-    "search_type": 2,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 22,
-    "reload_max": 9500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "2 x 500lb 炸弹",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 500,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 80,
-    "damage": 58,
-    "action_index": "",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 65581,
+    "id": 65521,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      2121
+      80997,
+      80998,
+      80999,
+      81000
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      2122
+      19252,
+      19252,
+      19252,
+      19252
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
-    "axis_angle": 22
+    "axis_angle": 0
+  },
+  "65523": {
+    "id": 65523,
+    "base": 65521,
+    "name": "纽伦堡 训练有素LV3",
+    "damage": 8
+  },
+  "65525": {
+    "id": 65525,
+    "base": 65521,
+    "name": "纽伦堡 训练有素LV5",
+    "damage": 10
+  },
+  "65527": {
+    "id": 65527,
+    "base": 65521,
+    "name": "纽伦堡 训练有素LV7",
+    "damage": 12
   },
   "65529": {
     "id": 65529,
@@ -402,23 +324,67 @@
     "name": "z24技能弹幕LV8",
     "damage": 18
   },
-  "65597": {
-    "id": 65597,
-    "base": 65591,
-    "name": "文琴佐弹幕LV7",
-    "damage": 14
+  "65581": {
+    "search_type": 2,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 22,
+    "reload_max": 9500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "2 x 500lb 炸弹",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 500,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 80,
+    "damage": 58,
+    "action_index": "",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 65581,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      2121
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      2122
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 22
   },
-  "65595": {
-    "id": 65595,
-    "base": 65591,
-    "name": "文琴佐弹幕LV5",
-    "damage": 12
+  "65579": {
+    "name": "威悉技能轰炸机PlusLv9",
+    "id": 65579,
+    "bullet_ID": [
+      65579
+    ],
+    "base": 65571,
+    "damage": 81
   },
-  "65593": {
-    "id": 65593,
-    "base": 65591,
-    "name": "文琴佐弹幕LV3",
-    "damage": 10
+  "65577": {
+    "name": "威悉技能轰炸机PlusLv7",
+    "id": 65577,
+    "bullet_ID": [
+      65577
+    ],
+    "base": 65571,
+    "damage": 71
   },
   "65554": {
     "id": 65554,
@@ -492,17 +458,23 @@
     "base": 68631,
     "damage": 207
   },
-  "65594": {
-    "id": 65594,
-    "base": 65591,
-    "name": "文琴佐弹幕LV4",
-    "damage": 11
+  "65569": {
+    "name": "威悉技能轰炸机Lv9",
+    "id": 65569,
+    "bullet_ID": [
+      65569
+    ],
+    "base": 65561,
+    "damage": 81
   },
-  "65598": {
-    "id": 65598,
-    "base": 65591,
-    "name": "文琴佐弹幕LV8",
-    "damage": 15
+  "65567": {
+    "name": "威悉技能轰炸机Lv7",
+    "id": 65567,
+    "bullet_ID": [
+      65567
+    ],
+    "base": 65561,
+    "damage": 71
   },
   "65539": {
     "id": 65539,
@@ -510,15 +482,23 @@
     "name": "z24技能弹幕LV9",
     "damage": 19
   },
-  "65589": {
-    "id": 65589,
-    "base": 68631,
-    "damage": 191
+  "65565": {
+    "name": "威悉技能轰炸机Lv5",
+    "id": 65565,
+    "bullet_ID": [
+      65565
+    ],
+    "base": 65561,
+    "damage": 60
   },
-  "65587": {
-    "id": 65587,
-    "base": 68631,
-    "damage": 157
+  "65563": {
+    "name": "威悉技能轰炸机Lv3",
+    "id": 65563,
+    "bullet_ID": [
+      65563
+    ],
+    "base": 65561,
+    "damage": 49
   },
   "65551": {
     "search_type": 1,
@@ -580,90 +560,41 @@
     "name": "Z28 护航精英弹幕",
     "damage": 19
   },
-  "65563": {
-    "name": "威悉技能轰炸机Lv3",
-    "id": 65563,
-    "bullet_ID": [
-      65563
-    ],
-    "base": 65561,
-    "damage": 49
+  "65518": {
+    "id": 65518,
+    "base": 65511,
+    "name": "海因里希亲王 直感之拳LV8",
+    "damage": 18
   },
-  "65567": {
-    "name": "威悉技能轰炸机Lv7",
-    "id": 65567,
-    "bullet_ID": [
-      65567
-    ],
-    "base": 65561,
-    "damage": 71
+  "65520": {
+    "id": 65520,
+    "base": 65511,
+    "name": "海因里希亲王 直感之拳LV10",
+    "damage": 22
   },
-  "65571": {
-    "search_type": 1,
-    "attack_attribute": 0,
-    "shakescreen": 0,
-    "angle": 90,
-    "reload_max": 2490,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "威悉技能轰炸机PlusLv1",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 39,
-    "action_index": "attack",
-    "type": 10,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 65571,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12010
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      65571
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
-    "axis_angle": 0
+  "65522": {
+    "id": 65522,
+    "base": 65521,
+    "name": "纽伦堡 训练有素LV2",
+    "damage": 7
   },
-  "65575": {
-    "name": "威悉技能轰炸机PlusLv5",
-    "id": 65575,
-    "bullet_ID": [
-      65575
-    ],
-    "base": 65571,
-    "damage": 60
+  "65524": {
+    "id": 65524,
+    "base": 65521,
+    "name": "纽伦堡 训练有素LV4",
+    "damage": 9
   },
-  "65579": {
-    "name": "威悉技能轰炸机PlusLv9",
-    "id": 65579,
-    "bullet_ID": [
-      65579
-    ],
-    "base": 65571,
-    "damage": 81
+  "65526": {
+    "id": 65526,
+    "base": 65521,
+    "name": "纽伦堡 训练有素LV6",
+    "damage": 11
   },
-  "65583": {
-    "id": 65583,
-    "base": 68631,
-    "damage": 92
+  "65528": {
+    "id": 65528,
+    "base": 65521,
+    "name": "纽伦堡 训练有素LV8",
+    "damage": 13
   },
   "65530": {
     "id": 65530,
@@ -695,9 +626,48 @@
     "name": "z24技能弹幕LV10",
     "damage": 20
   },
-  "65585": {
-    "id": 65585,
-    "base": 68631,
-    "damage": 123
+  "65561": {
+    "search_type": 1,
+    "attack_attribute": 0,
+    "shakescreen": 0,
+    "angle": 90,
+    "reload_max": 2490,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "威悉技能轰炸机Lv1",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 39,
+    "action_index": "attack",
+    "type": 10,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 65561,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      12009
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      65561
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
+    "axis_angle": 0
   }
 }
