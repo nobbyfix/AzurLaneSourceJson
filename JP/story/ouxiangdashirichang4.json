@@ -1,0 +1,951 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "mode": 1,
+      "sequence": [
+        [
+          "海に響くアイドルの歌-日常編\n\n<size=45>四 オフとゲームについて</size>",
+          1
+        ]
+      ],
+      "stopbgm": true
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "母港・重桜寮",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "idom-Tender",
+      "bgmDelay": 2,
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "hidePaintEquip": true,
+      "say": "えいっ！やぁっ！とうっ！まだまだー！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "甘いのです。ジャンプ、左フックに、ここでスキル使用です",
+      "actor": 301050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 301010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "ああああ～！こっちばっか攻撃してこないでよー！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintEquip": true,
+      "say": "んっふっふ～、みんなが1つに固まってるうちに遠くから……必殺！ウルトラバーニングパーンチ！！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700070,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "あーーー！！",
+      "subActors": [
+        {
+          "pos": {
+            "x": 555
+          },
+          "actor": 301010
+        },
+        {
+          "pos": {
+            "x": 1125
+          },
+          "actor": 301050
+        }
+      ],
+      "dialogShake": {
+        "speed": 0.08,
+        "x": 15,
+        "number": 2
+      },
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "双海真美&吹雪&綾波",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "hidePaintEquip": true,
+      "say": "いえ～い！亜美の勝ち～！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 301050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "hidePaintEquip": true,
+      "say": "うう…負けたです……それにしても、亜美と真美、2人ともゲームがすごく上手いです",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "hidePaintEquip": true,
+      "say": "向こうでも、めーっちゃゲームしてたからね～♪こっちにもおもしろいゲームがたくさんあって良かったよ。こうやってみんなで遊べるし～！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "私たちも一緒に遊べて楽しいよ！…で、次はどのゲームにする？",
+      "actor": 301010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "hidePaintEquip": true,
+      "say": "んー……これとかどう？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "最近出たばかりの新作リズムゲーム…でもそれ、2人対戦用です。4人プレイはできないです……",
+      "actor": 301050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "hidePaintEquip": true,
+      "say": "諦めるのはまだ早ーい！！……じゃじゃーん！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 301010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "say": "割り箸？それも4本…何に使うの？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintEquip": true,
+      "say": "くじ引きだよ、くじ引き！チーム戦で2試合して両方勝った方が優勝ってルールにすれば解決っしょ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "面白そうです。なら、早速くじを引くです",
+      "actor": 301050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintEquip": true,
+      "say": "…みんな、1本ずつ持った？じゃ、一気にひくよ……せぇ～の！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700060,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "Aチーム！",
+      "expression": 1,
+      "hidePaintEquip": true,
+      "effects": [
+        {
+          "name": "speed",
+          "active": true
+        }
+      ],
+      "subActors": [
+        {
+          "pos": {
+            "x": 1185
+          },
+          "actor": 301050
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "双海亜美&綾波",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700070,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "hidePaintEquip": true,
+      "say": "Bチーム！",
+      "subActors": [
+        {
+          "pos": {
+            "x": 1185
+          },
+          "actor": 301010
+        }
+      ],
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "双海真美&吹雪",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "hidePaintEquip": true,
+      "say": "決まり！真美は吹雪っちと一緒だね。よっろしく～！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "effects": [
+        {
+          "name": "speed",
+          "active": false
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "リズムゲームね！私、ノリの良さには誰にも負けない自信があるんだ。今度こそ勝利を頂いちゃうよ！",
+      "actor": 301010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintEquip": true,
+      "say": "のぞむところだー！そう簡単に勝ちはゆずらないよ～？ね、綾波っち！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "もちろんです。綾波のゲームの腕をなめるなです……1回戦、Aチームは綾波からいくです",
+      "actor": 301050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "hidePaintEquip": true,
+      "say": "はいはーい！Bチームは真美から行くよ～！…それじゃあ、ゲームスタート！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "右…左…あ、ここは右……うう、失敗したです……",
+      "actor": 301050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "hidePaintEquip": true,
+      "say": "右～右～左～♪ふふーん、なかなかおもしろい曲だね～",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "…これで、ゲーム終了かな？スコアは…真美が上ね！",
+      "actor": 301010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "hidePaintEquip": true,
+      "say": "Bチーム1勝～！吹雪っち、いぇーい！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 301050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "悔しいです……亜美、次は任せたです",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 0.3,
+          "number": 2,
+          "delay": 0,
+          "x": 45
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintEquip": true,
+      "say": "任された～！亜美がBチームの勝利を阻止してみせるかんね！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "止めれるものなら止めてみてよ！…それじゃ、２回戦スタート！",
+      "actor": 301010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 4,
+      "hidePaintEquip": true,
+      "say": "上～下～♪やりぃ～、ボーナスタイム！右連打～♪",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 301010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "上、下、左…あ、あれ、違うノーツ来ちゃった？ああ～ついていけなくなっちゃうよー！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 0,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0.1,
+          "x": 45
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "…ゲーム終了、亜美の勝ちです",
+      "actor": 301050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 301010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintEquip": true,
+      "say": "自信あったのにな～……あれ？ってことは、チーム戦は引き分け？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "そうです。…初めてでこんなにできるなんて、やっぱりアイドルのリズム感覚は違うです",
+      "actor": 301050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintEquip": true,
+      "say": "これが経験の差というものだよ……といってもけっこうギリギリのスコアだったけどね。綾波っち、ゲーム上手すぎるんだもん！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintEquip": true,
+      "say": "そうそう♪それに吹雪っちも、メッチャノリノリでプレイしてたし。亜美も隣で思わず踊り出しちゃいそうだったよ～",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "hidePaintEquip": true,
+      "say": "ほんとほんと！ねえねえねえ吹雪っち～、次は真美と対戦しよ？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "hidePaintEquip": true,
+      "say": "あっ、亜美も綾波っちと対戦したいー！……ってことで、おふたりさん、もう1戦どうですかい？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 301010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "もちろん！1回やって少し慣れたからね！さっきみたいにはいかないよ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "say": "綾波のプライドをかけて、真剣勝負です。次は絶対負けないです",
+      "actor": 301050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    },
+    {
+      "actor": 10700070,
+      "side": 0,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "hidePaintEquip": true,
+      "say": "んっふっふ～♪望むところだー！",
+      "subActors": {
+        "1": {
+          "pos": {
+            "x": 1185
+          },
+          "actor": 10700060
+        },
+        "hidePaintEquip": true
+      },
+      "hideOther": true,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "双海真美&双海亜美",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_story_room"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "OUXIANGDASHIRICHANG4",
+  "once": true
+}

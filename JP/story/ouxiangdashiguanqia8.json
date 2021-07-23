@@ -1,0 +1,578 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "side": 2,
+      "dir": 1,
+      "flashout": {
+        "alpha": [
+          0,
+          1
+        ],
+        "dur": 1,
+        "black": true
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashin": {
+        "alpha": [
+          1,
+          0
+        ],
+        "black": true,
+        "delay": 1,
+        "dur": 1
+      },
+      "say": "母港・ライブ海域",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "bgm": "idom-Appeal",
+      "bgmDelay": 2,
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 201216,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "今戻りました！ニーミちゃん、皆、大丈夫！？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 10700020,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintEquip": true,
+      "say": "ありがとうございます。みんな無事です",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 10700010,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintEquip": true,
+      "say": "びっくりしちゃったけど、みんなが助けてくれたおかげでなんとか……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 10700060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "んっふっふ～それだけ亜美たちの救援がバッチリなタイミングだったってことだね！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 10700070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "うんうん！真美たちのμ兵装のお披露目もできたしね！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 301057,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "負けイベントの後に駆けつけてくる新しい仲間、神演出です",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 401236,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 3,
+      "say": "もう、結構危なかったわよ…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "say": "いや、そんなことはないさ。元々、亜美と真美がずっと信号を追跡していたからな",
+      "actor": 103250,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 103250,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "だから危ない状況になる前に救援できたのさ",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 10700060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "そうだよ！このμ兵装の艤装は潜水艦タイプ！つまり……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 10700070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "はるるんたちが知らない間にずっと量産艦の後ろについてたってこと！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 10700050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintEquip": true,
+      "say": "本当に潜れるなんて……！？想像していたよりずっとすごい技術力ね……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "say": "一日で、ではないですけど明石がやってくれました、です",
+      "actor": 301057,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "say": "ほら、衣装にもピッタリなデザインで、メッチャイケてるっしょ♪",
+      "actor": 10700070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 10700060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "律っちゃんのも楽しみだね～♪",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 10700040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "hidePaintEquip": true,
+      "say": "まぁ……これは一体……？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "say": "律子があの明石って子に聞いてたのよ。私そっくりのニセモノが装備していたメカがどんなものかって",
+      "actor": 10700030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 10700030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "明石の話では、あれは「ここの艦船たちが装備している『μ兵装』に似てる」らしいわ",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "say": "それで私たちも「μ兵装」が装備できないかってことになったの",
+      "actor": 10700030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 10700050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintEquip": true,
+      "say": "聞いてみただけなのにまさか本当に作ってくれるなんてね……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 10700070,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "でもこれで真美たちも「戦える」からいいじゃん！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 10700060,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "say": "そうだよ！これからは亜美たちが、敵をいっぱいやっつけちゃうかんね！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 10700040,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "hidePaintEquip": true,
+      "say": "そういうことだったのね～",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "say": "「一緒に戦えること」はありがたいが、無理はするんじゃないぞ",
+      "actor": 103250,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 103250,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "さっきだって、綾波と亜美と真美が一緒になって助けに飛び出たから驚いたぞ。ちゃんと「みんなで」助け合おう",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 301057,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 2,
+      "say": "ごめんなさいです……",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": -30,
+          "type": "shake",
+          "dur": 0.2,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "say": "謝ることじゃないわ。仲間を守ろうとするのは当然のことよ",
+      "actor": 10700030,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 108050,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "expression": 1,
+      "say": "それにいざというときがあったらこのアルバコアもいるし！ヒヒヒ",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    },
+    {
+      "actor": 103250,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "blackBg": true,
+      "say": "さあ、もうちょっと先に進んでステージを下見したら帰還するか！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_map_idom"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "OUXIANGDASHIGUANQIA8",
+  "once": true
+}

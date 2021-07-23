@@ -1,0 +1,602 @@
+{
+  "fadeOut": 1.5,
+  "fadein": 1.5,
+  "scripts": [
+    {
+      "soundeffect": "event:/battle/boom2",
+      "side": 2,
+      "bgm": "hunhe-battle",
+      "hidePaintObj": true,
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2,
+            0
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      },
+      "dialogShake": {
+        "speed": 0.09,
+        "x": 8.5,
+        "number": 2
+      },
+      "say": "――！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "dir": 1,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 107140,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintObj": true,
+      "expression": 1,
+      "say": "どんどん強くなっていく…！このままセイレーンを放っておくわけにはいかないわ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 107140,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintObj": true,
+      "expression": 3,
+      "say": "指揮官を救出したら、この鏡面海域の発生源も叩くべきよ",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 105170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintObj": true,
+      "expression": 4,
+      "say": "当然よ！AF基地の脅威もこれで解除できれば一石二鳥だわ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 105170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintObj": true,
+      "say": "さて、まずはここの「駒」たちを全部倒して……！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintObj": true,
+      "say": "―――――",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "通信機",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "hidePaintObj": true,
+      "expression": 4,
+      "say": "「敵空母艦隊ノ破壊状況ヲ確認。勝利ハコチラニ傾イテイル」",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#ffff4d",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "hidePaintObj": true,
+      "expression": 3,
+      "say": "「ヨークタウンニ敵機ノ攻撃ガ命中。損傷ハカナリ大キイ」",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#ffff4d",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 107050,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "hidePaintObj": true,
+      "expression": 1,
+      "say": "「大シタ損傷デハナイワ。状況ノ分析ハ冷静ニ」",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#ffff4d",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 107050,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "hidePaintObj": true,
+      "expression": 1,
+      "say": "「…………」",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#ffff4d",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 107070,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "hidePaintObj": true,
+      "expression": 3,
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "say": "「損傷度合イハ無視デキナイ…修理ガ要ル…」",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#ffff4d",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 107060,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "hidePaintObj": true,
+      "expression": 4,
+      "say": "「ハムマン……！」",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#ffff4d",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 101250,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "hidePaintObj": true,
+      "say": "「了解！ヨークタウンノ護衛ヲ開始…！」",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#ffff4d",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintObj": true,
+      "say": "―――――",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "actorName": "通信機",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 102290,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "hidePaintObj": true,
+      "expression": 4,
+      "say": "ニュージャージーさん、今の声聞こえた…？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 101470,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "hidePaintObj": true,
+      "expression": 2,
+      "action": [
+        {
+          "y": 45,
+          "type": "shake",
+          "dur": 0.15,
+          "number": 2,
+          "delay": 0,
+          "x": 0
+        }
+      ],
+      "say": "ヨークタウンさんのこと言っていますね…ど、どうしよう…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 105170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintObj": true,
+      "expression": 5,
+      "say": "焦らないで。さっき見た「ハムマン」はこの先の霧の中に消えていったわね",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 102290,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "hidePaintObj": true,
+      "say": "はい…追跡しようとしたけど、この霧の先に入った途端レーダー信号が消えちゃって…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 105170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintObj": true,
+      "say": "「ハムマン」の行動になにか異常はない？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 101470,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "hidePaintObj": true,
+      "say": "いいえ、わたしたちの前を通っただけです…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 105170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintObj": true,
+      "expression": 3,
+      "say": "じゃあ今の行動は「再現」と見たほうが良さそうね",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 105170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintObj": true,
+      "say": "（当たり前ね。ハムマンはもちろん、あたしだって一人でこんな鏡面海域の中で散歩したいわけじゃないの）",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 105170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintObj": true,
+      "say": "（でも同じ顔の敵…こういう時はあたしじゃなくて指揮官がみんなを激励してほしいわね）",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 101470,
+      "side": 2,
+      "dir": 1,
+      "paintingNoise": true,
+      "hidePaintObj": true,
+      "say": "あ、あの…追いますか？まだそう遠く離れていないはずですけど…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 105170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintObj": true,
+      "expression": 3,
+      "say": "追おう。相手はおそらくコチラに眼中にないか、今まで戦ってきた「駒」とは別系統なのかのどちらかと思う",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 105170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintObj": true,
+      "say": "この好機を逃すわけにはいかないわ！タイコもそれでいい？",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 107140,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintObj": true,
+      "expression": 1,
+      "say": "はい、向こうの「再現」に私達が含まれていなければ、ある程度自由に行動できるはず",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 107140,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintObj": true,
+      "expression": 2,
+      "say": "このままはぐれセイレーンや「駒」を倒し、「ハムマン」を追いましょう！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    },
+    {
+      "actor": 105170,
+      "side": 2,
+      "dir": 1,
+      "nameColor": "#a9f548",
+      "hidePaintObj": true,
+      "blackBg": true,
+      "expression": 4,
+      "say": "じゃあ決定ね！ボイシ、モリソン、引き続き偵察を頼むわ！",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "bgName": "bg_luoxuan_2"
+    }
+  ],
+  "fadeType": 2,
+  "mode": 2,
+  "id": "JINGWEILUOXUAN18",
+  "once": true
+}
