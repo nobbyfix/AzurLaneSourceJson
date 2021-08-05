@@ -841,6 +841,92 @@
     "config_data": "",
     "view_name": "IdolMasterView"
   },
+  "25": {
+    "hub_id": 20,
+    "type": 1,
+    "mediator_name": "MiniHubMediator",
+    "simple_config_data": {
+      "score_level": [
+        0,
+        5,
+        12,
+        20
+      ],
+      "memory_time": 5,
+      "select_time": 10,
+      "correct_value": {
+        "1": 1,
+        "2": 2,
+        "3": 5,
+        "0": 0
+      }
+    },
+    "id": 25,
+    "config_csv": "",
+    "name": "小吃小游戏",
+    "config_csv_key": "",
+    "request_data": 0,
+    "config_data": "",
+    "view_name": "SnackView"
+  },
+  "26": {
+    "hub_id": 20,
+    "type": 2,
+    "mediator_name": "FireworkFactoryMediator",
+    "simple_config_data": {
+      "score_reference": [
+        [
+          140,
+          160
+        ],
+        [
+          120,
+          180
+        ],
+        [
+          90,
+          210
+        ]
+      ],
+      "roundTime": 50
+    },
+    "id": 26,
+    "config_csv": "",
+    "name": "制作烟花",
+    "config_csv_key": "",
+    "request_data": 1,
+    "config_data": "",
+    "view_name": "FireworkFactoryView"
+  },
+  "27": {
+    "hub_id": 20,
+    "type": 2,
+    "mediator_name": "ShootingGameMediator",
+    "simple_config_data": {
+      "score_level": [
+        0,
+        10,
+        25,
+        35
+      ],
+      "fireCD": 1,
+      "moveSpeed": 4,
+      "targetScore": [
+        10,
+        5,
+        2
+      ],
+      "bonusTime": 0,
+      "baseTime": 12
+    },
+    "id": 27,
+    "config_csv": "",
+    "name": "打靶游戏",
+    "config_csv_key": "",
+    "request_data": 0,
+    "config_data": "",
+    "view_name": "ShootingGameView"
+  },
   "all": [
     1,
     2,
@@ -865,6 +951,9 @@
     21,
     22,
     23,
-    24
+    24,
+    25,
+    26,
+    27
   ]
 }
