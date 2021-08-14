@@ -1,10 +1,10 @@
 {
-  "90240": {
+  "90200": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 120,
-    "reload_max": 578,
+    "reload_max": 638,
     "torpedo_ammo": 0,
     "queue": 1,
     "name": "三联装152mm主炮Mle1930",
@@ -17,7 +17,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 9,
+    "damage": 7,
     "action_index": "attack",
     "type": 2,
     "search_condition": [
@@ -26,7 +26,7 @@
     "oxy_type": [
       1
     ],
-    "id": 90240,
+    "id": 90200,
     "spawn_bound": "cannon",
     "barrage_ID": [
       1102
@@ -34,7 +34,7 @@
     "corrected": 105,
     "auto_aftercast": 0.4,
     "bullet_ID": [
-      2204
+      2201
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -43,11 +43,14 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "90244": {
-    "id": 90244,
-    "damage": 13,
-    "base": 90240,
-    "reload_max": 552
+  "88001": {
+    "bullet_ID": [
+      88001
+    ],
+    "id": 88001,
+    "damage": 20,
+    "base": 88000,
+    "reload_max": 1830
   },
   "90122": {
     "id": 90122,
@@ -55,11 +58,49 @@
     "base": 90120,
     "reload_max": 308
   },
-  "90126": {
-    "id": 90126,
-    "damage": 10,
-    "base": 90120,
-    "reload_max": 284
+  "90000": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 310,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "130mm单装炮Mle1924",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 50,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 3,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 90000,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      1021
+    ],
+    "corrected": 110,
+    "auto_aftercast": 0.2,
+    "bullet_ID": [
+      2200
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "90130": {
     "id": 90130,
@@ -67,29 +108,76 @@
     "base": 90120,
     "reload_max": 260
   },
-  "90323": {
-    "id": 90323,
-    "damage": 52,
-    "base": 90320,
-    "reload_max": 4841
+  "88005": {
+    "bullet_ID": [
+      88005
+    ],
+    "id": 88005,
+    "damage": 30,
+    "base": 88000,
+    "reload_max": 1742
   },
-  "90201": {
-    "id": 90201,
-    "damage": 8,
-    "base": 90200,
-    "reload_max": 630
+  "86106": {
+    "bullet_ID": [
+      95846
+    ],
+    "id": 86106,
+    "damage": 36,
+    "base": 86100,
+    "reload_max": 1742
   },
-  "90142": {
-    "id": 90142,
-    "damage": 7,
-    "base": 90140,
-    "reload_max": 288
+  "88000": {
+    "search_type": 1,
+    "attack_attribute": 0,
+    "shakescreen": 0,
+    "angle": 30,
+    "reload_max": 1852,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "GL.2舰载战斗机T0",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 18,
+    "action_index": "attack",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 88000,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      1500
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      88000
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
+    "axis_angle": 0
   },
-  "90146": {
-    "id": 90146,
-    "damage": 11,
-    "base": 90140,
-    "reload_max": 264
+  "88004": {
+    "bullet_ID": [
+      88004
+    ],
+    "id": 88004,
+    "damage": 26,
+    "base": 88000,
+    "reload_max": 1764
   },
   "90150": {
     "id": 90150,
@@ -97,94 +185,91 @@
     "base": 90140,
     "reload_max": 240
   },
-  "90343": {
-    "id": 90343,
-    "damage": 59,
-    "base": 90340,
-    "reload_max": 4653
+  "90142": {
+    "id": 90142,
+    "damage": 7,
+    "base": 90140,
+    "reload_max": 288
   },
-  "90221": {
-    "id": 90221,
-    "damage": 9,
-    "base": 90220,
-    "reload_max": 601
+  "90149": {
+    "id": 90149,
+    "damage": 14,
+    "base": 90140,
+    "reload_max": 246
   },
-  "90342": {
-    "id": 90342,
-    "damage": 53,
-    "base": 90340,
-    "reload_max": 4752
+  "90148": {
+    "id": 90148,
+    "damage": 13,
+    "base": 90140,
+    "reload_max": 252
   },
-  "90103": {
-    "id": 90103,
-    "damage": 6,
-    "base": 90100,
-    "reload_max": 322
-  },
-  "90341": {
-    "id": 90341,
-    "damage": 47,
-    "base": 90340,
-    "reload_max": 4851
-  },
-  "90300": {
+  "90040": {
     "search_type": 1,
     "attack_attribute": 1,
-    "shakescreen": 302,
-    "angle": 50,
-    "reload_max": 5350,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 290,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "四联装330mm主炮Mle1931",
-    "fire_fx": "zhupao",
-    "charge_param": {
-      "lockTime": 0.3,
-      "maxLock": 4
-    },
+    "name": "130mm单装炮Mle1924",
+    "fire_fx": "CLFire",
+    "charge_param": "",
     "suppress": 1,
-    "range": 200,
+    "range": 50,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 34,
-    "action_index": "attack_main",
-    "type": 23,
+    "damage": 4,
+    "action_index": "attack",
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 90300,
+    "id": 90040,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1303
+      1021
     ],
-    "corrected": 100,
-    "auto_aftercast": 0,
+    "corrected": 110,
+    "auto_aftercast": 0.2,
     "bullet_ID": [
-      1550
+      2200
     ],
-    "min_range": 50,
-    "initial_over_heat": 1,
+    "min_range": 0,
+    "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-356mm",
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "90241": {
-    "id": 90241,
-    "damage": 10,
-    "base": 90240,
-    "reload_max": 570
+  "90044": {
+    "id": 90044,
+    "damage": 6,
+    "base": 90040,
+    "reload_max": 268
   },
-  "90245": {
-    "id": 90245,
-    "damage": 14,
-    "base": 90240,
-    "reload_max": 547
+  "90147": {
+    "id": 90147,
+    "damage": 12,
+    "base": 90140,
+    "reload_max": 258
+  },
+  "90146": {
+    "id": 90146,
+    "damage": 11,
+    "base": 90140,
+    "reload_max": 264
+  },
+  "90145": {
+    "id": 90145,
+    "damage": 10,
+    "base": 90140,
+    "reload_max": 270
   },
   "90123": {
     "id": 90123,
@@ -192,70 +277,16 @@
     "base": 90120,
     "reload_max": 302
   },
-  "90127": {
-    "id": 90127,
-    "damage": 11,
-    "base": 90120,
-    "reload_max": 278
+  "90001": {
+    "id": 90001,
+    "base": 90000,
+    "reload_max": 304
   },
-  "90320": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 302,
-    "angle": 50,
-    "reload_max": 5150,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "四联装330mm主炮Mle1931",
-    "fire_fx": "zhupao",
-    "charge_param": {
-      "lockTime": 0.3,
-      "maxLock": 4
-    },
-    "suppress": 1,
-    "range": 200,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 37,
-    "action_index": "attack_main",
-    "type": 23,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 90320,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      1303
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1550
-    ],
-    "min_range": 50,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-356mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "90324": {
-    "id": 90324,
-    "damage": 57,
-    "base": 90320,
-    "reload_max": 4738
-  },
-  "90202": {
-    "id": 90202,
+  "90144": {
+    "id": 90144,
     "damage": 9,
-    "base": 90200,
-    "reload_max": 624
+    "base": 90140,
+    "reload_max": 276
   },
   "90143": {
     "id": 90143,
@@ -263,11 +294,29 @@
     "base": 90140,
     "reload_max": 282
   },
-  "90147": {
-    "id": 90147,
-    "damage": 12,
-    "base": 90140,
-    "reload_max": 258
+  "86107": {
+    "bullet_ID": [
+      95847
+    ],
+    "id": 86107,
+    "damage": 38,
+    "base": 86100,
+    "reload_max": 1719
+  },
+  "86111": {
+    "bullet_ID": [
+      95851
+    ],
+    "id": 86111,
+    "damage": 46,
+    "base": 86100,
+    "reload_max": 1650
+  },
+  "90021": {
+    "id": 90021,
+    "damage": 4,
+    "base": 90020,
+    "reload_max": 294
   },
   "90151": {
     "corrected": 114,
@@ -276,58 +325,55 @@
     "base": 90140,
     "reload_max": 240
   },
-  "90340": {
+  "90141": {
+    "id": 90141,
+    "damage": 6,
+    "base": 90140,
+    "reload_max": 294
+  },
+  "90140": {
     "search_type": 1,
     "attack_attribute": 1,
-    "shakescreen": 302,
-    "angle": 50,
-    "reload_max": 4950,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 300,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "四联装330mm主炮Mle1931",
-    "fire_fx": "zhupao",
-    "charge_param": {
-      "lockTime": 0.3,
-      "maxLock": 4
-    },
+    "name": "138.6mm单装炮Mle1929",
+    "fire_fx": "CLFire",
+    "charge_param": "",
     "suppress": 1,
-    "range": 200,
+    "range": 60,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 41,
-    "action_index": "attack_main",
-    "type": 23,
+    "damage": 5,
+    "action_index": "attack",
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 90340,
+    "id": 90140,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1303
+      1021
     ],
-    "corrected": 100,
-    "auto_aftercast": 0,
+    "corrected": 110,
+    "auto_aftercast": 0.3,
     "bullet_ID": [
-      1551
+      2206
     ],
-    "min_range": 50,
-    "initial_over_heat": 1,
+    "min_range": 0,
+    "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-356mm",
+    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
-  },
-  "90222": {
-    "id": 90222,
-    "damage": 10,
-    "base": 90220,
-    "reload_max": 595
   },
   "90100": {
     "search_type": 1,
@@ -373,29 +419,29 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "90104": {
-    "id": 90104,
+  "90041": {
+    "id": 90041,
+    "damage": 5,
+    "base": 90040,
+    "reload_max": 285
+  },
+  "90045": {
+    "id": 90045,
     "damage": 7,
-    "base": 90100,
-    "reload_max": 316
+    "base": 90040,
+    "reload_max": 262
   },
-  "90326": {
-    "id": 90326,
-    "damage": 69,
-    "base": 90320,
-    "reload_max": 4532
+  "90129": {
+    "id": 90129,
+    "damage": 13,
+    "base": 90120,
+    "reload_max": 266
   },
-  "90301": {
-    "id": 90301,
-    "damage": 39,
-    "base": 90300,
-    "reload_max": 5243
-  },
-  "90242": {
-    "id": 90242,
-    "damage": 11,
-    "base": 90240,
-    "reload_max": 565
+  "90128": {
+    "id": 90128,
+    "damage": 12,
+    "base": 90120,
+    "reload_max": 272
   },
   "90120": {
     "search_type": 1,
@@ -447,79 +493,50 @@
     "base": 90120,
     "reload_max": 296
   },
-  "90128": {
-    "id": 90128,
-    "damage": 12,
+  "90002": {
+    "id": 90002,
+    "damage": 4,
+    "base": 90000,
+    "reload_max": 298
+  },
+  "90127": {
+    "id": 90127,
+    "damage": 11,
     "base": 90120,
-    "reload_max": 272
+    "reload_max": 278
   },
-  "90321": {
-    "id": 90321,
-    "damage": 42,
-    "base": 90320,
-    "reload_max": 5047
+  "90126": {
+    "id": 90126,
+    "damage": 10,
+    "base": 90120,
+    "reload_max": 284
   },
-  "90325": {
-    "id": 90325,
-    "damage": 63,
-    "base": 90320,
-    "reload_max": 4635
-  },
-  "90140": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 300,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "138.6mm单装炮Mle1929",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 5,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 90140,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      1021
-    ],
-    "corrected": 110,
-    "auto_aftercast": 0.3,
+  "86108": {
     "bullet_ID": [
-      2206
+      95848
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
+    "id": 86108,
+    "damage": 40,
+    "base": 86100,
+    "reload_max": 1696
   },
-  "90144": {
-    "id": 90144,
-    "damage": 9,
-    "base": 90140,
-    "reload_max": 276
+  "88002": {
+    "bullet_ID": [
+      88002
+    ],
+    "id": 88002,
+    "damage": 22,
+    "base": 88000,
+    "reload_max": 1808
   },
-  "90148": {
-    "id": 90148,
-    "damage": 13,
-    "base": 90140,
-    "reload_max": 252
+  "88006": {
+    "bullet_ID": [
+      88006
+    ],
+    "id": 88006,
+    "damage": 34,
+    "base": 88000,
+    "reload_max": 1720
   },
   "90152": {
     "corrected": 121,
@@ -528,23 +545,34 @@
     "base": 90140,
     "reload_max": 240
   },
-  "90247": {
-    "corrected": 109,
-    "id": 90247,
-    "damage": 15,
-    "base": 90240,
-    "reload_max": 542
+  "90103": {
+    "id": 90103,
+    "damage": 6,
+    "base": 90100,
+    "reload_max": 322
   },
-  "90223": {
-    "id": 90223,
-    "damage": 11,
-    "base": 90220,
-    "reload_max": 589
+  "90106": {
+    "id": 90106,
+    "damage": 9,
+    "base": 90100,
+    "reload_max": 304
   },
   "90101": {
     "id": 90101,
     "base": 90100,
     "reload_max": 334
+  },
+  "90042": {
+    "id": 90042,
+    "damage": 5,
+    "base": 90040,
+    "reload_max": 280
+  },
+  "90046": {
+    "id": 90046,
+    "damage": 8,
+    "base": 90040,
+    "reload_max": 256
   },
   "90105": {
     "id": 90105,
@@ -552,23 +580,11 @@
     "base": 90100,
     "reload_max": 310
   },
-  "90303": {
-    "id": 90303,
-    "damage": 49,
-    "base": 90300,
-    "reload_max": 5029
-  },
-  "90302": {
-    "id": 90302,
-    "damage": 44,
-    "base": 90300,
-    "reload_max": 5136
-  },
-  "90243": {
-    "id": 90243,
-    "damage": 12,
-    "base": 90240,
-    "reload_max": 560
+  "90104": {
+    "id": 90104,
+    "damage": 7,
+    "base": 90100,
+    "reload_max": 316
   },
   "90121": {
     "id": 90121,
@@ -582,37 +598,31 @@
     "base": 90120,
     "reload_max": 290
   },
-  "90129": {
-    "id": 90129,
-    "damage": 13,
-    "base": 90120,
-    "reload_max": 266
+  "90003": {
+    "id": 90003,
+    "damage": 4,
+    "base": 90000,
+    "reload_max": 292
   },
-  "90322": {
-    "id": 90322,
-    "damage": 47,
-    "base": 90320,
-    "reload_max": 4944
-  },
-  "90200": {
+  "90020": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 120,
-    "reload_max": 638,
+    "angle": 360,
+    "reload_max": 300,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "三联装152mm主炮Mle1930",
+    "name": "130mm单装炮Mle1924",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 65,
+    "range": 50,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 7,
+    "damage": 3,
     "action_index": "attack",
     "type": 2,
     "search_condition": [
@@ -621,15 +631,15 @@
     "oxy_type": [
       1
     ],
-    "id": 90200,
+    "id": 90020,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1102
+      1021
     ],
-    "corrected": 105,
-    "auto_aftercast": 0.4,
+    "corrected": 110,
+    "auto_aftercast": 0.2,
     "bullet_ID": [
-      2201
+      2200
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -638,23 +648,38 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "90141": {
-    "id": 90141,
-    "damage": 6,
-    "base": 90140,
-    "reload_max": 294
+  "86105": {
+    "bullet_ID": [
+      95845
+    ],
+    "id": 86105,
+    "damage": 34,
+    "base": 86100,
+    "reload_max": 1765
   },
-  "90145": {
-    "id": 90145,
-    "damage": 10,
-    "base": 90140,
-    "reload_max": 270
+  "86109": {
+    "bullet_ID": [
+      95849
+    ],
+    "id": 86109,
+    "damage": 44,
+    "base": 86100,
+    "reload_max": 1673
   },
-  "90149": {
-    "id": 90149,
-    "damage": 14,
-    "base": 90140,
-    "reload_max": 246
+  "88003": {
+    "bullet_ID": [
+      88003
+    ],
+    "id": 88003,
+    "damage": 24,
+    "base": 88000,
+    "reload_max": 1786
+  },
+  "90023": {
+    "id": 90023,
+    "damage": 5,
+    "base": 90020,
+    "reload_max": 282
   },
   "90153": {
     "corrected": 130,
@@ -663,55 +688,23 @@
     "base": 90140,
     "reload_max": 240
   },
-  "90220": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 120,
-    "reload_max": 607,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "三联装152mm主炮Mle1930",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 65,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 90220,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      1102
-    ],
-    "corrected": 105,
-    "auto_aftercast": 0.4,
+  "88007": {
     "bullet_ID": [
-      2201
+      88006
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
+    "id": 88007,
+    "damage": 34,
+    "base": 88000,
+    "reload_max": 1720
   },
-  "90246": {
-    "id": 90246,
-    "damage": 15,
-    "base": 90240,
-    "reload_max": 542
+  "86110": {
+    "bullet_ID": [
+      95850
+    ],
+    "id": 86110,
+    "damage": 46,
+    "base": 86100,
+    "reload_max": 1650
   },
   "90102": {
     "id": 90102,
@@ -719,11 +712,11 @@
     "base": 90100,
     "reload_max": 328
   },
-  "90106": {
-    "id": 90106,
-    "damage": 9,
-    "base": 90100,
-    "reload_max": 304
+  "90043": {
+    "id": 90043,
+    "damage": 6,
+    "base": 90040,
+    "reload_max": 274
   },
   "90047": {
     "corrected": 114,
@@ -732,10 +725,10 @@
     "base": 90040,
     "reload_max": 256
   },
-  "90203": {
-    "id": 90203,
-    "damage": 10,
-    "base": 90200,
-    "reload_max": 618
+  "90022": {
+    "id": 90022,
+    "damage": 4,
+    "base": 90020,
+    "reload_max": 288
   }
 }
