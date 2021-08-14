@@ -1,14 +1,14 @@
 {
-  "583503": {
+  "583018": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 600,
+    "angle": 360,
+    "reload_max": 1100,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【新奥尔良SP3】BOSS鸟海 -旋转上下散射子弹-重巡副炮",
-    "fire_fx": "zhupao",
+    "queue": 1,
+    "name": "【新奥尔良SP3】衣笠Q版重巡联装主炮x2-散射III",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
     "range": 80,
@@ -17,7 +17,51 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
+    "damage": 18,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 583018,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      200100
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1403
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "583017": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP3】衣笠Q版近程自卫火炮III",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 38,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 8,
     "action_index": "attack",
     "type": 2,
     "search_condition": [
@@ -26,22 +70,64 @@
     "oxy_type": [
       1
     ],
-    "id": 583503,
+    "id": 583017,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      300603,
-      300604
+      13
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      300603,
-      300604
+      999
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "583016": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 1800,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP3】加古Q版双联装鱼雷II",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 60,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 32,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 583016,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      1401
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1801
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -89,104 +175,6 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "583504": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1800,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】BOSS-鸟海特殊弹幕1",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 72,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "fx": "jinengenemy",
-      "time": 1,
-      "isBound": true
-    },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 28,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583504,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      581027,
-      581028,
-      581029,
-      581030
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      581027,
-      581028,
-      581029,
-      581030
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "590012": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 120,
-    "reload_max": 2100,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【法系活动A】【杂兵】量产型塞壬轻巡联装炮x6散射III",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 65,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 590012,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      1102
-    ],
-    "corrected": 105,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      802
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
   "583001": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -231,26 +219,26 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "590021": {
+  "583014": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 2200,
+    "reload_max": 600,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【法系活动A】【杂兵】量产型大船通用副炮II",
+    "name": "【新奥尔良SP3】加古Q版近程自卫火炮II",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 60,
+    "range": 38,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 5,
-    "action_index": "",
+    "damage": 8,
+    "action_index": "attack",
     "type": 2,
     "search_condition": [
       1
@@ -258,10 +246,10 @@
     "oxy_type": [
       1
     ],
-    "id": 590021,
+    "id": 583014,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1008
+      12
     ],
     "corrected": 125,
     "auto_aftercast": 0,
@@ -319,47 +307,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "590031": {
+  "583013": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 600,
+    "angle": 180,
+    "reload_max": 1500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【法系活动A】【杂兵】塞壬战列舰蛋船副炮",
-    "fire_fx": "CLFire",
+    "name": "【新奥尔良SP3】长良长良散型3发快速鱼雷",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
+    "range": 72,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 5,
-    "action_index": "attack",
-    "type": 2,
+    "damage": 32,
+    "action_index": "",
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 590031,
-    "spawn_bound": "cannon1",
+    "id": 583013,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      11
+      300506
     ],
-    "corrected": 125,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      802
+      300506
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -407,7 +395,95 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "583008": {
+  "583012": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 1200,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP3】长良长良分裂散弹",
+    "fire_fx": "zhupao",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 80,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 12,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 583012,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      300601
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      300601
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "582500": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】BOSS-古鹰Q版近程自卫火炮III",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 38,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 9,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582500,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      14
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      999
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "583011": {
     "search_type": 1,
     "attack_attribute": 2,
     "shakescreen": 0,
@@ -415,7 +491,7 @@
     "reload_max": 1800,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【新奥尔良SP3】夕张Q版延迟散型4连鱼雷",
+    "name": "【新奥尔良SP3】长良长良延迟散型4连鱼雷",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
@@ -434,7 +510,7 @@
     "oxy_type": [
       1
     ],
-    "id": 583008,
+    "id": 583011,
     "spawn_bound": "torpedo",
     "barrage_ID": [
       300504,
@@ -453,103 +529,103 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "583004": {
+  "582501": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 300,
+    "reload_max": 1300,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【新奥尔良SP3】睦月Q版驱逐双联装炮瞄准III",
-    "fire_fx": "CLFire",
+    "name": "【新奥尔良SP2】BOSS-古鹰Q版重巡单发主炮x4-瞄准III",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 50,
-    "recover_time": 0.5,
+    "range": 90,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 8,
+    "damage": 18,
     "action_index": "attack",
-    "type": 2,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 583004,
+    "id": 582501,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1001
+      200092
     ],
-    "corrected": 110,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1200
+      1403
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "583014": {
+  "583010": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 600,
+    "angle": 180,
+    "reload_max": 1500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【新奥尔良SP3】加古Q版近程自卫火炮II",
-    "fire_fx": "CLFire",
+    "name": "【新奥尔良SP3】夕张Q版散型3发快速鱼雷",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
+    "range": 72,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 2,
+    "damage": 32,
+    "action_index": "",
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 583014,
-    "spawn_bound": "cannon",
+    "id": 583010,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      12
+      300506
     ],
-    "corrected": 125,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      999
+      300506
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "583005": {
+  "582502": {
     "search_type": 1,
     "attack_attribute": 2,
     "shakescreen": 0,
     "angle": 60,
-    "reload_max": 2400,
+    "reload_max": 1600,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【新奥尔良SP3】睦月Q版四联装鱼雷III",
+    "name": "【新奥尔良SP2】BOSS-古鹰Q版双联装鱼雷III",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
@@ -559,7 +635,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 35,
+    "damage": 38,
     "action_index": "attack",
     "type": 3,
     "search_condition": [
@@ -568,10 +644,10 @@
     "oxy_type": [
       1
     ],
-    "id": 583005,
+    "id": 582502,
     "spawn_bound": "torpedo",
     "barrage_ID": [
-      1403
+      1402
     ],
     "corrected": 100,
     "auto_aftercast": 0,
@@ -585,128 +661,42 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "583100": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 750,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】鱼雷艇鱼雷艇单发533mm鱼雷",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 72,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 32,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583100,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      1400
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30064
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583006": {
+  "583009": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 300,
+    "angle": 180,
+    "reload_max": 1200,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【新奥尔良SP3】如月Q版驱逐双联装炮瞄准III",
-    "fire_fx": "CLFire",
+    "name": "【新奥尔良SP3】夕张Q版分裂散弹",
+    "fire_fx": "zhupao",
     "charge_param": "",
     "suppress": 1,
-    "range": 50,
-    "recover_time": 0.5,
+    "range": 80,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 8,
+    "damage": 12,
     "action_index": "attack",
-    "type": 2,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 583006,
+    "id": 583009,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1001
+      300601
     ],
-    "corrected": 110,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1200
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583101": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 200,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】自爆船自爆船自爆",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 8,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 45,
-    "action_index": "attack",
-    "type": 18,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583101,
-    "spawn_bound": "cannon",
-    "barrage_ID": [],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      80001
+      300601
     ],
     "min_range": 0,
     "initial_over_heat": 0,
@@ -765,52 +755,49 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "590032": {
+  "583008": {
     "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 302,
-    "angle": 80,
-    "reload_max": 2500,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 1800,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【法系活动A】【杂兵】塞壬战列舰蛋船主炮",
-    "fire_fx": "CAFire",
+    "name": "【新奥尔良SP3】夕张Q版延迟散型4连鱼雷",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 25,
-    "recover_time": 0.5,
+    "range": 72,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 1,
-      "fx": "jinengenemy",
-      "time": 0.5,
-      "isBound": true
-    },
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 18,
-    "action_index": "attack",
-    "type": 2,
+    "damage": 35,
+    "action_index": "",
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 590032,
-    "spawn_bound": "cannon1",
+    "id": 583008,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      10015
+      300504,
+      300505
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1530
+      300504,
+      300505
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
+    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -876,379 +863,16 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "590033": {
+  "583007": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 40,
+    "angle": 60,
     "reload_max": 2400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【法系活动A】【杂兵】塞壬战列跨射攻击后排武器3x2轮-简单",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 150,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 2,
-      "fx": "jinengenemy",
-      "time": 1,
-      "isBound": true
-    },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 35,
-    "action_index": "attack",
-    "type": 19,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 590033,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      20018
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1530
-    ],
-    "min_range": 75,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583009": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1200,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】夕张Q版分裂散弹",
-    "fire_fx": "zhupao",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583009,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      300601
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      300601
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "590011": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【法系活动A】【杂兵】Q版旋转子弹延迟3连弹——驱逐（抛物线）",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 100,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 10,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 590011,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      300109,
-      300110,
-      300111
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      300109,
-      300110,
-      300111
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583010": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】夕张Q版散型3发快速鱼雷",
+    "name": "【新奥尔良SP3】如月Q版四联装鱼雷III",
     "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 72,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 32,
-    "action_index": "",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583010,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      300506
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      300506
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "590003": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 2100,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【法系活动A】【杂兵】驱逐旋转子弹3发武器",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 80,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 5,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 590003,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      10003
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      41003
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583011": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1800,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】长良长良延迟散型4连鱼雷",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 72,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 35,
-    "action_index": "",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583011,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      300504,
-      300505
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      300504,
-      300505
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "590002": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2600,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【法系活动A】【杂兵】塞壬单装鱼雷II",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 72,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 25,
-    "action_index": "",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 590002,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      1400
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30067
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583012": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1200,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】长良长良分裂散弹",
-    "fire_fx": "zhupao",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583012,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      300601
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      300601
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "590001": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1200,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【法系活动A】【杂兵】量产型塞壬驱逐单发瞄准x3随机III",
-    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
     "range": 60,
@@ -1257,95 +881,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 6,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 590001,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      1005
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      801
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583013": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】长良长良散型3发快速鱼雷",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 72,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 32,
-    "action_index": "",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583013,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      300506
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      300506
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "582100": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 750,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP2】鱼雷艇鱼雷艇单发533mm鱼雷",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 72,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 28,
+    "damage": 35,
     "action_index": "attack",
     "type": 3,
     "search_condition": [
@@ -1354,238 +890,10 @@
     "oxy_type": [
       1
     ],
-    "id": 582100,
+    "id": 583007,
     "spawn_bound": "torpedo",
     "barrage_ID": [
-      1400
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30064
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "582510": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP2】BOSS-青叶Q版近程自卫火炮III",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 9,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 582510,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      13
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      999
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "582101": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 200,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP2】自爆船自爆船自爆",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 8,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 40,
-    "action_index": "attack",
-    "type": 18,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 582101,
-    "spawn_bound": "cannon",
-    "barrage_ID": [],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      80001
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "582511": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1100,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP2】BOSS-青叶Q版重巡联装主炮x2-散射III",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 18,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 582511,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      200102
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
       1403
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583505": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1800,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】BOSS-鸟海特殊弹幕2",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 72,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "fx": "jinengenemy",
-      "time": 0.5,
-      "isBound": true
-    },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 28,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583505,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      581031,
-      581032,
-      581033,
-      581034
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      581031,
-      581032,
-      581033,
-      581034
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583016": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 1800,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】加古Q版双联装鱼雷II",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 32,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583016,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      1401
     ],
     "corrected": 100,
     "auto_aftercast": 0,
@@ -1599,7 +907,271 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "590041": {
+  "582001": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 190,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】松风初雪 -单发瞄准II",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 55,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 7,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582001,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      1000
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1200
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "583006": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 300,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP3】如月Q版驱逐双联装炮瞄准III",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 50,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 8,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 583006,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      1001
+    ],
+    "corrected": 110,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1200
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "582002": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 2400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】松风不知火 -四联装鱼雷III",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 60,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 28,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582002,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      1403
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1801
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "583005": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 2400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP3】睦月Q版四联装鱼雷III",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 60,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 35,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 583005,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      1403
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1801
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "582003": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】松风初雪 -旋转子弹散射8连——驱逐",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 80,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 7,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582003,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      300201
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      300201
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "583004": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 300,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP3】睦月Q版驱逐双联装炮瞄准III",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 50,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 8,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 583004,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      1001
+    ],
+    "corrected": 110,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1200
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "581500": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
@@ -1607,7 +1179,7 @@
     "reload_max": 600,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【法系活动A】【杂兵】塞壬航母蛋船近程自卫火炮II",
+    "name": "【新奥尔良SP1】BOSS-加古近程自卫火炮II",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
@@ -1617,7 +1189,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 5,
+    "damage": 7,
     "action_index": "attack",
     "type": 2,
     "search_condition": [
@@ -1626,10 +1198,10 @@
     "oxy_type": [
       1
     ],
-    "id": 590041,
+    "id": 581500,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      12
+      14
     ],
     "corrected": 125,
     "auto_aftercast": 0,
@@ -1640,104 +1212,6 @@
     "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "582513": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1300,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP2】BOSS-青叶特殊弹幕",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "fx": "jinengenemy",
-      "time": 1,
-      "isBound": true
-    },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 24,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 582513,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      581015,
-      581016,
-      581017,
-      581018
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      581015,
-      581016,
-      581017,
-      581018
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "582502": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 1600,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP2】BOSS-古鹰Q版双联装鱼雷III",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 38,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 582502,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      1402
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1801
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1803,15 +1277,15 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "582501": {
+  "581501": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1300,
+    "reload_max": 1400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【新奥尔良SP2】BOSS-古鹰Q版重巡单发主炮x4-瞄准III",
+    "name": "【新奥尔良SP1】BOSS-加古单发主炮x4-瞄准II",
     "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
@@ -1821,7 +1295,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 18,
+    "damage": 16,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -1830,7 +1304,7 @@
     "oxy_type": [
       1
     ],
-    "id": 582501,
+    "id": 581501,
     "spawn_bound": "cannon",
     "barrage_ID": [
       200092
@@ -1847,25 +1321,25 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "583019": {
+  "582100": {
     "search_type": 1,
     "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 1600,
+    "angle": 180,
+    "reload_max": 750,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【新奥尔良SP3】衣笠Q版双联装鱼雷III",
+    "name": "【新奥尔良SP2】鱼雷艇鱼雷艇单发533mm鱼雷",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 60,
+    "range": 72,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 32,
+    "damage": 28,
     "action_index": "attack",
     "type": 3,
     "search_condition": [
@@ -1874,10 +1348,54 @@
     "oxy_type": [
       1
     ],
-    "id": 583019,
+    "id": 582100,
     "spawn_bound": "torpedo",
     "barrage_ID": [
-      1401
+      1400
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30064
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "581502": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 1800,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP1】BOSS-加古4联装鱼雷II",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 60,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 35,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 581502,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      1403
     ],
     "corrected": 100,
     "auto_aftercast": 0,
@@ -1891,187 +1409,93 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "583028": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】古鹰Q版旋转上下散射子弹-重巡副炮",
-    "fire_fx": "zhupao",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 11,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583028,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      300603,
-      300604
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      300603,
-      300604
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583020": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】衣笠Q版旋转上下散射子弹-重巡副炮",
-    "fire_fx": "zhupao",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 11,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583020,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      300603,
-      300604
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      300603,
-      300604
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583027": {
+  "582101": {
     "search_type": 1,
     "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 1600,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】古鹰Q版双联装鱼雷III",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 32,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583027,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      1401
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1801
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583021": {
-    "search_type": 1,
-    "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 500,
+    "reload_max": 200,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【新奥尔良SP3】青叶Q版近程自卫火炮III",
-    "fire_fx": "CLFire",
+    "name": "【新奥尔良SP2】自爆船自爆船自爆",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 38,
+    "range": 8,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 8,
+    "damage": 40,
     "action_index": "attack",
-    "type": 2,
+    "type": 18,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 583021,
+    "id": 582101,
     "spawn_bound": "cannon",
-    "barrage_ID": [
-      13
-    ],
-    "corrected": 125,
+    "barrage_ID": [],
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      999
+      80001
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "583026": {
+  "582007": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 2400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】如月Q版四联装鱼雷III",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 60,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 28,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582007,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      1403
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1801
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "582513": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
@@ -2079,17 +1503,21 @@
     "reload_max": 1300,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【新奥尔良SP3】古鹰Q版重巡单发主炮x4-瞄准III",
+    "name": "【新奥尔良SP2】BOSS-青叶特殊弹幕",
     "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
     "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 18,
+    "damage": 24,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -2098,330 +1526,76 @@
     "oxy_type": [
       1
     ],
-    "id": 583026,
+    "id": 582513,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      200091
+      581015,
+      581016,
+      581017,
+      581018
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1403
+      581015,
+      581016,
+      581017,
+      581018
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "583022": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1100,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】青叶Q版重巡联装主炮x2-散射III",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 18,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583022,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      200100
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1403
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583025": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】古鹰Q版近程自卫火炮III",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583025,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      13
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      999
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583023": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 1600,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】青叶Q版双联装鱼雷III",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 32,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583023,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      1401
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1801
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583018": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1100,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】衣笠Q版重巡联装主炮x2-散射III",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 18,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583018,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      200100
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1403
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583024": {
+  "581504": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 1500,
+    "reload_max": 5000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【新奥尔良SP3】青叶Q版旋转上下散射子弹-重巡副炮",
-    "fire_fx": "zhupao",
+    "name": "【新奥尔良SP1】BOSS-加古特殊弹幕2（配合衣笠使用）",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 80,
+    "range": 200,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "fx": "jinengenemy",
+      "time": 0.5,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 11,
+    "damage": 22,
     "action_index": "attack",
-    "type": 2,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 583024,
+    "id": 581504,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      300603,
-      300604
+      581009,
+      581010
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      300603,
-      300604
+      581009,
+      581010
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583017": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】衣笠Q版近程自卫火炮III",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583017,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      13
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      999
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "582017": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP2】衣笠Q版近程自卫火炮III",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 7,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 582017,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      13
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      999
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -2469,6 +1643,764 @@
     "effect_move": 0,
     "axis_angle": 0
   },
+  "582009": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 1200,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】夕张Q版分裂散弹",
+    "fire_fx": "zhupao",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 80,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 10,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582009,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      300601
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      300601
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "582511": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1100,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】BOSS-青叶Q版重巡联装主炮x2-散射III",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 80,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 18,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582511,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      200102
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1403
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "582010": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 1500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】夕张Q版散型3发快速鱼雷",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 72,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 28,
+    "action_index": "",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582010,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      300506
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      300506
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "582510": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】BOSS-青叶Q版近程自卫火炮III",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 38,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 9,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582510,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      13
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      999
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "582011": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 1800,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】长良长良延迟散型4连鱼雷",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 72,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 28,
+    "action_index": "",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582011,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      300504,
+      300505
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      300504,
+      300505
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "581511": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 1600,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP1】BOSS-衣笠双联装鱼雷III",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 60,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 35,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 581511,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      1403
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1801
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "582012": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 1200,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】长良长良分裂散弹",
+    "fire_fx": "zhupao",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 80,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 10,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582012,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      300601
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      300601
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "582004": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 300,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】睦月Q版驱逐双联装炮瞄准III",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 50,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 7,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582004,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      1001
+    ],
+    "corrected": 110,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1200
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "582013": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 1500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】长良长良散型3发快速鱼雷",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 72,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 28,
+    "action_index": "",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582013,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      300506
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      300506
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "581100": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 750,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP1】鱼雷艇单发533mm鱼雷",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 72,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 25,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 581100,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      1400
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30064
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "582014": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 600,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】加古Q版近程自卫火炮II",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 38,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 7,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582014,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      12
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      999
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "581101": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 200,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP1】自爆船自爆",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 8,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 35,
+    "action_index": "attack",
+    "type": 18,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 581101,
+    "spawn_bound": "cannon",
+    "barrage_ID": [],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      80001
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "582015": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】加古Q版重巡单发主炮x4-瞄准II",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 16,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582015,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      200091
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1403
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "582016": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 1800,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】加古Q版双联装鱼雷II",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 60,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 28,
+    "action_index": "attack",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582016,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      1401
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1801
+    ],
+    "min_range": 0,
+    "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "581512": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 1500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP1】BOSS-衣笠重巡副炮",
+    "fire_fx": "zhupao",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 80,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 7,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 581512,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      350103
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      350103
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "582017": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】衣笠Q版近程自卫火炮III",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 38,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 7,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582017,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      13
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      999
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "581513": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 1800,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP1】BOSS-衣笠特殊弹幕1（配合加古使用）",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 200,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 22,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 581513,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      581005,
+      581006,
+      581007,
+      581008
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      581005,
+      581006,
+      581007,
+      581008
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
   "582018": {
     "search_type": 1,
     "attack_attribute": 1,
@@ -2513,47 +2445,115 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "582500": {
+  "581514": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 500,
+    "angle": 180,
+    "reload_max": 5000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【新奥尔良SP2】BOSS-古鹰Q版近程自卫火炮III",
-    "fire_fx": "CLFire",
+    "name": "【新奥尔良SP1】BOSS-衣笠特殊弹幕2（配合加古使用）",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
+    "range": 200,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "fx": "jinengenemy",
+      "time": 0.5,
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 9,
+    "damage": 22,
     "action_index": "attack",
-    "type": 2,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 582500,
+    "id": 581514,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      14
+      581011,
+      581012,
+      581013,
+      581014,
+      581015,
+      581016
     ],
-    "corrected": 125,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      999
+      581011,
+      581012,
+      581011,
+      581012,
+      581011,
+      581012
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "581503": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 1800,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP1】BOSS-加古特殊弹幕1（配合衣笠使用）",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 200,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 22,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 581503,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      581001,
+      581002,
+      581003,
+      581004
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      581001,
+      581002,
+      581003,
+      581004
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -2601,47 +2601,47 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "583500": {
+  "581510": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 500,
+    "reload_max": 1100,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【新奥尔良SP3】BOSS鸟海 -近程自卫火炮III",
-    "fire_fx": "CLFire",
+    "name": "【新奥尔良SP1】BOSS-衣笠重巡联装主炮x2-散射III",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
+    "range": 80,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
+    "damage": 16,
     "action_index": "attack",
-    "type": 2,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 583500,
+    "id": 581510,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      13
+      200102
     ],
-    "corrected": 125,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      999
+      1403
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -2691,213 +2691,7 @@
     "effect_move": 0,
     "axis_angle": 0
   },
-  "583501": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】BOSS鸟海 -特殊弹幕",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 22,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583501,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      120420,
-      120421,
-      120422,
-      120423,
-      120424,
-      120425,
-      120426,
-      120427,
-      120428,
-      120429,
-      120430,
-      120431,
-      120432,
-      120433,
-      120434,
-      120435
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      120420,
-      120421,
-      120422,
-      120423,
-      120424,
-      120425,
-      120426,
-      120427,
-      120428,
-      120429,
-      120430,
-      120431,
-      120432,
-      120433,
-      120434,
-      120435
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "590022": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1100,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【法系活动A】【杂兵】量产型塞壬重巡联装主炮x2-散射III",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 14,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 590022,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      200100
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      803
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583502": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 1400,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【新奥尔良SP3】BOSS鸟海 -双联装鱼雷III",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 42,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 583502,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      1403
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1801
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "590023": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2800,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【法系活动A】【杂兵】塞壬双联装鱼雷II",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 25,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 590023,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      1401
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30067
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "583007": {
+  "582005": {
     "search_type": 1,
     "attack_attribute": 2,
     "shakescreen": 0,
@@ -2905,7 +2699,7 @@
     "reload_max": 2400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【新奥尔良SP3】如月Q版四联装鱼雷III",
+    "name": "【新奥尔良SP2】睦月Q版四联装鱼雷III",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
@@ -2915,7 +2709,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 35,
+    "damage": 28,
     "action_index": "attack",
     "type": 3,
     "search_condition": [
@@ -2924,7 +2718,7 @@
     "oxy_type": [
       1
     ],
-    "id": 583007,
+    "id": 582005,
     "spawn_bound": "torpedo",
     "barrage_ID": [
       1403
@@ -2936,6 +2730,184 @@
     ],
     "min_range": 0,
     "initial_over_heat": 1,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "581013": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 1500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP1】长良散型3发快速鱼雷",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 72,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 25,
+    "action_index": "",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 581013,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      300506
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      300506
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "582006": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 300,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】如月Q版驱逐双联装炮瞄准III",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 50,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 7,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582006,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      1001
+    ],
+    "corrected": 110,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1200
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-155mm",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "581014": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 90,
+    "reload_max": 2400,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥】舰船鱼雷延迟散射2连——驱逐",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 46,
+    "action_index": "",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 581014,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      350101
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      350101
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "582008": {
+    "search_type": 1,
+    "attack_attribute": 2,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 1800,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【新奥尔良SP2】夕张Q版延迟散型4连鱼雷",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 72,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 28,
+    "action_index": "",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 582008,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      300504,
+      300505
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      300504,
+      300505
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "",
     "effect_move": 0,
