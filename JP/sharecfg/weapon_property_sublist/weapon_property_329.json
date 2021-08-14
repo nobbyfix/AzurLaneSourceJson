@@ -43,22 +43,24 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "745004": {
-    "fire_sfx": "battle/air-atk",
-    "type": 11,
-    "id": 745004,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      700143
-    ],
-    "queue": 4,
-    "bullet_ID": [],
-    "name": "【DOA联动EX】BOSS 女天狗 第二波 飞机",
-    "attack_attribute": 4,
+  "743114": {
+    "type": 2,
+    "initial_over_heat": 1,
+    "id": 743114,
     "suppress": 1,
-    "fire_fx": "zhupao",
-    "base": 1001,
-    "reload_max": 600
+    "range": 120,
+    "queue": 2,
+    "barrage_ID": [
+      810098
+    ],
+    "name": "【DOA联动SP4】BOSS 莫妮卡 fever 纸牌弹幕",
+    "bullet_ID": [
+      800049
+    ],
+    "aim_type": 1,
+    "reload_max": 600,
+    "base": 1000,
+    "damage": 22
   },
   "749005": {
     "search_type": 1,
@@ -104,22 +106,22 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "745005": {
-    "fire_sfx": "battle/air-atk",
-    "type": 11,
-    "id": 745005,
-    "spawn_bound": "plane",
+  "743115": {
+    "id": 743115,
+    "range": 120,
+    "queue": 2,
+    "name": "【DOA联动SP4】BOSS 女天狗 fever 变形红色自机狙",
     "barrage_ID": [
-      700143
+      810099,
+      810100
     ],
-    "queue": 5,
-    "bullet_ID": [],
-    "name": "【DOA联动EX】BOSS 女天狗 第二波 飞机",
-    "attack_attribute": 4,
-    "suppress": 1,
-    "fire_fx": "zhupao",
-    "base": 1001,
-    "reload_max": 600
+    "bullet_ID": [
+      780074,
+      780075
+    ],
+    "reload_max": 6000,
+    "base": 1000,
+    "damage": 18
   },
   "749006": {
     "search_type": 1,
@@ -165,25 +167,49 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "745006": {
+  "743116": {
+    "search_type": 1,
+    "attack_attribute": 0,
+    "shakescreen": 0,
+    "angle": 90,
+    "reload_max": 400,
+    "torpedo_ammo": 0,
+    "queue": 3,
+    "name": "【DOA联动SP4】BOSS 女天狗 fever 轰炸机",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 68,
     "action_index": "",
+    "type": 11,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 743116,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      810126
+      12008
     ],
-    "id": 745006,
+    "corrected": 100,
+    "auto_aftercast": 0,
     "bullet_ID": [
-      800075
+      340141
     ],
-    "range": 85,
-    "queue": 1,
-    "angle": 180,
-    "fire_sfx": "battle/air-atk",
-    "name": "【DOA联动EX】BOSS 女天狗 第二波 飞机武器",
-    "attack_attribute": 4,
-    "reload_max": 6000,
-    "fire_fx": "fangkongpaohuoshe2",
-    "base": 1000,
-    "damage": 400
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/cannon-main",
+    "effect_move": 1,
+    "axis_angle": 0
   },
   "749007": {
     "search_type": 1,
@@ -229,26 +255,59 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "745007": {
-    "action_index": "",
-    "id": 745007,
-    "barrage_ID": [
-      810127,
-      810128
-    ],
-    "range": 120,
-    "queue": 2,
-    "bullet_ID": [
-      800076,
-      800076
-    ],
-    "fire_sfx": "battle/air-atk",
-    "name": "【DOA联动EX】BOSS 女天狗 第二波 飞机武器",
+  "743117": {
+    "search_type": 2,
     "attack_attribute": 4,
-    "reload_max": 6000,
-    "fire_fx": "fangkongpaohuoshe2",
-    "base": 1000,
-    "damage": 250
+    "shakescreen": 0,
+    "angle": 25,
+    "reload_max": 9500,
+    "torpedo_ammo": 0,
+    "queue": 4,
+    "name": "【DOA联动SP4】BOSS 女天狗 fever 轰炸机武器",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 1,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 68,
+    "action_index": "",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 743117,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      130991,
+      130991,
+      130991,
+      130991,
+      130991,
+      130991
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      800050,
+      800051,
+      800052,
+      800053,
+      800054,
+      800055
+    ],
+    "min_range": 0,
+    "initial_over_heat": 0,
+    "aim_type": 0,
+    "fire_sfx": "",
+    "effect_move": 0,
+    "axis_angle": 0
   },
   "749008": {
     "search_type": 1,
@@ -371,28 +430,32 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "745009": {
-    "action_index": "",
-    "id": 745009,
+  "744001": {
+    "fire_sfx": "battle/cannon-main",
+    "id": 744001,
     "suppress": 1,
     "range": 120,
-    "queue": 2,
+    "queue": 1,
     "barrage_ID": [
-      810138,
-      810139,
-      810140
+      730088,
+      730089,
+      730090,
+      730091,
+      730092
     ],
     "bullet_ID": [
-      800080,
-      800081,
-      800082
+      800003,
+      800004,
+      800002,
+      800002,
+      800002
     ],
-    "name": "【DOA联动EX】BOSS 女天狗 第三波 自机狙",
-    "fire_sfx": "battle/cannon-main",
+    "name": "【DOA联动VSP】精英人形霞 大范围主炮",
+    "reload_max": 1500,
     "aim_type": 1,
-    "reload_max": 6000,
+    "fire_fx": "CAFire",
     "base": 1000,
-    "damage": 50
+    "damage": 24
   },
   "749010": {
     "search_type": 1,
@@ -438,36 +501,35 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "745010": {
-    "fire_sfx": "",
-    "type": 2,
-    "id": 745010,
-    "range": 120,
-    "queue": 1,
-    "name": "【DOA联动EX】BOSS 女天狗 第四波 黑色羽毛反弹封锁弹",
-    "barrage_ID": [
-      810141,
-      810142,
-      810143,
-      810144,
-      810145,
-      810146,
-      810147,
-      810148
-    ],
-    "bullet_ID": [
-      800042,
-      800043,
-      800042,
-      800043,
-      800045,
-      800046,
-      800045,
-      800046
-    ],
-    "reload_max": 1200,
+  "742112": {
+    "suppress": 1,
+    "range": 150,
+    "recover_time": 4,
+    "angle": 40,
     "base": 1000,
-    "damage": 20
+    "reload_max": 300,
+    "action_index": "",
+    "type": 19,
+    "id": 742112,
+    "barrage_ID": [
+      20018
+    ],
+    "queue": 3,
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
+    "bullet_ID": [
+      800006
+    ],
+    "min_range": 75,
+    "fire_sfx": "battle/cannon-main",
+    "aim_type": 1,
+    "fire_fx": "CAFire",
+    "damage": 32,
+    "name": "【DOA联动SP3】BOSS 穗香 fever 后排跨射2"
   },
   "749011": {
     "search_type": 1,
@@ -513,30 +575,35 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "745011": {
-    "fire_sfx": "",
-    "type": 2,
-    "id": 745011,
-    "range": 120,
-    "queue": 2,
-    "name": "【DOA联动EX】BOSS 女天狗 第四波 交叉子弹",
+  "742113": {
+    "suppress": 1,
+    "range": 150,
+    "recover_time": 4,
+    "angle": 40,
+    "base": 1000,
+    "reload_max": 300,
+    "action_index": "",
+    "type": 19,
+    "id": 742113,
     "barrage_ID": [
-      810149,
-      810151,
-      810152,
-      810153,
-      810154
+      20018
     ],
     "bullet_ID": [
-      800085,
-      800085,
-      800085,
-      800085,
-      800085
+      800006
     ],
-    "reload_max": 6000,
-    "base": 1000,
-    "damage": 50
+    "precast_param": {
+      "alertTime": 2,
+      "fx": "jinengenemy",
+      "time": 1,
+      "isBound": true
+    },
+    "fire_sfx": "battle/cannon-main",
+    "name": "【DOA联动SP3】BOSS 穗香 fever 后排跨射3",
+    "damage": 32,
+    "aim_type": 1,
+    "fire_fx": "CAFire",
+    "min_range": 75,
+    "axis_angle": -30
   },
   "749012": {
     "search_type": 1,
@@ -582,6 +649,25 @@
     "effect_move": 1,
     "axis_angle": 0
   },
+  "744004": {
+    "fire_sfx": "battle/cannon-main",
+    "id": 744004,
+    "range": 120,
+    "queue": 1,
+    "barrage_ID": [
+      950195,
+      950196
+    ],
+    "name": "【DOA联动VSP】精英人形凪咲 主炮弹幕",
+    "bullet_ID": [
+      20003,
+      20003
+    ],
+    "reload_max": 1200,
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 34
+  },
   "749013": {
     "search_type": 1,
     "attack_attribute": 4,
@@ -626,49 +712,25 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "750029": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 600,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】Q版近程自卫火炮II",
-    "fire_fx": "CLFire",
-    "charge_param": "",
+  "744005": {
+    "fire_sfx": "",
+    "id": 744005,
     "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 6,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750029,
-    "spawn_bound": "cannon",
+    "range": 120,
+    "queue": 2,
     "barrage_ID": [
-      12
+      990241,
+      990242
     ],
-    "corrected": 125,
-    "auto_aftercast": 0,
+    "name": "【DOA联动VSP】精英人形女天狗 变向弹幕",
     "bullet_ID": [
-      999
+      770022,
+      770023
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
+    "reload_max": 1200,
+    "base": 1000,
+    "damage": 21
   },
   "749014": {
     "search_type": 1,
@@ -714,49 +776,25 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "750028": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 2200,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】齐柏林使用Me155A (飞机",
-    "fire_fx": "zhupao",
-    "charge_param": "",
+  "744006": {
+    "fire_sfx": "",
+    "id": 744006,
     "suppress": 1,
     "range": 120,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 45,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750028,
-    "spawn_bound": "plane",
+    "queue": 3,
     "barrage_ID": [
-      12015
+      990001,
+      990002
     ],
-    "corrected": 100,
-    "auto_aftercast": 0,
+    "name": "【DOA联动VSP】精英人形女天狗 变向弹幕",
     "bullet_ID": [
-      30013
+      770020,
+      770021
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
+    "reload_max": 1200,
+    "base": 1000,
+    "damage": 21
   },
   "744101": {
     "action_index": "",
@@ -776,50 +814,6 @@
     "base": 1000,
     "reload_max": 500
   },
-  "750027": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 3200,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】齐柏林使用JU87C (飞机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 100,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 80,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750027,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30019
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
   "744102": {
     "type": 2,
     "id": 744102,
@@ -836,49 +830,32 @@
     "base": 1000,
     "damage": 12
   },
-  "750026": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1400,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】齐柏林使用BF109T (飞机",
-    "fire_fx": "zhupao",
-    "charge_param": "",
+  "744003": {
+    "initial_over_heat": 1,
     "suppress": 1,
-    "range": 120,
-    "recover_time": 5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 25,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750026,
-    "spawn_bound": "plane",
+    "range": 75,
+    "base": 1000,
+    "reload_max": 1800,
+    "action_index": "",
+    "type": 19,
+    "id": 744003,
     "barrage_ID": [
-      12015
+      399912
     ],
-    "corrected": 100,
-    "auto_aftercast": 0,
+    "queue": 1,
+    "precast_param": {
+      "alertTime": 2,
+      "time": 1,
+      "fx": "jinengenemy"
+    },
+    "name": "【DOA联动VSP】精英人形凪咲 前排跨射",
     "bullet_ID": [
-      30013
+      800005
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
-    "axis_angle": 0
+    "fire_fx": "CAFire",
+    "fire_sfx": "battle/cannon-main",
+    "damage": 30
   },
   "744103": {
     "type": 2,
@@ -896,49 +873,22 @@
     "base": 1000,
     "damage": 12
   },
-  "750025": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1100,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】塞壬航母蛋船单发x6随机II",
-    "fire_fx": "CLFire",
-    "charge_param": "",
+  "743001": {
+    "action_index": "",
+    "id": 743001,
     "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 20,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750025,
-    "spawn_bound": "cannon",
     "barrage_ID": [
-      1106
+      110608,
+      110609
     ],
-    "corrected": 125,
-    "auto_aftercast": 0,
     "bullet_ID": [
-      802
+      110605,
+      110606
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
+    "name": "【DOA联动SP4】精英人形海咲 大范围鱼雷",
+    "reload_max": 2800,
+    "base": 1001,
+    "damage": 40
   },
   "744104": {
     "type": 2,
@@ -970,49 +920,24 @@
     "base": 1000,
     "damage": 12
   },
-  "750024": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 600,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】塞壬航母蛋船近程自卫火炮II",
-    "fire_fx": "CLFire",
-    "charge_param": "",
+  "743002": {
+    "action_index": "",
+    "initial_over_heat": 1,
+    "id": 743002,
     "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 9,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750024,
-    "spawn_bound": "cannon",
+    "range": 120,
+    "queue": 3,
     "barrage_ID": [
-      12
+      810003
     ],
-    "corrected": 125,
-    "auto_aftercast": 0,
+    "name": "【DOA联动SP4】精英人形海咲 大范围旋转弹幕",
     "bullet_ID": [
-      999
+      740016
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
+    "reload_max": 1200,
+    "base": 1000,
+    "damage": 15
   },
   "744105": {
     "fire_sfx": "battle/cannon-main",
@@ -1048,54 +973,32 @@
     "base": 1000,
     "damage": 20
   },
-  "750023": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 40,
-    "reload_max": 1900,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】战列跨射攻击后排武器2x3轮-困难",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 150,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 2,
-      "fx": "jinengenemy",
-      "time": 1,
-      "isBound": true
-    },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 45,
-    "action_index": "attack",
-    "type": 19,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750023,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      20016
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1531
-    ],
-    "min_range": 80,
-    "initial_over_heat": 0,
-    "aim_type": 1,
+  "743003": {
     "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
+    "id": 743003,
+    "suppress": 1,
+    "range": 120,
+    "queue": 1,
+    "barrage_ID": [
+      730088,
+      730089,
+      730090,
+      730091,
+      730092
+    ],
+    "bullet_ID": [
+      800003,
+      800004,
+      800002,
+      800002,
+      800002
+    ],
+    "name": "【DOA联动SP4】精英人形霞 大范围主炮",
+    "reload_max": 1500,
+    "aim_type": 1,
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 24
   },
   "744106": {
     "initial_over_heat": 1,
@@ -1115,54 +1018,25 @@
     "base": 1000,
     "damage": 20
   },
-  "750022": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 80,
-    "reload_max": 2000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】陆奥平射",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 70,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 1,
-      "fx": "jinengenemy",
-      "time": 0.5,
-      "isBound": true
-    },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 30,
-    "action_index": "attack",
-    "type": 19,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750022,
-    "spawn_bound": "cannon",
+  "743004": {
+    "initial_over_heat": 1,
+    "id": 743004,
     "barrage_ID": [
-      10015
+      810004,
+      810005,
+      810006
     ],
-    "corrected": 100,
-    "auto_aftercast": 0,
+    "queue": 1,
+    "name": "【DOA联动SP4】精英人形霞 鱼雷弹幕",
     "bullet_ID": [
-      30063
+      1801,
+      1801,
+      1801
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
+    "aim_type": 0,
+    "reload_max": 1200,
+    "base": 1001,
+    "damage": 40
   },
   "744107": {
     "action_index": "",
@@ -1188,49 +1062,32 @@
     "base": 1001,
     "damage": 58
   },
-  "750021": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 2400,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】Q版重巡联装主炮x6-轮射II",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 16,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750021,
-    "spawn_bound": "cannon",
+  "743005": {
+    "initial_over_heat": 1,
+    "suppress": 1,
+    "range": 75,
+    "base": 1000,
+    "reload_max": 1800,
+    "action_index": "",
+    "type": 19,
+    "id": 743005,
     "barrage_ID": [
-      1203
+      399912
     ],
-    "corrected": 100,
-    "auto_aftercast": 0,
+    "queue": 1,
+    "precast_param": {
+      "alertTime": 2,
+      "time": 1,
+      "fx": "jinengenemy"
+    },
+    "name": "【DOA联动SP4】精英人形凪咲 前排跨射",
     "bullet_ID": [
-      1403
+      800005
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
+    "aim_type": 1,
+    "fire_fx": "CAFire",
     "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
+    "damage": 28
   },
   "744108": {
     "type": 2,
@@ -1264,211 +1121,314 @@
     "base": 1000,
     "damage": 16
   },
-  "750020": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 600,
-    "torpedo_ammo": 0,
+  "743006": {
+    "fire_sfx": "battle/cannon-main",
+    "id": 743006,
+    "range": 120,
     "queue": 1,
-    "name": "【潜艇副本】Q版近程自卫火炮II",
-    "fire_fx": "CLFire",
-    "charge_param": "",
+    "barrage_ID": [
+      950195,
+      950196
+    ],
+    "name": "【DOA联动SP4】精英人形凪咲 主炮弹幕",
+    "bullet_ID": [
+      20003,
+      20003
+    ],
+    "reload_max": 1500,
+    "fire_fx": "CAFire",
+    "base": 1000,
+    "damage": 32
+  },
+  "743101": {
+    "action_index": "",
+    "type": 2,
+    "id": 743101,
     "suppress": 1,
     "range": 38,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 6,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750020,
-    "spawn_bound": "cannon",
+    "queue": 5,
     "barrage_ID": [
-      12
+      13
     ],
-    "corrected": 125,
-    "auto_aftercast": 0,
+    "name": "【DOA联动SP4】BOSS 通用近程自卫火炮",
     "bullet_ID": [
       999
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
+    "reload_max": 500,
+    "base": 1000,
+    "damage": 8
   },
-  "750019": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1700,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】莱比锡分裂散弹",
-    "fire_fx": "zhupao",
-    "charge_param": "",
+  "742111": {
     "suppress": 1,
-    "range": 80,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750019,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      300601
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      300601
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "750018": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】莱比锡旋转子弹散射8连",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 80,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 10,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750018,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      300201
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      300201
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "750017": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】莱比锡穿透弹三横追踪弹",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
+    "range": 150,
+    "recover_time": 4,
+    "angle": 40,
+    "base": 1000,
+    "reload_max": 300,
+    "action_index": "",
+    "type": 19,
+    "id": 742111,
     "precast_param": {
       "alertTime": 2,
       "fx": "jinengenemy",
-      "time": 0.5,
+      "time": 1,
       "isBound": true
     },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 15,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750017,
-    "spawn_bound": "cannon",
     "barrage_ID": [
-      300115,
-      300116,
-      300117
+      20018
     ],
-    "corrected": 100,
-    "auto_aftercast": 0,
+    "queue": 2,
     "bullet_ID": [
-      300115,
-      300116,
-      300117
+      800006
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "750001": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】Z1-专用武器",
+    "name": "【DOA联动SP3】BOSS 穗香 fever 后排跨射1",
+    "damage": 32,
+    "aim_type": 1,
     "fire_fx": "CAFire",
+    "min_range": 75,
+    "axis_angle": 30
+  },
+  "743102": {
+    "fire_sfx": "",
+    "id": 743102,
+    "suppress": 1,
+    "range": 120,
+    "queue": 2,
+    "barrage_ID": [
+      990241,
+      990242
+    ],
+    "name": "【DOA联动SP4】BOSS 女天狗 变向弹幕",
+    "bullet_ID": [
+      770022,
+      770023
+    ],
+    "aim_type": 1,
+    "reload_max": 800,
+    "base": 1000,
+    "damage": 18
+  },
+  "745003": {
+    "fire_sfx": "battle/air-atk",
+    "type": 11,
+    "id": 745003,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      700143
+    ],
+    "queue": 3,
+    "bullet_ID": [],
+    "name": "【DOA联动EX】BOSS 女天狗 第二波 飞机",
+    "attack_attribute": 4,
+    "suppress": 1,
+    "fire_fx": "zhupao",
+    "base": 1001,
+    "reload_max": 600
+  },
+  "743103": {
+    "fire_sfx": "",
+    "id": 743103,
+    "suppress": 1,
+    "range": 120,
+    "queue": 3,
+    "barrage_ID": [
+      990001,
+      990002
+    ],
+    "name": "【DOA联动SP4】BOSS 女天狗 变向弹幕",
+    "bullet_ID": [
+      770020,
+      770021
+    ],
+    "aim_type": 1,
+    "reload_max": 800,
+    "base": 1000,
+    "damage": 18
+  },
+  "745011": {
+    "fire_sfx": "",
+    "type": 2,
+    "id": 745011,
+    "range": 120,
+    "queue": 2,
+    "name": "【DOA联动EX】BOSS 女天狗 第四波 交叉子弹",
+    "barrage_ID": [
+      810149,
+      810151,
+      810152,
+      810153,
+      810154
+    ],
+    "bullet_ID": [
+      800085,
+      800085,
+      800085,
+      800085,
+      800085
+    ],
+    "reload_max": 6000,
+    "base": 1000,
+    "damage": 50
+  },
+  "743104": {
+    "fire_sfx": "battle/air-atk",
+    "type": 11,
+    "barrage_ID": [
+      12015
+    ],
+    "bullet_ID": [
+      30013
+    ],
+    "id": 743104,
+    "suppress": 1,
+    "range": 80,
+    "queue": 1,
+    "reload_max": 700,
+    "action_index": "",
+    "name": "【DOA联动SP4】BOSS 女天狗 舰载战斗机",
+    "attack_attribute": 4,
+    "spawn_bound": "plane",
+    "fire_fx": "zhupao",
+    "base": 1001,
+    "damage": 32
+  },
+  "745010": {
+    "fire_sfx": "",
+    "type": 2,
+    "id": 745010,
+    "range": 120,
+    "queue": 1,
+    "name": "【DOA联动EX】BOSS 女天狗 第四波 黑色羽毛反弹封锁弹",
+    "barrage_ID": [
+      810141,
+      810142,
+      810143,
+      810144,
+      810145,
+      810146,
+      810147,
+      810148
+    ],
+    "bullet_ID": [
+      800042,
+      800043,
+      800042,
+      800043,
+      800045,
+      800046,
+      800045,
+      800046
+    ],
+    "reload_max": 1200,
+    "base": 1000,
+    "damage": 20
+  },
+  "743105": {
+    "action_index": "",
+    "type": 11,
+    "id": 743105,
+    "suppress": 1,
+    "range": 110,
+    "queue": 1,
+    "barrage_ID": [
+      12015
+    ],
+    "bullet_ID": [
+      30014
+    ],
+    "name": "【DOA联动SP4】BOSS 女天狗 舰载鱼雷机",
+    "attack_attribute": 4,
+    "reload_max": 700,
+    "spawn_bound": "plane",
+    "base": 1001,
+    "damage": 46
+  },
+  "745009": {
+    "action_index": "",
+    "id": 745009,
+    "suppress": 1,
+    "range": 120,
+    "queue": 2,
+    "barrage_ID": [
+      810138,
+      810139,
+      810140
+    ],
+    "bullet_ID": [
+      800080,
+      800081,
+      800082
+    ],
+    "name": "【DOA联动EX】BOSS 女天狗 第三波 自机狙",
+    "fire_sfx": "battle/cannon-main",
+    "aim_type": 1,
+    "reload_max": 6000,
+    "base": 1000,
+    "damage": 50
+  },
+  "743106": {
+    "action_index": "",
+    "type": 11,
+    "id": 743106,
+    "suppress": 1,
+    "range": 100,
+    "queue": 1,
+    "barrage_ID": [
+      12015
+    ],
+    "bullet_ID": [
+      30019
+    ],
+    "name": "【DOA联动SP4】BOSS 女天狗 舰载轰炸机",
+    "attack_attribute": 4,
+    "reload_max": 700,
+    "spawn_bound": "plane",
+    "base": 1001,
+    "damage": 58
+  },
+  "745007": {
+    "action_index": "",
+    "id": 745007,
+    "barrage_ID": [
+      810127,
+      810128
+    ],
+    "range": 120,
+    "queue": 2,
+    "bullet_ID": [
+      800076,
+      800076
+    ],
+    "fire_sfx": "battle/air-atk",
+    "name": "【DOA联动EX】BOSS 女天狗 第二波 飞机武器",
+    "attack_attribute": 4,
+    "reload_max": 6000,
+    "fire_fx": "fangkongpaohuoshe2",
+    "base": 1000,
+    "damage": 250
+  },
+  "743107": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 1650,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【DOA联动SP4】BOSS 女天狗 舰载战斗机武器 弹幕",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
-    "suppress": 0,
-    "range": 90,
+    "suppress": 1,
+    "range": 85,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
-    "action_index": "attack",
+    "damage": 32,
+    "action_index": "",
     "type": 1,
     "search_condition": [
       1
@@ -1476,177 +1436,69 @@
     "oxy_type": [
       1
     ],
-    "id": 750001,
+    "id": 743107,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      200034,
-      200035
+      101,
+      102,
+      103,
+      104
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      20005,
-      20005
+      20001,
+      20001,
+      20001,
+      20001
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
+    "aim_type": 1,
+    "fire_sfx": "battle/air-atk",
+    "effect_move": 1,
     "axis_angle": 0
   },
-  "750016": {
+  "745006": {
+    "action_index": "",
+    "barrage_ID": [
+      810126
+    ],
+    "id": 745006,
+    "bullet_ID": [
+      800075
+    ],
+    "range": 85,
+    "queue": 1,
+    "angle": 180,
+    "fire_sfx": "battle/air-atk",
+    "name": "【DOA联动EX】BOSS 女天狗 第二波 飞机武器",
+    "attack_attribute": 4,
+    "reload_max": 6000,
+    "fire_fx": "fangkongpaohuoshe2",
+    "base": 1000,
+    "damage": 400
+  },
+  "743108": {
     "search_type": 1,
-    "attack_attribute": 2,
+    "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 2000,
+    "reload_max": 48,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【潜艇副本】莱比锡散型3发快速鱼雷",
-    "fire_fx": "",
+    "name": "【DOA联动SP4】BOSS 女天狗 舰载战斗机武器 对空",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 72,
+    "range": 200,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 54,
+    "damage": 32,
     "action_index": "",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750016,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      300506
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      300506
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "750002": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】Z1-鱼雷",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 50,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 60,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750002,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      1403
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      10007
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "750015": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 2000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】科隆散型3发快速鱼雷",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 72,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 48,
-    "action_index": "",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750015,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      300506
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      300506
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "750003": {
-    "search_type": 1,
-    "attack_attribute": 3,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 900,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】Z1-防空炮",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 25,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 25,
-    "action_index": "attack",
     "type": 4,
     "search_condition": [
       1
@@ -1654,175 +1506,60 @@
     "oxy_type": [
       1
     ],
-    "id": 750003,
+    "id": 743108,
     "spawn_bound": "antiaircraft",
     "barrage_ID": [
-      14001
+      5
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      30055
+      10004
     ],
     "min_range": 0,
     "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-air",
+    "fire_sfx": "battle/air-atk",
     "effect_move": 1,
     "axis_angle": 0
   },
-  "750014": {
+  "745005": {
+    "fire_sfx": "battle/air-atk",
+    "type": 11,
+    "id": 745005,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      700143
+    ],
+    "queue": 5,
+    "bullet_ID": [],
+    "name": "【DOA联动EX】BOSS 女天狗 第二波 飞机",
+    "attack_attribute": 4,
+    "suppress": 1,
+    "fire_fx": "zhupao",
+    "base": 1001,
+    "reload_max": 600
+  },
+  "743109": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1500,
+    "angle": 35,
+    "reload_max": 8000,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【潜艇副本】科隆旋转子弹散射8连",
-    "fire_fx": "CLFire",
+    "name": "【DOA联动SP4】BOSS 女天狗 舰载鱼雷机武器",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 80,
+    "range": 60,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750014,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      300111
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      300202
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "750004": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】Z46单发瞄准x4随机II",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 12,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750004,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      1005
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1200
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "750013": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】科隆单发瞄准x4随机II",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750013,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      1005
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1200
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "750005": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2600,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】Z46四联装鱼雷II",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 60,
-    "action_index": "attack",
+    "damage": 46,
+    "action_index": "",
     "type": 3,
     "search_condition": [
       1
@@ -1830,92 +1567,60 @@
     "oxy_type": [
       1
     ],
-    "id": 750005,
+    "id": 743109,
     "spawn_bound": "torpedo",
     "barrage_ID": [
-      1403
+      12001
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1801
+      10031
     ],
-    "min_range": 0,
-    "initial_over_heat": 1,
+    "min_range": 15,
+    "initial_over_heat": 0,
     "aim_type": 1,
     "fire_sfx": "",
-    "effect_move": 0,
+    "effect_move": 1,
     "axis_angle": 0
   },
-  "750012": {
+  "745004": {
+    "fire_sfx": "battle/air-atk",
+    "type": 11,
+    "id": 745004,
+    "spawn_bound": "plane",
+    "barrage_ID": [
+      700143
+    ],
+    "queue": 4,
+    "bullet_ID": [],
+    "name": "【DOA联动EX】BOSS 女天狗 第二波 飞机",
+    "attack_attribute": 4,
+    "suppress": 1,
+    "fire_fx": "zhupao",
+    "base": 1001,
+    "reload_max": 600
+  },
+  "743110": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 2000,
+    "reload_max": 400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【潜艇副本】科隆穿透弹延迟散射4连",
+    "name": "【DOA联动SP4】BOSS 女天狗 舰载轰炸机武器",
     "fire_fx": "",
     "charge_param": "",
-    "suppress": 1,
-    "range": 90,
+    "suppress": 0,
+    "range": 10,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 2,
-      "fx": "jinengenemy",
-      "time": 0.5,
-      "isBound": true
-    },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 15,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750012,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      300102
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      300102
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "750006": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 350,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】Z19双联装炮瞄准II",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 50,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
+    "damage": 58,
+    "action_index": "",
     "type": 2,
     "search_condition": [
       1
@@ -1923,239 +1628,19 @@
     "oxy_type": [
       1
     ],
-    "id": 750006,
+    "id": 743110,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1001
-    ],
-    "corrected": 110,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1200
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "750011": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2600,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】Z21四联装鱼雷II",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 48,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750011,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      1403
+      130992
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1801
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "750007": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2600,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】Z19四联装鱼雷II",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 54,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750007,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      1403
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1801
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "750010": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 350,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】Z21双联装炮瞄准II",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 50,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750010,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      1001
-    ],
-    "corrected": 110,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1200
+      130301
     ],
     "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "750008": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】Z20单发瞄准x4随机II",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750008,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      1005
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1200
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "750009": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2600,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【潜艇副本】Z20四联装鱼雷II",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 60,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 48,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 750009,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      1403
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1801
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
+    "aim_type": 0,
     "fire_sfx": "",
     "effect_move": 0,
     "axis_angle": 0
@@ -2358,65 +1843,55 @@
     "effect_move": 1,
     "axis_angle": 0
   },
-  "745003": {
-    "fire_sfx": "battle/air-atk",
-    "type": 11,
-    "id": 745003,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      700143
-    ],
-    "queue": 3,
-    "bullet_ID": [],
-    "name": "【DOA联动EX】BOSS 女天狗 第二波 飞机",
-    "attack_attribute": 4,
-    "suppress": 1,
-    "fire_fx": "zhupao",
-    "base": 1001,
-    "reload_max": 600
-  },
-  "749015": {
-    "search_type": 1,
-    "attack_attribute": 4,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 5000,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【DOA联动】舰载轰炸机V",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 100,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 58,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 749015,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12015
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      30019
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
+  "743113": {
     "fire_sfx": "",
-    "effect_move": 1,
-    "axis_angle": 0
+    "type": 2,
+    "id": 743113,
+    "range": 120,
+    "queue": 1,
+    "name": "【DOA联动SP4】BOSS 女天狗 fever 黑色羽毛反弹封锁弹",
+    "barrage_ID": [
+      810088,
+      810089,
+      810090,
+      810091,
+      810094,
+      810095,
+      810096,
+      810097
+    ],
+    "bullet_ID": [
+      800042,
+      800043,
+      800042,
+      800043,
+      800045,
+      800046,
+      800045,
+      800046
+    ],
+    "reload_max": 1200,
+    "base": 1000,
+    "damage": 18
+  },
+  "744002": {
+    "initial_over_heat": 1,
+    "id": 744002,
+    "barrage_ID": [
+      810004,
+      810005,
+      810006
+    ],
+    "queue": 1,
+    "name": "【DOA联动VSP】精英人形霞 鱼雷弹幕",
+    "bullet_ID": [
+      1801,
+      1801,
+      1801
+    ],
+    "aim_type": 0,
+    "reload_max": 1200,
+    "base": 1001,
+    "damage": 26
   }
 }
