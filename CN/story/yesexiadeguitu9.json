@@ -3,10 +3,10 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "bgm": "battle-boss-italy",
+      "say": "切，夜晚和驱逐舰队纠缠上果然没什么好事……",
       "actor": 205030,
       "side": 2,
-      "dir": 1,
+      "bgm": "battle-boss-italy",
       "nameColor": "#ffff4d",
       "typewriter": {
         "speed": 0.05,
@@ -16,7 +16,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "say": "切，夜晚和驱逐舰队纠缠上果然没什么好事……"
+      "dir": 1
     },
     {
       "say": "哼哼哼，鱼雷成功命中！皇家纳尔逊航速减半了~",
@@ -212,8 +212,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       }
     },
     {
@@ -349,7 +349,7 @@
       "say": "就这样，伴随着少女们的嬉戏声，夜色下的归途也进入了尾声……"
     },
     {
-      "stopbgm": true,
+      "actor": 900012,
       "side": 2,
       "dir": 1,
       "nameColor": "#ff5c5c",
@@ -373,14 +373,14 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
-      "actor": 900012
+      "stopbgm": true
     },
     {
       "painting": {
@@ -431,8 +431,8 @@
       "say": "呵呵，是时候开始接下来的试验了——"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "YESEXIADEGUITU9",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

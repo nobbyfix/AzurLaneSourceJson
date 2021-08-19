@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "{namecode:82}前辈的收藏大公开\n\n<size=45>四　新生{namecode:82}博物馆，开放！</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "actor": 307060,
@@ -36,8 +36,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -301,7 +301,7 @@
       },
       "soundeffect": "event:/battle/boom1",
       "side": 2,
-      "say": "轰隆隆……",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -312,7 +312,7 @@
           "active": false
         }
       ],
-      "dir": 1,
+      "say": "轰隆隆……",
       "bgName": "bg_story_task"
     },
     {
@@ -612,8 +612,8 @@
       "bgName": "bg_story_task"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "SANLICHUANMO4",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

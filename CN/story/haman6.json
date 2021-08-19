@@ -3,24 +3,24 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "哈曼观察日志\n\n<size=45>六 喂喂是海军部吗！？</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "actor": 101240,
       "side": 2,
-      "say": "嗯…偶然碰到指挥官然后说起哈曼怎么了…然后就…",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "嗯…偶然碰到指挥官然后说起哈曼怎么了…然后就…",
       "dir": 1,
       "bgName": "bg_story_room"
     },
@@ -48,10 +48,10 @@
     {
       "action": [
         {
-          "y": 30,
+          "number": 3,
           "type": "shake",
           "dur": 0.15,
-          "number": 3
+          "y": 30
         }
       ],
       "actor": 101240,
@@ -68,10 +68,10 @@
     {
       "action": [
         {
-          "y": 45,
+          "number": 1,
           "type": "shake",
           "dur": 0.2,
-          "number": 1
+          "y": 45
         }
       ],
       "actor": 101240,
@@ -106,10 +106,10 @@
       },
       "action": [
         {
-          "y": 45,
+          "number": 3,
           "type": "shake",
           "dur": 0.15,
-          "number": 3
+          "y": 45
         }
       ],
       "say": "这个变态！！跟踪狂！！大笨蛋！！！",
@@ -158,10 +158,10 @@
       "bgName": "bg_story_room"
     },
     {
-      "dir": 1,
+      "say": "…你看，指挥官这不是因为担心哈曼才找过来的吗？",
       "actor": 107050,
       "side": 0,
-      "say": "…你看，指挥官这不是因为担心哈曼才找过来的吗？",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -244,8 +244,8 @@
       "bgName": "bg_story_room"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "HAMAN6",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

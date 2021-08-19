@@ -3,10 +3,10 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "bgm": "bgm-cccp3",
+      "say": "啧…保持距离会收到光束攻击，试图近身又会被范围冲击击退，真是棘手…！",
       "actor": 102140,
       "side": 2,
-      "dir": 1,
+      "bgm": "bgm-cccp3",
       "nameColor": "#a9f548",
       "typewriter": {
         "speed": 0.05,
@@ -16,7 +16,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "say": "啧…保持距离会收到光束攻击，试图近身又会被范围冲击击退，真是棘手…！"
+      "dir": 1
     },
     {
       "say": "那个光束…难道是闪电吗…？这里该不会是塞壬的秘密兵器试验场吧！？",
@@ -123,10 +123,10 @@
       }
     },
     {
-      "bgm": "story-masazhusai",
+      "say": "指挥官，电力系统已经修复完毕，南达科他现在重新加入战斗序列",
       "actor": 105140,
       "side": 2,
-      "dir": 1,
+      "bgm": "story-masazhusai",
       "nameColor": "#a9f548",
       "typewriter": {
         "speed": 0.05,
@@ -136,7 +136,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "say": "指挥官，电力系统已经修复完毕，南达科他现在重新加入战斗序列"
+      "dir": 1
     },
     {
       "actor": 105140,
@@ -191,12 +191,12 @@
       },
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "say": "高速飞行的炮弹，撕开了敌人的防御网，随着一连串剧烈的爆炸，海面上的塞壬舰船化成了燃烧着的残骸",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "say": "高速飞行的炮弹，撕开了敌人的防御网，随着一连串剧烈的爆炸，海面上的塞壬舰船化成了燃烧着的残骸",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -255,7 +255,7 @@
     {
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "say": "……………嗯？爆炸声还没停止？",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -264,7 +264,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "dir": 1
+      "say": "……………嗯？爆炸声还没停止？"
     },
     {
       "say": "这、这是——！？",
@@ -283,7 +283,7 @@
       "expression": 5
     },
     {
-      "soundeffect": "event:/battle/boom2",
+      "stopbgm": true,
       "side": 2,
       "dir": 1,
       "blackBg": true,
@@ -301,7 +301,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "stopbgm": true
+      "soundeffect": "event:/battle/boom2"
     },
     {
       "soundeffect": "event:/battle/boom2",
@@ -376,8 +376,8 @@
       "say": "……………………"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "MAOZIHUODONG12",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

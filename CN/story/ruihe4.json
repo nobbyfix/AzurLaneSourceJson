@@ -3,23 +3,23 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "幸运之鹤\n\n<size=45>四  {namecode:96}与大前辈</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "side": 2,
-      "say": "傍晚·演习海域",
+      "bgm": "battle-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "battle-1",
+      "say": "傍晚·演习海域",
       "dir": 1,
       "bgName": "bg_story_nepu1"
     },
@@ -64,12 +64,12 @@
     {
       "soundeffect": "event:/battle/plane",
       "side": 2,
-      "say": "{namecode:96}的舰载机投下的模拟弹漂亮地击中了{namecode:82}",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "say": "{namecode:96}的舰载机投下的模拟弹漂亮地击中了{namecode:82}",
       "bgName": "bg_story_nepu1"
     },
     {
@@ -143,10 +143,10 @@
       "nameColor": "#a9f548",
       "action": [
         {
-          "y": 30,
+          "number": 3,
           "type": "shake",
           "dur": 0.15,
-          "number": 3
+          "y": 30
         }
       ],
       "say": "非常感谢！…指挥官觉得刚才我的表现怎么样！",
@@ -215,8 +215,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -314,10 +314,10 @@
       },
       "actor": 0,
       "side": 0,
-      "withoutPainting": true,
-      "nameColor": "#a9f548",
-      "say": "……",
       "dir": 1,
+      "nameColor": "#a9f548",
+      "withoutPainting": true,
+      "say": "……",
       "bgName": "bg_story_nepu1"
     },
     {
@@ -339,8 +339,8 @@
       "bgName": "bg_story_nepu1"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "RUIHE4",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

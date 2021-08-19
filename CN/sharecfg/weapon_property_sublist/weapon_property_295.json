@@ -1,23 +1,27 @@
 {
-  "610186": {
+  "610089": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 2200,
+    "reload_max": 1300,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【俾斯麦活动EX】BOSS-俾斯麦塞壬-穿甲弹散射x8",
+    "queue": 1,
+    "name": "【俾斯麦活动C1】BOSS-诺福克特殊弹幕",
     "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 180,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "time": 0.5,
+      "fx": "jinengenemy",
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 25,
+    "damage": 22,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -26,22 +30,34 @@
     "oxy_type": [
       1
     ],
-    "id": 610186,
+    "id": 610089,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1210,
-      1211
+      610007,
+      610008,
+      610009,
+      610010,
+      610011,
+      610012,
+      610013,
+      610014
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      610060,
-      610061
+      610007,
+      610008,
+      610009,
+      610010,
+      610011,
+      610012,
+      610013,
+      610014
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -83,55 +99,53 @@
       1403
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610187": {
-    "search_type": 2,
+  "610090": {
+    "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 2400,
+    "reload_max": 500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【俾斯麦活动EX】BOSS-俾斯麦塞壬-鱼雷弹幕",
-    "fire_fx": "",
+    "name": "【俾斯麦活动C2】BOSS-胜利 近程自卫火炮III",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 60,
+    "range": 38,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 50,
+    "damage": 11,
     "action_index": "attack",
-    "type": 3,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 610187,
-    "spawn_bound": "torpedo",
+    "id": 610090,
+    "spawn_bound": "cannon",
     "barrage_ID": [
-      110608,
-      110609
+      13
     ],
     "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      610052,
-      610053
+      999
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
+    "fire_sfx": "battle/cannon-155mm",
     "aim_type": 1,
-    "fire_sfx": "",
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -187,31 +201,31 @@
       568421
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
     "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 0,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610188": {
+  "610091": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 2000,
+    "reload_max": 1400,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【俾斯麦活动EX】BOSS-俾斯麦塞壬-攻击后排穿甲弹散射x8",
+    "queue": 1,
+    "name": "【俾斯麦活动C2】BOSS-胜利联装主炮x4-散射III型弹幕2",
     "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 180,
+    "suppress": 0,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 15,
+    "damage": 28,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -220,47 +234,47 @@
     "oxy_type": [
       1
     ],
-    "id": 610188,
+    "id": 610091,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1210
+      200101
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      610060
+      1403
     ],
-    "min_range": 90,
-    "initial_over_heat": 0,
-    "aim_type": 0,
+    "min_range": 0,
     "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610123": {
+  "610060": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2500,
+    "angle": 40,
+    "reload_max": 2400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【俾斯麦活动D1】BOSS-俾斯麦-跨射前排武器",
+    "name": "【俾斯麦活动B2】BOSS-测试者β型-战列跨射攻击后排武器3x2轮",
     "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
+    "range": 150,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": {
       "alertTime": 2,
-      "fx": "jinengenemy",
       "time": 1,
+      "fx": "jinengenemy",
       "isBound": true
     },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 34,
+    "damage": 50,
     "action_index": "attack",
     "type": 19,
     "search_condition": [
@@ -269,20 +283,20 @@
     "oxy_type": [
       1
     ],
-    "id": 610123,
+    "id": 610060,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      399988
+      20018
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      399988
+      1530
     ],
-    "min_range": 10,
-    "initial_over_heat": 0,
-    "aim_type": 1,
+    "min_range": 75,
     "fire_sfx": "battle/cannon-main",
+    "aim_type": 1,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -324,58 +338,53 @@
       610092
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 0,
     "fire_sfx": "battle/air-atk",
+    "aim_type": 0,
+    "initial_over_heat": 1,
     "effect_move": 1,
     "axis_angle": 0
   },
-  "610124": {
+  "610061": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 40,
-    "reload_max": 2300,
+    "angle": 360,
+    "reload_max": 700,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【俾斯麦活动D1】BOSS-俾斯麦-跨射攻击后排武器2x4轮",
-    "fire_fx": "CAFire",
+    "name": "【俾斯麦活动B2】BOSS-测试者β型-Q版近程自卫火炮IIII",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 150,
-    "recover_time": 0,
+    "range": 38,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 2,
-      "fx": "jinengenemy",
-      "time": 1,
-      "isBound": true
-    },
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 60,
+    "damage": 10,
     "action_index": "attack",
-    "type": 19,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 610124,
+    "id": 610061,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      20017
+      14
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1531
+      801
     ],
-    "min_range": 85,
-    "initial_over_heat": 0,
+    "min_range": 0,
+    "fire_sfx": "battle/cannon-155mm",
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -417,31 +426,31 @@
       610093
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
     "fire_sfx": "",
+    "aim_type": 1,
+    "initial_over_heat": 0,
     "effect_move": 1,
     "axis_angle": 0
   },
-  "610125": {
+  "610062": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 600,
+    "angle": 180,
+    "reload_max": 2500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【俾斯麦活动D1】BOSS-俾斯麦交叉射线",
-    "fire_fx": "CLFire",
+    "name": "【俾斯麦活动B2】BOSS-测试者β型-炮击一型",
+    "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
+    "suppress": 0,
     "range": 90,
     "recover_time": 0,
-    "fire_fx_loop_type": 3,
+    "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 22,
+    "attack_attribute_ratio": 90,
+    "damage": 25,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -450,22 +459,30 @@
     "oxy_type": [
       1
     ],
-    "id": 610125,
+    "id": 610062,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      610060,
-      610061
+      399999,
+      399998,
+      399997,
+      399996,
+      399995,
+      399994
     ],
-    "corrected": 105,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      610050,
-      610051
+      399999,
+      399998,
+      399997,
+      399996,
+      399995,
+      399994
     ],
     "min_range": 0,
+    "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -507,31 +524,31 @@
       130314
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
     "fire_sfx": "battle/air-atk",
+    "aim_type": 1,
+    "initial_over_heat": 0,
     "effect_move": 1,
     "axis_angle": 0
   },
-  "610189": {
+  "610063": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1800,
+    "angle": 180,
+    "reload_max": 2500,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【俾斯麦活动EX】BOSS-俾斯麦塞壬-子母弹上",
+    "queue": 1,
+    "name": "【俾斯麦活动B2】BOSS-测试者β型-炮击二型",
     "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 0,
-    "range": 100,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 20,
+    "attack_attribute_ratio": 90,
+    "damage": 18,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -540,20 +557,22 @@
     "oxy_type": [
       1
     ],
-    "id": 610189,
+    "id": 610063,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      610070
+      399993,
+      399992
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      610043
+      399993,
+      399992
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -595,53 +614,53 @@
       10004
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
     "fire_sfx": "battle/air-atk",
+    "aim_type": 1,
+    "initial_over_heat": 0,
     "effect_move": 1,
     "axis_angle": 0
   },
-  "610190": {
+  "610064": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1800,
+    "angle": 60,
+    "reload_max": 2500,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【俾斯麦活动EX】BOSS-俾斯麦塞壬-子母弹下",
-    "fire_fx": "CAFire",
+    "queue": 1,
+    "name": "【俾斯麦活动B2】BOSS-测试者β型-8联装533mm磁性鱼雷",
+    "fire_fx": "",
     "charge_param": "",
-    "suppress": 0,
-    "range": 100,
-    "recover_time": 0,
+    "suppress": 1,
+    "range": 52,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 20,
+    "damage": 44,
     "action_index": "attack",
-    "type": 1,
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 610190,
-    "spawn_bound": "cannon",
+    "id": 610064,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      610072
+      399987
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      610045
+      1803
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
+    "fire_sfx": "",
     "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
+    "initial_over_heat": 1,
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -683,54 +702,54 @@
       30067
     ],
     "min_range": 22,
-    "initial_over_heat": 0,
-    "aim_type": 1,
     "fire_sfx": "",
+    "aim_type": 1,
+    "initial_over_heat": 0,
     "effect_move": 1,
     "axis_angle": 0
   },
-  "610191": {
+  "610065": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 500,
+    "angle": 360,
+    "reload_max": 3400,
     "torpedo_ammo": 0,
-    "queue": 5,
-    "name": "【俾斯麦活动EX】BOSS-俾斯麦塞壬_扩散圈(蓝)",
-    "fire_fx": "CAFire",
+    "queue": 1,
+    "name": "【俾斯麦活动B2】BOSS-测试者β型-浮游炮",
+    "fire_fx": "zhupao",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
-    "recover_time": 0,
+    "range": 120,
+    "recover_time": 5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 10,
+    "damage": 35,
     "action_index": "attack",
-    "type": 1,
+    "type": 11,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 610191,
-    "spawn_bound": "cannon",
+    "id": 610065,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      470441
+      12019
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      470441
+      610065
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
+    "fire_sfx": "battle/air-atk",
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
+    "initial_over_heat": 0,
+    "effect_move": 1,
     "axis_angle": 0
   },
   "610097": {
@@ -749,8 +768,8 @@
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": {
-      "fx": "jinengenemy",
       "time": 0.5,
+      "fx": "jinengenemy",
       "isBound": true
     },
     "expose": 0,
@@ -781,32 +800,32 @@
       610042
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610185": {
+  "610066": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 1000,
+    "reload_max": 250,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【俾斯麦活动EX】BOSS-俾斯麦塞壬-特殊武器2",
-    "fire_fx": "CAFire",
+    "queue": 1,
+    "name": "【俾斯麦活动B2】BOSS魔鬼鱼浮游炮一型",
+    "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
+    "range": 85,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
     "damage": 15,
-    "action_index": "attack",
+    "action_index": "",
     "type": 1,
     "search_condition": [
       1
@@ -814,78 +833,32 @@
     "oxy_type": [
       1
     ],
-    "id": 610185,
+    "id": 610066,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      8041,
-      8043
+      399991
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      8041,
-      8043
+      399991
     ],
     "min_range": 0,
+    "fire_sfx": "battle/air-atk",
+    "aim_type": 1,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
+    "effect_move": 1,
     "axis_angle": 0
   },
-  "610161": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 800,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【俾斯麦活动D4】BOSS-俾斯麦塞壬-联装主炮x6-轮射II",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 30,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 610161,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      1203
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1610
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "610130": {
+  "610124": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 40,
-    "reload_max": 2400,
+    "reload_max": 2300,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【俾斯麦活动D2】BOSS测试者β型-战列跨射攻击后排武器3x2轮",
+    "name": "【俾斯麦活动D1】BOSS-俾斯麦-跨射攻击后排武器2x4轮",
     "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
@@ -894,13 +867,13 @@
     "fire_fx_loop_type": 1,
     "precast_param": {
       "alertTime": 2,
-      "fx": "jinengenemy",
       "time": 1,
+      "fx": "jinengenemy",
       "isBound": true
     },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 64,
+    "damage": 60,
     "action_index": "attack",
     "type": 19,
     "search_condition": [
@@ -909,42 +882,88 @@
     "oxy_type": [
       1
     ],
-    "id": 610130,
+    "id": 610124,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      20018
+      20017
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1530
+      1531
     ],
-    "min_range": 75,
-    "initial_over_heat": 0,
-    "aim_type": 1,
+    "min_range": 85,
     "fire_sfx": "battle/cannon-main",
+    "aim_type": 1,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610162": {
+  "610067": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 1250,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【俾斯麦活动B2】BOSS魔鬼鱼浮游炮二型",
+    "fire_fx": "fangkongpaohuoshe2",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 85,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 20,
+    "action_index": "",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 610067,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      399990,
+      399989
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      399990,
+      399989
+    ],
+    "min_range": 0,
+    "fire_sfx": "battle/air-atk",
+    "aim_type": 1,
+    "initial_over_heat": 0,
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "610123": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 80,
-    "reload_max": 1000,
+    "angle": 60,
+    "reload_max": 2500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【俾斯麦活动D4】BOSS-俾斯麦塞壬-BOSS平射",
+    "name": "【俾斯麦活动D1】BOSS-俾斯麦-跨射前排武器",
     "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 70,
-    "recover_time": 0.5,
+    "range": 90,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": {
-      "alertTime": 1,
+      "alertTime": 2,
+      "time": 1,
       "fx": "jinengenemy",
-      "time": 0.5,
       "isBound": true
     },
     "expose": 0,
@@ -958,162 +977,20 @@
     "oxy_type": [
       1
     ],
-    "id": 610162,
+    "id": 610123,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      10015
+      399988
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1610
+      399988
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
+    "min_range": 10,
     "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "610131": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 700,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【俾斯麦活动D2】BOSS测试者β型-Q版近程自卫火炮IIII",
-    "fire_fx": "CLFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 13,
-    "action_index": "attack",
-    "type": 2,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 610131,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      14
-    ],
-    "corrected": 125,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      801
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "610100": {
-    "search_type": 1,
-    "attack_attribute": 0,
-    "shakescreen": 0,
-    "angle": 90,
-    "reload_max": 400,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【俾斯麦活动C3】BOSS-皇家方舟 特殊飞机",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 68,
-    "action_index": "attack",
-    "type": 11,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 610100,
-    "spawn_bound": "plane",
-    "barrage_ID": [
-      12008
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      610100
-    ],
-    "min_range": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 1,
-    "axis_angle": 0
-  },
-  "610132": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 2500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【俾斯麦活动D2】BOSS测试者β型-炮击一型",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 90,
-    "damage": 28,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 610132,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      399999,
-      399998,
-      399997,
-      399996,
-      399995,
-      399994
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      399999,
-      399998,
-      399997,
-      399996,
-      399995,
-      399994
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1161,229 +1038,31 @@
       610034
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
     "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "610133": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 2500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【俾斯麦活动D2】BOSS测试者β型-炮击二型",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 90,
-    "damage": 22,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 610133,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      399993,
-      399992
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      399993,
-      399992
-    ],
-    "min_range": 0,
+    "aim_type": 0,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610102": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1800,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【俾斯麦活动C3】BOSS-皇家方舟 特殊弹幕1",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 72,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "fx": "jinengenemy",
-      "time": 1,
-      "isBound": true
-    },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 32,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 610102,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      610031,
-      610032,
-      610033,
-      610034
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      610035,
-      610036,
-      610037,
-      610038
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "610134": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 60,
-    "reload_max": 2500,
-    "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【俾斯麦活动D2】BOSS测试者β型-8联装533mm磁性鱼雷",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 52,
-    "recover_time": 0.5,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 56,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 610134,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      399987
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1803
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 0,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "610103": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1800,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【俾斯麦活动C3】BOSS-皇家方舟 特殊弹幕2(作废)",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 72,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": {
-      "fx": "jinengenemy",
-      "time": 0.5,
-      "isBound": true
-    },
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 32,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 610103,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      610035,
-      610036,
-      610037,
-      610038
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      610039,
-      610040,
-      610041,
-      610042
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "610135": {
+  "610037": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 3400,
+    "reload_max": 1500,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【俾斯麦活动D2】BOSS测试者β型-浮游炮",
-    "fire_fx": "zhupao",
+    "queue": 2,
+    "name": "【俾斯麦活动A3】BOSS-皇家方舟 鱼雷机",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 120,
-    "recover_time": 5,
+    "range": 110,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 56,
+    "damage": 36,
     "action_index": "attack",
     "type": 11,
     "search_condition": [
@@ -1392,20 +1071,20 @@
     "oxy_type": [
       1
     ],
-    "id": 610135,
+    "id": 610037,
     "spawn_bound": "plane",
     "barrage_ID": [
-      12019
+      610039
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      610135
+      610037
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
+    "fire_sfx": "",
     "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
+    "initial_over_heat": 0,
     "effect_move": 1,
     "axis_angle": 0
   },
@@ -1447,21 +1126,21 @@
       999
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
     "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 1,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610136": {
+  "610038": {
     "search_type": 1,
     "attack_attribute": 4,
     "shakescreen": 0,
     "angle": 180,
-    "reload_max": 250,
+    "reload_max": 100,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【俾斯麦活动D2】BOSS魔鬼鱼浮游炮一型",
+    "queue": 3,
+    "name": "【俾斯麦活动A3】BOSS-皇家方舟 战斗机弹幕武器",
     "fire_fx": "fangkongpaohuoshe2",
     "charge_param": "",
     "suppress": 1,
@@ -1471,7 +1150,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 24,
+    "damage": 4,
     "action_index": "",
     "type": 1,
     "search_condition": [
@@ -1480,21 +1159,341 @@
     "oxy_type": [
       1
     ],
-    "id": 610136,
+    "id": 610038,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      399991
+      120303
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      399991
+      130314
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
     "fire_sfx": "battle/air-atk",
+    "aim_type": 1,
+    "initial_over_heat": 0,
     "effect_move": 1,
+    "axis_angle": 0
+  },
+  "610070": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【俾斯麦活动B3】DOSS-俾斯麦塞壬-近程自卫火炮II",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 38,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 12,
+    "action_index": "attack",
+    "type": 2,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 610070,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      14
+    ],
+    "corrected": 125,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      999
+    ],
+    "min_range": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 1,
+    "initial_over_heat": 0,
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "610039": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 180,
+    "reload_max": 48,
+    "torpedo_ammo": 0,
+    "queue": 3,
+    "name": "【俾斯麦活动A3】BOSS-皇家方舟 战斗机对空武器",
+    "fire_fx": "fangkongpaohuoshe2",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 200,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 16,
+    "action_index": "",
+    "type": 4,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 610039,
+    "spawn_bound": "antiaircraft",
+    "barrage_ID": [
+      5
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      10004
+    ],
+    "min_range": 0,
+    "fire_sfx": "battle/air-atk",
+    "aim_type": 1,
+    "initial_over_heat": 0,
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "610071": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 800,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【俾斯麦活动B3】DOSS-俾斯麦塞壬-联装主炮x6-轮射II",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 30,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 610071,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      1203
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1610
+    ],
+    "min_range": 0,
+    "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
+    "initial_over_heat": 0,
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "610040": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 35,
+    "reload_max": 11954,
+    "torpedo_ammo": 0,
+    "queue": 2,
+    "name": "【俾斯麦活动A3】BOSS-皇家方舟 鱼雷机弹幕武器",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 40,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 36,
+    "action_index": "",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 610040,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      12001
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      30067
+    ],
+    "min_range": 22,
+    "fire_sfx": "",
+    "aim_type": 1,
+    "initial_over_heat": 0,
+    "effect_move": 1,
+    "axis_angle": 0
+  },
+  "610072": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 80,
+    "reload_max": 1000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【俾斯麦活动B3】DOSS-俾斯麦塞壬-BOSS平射",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 70,
+    "recover_time": 0.5,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "alertTime": 1,
+      "time": 0.5,
+      "fx": "jinengenemy",
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 38,
+    "action_index": "attack",
+    "type": 19,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 610072,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      10015
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1610
+    ],
+    "min_range": 0,
+    "fire_sfx": "battle/cannon-main",
+    "aim_type": 1,
+    "initial_over_heat": 0,
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "610041": {
+    "search_type": 1,
+    "attack_attribute": 4,
+    "shakescreen": 0,
+    "angle": 24,
+    "reload_max": 5000,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【俾斯麦活动A3】BOSS-皇家方舟 特殊鱼雷机弹幕武器",
+    "fire_fx": "",
+    "charge_param": "",
+    "suppress": 0,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 46,
+    "action_index": "",
+    "type": 3,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 610041,
+    "spawn_bound": "torpedo",
+    "barrage_ID": [
+      80486,
+      80487
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      2114,
+      2114
+    ],
+    "min_range": 0,
+    "fire_sfx": "",
+    "aim_type": 0,
+    "initial_over_heat": 0,
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "610073": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 40,
+    "reload_max": 2600,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【俾斯麦活动B3】DOSS-俾斯麦塞壬-攻击后排武器2x3轮",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 150,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "alertTime": 2,
+      "time": 1,
+      "fx": "jinengenemy",
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 52,
+    "action_index": "attack",
+    "type": 19,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 610073,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      20016
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      610062
+    ],
+    "min_range": 80,
+    "fire_sfx": "battle/cannon-main",
+    "aim_type": 1,
+    "initial_over_heat": 0,
+    "effect_move": 0,
     "axis_angle": 0
   },
   "610105": {
@@ -1535,32 +1534,32 @@
       1403
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610137": {
+  "610074": {
     "search_type": 1,
-    "attack_attribute": 4,
+    "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1250,
+    "angle": 360,
+    "reload_max": 600,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【俾斯麦活动D2】BOSS魔鬼鱼浮游炮二型",
-    "fire_fx": "fangkongpaohuoshe2",
+    "name": "【俾斯麦活动B3】BOSS-俾斯麦交叉射线",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 85,
+    "range": 90,
     "recover_time": 0,
-    "fire_fx_loop_type": 1,
+    "fire_fx_loop_type": 3,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 32,
-    "action_index": "",
+    "damage": 25,
+    "action_index": "attack",
     "type": 1,
     "search_condition": [
       1
@@ -1568,23 +1567,23 @@
     "oxy_type": [
       1
     ],
-    "id": 610137,
+    "id": 610074,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      399990,
-      399989
+      610060,
+      610061
     ],
-    "corrected": 100,
+    "corrected": 105,
     "auto_aftercast": 0,
     "bullet_ID": [
-      399990,
-      399989
+      610050,
+      610051
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
+    "fire_sfx": "battle/cannon-155mm",
     "aim_type": 1,
-    "fire_sfx": "battle/air-atk",
-    "effect_move": 1,
+    "initial_over_heat": 0,
+    "effect_move": 0,
     "axis_angle": 0
   },
   "610106": {
@@ -1625,31 +1624,31 @@
       610106
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 0,
     "fire_sfx": "battle/air-atk",
+    "aim_type": 0,
+    "initial_over_heat": 1,
     "effect_move": 1,
     "axis_angle": 0
   },
-  "610184": {
+  "610075": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 600,
+    "angle": 180,
+    "reload_max": 1000,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【俾斯麦活动EX】BOSS-俾斯麦塞壬交叉射线",
-    "fire_fx": "CLFire",
+    "queue": 2,
+    "name": "【俾斯麦活动B3】DOSS-俾斯麦塞壬-特殊武器2",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
     "range": 90,
     "recover_time": 0,
-    "fire_fx_loop_type": 3,
+    "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 15,
+    "damage": 20,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -1658,26 +1657,22 @@
     "oxy_type": [
       1
     ],
-    "id": 610184,
+    "id": 610075,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      610060,
-      610061,
-      610062,
-      610063
+      8041,
+      8043
     ],
-    "corrected": 105,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      610050,
-      610051,
-      610050,
-      610051
+      8041,
+      8043
     ],
     "min_range": 0,
+    "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1719,58 +1714,55 @@
       610107
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
     "fire_sfx": "",
+    "aim_type": 1,
+    "initial_over_heat": 0,
     "effect_move": 1,
     "axis_angle": 0
   },
-  "610183": {
+  "610076": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 40,
-    "reload_max": 2600,
+    "angle": 360,
+    "reload_max": 2200,
     "torpedo_ammo": 0,
-    "queue": 4,
-    "name": "【俾斯麦活动EX】BOSS-俾斯麦塞壬-攻击后排武器2x3轮",
+    "queue": 3,
+    "name": "【俾斯麦活动B3】DOSS-俾斯麦塞壬-穿甲弹散射x8",
     "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 150,
+    "range": 180,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 2,
-      "fx": "jinengenemy",
-      "time": 1,
-      "isBound": true
-    },
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 13,
+    "damage": 42,
     "action_index": "attack",
-    "type": 19,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 610183,
+    "id": 610076,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      20016
+      1210,
+      1211
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      610062
+      610060,
+      610061
     ],
-    "min_range": 80,
-    "initial_over_heat": 0,
-    "aim_type": 1,
+    "min_range": 0,
     "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1812,53 +1804,53 @@
       130314
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
     "fire_sfx": "battle/air-atk",
+    "aim_type": 1,
+    "initial_over_heat": 0,
     "effect_move": 1,
     "axis_angle": 0
   },
-  "610140": {
+  "610077": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1000,
+    "angle": 180,
+    "reload_max": 2500,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【俾斯麦活动D3】BOSS-俾斯麦塞壬-近程自卫火炮II",
-    "fire_fx": "CLFire",
+    "queue": 2,
+    "name": "【俾斯麦活动B3】DOSS-俾斯麦塞壬-4发磁性鱼雷x2",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 38,
-    "recover_time": 0.5,
+    "range": 72,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 15,
-    "action_index": "attack",
-    "type": 2,
+    "damage": 46,
+    "action_index": "",
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 610140,
-    "spawn_bound": "cannon",
+    "id": 610077,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      14
+      1413
     ],
-    "corrected": 125,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      999
+      1803
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
+    "fire_sfx": "",
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "initial_over_heat": 1,
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1900,31 +1892,31 @@
       10004
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
     "fire_sfx": "battle/air-atk",
+    "aim_type": 1,
+    "initial_over_heat": 0,
     "effect_move": 1,
     "axis_angle": 0
   },
-  "610141": {
+  "610078": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 800,
+    "reload_max": 2000,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【俾斯麦活动D3】BOSS-俾斯麦塞壬-联装主炮x6-轮射II",
+    "queue": 3,
+    "name": "【俾斯麦活动B3】DOSS-俾斯麦塞壬-攻击后排穿甲弹散射x8",
     "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 90,
+    "suppress": 1,
+    "range": 180,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 30,
+    "damage": 58,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -1933,20 +1925,20 @@
     "oxy_type": [
       1
     ],
-    "id": 610141,
+    "id": 610078,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1203
+      1210
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1610
+      610060
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
+    "min_range": 90,
     "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -1988,58 +1980,53 @@
       30067
     ],
     "min_range": 22,
-    "initial_over_heat": 0,
-    "aim_type": 1,
     "fire_sfx": "",
+    "aim_type": 1,
+    "initial_over_heat": 0,
     "effect_move": 1,
     "axis_angle": 0
   },
-  "610142": {
+  "610079": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 80,
-    "reload_max": 1000,
+    "angle": 360,
+    "reload_max": 1800,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【俾斯麦活动D3】BOSS-俾斯麦塞壬-BOSS平射",
+    "queue": 3,
+    "name": "【俾斯麦活动B3】BOSS-俾斯麦塞壬-黑洞武器",
     "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 70,
-    "recover_time": 0.5,
+    "suppress": 0,
+    "range": 20,
+    "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 1,
-      "fx": "jinengenemy",
-      "time": 0.5,
-      "isBound": true
-    },
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 34,
+    "damage": 4,
     "action_index": "attack",
-    "type": 19,
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 610142,
+    "id": 610079,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      10015
+      610073
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1610
+      610055
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
     "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -2083,80 +2070,79 @@
       2114
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
     "fire_sfx": "",
+    "aim_type": 0,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610143": {
+  "610080": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 40,
-    "reload_max": 2600,
+    "angle": 360,
+    "reload_max": 500,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【俾斯麦活动D3】BOSS-俾斯麦塞壬-攻击后排武器2x3轮",
-    "fire_fx": "CAFire",
+    "name": "【俾斯麦活动C1】BOSS-萨福克Q版近程自卫火炮III",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 150,
-    "recover_time": 0,
+    "range": 38,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 2,
-      "fx": "jinengenemy",
-      "time": 1,
-      "isBound": true
-    },
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 40,
+    "damage": 10,
     "action_index": "attack",
-    "type": 19,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 610143,
+    "id": 610080,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      20016
+      14
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      610062
+      999
     ],
-    "min_range": 80,
-    "initial_over_heat": 0,
+    "min_range": 0,
+    "fire_sfx": "battle/cannon-155mm",
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610164": {
+  "610103": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 600,
+    "angle": 180,
+    "reload_max": 1800,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【俾斯麦活动D4】BOSS-俾斯麦交叉射线",
-    "fire_fx": "CLFire",
+    "queue": 2,
+    "name": "【俾斯麦活动C3】BOSS-皇家方舟 特殊弹幕2(作废)",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 90,
+    "range": 72,
     "recover_time": 0,
-    "fire_fx_loop_type": 3,
-    "precast_param": [],
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "time": 0.5,
+      "fx": "jinengenemy",
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 34,
+    "damage": 32,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -2165,40 +2151,44 @@
     "oxy_type": [
       1
     ],
-    "id": 610164,
+    "id": 610103,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      610060,
-      610061
+      610035,
+      610036,
+      610037,
+      610038
     ],
-    "corrected": 105,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      610050,
-      610051
+      610039,
+      610040,
+      610041,
+      610042
     ],
     "min_range": 0,
+    "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
     "initial_over_heat": 0,
-    "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610144": {
+  "610081": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 600,
+    "reload_max": 1300,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【俾斯麦活动D3】BOSS-俾斯麦交叉射线",
-    "fire_fx": "CLFire",
+    "name": "【俾斯麦活动C1】BOSS-萨福克Q版重巡单发主炮x4-瞄准III",
+    "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
     "range": 90,
     "recover_time": 0,
-    "fire_fx_loop_type": 3,
+    "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
@@ -2211,137 +2201,87 @@
     "oxy_type": [
       1
     ],
-    "id": 610144,
+    "id": 610081,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      610060,
-      610061
+      200092
     ],
-    "corrected": 105,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      610050,
-      610051
+      1403
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
+    "fire_sfx": "battle/cannon-main",
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610166": {
+  "610050": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 2200,
+    "reload_max": 500,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【俾斯麦活动D4】BOSS-俾斯麦塞壬-穿甲弹散射x8",
-    "fire_fx": "CAFire",
+    "queue": 1,
+    "name": "【俾斯麦活动B1】BOSS-俾斯麦-Q版近程自卫火炮III",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 180,
-    "recover_time": 0,
+    "range": 38,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 38,
+    "damage": 8,
     "action_index": "attack",
-    "type": 1,
+    "type": 2,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 610166,
+    "id": 610050,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1210,
-      1211
+      13
     ],
-    "corrected": 100,
+    "corrected": 125,
     "auto_aftercast": 0,
     "bullet_ID": [
-      610060,
-      610061
+      999
     ],
     "min_range": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 1,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610145": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1000,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【俾斯麦活动D3】BOSS-俾斯麦塞壬-特殊武器2",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 90,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 22,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 610145,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      8041,
-      8043
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      8041,
-      8043
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "610167": {
+  "610082": {
     "search_type": 1,
     "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 2500,
+    "angle": 60,
+    "reload_max": 1600,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【俾斯麦活动D4】BOSS-俾斯麦塞壬-4发磁性鱼雷x2",
+    "queue": 1,
+    "name": "【俾斯麦活动C1】BOSS-萨福克Q版双联装鱼雷III",
     "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 72,
-    "recover_time": 0,
+    "range": 60,
+    "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 68,
-    "action_index": "",
+    "damage": 52,
+    "action_index": "attack",
     "type": 3,
     "search_condition": [
       1
@@ -2349,39 +2289,87 @@
     "oxy_type": [
       1
     ],
-    "id": 610167,
+    "id": 610082,
     "spawn_bound": "torpedo",
     "barrage_ID": [
-      1413
+      1402
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1803
+      1801
     ],
     "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
     "fire_sfx": "",
+    "aim_type": 1,
+    "initial_over_heat": 1,
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610146": {
+  "610051": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 2200,
+    "reload_max": 2400,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【俾斯麦活动D3】BOSS-俾斯麦塞壬-穿甲弹散射x8",
+    "queue": 1,
+    "name": "【俾斯麦活动B1】BOSS-俾斯麦-Q版重巡联装主炮x6-轮射II",
     "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 1,
-    "range": 180,
+    "suppress": 0,
+    "range": 90,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 28,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 610051,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      1203
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      1403
+    ],
+    "min_range": 0,
+    "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
+    "initial_over_heat": 0,
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "610083": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1300,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【俾斯麦活动C1】BOSS-萨福克特殊弹幕",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "time": 1,
+      "fx": "jinengenemy",
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
     "damage": 34,
@@ -2393,210 +2381,203 @@
     "oxy_type": [
       1
     ],
-    "id": 610146,
+    "id": 610083,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1210,
-      1211
+      610001,
+      610002
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      610060,
-      610061
+      610001,
+      610002
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610169": {
+  "610052": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 1800,
-    "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【俾斯麦活动D4】BOSS-俾斯麦塞壬-黑洞武器",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 0,
-    "range": 20,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 8,
-    "action_index": "attack",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 610169,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      610073
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      610057
-    ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "610147": {
-    "search_type": 1,
-    "attack_attribute": 2,
-    "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 2500,
-    "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【俾斯麦活动D3】BOSS-俾斯麦塞壬-4发磁性鱼雷x2",
-    "fire_fx": "",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 72,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 62,
-    "action_index": "",
-    "type": 3,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 610147,
-    "spawn_bound": "torpedo",
-    "barrage_ID": [
-      1413
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      1803
-    ],
-    "min_range": 0,
-    "initial_over_heat": 1,
-    "aim_type": 1,
-    "fire_sfx": "",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "610168": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 2000,
-    "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【俾斯麦活动D4】BOSS-俾斯麦塞壬-攻击后排穿甲弹散射x8",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 180,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 50,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 610168,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      1210
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      610060
-    ],
-    "min_range": 90,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "610148": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 2000,
-    "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【俾斯麦活动D3】BOSS-俾斯麦塞壬-攻击后排穿甲弹散射x8",
-    "fire_fx": "CAFire",
-    "charge_param": "",
-    "suppress": 1,
-    "range": 180,
-    "recover_time": 0,
-    "fire_fx_loop_type": 1,
-    "precast_param": [],
-    "expose": 0,
-    "attack_attribute_ratio": 100,
-    "damage": 40,
-    "action_index": "attack",
-    "type": 1,
-    "search_condition": [
-      1
-    ],
-    "oxy_type": [
-      1
-    ],
-    "id": 610148,
-    "spawn_bound": "cannon",
-    "barrage_ID": [
-      1210
-    ],
-    "corrected": 100,
-    "auto_aftercast": 0,
-    "bullet_ID": [
-      610060
-    ],
-    "min_range": 90,
-    "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
-    "effect_move": 0,
-    "axis_angle": 0
-  },
-  "610180": {
-    "search_type": 1,
-    "attack_attribute": 1,
-    "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1000,
+    "reload_max": 900,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【俾斯麦活动EX】BOSS-俾斯麦塞壬-近程自卫火炮II",
+    "name": "【俾斯麦活动B1】BOSS-俾斯麦-扩散弹幕",
+    "fire_fx": "CLFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 3,
+    "precast_param": [],
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 14,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 610052,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      568421,
+      568422,
+      568423,
+      568424,
+      568425,
+      568426,
+      568427,
+      568428
+    ],
+    "corrected": 105,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      568421,
+      568421,
+      568421,
+      568421,
+      568421,
+      568421,
+      568421,
+      568421
+    ],
+    "min_range": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 0,
+    "initial_over_heat": 0,
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "610084": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1300,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【俾斯麦活动C1】BOSS-萨福克特殊弹幕",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "time": 0.5,
+      "fx": "jinengenemy",
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 22,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 610084,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      610007,
+      610008,
+      610009,
+      610010,
+      610011,
+      610012,
+      610013,
+      610014
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      610007,
+      610008,
+      610009,
+      610010,
+      610011,
+      610012,
+      610013,
+      610014
+    ],
+    "min_range": 0,
+    "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
+    "initial_over_heat": 0,
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "610053": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 60,
+    "reload_max": 2500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【俾斯麦活动B1】BOSS-俾斯麦-跨射前排武器",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "alertTime": 2,
+      "time": 1,
+      "fx": "jinengenemy",
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 34,
+    "action_index": "attack",
+    "type": 19,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 610053,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      399988
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      399988
+    ],
+    "min_range": 10,
+    "fire_sfx": "battle/cannon-main",
+    "aim_type": 1,
+    "initial_over_heat": 0,
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "610085": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 500,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【俾斯麦活动C1】BOSS-诺福克Q版近程自卫火炮III",
     "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
@@ -2606,7 +2587,7 @@
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 20,
+    "damage": 10,
     "action_index": "attack",
     "type": 2,
     "search_condition": [
@@ -2615,10 +2596,10 @@
     "oxy_type": [
       1
     ],
-    "id": 610180,
+    "id": 610085,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      14
+      13
     ],
     "corrected": 125,
     "auto_aftercast": 0,
@@ -2626,75 +2607,80 @@
       999
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
     "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 1,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610149": {
+  "610054": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1800,
+    "angle": 40,
+    "reload_max": 2300,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【俾斯麦活动D3】BOSS-俾斯麦塞壬-黑洞武器",
+    "queue": 1,
+    "name": "【俾斯麦活动B1】BOSS-俾斯麦-跨射攻击后排武器2x4轮",
     "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 20,
+    "suppress": 1,
+    "range": 150,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
-    "precast_param": [],
+    "precast_param": {
+      "alertTime": 2,
+      "time": 1,
+      "fx": "jinengenemy",
+      "isBound": true
+    },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 6,
+    "damage": 48,
     "action_index": "attack",
-    "type": 3,
+    "type": 19,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 610149,
+    "id": 610054,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      610073
+      20017
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      610056
+      1531
     ],
-    "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
+    "min_range": 85,
     "fire_sfx": "battle/cannon-main",
+    "aim_type": 1,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610181": {
+  "610086": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
     "angle": 360,
-    "reload_max": 800,
+    "reload_max": 1100,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【俾斯麦活动EX】BOSS-俾斯麦塞壬-联装主炮x6-轮射II",
+    "queue": 1,
+    "name": "【俾斯麦活动C1】BOSS-诺福克Q版重巡联装主炮x2-散射III",
     "fire_fx": "CAFire",
     "charge_param": "",
-    "suppress": 0,
-    "range": 90,
+    "suppress": 1,
+    "range": 80,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 13,
+    "damage": 28,
     "action_index": "attack",
     "type": 1,
     "search_condition": [
@@ -2703,38 +2689,38 @@
     "oxy_type": [
       1
     ],
-    "id": 610181,
+    "id": 610086,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      1203
+      200102
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1610
+      1403
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 0,
     "fire_sfx": "battle/cannon-main",
+    "aim_type": 1,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610165": {
+  "610055": {
     "search_type": 1,
     "attack_attribute": 1,
     "shakescreen": 0,
-    "angle": 180,
-    "reload_max": 1000,
+    "angle": 360,
+    "reload_max": 600,
     "torpedo_ammo": 0,
-    "queue": 2,
-    "name": "【俾斯麦活动D4】BOSS-俾斯麦塞壬-特殊武器2",
-    "fire_fx": "CAFire",
+    "queue": 1,
+    "name": "【俾斯麦活动B1】BOSS-俾斯麦交叉射线",
+    "fire_fx": "CLFire",
     "charge_param": "",
     "suppress": 1,
     "range": 90,
     "recover_time": 0,
-    "fire_fx_loop_type": 1,
+    "fire_fx_loop_type": 3,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
@@ -2747,120 +2733,174 @@
     "oxy_type": [
       1
     ],
-    "id": 610165,
+    "id": 610055,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      8041,
-      8043
+      610060,
+      610061
     ],
-    "corrected": 100,
+    "corrected": 105,
     "auto_aftercast": 0,
     "bullet_ID": [
-      8041,
-      8043
+      610050,
+      610051
     ],
     "min_range": 0,
+    "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 1,
     "initial_over_heat": 0,
-    "aim_type": 0,
-    "fire_sfx": "battle/cannon-main",
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610182": {
+  "610087": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 80,
-    "reload_max": 1000,
+    "angle": 60,
+    "reload_max": 1600,
     "torpedo_ammo": 0,
-    "queue": 3,
-    "name": "【俾斯麦活动EX】BOSS-俾斯麦塞壬-BOSS平射",
-    "fire_fx": "CAFire",
+    "queue": 1,
+    "name": "【俾斯麦活动C1】BOSS-诺福克Q版双联装鱼雷III",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 70,
+    "range": 60,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
-    "precast_param": {
-      "alertTime": 1,
-      "fx": "jinengenemy",
-      "time": 0.5,
-      "isBound": true
-    },
+    "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 13,
+    "damage": 52,
     "action_index": "attack",
-    "type": 19,
+    "type": 3,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 610182,
-    "spawn_bound": "cannon",
+    "id": 610087,
+    "spawn_bound": "torpedo",
     "barrage_ID": [
-      10015
+      1403
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      1610
+      1801
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
+    "fire_sfx": "",
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-main",
+    "initial_over_heat": 1,
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610163": {
+  "610102": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 2,
     "shakescreen": 0,
-    "angle": 40,
-    "reload_max": 2600,
+    "angle": 180,
+    "reload_max": 1800,
     "torpedo_ammo": 0,
-    "queue": 1,
-    "name": "【俾斯麦活动D4】BOSS-俾斯麦塞壬-攻击后排武器2x3轮",
+    "queue": 2,
+    "name": "【俾斯麦活动C3】BOSS-皇家方舟 特殊弹幕1",
     "fire_fx": "CAFire",
     "charge_param": "",
     "suppress": 1,
-    "range": 150,
+    "range": 72,
     "recover_time": 0,
     "fire_fx_loop_type": 1,
     "precast_param": {
-      "alertTime": 2,
-      "fx": "jinengenemy",
       "time": 1,
+      "fx": "jinengenemy",
       "isBound": true
     },
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 50,
+    "damage": 32,
     "action_index": "attack",
-    "type": 19,
+    "type": 1,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 610163,
+    "id": 610102,
     "spawn_bound": "cannon",
     "barrage_ID": [
-      20016
+      610031,
+      610032,
+      610033,
+      610034
     ],
     "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      610062
+      610035,
+      610036,
+      610037,
+      610038
     ],
-    "min_range": 80,
-    "initial_over_heat": 0,
-    "aim_type": 1,
+    "min_range": 0,
     "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
+    "initial_over_heat": 0,
+    "effect_move": 0,
+    "axis_angle": 0
+  },
+  "610088": {
+    "search_type": 1,
+    "attack_attribute": 1,
+    "shakescreen": 0,
+    "angle": 360,
+    "reload_max": 1300,
+    "torpedo_ammo": 0,
+    "queue": 1,
+    "name": "【俾斯麦活动C1】BOSS-诺福克特殊弹幕",
+    "fire_fx": "CAFire",
+    "charge_param": "",
+    "suppress": 1,
+    "range": 90,
+    "recover_time": 0,
+    "fire_fx_loop_type": 1,
+    "precast_param": {
+      "time": 1,
+      "fx": "jinengenemy",
+      "isBound": true
+    },
+    "expose": 0,
+    "attack_attribute_ratio": 100,
+    "damage": 22,
+    "action_index": "attack",
+    "type": 1,
+    "search_condition": [
+      1
+    ],
+    "oxy_type": [
+      1
+    ],
+    "id": 610088,
+    "spawn_bound": "cannon",
+    "barrage_ID": [
+      610003,
+      610004,
+      610005,
+      610006
+    ],
+    "corrected": 100,
+    "auto_aftercast": 0,
+    "bullet_ID": [
+      610003,
+      610004,
+      610005,
+      610006
+    ],
+    "min_range": 0,
+    "fire_sfx": "battle/cannon-main",
+    "aim_type": 0,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
@@ -2902,54 +2942,54 @@
       999
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
-    "aim_type": 1,
     "fire_sfx": "battle/cannon-155mm",
+    "aim_type": 1,
+    "initial_over_heat": 0,
     "effect_move": 0,
     "axis_angle": 0
   },
-  "610160": {
+  "610100": {
     "search_type": 1,
-    "attack_attribute": 1,
+    "attack_attribute": 0,
     "shakescreen": 0,
-    "angle": 360,
-    "reload_max": 1000,
+    "angle": 90,
+    "reload_max": 400,
     "torpedo_ammo": 0,
     "queue": 1,
-    "name": "【俾斯麦活动D4】BOSS-俾斯麦塞壬-近程自卫火炮II",
-    "fire_fx": "CLFire",
+    "name": "【俾斯麦活动C3】BOSS-皇家方舟 特殊飞机",
+    "fire_fx": "",
     "charge_param": "",
     "suppress": 1,
-    "range": 38,
+    "range": 90,
     "recover_time": 0.5,
     "fire_fx_loop_type": 1,
     "precast_param": [],
     "expose": 0,
     "attack_attribute_ratio": 100,
-    "damage": 15,
+    "damage": 68,
     "action_index": "attack",
-    "type": 2,
+    "type": 11,
     "search_condition": [
       1
     ],
     "oxy_type": [
       1
     ],
-    "id": 610160,
-    "spawn_bound": "cannon",
+    "id": 610100,
+    "spawn_bound": "plane",
     "barrage_ID": [
-      14
+      12008
     ],
-    "corrected": 125,
+    "corrected": 100,
     "auto_aftercast": 0,
     "bullet_ID": [
-      999
+      610100
     ],
     "min_range": 0,
-    "initial_over_heat": 0,
+    "fire_sfx": "battle/cannon-main",
     "aim_type": 1,
-    "fire_sfx": "battle/cannon-155mm",
-    "effect_move": 0,
+    "initial_over_heat": 0,
+    "effect_move": 1,
     "axis_angle": 0
   }
 }

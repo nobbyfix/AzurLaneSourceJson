@@ -19,14 +19,14 @@
         90,
         70
       ],
-      "backGroundStageID": 1,
+      "passCondition": 1,
       "fleetCorrdinate": [
         -80,
         0,
         75
       ],
       "enemyArea": [],
-      "passCondition": 1,
+      "backGroundStageID": 1,
       "waves": [
         {
           "preWaves": [],
@@ -86,7 +86,7 @@
           "conditionType": 1,
           "spawn": [
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 10,
                 0,
@@ -98,10 +98,10 @@
               ],
               "monsterTemplateID": 14402002,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             },
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 0,
                 0,
@@ -109,10 +109,10 @@
               ],
               "monsterTemplateID": 14402102,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             },
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 10,
                 0,
@@ -124,7 +124,7 @@
               ],
               "monsterTemplateID": 14402002,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             }
           ],
           "waveIndex": 101,
@@ -140,7 +140,7 @@
           "conditionType": 1,
           "reinforcement": [
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 10,
                 0,
@@ -152,10 +152,10 @@
               ],
               "monsterTemplateID": 14402001,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             },
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 3,
                 0,
@@ -167,10 +167,10 @@
               ],
               "monsterTemplateID": 14402002,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             },
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 3,
                 0,
@@ -182,10 +182,10 @@
               ],
               "monsterTemplateID": 14402002,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             },
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 10,
                 0,
@@ -197,13 +197,13 @@
               ],
               "monsterTemplateID": 14402001,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             }
           ],
           "waveIndex": 102,
           "spawn": [
             {
-              "score": 0,
+              "reinforceDelay": 6,
               "corrdinate": [
                 -5,
                 0,
@@ -212,7 +212,7 @@
               "moveCast": true,
               "monsterTemplateID": 14402103,
               "delay": 0,
-              "reinforceDelay": 6
+              "score": 0
             }
           ],
           "triggerParam": []
@@ -249,7 +249,7 @@
           "conditionType": 0,
           "reinforcement": [
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 5,
                 0,
@@ -261,10 +261,10 @@
               ],
               "monsterTemplateID": 14402001,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             },
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 5,
                 0,
@@ -276,7 +276,7 @@
               ],
               "monsterTemplateID": 14402001,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             }
           ],
           "waveIndex": 104,
@@ -286,15 +286,15 @@
                 {
                   "removeWeapon": [],
                   "setAI": 10001,
-                  "index": 0,
+                  "switchTo": 1,
                   "addWeapon": [],
                   "addBuff": [],
                   "switchParam": 1.5,
                   "switchType": 1,
-                  "switchTo": 1
+                  "index": 0
                 },
                 {
-                  "switchTo": 2,
+                  "index": 1,
                   "removeWeapon": [],
                   "addWeapon": [
                     742101,
@@ -303,10 +303,10 @@
                   ],
                   "switchParam": 11,
                   "switchType": 1,
-                  "index": 1
+                  "switchTo": 2
                 },
                 {
-                  "switchTo": 3,
+                  "index": 2,
                   "removeWeapon": [
                     742101,
                     742102,
@@ -315,7 +315,7 @@
                   "addWeapon": [],
                   "switchParam": 3,
                   "switchType": 1,
-                  "index": 2
+                  "switchTo": 3
                 },
                 {
                   "removeWeapon": [],
@@ -334,17 +334,17 @@
                   "switchTo": 4
                 },
                 {
-                  "switchTo": 5,
+                  "index": 4,
                   "removeWeapon": [],
                   "addWeapon": [
                     742109
                   ],
                   "switchParam": 9,
                   "switchType": 1,
-                  "index": 4
+                  "switchTo": 5
                 },
                 {
-                  "switchTo": 6,
+                  "index": 5,
                   "removeWeapon": [
                     742108,
                     742109
@@ -352,7 +352,7 @@
                   "addWeapon": [],
                   "switchParam": 3.5,
                   "switchType": 1,
-                  "index": 5
+                  "switchTo": 6
                 },
                 {
                   "removeWeapon": [],
@@ -391,15 +391,15 @@
                 {
                   "removeWeapon": [],
                   "setAI": 10001,
-                  "index": 0,
+                  "switchTo": 1,
                   "addWeapon": [],
                   "addBuff": [],
                   "switchParam": 1.5,
                   "switchType": 1,
-                  "switchTo": 1
+                  "index": 0
                 },
                 {
-                  "switchTo": 2,
+                  "index": 1,
                   "removeWeapon": [],
                   "addWeapon": [
                     742101,
@@ -410,10 +410,10 @@
                   ],
                   "switchParam": 11,
                   "switchType": 1,
-                  "index": 1
+                  "switchTo": 2
                 },
                 {
-                  "switchTo": 3,
+                  "index": 2,
                   "removeWeapon": [
                     742101,
                     742104,
@@ -424,10 +424,10 @@
                   "addWeapon": [],
                   "switchParam": 2,
                   "switchType": 1,
-                  "index": 2
+                  "switchTo": 3
                 },
                 {
-                  "index": 3,
+                  "switchTo": 4,
                   "addBuff": [
                     8760
                   ],
@@ -441,10 +441,10 @@
                   "removeBuff": [
                     8764
                   ],
-                  "switchTo": 4
+                  "index": 3
                 },
                 {
-                  "switchTo": 5,
+                  "index": 4,
                   "removeWeapon": [],
                   "addWeapon": [
                     742110,
@@ -454,25 +454,25 @@
                   ],
                   "switchParam": 3,
                   "switchType": 1,
-                  "index": 4
+                  "switchTo": 5
                 },
                 {
-                  "switchTo": 6,
+                  "index": 5,
                   "removeWeapon": [
                     742108
                   ],
                   "addWeapon": [],
                   "switchParam": 6,
                   "switchType": 1,
-                  "index": 5
+                  "switchTo": 6
                 },
                 {
-                  "switchTo": 7,
+                  "index": 6,
                   "removeWeapon": [],
                   "addWeapon": [],
                   "switchParam": 3.5,
                   "switchType": 1,
-                  "index": 6
+                  "switchTo": 7
                 },
                 {
                   "removeWeapon": [

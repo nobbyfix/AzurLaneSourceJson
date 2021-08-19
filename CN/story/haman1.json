@@ -3,24 +3,24 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "哈曼观察日志\n\n<size=45>一  爱发脾气的秘书舰</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "dir": 1,
       "side": 2,
-      "say": "港区·指挥室",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "港区·指挥室",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -30,10 +30,10 @@
     {
       "action": [
         {
-          "y": 30,
+          "number": 1,
           "type": "shake",
           "dur": 0.2,
-          "number": 1
+          "y": 30
         }
       ],
       "actor": 101250,
@@ -52,12 +52,12 @@
     },
     {
       "actor": 0,
-      "say": "哎…？",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "withoutPainting": true,
+      "say": "哎…？",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -68,12 +68,12 @@
       "dir": 1,
       "actor": 101250,
       "side": 2,
-      "say": "哈曼提交的报告书，你还没看吗？",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "哈曼提交的报告书，你还没看吗？",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -112,10 +112,10 @@
       "dir": 1,
       "action": [
         {
-          "y": 30,
+          "number": 3,
           "type": "shake",
           "dur": 0.2,
-          "number": 3
+          "y": 30
         }
       ],
       "say": "不许找借口！",
@@ -134,12 +134,12 @@
       "dir": 1,
       "actor": 101250,
       "side": 2,
-      "say": "说你没看就是没看！哈曼费了这么大劲才写好的！你怎么赔我！",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "说你没看就是没看！哈曼费了这么大劲才写好的！你怎么赔我！",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -150,12 +150,12 @@
       "dir": 1,
       "actor": 101250,
       "side": 2,
-      "say": "（小声）还，还想说要是你好好看了就给你点奖励呢……",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "（小声）还，还想说要是你好好看了就给你点奖励呢……",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -166,12 +166,12 @@
       "dir": 1,
       "actor": 0,
       "side": 2,
-      "say": "怎么突然变小声了…",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "withoutPainting": true,
+      "say": "怎么突然变小声了…",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -245,10 +245,10 @@
       "say": "<size=60>笨蛋！</size>",
       "action": [
         {
-          "y": 30,
+          "number": 3,
           "type": "shake",
           "dur": 0.1,
-          "number": 3
+          "y": 30
         }
       ],
       "painting": {
@@ -288,8 +288,8 @@
       "bgName": "bg_story_task"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "HAMAN1",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

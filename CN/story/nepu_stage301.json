@@ -3,20 +3,20 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "<size=45>『异色海域WHITE』</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
-      "bgm": "level-nep",
+      "say": "第二关，顺利过关！这回的事件看来马上就能解决了吧！？",
       "actor": 10100010,
       "side": 2,
-      "dir": -1,
+      "bgm": "level-nep",
       "nameColor": "#a9f548",
       "typewriter": {
         "speed": 0.05,
@@ -26,14 +26,14 @@
         "alpha": 0.3,
         "time": 1
       },
-      "say": "第二关，顺利过关！这回的事件看来马上就能解决了吧！？"
+      "dir": -1
     },
     {
       "actor": 0,
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "say": "怎么可能有这种好事…",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -43,7 +43,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "withoutPainting": true
+      "say": "怎么可能有这种好事…"
     },
     {
       "actor": 10100010,
@@ -115,7 +115,7 @@
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "say": "嗯，正确。数据还完全不够呢",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -125,7 +125,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "withoutPainting": true
+      "say": "嗯，正确。数据还完全不够呢"
     },
     {
       "actor": 10100030,
@@ -147,7 +147,7 @@
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "say": "也有这个问题，不过……这边刚才已经确认了，打开虫洞需要更多冒牌女神的数据",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -157,7 +157,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "withoutPainting": true
+      "say": "也有这个问题，不过……这边刚才已经确认了，打开虫洞需要更多冒牌女神的数据"
     },
     {
       "actor": 10100040,
@@ -179,7 +179,7 @@
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "say": "就是这样……麻烦大家继续侦查镜面海域，讨伐冒牌女神们吧。再见",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -189,7 +189,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "withoutPainting": true
+      "say": "就是这样……麻烦大家继续侦查镜面海域，讨伐冒牌女神们吧。再见"
     },
     {
       "actor": 101170,
@@ -361,8 +361,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       }
     },
     {
@@ -417,8 +417,8 @@
       }
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "NEPU_STAGE301",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

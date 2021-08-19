@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "{namecode:82}前辈的收藏大公开\n\n<size=45>一　收藏室、崩坏</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "side": 2,
@@ -20,8 +20,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -158,12 +158,12 @@
           "active": false
         }
       ],
-      "withoutPainting": true,
+      "say": "哇啊——没想到{namecode:82}前辈一直在收集着这些船模呢！",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "say": "哇啊——没想到{namecode:82}前辈一直在收集着这些船模呢！",
+      "withoutPainting": true,
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -175,12 +175,12 @@
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "withoutPainting": true,
+      "say": "不过看到自己的船模，总觉得有点害羞呢…",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "say": "不过看到自己的船模，总觉得有点害羞呢…",
+      "withoutPainting": true,
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -211,8 +211,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "painting": {
         "alpha": 0.3,
@@ -293,12 +293,12 @@
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "withoutPainting": true,
+      "say": "哈哈，大家都是我可爱的后辈呀！我来介绍一下吧，这边是我们这些经受过战火考验的战舰的模型，那边是正规空母——",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "say": "哈哈，大家都是我可爱的后辈呀！我来介绍一下吧，这边是我们这些经受过战火考验的战舰的模型，那边是正规空母——",
+      "withoutPainting": true,
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -329,8 +329,8 @@
           0,
           1
         ],
-        "dur": 0.7,
-        "black": true
+        "black": true,
+        "dur": 0.7
       },
       "bgName": "bg_sanli_cg_2"
     },
@@ -344,10 +344,10 @@
         "side": 1
       },
       "side": 2,
-      "say": "{namecode:34}快看快看，我们{namecode:33}级的模型在那边呢~",
+      "dir": 1,
       "nameColor": "#a9f548",
       "actorName": "{namecode:33}",
-      "dir": 1,
+      "say": "{namecode:34}快看快看，我们{namecode:33}级的模型在那边呢~",
       "bgName": "bg_sanli_cg_2"
     },
     {
@@ -379,12 +379,12 @@
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "withoutPainting": true,
+      "say": "对了，这个收藏室姑且还是设置了防止入侵以及保护船模的装置，所以大家还是要小心不要误碰了哦",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "say": "对了，这个收藏室姑且还是设置了防止入侵以及保护船模的装置，所以大家还是要小心不要误碰了哦",
+      "withoutPainting": true,
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -415,8 +415,8 @@
           0,
           1
         ],
-        "dur": 0.7,
-        "black": true
+        "black": true,
+        "dur": 0.7
       },
       "bgName": "bg_sanli_cg_3"
     },
@@ -430,10 +430,10 @@
         "side": 0
       },
       "side": 2,
-      "say": "哇啊啊，{namecode:33}，不可以啦……按钮旁写着“危险，禁止触摸”呢…",
+      "dir": 1,
       "nameColor": "#a9f548",
       "actorName": "{namecode:34}",
-      "dir": 1,
+      "say": "哇啊啊，{namecode:33}，不可以啦……按钮旁写着“危险，禁止触摸”呢…",
       "bgName": "bg_sanli_cg_2"
     },
     {
@@ -503,17 +503,17 @@
       },
       "stopbgm": true,
       "side": 2,
-      "say": "轰隆隆隆隆的声音伴随着震动从脚下传来",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
+      "say": "轰隆隆隆隆的声音伴随着震动从脚下传来",
       "soundeffect": "event:/battle/boom1",
-      "dir": 1,
       "bgName": "bg_sanli_cg_3"
     },
     {
-      "soundeffect": "event:/battle/boom1",
+      "actor": 305110,
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
@@ -532,7 +532,7 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "actor": 305110,
+      "soundeffect": "event:/battle/boom1",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -586,7 +586,7 @@
       "bgName": "bg_story_task"
     },
     {
-      "soundeffect": "event:/battle/boom1",
+      "actor": 305110,
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
@@ -639,7 +639,7 @@
           "x": 1500
         }
       ],
-      "actor": 305110,
+      "soundeffect": "event:/battle/boom1",
       "subActors": [
         {
           "pos": {
@@ -712,8 +712,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -770,12 +770,12 @@
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "withoutPainting": true,
+      "say": "哎…在这边不知所措也没用，还是想想怎么善后跟补救吧…",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "say": "哎…在这边不知所措也没用，还是想想怎么善后跟补救吧…",
+      "withoutPainting": true,
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -787,12 +787,12 @@
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "withoutPainting": true,
+      "say": "好啦，{namecode:33}{namecode:34}也不要哭啦，{namecode:96}，你去找人来一起帮忙，接下来有得忙了",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "say": "好啦，{namecode:33}{namecode:34}也不要哭啦，{namecode:96}，你去找人来一起帮忙，接下来有得忙了",
+      "withoutPainting": true,
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -814,8 +814,8 @@
           "x": 0
         }
       ],
-      "say": "姐姐…嗯！我这就去！",
       "withoutPainting": true,
+      "say": "姐姐…嗯！我这就去！",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -842,8 +842,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -868,8 +868,8 @@
       "say": "而{namecode:96}则将这件事告诉了重樱的其他伙伴们，大家决定齐心协力，将大前辈的收藏室和船模们悉数修复！"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "SANLICHUANMO1",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

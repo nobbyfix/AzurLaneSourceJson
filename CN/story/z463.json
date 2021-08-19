@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "纯白之诗\n\n<size=45>三 幕间I</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "painting": {
@@ -30,16 +30,16 @@
         "delay": 1,
         "dur": 1
       },
-      "say": "港区·宿舍",
+      "bgm": "story-1",
       "flashout": {
         "alpha": [
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
-      "bgm": "story-1",
+      "say": "港区·宿舍",
       "bgmDelay": 2,
       "bgName": "bg_story_room"
     },
@@ -299,8 +299,8 @@
       "bgName": "bg_story_room"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "Z463",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

@@ -3,7 +3,7 @@
   "occlusion": 2,
   "scripts": [
     {
-      "stopbgm": true,
+      "mode": 1,
       "sequence": [
         [
           "<size=51>在我们数千年的光鲜文明背后，战争一直作为影子伴随着每一次时代的变迁</size>",
@@ -26,7 +26,7 @@
           12.5
         ]
       ],
-      "mode": 1
+      "stopbgm": true
     },
     {
       "flashout": {
@@ -34,8 +34,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "mode": 1,
       "flashin": {
@@ -80,8 +80,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "mode": 1,
       "flashin": {
@@ -102,13 +102,13 @@
     },
     {
       "side": 2,
-      "say": "“Méditerranée”，这里是世界上最大的陆间海，气候冬雨夏干，在世界各类气候中独树一帜",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "level03",
-      "dir": 1
+      "say": "“Méditerranée”，这里是世界上最大的陆间海，气候冬雨夏干，在世界各类气候中独树一帜",
+      "bgm": "level03"
     },
     {
       "typewriter": {
@@ -177,12 +177,12 @@
     {
       "actor": 204030,
       "side": 1,
-      "say": "司令部自然有自己的想法，在她们的国土被铁血攻占之刻起，她们就已经不再是曾经并肩作战的盟友了",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "say": "司令部自然有自己的想法，在她们的国土被铁血攻占之刻起，她们就已经不再是曾经并肩作战的盟友了",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -279,17 +279,17 @@
     {
       "actor": 202130,
       "side": 0,
-      "say": "报告，前发海域发现塞壬单位的信号，判断为执行者系列新型机",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "soundeffect": "event:/ui/alarm",
+      "say": "报告，前发海域发现塞壬单位的信号，判断为执行者系列新型机",
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
-      "dir": 1
+      "soundeffect": "event:/ui/alarm"
     },
     {
       "actor": 204030,
@@ -306,8 +306,8 @@
       "say": "H舰队听令！全员一级作战戒备，目标——十二点钟方向，塞壬舰队！"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "FAXI01",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

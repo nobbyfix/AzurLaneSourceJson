@@ -2,10 +2,10 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "bgm": "battle-boss-4",
+      "say": "…太安静了，SK-2雷达也没有什么异常动态…明知敌人就在前面，这么安静的战场真让人发毛。",
       "actor": 105140,
       "side": 2,
-      "dir": 1,
+      "bgm": "battle-boss-4",
       "nameColor": "#a9f548",
       "typewriter": {
         "speed": 0.05,
@@ -15,7 +15,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "say": "…太安静了，SK-2雷达也没有什么异常动态…明知敌人就在前面，这么安静的战场真让人发毛。"
+      "dir": 1
     },
     {
       "say": "因为我们现在依然还在安全距离啦~",
@@ -99,7 +99,7 @@
     {
       "soundeffect": "event:/bbattle/plane",
       "side": 2,
-      "say": "随着萨拉托加的一声令下，一个编队的轰炸机就启程向着敌人的方向飞去。",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -108,7 +108,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "dir": 1
+      "say": "随着萨拉托加的一声令下，一个编队的轰炸机就启程向着敌人的方向飞去。"
     },
     {
       "side": 2,
@@ -235,8 +235,8 @@
       "expression": 4
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "MAOZIHUODONG4",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

@@ -3,7 +3,7 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "stopbgm": true,
+      "mode": 1,
       "sequence": [
         [
           "<size=51>我又回到那幽暗而低洼的森林</size>",
@@ -26,10 +26,10 @@
           9
         ]
       ],
-      "mode": 1
+      "stopbgm": true
     },
     {
-      "stopbgm": true,
+      "mode": 1,
       "sequence": [
         [
           "<size=51>维吉尔</size>",
@@ -52,12 +52,12 @@
           9
         ]
       ],
-      "mode": 1
+      "stopbgm": true
     },
     {
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "bgm": "battle-italy",
+      "dir": 1,
       "flashN": {
         "color": [
           1,
@@ -104,7 +104,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "dir": 1
+      "bgm": "battle-italy"
     },
     {
       "actor": 603020,
@@ -284,10 +284,10 @@
       "say": "想逃跑！开火——"
     },
     {
-      "dir": 1,
+      "say": "厌战英勇的冲上前替可畏挡下了一轮炮击",
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "say": "厌战英勇的冲上前替可畏挡下了一轮炮击",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -455,8 +455,8 @@
       "say": "没什么，来吧，用舰炮公平的对决吧！Belli dura despicio！"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "SHENSHENGDEBEIXIJU17",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

@@ -3,10 +3,10 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "bgm": "story-8",
+      "say": "情况不妙…虽然击破了2艘新型舰…但是还有大量的信号源在朝我们靠近",
       "actor": 102050,
       "side": 2,
-      "dir": 1,
+      "bgm": "story-8",
       "nameColor": "#a9f548",
       "typewriter": {
         "speed": 0.05,
@@ -16,7 +16,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "say": "情况不妙…虽然击破了2艘新型舰…但是还有大量的信号源在朝我们靠近"
+      "dir": 1
     },
     {
       "actor": 102050,
@@ -100,13 +100,13 @@
     {
       "soundeffect": "event:/battle/boom1",
       "side": 2,
-      "say": "……————",
+      "dir": 1,
       "dialogShake": {
         "speed": 0.09,
         "x": 8.5,
         "number": 2
       },
-      "dir": 1,
+      "say": "……————",
       "blackBg": true,
       "flash": {
         "number": 3,
@@ -250,13 +250,13 @@
     {
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "say": "……————",
+      "dir": 1,
       "dialogShake": {
         "speed": 0.09,
         "x": 8.5,
         "number": 2
       },
-      "dir": 1,
+      "say": "……————",
       "blackBg": true,
       "flash": {
         "number": 1,
@@ -574,7 +574,7 @@
       "say": "不…你认错人了"
     },
     {
-      "stopbgm": true,
+      "mode": 1,
       "sequence": [
         [
           "<size=51> </size>",
@@ -601,7 +601,7 @@
           14.5
         ]
       ],
-      "mode": 1
+      "stopbgm": true
     },
     {
       "sequence": [
@@ -621,8 +621,8 @@
       "mode": 1
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "DONGHUO11",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

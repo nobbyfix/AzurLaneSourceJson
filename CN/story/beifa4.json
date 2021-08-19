@@ -3,23 +3,23 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "stopbgm": true,
+      "mode": 1,
       "sequence": [
         [
           "明日的淑女\n\n<size=45>四 幼小的新成员</size>",
           1
         ]
       ],
-      "mode": 1
+      "stopbgm": true
     },
     {
       "side": 2,
-      "say": "傍晚·港区指挥室",
+      "bgm": "story-2",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-2",
+      "say": "傍晚·港区指挥室",
       "dir": 1,
       "bgName": "bg_night"
     },
@@ -92,8 +92,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -225,10 +225,10 @@
       },
       "action": [
         {
-          "y": 30,
+          "number": 2,
           "type": "shake",
           "dur": 0.2,
-          "number": 2
+          "y": 30
         }
       ],
       "painting": {
@@ -248,7 +248,7 @@
       "bgName": "bg_night"
     },
     {
-      "stopbgm": true,
+      "actor": 312010,
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
@@ -258,8 +258,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -280,7 +280,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "actor": 312010
+      "stopbgm": true
     },
     {
       "actor": 302010,
@@ -372,8 +372,8 @@
       }
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "BEIFA4",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

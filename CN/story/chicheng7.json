@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "stopbgm": true,
+      "mode": 1,
       "sequence": [
         [
           "彼岸花之恋？\n\n<size=45>七 命运之人</size>",
           1
         ]
       ],
-      "mode": 1
+      "stopbgm": true
     },
     {
       "sequence": [
@@ -48,17 +48,17 @@
         "dur": 1
       },
       "side": 2,
-      "dir": 1,
+      "bgm": "story-2",
       "flashout": {
         "alpha": [
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
-      "bgm": "story-2",
       "say": "感觉到轻吻而睁开了眼。看来是躺在了{namecode:91}的腿上，就那么睡着了。",
+      "dir": 1,
       "bgName": "bg_night"
     },
     {
@@ -215,8 +215,8 @@
       "bgName": "bg_night"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "CHICHENG7",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

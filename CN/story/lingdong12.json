@@ -3,10 +3,10 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "bgm": "battle-boss-4",
+      "say": "“报告司令部，特攻舰队在30分钟前遭到塞壬和不明武器的攻击…阵型被打散”",
       "actor": 205070,
       "side": 2,
-      "dir": 1,
+      "bgm": "battle-boss-4",
       "nameColor": "#a9f548",
       "typewriter": {
         "speed": 0.05,
@@ -16,7 +16,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "say": "“报告司令部，特攻舰队在30分钟前遭到塞壬和不明武器的攻击…阵型被打散”"
+      "dir": 1
     },
     {
       "actor": 205070,
@@ -173,7 +173,7 @@
       "say": "对了，我也给她准备了从世界另一头带来的礼物哦——"
     },
     {
-      "stopbgm": true,
+      "actor": 900021,
       "side": 2,
       "dir": 1,
       "nameColor": "#ff0000",
@@ -183,8 +183,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -205,7 +205,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "actor": 900021
+      "stopbgm": true
     },
     {
       "actor": 900021,
@@ -242,8 +242,8 @@
       }
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "LINGDONG12",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

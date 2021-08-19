@@ -19,14 +19,14 @@
         90,
         70
       ],
-      "backGroundStageID": 1,
+      "passCondition": 1,
       "fleetCorrdinate": [
         -80,
         0,
         75
       ],
       "enemyArea": [],
-      "passCondition": 1,
+      "backGroundStageID": 1,
       "waves": [
         {
           "preWaves": [],
@@ -68,7 +68,7 @@
           "conditionType": 1,
           "spawn": [
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 10,
                 0,
@@ -80,10 +80,10 @@
               ],
               "monsterTemplateID": 13600401,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             },
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 0,
                 0,
@@ -92,10 +92,10 @@
               "buffList": [],
               "monsterTemplateID": 13600406,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             },
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 10,
                 0,
@@ -107,7 +107,7 @@
               ],
               "monsterTemplateID": 13600401,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             }
           ],
           "waveIndex": 101,
@@ -123,7 +123,7 @@
           "conditionType": 1,
           "reinforcement": [
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 3,
                 0,
@@ -135,10 +135,10 @@
               ],
               "monsterTemplateID": 13600403,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             },
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 10,
                 0,
@@ -151,10 +151,10 @@
               ],
               "monsterTemplateID": 13600401,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             },
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 10,
                 0,
@@ -167,10 +167,10 @@
               ],
               "monsterTemplateID": 13600401,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             },
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 3,
                 0,
@@ -182,14 +182,14 @@
               ],
               "monsterTemplateID": 13600403,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             }
           ],
           "waveIndex": 102,
           "spawn": [
             {
+              "moveCast": true,
               "reinforceDelay": 6,
-              "score": 0,
               "corrdinate": [
                 -5,
                 0,
@@ -198,7 +198,7 @@
               "buffList": [],
               "monsterTemplateID": 13600407,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             }
           ],
           "triggerParam": []
@@ -245,7 +245,7 @@
                   "index": 1
                 },
                 {
-                  "switchTo": 3,
+                  "index": 2,
                   "removeWeapon": [
                     650333,
                     650341
@@ -255,10 +255,10 @@
                   ],
                   "switchParam": 1,
                   "switchType": 1,
-                  "index": 2
+                  "switchTo": 3
                 },
                 {
-                  "switchTo": 4,
+                  "index": 3,
                   "removeWeapon": [
                     650337
                   ],
@@ -268,7 +268,7 @@
                   ],
                   "switchParam": 8,
                   "switchType": 1,
-                  "index": 3
+                  "switchTo": 4
                 },
                 {
                   "setAI": 70091,
@@ -286,7 +286,7 @@
                   "index": 4
                 },
                 {
-                  "switchTo": 6,
+                  "index": 5,
                   "removeWeapon": [
                     650332,
                     650333,
@@ -294,10 +294,10 @@
                   ],
                   "switchParam": 0.5,
                   "switchType": 1,
-                  "index": 5
+                  "switchTo": 6
                 },
                 {
-                  "switchTo": 7,
+                  "index": 6,
                   "removeWeapon": [],
                   "addWeapon": [
                     650334,
@@ -306,7 +306,7 @@
                   ],
                   "switchParam": 11,
                   "switchType": 1,
-                  "index": 6
+                  "switchTo": 7
                 },
                 {
                   "setAI": 10001,

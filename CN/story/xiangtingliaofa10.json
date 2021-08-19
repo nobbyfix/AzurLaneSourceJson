@@ -3,12 +3,12 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "soundeffect": "event:/battle/boom2",
+      "actor": 102230,
       "side": 2,
-      "dir": 1,
+      "bgm": "battle-boss-4",
       "nameColor": "#a9f548",
       "expression": 1,
-      "actor": 102230,
+      "soundeffect": "event:/battle/boom2",
       "dialogShake": {
         "speed": 0.09,
         "x": 8.5,
@@ -55,7 +55,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "bgm": "battle-boss-4"
+      "dir": 1
     },
     {
       "action": [
@@ -99,7 +99,7 @@
       "say": "这次居然要扮演那些东西。听我说啊，最近是不是越来越离谱了？"
     },
     {
-      "soundeffect": "event:/battle/boom2",
+      "actor": 102070,
       "side": 0,
       "dir": -1,
       "nameColor": "#a9f548",
@@ -145,7 +145,7 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "actor": 102070,
+      "soundeffect": "event:/battle/boom2",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -382,8 +382,8 @@
       "say": "现在配角们都到齐，就差主角登场了。时间还有得是，不如先来陪我消遣一下吧~"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "XIANGTINGLIAOFA10",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

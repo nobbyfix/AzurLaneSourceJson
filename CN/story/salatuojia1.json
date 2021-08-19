@@ -3,23 +3,23 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "Best Pictures!\n\n<size=45>一 精彩瞬间！隔壁的小加加</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "side": 2,
-      "say": "港区·指挥室",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "港区·指挥室",
       "dir": 1,
       "bgName": "bg_story_task"
     },
@@ -72,10 +72,10 @@
       "nameColor": "#a9f548",
       "action": [
         {
-          "y": 30,
+          "number": 2,
           "type": "shake",
           "dur": 0.1,
-          "number": 2
+          "y": 30
         }
       ],
       "flashout": {
@@ -83,8 +83,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -114,10 +114,10 @@
       "nameColor": "#a9f548",
       "action": [
         {
-          "y": 30,
+          "number": 1,
           "type": "shake",
           "dur": 0.1,
-          "number": 1
+          "y": 30
         }
       ],
       "say": "指挥官救我——！我只是想给大家宣传魅力无限的小加加嘛！……话说那台复印机原来是{namecode:98}的吗！？",
@@ -164,10 +164,10 @@
       },
       "action": [
         {
-          "y": -30,
+          "number": 1,
           "type": "shake",
           "dur": 0.4,
-          "number": 1
+          "y": -30
         }
       ],
       "painting": {
@@ -188,8 +188,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -256,8 +256,8 @@
       "bgName": "bg_story_task"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "SALATUOJIA1",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

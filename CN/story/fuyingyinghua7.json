@@ -2,9 +2,9 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "soundeffect": "event:/battle/plane",
+      "actor": 305110,
       "side": 2,
-      "bgm": "cw-battle-boss",
+      "dir": 1,
       "nameColor": "#a9f548",
       "action": [
         {
@@ -21,12 +21,12 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "actor": 305110,
+      "bgm": "cw-battle-boss",
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
-      "dir": 1
+      "soundeffect": "event:/battle/plane"
     },
     {
       "say": "我从资料上看到过哦，大前辈的舰装似乎缺乏对空作战的设备——",
@@ -106,8 +106,8 @@
       "say": "设备虽然是旧式的，但如果认为我的战术也是旧式的，可就大错特错了哦！"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "FUYINGYINGHUA7",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

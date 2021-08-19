@@ -3,23 +3,23 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "幸运之鹤\n\n<size=45>一  {namecode:96}的早晨</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "side": 2,
-      "say": "往常的这个时间，作为秘书舰的{namecode:96}应该已经前来进行早晨的报告了。不过今天…似乎还没来的样子",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "往常的这个时间，作为秘书舰的{namecode:96}应该已经前来进行早晨的报告了。不过今天…似乎还没来的样子",
       "dir": 1,
       "bgName": "bg_story_task"
     },
@@ -28,7 +28,7 @@
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "withoutPainting": true,
+      "say": "……",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -39,7 +39,7 @@
           "flag": 1
         }
       ],
-      "say": "……",
+      "withoutPainting": true,
       "bgName": "bg_story_task"
     },
     {
@@ -47,14 +47,14 @@
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "say": "呼…哈啊…咕…Zzzzzzz",
+      "withoutPainting": true,
       "flashout": {
         "alpha": [
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -65,7 +65,7 @@
         "delay": 1,
         "dur": 1
       },
-      "withoutPainting": true,
+      "say": "呼…哈啊…咕…Zzzzzzz",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -242,8 +242,8 @@
       "bgName": "bg_story_room"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "RUIHE1",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

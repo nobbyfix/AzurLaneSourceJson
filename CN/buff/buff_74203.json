@@ -1,7 +1,7 @@
 {
   "picture": "",
-  "id": 74203,
   "color": "red",
+  "id": 74203,
   "desc": "战斗对象对我方舰队造成X次伤害后，下一次伤害倍率提高至Y倍",
   "blink": [
     1,
@@ -11,7 +11,7 @@
     0.3
   ],
   "last_effect": "",
-  "name": "穿透",
+  "time": 0,
   "icon": 74200,
   "effect_list": [
     {
@@ -21,8 +21,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 3,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": 3
       }
     },
     {
@@ -32,8 +32,8 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 9999,
-        "attr": "attackRating"
+        "attr": "attackRating",
+        "number": 9999
       }
     },
     {
@@ -48,5 +48,5 @@
   ],
   "stack": 1,
   "init_effect": "",
-  "time": 0
+  "name": "穿透"
 }

@@ -18,14 +18,14 @@
         90,
         70
       ],
-      "backGroundStageID": 1,
+      "passCondition": 1,
       "fleetCorrdinate": [
         -80,
         0,
         75
       ],
       "enemyArea": [],
-      "passCondition": 1,
+      "backGroundStageID": 1,
       "waves": [
         {
           "preWaves": [],
@@ -43,32 +43,32 @@
               ],
               "phase": [
                 {
-                  "switchTo": 1,
+                  "index": 0,
                   "addWeapon": [
                     606120,
                     606121
                   ],
                   "switchParam": 2,
                   "switchType": 1,
-                  "index": 0
+                  "switchTo": 1
                 },
                 {
-                  "switchTo": 2,
+                  "index": 1,
                   "addWeapon": [
                     606122
                   ],
                   "switchParam": 2,
                   "switchType": 1,
-                  "index": 1
+                  "switchTo": 2
                 },
                 {
-                  "switchTo": 3,
+                  "index": 2,
                   "removeWeapon": [
                     606122
                   ],
                   "switchParam": 0.5,
                   "switchType": 1,
-                  "index": 2
+                  "switchTo": 3
                 },
                 {
                   "setAI": 90030,
@@ -83,34 +83,34 @@
                   "index": 3
                 },
                 {
-                  "switchTo": 6,
+                  "index": 4,
                   "removeWeapon": [
                     606123,
                     606120
                   ],
                   "switchParam": 4.5,
                   "switchType": 1,
-                  "index": 4
+                  "switchTo": 6
                 },
                 {
-                  "switchTo": 7,
+                  "index": 6,
                   "addWeapon": [
                     606122,
                     606128
                   ],
                   "switchParam": 2,
                   "switchType": 1,
-                  "index": 6
+                  "switchTo": 7
                 },
                 {
-                  "switchTo": 8,
+                  "index": 7,
                   "removeWeapon": [
                     606122,
                     606128
                   ],
                   "switchParam": 5,
                   "switchType": 1,
-                  "index": 7
+                  "switchTo": 8
                 },
                 {
                   "setAI": 20006,
@@ -123,13 +123,13 @@
                   "index": 8
                 },
                 {
-                  "switchTo": 10,
+                  "index": 9,
                   "removeWeapon": [
                     606125
                   ],
                   "switchParam": 1,
                   "switchType": 1,
-                  "index": 9
+                  "switchTo": 10
                 },
                 {
                   "setAI": 90029,
@@ -143,7 +143,7 @@
                   "index": 10
                 },
                 {
-                  "switchTo": 114,
+                  "index": 11,
                   "addWeapon": [
                     606126,
                     606127,
@@ -151,10 +151,10 @@
                   ],
                   "switchParam": 7,
                   "switchType": 1,
-                  "index": 11
+                  "switchTo": 114
                 },
                 {
-                  "switchTo": 1,
+                  "index": 114,
                   "addWeapon": [
                     606124
                   ],
@@ -166,7 +166,7 @@
                   ],
                   "switchParam": 1,
                   "switchType": 1,
-                  "index": 114
+                  "switchTo": 1
                 }
               ],
               "monsterTemplateID": 11800502,
@@ -185,22 +185,22 @@
               ],
               "phase": [
                 {
-                  "switchTo": 1,
+                  "index": 0,
                   "addWeapon": [
                     606130
                   ],
                   "switchParam": 2,
                   "switchType": 1,
-                  "index": 0
+                  "switchTo": 1
                 },
                 {
-                  "switchTo": 2,
+                  "index": 1,
                   "addWeapon": [
                     606134
                   ],
                   "switchParam": 2,
                   "switchType": 1,
-                  "index": 1
+                  "switchTo": 2
                 },
                 {
                   "switchTo": 3,
@@ -220,14 +220,14 @@
                   "index": 3
                 },
                 {
-                  "switchTo": 6,
+                  "index": 4,
                   "removeWeapon": [
                     606134,
                     606135
                   ],
                   "switchParam": 1,
                   "switchType": 1,
-                  "index": 4
+                  "switchTo": 6
                 },
                 {
                   "setAI": 20006,
@@ -240,13 +240,13 @@
                   "index": 6
                 },
                 {
-                  "switchTo": 8,
+                  "index": 7,
                   "removeWeapon": [
                     606133
                   ],
                   "switchParam": 3.5,
                   "switchType": 1,
-                  "index": 7
+                  "switchTo": 8
                 },
                 {
                   "setAI": 90030,
@@ -259,14 +259,14 @@
                   "index": 8
                 },
                 {
-                  "switchTo": 10,
+                  "index": 9,
                   "addWeapon": [
                     606131,
                     606135
                   ],
                   "switchParam": 1,
                   "switchType": 1,
-                  "index": 9
+                  "switchTo": 10
                 },
                 {
                   "setAI": 90028,
@@ -285,13 +285,13 @@
                   "switchType": 1
                 },
                 {
-                  "switchTo": 1,
+                  "index": 114,
                   "removeWeapon": [
                     606135
                   ],
                   "switchParam": 1,
                   "switchType": 1,
-                  "index": 114
+                  "switchTo": 1
                 }
               ],
               "monsterTemplateID": 11800501,

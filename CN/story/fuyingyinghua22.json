@@ -35,7 +35,7 @@
       },
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "dir": 1,
+      "say": "吼———————",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -45,7 +45,7 @@
         "time": 1
       },
       "blackBg": true,
-      "say": "吼———————"
+      "dir": 1
     },
     {
       "side": 2,
@@ -100,7 +100,7 @@
     {
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "dir": 1,
+      "say": "吼————",
       "dialogShake": {
         "speed": 0.09,
         "x": 8.5,
@@ -111,7 +111,7 @@
         "time": 1
       },
       "blackBg": true,
-      "say": "吼————"
+      "dir": 1
     },
     {
       "painting": {
@@ -211,7 +211,7 @@
       }
     },
     {
-      "stopbgm": true,
+      "actor": 900192,
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
@@ -227,8 +227,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "flashin": {
         "alpha": [
@@ -249,7 +249,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "actor": 900192
+      "stopbgm": true
     },
     {
       "actor": 900192,
@@ -276,8 +276,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "blackBg": true,
       "flashin": {
@@ -813,12 +813,12 @@
     {
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "say": "一发炮弹精确的落在了观察者头上，炸毁了仪式厅的大部分木结构建筑",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "say": "一发炮弹精确的落在了观察者头上，炸毁了仪式厅的大部分木结构建筑",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -1063,8 +1063,8 @@
       "say": "拜托你们了！"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "FUYINGYINGHUA22",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

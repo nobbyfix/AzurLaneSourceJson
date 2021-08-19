@@ -3,7 +3,7 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "stopbgm": true,
+      "mode": 1,
       "sequence": [
         [
           "<size=51>新的邂逅就在眼前</size>",
@@ -34,7 +34,7 @@
           7
         ]
       ],
-      "mode": 1
+      "stopbgm": true
     },
     {
       "stopbgm": true,
@@ -59,8 +59,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "mode": 1,
       "blackBg": true,
@@ -80,12 +80,12 @@
         }
       ],
       "side": 2,
-      "say": "某日，一封奇怪的信件被摆在了指挥室的办公桌上。",
+      "bgm": "doa_story1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "doa_story1",
+      "say": "某日，一封奇怪的信件被摆在了指挥室的办公桌上。",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -439,8 +439,8 @@
       "bgName": "bg_story_task"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "JIARIHANGXIAN1",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

@@ -3,7 +3,7 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "stopbgm": true,
+      "mode": 1,
       "sequence": [
         [
           "<size=51>我明白的</size>",
@@ -34,7 +34,7 @@
           14
         ]
       ],
-      "mode": 1
+      "stopbgm": true
     },
     {
       "side": 1,
@@ -50,8 +50,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -368,8 +368,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       }
     },
     {
@@ -505,7 +505,7 @@
     {
       "soundeffect": "event:/battle/plane",
       "side": 2,
-      "say": "话音落下，十数架舰载机逐次从{namecode:89}的甲板上升入空中，并在她的身边盘旋着。",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -514,7 +514,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "dir": 1
+      "say": "话音落下，十数架舰载机逐次从{namecode:89}的甲板上升入空中，并在她的身边盘旋着。"
     },
     {
       "side": 2,
@@ -575,7 +575,7 @@
     {
       "soundeffect": "event:/battle/plane",
       "side": 2,
-      "say": "舰载机们在空中组成编队，分为7个方向着镜面海域飞去，很快便消失在天空中。",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -584,7 +584,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "dir": 1
+      "say": "舰载机们在空中组成编队，分为7个方向着镜面海域飞去，很快便消失在天空中。"
     },
     {
       "actor": 304050,
@@ -733,8 +733,8 @@
       "say": "没有人注意到这份笑容里隐藏着的焦虑、与不安——"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "TIANCHENGHUODONG10",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }
