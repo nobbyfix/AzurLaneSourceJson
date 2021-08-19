@@ -1,7 +1,7 @@
 {
   "picture": "",
-  "id": 12423,
   "color": "red",
+  "id": 12423,
   "desc": "3秒内1号位置装备发射的子弹伤害提高",
   "blink": [
     1,
@@ -11,7 +11,7 @@
     0.3
   ],
   "last_effect": "",
-  "name": "重点打击",
+  "time": 3,
   "icon": 12420,
   "effect_list": [
     {
@@ -20,15 +20,15 @@
       ],
       "type": "BattleBuffAddBulletAttr",
       "arg_list": {
-        "number": 1,
+        "attr": "damageRatioBullet",
         "index": [
           1
         ],
-        "attr": "damageRatioBullet"
+        "number": 1
       }
     }
   ],
   "stack": 1,
   "init_effect": "jinengchufared",
-  "time": 3
+  "name": "重点打击"
 }

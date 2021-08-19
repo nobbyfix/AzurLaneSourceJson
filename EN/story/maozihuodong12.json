@@ -3,10 +3,10 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "bgm": "bgm-cccp3",
+      "say": "Son of a... Now we've also gotta keep an eye out for that new weapon they have.",
       "actor": 102140,
       "side": 2,
-      "dir": 1,
+      "bgm": "bgm-cccp3",
       "nameColor": "#a9f548",
       "typewriter": {
         "speed": 0.05,
@@ -16,7 +16,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "say": "Son of a... Now we've also gotta keep an eye out for that new weapon they have."
+      "dir": 1
     },
     {
       "say": "Doesn't seem to affect my planes, at least. Anyone else reckon the Sirens use this place as a testing ground for their new technology?",
@@ -123,10 +123,10 @@
       }
     },
     {
-      "bgm": "story-masazhusai",
+      "say": "Let me handle it, Commander! My fire control just came back online!",
       "actor": 105140,
       "side": 2,
-      "dir": 1,
+      "bgm": "story-masazhusai",
       "nameColor": "#a9f548",
       "typewriter": {
         "speed": 0.05,
@@ -136,7 +136,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "say": "Let me handle it, Commander! My fire control just came back online!"
+      "dir": 1
     },
     {
       "actor": 105140,
@@ -176,12 +176,12 @@
       },
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "say": "South Dakota's volleys land a direct hit on the Siren wielding the strange new weapon while also tearing the enemy line to shreds. Fire and smoke envelop the waters where the Sirens stood.",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "say": "South Dakota's volleys land a direct hit on the Siren wielding the strange new weapon while also tearing the enemy line to shreds. Fire and smoke envelop the waters where the Sirens stood.",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -254,7 +254,7 @@
       "expression": 5
     },
     {
-      "soundeffect": "event:/battle/boom2",
+      "stopbgm": true,
       "side": 2,
       "dir": 1,
       "blackBg": true,
@@ -272,7 +272,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "stopbgm": true
+      "soundeffect": "event:/battle/boom2"
     },
     {
       "soundeffect": "event:/battle/boom2",
@@ -361,8 +361,8 @@
       "say": "..."
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "MAOZIHUODONG12",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

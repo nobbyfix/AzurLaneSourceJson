@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "Spring Festival Party\n\n<size=45>The Mother of All Firecrackers</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "side": 2,
@@ -20,8 +20,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "painting": {
         "alpha": 0.3,
@@ -120,7 +120,7 @@
       "bgName": "star_level_bg_102"
     },
     {
-      "say": "Fu Shun's homemade firecracker went off with a loud bang, followed by several crackles.",
+      "dir": 1,
       "soundeffect": "event:/battle/firework",
       "side": 2,
       "hideOther": true,
@@ -128,7 +128,7 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "say": "Fu Shun's homemade firecracker went off with a loud bang, followed by several crackles.",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -568,8 +568,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "flashin": {
         "alpha": [
@@ -662,8 +662,8 @@
       "bgName": "bg_night"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "HONGBAORICHANG1",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

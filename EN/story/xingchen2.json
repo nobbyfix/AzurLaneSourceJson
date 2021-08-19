@@ -4,14 +4,14 @@
   "noWaitFade": true,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "Bits of Courage \n\n<size=45>II LIVE「Four Parallel Worlds」</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "mode": 2,
@@ -23,21 +23,21 @@
       "side": 0,
       "bgm": "star",
       "nameColor": "#a9f548",
-      "actorName": "Audience A",
+      "mode": 2,
       "effects": [
         {
           "name": "sanjiao",
           "active": true
         }
       ],
-      "withoutPainting": true,
+      "say": "Wow! Stardust is so amazing!!!",
       "flashout": {
         "alpha": [
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -48,12 +48,12 @@
         "delay": 1,
         "dur": 1
       },
-      "say": "Wow! Stardust is so amazing!!!",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "mode": 2,
+      "actorName": "Audience A",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -64,14 +64,14 @@
       "actor": 0,
       "side": 1,
       "nameColor": "#a9f548",
-      "mode": 2,
-      "withoutPainting": true,
+      "actorName": "Audience B",
       "say": "Stardust, we love you, ahhhhh!!!",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "actorName": "Audience B",
+      "mode": 2,
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -82,14 +82,14 @@
       "actor": 0,
       "side": 0,
       "nameColor": "#a9f548",
-      "mode": 2,
-      "withoutPainting": true,
+      "actorName": "Audience C",
       "say": "Haha...haha...",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "actorName": "Audience C",
+      "mode": 2,
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -101,8 +101,8 @@
       "side": 0,
       "nameColor": "#a9f548",
       "blackBg": true,
-      "say": "Thank you everyone for your support~ I can feel all your warmth~ Let’s rock’n roll!",
       "withoutPainting": true,
+      "say": "Thank you everyone for your support~ I can feel all your warmth~ Let’s rock’n roll!",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -116,7 +116,7 @@
       "side": 1,
       "nameColor": "#a9f548",
       "blackBg": true,
-      "say": "L - O - V - E !! Star - dust !! L - O - V - E !! Star - dust !!",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -126,7 +126,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "withoutPainting": true
+      "say": "L - O - V - E !! Star - dust !! L - O - V - E !! Star - dust !!"
     },
     {
       "actor": 206030,
@@ -150,14 +150,14 @@
       },
       "actor": 0,
       "side": 1,
-      "say": "（！！！！！）",
+      "withoutPainting": true,
       "nameColor": "#a9f548",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
       "blackBg": true,
-      "withoutPainting": true
+      "say": "（！！！！！）"
     },
     {
       "actor": 206030,
@@ -199,8 +199,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -211,7 +211,7 @@
         "delay": 1,
         "dur": 1
       },
-      "say": "Thank you everyone~ Have Stardust’s songs been conveyed to your hearts?~ I look forward to the next time we meet!",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -221,14 +221,14 @@
         "alpha": 0.3,
         "time": 1
       },
-      "withoutPainting": true
+      "say": "Thank you everyone~ Have Stardust’s songs been conveyed to your hearts?~ I look forward to the next time we meet!"
     },
     {
       "actor": 0,
       "side": 1,
       "nameColor": "#a9f548",
       "blackBg": true,
-      "say": "Woooooow!",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -238,14 +238,14 @@
         "alpha": 0.3,
         "time": 1
       },
-      "withoutPainting": true
+      "say": "Woooooow!"
     },
     {
       "actor": 0,
       "side": 1,
       "nameColor": "#a9f548",
       "blackBg": true,
-      "say": "Ha~~ Stardust is absolutely the best~",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -255,14 +255,14 @@
         "alpha": 0.3,
         "time": 1
       },
-      "withoutPainting": true
+      "say": "Ha~~ Stardust is absolutely the best~"
     },
     {
       "actor": 0,
       "side": 1,
       "nameColor": "#a9f548",
       "blackBg": true,
-      "say": "Feels like... I’ve got no regrets anymore...",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -272,7 +272,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "withoutPainting": true
+      "say": "Feels like... I’ve got no regrets anymore..."
     },
     {
       "actor": 0,
@@ -285,7 +285,7 @@
           "active": false
         }
       ],
-      "say": "No... I must survive until I can attend Stardust’s next concert!",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -295,7 +295,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "withoutPainting": true
+      "say": "No... I must survive until I can attend Stardust’s next concert!"
     },
     {
       "actor": 206030,
@@ -330,8 +330,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       }
     },
     {

@@ -3,23 +3,23 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "Hammann Observation Diary\n\n<size=45>Chapter 1: The Ill-Tempered Secretary</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "Port - Office",
       "bgName": "bg_story_school",
-      "say": "Port - Office"
+      "bgm": "story-1"
     },
     {
       "actor": 101250,
@@ -27,10 +27,10 @@
       "dir": 1,
       "action": [
         {
-          "y": 30,
+          "number": 1,
           "type": "shake",
           "dur": 0.2,
-          "number": 1
+          "y": 30
         }
       ],
       "say": "Hey! You there!",
@@ -47,12 +47,12 @@
     },
     {
       "actor": 0,
-      "say": "Huh...?",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "withoutPainting": true,
+      "say": "Huh...?",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -63,12 +63,12 @@
       "dir": 1,
       "actor": 101250,
       "side": 2,
-      "say": "The report that I submitted! You still haven't gone over it?",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "The report that I submitted! You still haven't gone over it?",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -107,10 +107,10 @@
       "dir": 1,
       "action": [
         {
-          "y": 30,
+          "number": 3,
           "type": "shake",
           "dur": 0.2,
-          "number": 3
+          "y": 30
         }
       ],
       "say": "No excuses!",
@@ -129,12 +129,12 @@
       "dir": 1,
       "actor": 101250,
       "side": 2,
-      "say": "If you said you haven't looked at it, then that means you haven't looked at it! After I put all that time and effort into writing the report, how do you plan to make it up to me?",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "If you said you haven't looked at it, then that means you haven't looked at it! After I put all that time and effort into writing the report, how do you plan to make it up to me?",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -145,12 +145,12 @@
       "dir": 1,
       "actor": 101250,
       "side": 2,
-      "say": "*mumbles* ...and here, I was going to give you a reward if you already finished checking it...",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "*mumbles* ...and here, I was going to give you a reward if you already finished checking it...",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -161,12 +161,12 @@
       "dir": 1,
       "actor": 0,
       "side": 2,
-      "say": "Why'd you start mumbling all of a sudden...",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "withoutPainting": true,
+      "say": "Why'd you start mumbling all of a sudden...",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -240,10 +240,10 @@
       "say": "<size=60>Iiiiidiot!</size>",
       "action": [
         {
-          "y": 30,
+          "number": 3,
           "type": "shake",
           "dur": 0.1,
-          "number": 3
+          "y": 30
         }
       ],
       "painting": {
@@ -283,8 +283,8 @@
       "bgName": "bg_story_task"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "HAMAN1",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

@@ -17,14 +17,14 @@
         90,
         70
       ],
-      "backGroundStageID": 1,
+      "passCondition": 1,
       "fleetCorrdinate": [
         -80,
         0,
         75
       ],
       "enemyArea": [],
-      "passCondition": 1,
+      "backGroundStageID": 1,
       "waves": [
         {
           "preWaves": [],
@@ -79,7 +79,7 @@
                   "index": 2
                 },
                 {
-                  "switchTo": 4,
+                  "index": 3,
                   "removeWeapon": [
                     680301
                   ],
@@ -88,7 +88,7 @@
                   ],
                   "switchParam": 4.5,
                   "switchType": 1,
-                  "index": 3
+                  "switchTo": 4
                 },
                 {
                   "setAI": 10001,
@@ -99,7 +99,7 @@
                   "index": 4
                 },
                 {
-                  "switchTo": 6,
+                  "index": 5,
                   "removeWeapon": [
                     680302
                   ],
@@ -110,20 +110,20 @@
                   ],
                   "switchParam": 2,
                   "switchType": 1,
-                  "index": 5
+                  "switchTo": 6
                 },
                 {
-                  "switchTo": 1,
+                  "index": 6,
                   "removeWeapon": [],
                   "addWeapon": [
                     680308
                   ],
                   "switchParam": 500,
                   "switchType": 1,
-                  "index": 6
+                  "switchTo": 1
                 }
               ],
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 0,
                 0,
@@ -135,7 +135,7 @@
               ],
               "monsterTemplateID": 13900342,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             }
           ],
           "waveIndex": 101,
@@ -150,7 +150,7 @@
           "conditionType": 1,
           "reinforcement": {
             "1": {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 12,
                 0,
@@ -162,10 +162,10 @@
               ],
               "monsterTemplateID": 13900302,
               "delay": 4,
-              "moveCast": true
+              "score": 0
             },
             "2": {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 12,
                 0,
@@ -177,7 +177,7 @@
               ],
               "monsterTemplateID": 13900302,
               "delay": 4,
-              "moveCast": true
+              "score": 0
             },
             "reinforceDuration": 180
           },

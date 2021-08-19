@@ -11,7 +11,7 @@
         68
       ],
       "stageIndex": 1,
-      "backGroundStageID": 1,
+      "passCondition": 1,
       "totalArea": [
         -70,
         20,
@@ -60,7 +60,7 @@
         ]
       },
       "enemyArea": [],
-      "passCondition": 1,
+      "backGroundStageID": 1,
       "waves": [
         {
           "preWaves": [],
@@ -109,7 +109,7 @@
                   "index": 0
                 },
                 {
-                  "switchTo": 2,
+                  "index": 1,
                   "removeWeapon": [],
                   "addWeapon": [
                     650415,
@@ -117,7 +117,7 @@
                   ],
                   "switchParam": 1.5,
                   "switchType": 1,
-                  "index": 1
+                  "switchTo": 2
                 },
                 {
                   "setAI": 70091,
@@ -129,27 +129,27 @@
                   "index": 2
                 },
                 {
-                  "switchTo": 4,
+                  "index": 3,
                   "removeWeapon": [],
                   "addWeapon": [
                     650417
                   ],
                   "switchParam": 0.3,
                   "switchType": 1,
-                  "index": 3
+                  "switchTo": 4
                 },
                 {
-                  "switchTo": 5,
+                  "index": 4,
                   "removeWeapon": [],
                   "addWeapon": [
                     650418
                   ],
                   "switchParam": 0.3,
                   "switchType": 1,
-                  "index": 4
+                  "switchTo": 5
                 },
                 {
-                  "switchTo": 6,
+                  "index": 5,
                   "removeWeapon": [
                     650415,
                     650416
@@ -159,7 +159,7 @@
                   ],
                   "switchParam": 2.5,
                   "switchType": 1,
-                  "index": 5
+                  "switchTo": 6
                 },
                 {
                   "setAI": 10001,
@@ -187,7 +187,7 @@
                   "index": 7
                 },
                 {
-                  "switchTo": 9,
+                  "index": 8,
                   "removeWeapon": [
                     650420,
                     650421
@@ -197,17 +197,17 @@
                   ],
                   "switchParam": 1,
                   "switchType": 1,
-                  "index": 8
+                  "switchTo": 9
                 },
                 {
-                  "switchTo": 10,
+                  "index": 9,
                   "removeWeapon": [],
                   "addWeapon": [
                     650423
                   ],
                   "switchParam": 6.5,
                   "switchType": 1,
-                  "index": 9
+                  "switchTo": 10
                 },
                 {
                   "setAI": 10001,
@@ -229,7 +229,7 @@
                   "index": 11
                 },
                 {
-                  "switchTo": 13,
+                  "index": 12,
                   "removeWeapon": [],
                   "addWeapon": [
                     650415,
@@ -237,7 +237,7 @@
                   ],
                   "switchParam": 1.5,
                   "switchType": 1,
-                  "index": 12
+                  "switchTo": 13
                 },
                 {
                   "setAI": 70091,
@@ -249,27 +249,27 @@
                   "index": 13
                 },
                 {
-                  "switchTo": 15,
+                  "index": 14,
                   "removeWeapon": [],
                   "addWeapon": [
                     650417
                   ],
                   "switchParam": 0.3,
                   "switchType": 1,
-                  "index": 14
+                  "switchTo": 15
                 },
                 {
-                  "switchTo": 16,
+                  "index": 15,
                   "removeWeapon": [],
                   "addWeapon": [
                     650418
                   ],
                   "switchParam": 0.3,
                   "switchType": 1,
-                  "index": 15
+                  "switchTo": 16
                 },
                 {
-                  "switchTo": 17,
+                  "index": 16,
                   "removeWeapon": [
                     650415,
                     650416
@@ -279,7 +279,7 @@
                   ],
                   "switchParam": 2.5,
                   "switchType": 1,
-                  "index": 16
+                  "switchTo": 17
                 },
                 {
                   "setAI": 10001,
@@ -294,13 +294,13 @@
                   "index": 17
                 },
                 {
-                  "switchTo": 0,
+                  "index": 18,
                   "addBuff": [
                     8524
                   ],
                   "switchParam": 1,
                   "switchType": 0,
-                  "index": 18
+                  "switchTo": 0
                 }
               ],
               "level": 120,
@@ -338,20 +338,20 @@
   "fleet_prefab": {
     "vanguard_unitList": [
       {
-        "oil_at_end": 55,
+        "skinId": 802020,
         "exp": 10,
         "id": 1,
         "properties": {
-          "durability": 80000,
+          "air": 0,
           "cannon": 119,
           "antiaircraft": 406,
           "reload": 165,
           "hit": 140,
           "luck": 85,
           "dodge": 73,
-          "speed": 32,
           "armor": 90,
-          "air": 0,
+          "speed": 32,
+          "durability": 80000,
           "torpedo": 246
         },
         "tmpID": 900191,
@@ -363,7 +363,7 @@
         "configId": 900191,
         "level": 95,
         "energy": 10,
-        "skinId": 802020
+        "oil_at_end": 55
       }
     ],
     "main_unitList": [
@@ -381,16 +381,16 @@
           }
         ],
         "properties": {
-          "durability": 66744,
+          "air": 0,
           "cannon": 312,
           "antiaircraft": 285,
           "reload": 138,
           "hit": 140,
           "luck": 38,
           "dodge": 22,
-          "speed": 31,
           "armor": 1150,
-          "air": 0,
+          "speed": 31,
+          "durability": 66744,
           "torpedo": 0
         },
         "configId": 900194,
@@ -406,16 +406,16 @@
         ],
         "skinId": 207030,
         "properties": {
-          "durability": 68377,
+          "air": 3358,
           "cannon": 0,
           "antiaircraft": 260,
           "reload": 102,
           "hit": 140,
           "luck": 44,
           "dodge": 33,
-          "speed": 30,
           "armor": 1890,
-          "air": 3358,
+          "speed": 30,
+          "durability": 68377,
           "torpedo": 0
         },
         "configId": 900195,
@@ -431,16 +431,16 @@
         ],
         "skinId": 807010,
         "properties": {
-          "durability": 68377,
+          "air": 3251,
           "cannon": 0,
           "antiaircraft": 225,
           "reload": 168,
           "hit": 140,
           "luck": 65,
           "dodge": 41,
-          "speed": 19,
           "armor": 1890,
-          "air": 3251,
+          "speed": 19,
+          "durability": 68377,
           "torpedo": 0
         },
         "configId": 900196,

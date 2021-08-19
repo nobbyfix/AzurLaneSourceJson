@@ -3,7 +3,7 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "stopbgm": true,
+      "mode": 1,
       "sequence": [
         [
           "<size=51>\"Never lose faith.\" ...That is what Great Veteran Mikasa told me.</size>",
@@ -50,7 +50,7 @@
           21
         ]
       ],
-      "mode": 1
+      "stopbgm": true
     },
     {
       "stopbgm": true,
@@ -72,14 +72,14 @@
     {
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "dir": 1,
+      "bgm": "story-6",
       "flashout": {
         "alpha": [
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "effects": [
         {
@@ -109,7 +109,7 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-6",
+      "dir": 1,
       "bgmDelay": 1,
       "bgName": "bg_xinnong_cg3"
     },
@@ -708,8 +708,8 @@
       "bgName": "bg_xinnong_cg3"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "FUYINGYINGHUA13",
-  "once": true
+  "once": true,
+  "fadeType": 1,
+  "mode": 2
 }

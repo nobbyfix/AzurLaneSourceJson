@@ -17,14 +17,14 @@
         90,
         70
       ],
-      "backGroundStageID": 1,
+      "passCondition": 1,
       "fleetCorrdinate": [
         -80,
         0,
         75
       ],
       "enemyArea": [],
-      "passCondition": 1,
+      "backGroundStageID": 1,
       "waves": [
         {
           "preWaves": [],
@@ -63,8 +63,8 @@
           "spawn": [
             {
               "affix": true,
-              "score": 0,
               "moveCast": true,
+              "score": 0,
               "corrdinate": [
                 -10,
                 0,
@@ -79,16 +79,16 @@
                   "index": 0
                 },
                 {
-                  "switchTo": 2,
+                  "index": 1,
                   "addWeapon": [
                     2965004
                   ],
                   "switchParam": 5,
                   "switchType": 1,
-                  "index": 1
+                  "switchTo": 2
                 },
                 {
-                  "switchTo": 3,
+                  "index": 2,
                   "removeWeapon": [
                     2965004
                   ],
@@ -98,7 +98,7 @@
                   ],
                   "switchParam": 1.5,
                   "switchType": 1,
-                  "index": 2
+                  "switchTo": 3
                 },
                 {
                   "setAI": 10001,
@@ -112,7 +112,7 @@
                   "index": 3
                 },
                 {
-                  "switchTo": 5,
+                  "index": 4,
                   "removeWeapon": [
                     2965014,
                     2965019,
@@ -121,17 +121,17 @@
                   "addWeapon": [],
                   "switchParam": 3,
                   "switchType": 1,
-                  "index": 4
+                  "switchTo": 5
                 },
                 {
-                  "switchTo": 6,
+                  "index": 5,
                   "removeWeapon": [],
                   "addWeapon": [
                     2965054
                   ],
                   "switchParam": 1.5,
                   "switchType": 1,
-                  "index": 5
+                  "switchTo": 6
                 },
                 {
                   "setAI": 20006,
@@ -212,7 +212,7 @@
                   "index": 11
                 },
                 {
-                  "switchTo": 13,
+                  "index": 12,
                   "removeWeapon": [],
                   "addWeapon": [
                     2965014,
@@ -221,7 +221,7 @@
                   ],
                   "switchParam": 2,
                   "switchType": 1,
-                  "index": 12
+                  "switchTo": 13
                 },
                 {
                   "setAI": 10001,
@@ -249,14 +249,14 @@
                   "index": 14
                 },
                 {
-                  "switchTo": 16,
+                  "index": 15,
                   "removeWeapon": [],
                   "addWeapon": [
                     2965134
                   ],
                   "switchParam": 5.5,
                   "switchType": 1,
-                  "index": 15
+                  "switchTo": 16
                 },
                 {
                   "setAI": 70147,
@@ -282,7 +282,7 @@
                   "index": 17
                 },
                 {
-                  "switchTo": 19,
+                  "index": 18,
                   "removeWeapon": [
                     2965144
                   ],
@@ -291,10 +291,10 @@
                   ],
                   "switchParam": 12.4,
                   "switchType": 1,
-                  "index": 18
+                  "switchTo": 19
                 },
                 {
-                  "switchTo": 1,
+                  "index": 19,
                   "removeWeapon": [
                     2965154,
                     2965164
@@ -302,7 +302,7 @@
                   "addWeapon": [],
                   "switchParam": 180,
                   "switchType": 1,
-                  "index": 19
+                  "switchTo": 1
                 }
               ],
               "monsterTemplateID": 295029,

@@ -3,23 +3,23 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "The Lucky Crane\n\n<size=45>Chapter 4 - Zuikaku & Master Mikasa</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "side": 2,
-      "say": "Evening - Practice Area",
+      "bgm": "battle-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "battle-1",
+      "say": "Evening - Practice Area",
       "dir": 1,
       "bgName": "bg_story_nepu1"
     },
@@ -64,12 +64,12 @@
     {
       "soundeffect": "event:/battle/plane",
       "side": 2,
-      "say": "Zuikaku's planes released their dummy bombs over Mikasa, achieving a marvelous direct hit.",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "say": "Zuikaku's planes released their dummy bombs over Mikasa, achieving a marvelous direct hit.",
       "bgName": "bg_story_nepu1"
     },
     {
@@ -143,10 +143,10 @@
       "nameColor": "#a9f548",
       "action": [
         {
-          "y": 30,
+          "number": 3,
           "type": "shake",
           "dur": 0.15,
-          "number": 3
+          "y": 30
         }
       ],
       "say": "Thank you, Master Mikasa! ... Hey, Commander, am I awesome, or what?!",
@@ -232,8 +232,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -331,10 +331,10 @@
       },
       "actor": 0,
       "side": 0,
-      "withoutPainting": true,
-      "nameColor": "#a9f548",
-      "say": "......",
       "dir": 1,
+      "nameColor": "#a9f548",
+      "withoutPainting": true,
+      "say": "......",
       "bgName": "bg_story_nepu1"
     },
     {
@@ -356,8 +356,8 @@
       "bgName": "bg_story_nepu1"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "RUIHE4",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

@@ -3,20 +3,20 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "<size=45>\"Odd-Colored Seas - WHITE\"</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
-      "bgm": "level-nep",
+      "say": "Stage 2 cleared, easy breezy! Looks like we'll have this situation under control in no time!",
       "actor": 10100010,
       "side": 2,
-      "dir": -1,
+      "bgm": "level-nep",
       "nameColor": "#a9f548",
       "typewriter": {
         "speed": 0.05,
@@ -26,14 +26,14 @@
         "alpha": 0.3,
         "time": 1
       },
-      "say": "Stage 2 cleared, easy breezy! Looks like we'll have this situation under control in no time!"
+      "dir": -1
     },
     {
       "actor": 0,
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "say": "On the contrary. As if things would be that simple.",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -43,7 +43,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "withoutPainting": true
+      "say": "On the contrary. As if things would be that simple."
     },
     {
       "actor": 10100010,
@@ -115,7 +115,7 @@
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "say": "Mm, correct. We still need a lot more data.",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -125,7 +125,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "withoutPainting": true
+      "say": "Mm, correct. We still need a lot more data."
     },
     {
       "actor": 10100030,
@@ -147,7 +147,7 @@
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "say": "That's also a problem, but... in order to re-open the wormholes, we need to collect data from the CPU clones.",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -157,7 +157,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "withoutPainting": true
+      "say": "That's also a problem, but... in order to re-open the wormholes, we need to collect data from the CPU clones."
     },
     {
       "actor": 10100040,
@@ -179,7 +179,7 @@
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "say": "That's correct. For the time being, please continue to investigate the Mirror Seas and suppress any CPU clones you encounter. Well then, until later.",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -189,7 +189,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "withoutPainting": true
+      "say": "That's correct. For the time being, please continue to investigate the Mirror Seas and suppress any CPU clones you encounter. Well then, until later."
     },
     {
       "actor": 101170,
@@ -361,8 +361,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       }
     },
     {
@@ -417,8 +417,8 @@
       }
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "NEPU_STAGE301",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

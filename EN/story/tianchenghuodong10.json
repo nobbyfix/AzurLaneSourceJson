@@ -3,7 +3,7 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "stopbgm": true,
+      "mode": 1,
       "sequence": [
         [
           "<size=51>Now, I understand.</size>",
@@ -34,7 +34,7 @@
           14
         ]
       ],
-      "mode": 1
+      "stopbgm": true
     },
     {
       "side": 1,
@@ -50,8 +50,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -368,8 +368,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       }
     },
     {
@@ -505,7 +505,7 @@
     {
       "soundeffect": "event:/battle/plane",
       "side": 2,
-      "say": "As her words vanished into the wind, over a dozen aircraft began to materialize from Houshou's flight deck, encircling the sky above her.",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -514,7 +514,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "dir": 1
+      "say": "As her words vanished into the wind, over a dozen aircraft began to materialize from Houshou's flight deck, encircling the sky above her."
     },
     {
       "side": 2,
@@ -575,7 +575,7 @@
     {
       "soundeffect": "event:/battle/plane",
       "side": 2,
-      "say": "With Houshou's instructions, the aircraft fanned out in seven different directions, soon disappearing into the distance.",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -584,7 +584,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "dir": 1
+      "say": "With Houshou's instructions, the aircraft fanned out in seven different directions, soon disappearing into the distance."
     },
     {
       "actor": 304050,
@@ -733,8 +733,8 @@
       "say": "But she could not hide the unease and anxiety seeping out from her smile, not even from herself."
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "TIANCHENGHUODONG10",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

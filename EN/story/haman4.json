@@ -3,25 +3,25 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "Hammann Observation Diary\n\n<size=45>Chapter 4: Unhappiness, Part 3</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "dir": 1,
       "actor": 101250,
       "side": 2,
-      "say": "Someone saw me... Someone saw me......",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "Someone saw me... Someone saw me......",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -29,10 +29,10 @@
       "bgName": "bg_story_task"
     },
     {
-      "dir": 1,
+      "say": "It wasn't on purpose but... what the heck were you doing?",
       "actor": 101240,
       "side": 0,
-      "say": "It wasn't on purpose but... what the heck were you doing?",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -51,12 +51,12 @@
       "dir": 1,
       "actor": 101250,
       "side": 1,
-      "say": "Um, so it goes something like this...",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "Um, so it goes something like this...",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -72,8 +72,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -126,10 +126,10 @@
       "dir": 1,
       "action": [
         {
-          "y": 30,
+          "number": 3,
           "type": "shake",
           "dur": 0.15,
-          "number": 3
+          "y": 30
         }
       ],
       "say": "Of course it's a big deal! I don't know how Commander is handling all this...",
@@ -162,10 +162,10 @@
     {
       "action": [
         {
-          "y": -30,
+          "number": 1,
           "type": "shake",
           "dur": 0.5,
-          "number": 1
+          "y": -30
         },
         {
           "y": 30,
@@ -207,10 +207,10 @@
     {
       "action": [
         {
-          "y": 30,
+          "number": 1,
           "type": "shake",
           "dur": 0.1,
-          "number": 1
+          "y": 30
         }
       ],
       "actor": 101250,
@@ -301,8 +301,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -350,8 +350,8 @@
       "bgName": "bg_story_task"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "HAMAN4",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

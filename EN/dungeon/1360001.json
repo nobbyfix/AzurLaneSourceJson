@@ -3,20 +3,20 @@
   "fleet_prefab": {
     "vanguard_unitList": [
       {
-        "oil_at_end": 55,
+        "skinId": 900235,
         "exp": 10,
         "id": 1,
         "properties": {
-          "durability": 85567,
+          "air": 0,
           "cannon": 1000,
           "antiaircraft": 310,
           "reload": 830,
           "hit": 140,
           "luck": 70,
           "dodge": 164,
-          "speed": 31.5,
           "armor": 98,
-          "air": 0,
+          "speed": 31.5,
+          "durability": 85567,
           "torpedo": 150
         },
         "tmpID": 900235,
@@ -28,7 +28,7 @@
         "configId": 900235,
         "level": 100,
         "energy": 10,
-        "skinId": 900235
+        "oil_at_end": 55
       }
     ]
   },
@@ -43,7 +43,7 @@
         68
       ],
       "stageIndex": 1,
-      "backGroundStageID": 1,
+      "passCondition": 1,
       "totalArea": [
         -75,
         20,
@@ -92,7 +92,7 @@
         ]
       },
       "enemyArea": [],
-      "passCondition": 1,
+      "backGroundStageID": 1,
       "waves": [
         {
           "preWaves": [],
@@ -121,7 +121,7 @@
           "conditionType": 1,
           "reinforcement": [
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 30,
                 0,
@@ -133,10 +133,10 @@
               ],
               "monsterTemplateID": 13400002,
               "delay": 2,
-              "moveCast": true
+              "score": 0
             },
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 5,
                 0,
@@ -148,10 +148,10 @@
               ],
               "monsterTemplateID": 13400002,
               "delay": 2,
-              "moveCast": true
+              "score": 0
             },
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 30,
                 0,
@@ -163,10 +163,10 @@
               ],
               "monsterTemplateID": 13400002,
               "delay": 2,
-              "moveCast": true
+              "score": 0
             },
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 18,
                 0,
@@ -178,10 +178,10 @@
               ],
               "monsterTemplateID": 13400002,
               "delay": 2,
-              "moveCast": true
+              "score": 0
             },
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 18,
                 0,
@@ -193,16 +193,16 @@
               ],
               "monsterTemplateID": 13400002,
               "delay": 2,
-              "moveCast": true
+              "score": 0
             }
           ],
           "waveIndex": 201,
           "triggerParams": [],
           "spawn": [
             {
+              "score": 0,
               "moveCast": true,
               "reinforceDelay": 8,
-              "score": 0,
               "corrdinate": [
                 -10,
                 0,

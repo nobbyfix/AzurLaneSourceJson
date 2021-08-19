@@ -3,15 +3,15 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "say": "Okay, I'm really, really sorry for trying to rouse you from your slumber...!",
+      "dir": 1,
       "actor": 307060,
       "side": 2,
-      "dir": 1,
+      "bgm": "nagato-boss",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "nagato-boss",
+      "say": "Okay, I'm really, really sorry for trying to rouse you from your slumber...!",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -482,7 +482,7 @@
       "say": "......"
     },
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "Thou shalt not touch a human, for they would tarnish thy divinity.",
@@ -497,7 +497,7 @@
           6
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "actor": 305050,
@@ -547,16 +547,16 @@
     {
       "actor": 305050,
       "side": 2,
-      "dir": 1,
+      "bgm": "nagato-boss",
       "flashout": {
         "alpha": [
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
-      "bgm": "nagato-boss",
+      "dir": 1,
       "flashin": {
         "alpha": [
           1,
@@ -566,12 +566,12 @@
         "delay": 1,
         "dur": 1
       },
-      "withoutPainting": true,
+      "say": "Very well! Lacking in experience as I may be, I shall hold nothing back!",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "say": "Very well! Lacking in experience as I may be, I shall hold nothing back!",
+      "withoutPainting": true,
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -582,12 +582,12 @@
       "dir": 1,
       "actor": 305050,
       "side": 2,
-      "withoutPainting": true,
+      "say": "I am Nagato, Big Seven of the Sakura Empire! Prepare yourself!",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "say": "I am Nagato, Big Seven of the Sakura Empire! Prepare yourself!",
+      "withoutPainting": true,
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -595,8 +595,8 @@
       "bgName": "bg_story_nagato4"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "YINGHUA12",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

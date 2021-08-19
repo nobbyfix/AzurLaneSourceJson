@@ -3,7 +3,7 @@
   "id": 408,
   "desc": "",
   "last_effect": "",
-  "time": 1,
+  "name": "穿甲对轻、中甲破甲",
   "icon": 400,
   "effect_list": [
     {
@@ -15,12 +15,12 @@
       "arg_list": {
         "armor_type": 1,
         "buff_id": 409,
-        "minTargetNumber": 1,
+        "target": "TargetSelf",
         "check_target": [
           "TargetSelf",
           "TargetShipArmor"
         ],
-        "target": "TargetSelf"
+        "minTargetNumber": 1
       }
     },
     {
@@ -32,16 +32,16 @@
       "arg_list": {
         "armor_type": 2,
         "buff_id": 409,
-        "minTargetNumber": 1,
+        "target": "TargetSelf",
         "check_target": [
           "TargetSelf",
           "TargetShipArmor"
         ],
-        "target": "TargetSelf"
+        "minTargetNumber": 1
       }
     }
   ],
   "stack": 1,
   "init_effect": "",
-  "name": "穿甲对轻、中甲破甲"
+  "time": 1
 }

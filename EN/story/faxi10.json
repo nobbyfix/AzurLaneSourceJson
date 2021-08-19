@@ -4,9 +4,9 @@
   "occlusion": 2,
   "scripts": [
     {
-      "soundeffect": "event:/battle/boom2",
+      "actor": 107040,
       "side": 2,
-      "dir": 1,
+      "bgm": "story-french2",
       "flashN": {
         "color": [
           1,
@@ -44,22 +44,22 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "actor": 107040,
+      "soundeffect": "event:/battle/boom2",
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
-      "bgm": "story-french2"
+      "dir": 1
     },
     {
       "actor": 105190,
       "side": 0,
-      "say": "That's enough. She already... can't fight anymore.",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "say": "That's enough. She already... can't fight anymore.",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -180,8 +180,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "blackBg": true,
       "flashin": {
@@ -348,8 +348,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -429,8 +429,8 @@
       "say": "I tried so hard to catch up to the person most dear to me that I ended up betraying her... How laughable..."
     },
     {
-      "soundeffect": "event:/ui/noice",
-      "say": "------- (Bzzzzzt...)"
+      "say": "------- (Bzzzzzt...)",
+      "soundeffect": "event:/ui/noice"
     },
     {
       "actor": 107040,
@@ -449,12 +449,12 @@
     {
       "actor": 105190,
       "side": 0,
-      "say": "\"An Iron Blood Carrier Battle Group is quickly approaching from the north! Prepare for combat.\" Could they have picked a worse time...?",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "say": "\"An Iron Blood Carrier Battle Group is quickly approaching from the north! Prepare for combat.\" Could they have picked a worse time...?",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -493,8 +493,8 @@
       "say": "Our Templar Knights are scattered throughout various ports in the Méditerranée. Perhaps..."
     },
     {
-      "soundeffect": "event:/ui/noice",
-      "say": "------- (Bzzzzzt...)"
+      "say": "------- (Bzzzzzt...)",
+      "soundeffect": "event:/ui/noice"
     },
     {
       "typewriter": {
@@ -609,8 +609,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "say": "Ugh...! Jean Bart, flagship of the rightful Vichya Dominion, decrees to all ships in the Méditerranée...",
       "painting": {
@@ -847,15 +847,15 @@
       "say": "Second flagship of the Vichya... no, of Iris... Jean Bart..."
     },
     {
-      "soundeffect": "event:/battle/boom2",
+      "say": "How could you do such a thing?",
       "actor": 105190,
       "side": 2,
-      "say": "How could you do such a thing?",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "soundeffect": "event:/battle/boom2",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -870,12 +870,12 @@
     {
       "actor": 905010,
       "side": 1,
-      "say": "With this... I was able to honor the pact that we made with the Royal Navy in the past... to not be used by the Iron Blood, to not become a hue in the Crimson Axis...",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "say": "With this... I was able to honor the pact that we made with the Royal Navy in the past... to not be used by the Iron Blood, to not become a hue in the Crimson Axis...",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -1049,8 +1049,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "blackBg": true,
       "flashin": {
@@ -1134,8 +1134,8 @@
       "say": "Remember, don't do anything that will tarnish your noble name..."
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "FAXI10",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

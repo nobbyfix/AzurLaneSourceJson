@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "Hammann Observation Diary\n\n<size=45>Chapter 2: Unhappiness, Part 1</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "options": [
@@ -21,12 +21,12 @@
       ],
       "dir": 1,
       "side": 2,
-      "say": "A minute after Hammann chased me out of the office...",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "A minute after Hammann chased me out of the office...",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -42,8 +42,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -61,10 +61,10 @@
       },
       "action": [
         {
-          "y": 30,
+          "number": 1,
           "type": "shake",
           "dur": 0.2,
-          "number": 1
+          "y": 30
         }
       ],
       "painting": {
@@ -91,10 +91,10 @@
     {
       "action": [
         {
-          "y": -15,
+          "number": 1,
           "type": "shake",
           "dur": 0.6,
-          "number": 1
+          "y": -15
         },
         {
           "y": 30,
@@ -142,10 +142,10 @@
     {
       "action": [
         {
-          "y": 30,
+          "number": 2,
           "type": "shake",
           "dur": 0.1,
-          "number": 2
+          "y": 30
         }
       ],
       "actor": 101250,
@@ -165,10 +165,10 @@
     {
       "action": [
         {
-          "y": -15,
+          "number": 1,
           "type": "shake",
           "dur": 0.6,
-          "number": 1
+          "y": -15
         },
         {
           "y": 30,
@@ -195,10 +195,10 @@
     {
       "action": [
         {
-          "y": -15,
+          "number": 1,
           "type": "shake",
           "dur": 0.6,
-          "number": 1
+          "y": -15
         },
         {
           "y": 30,
@@ -225,10 +225,10 @@
     {
       "action": [
         {
-          "y": -30,
+          "number": 1,
           "type": "shake",
           "dur": 1,
-          "number": 1
+          "y": -30
         }
       ],
       "actor": 101250,
@@ -347,10 +347,10 @@
       },
       "action": [
         {
-          "y": 30,
+          "number": 3,
           "type": "shake",
           "dur": 0.15,
-          "number": 3
+          "y": 30
         }
       ],
       "painting": {
@@ -360,8 +360,8 @@
       "bgName": "bg_story_task"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "HAMAN2",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

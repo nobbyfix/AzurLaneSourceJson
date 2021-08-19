@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "Air Raid Drills With Essex\n\n<size=45>1: Special Exercises, Commence!</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "actor": 107060,
@@ -26,8 +26,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -401,8 +401,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "painting": {
         "alpha": 0.3,
@@ -492,7 +492,7 @@
       "bgName": "bg_story_nepu1"
     },
     {
-      "soundeffect": "event:/battle/plane",
+      "actor": 107090,
       "side": 2,
       "dir": -1,
       "nameColor": "#ff5c5c",
@@ -502,7 +502,7 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "actor": 107090,
+      "soundeffect": "event:/battle/plane",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -510,8 +510,8 @@
       "bgName": "bg_story_nepu1"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "AISAIKESIBOSS1",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

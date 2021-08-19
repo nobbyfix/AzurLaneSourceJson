@@ -3,7 +3,7 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "stopbgm": true,
+      "mode": 1,
       "sequence": [
         [
           "<size=51>And thus the sun once again sinks into the desolate darkness, the hollow of despair where no prayer can reach</size>",
@@ -26,10 +26,10 @@
           9
         ]
       ],
-      "mode": 1
+      "stopbgm": true
     },
     {
-      "stopbgm": true,
+      "mode": 1,
       "sequence": [
         [
           "<size=51>Your footsteps shall know no pause, even as the seas of flame consume your form.</size>",
@@ -52,12 +52,12 @@
           9
         ]
       ],
-      "mode": 1
+      "stopbgm": true
     },
     {
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "bgm": "battle-italy",
+      "dir": 1,
       "nameColor": "#ff5c5c",
       "expression": 1,
       "action": [
@@ -70,7 +70,7 @@
           "x": 0
         }
       ],
-      "actor": 603020,
+      "bgm": "battle-italy",
       "dialogShake": {
         "speed": 0.09,
         "x": 8.5,
@@ -117,7 +117,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "dir": 1
+      "actor": 603020
     },
     {
       "actor": 900197,
@@ -271,10 +271,10 @@
       "say": "Think I'd let you get away so easily? Fiiire!"
     },
     {
-      "dir": 1,
+      "say": "Warspite rushed in, causing Zara's shot to go wide.",
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "say": "Warspite rushed in, causing Zara's shot to go wide.",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -446,8 +446,8 @@
       "say": "No matter. Come then, bring your guns to bear and let us see who is the stronger! Belli dura despicio!"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "SHENSHENGDEBEIXIJU17",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

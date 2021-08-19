@@ -3,9 +3,9 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "soundeffect": "event:/battle/boom2",
+      "actor": 103160,
       "side": 0,
-      "dir": 1,
+      "bgm": "battle-boss-4",
       "nameColor": "#a9f548",
       "flashN": {
         "color": [
@@ -49,12 +49,12 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "actor": 103160,
+      "soundeffect": "event:/battle/boom2",
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
-      "bgm": "battle-boss-4"
+      "dir": 1
     },
     {
       "typewriter": {
@@ -167,10 +167,10 @@
       "say": "What?!"
     },
     {
-      "dir": 1,
+      "say": "KABOOM!!",
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "say": "KABOOM!!",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -218,10 +218,10 @@
       }
     },
     {
-      "dir": 1,
+      "say": "KABOOM!!",
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "say": "KABOOM!!",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -285,10 +285,10 @@
       "say": "Long-distance barrages from a 16-inch battery...?!"
     },
     {
-      "dir": 1,
+      "say": "KABOOOM!!",
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "say": "KABOOOM!!",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -589,7 +589,7 @@
       "say": "V-Victorious..."
     },
     {
-      "soundeffect": "event:/battle/plane",
+      "say": "Sister Sara has arrived on the stage! Commander, I've got your back!",
       "actor": 107030,
       "side": 2,
       "dir": 1,
@@ -602,7 +602,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "say": "Sister Sara has arrived on the stage! Commander, I've got your back!"
+      "soundeffect": "event:/battle/plane"
     },
     {
       "actor": 107030,
@@ -667,10 +667,10 @@
       "say": "But too bad for you. Time's already up."
     },
     {
-      "dir": 1,
+      "say": "KABOOM!!",
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "say": "KABOOM!!",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -718,10 +718,10 @@
       }
     },
     {
-      "dir": 1,
+      "say": "KABOOM!!",
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "say": "KABOOM!!",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -879,7 +879,7 @@
       "say": "Wait, are you trying to run away?!"
     },
     {
-      "soundeffect": "event:/battle/boom2",
+      "actor": 103160,
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
@@ -929,7 +929,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "actor": 103160
+      "soundeffect": "event:/battle/boom2"
     },
     {
       "typewriter": {
@@ -1106,7 +1106,7 @@
       "say": "It was almost as if..."
     },
     {
-      "stopbgm": true,
+      "actor": 900189,
       "side": 2,
       "dir": 1,
       "nameColor": "#ff6100",
@@ -1116,8 +1116,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -1138,7 +1138,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "actor": 900189
+      "stopbgm": true
     },
     {
       "actor": 900190,
@@ -1277,8 +1277,8 @@
       }
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "XIANGTINGLIAOFA15",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

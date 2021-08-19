@@ -3,23 +3,23 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "The Lucky Crane\n\n<size=45>Chapter 2 - Zuikaku & Her Friends</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "side": 2,
-      "say": "After Zuikaku hurriedly gave me her morning report, we went out together for a walk around the base.",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "After Zuikaku hurriedly gave me her morning report, we went out together for a walk around the base.",
       "dir": 1,
       "bgName": "bg_story_outdoor"
     },
@@ -277,8 +277,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -328,8 +328,8 @@
       "bgName": "bg_story_outdoor"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "RUIHE2",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

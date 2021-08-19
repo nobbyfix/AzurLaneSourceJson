@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "A Prayer for Peace\n\n<size=45>Chapter 7 - Fireworks</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "say": "Port - Empty Field",
@@ -25,8 +25,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -115,8 +115,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "painting": {
         "alpha": 0.3,
@@ -141,7 +141,7 @@
       "bgName": "bg_night"
     },
     {
-      "soundeffect": "event:/battle/firework",
+      "actor": 199021,
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
@@ -150,7 +150,7 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "actor": 199021,
+      "soundeffect": "event:/battle/firework",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -186,8 +186,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -205,7 +205,7 @@
       "bgName": "star_level_bg_115"
     },
     {
-      "soundeffect": "event:/battle/firework",
+      "actor": 301152,
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
@@ -214,7 +214,7 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "actor": 301152,
+      "soundeffect": "event:/battle/firework",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -254,11 +254,11 @@
       "bgName": "star_level_bg_115"
     },
     {
-      "soundeffect": "event:/battle/firework",
+      "actor": 205051,
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "actor": 205051,
+      "soundeffect": "event:/battle/firework",
       "flashin": {
         "alpha": [
           1,
@@ -278,8 +278,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "painting": {
         "alpha": 0.3,
@@ -387,7 +387,7 @@
       "bgName": "star_level_bg_115"
     },
     {
-      "soundeffect": "event:/battle/firework",
+      "actor": 408041,
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
@@ -396,7 +396,7 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "actor": 408041,
+      "soundeffect": "event:/battle/firework",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -493,18 +493,18 @@
       },
       "soundeffect": "event:/battle/firework",
       "side": 2,
-      "say": "I pray that one day... we will all be able to enjoy that peace together.",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "say": "I pray that one day... we will all be able to enjoy that peace together.",
       "blackBg": true,
       "bgName": "star_level_bg_115"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "XIMULIFU7",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

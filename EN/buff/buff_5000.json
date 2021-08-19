@@ -30,11 +30,11 @@
     "time": 10
   },
   "picture": "",
-  "id": 5000,
-  "desc": "装填降低30%，自身伤害降低15%",
   "color": "yellow",
+  "desc": "装填降低30%，自身伤害降低15%",
+  "id": 5000,
   "last_effect": "Darkness",
-  "time": 5,
+  "name": "火力干扰",
   "icon": 5000,
   "effect_list": [
     {
@@ -44,8 +44,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -3000,
-        "attr": "loadSpeed"
+        "attr": "loadSpeed",
+        "number": -3000
       }
     },
     {
@@ -55,12 +55,12 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": -0.15,
-        "attr": "damageRatioBullet"
+        "attr": "damageRatioBullet",
+        "number": -0.15
       }
     }
   ],
   "stack": 1,
   "init_effect": "",
-  "name": "火力干扰"
+  "time": 5
 }

@@ -19,14 +19,14 @@
         90,
         70
       ],
-      "backGroundStageID": 1,
+      "passCondition": 1,
       "fleetCorrdinate": [
         -80,
         0,
         75
       ],
       "enemyArea": [],
-      "passCondition": 1,
+      "backGroundStageID": 1,
       "waves": [
         {
           "preWaves": [],
@@ -62,7 +62,7 @@
                 {
                   "removeWeapon": [],
                   "setAI": 20006,
-                  "index": 0,
+                  "switchTo": 1,
                   "addWeapon": [
                     765001,
                     765002
@@ -70,10 +70,10 @@
                   "dive": "STATE_FLOAT",
                   "switchParam": 3,
                   "switchType": 1,
-                  "switchTo": 1
+                  "index": 0
                 },
                 {
-                  "switchTo": 2,
+                  "index": 1,
                   "removeWeapon": [
                     765001,
                     765002
@@ -81,7 +81,7 @@
                   "addWeapon": [],
                   "switchParam": 3,
                   "switchType": 1,
-                  "index": 1
+                  "switchTo": 2
                 },
                 {
                   "setAI": 10001,
@@ -131,7 +131,7 @@
                   "index": 5
                 },
                 {
-                  "switchTo": 7,
+                  "index": 6,
                   "removeWeapon": [],
                   "addWeapon": [
                     765010,
@@ -143,10 +143,10 @@
                   ],
                   "switchParam": 3,
                   "switchType": 1,
-                  "index": 6
+                  "switchTo": 7
                 },
                 {
-                  "switchTo": 8,
+                  "index": 7,
                   "removeWeapon": [
                     765010,
                     765011,
@@ -160,10 +160,10 @@
                   ],
                   "switchParam": 3,
                   "switchType": 1,
-                  "index": 7
+                  "switchTo": 8
                 },
                 {
-                  "switchTo": 9,
+                  "index": 8,
                   "removeWeapon": [
                     765009
                   ],
@@ -172,10 +172,10 @@
                   ],
                   "switchParam": 3,
                   "switchType": 1,
-                  "index": 8
+                  "switchTo": 9
                 },
                 {
-                  "switchTo": 10,
+                  "index": 9,
                   "removeWeapon": [
                     765016
                   ],
@@ -184,10 +184,10 @@
                   ],
                   "switchParam": 5,
                   "switchType": 1,
-                  "index": 9
+                  "switchTo": 10
                 },
                 {
-                  "switchTo": 11,
+                  "index": 10,
                   "removeWeapon": [
                     765017
                   ],
@@ -196,7 +196,7 @@
                   ],
                   "switchParam": 7,
                   "switchType": 1,
-                  "index": 10
+                  "switchTo": 11
                 },
                 {
                   "setAI": 20006,
@@ -210,14 +210,14 @@
                   "index": 11
                 },
                 {
-                  "switchTo": 1,
+                  "index": 12,
                   "removeWeapon": [
                     765016,
                     765018
                   ],
                   "switchParam": 1,
                   "switchType": 1,
-                  "index": 12
+                  "switchTo": 1
                 }
               ],
               "moveCast": true,

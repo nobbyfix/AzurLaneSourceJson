@@ -2,10 +2,10 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "bgm": "hunhe-battle",
+      "say": "――――",
       "soundeffect": "event:/battle/plane",
       "side": 2,
-      "say": "――――",
+      "bgm": "hunhe-battle",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -38,7 +38,7 @@
       "say": "Siren aircraft incoming!"
     },
     {
-      "soundeffect": "event:/battle/boom2",
+      "actor": 102260,
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
@@ -89,7 +89,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "actor": 102260
+      "soundeffect": "event:/battle/boom2"
     },
     {
       "side": 2,
@@ -268,8 +268,8 @@
       "say": "The ships were desperately hanging on as a wall of water began to swallow the mass-produced Sirens."
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "WEICENGHUNHE22",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

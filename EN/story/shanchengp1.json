@@ -3,23 +3,23 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "stopbgm": true,
+      "mode": 1,
       "sequence": [
         [
           "After the Rain Comes the Sun\n\n<size=45>Chapter 1 - Tomorrow's Weather Is...</size>",
           1
         ]
       ],
-      "mode": 1
+      "stopbgm": true
     },
     {
       "side": 2,
-      "say": "Port - Command Office",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "Port - Command Office",
       "dir": 1,
       "bgName": "bg_story_task"
     },
@@ -124,8 +124,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -292,8 +292,8 @@
       "bgName": "bg_story_task"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "SHANCHENGP1",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

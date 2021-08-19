@@ -3,7 +3,7 @@
   "occlusion": 2,
   "scripts": [
     {
-      "stopbgm": true,
+      "mode": 1,
       "sequence": [
         [
           "<size=51>Every Light Must Cast a Shadow</size>",
@@ -30,7 +30,7 @@
           15
         ]
       ],
-      "mode": 1
+      "stopbgm": true
     },
     {
       "flashout": {
@@ -38,8 +38,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "mode": 1,
       "flashin": {
@@ -84,8 +84,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "mode": 1,
       "flashin": {
@@ -106,13 +106,13 @@
     },
     {
       "side": 2,
-      "say": "\"Méditerranée.\" the world's largest land-bound sea, boasts a particular climate not frequently found elsewhere in the world - a scorching, dry summer and a warm, rainy winter.",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "level03",
-      "dir": 1
+      "say": "\"Méditerranée.\" the world's largest land-bound sea, boasts a particular climate not frequently found elsewhere in the world - a scorching, dry summer and a warm, rainy winter.",
+      "bgm": "level03"
     },
     {
       "typewriter": {
@@ -181,12 +181,12 @@
     {
       "actor": 204030,
       "side": 1,
-      "say": "I'm sure Headquarters has their reasons. Once a country has been taken over by the Iron Blood, they can no longer be considered our allies.",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "say": "I'm sure Headquarters has their reasons. Once a country has been taken over by the Iron Blood, they can no longer be considered our allies.",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -283,17 +283,17 @@
     {
       "actor": 202130,
       "side": 0,
-      "say": "I've detected Siren signals! I believe they belong to the new Executor-class!",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "soundeffect": "event:/ui/alarm",
+      "say": "I've detected Siren signals! I believe they belong to the new Executor-class!",
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
-      "dir": 1
+      "soundeffect": "event:/ui/alarm"
     },
     {
       "actor": 204030,
@@ -310,8 +310,8 @@
       "say": "All members of the H Fleet, attention! Be on alert, and prepare for battle! Siren fleet detected at 12 o'clock!"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "FAXI01",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

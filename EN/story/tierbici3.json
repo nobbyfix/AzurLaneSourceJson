@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "「Schmelzen」\n\n<size=45>Chapter 3: Practice Exercise</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "side": 2,
@@ -20,8 +20,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -60,7 +60,7 @@
       ],
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "say": "Without batting so much as an eyelid, Tirpitz aimed a shell perfectly at the target ship that was being controlled by the Manjuu.",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -97,7 +97,7 @@
           ]
         ]
       },
-      "dir": 1,
+      "say": "Without batting so much as an eyelid, Tirpitz aimed a shell perfectly at the target ship that was being controlled by the Manjuu.",
       "bgName": "bg_story_nepu1"
     },
     {
@@ -271,9 +271,9 @@
       "action": [
         {
           "y": 0,
-          "x": 1500,
+          "type": "move",
           "dur": 1,
-          "type": "move"
+          "x": 1500
         }
       ],
       "painting": {
@@ -391,8 +391,8 @@
       "bgName": "bg_story_nepu1"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "TIERBICI3",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

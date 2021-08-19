@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "前进吧，{namecode:144}！\n\n<size=45>一 战斗吧，{namecode:144}！</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "side": 2,
@@ -20,8 +20,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -165,8 +165,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "painting": {
         "alpha": 0.3,
@@ -175,12 +175,12 @@
       "bgName": "bg_story_nepu1"
     },
     {
-      "soundeffect": "event:/battle/boom2",
+      "actor": 303090,
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
       "expression": 4,
-      "actor": 303090,
+      "soundeffect": "event:/battle/boom2",
       "say": "！！",
       "typewriter": {
         "speed": 0.05,
@@ -338,8 +338,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "painting": {
         "alpha": 0.3,
@@ -424,8 +424,8 @@
       "say": "（我还要变得更强才行！）"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "BANGKESHAN2",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }
