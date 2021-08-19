@@ -3,15 +3,15 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "say": "ええと、無理やり叩き起こしちゃってごめんなさい……！",
+      "dir": 1,
       "actor": 307060,
       "side": 2,
-      "dir": 1,
+      "bgm": "nagato-boss",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "nagato-boss",
+      "say": "ええと、無理やり叩き起こしちゃってごめんなさい……！",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -482,7 +482,7 @@
       "say": "……"
     },
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "人間に触れてはならぬ。神子の神格を損ねるがゆえに。",
@@ -497,7 +497,7 @@
           6
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "actor": 305050,
@@ -547,16 +547,16 @@
     {
       "actor": 305050,
       "side": 2,
-      "dir": 1,
+      "bgm": "nagato-boss",
       "flashout": {
         "alpha": [
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
-      "bgm": "nagato-boss",
+      "dir": 1,
       "flashin": {
         "alpha": [
           1,
@@ -566,12 +566,12 @@
         "delay": 1,
         "dur": 1
       },
-      "withoutPainting": true,
+      "say": "良かろう！実戦経験がなくとも、全力で向かおうぞ！",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "say": "良かろう！実戦経験がなくとも、全力で向かおうぞ！",
+      "withoutPainting": true,
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -582,12 +582,12 @@
       "dir": 1,
       "actor": 305050,
       "side": 2,
-      "withoutPainting": true,
+      "say": "重桜の「びっぐせぶん」――長門型戦艦・長門、推して参る！",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "say": "重桜の「びっぐせぶん」――長門型戦艦・長門、推して参る！",
+      "withoutPainting": true,
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -595,8 +595,8 @@
       "bgName": "bg_story_nagato4"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "YINGHUA12",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

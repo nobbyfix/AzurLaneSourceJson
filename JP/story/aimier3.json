@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "踊り子天使エミール\n\n<size=45>三 意外な得意技</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "side": 2,
@@ -20,8 +20,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -44,10 +44,10 @@
     {
       "action": [
         {
-          "y": 22.5,
+          "number": 2,
           "type": "shake",
           "dur": 0.1,
-          "number": 2
+          "y": 22.5
         }
       ],
       "actor": 312010,
@@ -244,10 +244,10 @@
       "bgName": "bg_story_task"
     },
     {
-      "dir": -1,
+      "say": "そう謙遜なさらないでください。妾もお借りしたい側でございますので。",
       "actor": 301180,
       "side": 0,
-      "say": "そう謙遜なさらないでください。妾もお借りしたい側でございますので。",
+      "dir": -1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -341,8 +341,8 @@
       "bgName": "bg_story_task"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "AIMIER3",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

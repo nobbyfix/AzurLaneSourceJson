@@ -3,7 +3,7 @@
   "id": 329,
   "desc": "持续伤害",
   "last_effect": "zhuoshao",
-  "time": 30,
+  "name": "黎塞留特殊标记燃烧",
   "icon": 329,
   "effect_list": [
     {
@@ -13,11 +13,11 @@
       "type": "BattleBuffDOT",
       "arg_list": {
         "attr": "cannonPower",
-        "k": 0,
+        "time": 3,
         "cloakExpose": 36,
         "exposeGroup": 1,
+        "k": 0,
         "number": 119,
-        "time": 3,
         "dotType": 1
       }
     },
@@ -28,8 +28,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": -500
       }
     },
     {
@@ -39,8 +39,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": -500
       }
     },
     {
@@ -50,8 +50,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": -500,
-        "attr": "airPower"
+        "attr": "airPower",
+        "number": -500
       }
     },
     {
@@ -78,5 +78,5 @@
   ],
   "stack": 1,
   "init_effect": "",
-  "name": "黎塞留特殊标记燃烧"
+  "time": 30
 }

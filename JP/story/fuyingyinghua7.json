@@ -2,9 +2,9 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "soundeffect": "event:/battle/plane",
+      "actor": 305110,
       "side": 2,
-      "bgm": "cw-battle-boss",
+      "dir": 1,
       "nameColor": "#a9f548",
       "action": [
         {
@@ -21,12 +21,12 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "actor": 305110,
+      "bgm": "cw-battle-boss",
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
-      "dir": 1
+      "soundeffect": "event:/battle/plane"
     },
     {
       "say": "ええ、三笠様の旧式艤装では対空火力が貧弱だとお聞きしております",
@@ -91,8 +91,8 @@
       "say": "だが――我が戦法までもが旧式だったと思うのは、とんだ勘違いであるぞ！"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "FUYINGYINGHUA7",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

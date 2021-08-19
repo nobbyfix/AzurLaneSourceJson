@@ -1,7 +1,7 @@
 {
   "picture": "",
-  "id": 73501,
   "color": "red",
+  "id": 73501,
   "desc": "战斗对象的血量下降到X%时，炮击、雷击上升Y%",
   "blink": [
     1,
@@ -11,7 +11,7 @@
     0.3
   ],
   "last_effect": "",
-  "name": "濒死爆发",
+  "time": 0,
   "icon": 73500,
   "effect_list": [
     {
@@ -20,8 +20,8 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 10000,
-        "attr": "cannonPower"
+        "attr": "cannonPower",
+        "number": 10000
       }
     },
     {
@@ -30,12 +30,12 @@
       ],
       "type": "BattleBuffAddAttrRatio",
       "arg_list": {
-        "number": 10000,
-        "attr": "torpedoPower"
+        "attr": "torpedoPower",
+        "number": 10000
       }
     }
   ],
   "stack": 1,
   "init_effect": "",
-  "time": 0
+  "name": "濒死爆发"
 }

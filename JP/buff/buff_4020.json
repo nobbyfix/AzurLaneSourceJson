@@ -1,26 +1,193 @@
 {
+  "1": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffFixDamage",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 0,
+          "rate": 0.5,
+          "rant": 350
+        }
+      }
+    ]
+  },
+  "2": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffFixDamage",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 0,
+          "rate": 0.5,
+          "rant": 400
+        }
+      }
+    ]
+  },
+  "3": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffFixDamage",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 0,
+          "rate": 0.5,
+          "rant": 450
+        }
+      }
+    ]
+  },
+  "4": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffFixDamage",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 0,
+          "rate": 0.5,
+          "rant": 500
+        }
+      }
+    ]
+  },
+  "5": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffFixDamage",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 0,
+          "rate": 0.5,
+          "rant": 550
+        }
+      }
+    ]
+  },
+  "6": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffFixDamage",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 0,
+          "rate": 0.5,
+          "rant": 600
+        }
+      }
+    ]
+  },
+  "7": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffFixDamage",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 0,
+          "rate": 0.5,
+          "rant": 650
+        }
+      }
+    ]
+  },
+  "8": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffFixDamage",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 0,
+          "rate": 0.5,
+          "rant": 700
+        }
+      }
+    ]
+  },
+  "9": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffFixDamage",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 0,
+          "rate": 0.5,
+          "rant": 750
+        }
+      }
+    ]
+  },
+  "10": {
+    "effect_list": [
+      {
+        "trigger": [
+          "onTakeDamage"
+        ],
+        "type": "BattleBuffFixDamage",
+        "arg_list": {
+          "target": "TargetSelf",
+          "time": 0,
+          "rate": 0.5,
+          "rant": 800
+        }
+      }
+    ]
+  },
   "picture": "",
-  "id": 4020,
-  "desc": "50%减伤",
   "color": "blue",
+  "id": 4020,
+  "desc": "",
+  "blink": [
+    0,
+    0.7,
+    1,
+    0.3,
+    0.3
+  ],
   "last_effect": "",
-  "time": 0.1,
+  "time": 0,
   "icon": 4020,
   "effect_list": [
     {
       "trigger": [
-        "onAttach",
-        "onRemove"
+        "onTakeDamage"
       ],
-      "type": "BattleBuffAddAttr",
+      "type": "BattleBuffFixDamage",
       "arg_list": {
-        "number": -0.5,
-        "attr": "injureRatio",
-        "target": "TargetSelf"
+        "target": "TargetSelf",
+        "time": 0,
+        "rate": 0.5,
+        "rant": 350
       }
     }
   ],
   "stack": 1,
-  "init_effect": "",
-  "name": "重点防护"
+  "init_effect": "jinengchufablue",
+  "name": ""
 }

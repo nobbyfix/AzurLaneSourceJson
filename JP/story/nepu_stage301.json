@@ -3,20 +3,20 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "<size=45>『異色海域WHITE』</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
-      "bgm": "level-nep",
+      "say": "ステージ２も難なくクリアー！これはもう事件解決待ったなしじゃない？",
       "actor": 10100010,
       "side": 2,
-      "dir": -1,
+      "bgm": "level-nep",
       "nameColor": "#a9f548",
       "typewriter": {
         "speed": 0.05,
@@ -26,14 +26,14 @@
         "alpha": 0.3,
         "time": 1
       },
-      "say": "ステージ２も難なくクリアー！これはもう事件解決待ったなしじゃない？"
+      "dir": -1
     },
     {
       "actor": 0,
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "say": "ところがどっこい、そうは問屋が卸しません",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -43,7 +43,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "withoutPainting": true
+      "say": "ところがどっこい、そうは問屋が卸しません"
     },
     {
       "actor": 10100010,
@@ -115,7 +115,7 @@
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "say": "はい、大正解です。データが全然足らないんです",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -125,7 +125,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "withoutPainting": true
+      "say": "はい、大正解です。データが全然足らないんです"
     },
     {
       "actor": 10100030,
@@ -147,7 +147,7 @@
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "say": "それもありますが、皆さん……データをコピーされた偽女神たちの情報も、ワームホールを開くのに必要だということが判明しました",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -157,7 +157,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "withoutPainting": true
+      "say": "それもありますが、皆さん……データをコピーされた偽女神たちの情報も、ワームホールを開くのに必要だということが判明しました"
     },
     {
       "actor": 10100040,
@@ -179,7 +179,7 @@
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
-      "say": "そういうことです……なので、そのまま鏡面海域の調査の続行と、情報からコピーされた偽女神たちの討伐をお願いします。ではまた",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -189,7 +189,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "withoutPainting": true
+      "say": "そういうことです……なので、そのまま鏡面海域の調査の続行と、情報からコピーされた偽女神たちの討伐をお願いします。ではまた"
     },
     {
       "actor": 101170,
@@ -361,8 +361,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       }
     },
     {
@@ -417,8 +417,8 @@
       }
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "NEPU_STAGE301",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

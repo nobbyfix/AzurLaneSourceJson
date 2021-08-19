@@ -3,10 +3,10 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "bgm": "battle-boss-italy",
+      "say": "速力が…やっぱり夜戦では小回りが効かないわね……！",
       "actor": 205030,
       "side": 2,
-      "dir": 1,
+      "bgm": "battle-boss-italy",
       "nameColor": "#ffff4d",
       "typewriter": {
         "speed": 0.05,
@@ -16,7 +16,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "say": "速力が…やっぱり夜戦では小回りが効かないわね……！"
+      "dir": 1
     },
     {
       "say": "ははは！魚雷命中！ヴィシア護教騎士の力を見たか！",
@@ -212,8 +212,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       }
     },
     {
@@ -349,7 +349,7 @@
       "say": "夜陰の海路を渡って、巡洋戦艦ダンケルク以下数隻、ヴィシアのトゥーロンに到着した。そして――"
     },
     {
-      "stopbgm": true,
+      "actor": 900012,
       "side": 2,
       "dir": 1,
       "nameColor": "#ff5c5c",
@@ -373,14 +373,14 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
-      "actor": 900012
+      "stopbgm": true
     },
     {
       "painting": {
@@ -431,8 +431,8 @@
       "say": "ふふふ、引き続き「観察」させてもらうわよ"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "YESEXIADEGUITU9",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

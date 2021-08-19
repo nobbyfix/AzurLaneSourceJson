@@ -3,23 +3,23 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "ハムマン観察記録\n\n<size=45>その一  怒りん坊の秘書艦</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "母港・執務室",
       "bgName": "bg_story_school",
-      "say": "母港・執務室"
+      "bgm": "story-1"
     },
     {
       "actor": 101250,
@@ -27,10 +27,10 @@
       "dir": 1,
       "action": [
         {
-          "y": 30,
+          "number": 1,
           "type": "shake",
           "dur": 0.2,
-          "number": 1
+          "y": 30
         }
       ],
       "say": "おい！あんた！",
@@ -47,12 +47,12 @@
     },
     {
       "actor": 0,
-      "say": "はい…？",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "withoutPainting": true,
+      "say": "はい…？",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -63,12 +63,12 @@
       "dir": 1,
       "actor": 101250,
       "side": 2,
-      "say": "ハムマンの提出した報告書、まだチェックしていないの？",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "ハムマンの提出した報告書、まだチェックしていないの？",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -107,10 +107,10 @@
       "dir": 1,
       "action": [
         {
-          "y": 30,
+          "number": 3,
           "type": "shake",
           "dur": 0.2,
-          "number": 3
+          "y": 30
         }
       ],
       "say": "言い訳を言うでない！",
@@ -129,12 +129,12 @@
       "dir": 1,
       "actor": 101250,
       "side": 2,
-      "say": "確認していないと言ったら確認していないのだ！ハムマンがせっかく頑張って作ってあげたのにどうしてくれるんだ！",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "確認していないと言ったら確認していないのだ！ハムマンがせっかく頑張って作ってあげたのにどうしてくれるんだ！",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -145,12 +145,12 @@
       "dir": 1,
       "actor": 101250,
       "side": 2,
-      "say": "（小声）ちゃ、ちゃんと確認してくれたらご褒美をあげようと思ってたのに……",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "（小声）ちゃ、ちゃんと確認してくれたらご褒美をあげようと思ってたのに……",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -161,12 +161,12 @@
       "dir": 1,
       "actor": 0,
       "side": 2,
-      "say": "今急に声がすごく小さくなったが…",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "withoutPainting": true,
+      "say": "今急に声がすごく小さくなったが…",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -240,10 +240,10 @@
       "say": "<size=60>バカ！</size>",
       "action": [
         {
-          "y": 30,
+          "number": 3,
           "type": "shake",
           "dur": 0.1,
-          "number": 3
+          "y": 30
         }
       ],
       "painting": {
@@ -283,8 +283,8 @@
       "bgName": "bg_story_task"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "HAMAN1",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "『装甲騎兵ボトムズ』コラボシナリオ\n\n<size=45>最終話  方舟</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "actor": 403030,
@@ -21,8 +21,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "effects": [
         {
@@ -34,7 +34,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "say": "高出力レーザーを撃つつもりよ！",
+      "bgm": "story-8",
       "flashin": {
         "alpha": [
           1,
@@ -49,7 +49,7 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-8",
+      "say": "高出力レーザーを撃つつもりよ！",
       "bgmDelay": 1,
       "bgName": "bg_night"
     },
@@ -115,18 +115,18 @@
       "bgName": "bg_night"
     },
     {
-      "stopbgm": true,
+      "actor": 900021,
       "side": 2,
       "nameColor": "#D6341DFF",
+      "stopbgm": true,
       "soundeffect": "event:/battle/boom1",
-      "actor": 900021,
       "flashout": {
         "alpha": [
           0,
           1
         ],
-        "dur": 1,
-        "black": false
+        "black": false,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -304,8 +304,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "effects": [
         {
@@ -317,7 +317,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "say": "ハッ…。",
+      "bgm": "story-2",
       "flashin": {
         "alpha": [
           1,
@@ -332,7 +332,7 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-2",
+      "say": "ハッ…。",
       "bgmDelay": 2,
       "bgName": "bg_story_room"
     },
@@ -540,14 +540,14 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
-      "say": "こっ…これは！",
+      "bgm": "story-1",
       "flashin": {
         "alpha": [
           1,
@@ -562,7 +562,7 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "こっ…これは！",
       "bgmDelay": 1,
       "bgName": "bg_story_school"
     },
@@ -712,7 +712,7 @@
       "bgName": "bg_story_school"
     },
     {
-      "stopbgm": true,
+      "actor": 900021,
       "side": 2,
       "dir": 1,
       "flashout": {
@@ -720,8 +720,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "blackBg": true,
       "flashin": {
@@ -743,7 +743,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "actor": 900021
+      "stopbgm": true
     },
     {
       "painting": {
@@ -889,8 +889,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "typewriter": {
         "speed": 0.05,
@@ -949,8 +949,8 @@
       "say": "（それが夢だろうと、現実だろうと……。）"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "ZHUANGJIA7",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

@@ -3,7 +3,7 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "stopbgm": true,
+      "mode": 1,
       "sequence": [
         [
           "<size=51>重桜の神石【ワタツミ】を祀る儀式が無事終了した。</size>",
@@ -22,7 +22,7 @@
           7
         ]
       ],
-      "mode": 1
+      "stopbgm": true
     },
     {
       "stopbgm": true,
@@ -244,19 +244,19 @@
       "bgName": "bg_xinnong2_2"
     },
     {
-      "stopbgm": true,
+      "soundeffect": "event:/ui/fengling",
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
       "blackBg": true,
       "expression": 5,
-      "soundeffect": "event:/ui/fengling",
+      "actor": 307080,
       "say": "拾い集めれば、きっと……",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "actor": 307080,
+      "stopbgm": true,
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -264,8 +264,8 @@
       "bgName": "bg_xinnong2_1"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "DIEHAIMENGHUA1",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

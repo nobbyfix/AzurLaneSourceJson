@@ -3,7 +3,7 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "stopbgm": true,
+      "mode": 1,
       "sequence": [
         [
           "<size=51>「それは太陽も沈黙する荒涼なる闇、祈りも届かない絶望の窪み」</size>",
@@ -26,10 +26,10 @@
           9
         ]
       ],
-      "mode": 1
+      "stopbgm": true
     },
     {
-      "stopbgm": true,
+      "mode": 1,
       "sequence": [
         [
           "<size=51>「焔の海で身を焼かれようと、その歩みは止まることを知らず」</size>",
@@ -52,12 +52,12 @@
           9
         ]
       ],
-      "mode": 1
+      "stopbgm": true
     },
     {
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "bgm": "battle-italy",
+      "dir": 1,
       "nameColor": "#ff5c5c",
       "expression": 1,
       "action": [
@@ -70,7 +70,7 @@
           "x": 0
         }
       ],
-      "actor": 603020,
+      "bgm": "battle-italy",
       "dialogShake": {
         "speed": 0.09,
         "x": 8.5,
@@ -117,7 +117,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "dir": 1
+      "actor": 603020
     },
     {
       "actor": 900197,
@@ -271,10 +271,10 @@
       "say": "簡単には行かせないわよ？"
     },
     {
-      "dir": 1,
+      "say": "ウォースパイトの妨害でザラの攻撃が射線から大きく外れた。",
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "say": "ウォースパイトの妨害でザラの攻撃が射線から大きく外れた。",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -442,8 +442,8 @@
       "say": "なんでもないわ。さあ、お互いの艦砲で勝負するわよ！Belli dura despicio！"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "SHENSHENGDEBEIXIJU17",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

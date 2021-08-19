@@ -4,7 +4,7 @@
   "scripts": [
     {
       "sequenceSpd": 2,
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "<size=45>新たに大講堂が開放されたことを記念し、</size>",
@@ -19,7 +19,7 @@
           6
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "sequence": [
@@ -34,7 +34,7 @@
       "actor": 301011,
       "side": 2,
       "dir": 1,
-      "actorScale": 0.6,
+      "nameColor": "#a9f548",
       "effects": [
         {
           "name": "speed",
@@ -84,8 +84,8 @@
           "number": 3
         }
       ],
+      "actorScale": 0.6,
       "bgm": "story-1",
-      "nameColor": "#a9f548",
       "say": "うわあああ！！遅刻遅刻ぅ――！",
       "typewriter": {
         "speed": 0.05,
@@ -140,8 +140,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "flashin": {
         "alpha": [
@@ -208,8 +208,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "flashin": {
         "alpha": [
@@ -285,10 +285,10 @@
       "nameColor": "#a9f548",
       "action": [
         {
-          "y": 30,
+          "number": 1,
           "type": "shake",
           "dur": 0.1,
-          "number": 1
+          "y": 30
         }
       ],
       "say": "コホン！誰だ！どこに目をつけて…い、いやがる！",
@@ -539,8 +539,8 @@
       "bgName": "star_level_bg_103"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "KAIXUE01",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

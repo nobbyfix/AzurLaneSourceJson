@@ -10,16 +10,16 @@
         ],
         "skinId": 100010,
         "properties": {
-          "durability": 900000,
+          "air": 1,
           "cannon": 1,
           "antiaircraft": 1,
           "reload": 1,
           "hit": 1,
           "luck": 1,
           "dodge": 0,
-          "speed": 33,
           "armor": 1,
-          "air": 1,
+          "speed": 33,
+          "durability": 900000,
           "torpedo": 1
         },
         "configId": 100011,
@@ -63,16 +63,16 @@
           }
         ],
         "properties": {
-          "durability": 15000,
+          "air": 500,
           "cannon": 0,
           "antiaircraft": 350,
           "reload": 1300,
           "hit": 100,
           "luck": 0,
           "dodge": 60,
-          "speed": 34,
           "armor": 0,
-          "air": 500,
+          "speed": 34,
+          "durability": 15000,
           "torpedo": 0
         },
         "configId": 900919,
@@ -94,7 +94,7 @@
         68
       ],
       "stageIndex": 1,
-      "backGroundStageID": 1,
+      "passCondition": 1,
       "totalArea": [
         -70,
         20,
@@ -143,7 +143,7 @@
         ]
       },
       "enemyArea": [],
-      "passCondition": 1,
+      "backGroundStageID": 1,
       "waves": [
         {
           "preWaves": [],
@@ -307,7 +307,7 @@
           "conditionType": 0,
           "reinforcement": [
             {
-              "score": 20,
+              "moveCast": true,
               "corrdinate": [
                 -10,
                 0,
@@ -319,10 +319,10 @@
               ],
               "monsterTemplateID": 904,
               "delay": 1,
-              "moveCast": true
+              "score": 20
             },
             {
-              "score": 20,
+              "moveCast": true,
               "corrdinate": [
                 -10,
                 0,
@@ -334,7 +334,7 @@
               ],
               "monsterTemplateID": 905,
               "delay": 1,
-              "moveCast": true
+              "score": 20
             }
           ],
           "waveIndex": 103,

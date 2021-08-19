@@ -4,9 +4,9 @@
   "occlusion": 2,
   "scripts": [
     {
-      "soundeffect": "event:/battle/boom2",
+      "actor": 107040,
       "side": 2,
-      "dir": 1,
+      "bgm": "story-french2",
       "flashN": {
         "color": [
           1,
@@ -44,22 +44,22 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "actor": 107040,
+      "soundeffect": "event:/battle/boom2",
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
-      "bgm": "story-french2"
+      "dir": 1
     },
     {
       "actor": 105190,
       "side": 0,
-      "say": "もういいよ。この子はもう、動けない。",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "say": "もういいよ。この子はもう、動けない。",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -180,8 +180,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "blackBg": true,
       "flashin": {
@@ -348,8 +348,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -429,8 +429,8 @@
       "say": "ずっと前にいる大切な人に追いつこうとするあまり、その人にも裏切られる。…笑えない冗談だ。全く"
     },
     {
-      "soundeffect": "event:/ui/noice",
-      "say": "――（ザザザ……）"
+      "say": "――（ザザザ……）",
+      "soundeffect": "event:/ui/noice"
     },
     {
       "actor": 107040,
@@ -449,12 +449,12 @@
     {
       "actor": 105190,
       "side": 0,
-      "say": "…「鉄血の機動艦隊、高速で南下中。全員戦闘用意」…今？",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "say": "…「鉄血の機動艦隊、高速で南下中。全員戦闘用意」…今？",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -493,8 +493,8 @@
       "say": "むしろオレの仲間たちがこの海域のほかの港にも配置されているから…もしや……"
     },
     {
-      "soundeffect": "event:/ui/noice",
-      "say": "――（ザザザ……）"
+      "say": "――（ザザザ……）",
+      "soundeffect": "event:/ui/noice"
     },
     {
       "typewriter": {
@@ -609,8 +609,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "say": "くっ…！ヴィシア聖座旗艦ジャン・バールが全艦に告ぐ！",
       "painting": {
@@ -847,15 +847,15 @@
       "say": "ヴィシア……いいや……アイリスの第二旗艦。ジャン·バール……"
     },
     {
-      "soundeffect": "event:/battle/boom2",
+      "say": "なんでこんなことを。",
       "actor": 105190,
       "side": 2,
-      "say": "なんでこんなことを。",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "soundeffect": "event:/battle/boom2",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -870,12 +870,12 @@
     {
       "actor": 905010,
       "side": 1,
-      "say": "昔アイリスとロイヤルが盟約を結んでいてな。アイリスは決して鉄血と帝国に降りることはない……オレたちヴィシア聖座もアイリスの一部だから、道理を貫くまでだ",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "say": "昔アイリスとロイヤルが盟約を結んでいてな。アイリスは決して鉄血と帝国に降りることはない……オレたちヴィシア聖座もアイリスの一部だから、道理を貫くまでだ",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -1049,8 +1049,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "blackBg": true,
       "flashin": {
@@ -1134,8 +1134,8 @@
       "say": "くれぐれもその「名前」に恥じる選択をしないように――"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "FAXI10",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

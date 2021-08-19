@@ -6,13 +6,13 @@
     {
       "stopbgm": true,
       "side": 2,
-      "say": "――警告：周辺海域に敵航空兵力が来襲。各員速やかに戦闘態勢に移行されたし――",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "soundeffect": "event:/ui/alarm",
-      "dir": 1
+      "say": "――警告：周辺海域に敵航空兵力が来襲。各員速やかに戦闘態勢に移行されたし――",
+      "soundeffect": "event:/ui/alarm"
     },
     {
       "typewriter": {
@@ -32,8 +32,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -44,12 +44,12 @@
         "delay": 1,
         "dur": 1
       },
-      "say": "ついに来たな！「大洋の向こうの嵐」とやら！随分と待たせてくれたじゃねえか！",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "withoutPainting": true,
+      "say": "ついに来たな！「大洋の向こうの嵐」とやら！随分と待たせてくれたじゃねえか！",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -60,12 +60,12 @@
       "dir": 1,
       "actor": 905010,
       "side": 0,
-      "say": "……リシュリュー姉、これがあなたが望んだ結果か……？",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "withoutPainting": true,
+      "say": "……リシュリュー姉、これがあなたが望んだ結果か……？",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -80,8 +80,8 @@
           0,
           1
         ],
-        "dur": 1.5,
-        "black": true
+        "black": true,
+        "dur": 1.5
       },
       "effects": [
         {
@@ -385,7 +385,7 @@
       }
     },
     {
-      "soundeffect": "event:/battle/boom2",
+      "actor": 101300,
       "side": 0,
       "dir": 1,
       "effects": [
@@ -435,65 +435,65 @@
         "alpha": 0.3,
         "time": 1
       },
-      "actor": 101300
+      "soundeffect": "event:/battle/boom2"
     },
     {
-      "soundeffect": "event:/battle/boom2",
-      "actor": 102030,
-      "side": 1,
       "say": "損傷甚大！支援を求む！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      }
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
       "actor": 102030,
       "side": 1,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "soundeffect": "event:/battle/boom2",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      }
+    },
+    {
       "say": "繰り返します！損傷甚大！支援を求む！",
+      "actor": 102030,
+      "side": 1,
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "soundeffect": "event:/battle/boom2",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -532,15 +532,15 @@
       }
     },
     {
-      "soundeffect": "event:/battle/boom2",
-      "actor": 107040,
-      "side": 1,
       "say": "一筋縄には行かないようね……",
+      "actor": 107040,
+      "side": 1,
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "soundeffect": "event:/battle/boom2",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -579,62 +579,62 @@
       }
     },
     {
-      "soundeffect": "event:/battle/boom2",
-      "actor": 107040,
-      "side": 1,
       "say": "周辺海域で展開中の艦載機に通達。これより任務を変更します。",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      }
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
       "actor": 107040,
       "side": 1,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "soundeffect": "event:/battle/boom2",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      }
+    },
+    {
       "say": "沿岸砲の排除を優先し、上陸の援護に集中してください！",
+      "actor": 107040,
+      "side": 1,
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "soundeffect": "event:/battle/boom2",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -673,62 +673,15 @@
       }
     },
     {
-      "soundeffect": "event:/battle/boom2",
-      "actor": 102090,
-      "side": 1,
       "say": "やっぱり戦闘になったか……敵の航空機がないと私は中々活躍できないんだけどな……",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "flashN": {
-        "color": [
-          1,
-          1,
-          1
-        ],
-        "alpha": [
-          [
-            0,
-            1,
-            0.2
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.2
-          ],
-          [
-            0,
-            1,
-            0.2,
-            0.4
-          ],
-          [
-            1,
-            0,
-            0.2,
-            0.6
-          ]
-        ]
-      }
-    },
-    {
-      "soundeffect": "event:/battle/boom2",
       "actor": 102090,
       "side": 1,
-      "say": "あわわわ！セイレーンの艦載機！？",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "soundeffect": "event:/battle/boom2",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -767,15 +720,62 @@
       }
     },
     {
+      "say": "あわわわ！セイレーンの艦載機！？",
+      "actor": 102090,
+      "side": 1,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
       "soundeffect": "event:/battle/boom2",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashN": {
+        "color": [
+          1,
+          1,
+          1
+        ],
+        "alpha": [
+          [
+            0,
+            1,
+            0.2
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.2
+          ],
+          [
+            0,
+            1,
+            0.2,
+            0.4
+          ],
+          [
+            1,
+            0,
+            0.2,
+            0.6
+          ]
+        ]
+      }
+    },
+    {
+      "say": "油断するな！このあたりの防空はお前に任せた！こっちはセイレーンの新型空母を叩く！",
       "actor": 103110,
       "side": 1,
-      "say": "油断するな！このあたりの防空はお前に任せた！こっちはセイレーンの新型空母を叩く！",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "soundeffect": "event:/battle/boom2",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -814,8 +814,8 @@
       }
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "FAXI07",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

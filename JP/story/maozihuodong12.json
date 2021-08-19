@@ -3,10 +3,10 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "bgm": "bgm-cccp3",
+      "say": "艤装の電力系統を狙う攻撃に気をつけながら戦う…ちっ",
       "actor": 102140,
       "side": 2,
-      "dir": 1,
+      "bgm": "bgm-cccp3",
       "nameColor": "#a9f548",
       "typewriter": {
         "speed": 0.05,
@@ -16,7 +16,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "say": "艤装の電力系統を狙う攻撃に気をつけながら戦う…ちっ"
+      "dir": 1
     },
     {
       "say": "艦載機に影響はないようね…この要塞、もしかしてセイレーンの新兵器実験場なの？",
@@ -123,10 +123,10 @@
       }
     },
     {
-      "bgm": "story-masazhusai",
+      "say": "指揮官、僕に任せて！今火器管制装置が回復した！",
       "actor": 105140,
       "side": 2,
-      "dir": 1,
+      "bgm": "story-masazhusai",
       "nameColor": "#a9f548",
       "typewriter": {
         "speed": 0.05,
@@ -136,7 +136,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "say": "指揮官、僕に任せて！今火器管制装置が回復した！"
+      "dir": 1
     },
     {
       "actor": 105140,
@@ -176,12 +176,12 @@
       },
       "soundeffect": "event:/battle/boom2",
       "side": 2,
-      "say": "サウスダコタの砲撃が敵陣を引き裂き、謎の兵装を装備するセイレーンに直撃し、爆発の炎と煙が海を包んだ。",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
+      "say": "サウスダコタの砲撃が敵陣を引き裂き、謎の兵装を装備するセイレーンに直撃し、爆発の炎と煙が海を包んだ。",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -254,7 +254,7 @@
       "expression": 5
     },
     {
-      "soundeffect": "event:/battle/boom2",
+      "stopbgm": true,
       "side": 2,
       "dir": 1,
       "blackBg": true,
@@ -272,7 +272,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "stopbgm": true
+      "soundeffect": "event:/battle/boom2"
     },
     {
       "soundeffect": "event:/battle/boom2",
@@ -361,8 +361,8 @@
       "say": "…………"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "MAOZIHUODONG12",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

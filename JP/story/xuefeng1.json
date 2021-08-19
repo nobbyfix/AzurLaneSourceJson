@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "佐世保生まれの幸運艦\n\n<size=45>その一　雪風様登場</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "actor": 301160,
@@ -19,10 +19,10 @@
       "nameColor": "#a9f548",
       "action": [
         {
-          "y": 30,
+          "number": 1,
           "type": "shake",
           "dur": 0.2,
-          "number": 1
+          "y": 30
         },
         {
           "y": 30,
@@ -165,8 +165,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "flashin": {
         "alpha": [
@@ -343,8 +343,8 @@
       "bgName": "bg_story_school"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "XUEFENG1",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

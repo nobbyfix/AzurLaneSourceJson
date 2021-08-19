@@ -12,7 +12,7 @@
         68
       ],
       "stageIndex": 1,
-      "backGroundStageID": 1,
+      "passCondition": 1,
       "totalArea": [
         -75,
         20,
@@ -61,7 +61,7 @@
         ]
       },
       "enemyArea": [],
-      "passCondition": 1,
+      "backGroundStageID": 1,
       "waves": [
         {
           "preWaves": [],
@@ -104,7 +104,7 @@
                   "index": 1
                 },
                 {
-                  "switchTo": 3,
+                  "index": 2,
                   "addWeapon": [
                     610183,
                     610184,
@@ -116,12 +116,12 @@
                   ],
                   "switchParam": 3,
                   "switchType": 1,
-                  "index": 2
+                  "switchTo": 3
                 },
                 {
                   "addBuff": [],
                   "setAI": 90029,
-                  "index": 3,
+                  "switchTo": 4,
                   "addWeapon": [
                     610187,
                     610188,
@@ -133,10 +133,10 @@
                   ],
                   "switchParam": 3,
                   "switchType": 1,
-                  "switchTo": 4
+                  "index": 3
                 },
                 {
-                  "index": 4,
+                  "switchTo": 5,
                   "addBuff": [],
                   "switchType": 1,
                   "setAI": 90029,
@@ -153,7 +153,7 @@
                     610188,
                     610184
                   ],
-                  "switchTo": 5
+                  "index": 4
                 },
                 {
                   "addBuff": [],
@@ -170,7 +170,7 @@
                   "index": 5
                 },
                 {
-                  "switchTo": 7,
+                  "index": 6,
                   "addWeapon": [
                     610186,
                     610187,
@@ -182,7 +182,7 @@
                   ],
                   "switchParam": 3,
                   "switchType": 1,
-                  "index": 6
+                  "switchTo": 7
                 },
                 {
                   "setAI": 90029,
@@ -201,7 +201,7 @@
                   "index": 7
                 },
                 {
-                  "switchTo": 0,
+                  "index": 202,
                   "addWeapon": [
                     610193
                   ],
@@ -211,7 +211,7 @@
                   ],
                   "switchParam": 3,
                   "switchType": 1,
-                  "index": 202
+                  "switchTo": 0
                 }
               ],
               "score": 0,

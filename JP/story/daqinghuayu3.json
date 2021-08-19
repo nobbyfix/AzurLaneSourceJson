@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "サブマリン・トラップ！\n\n<size=45>三　寮舎のアルバコア</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "side": 2,
@@ -20,8 +20,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -85,7 +85,7 @@
       "bgName": "bg_story_room"
     },
     {
-      "soundeffect": "event:/battle/boom2",
+      "actor": 101170,
       "side": 2,
       "dir": -1,
       "nameColor": "#a9f548",
@@ -131,7 +131,7 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "actor": 101170,
+      "soundeffect": "event:/battle/boom2",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -370,8 +370,8 @@
           0,
           1
         ],
-        "dur": 0.7,
-        "black": true
+        "black": true,
+        "dur": 0.7
       },
       "flashin": {
         "alpha": [
@@ -563,8 +563,8 @@
       "bgName": "bg_story_room"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "DAQINGHUAYU3",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

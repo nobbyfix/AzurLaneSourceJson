@@ -4,7 +4,7 @@
   "desc": "伤害提高，闪避",
   "icon": 9051,
   "last_effect": "",
-  "name": "LuckyE-LV9",
+  "time": 8,
   "blink": [
     1,
     0,
@@ -20,8 +20,20 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
+        "attr": "damageRatioBullet",
+        "number": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "group": 9051,
         "number": 1,
-        "attr": "damageRatioBullet"
+        "attr": "perfectDodge"
       }
     },
     {
@@ -32,24 +44,12 @@
       "type": "BattleBuffAddAttr",
       "arg_list": {
         "group": 9051,
-        "attr": "perfectDodge",
-        "number": 1
-      }
-    },
-    {
-      "trigger": [
-        "onAttach",
-        "onRemove"
-      ],
-      "type": "BattleBuffAddAttr",
-      "arg_list": {
-        "group": 9051,
-        "attr": "immuneDirectHit",
-        "number": 1
+        "number": 1,
+        "attr": "immuneDirectHit"
       }
     }
   ],
   "stack": 1,
   "init_effect": "jinengchufared",
-  "time": 8
+  "name": "LuckyE-LV9"
 }

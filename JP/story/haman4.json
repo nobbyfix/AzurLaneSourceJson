@@ -3,25 +3,25 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "ハムマン観察記録\n\n<size=45>その四 不機嫌の理由・下</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "dir": 1,
       "actor": 101250,
       "side": 2,
-      "say": "見られた…ハムマン…見られちゃった………",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "見られた…ハムマン…見られちゃった………",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -29,10 +29,10 @@
       "bgName": "bg_story_task"
     },
     {
-      "dir": 1,
+      "say": "まあ不本意ながら見ちゃったけど、あれは一体何なの？",
       "actor": 101240,
       "side": 0,
-      "say": "まあ不本意ながら見ちゃったけど、あれは一体何なの？",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -51,12 +51,12 @@
       "dir": 1,
       "actor": 101250,
       "side": 1,
-      "say": "かくかくしかじか",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "かくかくしかじか",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -72,8 +72,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -126,10 +126,10 @@
       "dir": 1,
       "action": [
         {
-          "y": 30,
+          "number": 3,
           "type": "shake",
           "dur": 0.15,
-          "number": 3
+          "y": 30
         }
       ],
       "say": "大したことなんだぞ！指揮官、今どうしてるのかな……",
@@ -162,10 +162,10 @@
     {
       "action": [
         {
-          "y": -30,
+          "number": 1,
           "type": "shake",
           "dur": 0.5,
-          "number": 1
+          "y": -30
         },
         {
           "y": 30,
@@ -207,10 +207,10 @@
     {
       "action": [
         {
-          "y": 30,
+          "number": 1,
           "type": "shake",
           "dur": 0.1,
-          "number": 1
+          "y": 30
         }
       ],
       "actor": 101250,
@@ -301,8 +301,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -350,8 +350,8 @@
       "bgName": "bg_story_task"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "HAMAN4",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

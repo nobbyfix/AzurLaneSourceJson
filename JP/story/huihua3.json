@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "特別パーティー、開幕！\n\n<size=45>三　大鳳とアルバコア</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "side": 2,
@@ -20,8 +20,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -262,8 +262,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "blackBg": true,
       "flashin": {
@@ -488,9 +488,9 @@
       "actor": 307070,
       "side": 2,
       "dir": 1,
-      "actorScale": 1.1,
-      "expression": 5,
       "nameColor": "#a9f548",
+      "expression": 5,
+      "actorScale": 1.1,
       "say": "指揮官様の邪魔をするものは生かしておけませんよね――",
       "typewriter": {
         "speed": 0.05,
@@ -541,7 +541,7 @@
       "bgName": "bg_story_room"
     },
     {
-      "soundeffect": "event:/battle/plane",
+      "actor": 307070,
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
@@ -550,7 +550,7 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "actor": 307070,
+      "soundeffect": "event:/battle/plane",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -738,8 +738,8 @@
       "bgName": "bg_story_room"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "HUIHUA3",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

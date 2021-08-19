@@ -3,23 +3,23 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "幸運の鶴\n\n<size=45>その七 不屈の鶴</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "side": 2,
-      "say": "執務室・深夜",
+      "bgm": "story-2",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-2",
+      "say": "執務室・深夜",
       "dir": 1,
       "bgName": "bg_night"
     },
@@ -45,7 +45,7 @@
       "side": 0,
       "dir": 1,
       "nameColor": "#a9f548",
-      "withoutPainting": true,
+      "say": "……",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -56,7 +56,7 @@
           "flag": 1
         }
       ],
-      "say": "……",
+      "withoutPainting": true,
       "bgName": "bg_night"
     },
     {
@@ -138,10 +138,10 @@
       "nameColor": "#a9f548",
       "action": [
         {
-          "y": -30,
+          "number": 1,
           "type": "shake",
           "dur": 0.8,
-          "number": 1
+          "y": -30
         }
       ],
       "say": "…あ、あぅ…///",
@@ -193,8 +193,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -258,10 +258,10 @@
       "nameColor": "#a9f548",
       "action": [
         {
-          "y": 30,
+          "number": 2,
           "type": "shake",
           "dur": 0.1,
-          "number": 2
+          "y": 30
         }
       ],
       "say": "ううん、そんなことは二度としないわ！だって私、不屈の瑞鶴なんだからっ！",
@@ -329,8 +329,8 @@
       "bgName": "bg_night"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "RUIHE7",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

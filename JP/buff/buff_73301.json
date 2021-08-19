@@ -1,10 +1,10 @@
 {
   "picture": "",
-  "id": 73301,
-  "desc": "战斗对象每隔X秒，生成一个降低被暴击伤害Y%的护盾，持续Z秒",
   "color": "red",
+  "desc": "战斗对象每隔X秒，生成一个降低被暴击伤害Y%的护盾，持续Z秒",
+  "id": 73301,
   "last_effect": "Shield_enemy",
-  "time": 10,
+  "name": "韧性装甲",
   "icon": 73300,
   "effect_list": [
     {
@@ -14,12 +14,12 @@
       ],
       "type": "BattleBuffAddAttr",
       "arg_list": {
-        "number": 1,
-        "attr": "criDamageResist"
+        "attr": "criDamageResist",
+        "number": 1
       }
     }
   ],
   "stack": 1,
   "init_effect": "",
-  "name": "韧性装甲"
+  "time": 10
 }

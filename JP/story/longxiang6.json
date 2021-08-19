@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "軽空母龍驤ここにあり\n\n<size=45>六 宿敵！？伝説のアイドルとは</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "actor": 306060,
@@ -27,8 +27,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -49,7 +49,7 @@
       "bgName": "bg_story_school"
     },
     {
-      "soundeffect": "event:/battle/plane",
+      "actor": 107030,
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
@@ -68,7 +68,7 @@
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "actor": 107030,
+      "soundeffect": "event:/battle/plane",
       "painting": {
         "alpha": 0.3,
         "time": 1
@@ -421,8 +421,8 @@
       "bgName": "bg_story_school"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "LONGXIANG6",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

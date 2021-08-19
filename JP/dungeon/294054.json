@@ -19,14 +19,14 @@
         90,
         70
       ],
-      "backGroundStageID": 1,
+      "passCondition": 1,
       "fleetCorrdinate": [
         -80,
         0,
         75
       ],
       "enemyArea": [],
-      "passCondition": 1,
+      "backGroundStageID": 1,
       "waves": [
         {
           "preWaves": [],
@@ -60,7 +60,7 @@
           "conditionType": 1,
           "spawn": [
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 0,
                 0,
@@ -72,7 +72,7 @@
               ],
               "monsterTemplateID": 209101,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             },
             {
               "affix": true,
@@ -92,22 +92,22 @@
                   "index": 0
                 },
                 {
-                  "switchTo": 2,
+                  "index": 1,
                   "addWeapon": [
                     2029630
                   ],
                   "switchParam": 18,
                   "switchType": 1,
-                  "index": 1
+                  "switchTo": 2
                 },
                 {
-                  "switchTo": 0,
+                  "index": 2,
                   "addWeapon": [
                     2029640
                   ],
                   "switchParam": 200,
                   "switchType": 1,
-                  "index": 2
+                  "switchTo": 0
                 }
               ],
               "monsterTemplateID": 293017,
@@ -118,7 +118,7 @@
               }
             },
             {
-              "score": 0,
+              "moveCast": true,
               "corrdinate": [
                 0,
                 0,
@@ -130,7 +130,7 @@
               ],
               "monsterTemplateID": 209101,
               "delay": 0,
-              "moveCast": true
+              "score": 0
             }
           ],
           "waveIndex": 101,

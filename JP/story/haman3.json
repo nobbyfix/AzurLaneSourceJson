@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "ハムマン観察記録\n\n<size=45>その三 不機嫌の理由・中</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "options": [
@@ -20,12 +20,12 @@
         }
       ],
       "side": 2,
-      "say": "ハムマンに執務室から追い出されてしばらく経った。",
+      "bgm": "story-1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-1",
+      "say": "ハムマンに執務室から追い出されてしばらく経った。",
       "dir": 1,
       "bgName": "bg_story_task"
     },
@@ -38,8 +38,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -57,10 +57,10 @@
       },
       "action": [
         {
-          "y": 30,
+          "number": 1,
           "type": "shake",
           "dur": 0.2,
-          "number": 1
+          "y": 30
         }
       ],
       "bgName": "bg_story_task"
@@ -84,8 +84,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -134,10 +134,10 @@
     {
       "action": [
         {
-          "y": 30,
+          "number": 1,
           "type": "shake",
           "dur": 0.2,
-          "number": 1
+          "y": 30
         }
       ],
       "actor": 101250,
@@ -195,10 +195,10 @@
     {
       "action": [
         {
-          "y": -30,
+          "number": 1,
           "type": "shake",
           "dur": 0.25,
-          "number": 1
+          "y": -30
         }
       ],
       "actor": 101250,
@@ -218,10 +218,10 @@
     {
       "action": {
         "1": {
-          "y": 30,
+          "number": 2,
           "type": "shake",
           "dur": 0.15,
-          "number": 2
+          "y": 30
         },
         "painting": {
           "alpha": 0.3,
@@ -312,10 +312,10 @@
     {
       "action": [
         {
-          "y": 30,
+          "number": 2,
           "type": "shake",
           "dur": 0.15,
-          "number": 2
+          "y": 30
         }
       ],
       "actor": 101250,
@@ -335,10 +335,10 @@
     {
       "action": [
         {
-          "y": 30,
+          "number": 2,
           "type": "shake",
           "dur": 0.15,
-          "number": 2
+          "y": 30
         }
       ],
       "actor": 101250,
@@ -372,10 +372,10 @@
     {
       "action": [
         {
-          "y": 30,
+          "number": 1,
           "type": "shake",
           "dur": 0.1,
-          "number": 1
+          "y": 30
         }
       ],
       "actor": 101240,
@@ -448,8 +448,8 @@
       "bgName": "bg_story_task"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "HAMAN3",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

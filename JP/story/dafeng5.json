@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "その女、賢妻につき\n\n<size=45>五 バーサス！</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "side": 2,
@@ -20,8 +20,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "painting": {
         "alpha": 0.3,
@@ -149,13 +149,13 @@
     {
       "stopbgm": true,
       "side": 2,
-      "say": "まずい。このままでは――（もにゅ）大鳳が急に腕を絡めてきた！？",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
+      "say": "まずい。このままでは――（もにゅ）大鳳が急に腕を絡めてきた！？",
       "soundeffect": "event:/ui/boat_drag",
-      "dir": 1,
       "bgName": "bg_story_school"
     },
     {
@@ -289,8 +289,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "painting": {
         "alpha": 0.3,
@@ -386,8 +386,8 @@
       "bgName": "bg_story_school"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "DAFENG5",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

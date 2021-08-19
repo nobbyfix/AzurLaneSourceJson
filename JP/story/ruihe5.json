@@ -3,23 +3,23 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "幸運の鶴\n\n<size=45>その五  今日は料理担当！</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "side": 2,
-      "say": "執務室・夜",
+      "bgm": "story-2",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-2",
+      "say": "執務室・夜",
       "dir": 1,
       "bgName": "bg_night"
     },
@@ -86,8 +86,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -177,7 +177,7 @@
       "side": 0,
       "dir": 1,
       "nameColor": "#a9f548",
-      "withoutPainting": true,
+      "say": "……",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -188,7 +188,7 @@
           "flag": 1
         }
       ],
-      "say": "……",
+      "withoutPainting": true,
       "bgName": "bg_night"
     },
     {
@@ -261,8 +261,8 @@
       "bgName": "bg_night"
     }
   ],
-  "fadeType": 2,
-  "mode": 2,
   "id": "RUIHE5",
+  "mode": 2,
+  "fadeType": 2,
   "once": true
 }

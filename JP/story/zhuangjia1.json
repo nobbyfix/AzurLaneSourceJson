@@ -3,14 +3,14 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "mode": 1,
+      "stopbgm": true,
       "sequence": [
         [
           "『装甲騎兵ボトムズ』コラボシナリオ\n\n<size=45>第一話　邂逅</size>",
           1
         ]
       ],
-      "stopbgm": true
+      "mode": 1
     },
     {
       "sequence": [
@@ -73,8 +73,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -211,8 +211,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": false
+        "black": false,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -257,12 +257,12 @@
     {
       "actor": 0,
       "side": 2,
-      "say": "………",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "withoutPainting": true,
+      "say": "………",
       "bgName": "bg_story_outdoor"
     },
     {
@@ -288,8 +288,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "blackBg": true,
       "flashin": {
@@ -301,12 +301,12 @@
         "delay": 1,
         "dur": 1
       },
-      "say": "………",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "withoutPainting": true,
+      "say": "………",
       "stopbgm": true
     },
     {
@@ -371,13 +371,13 @@
     {
       "actor": 0,
       "side": 2,
-      "say": "………",
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
       "blackBg": true,
-      "withoutPainting": true
+      "say": "………"
     },
     {
       "actor": 107060,
@@ -403,8 +403,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "action": [
         {
@@ -622,10 +622,10 @@
       "bgName": "bg_story_outdoor"
     },
     {
-      "withoutPainting": true,
       "say": "『装甲騎兵ボトムズ』！",
-      "side": 2,
       "dir": 1,
+      "side": 2,
+      "withoutPainting": true,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -651,16 +651,16 @@
         "delay": 1,
         "dur": 1
       },
-      "say": "…その夜…",
+      "bgm": "story-2",
       "flashout": {
         "alpha": [
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
-      "bgm": "story-2",
+      "say": "…その夜…",
       "bgmDelay": 2,
       "bgName": "bg_night"
     },
@@ -826,20 +826,20 @@
         "delay": 1,
         "dur": 1
       },
-      "say": "緊急事態発生、緊急事態発生。全員第一級戦闘配備。繰り返す。全員第一級戦闘配備。",
+      "bgm": "story-5",
       "flashout": {
         "alpha": [
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "bgm": "story-5",
+      "say": "緊急事態発生、緊急事態発生。全員第一級戦闘配備。繰り返す。全員第一級戦闘配備。",
       "bgName": "bg_night"
     },
     {
@@ -888,7 +888,7 @@
       "bgName": "bg_night"
     },
     {
-      "bgm": "story-5",
+      "say": "急襲される母港。ドス黒い思惑が彼女らを悪辣な罠へと誘い出す。その先にあるのは生か死か、彼女らの死闘が始まる。次回「急襲」。因縁の敵がやってくる。",
       "flashin": {
         "alpha": [
           1,
@@ -898,14 +898,14 @@
         "delay": 1,
         "dur": 1
       },
-      "say": "急襲される母港。ドス黒い思惑が彼女らを悪辣な罠へと誘い出す。その先にあるのは生か死か、彼女らの死闘が始まる。次回「急襲」。因縁の敵がやってくる。",
+      "bgm": "story-5",
       "flashout": {
         "alpha": [
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "typewriter": {
         "speed": 0.05,
@@ -920,8 +920,8 @@
       ]
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "ZHUANGJIA1",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

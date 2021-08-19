@@ -3,9 +3,9 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "bgm": "hunhe-battle",
-      "side": 2,
       "say": "運河要塞？・外洋？",
+      "side": 2,
+      "bgm": "hunhe-battle",
       "nameColor": "#a9f548",
       "typewriter": {
         "speed": 0.05,
@@ -304,8 +304,8 @@
           0,
           1
         ],
-        "dur": 0.5,
-        "black": true
+        "black": true,
+        "dur": 0.5
       },
       "bgmDelay": 1,
       "bgm": "hunhe-eagle"
@@ -483,7 +483,7 @@
       "expression": 3
     },
     {
-      "soundeffect": "event:/battle/plane",
+      "actor": 107110,
       "side": 2,
       "dir": 1,
       "nameColor": "#a9f548",
@@ -497,11 +497,11 @@
         "alpha": 0.3,
         "time": 1
       },
-      "actor": 107110
+      "soundeffect": "event:/battle/plane"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "WEICENGHUNHE29",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }

@@ -3,7 +3,7 @@
   "fadein": 1.5,
   "scripts": [
     {
-      "stopbgm": true,
+      "mode": 1,
       "sequence": [
         [
           "<size=51>分かっている。</size>",
@@ -34,7 +34,7 @@
           14
         ]
       ],
-      "mode": 1
+      "stopbgm": true
     },
     {
       "side": 1,
@@ -50,8 +50,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       },
       "flashin": {
         "alpha": [
@@ -368,8 +368,8 @@
           0,
           1
         ],
-        "dur": 1,
-        "black": true
+        "black": true,
+        "dur": 1
       }
     },
     {
@@ -503,7 +503,7 @@
       "say": "潮風を浴びながら、空母・鳳翔は片手を曇り空に覆われる水平線に向かって伸ばして――"
     },
     {
-      "soundeffect": "event:/battle/plane",
+      "say": "艦載機たち、お願いします。その翼を海風に乗せて――",
       "actor": 306030,
       "side": 2,
       "dir": 1,
@@ -516,7 +516,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "say": "艦載機たち、お願いします。その翼を海風に乗せて――"
+      "soundeffect": "event:/battle/plane"
     },
     {
       "side": 2,
@@ -590,7 +590,7 @@
     {
       "soundeffect": "event:/battle/plane",
       "side": 2,
-      "say": "鳳翔の指示を受け、艦載機は扇を描くように7つの方向に向い、そして遠くの空に消えていった。",
+      "dir": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
@@ -599,7 +599,7 @@
         "alpha": 0.3,
         "time": 1
       },
-      "dir": 1
+      "say": "鳳翔の指示を受け、艦載機は扇を描くように7つの方向に向い、そして遠くの空に消えていった。"
     },
     {
       "actor": 304050,
@@ -748,8 +748,8 @@
       "say": "自身も隠しきれない焦りと不安を、妹に察せられないように――"
     }
   ],
-  "fadeType": 1,
-  "mode": 2,
   "id": "TIANCHENGHUODONG10",
+  "mode": 2,
+  "fadeType": 1,
   "once": true
 }
