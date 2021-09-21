@@ -1,4 +1,5 @@
 {
+  "id": "BIHAIGUANGLIN6",
   "fadein": 1.5,
   "scripts": [
     {
@@ -8,23 +9,23 @@
       "bgmDelay": 1,
       "bgm": "map-longgong",
       "nameColor": "#a9f548",
-      "say": "Dragon Palace - Outer Ring",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
+      },
+      "say": "Dragon Palace - Outer Ring",
+      "typewriter": {
+        "speedUp": 0.01,
+        "speed": 0.05
       },
       "flashin": {
+        "delay": 1,
         "dur": 1,
         "black": true,
         "alpha": [
           1,
           0
-        ],
-        "delay": 1
-      },
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        ]
       }
     },
     {
@@ -37,12 +38,12 @@
       "nameColor": "#a9f548",
       "say": "Um... I'm afraid we shouldn't be going so deep without waiting for instructions...",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
@@ -53,31 +54,31 @@
       "actor": 301480,
       "hidePaintObj": true,
       "nameColor": "#a9f548",
-      "say": "It'll be fine! This place is totally empty! Look!",
       "action": [
         {
+          "delay": 0,
           "dur": 0.15,
           "number": 2,
           "type": "shake",
           "y": 45,
-          "x": 0,
-          "delay": 0
+          "x": 0
         }
       ],
+      "say": "It'll be fine! This place is totally empty! Look!",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
       "dialogShake": {
+        "x": 15,
         "speed": 0.08,
-        "number": 2,
-        "x": 15
+        "number": 2
       },
       "side": 2,
       "bgName": "bg_daofeng_2",
@@ -88,28 +89,28 @@
       "nameColor": "#a9f548",
       "say": "Rooooooooooooaar!!",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
+      },
+      "typewriter": {
+        "speedUp": 0.01,
+        "speed": 0.05
       },
       "nameColor": "#a9f548",
       "side": 2,
       "bgName": "bg_daofeng_2",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "say": "Yamakaze suddenly let out a roar that resounded across the palace's walls."
+      "say": "Yamakaze suddenly let out a roar that resounded across the palace's walls.",
+      "dir": 1
     },
     {
       "side": 2,
@@ -119,40 +120,40 @@
       "actor": 301470,
       "hidePaintObj": true,
       "nameColor": "#a9f548",
-      "say": "Y-Yamakaze! Wh-what if you woke somebody up...",
       "action": [
         {
+          "delay": 0,
           "dur": 0.15,
           "number": 2,
           "type": "shake",
           "y": 45,
-          "x": 0,
-          "delay": 0
+          "x": 0
         }
       ],
+      "say": "Y-Yamakaze! Wh-what if you woke somebody up...",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
+      },
+      "typewriter": {
+        "speedUp": 0.01,
+        "speed": 0.05
       },
       "nameColor": "#a9f548",
       "side": 2,
       "bgName": "bg_daofeng_2",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "say": "...But nothing happened at all."
+      "say": "...But nothing happened at all.",
+      "dir": 1
     },
     {
       "side": 2,
@@ -164,32 +165,35 @@
       "nameColor": "#a9f548",
       "say": "There's nobody here except for us, yeah? It probably got abandoned a long time ago.",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       },
+      "say": "Bzzt––––!",
       "nameColor": "#a9f548",
       "side": 2,
       "bgName": "bg_daofeng_2",
-      "say": "Bzzt––––!",
-      "actorName": "Communicator",
-      "dir": 1
+      "dir": 1,
+      "actorName": "Communicator"
     },
     {
-      "side": 2,
+      "typewriter": {
+        "speedUp": 0.01,
+        "speed": 0.05
+      },
       "bgName": "bg_daofeng_2",
       "dir": 1,
       "actor": 303060,
@@ -197,13 +201,10 @@
       "nameColor": "#a9f548",
       "say": "This is Chikuma. I've arrived at the entrance of a place that appears to match the Dragon Palace you were describing. Katsuragi, Shimakaze, please copy.",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      }
+      "side": 2
     },
     {
       "side": 2,
@@ -215,12 +216,12 @@
       "nameColor": "#a9f548",
       "say": "Chikuma?! And Yura as well as Suruga too? What are you all...",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
@@ -233,12 +234,12 @@
       "nameColor": "#a9f548",
       "say": "Lady Shinano personally sent us here. Hehe, I see you already have plans of your own though.",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
@@ -251,12 +252,12 @@
       "nameColor": "#a9f548",
       "say": "(Ugh, I knew it... It's just like during that dumb mock exercise. Why do I get pulled around so easily?)",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
@@ -269,16 +270,19 @@
       "nameColor": "#a9f548",
       "say": "S-sorry for acting without waiting for orders! What would you have me do?",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
-      "side": 2,
+      "typewriter": {
+        "speedUp": 0.01,
+        "speed": 0.05
+      },
       "bgName": "bg_daofeng_2",
       "dir": 1,
       "actor": 305140,
@@ -286,13 +290,10 @@
       "nameColor": "#a9f548",
       "say": "(Wouldn't the obvious thing be to meet up first? Good grief, one look at this thing and it clearly has the Sirens' tentacle-prints all over it...)",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      }
+      "side": 2
     },
     {
       "side": 2,
@@ -304,12 +305,12 @@
       "nameColor": "#a9f548",
       "say": "Let's see... We'll investigate the facility, and if it appears to be dangerous, we'll level it... In theory, anyway.",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
@@ -322,12 +323,12 @@
       "nameColor": "#a9f548",
       "say": "So far, there doesn't appear to be anything questionable going on, but that can change without a moment's notice when you're dealing with the Sirens.",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
@@ -340,12 +341,12 @@
       "nameColor": "#a9f548",
       "say": "As for the position of your fleet... W-wait, how'd you have time to get that deep inside?",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
@@ -356,24 +357,24 @@
       "actor": 301290,
       "hidePaintObj": true,
       "nameColor": "#a9f548",
-      "say": "I'm so sorry! I just got caught up in the excitement of exploration...",
       "action": [
         {
+          "delay": 0,
           "dur": 0.15,
           "number": 2,
           "type": "shake",
           "y": 45,
-          "x": 0,
-          "delay": 0
+          "x": 0
         }
       ],
+      "say": "I'm so sorry! I just got caught up in the excitement of exploration...",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
@@ -386,12 +387,12 @@
       "nameColor": "#a9f548",
       "say": "Now that you mention it, I did end up pretty far from the entrance, huh... I'll turn around and head back right away!",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
@@ -404,16 +405,19 @@
       "nameColor": "#a9f548",
       "say": "(How do you get so distracted that you lose track of your surroundings?! My stomach can't handle much more of this disaster waiting to happen...)",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
-      "side": 2,
+      "typewriter": {
+        "speedUp": 0.01,
+        "speed": 0.05
+      },
       "bgName": "bg_daofeng_2",
       "dir": 1,
       "actor": 303060,
@@ -421,13 +425,10 @@
       "nameColor": "#a9f548",
       "say": "If this really is some kind of Siren facility, there's probably no way for us to destroy it from the outside.",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      }
+      "side": 2
     },
     {
       "side": 2,
@@ -439,12 +440,12 @@
       "nameColor": "#a9f548",
       "say": "However, we should be able to shut it down by locating some kind of control device, just like in a Mirror Sea.",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
@@ -457,16 +458,19 @@
       "nameColor": "#a9f548",
       "say": "If we're lucky, there might even be some kind of self-destruct button lying around somewhere...",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
-      "side": 2,
+      "typewriter": {
+        "speedUp": 0.01,
+        "speed": 0.05
+      },
       "bgName": "bg_daofeng_2",
       "dir": 1,
       "actor": 303060,
@@ -474,13 +478,10 @@
       "nameColor": "#a9f548",
       "say": "But in any case, gathering intel should be our first priority. Shall we meet up first?",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      }
+      "side": 2
     },
     {
       "side": 2,
@@ -492,51 +493,51 @@
       "nameColor": "#a9f548",
       "say": "Shimakaze, Yamakaze, and Katsuragi, gather up and return to the entrance. Understood?",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
       "dialogShake": {
+        "x": 10,
         "speed": 0.09,
-        "number": 6,
-        "x": 10
+        "number": 6
       },
       "side": 2,
       "bgName": "bg_daofeng_2",
       "dir": 1,
-      "nameColor": "#a9f548",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
+      "nameColor": "#a9f548",
+      "soundeffect": "event:/battle/boom2",
       "say": "––––––!!!",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
       "stopbgm": true,
-      "soundeffect": "event:/battle/boom2"
+      "typewriter": {
+        "speedUp": 0.01,
+        "speed": 0.05
+      }
     },
     {
-      "bgm": "battle-longgong",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
+      },
+      "bgm": "battle-longgong",
+      "typewriter": {
+        "speedUp": 0.01,
+        "speed": 0.05
       },
       "nameColor": "#a9f548",
       "side": 2,
       "bgName": "bg_daofeng_2",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
-      "say": "Without warning, the Dragon Palace began to shudder violently."
+      "say": "Without warning, the Dragon Palace began to shudder violently.",
+      "dir": 1
     },
     {
       "side": 2,
@@ -546,24 +547,24 @@
       "actor": 301290,
       "hidePaintObj": true,
       "nameColor": "#a9f548",
-      "say": "Mweeehhhh?! An earthquake?!",
       "action": [
         {
+          "delay": 0,
           "dur": 0.15,
           "number": 2,
           "type": "shake",
           "y": 45,
-          "x": 0,
-          "delay": 0
+          "x": 0
         }
       ],
+      "say": "Mweeehhhh?! An earthquake?!",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
@@ -576,18 +577,18 @@
       "nameColor": "#a9f548",
       "say": "No, it's not! Get out of there this instant, Shimakaze! The whole building is starting to sink!",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       },
       "bgName": "bg_daofeng_2",
       "dir": 1,
@@ -596,8 +597,8 @@
       "nameColor": "#a9f548",
       "say": "Wh-what do you mean by \"starting to sink\"...?! I'm an aircraft carrier, not a submarine! There's no way I'd be able to handle going underwater!",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "side": 2
     },
@@ -611,12 +612,12 @@
       "nameColor": "#a9f548",
       "say": "Even at my top speed, there's no way we'd be able to make it to the entrance in time!",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
@@ -629,18 +630,18 @@
       "nameColor": "#a9f548",
       "say": "Katsuragi, have you noticed the \"seal\" at the top of the castle?",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       }
     },
     {
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       },
       "bgName": "bg_daofeng_2",
       "dir": 1,
@@ -649,15 +650,15 @@
       "nameColor": "#a9f548",
       "say": "Seal? I'm not sure I know what you're talking about, but we're all gonna drown if we can't make it to the entr–– Oh hey, the water level's not rising at all~",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "side": 2
     },
     {
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
+        "speedUp": 0.01,
+        "speed": 0.05
       },
       "bgName": "bg_daofeng_2",
       "dir": 1,
@@ -666,13 +667,16 @@
       "nameColor": "#a9f548",
       "say": "So I guess the entire Dragon Palace is diving? Wait, won't that create a huge whirlpool that sucks everyone outside under?!",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
       "side": 2
     },
     {
-      "side": 2,
+      "typewriter": {
+        "speedUp": 0.01,
+        "speed": 0.05
+      },
       "bgName": "bg_daofeng_2",
       "dir": 1,
       "actor": 303060,
@@ -680,19 +684,16 @@
       "nameColor": "#a9f548",
       "say": "That would appear to be the case... Suruga, Yura, we'll have to enter this Dragon Palace, like it or not!",
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      }
+      "side": 2
     },
     {
       "dialogShake": {
+        "x": 15,
         "speed": 0.08,
-        "number": 2,
-        "x": 15
+        "number": 2
       },
       "side": 2,
       "bgName": "bg_daofeng_2",
@@ -701,21 +702,20 @@
       "actor": 305140,
       "paintingNoise": true,
       "nameColor": "#a9f548",
-      "say": "(I knew it, I knew it! Why'd I even bother trying to fool myself into thinking that nothing would happen?!)",
-      "blackBg": true,
       "painting": {
-        "alpha": 0.3,
-        "time": 1
+        "time": 1,
+        "alpha": 0.3
       },
+      "say": "(I knew it, I knew it! Why'd I even bother trying to fool myself into thinking that nothing would happen?!)",
       "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      }
+        "speedUp": 0.01,
+        "speed": 0.05
+      },
+      "blackBg": true
     }
   ],
   "fadeOut": 1.5,
   "mode": 2,
   "fadeType": 2,
-  "once": true,
-  "id": "BIHAIGUANGLIN6"
+  "once": true
 }
