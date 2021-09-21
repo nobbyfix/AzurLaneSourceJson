@@ -1,31 +1,34 @@
 {
-  "1": [],
-  "picture": "",
-  "color": "red",
-  "desc": "主炮每进行16次攻击，触发专属弹幕-北风II",
-  "id": 29382,
-  "last_effect": "",
+  "1": {},
   "name": "专属弹幕",
+  "init_effect": "",
+  "id": 29382,
+  "picture": "",
+  "desc": "主炮每进行16次攻击，触发专属弹幕-北风II",
+  "stack": 1,
+  "color": "red",
   "icon": 29380,
+  "time": 0,
   "effect_list": [
     {
+      "type": "BattleBuffCount",
       "trigger": [
         "onFire"
       ],
-      "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 16,
-        "countType": 29380,
         "index": [
           1
-        ]
+        ],
+        "gunnerBonus": true,
+        "countTarget": 16,
+        "countType": 29380
       }
     },
     {
+      "type": "BattleBuffCastSkill",
       "trigger": [
         "onBattleBuffCount"
       ],
-      "type": "BattleBuffCastSkill",
       "arg_list": {
         "target": "TargetSelf",
         "countType": 29380,
@@ -33,7 +36,5 @@
       }
     }
   ],
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+  "last_effect": ""
 }

@@ -1,0 +1,49 @@
+{
+  "name": "白龙剧情战 触发龙宫机关-烈焰技能 buff4：点燃效果",
+  "init_effect": "",
+  "id": 9301,
+  "picture": "",
+  "time": 999,
+  "stack": 1,
+  "color": "yellow",
+  "icon": 9301,
+  "last_effect": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "time": 3,
+        "number": 5,
+        "k": 0.3,
+        "attr": "cannonPower",
+        "dotType": 1,
+        "cloakExpose": 36,
+        "exposeGroup": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 60
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 61
+      }
+    }
+  ],
+  "desc": ""
+}

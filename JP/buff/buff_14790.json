@@ -1,0 +1,64 @@
+{
+  "1": {},
+  "2": {},
+  "3": {},
+  "4": {},
+  "5": {},
+  "6": {},
+  "7": {},
+  "8": {},
+  "9": {},
+  "10": {},
+  "desc_get": "",
+  "name": "",
+  "init_effect": "",
+  "id": 14790,
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "color": "red",
+  "stack": 1,
+  "icon": 14790,
+  "last_effect": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "arg_list": {
+        "skill_id": 14790,
+        "target": "TargetSelf"
+      },
+      "type": "BattleBuffCastSkill"
+    },
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "arg_list": {
+        "minTargetNumber": 1,
+        "check_target": [
+          "TargetShipTag"
+        ],
+        "time": 1,
+        "ship_tag_list": [
+          "Zhumo"
+        ],
+        "skill_id": 14791
+      },
+      "type": "BattleBuffCastSkill"
+    },
+    {
+      "trigger": [
+        "onBeHit"
+      ],
+      "arg_list": {
+        "skill_id": 14792,
+        "target": "TargetSelf",
+        "rant": 7000,
+        "time": 10
+      },
+      "type": "BattleBuffCastSkill"
+    }
+  ]
+}

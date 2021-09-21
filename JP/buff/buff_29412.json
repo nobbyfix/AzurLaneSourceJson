@@ -2,8 +2,9 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发专属弹幕-恶毒II"
   },
-  "picture": "",
-  "color": "red",
+  "time": 0,
+  "icon": 29410,
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -11,6 +12,7 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "gunnerBonus": true,
         "countTarget": 10,
         "countType": 29410,
         "index": [
@@ -24,19 +26,18 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 29410,
-        "skill_id": 29412
+        "skill_id": 29412,
+        "target": "TargetSelf"
       }
     }
   ],
   "desc": "主炮每进行10次攻击，触发专属弹幕-恶毒II",
-  "icon": 29410,
-  "last_effect": "",
-  "name": "专属弹幕-恶毒II",
-  "id": 29412,
   "desc_get": "主炮每进行10次攻击，触发专属弹幕-恶毒II",
-  "stack": 1,
+  "name": "专属弹幕-恶毒II",
   "init_effect": "",
-  "time": 0
+  "id": 29412,
+  "picture": "",
+  "stack": 1,
+  "color": "red"
 }

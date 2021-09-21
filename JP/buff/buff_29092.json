@@ -2,8 +2,16 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发专属弹幕-吸血鬼II"
   },
+  "desc_get": "主炮每进行10次攻击，触发专属弹幕-吸血鬼II",
+  "name": "专属弹幕-吸血鬼II",
+  "init_effect": "",
+  "id": 29092,
   "picture": "",
+  "stack": 1,
   "color": "red",
+  "time": 0,
+  "icon": 29090,
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -11,6 +19,7 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "gunnerBonus": true,
         "countTarget": 10,
         "countType": 29090,
         "index": [
@@ -24,19 +33,11 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 29090,
-        "skill_id": 29092
+        "skill_id": 29092,
+        "target": "TargetSelf"
       }
     }
   ],
-  "desc": "主炮每进行10次攻击，触发专属弹幕-吸血鬼II",
-  "icon": 29090,
-  "last_effect": "",
-  "name": "专属弹幕-吸血鬼II",
-  "id": 29092,
-  "desc_get": "主炮每进行10次攻击，触发专属弹幕-吸血鬼II",
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+  "desc": "主炮每进行10次攻击，触发专属弹幕-吸血鬼II"
 }

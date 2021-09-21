@@ -1,0 +1,36 @@
+{
+  "init_effect": "",
+  "id": 9320,
+  "time": 0,
+  "desc": "",
+  "stack": 1,
+  "color": "blue",
+  "icon": 9320,
+  "last_effect": "",
+  "effect_list": [
+    {
+      "arg_list": {
+        "target": "TargetSelf",
+        "buff_id": 9321,
+        "hpUpperBound": 0.01
+      },
+      "type": "BattleBuffAddBuff",
+      "trigger": [
+        "onHPRatioUpdate"
+      ]
+    },
+    {
+      "arg_list": {
+        "value": 1
+      },
+      "type": "BattleBuffLockHealth",
+      "trigger": [
+        "onAttach",
+        "onTakeDamage"
+      ]
+    }
+  ],
+  "desc_get": "白龙无敌锁血撤退",
+  "picture": "",
+  "name": "白龙无敌锁血撤退"
+}

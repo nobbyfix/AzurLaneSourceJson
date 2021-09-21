@@ -1,0 +1,52 @@
+{
+  "1": {},
+  "2": {},
+  "3": {},
+  "4": {},
+  "5": {},
+  "6": {},
+  "7": {},
+  "8": {},
+  "9": {},
+  "10": {},
+  "desc_get": "",
+  "name": "",
+  "init_effect": "",
+  "id": 14800,
+  "picture": "",
+  "desc": "",
+  "stack": 1,
+  "color": "yellow",
+  "icon": 14800,
+  "last_effect": "",
+  "time": 0,
+  "effect_list": [
+    {
+      "arg_list": {
+        "skill_id": 14800
+      },
+      "trigger": [
+        "onStartGame"
+      ],
+      "type": "BattleBuffCastSkill"
+    },
+    {
+      "arg_list": {
+        "shipType": 1,
+        "target": "TargetPlayerByType",
+        "buff_id": 14801
+      },
+      "trigger": {},
+      "type": "BattleBuffField"
+    },
+    {
+      "arg_list": {
+        "shipType": 2,
+        "target": "TargetPlayerByType",
+        "buff_id": 14801
+      },
+      "trigger": {},
+      "type": "BattleBuffField"
+    }
+  ]
+}
