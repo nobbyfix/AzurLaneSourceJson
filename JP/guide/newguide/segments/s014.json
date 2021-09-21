@@ -2,52 +2,52 @@
   "id": "S014",
   "events": [
     {
-      "style": {
-        "posY": -341,
-        "dir": -1,
-        "text": "前の画面に戻るわ",
-        "posX": 431,
-        "mode": 2
-      },
-      "spriteui": {
-        "defaultName": "white_dot",
-        "path": "/OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)/items/items",
-        "pathIndex": "#",
-        "childPath": "bg/icon_bg/icon"
-      },
+      "waitScene": "AwardInfoLayer",
       "ui": {
+        "pathIndex": -1,
         "fingerPos": {
-          "posY": -172,
-          "posX": 520
+          "posX": 520,
+          "posY": -172
         },
         "path": "OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)",
-        "pathIndex": -1,
         "triggerType": [
           1
         ]
       },
-      "alpha": 0,
-      "waitScene": "AwardInfoLayer"
+      "spriteui": {
+        "pathIndex": "#",
+        "path": "/OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)/items/items_scroll/content",
+        "defaultName": "white_dot",
+        "childPath": "bg/icon_bg/icon"
+      },
+      "style": {
+        "mode": 2,
+        "dir": -1,
+        "posY": -341,
+        "posX": 431,
+        "text": "前の画面に戻るわ"
+      },
+      "alpha": 0
     },
     {
+      "alpha": 0.367,
+      "style": {
+        "mode": 2,
+        "dir": -1,
+        "posY": 223.26,
+        "posX": -136.21,
+        "text": "メイン画面に戻るわ"
+      },
       "ui": {
+        "pathIndex": -1,
         "fingerPos": {
-          "posY": 0,
-          "posX": 0
+          "posX": 0,
+          "posY": 0
         },
         "path": "OverlayCamera/Overlay/UIMain/blur_panel/adapt/top/back_btn",
-        "pathIndex": -1,
         "triggerType": [
           1
         ]
-      },
-      "alpha": 0.367,
-      "style": {
-        "posY": 223.26,
-        "dir": -1,
-        "text": "メイン画面に戻るわ",
-        "posX": -136.21,
-        "mode": 2
       }
     }
   ]

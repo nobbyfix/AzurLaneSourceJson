@@ -1,0 +1,48 @@
+{
+  "last_effect": "zhuoshao",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "attr": "airPower",
+        "cloakExpose": 36,
+        "exposeGroup": 1,
+        "time": 3,
+        "number": 5,
+        "dotType": 1,
+        "k": 0.6
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 60
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 61
+      }
+    }
+  ],
+  "name": "分段起火2",
+  "init_effect": "",
+  "picture": "",
+  "desc": "持续伤害",
+  "time": 15.1,
+  "stack": 1,
+  "id": 381,
+  "icon": 381
+}

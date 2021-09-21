@@ -1,10 +1,6 @@
 {
-  "picture": "",
-  "id": 8834,
-  "desc": "持续伤害",
-  "last_effect": "",
-  "name": "metaboss保底伤害",
   "icon": 8834,
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -12,18 +8,22 @@
       ],
       "type": "BattleBuffDOT",
       "arg_list": {
-        "number": -8012,
-        "randExtraRange": 70,
-        "time": 0.16,
+        "dotType": 10,
         "WorldBossDotDamage": {
-          "useGlobalAttr": "WorldBossSupportDays",
-          "paramA": 280
+          "paramA": 288,
+          "useGlobalAttr": "WorldBossSupportDays"
         },
-        "dotType": 10
+        "randExtraRange": 70,
+        "number": -8020,
+        "time": 0.16
       }
     }
   ],
-  "stack": 1,
+  "time": 1.7,
+  "name": "metaboss保底伤害",
   "init_effect": "",
-  "time": 1.7
+  "picture": "",
+  "desc": "持续伤害",
+  "stack": 1,
+  "id": 8834
 }

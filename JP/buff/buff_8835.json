@@ -1,29 +1,29 @@
 {
-  "picture": "",
-  "id": 8835,
-  "desc": "持续伤害",
-  "last_effect": "heifangzhou_ranshao",
+  "time": 16,
   "name": "metaboss保底伤害",
+  "init_effect": "",
+  "picture": "",
+  "desc": "持续伤害",
+  "stack": 1,
+  "id": 8835,
   "icon": 8835,
+  "last_effect": "heifangzhou_ranshao",
   "effect_list": [
     {
       "trigger": [
         "onUpdate"
       ],
-      "type": "BattleBuffDOT",
       "arg_list": {
-        "number": -8012,
-        "randExtraRange": 70,
+        "number": -8020,
         "time": 3,
+        "randExtraRange": 70,
+        "dotType": 10,
         "WorldBossDotDamage": {
           "useGlobalAttr": "WorldBossSupportDays",
-          "paramA": 280
-        },
-        "dotType": 10
-      }
+          "paramA": 288
+        }
+      },
+      "type": "BattleBuffDOT"
     }
-  ],
-  "stack": 1,
-  "init_effect": "",
-  "time": 16
+  ]
 }
