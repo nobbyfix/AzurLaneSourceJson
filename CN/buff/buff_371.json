@@ -1,0 +1,48 @@
+{
+  "stack": 1,
+  "id": 371,
+  "icon": 371,
+  "last_effect": "zhuoshao",
+  "effect_list": [
+    {
+      "trigger": [
+        "onUpdate"
+      ],
+      "type": "BattleBuffDOT",
+      "arg_list": {
+        "dotType": 1,
+        "number": 521,
+        "k": 0,
+        "attr": "airPower",
+        "time": 3,
+        "cloakExpose": 36,
+        "exposeGroup": 1
+      }
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 60
+      }
+    },
+    {
+      "trigger": [
+        "onRemove"
+      ],
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "target": "TargetSelf",
+        "skill_id": 61
+      }
+    }
+  ],
+  "name": "苍龙META 特殊航空点燃",
+  "picture": "",
+  "init_effect": "",
+  "time": 6.1,
+  "desc": "持续伤害"
+}

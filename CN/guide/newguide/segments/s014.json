@@ -2,52 +2,52 @@
   "id": "S014",
   "events": [
     {
-      "style": {
-        "posY": -341,
-        "dir": -1,
-        "text": "关闭奖励界面",
-        "posX": 431,
-        "mode": 2
-      },
       "spriteui": {
-        "defaultName": "white_dot",
-        "path": "/OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)/items/items",
         "pathIndex": "#",
-        "childPath": "bg/icon_bg/icon"
+        "childPath": "bg/icon_bg/icon",
+        "defaultName": "white_dot",
+        "path": "/OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)/items/items_scroll/content"
+      },
+      "style": {
+        "posX": 431,
+        "text": "关闭奖励界面",
+        "mode": 2,
+        "dir": -1,
+        "posY": -341
       },
       "ui": {
-        "fingerPos": {
-          "posY": -172,
-          "posX": 520
-        },
-        "path": "OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)",
         "pathIndex": -1,
+        "fingerPos": {
+          "posX": 520,
+          "posY": -172
+        },
         "triggerType": [
           1
-        ]
+        ],
+        "path": "OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)"
       },
       "alpha": 0,
       "waitScene": "AwardInfoLayer"
     },
     {
-      "ui": {
-        "fingerPos": {
-          "posY": 0,
-          "posX": 0
-        },
-        "path": "OverlayCamera/Overlay/UIMain/blur_panel/adapt/top/back_btn",
-        "pathIndex": -1,
-        "triggerType": [
-          1
-        ]
-      },
       "alpha": 0.367,
       "style": {
-        "posY": 223.26,
-        "dir": -1,
-        "text": "返回主界面",
         "posX": -136.21,
-        "mode": 2
+        "text": "返回主界面",
+        "mode": 2,
+        "dir": -1,
+        "posY": 223.26
+      },
+      "ui": {
+        "pathIndex": -1,
+        "fingerPos": {
+          "posX": 0,
+          "posY": 0
+        },
+        "triggerType": [
+          1
+        ],
+        "path": "OverlayCamera/Overlay/UIMain/blur_panel/adapt/top/back_btn"
       }
     }
   ]
