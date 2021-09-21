@@ -1,19 +1,13 @@
 {
-  "id": "S014",
   "events": [
     {
+      "alpha": 0,
       "style": {
-        "posY": -341,
-        "dir": -1,
         "text": "Close Reward Menu",
-        "posX": 431,
-        "mode": 2
-      },
-      "spriteui": {
-        "defaultName": "white_dot",
-        "path": "/OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)/items/items",
-        "pathIndex": "#",
-        "childPath": "bg/icon_bg/icon"
+        "mode": 2,
+        "dir": -1,
+        "posY": -341,
+        "posX": 431
       },
       "ui": {
         "fingerPos": {
@@ -21,34 +15,40 @@
           "posX": 520
         },
         "path": "OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)",
-        "pathIndex": -1,
         "triggerType": [
           1
-        ]
+        ],
+        "pathIndex": -1
       },
-      "alpha": 0,
-      "waitScene": "AwardInfoLayer"
+      "waitScene": "AwardInfoLayer",
+      "spriteui": {
+        "path": "/OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)/items/items_scroll/content",
+        "defaultName": "white_dot",
+        "childPath": "bg/icon_bg/icon",
+        "pathIndex": "#"
+      }
     },
     {
+      "alpha": 0.367,
+      "style": {
+        "text": "Head back to the main screen.",
+        "mode": 2,
+        "dir": -1,
+        "posY": 223.26,
+        "posX": -136.21
+      },
       "ui": {
         "fingerPos": {
           "posY": 0,
           "posX": 0
         },
         "path": "OverlayCamera/Overlay/UIMain/blur_panel/adapt/top/back_btn",
-        "pathIndex": -1,
         "triggerType": [
           1
-        ]
-      },
-      "alpha": 0.367,
-      "style": {
-        "posY": 223.26,
-        "dir": -1,
-        "text": "Head back to the main screen.",
-        "posX": -136.21,
-        "mode": 2
+        ],
+        "pathIndex": -1
       }
     }
-  ]
+  ],
+  "id": "S014"
 }

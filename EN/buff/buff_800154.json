@@ -1,0 +1,40 @@
+{
+  "icon": 800150,
+  "last_effect": "",
+  "blink": [
+    1,
+    0,
+    0,
+    0.3,
+    0.3
+  ],
+  "effect_list": [
+    {
+      "arg_list": {
+        "number": 0.2,
+        "attr": "damageRatioBullet"
+      },
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ],
+      "type": "BattleBuffAddAttr"
+    },
+    {
+      "arg_list": {
+        "skill_id": 800153
+      },
+      "trigger": [
+        "onAttach"
+      ],
+      "type": "BattleBuffCastSkill"
+    }
+  ],
+  "name": "",
+  "init_effect": "jinengchufared",
+  "picture": "",
+  "desc": "伤害上升",
+  "time": 5,
+  "stack": 1,
+  "id": 800154
+}

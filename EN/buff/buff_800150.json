@@ -1,0 +1,68 @@
+{
+  "1": {},
+  "2": {},
+  "3": {},
+  "4": {},
+  "5": {},
+  "6": {},
+  "7": {},
+  "8": {},
+  "9": {},
+  "10": {},
+  "effect_list": [
+    {
+      "arg_list": {
+        "minTargetNumber": 1,
+        "skill_id": 800150,
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "ship_tag_list": [
+          "Hiryu"
+        ]
+      },
+      "type": "BattleBuffCastSkill",
+      "trigger": [
+        "onStartGame"
+      ]
+    },
+    {
+      "arg_list": {
+        "maxTargetNumber": 0,
+        "target": "TargetSelf",
+        "check_target": [
+          "TargetAllHelp",
+          "TargetShipTag"
+        ],
+        "skill_id": 800151,
+        "ship_tag_list": [
+          "Hiryu"
+        ]
+      },
+      "type": "BattleBuffCastSkill",
+      "trigger": [
+        "onStartGame"
+      ]
+    },
+    {
+      "arg_list": {
+        "target": "TargetPlayerVanguardFleet",
+        "buff_id": 800153
+      },
+      "type": "BattleBuffField",
+      "trigger": {}
+    }
+  ],
+  "time": 0,
+  "name": "",
+  "init_effect": "",
+  "id": 800150,
+  "picture": "",
+  "desc": "",
+  "stack": 1,
+  "color": "red",
+  "icon": 800150,
+  "last_effect": ""
+}
