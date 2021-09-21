@@ -1,38 +1,40 @@
 {
+  "mode": 2,
+  "fadeType": 2,
+  "once": true,
+  "id": "BIHAIGUANGLIN16",
   "fadein": 1.5,
   "scripts": [
     {
+      "side": 2,
+      "bgm": "battle-boss-longgong",
+      "dir": 1,
+      "bgmDelay": 1,
       "soundeffect": "event:/battle/boom2",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
       "actor": 307120,
       "nameColor": "#a9f548",
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
       },
       "bgName": "bg_daofeng_4",
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      },
-      "say": "我就知道会这样…………火果然出现了啊啊啊啊啊啊！！",
       "dialogShake": {
         "number": 2,
         "speed": 0.09,
         "x": 8.5
       },
-      "flashin": {
-        "black": true,
-        "alpha": [
-          1,
-          0
-        ],
-        "delay": 1,
-        "dur": 1
-      },
-      "expression": 3,
-      "side": 2,
-      "bgm": "battle-boss-longgong",
+      "say": "我就知道会这样…………火果然出现了啊啊啊啊啊啊！！",
       "flashN": {
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
         "alpha": [
           [
             0,
@@ -58,418 +60,416 @@
             0.2,
             0.6
           ]
-        ],
-        "color": [
-          1,
-          1,
-          1,
-          1
         ]
       },
-      "dir": 1,
-      "bgmDelay": 1
-    },
-    {
-      "actor": 301480,
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      },
-      "bgName": "bg_daofeng_4",
-      "say": "毕竟就算我们不开火，敌人也不会手下留情嘛……",
-      "expression": 6,
-      "side": 2,
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
-      "dir": 1,
-      "nameColor": "#a9f548"
-    },
-    {
-      "actor": 307120,
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      },
-      "bgName": "bg_daofeng_4",
-      "say": "快后撤……后撤！我可不想葬身在大火里啊！",
-      "action": [
-        {
-          "number": 2,
-          "y": 45,
-          "delay": 0,
-          "dur": 0.15,
-          "x": 0,
-          "type": "shake"
-        }
-      ],
-      "expression": 3,
-      "side": 2,
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
-      "dir": 1,
-      "nameColor": "#a9f548"
-    },
-    {
-      "actor": 307120,
-      "nameColor": "#a9f548",
-      "bgName": "bg_daofeng_4",
-      "say": "搞什么啊这座龙宫城……自己在自己的城里放火很危险吧！",
       "flashin": {
+        "dur": 1,
         "black": true,
         "alpha": [
           1,
           0
         ],
-        "delay": 0.5,
-        "dur": 0.5
+        "delay": 1
       },
-      "expression": 5,
+      "expression": 3
+    },
+    {
       "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 301480,
+      "nameColor": "#a9f548",
+      "bgName": "bg_daofeng_4",
+      "say": "毕竟就算我们不开火，敌人也不会手下留情嘛……",
+      "expression": 6
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 307120,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "dur": 0.15,
+          "y": 45,
+          "x": 0,
+          "number": 2,
+          "type": "shake",
+          "delay": 0
+        }
+      ],
+      "bgName": "bg_daofeng_4",
+      "say": "快后撤……后撤！我可不想葬身在大火里啊！",
+      "expression": 3
+    },
+    {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 307120,
+      "nameColor": "#a9f548",
+      "bgName": "bg_daofeng_4",
+      "say": "搞什么啊这座龙宫城……自己在自己的城里放火很危险吧！",
       "flashout": {
+        "dur": 0.5,
         "black": true,
         "alpha": [
           0,
           1
+        ]
+      },
+      "flashin": {
+        "dur": 0.5,
+        "black": true,
+        "alpha": [
+          1,
+          0
         ],
-        "dur": 0.5
+        "delay": 0.5
       },
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
-      "dir": 1,
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      }
+      "expression": 5
     },
     {
-      "actor": 301290,
+      "side": 2,
+      "dir": 1,
       "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
+        "speed": 0.05,
+        "speedUp": 0.01
       },
-      "bgName": "bg_daofeng_4",
-      "say": "{namecode:208}阁下，让我再冲一次吧！",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 301290,
+      "nameColor": "#a9f548",
       "action": [
         {
-          "number": 2,
-          "y": 45,
-          "delay": 0,
           "dur": 0.15,
+          "y": 45,
           "x": 0,
-          "type": "shake"
+          "number": 2,
+          "type": "shake",
+          "delay": 0
         }
       ],
-      "side": 2,
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
-      "hidePaintObj": true,
-      "dir": 1,
-      "nameColor": "#a9f548"
+      "bgName": "bg_daofeng_4",
+      "say": "{namecode:208}阁下，让我再冲一次吧！",
+      "hidePaintObj": true
     },
     {
-      "actor": 307120,
+      "side": 2,
+      "dir": 1,
       "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
+        "speed": 0.05,
+        "speedUp": 0.01
       },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 307120,
+      "nameColor": "#a9f548",
       "bgName": "bg_daofeng_4",
       "say": "笨蛋！火势太猛烈了！就算是你的速度也避不开！",
-      "expression": 3,
-      "side": 2,
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
-      "dir": 1,
-      "nameColor": "#a9f548"
+      "expression": 3
     },
     {
-      "actor": 307120,
+      "side": 2,
+      "dir": 1,
       "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
+        "speed": 0.05,
+        "speedUp": 0.01
       },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 307120,
+      "nameColor": "#a9f548",
       "bgName": "bg_daofeng_4",
       "say": "这时候还是交给可靠地正规航母吧！",
-      "expression": 1,
-      "side": 2,
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
-      "dir": 1,
-      "nameColor": "#a9f548"
+      "expression": 1
     },
     {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 307120,
+      "nameColor": "#a9f548",
+      "bgName": "bg_daofeng_4",
+      "say": "既然海面已经引燃。我也不用束手束脚了，看我用轰炸直接解决掉远处的机关！",
       "effects": [
         {
-          "name": "speed",
-          "active": true
+          "active": true,
+          "name": "speed"
+        }
+      ]
+    },
+    {
+      "side": 2,
+      "effects": [
+        {
+          "active": false,
+          "name": "speed"
         }
       ],
       "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
+        "speed": 0.05,
+        "speedUp": 0.01
       },
-      "bgName": "bg_daofeng_4",
-      "say": "既然海面已经引燃。我也不用束手束脚了，看我用轰炸直接解决掉远处的机关！",
-      "side": 2,
       "painting": {
-        "time": 1,
-        "alpha": 0.3
+        "alpha": 0.3,
+        "time": 1
       },
-      "nameColor": "#a9f548",
-      "dir": 1,
-      "actor": 307120
-    },
-    {
-      "effects": [
-        {
-          "name": "speed",
-          "active": false
-        }
-      ],
+      "actor": 301290,
       "nameColor": "#a9f548",
       "bgName": "bg_daofeng_4",
       "say": "哦~！{namecode:208}阁下加油啊！",
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
-      "side": 2,
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      },
       "hidePaintObj": true,
-      "dir": 1,
-      "actor": 301290
+      "dir": 1
     },
     {
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      },
       "nameColor": "#a9f548",
-      "side": 2,
       "bgName": "bg_daofeng_4",
       "dir": 1,
-      "say": "成群的舰载机从浓烟之上飞向远处的机关，然后迎接它们的是穿烟而出的密集火力…"
+      "say": "成群的舰载机从浓烟之上飞向远处的机关，然后迎接它们的是穿烟而出的密集火力…",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "side": 2
     },
     {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
       "actor": 301290,
       "nameColor": "#a9f548",
-      "bgName": "bg_daofeng_4",
-      "say": "……舰载机被全数拦截住了，{namecode:208}阁下！",
       "action": [
         {
-          "number": 2,
-          "y": 45,
-          "delay": 0,
           "dur": 0.15,
+          "y": 45,
           "x": 0,
-          "type": "shake"
+          "number": 2,
+          "type": "shake",
+          "delay": 0
         }
       ],
-      "expression": 3,
-      "side": 2,
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
+      "bgName": "bg_daofeng_4",
+      "say": "……舰载机被全数拦截住了，{namecode:208}阁下！",
       "hidePaintObj": true,
-      "dir": 1,
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      }
+      "expression": 3
     },
     {
-      "actor": 307120,
+      "side": 2,
+      "dir": 1,
       "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
+        "speed": 0.05,
+        "speedUp": 0.01
       },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 307120,
+      "nameColor": "#a9f548",
       "bgName": "bg_daofeng_4",
       "say": "这些防空炮又是从哪里冒出来啊！哼，搞偷袭不讲武德！",
-      "expression": 5,
-      "side": 2,
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
-      "dir": 1,
-      "nameColor": "#a9f548"
+      "expression": 5
     },
     {
-      "actor": 307120,
+      "side": 2,
+      "dir": 1,
       "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
+        "speed": 0.05,
+        "speedUp": 0.01
       },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 307120,
+      "nameColor": "#a9f548",
       "bgName": "bg_daofeng_4",
       "say": "刚刚趁我大意了，没有闪避及时，看我再来一次攻击——！",
-      "expression": 3,
-      "side": 2,
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
-      "dir": 1,
-      "nameColor": "#a9f548"
+      "expression": 3
     },
     {
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      },
       "nameColor": "#a9f548",
-      "side": 2,
       "bgName": "bg_daofeng_4",
       "dir": 1,
-      "say": "{namecode:208}发动了第二轮袭击，但依然无法突破密集的防空火力网。"
+      "say": "{namecode:208}发动了第二轮袭击，但依然无法突破密集的防空火力网。",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "side": 2
     },
     {
-      "actor": 307120,
+      "side": 2,
+      "dir": 1,
       "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
+        "speed": 0.05,
+        "speedUp": 0.01
       },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 307120,
+      "nameColor": "#a9f548",
       "bgName": "bg_daofeng_4",
       "say": "呼……还没有结束！看我的第三轮攻击————",
-      "expression": 5,
-      "side": 2,
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
-      "dir": 1,
-      "nameColor": "#a9f548"
+      "expression": 5
     },
     {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
       "dialogShake": {
         "number": 2,
         "speed": 0.08,
         "x": 15
       },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
       "actor": 301290,
       "nameColor": "#a9f548",
       "bgName": "bg_daofeng_4",
       "say": "{namecode:208}阁下暂停！暂停！前方的火力网怎么看都不像是能冲过去的！",
-      "expression": 3,
-      "side": 2,
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
       "hidePaintObj": true,
-      "dir": 1,
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      }
+      "expression": 3
     },
     {
-      "actor": 307120,
+      "side": 2,
+      "dir": 1,
       "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
+        "speed": 0.05,
+        "speedUp": 0.01
       },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 307120,
+      "nameColor": "#a9f548",
       "bgName": "bg_daofeng_4",
       "say": "可恶……都怪结界内空间有限限制了舰载机的发挥！不然早就炸烂那个机关了！",
-      "expression": 3,
-      "side": 2,
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
-      "dir": 1,
-      "nameColor": "#a9f548"
+      "expression": 3
     },
     {
+      "side": 2,
+      "dir": 1,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
       "actor": 301290,
       "nameColor": "#a9f548",
       "bgName": "bg_daofeng_4",
       "say": "果然我还是努力——",
-      "expression": 2,
-      "side": 2,
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
       "hidePaintObj": true,
-      "dir": 1,
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      }
+      "expression": 2
     },
     {
-      "actor": 307120,
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      },
-      "bgName": "bg_daofeng_4",
-      "say": "给我老实下来静静地等火焰熄灭！",
-      "expression": 2,
       "side": 2,
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
       "dir": 1,
-      "nameColor": "#a9f548"
-    },
-    {
-      "blackBg": true,
-      "actor": 301290,
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 307120,
       "nameColor": "#a9f548",
       "bgName": "bg_daofeng_4",
-      "say": "是……{namecode:208}阁下。",
-      "action": [
-        {
-          "number": 2,
-          "y": 45,
-          "delay": 0,
-          "dur": 0.15,
-          "x": 0,
-          "type": "shake"
-        }
-      ],
-      "expression": 3,
+      "say": "给我老实下来静静地等火焰熄灭！",
+      "expression": 2
+    },
+    {
       "side": 2,
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
-      "hidePaintObj": true,
+      "blackBg": true,
       "dir": 1,
       "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      }
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actor": 301290,
+      "nameColor": "#a9f548",
+      "action": [
+        {
+          "dur": 0.15,
+          "y": 45,
+          "x": 0,
+          "number": 2,
+          "type": "shake",
+          "delay": 0
+        }
+      ],
+      "bgName": "bg_daofeng_4",
+      "say": "是……{namecode:208}阁下。",
+      "hidePaintObj": true,
+      "expression": 3
     }
   ],
-  "fadeOut": 1.5,
-  "mode": 2,
-  "fadeType": 2,
-  "once": true,
-  "id": "BIHAIGUANGLIN16"
+  "fadeOut": 1.5
 }
