@@ -2,27 +2,36 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发专属弹幕-Z46II"
   },
+  "desc_get": "主炮每进行10次攻击，触发专属弹幕-Z46II",
+  "name": "专属弹幕-Z46II",
+  "init_effect": "",
+  "id": 29212,
   "picture": "",
+  "stack": 1,
   "color": "red",
+  "icon": 29210,
+  "last_effect": "",
+  "time": 0,
   "effect_list": [
     {
+      "type": "BattleBuffCount",
       "trigger": [
         "onFire"
       ],
-      "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 10,
-        "countType": 29210,
         "index": [
           1
-        ]
+        ],
+        "gunnerBonus": true,
+        "countTarget": 10,
+        "countType": 29210
       }
     },
     {
+      "type": "BattleBuffCastSkill",
       "trigger": [
         "onBattleBuffCount"
       ],
-      "type": "BattleBuffCastSkill",
       "arg_list": {
         "target": "TargetSelf",
         "countType": 29210,
@@ -30,13 +39,5 @@
       }
     }
   ],
-  "desc": "主炮每进行10次攻击，触发专属弹幕-Z46II",
-  "icon": 29210,
-  "last_effect": "",
-  "name": "专属弹幕-Z46II",
-  "id": 29212,
-  "desc_get": "主炮每进行10次攻击，触发专属弹幕-Z46II",
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+  "desc": "主炮每进行10次攻击，触发专属弹幕-Z46II"
 }

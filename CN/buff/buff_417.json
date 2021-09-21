@@ -1,0 +1,62 @@
+{
+  "icon": 417,
+  "last_effect": "Darkness",
+  "effect_list": [
+    {
+      "trigger": [
+        "onAttach",
+        "onStack",
+        "onRemove"
+      ],
+      "arg_list": {
+        "group": {
+          "level": 7,
+          "id": 411
+        },
+        "add": 0,
+        "mul": -2460
+      },
+      "type": "BattleBuffFixVelocity"
+    },
+    {
+      "trigger": [
+        "onAttach"
+      ],
+      "arg_list": {
+        "skill_id_list": [
+          358,
+          359,
+          360,
+          361
+        ],
+        "range": [
+          [
+            0,
+            0.299
+          ],
+          [
+            0.299,
+            0.598
+          ],
+          [
+            0.598,
+            0.898
+          ],
+          [
+            0.898,
+            1
+          ]
+        ],
+        "target": "TargetSelf"
+      },
+      "type": "BattleBuffCastSkillRandom"
+    }
+  ],
+  "time": 5,
+  "name": "减速",
+  "init_effect": "",
+  "picture": "",
+  "desc": "6s减速",
+  "stack": 1,
+  "id": 417
+}

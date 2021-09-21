@@ -2,40 +2,41 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发全弹发射-{namecode:35}级II"
   },
-  "picture": "",
-  "color": "red",
-  "desc": "主炮每进行10次攻击，触发全弹发射-{namecode:35}级II",
-  "id": 22057,
-  "last_effect": "",
   "name": "全弹发射",
+  "init_effect": "",
+  "id": 22057,
+  "picture": "",
+  "stack": 1,
+  "color": "red",
+  "time": 0,
   "icon": 20000,
+  "last_effect": "",
   "effect_list": [
     {
-      "trigger": [
-        "onFire"
-      ],
       "type": "BattleBuffCount",
       "arg_list": {
         "countTarget": 10,
         "countType": 22055,
         "index": [
           1
-        ]
-      }
+        ],
+        "gunnerBonus": true
+      },
+      "trigger": [
+        "onFire"
+      ]
     },
     {
-      "trigger": [
-        "onBattleBuffCount"
-      ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 22057,
         "target": "TargetSelf",
-        "countType": 22055,
-        "skill_id": 22057
-      }
+        "countType": 22055
+      },
+      "trigger": [
+        "onBattleBuffCount"
+      ]
     }
   ],
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+  "desc": "主炮每进行10次攻击，触发全弹发射-{namecode:35}级II"
 }

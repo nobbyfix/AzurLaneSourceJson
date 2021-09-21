@@ -1,32 +1,7 @@
 {
-  "fleet_prefab": [],
-  "type": 1,
-  "map_id": 10005,
-  "lose_condition": 1,
-  "win_condition": 1,
+  "fleet_prefab": {},
   "stages": [
     {
-      "timeCount": 303,
-      "failCondition": 1,
-      "playerArea": [
-        -70,
-        20,
-        25,
-        68
-      ],
-      "stageIndex": 1,
-      "passCondition": 1,
-      "totalArea": [
-        -75,
-        20,
-        90,
-        70
-      ],
-      "fleetCorrdinate": [
-        -80,
-        0,
-        75
-      ],
       "mainUnitPosition": {
         "1": [
           [
@@ -63,84 +38,86 @@
           ]
         ]
       },
-      "enemyArea": [],
-      "backGroundStageID": 1,
+      "fleetCorrdinate": [
+        -80,
+        0,
+        75
+      ],
       "waves": [
         {
-          "preWaves": [],
           "waveIndex": 100,
-          "triggerType": 1,
+          "preWaves": {},
           "triggerParams": {
             "timeout": 0.5
-          }
+          },
+          "triggerType": 1
         },
         {
-          "preWaves": [],
           "waveIndex": 202,
-          "triggerType": 1,
+          "preWaves": {},
           "triggerParams": {
             "timeout": 303
-          }
+          },
+          "triggerType": 1
         },
         {
-          "preWaves": [
-            100
-          ],
-          "triggerType": 0,
           "conditionType": 1,
-          "waveIndex": 101,
+          "triggerParam": {},
           "spawn": [
             {
-              "reinforceDelay": 3,
-              "corrdinate": [
-                -10,
-                0,
-                55
-              ],
-              "moveCast": true,
               "monsterTemplateID": 999411,
+              "score": 0,
               "delay": 0,
-              "score": 0
-            },
-            {
-              "moveCast": true,
-              "corrdinate": [
-                -10,
-                0,
-                35
-              ],
-              "monsterTemplateID": 999411,
-              "delay": 0,
-              "score": 0
-            },
-            {
               "moveCast": true,
               "corrdinate": [
                 -10,
                 0,
                 75
-              ],
-              "monsterTemplateID": 999411,
-              "delay": 0,
-              "score": 0
+              ]
             }
           ],
-          "triggerParam": []
+          "triggerType": 0,
+          "waveIndex": 101,
+          "preWaves": [
+            100
+          ]
         },
         {
+          "key": true,
+          "triggerParam": {},
+          "spawn": {},
+          "triggerType": 0,
+          "waveIndex": 102,
           "preWaves": [
             101,
             202
           ],
-          "triggerType": 0,
-          "conditionType": 1,
-          "spawn": [],
-          "waveIndex": 102,
-          "key": true,
-          "triggerParam": []
+          "conditionType": 1
         }
-      ]
+      ],
+      "stageIndex": 1,
+      "failCondition": 1,
+      "timeCount": 303,
+      "backGroundStageID": 1,
+      "passCondition": 1,
+      "totalArea": [
+        -75,
+        20,
+        90,
+        70
+      ],
+      "playerArea": [
+        -70,
+        20,
+        25,
+        68
+      ],
+      "enemyArea": {}
     }
   ],
-  "id": 6996
+  "lose_condition": 1,
+  "win_condition": 1,
+  "map_id": 10005,
+  "id": 6996,
+  "type": 1
 }

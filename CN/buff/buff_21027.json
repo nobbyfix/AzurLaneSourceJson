@@ -2,40 +2,41 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发全弹发射-I级II"
   },
-  "picture": "",
-  "color": "red",
-  "desc": "主炮每进行10次攻击，触发全弹发射-I级II",
-  "id": 21027,
-  "last_effect": "",
-  "name": "全弹发射",
-  "icon": 20000,
+  "time": 0,
   "effect_list": [
     {
-      "trigger": [
-        "onFire"
-      ],
-      "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 10,
         "countType": 21025,
         "index": [
           1
-        ]
-      }
+        ],
+        "gunnerBonus": true,
+        "countTarget": 10
+      },
+      "type": "BattleBuffCount",
+      "trigger": [
+        "onFire"
+      ]
     },
     {
+      "arg_list": {
+        "skill_id": 21027,
+        "target": "TargetSelf",
+        "countType": 21025
+      },
+      "type": "BattleBuffCastSkill",
       "trigger": [
         "onBattleBuffCount"
-      ],
-      "type": "BattleBuffCastSkill",
-      "arg_list": {
-        "target": "TargetSelf",
-        "countType": 21025,
-        "skill_id": 21027
-      }
+      ]
     }
   ],
-  "stack": 1,
+  "desc": "主炮每进行10次攻击，触发全弹发射-I级II",
+  "name": "全弹发射",
   "init_effect": "",
-  "time": 0
+  "id": 21027,
+  "picture": "",
+  "stack": 1,
+  "color": "red",
+  "last_effect": "",
+  "icon": 20000
 }

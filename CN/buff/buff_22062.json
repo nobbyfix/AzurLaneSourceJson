@@ -2,20 +2,20 @@
   "1": {
     "desc": "主炮每进行16次攻击，触发全弹发射-{namecode:26}级II"
   },
-  "picture": "",
-  "color": "red",
-  "desc": "主炮每进行16次攻击，触发全弹发射-{namecode:26}级II",
   "id": 22062,
-  "last_effect": "",
-  "name": "全弹发射",
+  "picture": "",
+  "stack": 1,
+  "color": "red",
   "icon": 20000,
+  "last_effect": "",
   "effect_list": [
     {
+      "type": "BattleBuffCount",
       "trigger": [
         "onFire"
       ],
-      "type": "BattleBuffCount",
       "arg_list": {
+        "gunnerBonus": true,
         "countTarget": 16,
         "countType": 22060,
         "index": [
@@ -24,18 +24,19 @@
       }
     },
     {
+      "type": "BattleBuffCastSkill",
       "trigger": [
         "onBattleBuffCount"
       ],
-      "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 22060,
-        "skill_id": 22062
+        "skill_id": 22062,
+        "target": "TargetSelf"
       }
     }
   ],
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+  "desc": "主炮每进行16次攻击，触发全弹发射-{namecode:26}级II",
+  "name": "全弹发射",
+  "time": 0,
+  "init_effect": ""
 }

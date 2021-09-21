@@ -2,13 +2,9 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发全弹发射-格里德利级II"
   },
-  "picture": "",
-  "color": "red",
-  "desc": "主炮每进行10次攻击，触发全弹发射-格里德利级II",
-  "id": 20032,
-  "last_effect": "",
-  "name": "全弹发射",
+  "time": 0,
   "icon": 20000,
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -16,6 +12,7 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "gunnerBonus": true,
         "countTarget": 10,
         "countType": 20030,
         "index": [
@@ -29,13 +26,17 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 20030,
-        "skill_id": 20032
+        "skill_id": 20032,
+        "target": "TargetSelf"
       }
     }
   ],
-  "stack": 1,
+  "desc": "主炮每进行10次攻击，触发全弹发射-格里德利级II",
+  "name": "全弹发射",
   "init_effect": "",
-  "time": 0
+  "id": 20032,
+  "picture": "",
+  "stack": 1,
+  "color": "red"
 }

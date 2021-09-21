@@ -1,0 +1,53 @@
+{
+  "1": {},
+  "2": {},
+  "3": {},
+  "4": {},
+  "5": {},
+  "6": {},
+  "7": {},
+  "8": {},
+  "9": {},
+  "10": {},
+  "name": "",
+  "init_effect": "",
+  "id": 14830,
+  "picture": "",
+  "desc": "",
+  "stack": 1,
+  "color": "red",
+  "icon": 14830,
+  "time": 0,
+  "effect_list": [
+    {
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 14830
+      },
+      "trigger": [
+        "onStartGame"
+      ]
+    },
+    {
+      "type": "BattleBuffAddBuff",
+      "arg_list": {
+        "buff_id": 14831,
+        "target": "TargetSelf"
+      },
+      "trigger": [
+        "onStartGame"
+      ]
+    },
+    {
+      "type": "BattleBuffCastSkill",
+      "arg_list": {
+        "skill_id": 14831,
+        "target": "TargetSelf"
+      },
+      "trigger": [
+        "onAllInStrikeSteady"
+      ]
+    }
+  ],
+  "last_effect": ""
+}

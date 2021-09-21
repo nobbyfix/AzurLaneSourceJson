@@ -1,0 +1,24 @@
+{
+  "init_effect": "",
+  "picture": "",
+  "desc": "受到伤害提高",
+  "stack": 1,
+  "id": 435,
+  "icon": 435,
+  "last_effect": "Darkness",
+  "effect_list": [
+    {
+      "type": "BattleBuffAddAttr",
+      "arg_list": {
+        "number": 0.035,
+        "attr": "damageGetRatioByAir"
+      },
+      "trigger": [
+        "onAttach",
+        "onRemove"
+      ]
+    }
+  ],
+  "time": 8,
+  "name": ""
+}
