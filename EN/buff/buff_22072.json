@@ -2,13 +2,15 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发全弹发射-{namecode:11}级II"
   },
-  "picture": "",
-  "color": "red",
-  "desc": "主炮每进行10次攻击，触发全弹发射-{namecode:11}级II",
-  "id": 22072,
-  "last_effect": "",
   "name": "全弹发射",
+  "init_effect": "",
+  "id": 22072,
+  "picture": "",
+  "stack": 1,
+  "color": "red",
+  "time": 0,
   "icon": 20000,
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -16,6 +18,7 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "gunnerBonus": true,
         "countTarget": 10,
         "countType": 22070,
         "index": [
@@ -29,13 +32,11 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 22070,
-        "skill_id": 22072
+        "skill_id": 22072,
+        "target": "TargetSelf"
       }
     }
   ],
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+  "desc": "主炮每进行10次攻击，触发全弹发射-{namecode:11}级II"
 }

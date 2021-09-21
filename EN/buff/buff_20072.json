@@ -2,13 +2,12 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发全弹发射-基林级II"
   },
-  "picture": "",
-  "color": "red",
-  "desc": "主炮每进行10次攻击，触发全弹发射-基林级II",
   "id": 20072,
-  "last_effect": "",
-  "name": "全弹发射",
+  "time": 0,
+  "stack": 1,
+  "color": "red",
   "icon": 20000,
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -16,6 +15,7 @@
       ],
       "type": "BattleBuffCount",
       "arg_list": {
+        "gunnerBonus": true,
         "countTarget": 10,
         "countType": 20070,
         "index": [
@@ -29,13 +29,14 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 20070,
-        "skill_id": 20072
+        "skill_id": 20072,
+        "target": "TargetSelf"
       }
     }
   ],
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+  "desc": "主炮每进行10次攻击，触发全弹发射-基林级II",
+  "name": "全弹发射",
+  "picture": "",
+  "init_effect": ""
 }

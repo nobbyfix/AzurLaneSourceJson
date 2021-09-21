@@ -2,13 +2,16 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发全弹发射-马汉级II"
   },
-  "picture": "",
-  "color": "red",
+  "time": 0,
   "desc": "主炮每进行10次攻击，触发全弹发射-马汉级II",
-  "id": 20022,
-  "last_effect": "",
   "name": "全弹发射",
+  "init_effect": "",
+  "id": 20022,
+  "picture": "",
+  "stack": 1,
+  "color": "red",
   "icon": 20000,
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -20,7 +23,8 @@
         "countType": 20020,
         "index": [
           1
-        ]
+        ],
+        "gunnerBonus": true
       }
     },
     {
@@ -29,13 +33,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 20022,
         "target": "TargetSelf",
-        "countType": 20020,
-        "skill_id": 20022
+        "countType": 20020
       }
     }
-  ],
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+  ]
 }

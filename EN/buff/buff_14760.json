@@ -1,0 +1,71 @@
+{
+  "1": {},
+  "2": {},
+  "3": {},
+  "4": {},
+  "5": {},
+  "6": {},
+  "7": {},
+  "8": {},
+  "9": {},
+  "10": {},
+  "desc_get": "",
+  "name": "",
+  "init_effect": "",
+  "id": 14760,
+  "picture": "",
+  "desc": "",
+  "time": 0,
+  "color": "blue",
+  "stack": 1,
+  "icon": 14760,
+  "last_effect": "",
+  "effect_list": [
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "arg_list": {
+        "skill_id": 14760,
+        "target": "TargetSelf"
+      },
+      "type": "BattleBuffCastSkill"
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "arg_list": {
+        "nationality": 3,
+        "check_target": [
+          "TargetNationalityFriendly",
+          "TargetShipTypeFriendly"
+        ],
+        "skill_id": 14765,
+        "ship_type_list": [
+          1
+        ],
+        "minTargetNumber": 1
+      },
+      "type": "BattleBuffCastSkill"
+    },
+    {
+      "trigger": [
+        "onStartGame"
+      ],
+      "arg_list": {
+        "nationality": 3,
+        "check_target": [
+          "TargetNationalityFriendly",
+          "TargetShipTypeFriendly"
+        ],
+        "skill_id": 14761,
+        "maxTargetNumber": 0,
+        "ship_type_list": [
+          1
+        ]
+      },
+      "type": "BattleBuffCastSkill"
+    }
+  ]
+}

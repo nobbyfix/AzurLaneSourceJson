@@ -2,7 +2,16 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发专属弹幕-英格兰II"
   },
+  "icon": 29000,
+  "last_effect": "",
+  "time": 0,
+  "desc": "主炮每进行10次攻击，触发专属弹幕-英格兰II",
+  "desc_get": "主炮每进行10次攻击，触发专属弹幕-英格兰II",
+  "name": "专属弹幕-英格兰II",
+  "init_effect": "",
+  "id": 29012,
   "picture": "",
+  "stack": 1,
   "color": "red",
   "effect_list": [
     {
@@ -15,7 +24,8 @@
         "countType": 29010,
         "index": [
           1
-        ]
+        ],
+        "gunnerBonus": true
       }
     },
     {
@@ -24,19 +34,10 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 29012,
         "target": "TargetSelf",
-        "countType": 29010,
-        "skill_id": 29012
+        "countType": 29010
       }
     }
-  ],
-  "desc": "主炮每进行10次攻击，触发专属弹幕-英格兰II",
-  "icon": 29000,
-  "last_effect": "",
-  "name": "专属弹幕-英格兰II",
-  "id": 29012,
-  "desc_get": "主炮每进行10次攻击，触发专属弹幕-英格兰II",
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+  ]
 }

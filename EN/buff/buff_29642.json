@@ -1,12 +1,9 @@
 {
-  "1": [],
-  "picture": "",
+  "1": {},
+  "stack": 1,
   "color": "red",
-  "desc": "主炮每进行10次攻击，触发专属弹幕-塔什干μII",
-  "id": 29642,
-  "last_effect": "",
-  "name": "专属弹幕",
   "icon": 29640,
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -18,7 +15,8 @@
         "countType": 29640,
         "index": [
           1
-        ]
+        ],
+        "gunnerBonus": true
       }
     },
     {
@@ -27,13 +25,16 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 29642,
         "target": "TargetSelf",
-        "countType": 29640,
-        "skill_id": 29642
+        "countType": 29640
       }
     }
   ],
-  "stack": 1,
+  "name": "专属弹幕",
+  "picture": "",
   "init_effect": "",
-  "time": 0
+  "id": 29642,
+  "time": 0,
+  "desc": "主炮每进行10次攻击，触发专属弹幕-塔什干μII"
 }

@@ -2,27 +2,35 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发专属弹幕-Z23II"
   },
+  "desc_get": "主炮每进行10次攻击，触发专属弹幕-Z23II",
+  "name": "专属弹幕-Z23II",
+  "init_effect": "",
+  "id": 29202,
   "picture": "",
+  "stack": 1,
   "color": "red",
+  "time": 0,
+  "last_effect": "",
   "effect_list": [
     {
+      "type": "BattleBuffCount",
       "trigger": [
         "onFire"
       ],
-      "type": "BattleBuffCount",
       "arg_list": {
-        "countTarget": 10,
-        "countType": 29200,
         "index": [
           1
-        ]
+        ],
+        "gunnerBonus": true,
+        "countTarget": 10,
+        "countType": 29200
       }
     },
     {
+      "type": "BattleBuffCastSkill",
       "trigger": [
         "onBattleBuffCount"
       ],
-      "type": "BattleBuffCastSkill",
       "arg_list": {
         "target": "TargetSelf",
         "countType": 29200,
@@ -30,13 +38,6 @@
       }
     }
   ],
-  "desc": "主炮每进行10次攻击，触发专属弹幕-Z23II",
   "icon": 29200,
-  "last_effect": "",
-  "name": "专属弹幕-Z23II",
-  "id": 29202,
-  "desc_get": "主炮每进行10次攻击，触发专属弹幕-Z23II",
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+  "desc": "主炮每进行10次攻击，触发专属弹幕-Z23II"
 }

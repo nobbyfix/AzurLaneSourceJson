@@ -2,13 +2,14 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发全弹发射-本森级II"
   },
-  "picture": "",
-  "color": "red",
   "desc": "主炮每进行10次攻击，触发全弹发射-本森级II",
-  "id": 20062,
-  "last_effect": "",
   "name": "全弹发射",
-  "icon": 20000,
+  "init_effect": "",
+  "id": 20062,
+  "color": "red",
+  "stack": 1,
+  "time": 0,
+  "last_effect": "",
   "effect_list": [
     {
       "trigger": [
@@ -20,7 +21,8 @@
         "countType": 20060,
         "index": [
           1
-        ]
+        ],
+        "gunnerBonus": true
       }
     },
     {
@@ -29,13 +31,12 @@
       ],
       "type": "BattleBuffCastSkill",
       "arg_list": {
+        "skill_id": 20062,
         "target": "TargetSelf",
-        "countType": 20060,
-        "skill_id": 20062
+        "countType": 20060
       }
     }
   ],
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+  "picture": "",
+  "icon": 20000
 }

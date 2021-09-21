@@ -2,15 +2,25 @@
   "1": {
     "desc": "主炮每进行10次攻击，触发专属弹幕-鞍山II"
   },
+  "desc": "主炮每进行10次攻击，触发专属弹幕-鞍山II",
+  "desc_get": "主炮每进行10次攻击，触发专属弹幕-鞍山II",
+  "name": "专属弹幕-鞍山II",
+  "init_effect": "",
+  "id": 29182,
   "picture": "",
+  "stack": 1,
   "color": "red",
+  "time": 0,
+  "icon": 29000,
+  "last_effect": "",
   "effect_list": [
     {
+      "type": "BattleBuffCount",
       "trigger": [
         "onFire"
       ],
-      "type": "BattleBuffCount",
       "arg_list": {
+        "gunnerBonus": true,
         "countTarget": 10,
         "countType": 29180,
         "index": [
@@ -19,24 +29,15 @@
       }
     },
     {
+      "type": "BattleBuffCastSkill",
       "trigger": [
         "onBattleBuffCount"
       ],
-      "type": "BattleBuffCastSkill",
       "arg_list": {
-        "target": "TargetSelf",
         "countType": 29180,
-        "skill_id": 29182
+        "skill_id": 29182,
+        "target": "TargetSelf"
       }
     }
-  ],
-  "desc": "主炮每进行10次攻击，触发专属弹幕-鞍山II",
-  "icon": 29000,
-  "last_effect": "",
-  "name": "专属弹幕-鞍山II",
-  "id": 29182,
-  "desc_get": "主炮每进行10次攻击，触发专属弹幕-鞍山II",
-  "stack": 1,
-  "init_effect": "",
-  "time": 0
+  ]
 }
