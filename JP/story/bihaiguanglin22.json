@@ -1,47 +1,49 @@
 {
-  "fadeOut": 1.5,
-  "mode": 2,
-  "fadeType": 2,
-  "once": true,
-  "id": "BIHAIGUANGLIN22",
   "fadein": 1.5,
   "scripts": [
     {
+      "side": 2,
+      "bgName": "bg_daofeng_4",
+      "dir": 1,
+      "bgmDelay": 1,
+      "bgm": "map-longgong",
+      "nameColor": "#a9f548",
       "say": "竜宮城・外堀",
       "flashin": {
-        "delay": 1,
-        "dur": 1,
         "black": true,
         "alpha": [
           1,
           0
-        ]
+        ],
+        "delay": 1,
+        "dur": 1
       },
-      "side": 2,
-      "bgName": "bg_daofeng_4",
       "painting": {
         "time": 1,
         "alpha": 0.3
       },
-      "dir": 1,
-      "bgmDelay": 1,
-      "bgm": "map-longgong",
       "typewriter": {
         "speedUp": 0.01,
         "speed": 0.05
-      },
-      "nameColor": "#a9f548"
+      }
     },
     {
+      "side": 2,
+      "bgName": "bg_daofeng_4",
+      "dir": 1,
+      "expression": 3,
+      "paintingNoise": true,
+      "actor": 301290,
+      "nameColor": "#a9f548",
       "say": "筑摩殿！オイゲン殿！大丈夫ですか！？今猛烈に揺れていてしかも明かりが一瞬消えましたよ！",
       "action": [
         {
-          "y": 45,
           "number": 2,
           "type": "shake",
-          "dur": 0.15,
+          "y": 45,
           "x": 0,
-          "delay": 0
+          "delay": 0,
+          "dur": 0.15
         }
       ],
       "painting": {
@@ -52,16 +54,11 @@
         "speedUp": 0.01,
         "speed": 0.05
       },
-      "side": 2,
-      "bgName": "bg_daofeng_4",
-      "nameColor": "#a9f548",
-      "dir": 1,
-      "expression": 3,
-      "paintingNoise": true,
-      "actor": 301290,
       "hidePaintObj": true
     },
     {
+      "actor": 303060,
+      "nameColor": "#a9f548",
       "side": 2,
       "bgName": "bg_daofeng_4",
       "painting": {
@@ -73,140 +70,140 @@
         "speedUp": 0.01,
         "speed": 0.05
       },
-      "say": "大丈夫ですよ～こちらも無事仕掛けを止めましたわ",
-      "actor": 303060,
-      "nameColor": "#a9f548"
+      "say": "大丈夫ですよ～こちらも無事仕掛けを止めましたわ"
     },
     {
-      "say": "何！？もしかして今のはそちらの攻撃ではないだろうな流石にこの葛城もびっくりしたわ！",
       "side": 2,
       "bgName": "bg_daofeng_4",
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
       "dir": 1,
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      },
       "paintingNoise": true,
       "actor": 307120,
-      "nameColor": "#a9f548"
+      "nameColor": "#a9f548",
+      "say": "何！？もしかして今のはそちらの攻撃ではないだろうな流石にこの葛城もびっくりしたわ！",
+      "painting": {
+        "time": 1,
+        "alpha": 0.3
+      },
+      "typewriter": {
+        "speedUp": 0.01,
+        "speed": 0.05
+      }
     },
     {
+      "side": 2,
+      "bgName": "bg_daofeng_4",
+      "dir": 1,
+      "expression": 5,
+      "paintingNoise": true,
+      "actor": 307120,
+      "nameColor": "#a9f548",
       "say": "まさかこの正規空母であるうちの全力攻撃を凌駕する火力を持つ艦がいるとはこれは予想外の強敵がいるではないか！",
       "painting": {
         "time": 1,
         "alpha": 0.3
       },
-      "side": 2,
-      "bgName": "bg_daofeng_4",
       "typewriter": {
         "speedUp": 0.01,
         "speed": 0.05
-      },
-      "dir": 1,
-      "expression": 5,
-      "paintingNoise": true,
-      "actor": 307120,
-      "nameColor": "#a9f548"
+      }
     },
     {
+      "side": 2,
+      "bgName": "bg_daofeng_4",
+      "dir": 1,
+      "expression": 4,
+      "paintingNoise": true,
+      "actor": 307120,
+      "nameColor": "#a9f548",
       "say": "あ！そういえばあの妙な仕掛けの台座を破壊してはいないだろうな？！",
       "painting": {
         "time": 1,
         "alpha": 0.3
       },
-      "side": 2,
-      "bgName": "bg_daofeng_4",
       "typewriter": {
         "speedUp": 0.01,
         "speed": 0.05
-      },
-      "dir": 1,
-      "expression": 4,
-      "paintingNoise": true,
-      "actor": 307120,
-      "nameColor": "#a9f548"
+      }
     },
     {
-      "side": 2,
-      "bgName": "bg_daofeng_4",
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
-      "dir": 1,
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      },
-      "say": "台座？確かこのへんに…「私」、瓦礫をちょっとどかしましょう",
       "actor": 302070,
-      "nameColor": "#a9f548"
-    },
-    {
-      "say": "ええと、あの台座みたいのが、確か島風の言ってた形は……",
+      "nameColor": "#a9f548",
       "side": 2,
       "bgName": "bg_daofeng_4",
       "painting": {
         "time": 1,
         "alpha": 0.3
       },
+      "dir": 1,
+      "typewriter": {
+        "speedUp": 0.01,
+        "speed": 0.05
+      },
+      "say": "台座？確かこのへんに…「私」、瓦礫をちょっとどかしましょう"
+    },
+    {
+      "side": 2,
+      "bgName": "bg_daofeng_4",
       "dir": 1,
       "expression": 3,
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      },
       "actor": 302070,
-      "nameColor": "#a9f548"
-    },
-    {
-      "say": "ここにありました。壊れてはいませんね。…オイゲンさん？！",
-      "side": 2,
-      "bgName": "bg_daofeng_4",
+      "nameColor": "#a9f548",
+      "say": "ええと、あの台座みたいのが、確か島風の言ってた形は……",
       "painting": {
         "time": 1,
         "alpha": 0.3
       },
+      "typewriter": {
+        "speedUp": 0.01,
+        "speed": 0.05
+      }
+    },
+    {
+      "side": 2,
+      "bgName": "bg_daofeng_4",
       "dir": 1,
       "expression": 2,
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      },
       "actor": 302070,
-      "nameColor": "#a9f548"
-    },
-    {
-      "say": "いきなり触るのはやめてください！危険かもしれませんよ！",
-      "side": 2,
-      "bgName": "bg_daofeng_4",
-      "action": [
-        {
-          "y": 45,
-          "number": 2,
-          "type": "shake",
-          "dur": 0.15,
-          "x": 0,
-          "delay": 0
-        }
-      ],
+      "nameColor": "#a9f548",
+      "say": "ここにありました。壊れてはいませんね。…オイゲンさん？！",
       "painting": {
         "time": 1,
         "alpha": 0.3
       },
-      "dir": 1,
       "typewriter": {
         "speedUp": 0.01,
         "speed": 0.05
+      }
+    },
+    {
+      "side": 2,
+      "bgName": "bg_daofeng_4",
+      "painting": {
+        "time": 1,
+        "alpha": 0.3
       },
       "actor": 305140,
-      "nameColor": "#a9f548"
+      "nameColor": "#a9f548",
+      "say": "いきなり触るのはやめてください！危険かもしれませんよ！",
+      "action": [
+        {
+          "number": 2,
+          "type": "shake",
+          "y": 45,
+          "x": 0,
+          "delay": 0,
+          "dur": 0.15
+        }
+      ],
+      "typewriter": {
+        "speedUp": 0.01,
+        "speed": 0.05
+      },
+      "dir": 1
     },
     {
+      "actor": 403030,
+      "nameColor": "#ffff4d",
       "side": 2,
       "bgName": "bg_daofeng_4",
       "painting": {
@@ -218,11 +215,11 @@
         "speedUp": 0.01,
         "speed": 0.05
       },
-      "say": "へーきへーき、セイレーンの装置ならもう触り慣れてるわよ",
-      "actor": 403030,
-      "nameColor": "#ffff4d"
+      "say": "へーきへーき、セイレーンの装置ならもう触り慣れてるわよ"
     },
     {
+      "actor": 403030,
+      "nameColor": "#ffff4d",
       "side": 2,
       "bgName": "bg_daofeng_4",
       "painting": {
@@ -234,113 +231,90 @@
         "speedUp": 0.01,
         "speed": 0.05
       },
-      "say": "事故る確率なんて5割もないし～",
-      "actor": 403030,
-      "nameColor": "#ffff4d"
+      "say": "事故る確率なんて5割もないし～"
     },
     {
+      "side": 2,
+      "bgName": "bg_daofeng_4",
+      "dir": 1,
+      "expression": 4,
+      "actor": 305140,
+      "nameColor": "#a9f548",
       "say": "5割も事故るのですか！？",
       "action": [
         {
-          "y": 45,
           "number": 2,
           "type": "shake",
-          "dur": 0.15,
+          "y": 45,
           "x": 0,
-          "delay": 0
+          "delay": 0,
+          "dur": 0.15
         }
       ],
-      "side": 2,
-      "bgName": "bg_daofeng_4",
       "painting": {
         "time": 1,
         "alpha": 0.3
       },
-      "dir": 1,
-      "expression": 4,
       "typewriter": {
         "speedUp": 0.01,
         "speed": 0.05
-      },
-      "actor": 305140,
-      "nameColor": "#a9f548"
+      }
     },
     {
-      "side": 2,
-      "bgName": "bg_daofeng_4",
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
-      "dir": 1,
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      },
-      "say": "こうして…こう…さらに…ほら、完成よ",
       "actor": 403030,
-      "nameColor": "#ffff4d"
-    },
-    {
+      "nameColor": "#ffff4d",
       "side": 2,
       "bgName": "bg_daofeng_4",
-      "dir": 1,
       "painting": {
         "time": 1,
         "alpha": 0.3
       },
+      "dir": 1,
       "typewriter": {
         "speedUp": 0.01,
         "speed": 0.05
       },
-      "say": "オイゲンが台座を操作していくと、台座の中から機械の轟音が響き、そして――",
-      "nameColor": "#a9f548"
+      "say": "こうして…こう…さらに…ほら、完成よ"
     },
     {
+      "nameColor": "#a9f548",
       "side": 2,
       "bgName": "bg_daofeng_4",
       "painting": {
         "time": 1,
         "alpha": 0.3
+      },
+      "dir": 1,
+      "typewriter": {
+        "speedUp": 0.01,
+        "speed": 0.05
+      },
+      "say": "オイゲンが台座を操作していくと、台座の中から機械の轟音が響き、そして――"
+    },
+    {
+      "painting": {
+        "time": 1,
+        "alpha": 0.3
+      },
+      "nameColor": "#ffff4d",
+      "side": 2,
+      "bgName": "bg_daofeng_4",
+      "typewriter": {
+        "speedUp": 0.01,
+        "speed": 0.05
       },
       "actorName": "アナウンス",
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      },
       "say": "「竜宮城の秘宝は、ええ、勇者に進呈します」",
-      "dir": 1,
-      "nameColor": "#ffff4d"
+      "dir": 1
     },
     {
-      "say": "……竜宮城の…秘宝？",
       "side": 2,
       "bgName": "bg_daofeng_4",
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
       "dir": 1,
       "expression": 3,
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      },
       "actor": 303060,
-      "nameColor": "#a9f548"
-    },
-    {
-      "say": "わわ！？なんの光！？…筑摩殿、こちらの皆に妙なバリアが張られました！",
-      "action": [
-        {
-          "y": 45,
-          "number": 2,
-          "type": "shake",
-          "dur": 0.15,
-          "x": 0,
-          "delay": 0
-        }
-      ],
+      "nameColor": "#a9f548",
+      "say": "……竜宮城の…秘宝？",
       "painting": {
         "time": 1,
         "alpha": 0.3
@@ -348,50 +322,57 @@
       "typewriter": {
         "speedUp": 0.01,
         "speed": 0.05
-      },
+      }
+    },
+    {
       "side": 2,
       "bgName": "bg_daofeng_4",
-      "nameColor": "#a9f548",
       "dir": 1,
       "expression": 1,
       "paintingNoise": true,
       "actor": 301290,
+      "nameColor": "#a9f548",
+      "say": "わわ！？なんの光！？…筑摩殿、こちらの皆に妙なバリアが張られました！",
+      "action": [
+        {
+          "number": 2,
+          "type": "shake",
+          "y": 45,
+          "x": 0,
+          "delay": 0,
+          "dur": 0.15
+        }
+      ],
+      "painting": {
+        "time": 1,
+        "alpha": 0.3
+      },
+      "typewriter": {
+        "speedUp": 0.01,
+        "speed": 0.05
+      },
       "hidePaintObj": true
     },
     {
-      "say": "ここの台座を操作すると、島風たちに影響を与えられるの…？",
       "side": 2,
       "bgName": "bg_daofeng_4",
-      "painting": {
-        "time": 1,
-        "alpha": 0.3
-      },
       "dir": 1,
       "expression": 3,
-      "typewriter": {
-        "speedUp": 0.01,
-        "speed": 0.05
-      },
       "actor": 303060,
-      "nameColor": "#a9f548"
-    },
-    {
-      "side": 2,
-      "bgName": "bg_daofeng_4",
+      "nameColor": "#a9f548",
+      "say": "ここの台座を操作すると、島風たちに影響を与えられるの…？",
       "painting": {
         "time": 1,
         "alpha": 0.3
       },
-      "dir": 1,
       "typewriter": {
         "speedUp": 0.01,
         "speed": 0.05
-      },
-      "say": "そうね。そしてうまく利用すれば私達の力にできるわ",
+      }
+    },
+    {
       "actor": 403030,
-      "nameColor": "#ffff4d"
-    },
-    {
+      "nameColor": "#ffff4d",
       "side": 2,
       "bgName": "bg_daofeng_4",
       "painting": {
@@ -403,11 +384,11 @@
         "speedUp": 0.01,
         "speed": 0.05
       },
-      "say": "ふぅ……今のは成功したからいいけど、事故るとどうなるのよ、これ",
+      "say": "そうね。そしてうまく利用すれば私達の力にできるわ"
+    },
+    {
       "actor": 305140,
-      "nameColor": "#a9f548"
-    },
-    {
+      "nameColor": "#a9f548",
       "side": 2,
       "bgName": "bg_daofeng_4",
       "painting": {
@@ -419,28 +400,44 @@
         "speedUp": 0.01,
         "speed": 0.05
       },
-      "say": "さあ？仕掛けがもう一度作動して、またあの量産型が出てくるんじゃない？",
-      "actor": 403030,
-      "nameColor": "#ffff4d"
+      "say": "ふぅ……今のは成功したからいいけど、事故るとどうなるのよ、これ"
     },
     {
-      "say": "（やっぱり危険すぎるわ！でも……）",
+      "actor": 403030,
+      "nameColor": "#ffff4d",
       "side": 2,
       "bgName": "bg_daofeng_4",
       "painting": {
         "time": 1,
         "alpha": 0.3
       },
+      "dir": 1,
+      "typewriter": {
+        "speedUp": 0.01,
+        "speed": 0.05
+      },
+      "say": "さあ？仕掛けがもう一度作動して、またあの量産型が出てくるんじゃない？"
+    },
+    {
+      "side": 2,
+      "bgName": "bg_daofeng_4",
       "dir": 1,
       "expression": 3,
+      "actor": 305140,
+      "nameColor": "#a9f548",
+      "say": "（やっぱり危険すぎるわ！でも……）",
+      "painting": {
+        "time": 1,
+        "alpha": 0.3
+      },
       "typewriter": {
         "speedUp": 0.01,
         "speed": 0.05
-      },
-      "actor": 305140,
-      "nameColor": "#a9f548"
+      }
     },
     {
+      "actor": 403030,
+      "nameColor": "#ffff4d",
       "side": 2,
       "bgName": "bg_daofeng_4",
       "painting": {
@@ -452,11 +449,16 @@
         "speedUp": 0.01,
         "speed": 0.05
       },
-      "say": "はいはーい。今のは結果オーライよ",
-      "actor": 403030,
-      "nameColor": "#ffff4d"
+      "say": "はいはーい。今のは結果オーライよ"
     },
     {
+      "side": 2,
+      "bgName": "bg_daofeng_4",
+      "dir": 1,
+      "expression": 4,
+      "paintingNoise": true,
+      "actor": 301290,
+      "nameColor": "#a9f548",
       "say": "ありがとうございますオイゲン殿！このバリアがあれば火の海でもあまりダメージを受けなくて済みそうです！",
       "painting": {
         "time": 1,
@@ -466,27 +468,27 @@
         "speedUp": 0.01,
         "speed": 0.05
       },
-      "side": 2,
-      "bgName": "bg_daofeng_4",
-      "nameColor": "#a9f548",
-      "dir": 1,
-      "expression": 4,
-      "paintingNoise": true,
-      "actor": 301290,
       "hidePaintObj": true
     },
     {
-      "say": "…あちち！でも島風は…速いぞー！！",
+      "side": 2,
+      "bgName": "bg_daofeng_4",
+      "dir": 1,
+      "expression": 1,
+      "paintingNoise": true,
+      "actor": 301290,
+      "blackBg": true,
       "action": [
         {
-          "y": 45,
           "number": 2,
           "type": "shake",
-          "dur": 0.15,
+          "y": 45,
           "x": 0,
-          "delay": 0
+          "delay": 0,
+          "dur": 0.15
         }
       ],
+      "say": "…あちち！でも島風は…速いぞー！！",
       "painting": {
         "time": 1,
         "alpha": 0.3
@@ -496,14 +498,12 @@
         "speed": 0.05
       },
       "hidePaintObj": true,
-      "side": 2,
-      "bgName": "bg_daofeng_4",
-      "blackBg": true,
-      "dir": 1,
-      "expression": 1,
-      "paintingNoise": true,
-      "actor": 301290,
       "nameColor": "#a9f548"
     }
-  ]
+  ],
+  "fadeOut": 1.5,
+  "mode": 2,
+  "fadeType": 2,
+  "once": true,
+  "id": "BIHAIGUANGLIN22"
 }

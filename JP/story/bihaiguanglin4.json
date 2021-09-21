@@ -1,16 +1,22 @@
 {
+  "fadein": 1.5,
   "scripts": [
     {
+      "bgm": "map-longgong",
       "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
       "say": "一行が「島」に近づくと、そこには巨大な建物が海の上にそびえ立っていた。",
       "flashin": {
+        "dur": 1,
+        "black": true,
         "alpha": [
           1,
           0
         ],
-        "delay": 1,
-        "dur": 1,
-        "black": true
+        "delay": 1
       },
       "side": 2,
       "bgName": "bg_daofeng_1",
@@ -19,331 +25,325 @@
         "time": 1
       },
       "dir": 1,
-      "bgmDelay": 1,
-      "bgm": "map-longgong",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      }
+      "bgmDelay": 1
     },
     {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
       "nameColor": "#a9f548",
       "side": 2,
       "bgName": "bg_daofeng_1",
-      "dir": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
+      "dir": 1,
       "say": "豪華な天守と白く輝く城壁、まるで通路のように城のあっちこっちに張り巡らされた水の道。"
     },
     {
       "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
       "say": "か、葛城殿、これは一体…！？",
-      "side": 2,
-      "bgName": "bg_daofeng_1",
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
-      "dir": 1,
-      "hidePaintObj": true,
       "actorName": "{namecode:18}",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      }
+      "hidePaintObj": true,
+      "side": 2,
+      "bgName": "bg_daofeng_1",
+      "dir": 1
     },
     {
       "nameColor": "#a9f548",
-      "expression": 1,
-      "side": 2,
-      "bgName": "bg_daofeng_1",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
       },
-      "dir": 1,
       "say": "うちに聞かれても分からぬわ！むむ、正規空母であるうちの経験と素晴らしき判断力から簡単な予想をすれば――",
-      "actorName": "{namecode:208}",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      }
-    },
-    {
-      "nameColor": "#a9f548",
-      "expression": 0,
-      "side": 2,
-      "bgName": "bg_daofeng_1",
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
+      "actorName": "{namecode:208}",
+      "side": 2,
+      "expression": 1,
       "dir": 1,
-      "say": "伝説の「竜宮城」みたい！",
-      "actorName": "{namecode:207}",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      }
+      "bgName": "bg_daofeng_1"
     },
     {
       "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "伝説の「竜宮城」みたい！",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actorName": "{namecode:207}",
+      "side": 2,
+      "expression": 0,
+      "dir": 1,
+      "bgName": "bg_daofeng_1"
+    },
+    {
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
+      "say": "そういうことだ！島風、早う筑摩たちに大発見だと連絡するのだ！",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "actorName": "{namecode:208}",
+      "side": 2,
       "expression": 2,
       "action": [
         {
-          "type": "shake",
-          "y": 45,
-          "x": 0,
-          "delay": 0,
           "dur": 0.15,
-          "number": 2
+          "y": 45,
+          "number": 2,
+          "type": "shake",
+          "x": 0,
+          "delay": 0
         }
       ],
-      "side": 2,
-      "bgName": "bg_daofeng_1",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
       "dir": 1,
-      "say": "そういうことだ！島風、早う筑摩たちに大発見だと連絡するのだ！",
-      "actorName": "{namecode:208}",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      }
+      "bgName": "bg_daofeng_1"
     },
     {
       "nameColor": "#a9f548",
-      "expression": 2,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "side": 2,
-      "bgName": "bg_daofeng_1",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
-      "hidePaintObj": true,
+      "say": "はい！筑摩殿、聞こえていますか？",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
       "actorName": "{namecode:18}",
-      "say": "はい！筑摩殿、聞こえていますか？"
+      "hidePaintObj": true,
+      "side": 2,
+      "expression": 2,
+      "dir": 1,
+      "bgName": "bg_daofeng_1"
     },
     {
       "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
       "say": "こちら筑摩です。何があったんです？",
-      "side": 2,
-      "bgName": "bg_daofeng_1",
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
-      "dir": 1,
       "paintingNoise": true,
       "actorName": "{namecode:62}",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      }
+      "side": 2,
+      "bgName": "bg_daofeng_1",
+      "dir": 1
     },
     {
       "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
       "say": "実は航路のすぐそばに今まで発見されていない巨大な城がありまして……",
-      "side": 2,
-      "bgName": "bg_daofeng_1",
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
-      "dir": 1,
-      "hidePaintObj": true,
       "actorName": "{namecode:18}",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      }
+      "hidePaintObj": true,
+      "side": 2,
+      "bgName": "bg_daofeng_1",
+      "dir": 1
     },
     {
       "nameColor": "#a9f548",
-      "expression": 3,
-      "flashout": {
-        "alpha": [
-          0,
-          1
-        ],
-        "dur": 0.5,
-        "black": true
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
       },
+      "say": "状況は了解しました。ただ…信濃様はお眠りになられていますから、あとで指示を伝えますのでそれまで待機でお願いしますね",
       "flashin": {
+        "dur": 0.5,
+        "black": true,
         "alpha": [
           1,
           0
         ],
-        "delay": 0.5,
-        "dur": 0.5,
-        "black": true
+        "delay": 0.5
       },
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "side": 2,
-      "bgName": "bg_daofeng_2",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
-      "dir": 1,
       "paintingNoise": true,
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "flashout": {
+        "dur": 0.5,
+        "black": true,
+        "alpha": [
+          0,
+          1
+        ]
+      },
+      "side": 2,
       "actor": 303060,
-      "say": "状況は了解しました。ただ…信濃様はお眠りになられていますから、あとで指示を伝えますのでそれまで待機でお願いしますね"
+      "bgName": "bg_daofeng_2",
+      "dir": 1,
+      "expression": 3
     },
     {
       "nameColor": "#a9f548",
-      "expression": 1,
-      "side": 2,
-      "bgName": "bg_daofeng_2",
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
       },
-      "dir": 1,
-      "actor": 307120,
       "say": "ふむ、待機と言われるとなおさら中に入ってみたくなる。そうだろう？島風！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      }
-    },
-    {
-      "nameColor": "#a9f548",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "side": 2,
       "expression": 1,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "side": 2,
       "bgName": "bg_daofeng_2",
+      "dir": 1,
+      "actor": 307120
+    },
+    {
+      "nameColor": "#a9f548",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
-      "actor": 301290,
-      "hidePaintObj": true,
-      "say": "葛城殿、気持ちは分かりますがここはやっぱり安易に行動しないほうが…"
-    },
-    {
-      "nameColor": "#a9f548",
-      "expression": 4,
-      "side": 2,
-      "bgName": "bg_daofeng_2",
+      "say": "葛城殿、気持ちは分かりますがここはやっぱり安易に行動しないほうが…",
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
+      "hidePaintObj": true,
+      "side": 2,
+      "expression": 1,
+      "bgName": "bg_daofeng_2",
       "dir": 1,
-      "actor": 307120,
+      "actor": 301290
+    },
+    {
+      "nameColor": "#a9f548",
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
       "say": "中に入らないとここがどういう施設かもわからないだろ？それにせっかくの功を挙げる機会をみすみす見逃すのはこの正規空母であるうちの信義に反するわ！",
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      }
-    },
-    {
-      "nameColor": "#a9f548",
-      "expression": 5,
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
       "side": 2,
+      "expression": 4,
       "bgName": "bg_daofeng_2",
+      "dir": 1,
+      "actor": 307120
+    },
+    {
+      "nameColor": "#a9f548",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
-      "actor": 301480,
-      "hidePaintObj": true,
-      "say": "本当の竜宮城ならお宝もいっぱいあるしね！おー！"
-    },
-    {
-      "nameColor": "#a9f548",
-      "expression": 5,
+      "say": "本当の竜宮城ならお宝もいっぱいあるしね！おー！",
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
+      "hidePaintObj": true,
       "side": 2,
+      "expression": 5,
       "bgName": "bg_daofeng_2",
+      "dir": 1,
+      "actor": 301480
+    },
+    {
+      "nameColor": "#a9f548",
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
-      "dir": 1,
-      "actor": 301470,
+      "say": "お、お宝なんてそんな畏れ多いものが…",
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
       "hidePaintObj": true,
-      "say": "お、お宝なんてそんな畏れ多いものが…"
+      "side": 2,
+      "expression": 5,
+      "bgName": "bg_daofeng_2",
+      "dir": 1,
+      "actor": 301470
     },
     {
+      "painting": {
+        "alpha": 0.3,
+        "time": 1
+      },
+      "typewriter": {
+        "speed": 0.05,
+        "speedUp": 0.01
+      },
       "nameColor": "#a9f548",
       "side": 2,
       "actor": 307120,
-      "painting": {
-        "alpha": 0.3,
-        "time": 1
-      },
-      "dir": 1,
-      "typewriter": {
-        "speed": 0.05,
-        "speedUp": 0.01
-      },
       "say": "つべこべ言うでない！島風もこのまま信濃様に「なぜか突然倒れる小娘」だと見られたくなかろうに！ほら！",
+      "dir": 1,
       "bgName": "bg_daofeng_2"
     },
     {
       "nameColor": "#a9f548",
-      "expression": 1,
       "typewriter": {
         "speed": 0.05,
         "speedUp": 0.01
       },
+      "say": "………そうですね！島風も一緒に行きます！！",
+      "blackBg": true,
       "painting": {
         "alpha": 0.3,
         "time": 1
       },
       "action": [
         {
-          "type": "shake",
-          "y": 45,
-          "x": 0,
-          "delay": 0,
           "dur": 0.15,
-          "number": 2
+          "y": 45,
+          "number": 2,
+          "type": "shake",
+          "x": 0,
+          "delay": 0
         }
       ],
+      "hidePaintObj": true,
       "side": 2,
-      "blackBg": true,
-      "say": "………そうですね！島風も一緒に行きます！！",
-      "dir": 1,
-      "bgName": "bg_daofeng_2",
       "actor": 301290,
-      "hidePaintObj": true
+      "bgName": "bg_daofeng_2",
+      "dir": 1,
+      "expression": 1
     }
   ],
   "fadeOut": 1.5,
   "mode": 2,
   "fadeType": 2,
   "once": true,
-  "id": "BIHAIGUANGLIN4",
-  "fadein": 1.5
+  "id": "BIHAIGUANGLIN4"
 }
