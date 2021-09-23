@@ -9,6 +9,8 @@
   "8": {},
   "9": {},
   "10": {},
+  "id": 14854,
+  "picture": "",
   "desc": "",
   "stack": 1,
   "color": "red",
@@ -16,30 +18,29 @@
   "last_effect": "",
   "effect_list": [
     {
+      "arg_list": {
+        "buff_id_list": [
+          14855
+        ]
+      },
+      "type": "BattleBuffCleanse",
       "trigger": [
         "onAttach"
-      ],
-      "type": "BattleBuffAddBuff",
-      "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 14854
-      }
+      ]
     },
     {
-      "trigger": [
-        "onAttach"
-      ],
-      "type": "BattleBuffAddBuff",
       "arg_list": {
-        "target": "TargetSelf",
-        "buff_id": 14851
-      }
+        "skill_id": 14850,
+        "target": "TargetSelf"
+      },
+      "type": "BattleBuffCastSkill",
+      "trigger": [
+        "onTorpedoWeaponFire"
+      ]
     }
   ],
   "time": 0,
   "desc_get": "",
   "name": "",
-  "init_effect": "",
-  "id": 14850,
-  "picture": ""
+  "init_effect": ""
 }
